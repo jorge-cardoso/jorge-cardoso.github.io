@@ -1,0 +1,31 @@
+# Site navigation links
+
+- title: Home
+  url: /
+  excerpt: "Things I’ve written, illustrated, developed, coded, and whatever."
+  image: 300x200.gif
+
+- title: Research
+  url: /research/
+  excerpt: "Things I’ve written, illustrated, developed, coded, and whatever."
+  image: 300x200.gif
+
+- title: Publications
+  url: /publications/
+  excerpt: "Things I’ve written, illustrated, developed, coded, and whatever."
+  image: 300x200.gif
+
+- title: Courses
+  url: /courses/
+  excerpt: "Things I’ve written, illustrated, developed, coded, and whatever."
+  image: 300x200.gif
+  
+- title: Books
+  url: /books/
+  excerpt: "Things I’ve written, illustrated, developed, coded, and whatever."
+  image: 300x200.gif
+
+- title: Blog
+  url: /blog/
+  excerpt: "Things I’ve written, illustrated, developed, coded, and whatever."
+  image: 300x200.gif   

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+    <title>Jorge Cardoso</title>
+    <generator uri="https://github.com/jekyll/jekyll">Jekyll v2.2.0</generator>
+		<icon>/apple-touch-icon-precomposed.png</icon>
+    <subtitle>JC Description</subtitle>
+    <link href="/atom.xml" rel="self"/>
+    <link href="/" rel="alternate" type="text/html"/>
+    <updated>2014-08-19T15:25:47+02:00</updated>
+    <id>/</id>
+    <author>
+			<name></name>
+			<uri>/</uri>
+			
+		</author>
+
+    
+    <entry>
+        <title>Fundamentals of Service Systems</title>
+        <link href="/books/fundamentals-of-service-systems/"/>
+        <updated>2015-01-01T12:39:59+01:00</updated>
+        <id>/books/fundamentals-of-service-systems</id>
+        <author>
+					<name></name>
+					<uri>/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;figure&gt;
+	&lt;img src=&quot;/images/Cover-FSS.gif&quot; /&gt;
+	&lt;figcaption&gt;Cardoso et al.. Springer 2015.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This book is available at &lt;a href=&quot;http://www.springer.com/&quot; title=&quot;Title&quot;&gt;Springer.com&lt;/a&gt;&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>Service Systems: Concepts, Modeling, and Programming</title>
+        <link href="/books/service-systems-concepts-modeling-and-programming/"/>
+        <updated>2014-10-01T13:39:28+02:00</updated>
+        <id>/books/service-systems-concepts-modeling-and-programming</id>
+        <author>
+					<name></name>
+					<uri>/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;figure&gt;
+	&lt;img src=&quot;/images/Cover-SSCMP.png&quot; /&gt;
+	&lt;figcaption&gt;Cardoso, Lopes, and Geert. Springer 2014.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This SpringerBrief explores the internal workings of service systems. &lt;/p&gt;
+
+&lt;p&gt;The authors propose a lightweight semantic model for an effective representation to capture the essence of service systems. Key topics include modeling frameworks, service descriptions and linked data, creating service instances, tool support, and applications in enterprises. Previous books on service system modeling and various streams of scientific developments used an external perspective to describe how systems can be integrated. This brief introduces the concept of white-box service system modeling as an approach to model the internal aspects and elements of service systems. This approach provides descriptions that can be used for service management, optimization, and analytics. &lt;/p&gt;
+
+&lt;p&gt;Service Systems: Concepts, Modeling, and Programming is designed for researchers, teachers, and advanced-level students who want to learn about the new emerging field of service science and IS/IT practitioners who are looking for better ways to describe, model, and communicate services.&lt;/p&gt;
+
+&lt;p&gt;This book is available at &lt;a href=&quot;http://www.springer.com/computer/database+management+%26+information+retrieval/book/978-3-319-10812-4&quot; title=&quot;Title&quot;&gt;Springer.com&lt;/a&gt;&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>Gestao de Workflows: Modelos, Metodos e Sistemas</title>
+        <link href="/books/gestao-de-workflows-modelos-metodos-e-sistemas/"/>
+        <updated>2009-09-15T13:00:17+02:00</updated>
+        <id>/books/gestao-de-workflows-modelos-metodos-e-sistemas</id>
+        <author>
+					<name></name>
+					<uri>/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;figure&gt;
+	&lt;img src=&quot;/images/Cover-GW.png&quot; /&gt;
+	&lt;figcaption&gt;Aalst and Hee (Translation: Cardoso). UC Press 2009.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This book is available at &lt;a href=&quot;http://www.uc.pt/imprensa_uc/catalogo/ensino/workflows&quot; title=&quot;Title&quot;&gt;uc.pt/imprensa&lt;/a&gt;&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>Handbook of Research on Business Process Modeling</title>
+        <link href="/books/handbook-of-research-on-business-process-modeling/"/>
+        <updated>2009-05-01T12:59:46+02:00</updated>
+        <id>/books/handbook-of-research-on-business-process-modeling</id>
+        <author>
+					<name></name>
+					<uri>/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;figure&gt;
+	&lt;img src=&quot;/images/Cover-HR-BPM.png&quot; /&gt;
+	&lt;figcaption&gt;Cardoso and Aalst. IGI Global 2009.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In the last 10 years, there has been an explosion in the number of theories, technologies, standards, and tools providing business process support. At the same time, process support has taken an increasingly important role within information systems development (process-aware systems). &lt;/p&gt;
+
+&lt;p&gt;The conjunction of these factors has created a need among practitioners (e.g., researchers, system analysts, IT consultants, business analysts, and chief process officers) for a book providing a broad overview of this promising field from an academic and industrial perspective. &lt;/p&gt;
+
+&lt;p&gt;To achieve this goal, this handbook will bring together in one place contributions from leading experts, thereby guaranteeing a broad and diverse base of knowledge and expertise. The need for a comprehensive and authoritative book on Research on Business Process Modeling is latent among researchers from academia and industry and from workflow and BPM vendors. Stakeholders are often overloaded with a massive amount of BPM data available on the Web, but with no coherent 360? view of the field. When referring to general theory, techniques, and technologies, publications refer to an array of survey articles, with no reference standing out as an agreed-upon source of common ground.&lt;/p&gt;
+
+&lt;p&gt;This book is available at &lt;a href=&quot;http://www.igi-global.com/book/handbook-research-business-process-modeling/445&quot; title=&quot;Title&quot;&gt;igi-global.com&lt;/a&gt;&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>Semantic Web Engineering in the Knowledge Society</title>
+        <link href="/books/semantic-web-engineering-in-the-knowledge-society/"/>
+        <updated>2008-10-10T12:59:29+02:00</updated>
+        <id>/books/semantic-web-engineering-in-the-knowledge-society</id>
+        <author>
+					<name></name>
+					<uri>/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;figure&gt;
+	&lt;img src=&quot;/images/Cover-SW-Engineering.png&quot; /&gt;
+	&lt;figcaption&gt;Cardoso and Lytras. IGI Global 2008.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The main objective of the book is to lay the foundations for understanding the technologies behind the Semantic Web. &lt;/p&gt;
+
+&lt;p&gt;Organizations are striving for literature that guides them in the development of end-to-end applications and systems that use semantics. While the industry is willing to use semantics, the academia has not yet shown how to systematically employ Semantic Web technologies to deploy a new breed of systems. &lt;/p&gt;
+
+&lt;p&gt;The book aims to provide relevant theories, tools, and methodologies to develop semantic applications. It is written for students and professionals who want to improve their understanding of how semantics and ontologies can be used inside organizations. It also aims at studying the application of semantics to each of the steps in the semantic applications lifecycle and how semantics can help address critical issues in reuse, integration, and interoperability.&lt;/p&gt;
+
+&lt;p&gt;This book is available at &lt;a href=&quot;http://www.amazon.com/Semantic-Engineering-Knowledge-Society-Reference/dp/1605661120&quot; title=&quot;Title&quot;&gt;amazon.com&lt;/a&gt;&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>The Semantic Web: Real World Applications from Industry</title>
+        <link href="/books/the-semantic-web-real-world-applications-from-industry/"/>
+        <updated>2008-06-15T12:58:31+02:00</updated>
+        <id>/books/the-semantic-web-real-world-applications-from-industry</id>
+        <author>
+					<name></name>
+					<uri>/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;figure&gt;
+	&lt;img src=&quot;/images/Cover-SW-RWAI.png&quot; /&gt;
+	&lt;figcaption&gt;Cardoso, Hepp, Lytras. Springer 2008.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Semantic Web: Real-World Applications from Industry offers a glimpse into the opening door of semantic technologies by means of concentrated examples of semantic applications in real business environments. &lt;/p&gt;
+
+&lt;p&gt;For quite a while, there has been evidence from academic research and early industrial prototypes that semantic technology can help humans and machines substantially in accessing and using the unprecedented, and exponentially growing, amount of information that the World Wide Web provides. Now semantic technology is moving from academic and industrial research into real products and applications.  This book provides a series of case studies which demonstrate how real benefits can be derived from the adoption of semantic technology in popular business domains, such as telecommunication, B2B integration, healthcare, education, and others.&lt;/p&gt;
+
+&lt;p&gt;Semantic Web: Real-World Applications from Industry summarizes state-of-the art expertise and practical experiences from outstanding technology showcases. This volume was written as a joint effort of leading experts in the field of semantic technology from various backgrounds and countries, including industry, academia, and government agencies. It combines a detailed description of the challenges and technical solutions with a discussion of the actual results and a wealth of lessons learned, which will be invaluable for future investments into semantic technology.&lt;/p&gt;
+
+&lt;p&gt;Semantic Web: Real-World Applications from Industry was designed for industry professionals and researchers interested in the current state and future of semantic technology. This book is also suitable as a secondary advanced-level text or reference for students in computer science.&lt;/p&gt;
+
+&lt;p&gt;Foreword by Michael L. Brodie, Chief Scientist, Verizon Communications, Cambridge, USA&lt;/p&gt;
+
+&lt;p&gt;This book is available at &lt;a href=&quot;http://www.springer.com/computer/database+management+%26+information+retrieval/book/978-0-387-48530-0&quot; title=&quot;Title&quot;&gt;Springer.com&lt;/a&gt;&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>Programacao de Sistemas Distribuidos em Java</title>
+        <link href="/books/programacao-de-sistemas-distribuidos-em-java/"/>
+        <updated>2008-03-15T12:11:38+01:00</updated>
+        <id>/books/programacao-de-sistemas-distribuidos-em-java</id>
+        <author>
+					<name></name>
+					<uri>/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;figure&gt;
+	&lt;img src=&quot;/images/Cover-PSDJ.png&quot; /&gt;
+	&lt;figcaption&gt;Cardoso. FCA 2008.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This book is available at &lt;a href=&quot;https://www.fca.pt/cgi-bin/fca_main.cgi/?op=2&amp;amp;isbn=978-972-722-601-6&quot; title=&quot;Title&quot;&gt;fca.pt&lt;/a&gt;&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>Semantic Web Services: Theory, Tools and Applications</title>
+        <link href="/books/semantic-web-services-theory-tools-and-applications/"/>
+        <updated>2007-03-31T12:58:52+02:00</updated>
+        <id>/books/semantic-web-services-theory-tools-and-applications</id>
+        <author>
+					<name></name>
+					<uri>/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;figure&gt;
+	&lt;img src=&quot;/images/Cover-SWSTTA.png&quot; /&gt;
+	&lt;figcaption&gt;Cardoso. IGI Global 2007.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The Semantic Web proposes the mark-up of content on the Web using formal ontologies that structure underlying data for the purpose of comprehensive and transportable machine understanding. Semantic Web Services: Theory, Tools and Applications brings contributions from researchers, scientists from both industry and academia, and representatives from different communities to study, understand, and explore the theory, tools, and applications of the Semantic Web.&lt;/p&gt;
+
+&lt;p&gt;Semantic Web Services: Theory, Tools and Applications binds computing involving the Semantic Web, ontologies, knowledge management, Web services, and Web processes into one fully comprehensive resource, serving as the platform for exchange of both practical technologies and far reaching research.&lt;/p&gt;
+
+&lt;p&gt;This book is available at &lt;a href=&quot;http://www.igi-global.com/book/semantic-web-services/893&quot; title=&quot;Title&quot;&gt;igi-global.com&lt;/a&gt;&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>Semantic Web Services, Processes and Applications </title>
+        <link href="/books/semantic-web-services-processes-and-applications/"/>
+        <updated>2006-08-15T12:59:09+02:00</updated>
+        <id>/books/semantic-web-services-processes-and-applications</id>
+        <author>
+					<name></name>
+					<uri>/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;figure&gt;
+	&lt;img src=&quot;/images/Cover-SWSPA.png&quot; /&gt;
+	&lt;figcaption&gt;Cardoso and Sheth. Springer 2006.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Semantics, Web services, and Web processes promise better re-use, universal interoperability and integration. Semantics has been recognized as the primary tool to address the challenges of a broad spectrum of heterogeneity and for improving automation through machine understandable descriptions.&lt;/p&gt;
+
+&lt;p&gt;Semantic Web Services, Processes and Applications brings contributions from researchers who study, explore and understand the semantic enabling of all phases of semantic Web processes. This encompasses design, annotation, discovery, choreography and composition. Also this book presents fundamental capabilities and techniques associated with ontological modeling or services, annotation, matching and mapping, and reasoning. This is complemented by discussion of applications in e-Government and bioinformatics.&lt;/p&gt;
+
+&lt;p&gt;Semantic Web Services, Processes and Applications is structured for research scientists and graduate-level students in computer science, as well as practitioners in industry.&lt;/p&gt;
+
+&lt;p&gt;This book is available at &lt;a href=&quot;http://www.springer.com/computer/communication+networks/book/978-0-387-30239-3&quot; title=&quot;Title&quot;&gt;Springer.com&lt;/a&gt;&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+</feed>
