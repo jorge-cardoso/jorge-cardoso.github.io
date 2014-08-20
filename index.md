@@ -39,7 +39,7 @@ Current Research
 ####Service Descriptions 
 <p>
 <a href="https://github.com/linked-usdl">
-<img src="/images/logo-linked-usdl.png" width="100"  style="float:left;margin:10px 20px 0 0;"/>
+<img src="/images/Logo-linked-usdl.png" width="100"  style="float:left;margin:10px 20px 0 0;"/>
 </a>
 Linked USDL (Unified Service Description Language) enables describing business, software, or real-world services using computer-readable and computer-understandable specifications to make them tradable on the web/Internet. It uses RDFS to provide a shared model. Check <a href="https://github.com/linked-usdl">Github</a> and <a href="http://www.linked-usdl.org">linked-usdl.org</a>
 </p>
