@@ -6,9 +6,9 @@ modified:
 excerpt: "excerpt"
 tags: []
 image:
-  feature: map.jpg
-  teaser: bio-photo.jpg
-  thumb: map.jpg
+  feature: 
+  teaser: 
+  thumb: 
 ads: false
 toc: true
 ---
@@ -29,7 +29,7 @@ Linked USDL (Unified Service Description Language) was developed for describing 
 <p>
 Linked USDL takes the form of a reference schema which is an approach used in many fields to facilitate the exchange of data and integration of information systems. 
 <a href="https://github.com/linked-usdl">
-<img src="/images/logo-linked-usdl.png" height="128" width="128"  style="float:left;margin:10px 20px 0 0;"/>
+<img src="/images/Logo-linked-usdl.png" height="128" width="128"  style="float:left;margin:10px 20px 0 0;"/>
 </a>
 For example, online social networks rely on FOAF to describe people and relationships; computer systems use WSDL to describe distributed software-based services; GoodRelations is used to mainly describe products; and business-to-business systems use ebXML to describe transactions, orders, and invoices. Adding to these existing standards, Linked USDL describes services in a comprehensive way by providing a business or commercial description around (real-world) services.
 </p>

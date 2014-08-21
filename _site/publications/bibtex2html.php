@@ -618,7 +618,7 @@ function bibtex2html($entry, $type, $accents, $hightlightName = ''){
 		if($ret[strlen($ret)-1] != '.') $ret .= '.';
 		
 		// Links:
-		$ret .= '<span class="links">';
+		$ret .= '<span class="links"><br>';
 		
 		if(trim($webpdf) != "") {
 			//$ret .= ' <span class="webpdf"><a href="'.$webpdf.'" >pdf..</a></span>&nbsp;';
@@ -715,7 +715,7 @@ function bibstring2html($fileContent, $displayTypes = NULL, $groupType = NULL, $
 	// Default parameter values
 	if($displayTypes === null) {
 		$displayTypes = array(	'article' => 'Journal Articles',
-								'inbook' => 'Book chapters',
+								'inbook' => 'Book Chapters',
 								'inproceedings' => 'In Proceedings',
 							 	'book' => 'Books',
 								'proceedings' => 'Conference Proceedings',

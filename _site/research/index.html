@@ -13,8 +13,8 @@
 	
 	
 	
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:image" content="/images/map.jpg">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image" content="/images/">
 	
 	<!-- Open Graph -->
 	<meta property="og:locale" content="http://0.0.0.0:4000">
@@ -160,13 +160,6 @@
       <div id="main" role="main">			
 	<article class="wrap" itemscope itemtype="http://schema.org/Article">
 		
-		<div class="page-feature">
-			<div class="page-image">
-				<img src="/images/map.jpg" class="page-feature-image" alt="Research" itemprop="image">
-				
-			</div><!-- /.page-image -->
-		</div><!-- /.page-feature -->
-		
 		
 		<div class="page-title">
 			<h1>Research</h1>
@@ -188,7 +181,7 @@
 <p>
 Linked USDL takes the form of a reference schema which is an approach used in many fields to facilitate the exchange of data and integration of information systems. 
 <a href="https://github.com/linked-usdl">
-<img src="/images/logo-linked-usdl.png" height="128" width="128" style="float:left;margin:10px 20px 0 0;" />
+<img src="/images/Logo-linked-usdl.png" height="128" width="128" style="float:left;margin:10px 20px 0 0;" />
 </a>
 For example, online social networks rely on FOAF to describe people and relationships; computer systems use WSDL to describe distributed software-based services; GoodRelations is used to mainly describe products; and business-to-business systems use ebXML to describe transactions, orders, and invoices. Adding to these existing standards, Linked USDL describes services in a comprehensive way by providing a business or commercial description around (real-world) services.
 </p>
@@ -402,13 +395,11 @@ demonstrate that these metrics serves their purpose, we plan to carry out severa
 		
 		</ul>
 	</nav><!-- /.bottom-menu -->
-	<p class="copyright">&#169; 2014 <a href="">Jorge Cardoso</a> powered by <a href="http://jekyllrb.com">Jekyll</a> + <a href="http://mademistakes.com">Skinny Bones</a>.</p>
+	<p class="copyright">&#169; 2014 <a href="">Jorge Cardoso</a> (powered by <a href="http://jekyllrb.com">Jekyll</a> and <a href="http://mademistakes.com">Skinny Bones</a>).</p>
 </footer>
     </div>
 
-    <div id="scroll-cue" onclick="$('html,body').animate({scrollTop: $('#content').offset().top}, 1000)">Scroll
-	<svg class="hang" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32"><g></g><path d="M24.773 13.701c-0.651 0.669-7.512 7.205-7.512 7.205-0.349 0.357-0.805 0.534-1.261 0.534-0.458 0-0.914-0.178-1.261-0.534 0 0-6.861-6.536-7.514-7.205-0.651-0.669-0.696-1.87 0-2.586 0.698-0.714 1.669-0.77 2.522 0l6.253 5.997 6.251-5.995c0.854-0.77 1.827-0.714 2.522 0 0.698 0.714 0.654 1.917 0 2.584z" fill="#ffffff" /></svg>
-</div>
+    
 
     <script src="/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="/js/main.js"></script>
@@ -436,27 +427,6 @@ demonstrate that these metrics serves their purpose, we plan to carry out severa
     </script>
     
 
-    
-    <script type="text/javascript">
-	    $("#scroll-cue").hide();
-	    // disable on touch devices
-	    if ('ontouchstart' in document.documentElement == false) {
-        $("#scroll-cue").show(); 
-        // remove scroll cue when content is in view
-        window.onscroll = function () {
-          var height = $(window).height();
-          var scrollTop = $(window).scrollTop();
-          var obj = $("#content")
-          var pos = obj.position();
-          if (height + scrollTop > pos.top) {
-  	        $("#scroll-cue").hide();
-          }
-          else {
-  	        $("#scroll-cue").show(); 
-          }
-  	    }
-      }
-    </script>
     
 
   </body>

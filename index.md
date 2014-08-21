@@ -39,7 +39,7 @@ Current Research
 ####Service Descriptions 
 <p>
 <a href="https://github.com/linked-usdl">
-<img src="/images/Logo-linked-usdl.png" width="100"  style="float:left;margin:10px 20px 0 0;"/>
+<img src="/images/Logo-linked-usdl.png" width="100"  style="float:left;margin:0px 20px 0 0;"/>
 </a>
 Linked USDL (Unified Service Description Language) enables describing business, software, or real-world services using computer-readable and computer-understandable specifications to make them tradable on the web/Internet. It uses RDFS to provide a shared model. Check <a href="https://github.com/linked-usdl">Github</a> and <a href="http://www.linked-usdl.org">linked-usdl.org</a>
 </p>
@@ -62,6 +62,12 @@ The Linked Service System model for the Unified Service Description Language (LS
 Service networks are a class of networks of emerging interest since worldwide economies are becoming increasingly connected. Nonetheless, while the economies of many countries are becoming service-oriented, very few studies on service networks exist. We seek understanding when, why, where, and how service networks function best is fundamental for the future because their analysis can provide an ``x-ray'' of service-based economies.
 </p>
 
+
+Links to Resources
+---------------
++ [ACM Calendar of Events](http://campus.acm.org/calendar/) 
++ [IEEE Conference Calls for Submissions](http://www.ieee.org/conferences_events/index.html) 
++ [Google Trends](http://www.google.com/trends) 
 
 
 Brief CV

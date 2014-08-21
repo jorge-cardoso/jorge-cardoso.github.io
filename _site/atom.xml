@@ -7,7 +7,7 @@
     <subtitle>JC Description</subtitle>
     <link href="/atom.xml" rel="self"/>
     <link href="/" rel="alternate" type="text/html"/>
-    <updated>2014-08-20T09:25:34+02:00</updated>
+    <updated>2014-08-21T16:17:00+02:00</updated>
     <id>/</id>
     <author>
 			<name></name>
@@ -15,6 +15,23 @@
 			
 		</author>
 
+    
+    <entry>
+        <title>Service Systems</title>
+        <link href="/blog/service-systems/"/>
+        <updated>2015-01-01T12:39:59+01:00</updated>
+        <id>/blog/service-systems</id>
+        <author>
+					<name></name>
+					<uri>/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Need to write a blog.&lt;/p&gt;
+
+        </content>
+    </entry>
     
     <entry>
         <title>Fundamentals of Service Systems</title>
@@ -192,6 +209,19 @@
 	&lt;img src=&quot;/images/Cover-PSDJ.png&quot; /&gt;
 	&lt;figcaption&gt;Cardoso. FCA 2008.&lt;/figcaption&gt;
 &lt;/figure&gt;
+
+&lt;p&gt;The purpose of this book is to present the concepts and technologies needed to develop distributed systems in Java. It describes and illustrates how sockets, CORBA, RMI, and Web services can be used to design and implement distributed systems. This book is an indispensable compendium for BSc and MSc students, and professionals, involved with the implementation of distributed systems. &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Evolution of Computing Systems &lt;/li&gt;
+  &lt;li&gt;Data Networks &lt;/li&gt;
+  &lt;li&gt;Distributed Systems Architectures &lt;/li&gt;
+  &lt;li&gt;DNS: the Domain Name System &lt;/li&gt;
+  &lt;li&gt;Programming with Sockets &lt;/li&gt;
+  &lt;li&gt;CORBA &lt;/li&gt;
+  &lt;li&gt;Java Remote Method Invocation &lt;/li&gt;
+  &lt;li&gt;Web Services&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;This book is available at &lt;a href=&quot;https://www.fca.pt/cgi-bin/fca_main.cgi/?op=2&amp;amp;isbn=978-972-722-601-6&quot; title=&quot;Title&quot;&gt;fca.pt&lt;/a&gt;&lt;/p&gt;
 
