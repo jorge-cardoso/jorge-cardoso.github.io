@@ -24,7 +24,7 @@ Research Streams
 
 Our recent research places emphasis on three fields: service description languages (with the USDL family), service system modeling (with the LSS USDL language), and service networks (using principals from social networks).
 
-####USDL 
+####Service Descriptions 
 Linked USDL (Unified Service Description Language) was developed for describing business, software, or real-world services using computer-readable and computer-understandable specifications to make them tradable on the web/Internet. 
 <p>
 Linked USDL takes the form of a reference schema which is an approach used in many fields to facilitate the exchange of data and integration of information systems. 
