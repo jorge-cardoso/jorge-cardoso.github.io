@@ -18,7 +18,7 @@ date: 2008-03-15T13:11:38+02:00
 	<figcaption>Cardoso. FCA 2008.</figcaption>
 </figure>
 
-The purpose of this book is to present the concepts and technologies needed to develop distributed systems in Java. It describes and illustrates how sockets, CORBA, RMI, and Web services can be used to design and implement distributed systems. This book is an indispensable compendium for BSc and MSc students, and professionals, involved with the implementation of distributed systems. 
+The purpose of this book is to present the concepts and technologies needed to develop distributed systems in Java. It describes and illustrates how sockets, CORBA, RPC, Java RMI, and Web services can be used to design and implement distributed systems. This book is an indispensable compendium for BSc/MSc students and professionals involved with the implementation of distributed systems. The topics covered include:
 
 1. Evolution of Computing Systems 
 2. Data Networks 
