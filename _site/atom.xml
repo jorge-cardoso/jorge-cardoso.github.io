@@ -7,7 +7,7 @@
     <subtitle>JC Description</subtitle>
     <link href="/atom.xml" rel="self"/>
     <link href="/" rel="alternate" type="text/html"/>
-    <updated>2014-08-21T16:22:13+02:00</updated>
+    <updated>2014-08-22T09:16:13+02:00</updated>
     <id>/</id>
     <author>
 			<name></name>
@@ -100,7 +100,9 @@
 	&lt;figcaption&gt;Aalst and Hee (Translation: Cardoso). UC Press 2009.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;This book is available at &lt;a href=&quot;http://www.uc.pt/imprensa_uc/catalogo/ensino/workflows&quot; title=&quot;Title&quot;&gt;uc.pt/imprensa&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This book offers a comprehensive introduction to workflow management, the management of business processes with information technology. By defining, analyzing, and redesigning an organization’s resources and operations, workflow management systems ensure that the right information reaches the right person or computer application at the right time. The book provides a basic overview of workflow terminology and organization, as well as detailed coverage of workflow modeling with Petri nets. Because Petri nets make definitions easier to understand for nonexperts, they facilitate communication between designers and users. The book includes a chapter of case studies, review exercises, and a glossary.&lt;/p&gt;
+
+&lt;p&gt;This book is available in Portuguese at &lt;a href=&quot;http://www.uc.pt/imprensa_uc/catalogo/ensino/workflows&quot; title=&quot;Title&quot;&gt;uc.pt/imprensa&lt;/a&gt;&lt;/p&gt;
 
         </content>
     </entry>
@@ -210,7 +212,7 @@
 	&lt;figcaption&gt;Cardoso. FCA 2008.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;The purpose of this book is to present the concepts and technologies needed to develop distributed systems in Java. It describes and illustrates how sockets, CORBA, RMI, and Web services can be used to design and implement distributed systems. This book is an indispensable compendium for BSc and MSc students, and professionals, involved with the implementation of distributed systems. &lt;/p&gt;
+&lt;p&gt;The purpose of this book is to present the concepts and technologies needed to develop distributed systems in Java. It describes and illustrates how sockets, CORBA, RPC, Java RMI, and Web services can be used to design and implement distributed systems. This book is an indispensable compendium for BSc/MSc students and professionals involved with the implementation of distributed systems. The topics covered include:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Evolution of Computing Systems &lt;/li&gt;

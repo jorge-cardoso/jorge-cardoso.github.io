@@ -20,17 +20,10 @@ My main research interests include: semantic web, service systems, service descr
 News
 ---------------
 
-<ol start="1">
-
-<li><span class="authors">Cardoso,  J.; Lopes,  R. and Poels,  G.</span> <a href="http://www.springer.com/computer/database+management+%26+information+retrieval/book/978-3-319-10812-4">Service Systems: Concepts, Modeling, and Programming</a>.  <span class="publisher">Springer</span>, Germany, ISBN: 978-3-319-10812-4, pp. 112, 2014.
-</li>
- 
-<li><span class="authors">Pedrinaci, C.; Cardoso, J. and Leidig, T.</span> <a href="/publications/Papers/CP-2014-073-ESWC-Linked-USDL.pdf" >Linked USDL: A Vocabulary for Web-scale Service Trading</a>.  <span class="in">In 11th Extended Semantic Web Conference (ESWC)</span>, Crete, Greece, 2014.
-</li>
-
-<li><span class="authors">Cardoso, J.; Binz, T.; Breitenbucher, Uwe; Kopp, O. and Leymann, F.</span><a href="/publications/Papers/CP-2013-068-CAISE-USDL-and-TOSCA.pdf"> Cloud Computing Automation: Integrating USDL and TOSCA</a>. <span class="in">In 25th Conference on Advanced Information Systems Engineering (CAiSE  2013)</span>, pages 1-16, <span class="publisher">Springer</span>, LNCS, Vol. 7908, 2013
-</li>
- </ol> 
++ <span class="authors"> Sebastian Gotz, Thomas Ilsche, Jorge Cardoso, Josef Spillner, et. al., Frequencies Energy-Efficient Data Processing at Sweet Spot. In [On the Move to Meaningful Internet Systems (OTM 2014)](http://www.onthemove-conferences.org). Amantea, Italy, 2014.
++ Cardoso,  J.; Lopes,  R. and Poels,  G. [Service Systems: Concepts, Modeling, and Programming](http://www.springer.com/computer/database+management+%26+information+retrieval/book/978-3-319-10812-4"), Springer, Germany, ISBN: 978-3-319-10812-4, pp. 112, 2014.
++ Pedrinaci, C.; Cardoso, J. and Leidig, T. [Linked USDL: A Vocabulary for Web-scale Service Trading](/publications/Papers/CP-2014-073-ESWC-Linked-USDL.pdf).  In 11th Extended Semantic Web Conference (ESWC), Crete, Greece, 2014.
++ Cardoso, J.; Binz, T.; Breitenbucher, Uwe; Kopp, O. and Leymann, F. [Cloud Computing Automation: Integrating USDL and TOSCA](/publications/Papers/CP-2013-068-CAISE-USDL-and-TOSCA.pdf). In 25th Conference on Advanced Information Systems Engineering (CAiSE  2013), pages 1-16, Springer, LNCS, Vol. 7908, 2013
 
 
 Current Research
@@ -88,9 +81,14 @@ His current research interests are in the areas of Service models, cloud computi
 
 Humour 
 ---------------
-A good researcher says, "Lets find out", others say "Nobody knows". When a good researcher makes a mistake, he says, I was wrong", others say "It wasn't my fault". A good researcher works harder than others and has more time. Others are always "too busy" to do what is necessary. 
 
-- Adapted from Web page n. 1.236.784.322.345 of the Internet
+<blockquote><p>
+A good researcher says, "Lets find out", others say "Nobody knows". When a good researcher makes a mistake, he says, I was wrong", others say "It wasn't my fault". A good researcher works harder than others and has more time. Others are always "too busy" to do what is necessary.</p>
+</blockquote>
+
+<blockquote>
+  <p><cite><em>Adapted from Web page n. 1.236.784.322.345 of the Internet</em></cite></p>
+</blockquote>
 
 
 Contact 
