@@ -26,7 +26,7 @@ News
 + Cardoso, J.; Binz, T.; Breitenbucher, Uwe; Kopp, O. and Leymann, F. [Cloud Computing Automation: Integrating USDL and TOSCA](/publications/Papers/CP-2013-068-CAISE-USDL-and-TOSCA.pdf). In 25th Conference on Advanced Information Systems Engineering (CAiSE  2013), pages 1-16, Springer, LNCS, Vol. 7908, 2013
 
 
-Current Research
+Research Streams
 ---------------
 
 ####Service Descriptions 
@@ -56,14 +56,14 @@ Service networks are a class of networks of emerging interest since worldwide ec
 </p>
 
 
-Links to Resources
+Resources
 ---------------
 + [ACM Calendar of Events](http://campus.acm.org/calendar/) 
 + [IEEE Conference Calls for Submissions](http://www.ieee.org/conferences_events/index.html) 
 + [Google Trends](http://www.google.com/trends) 
 
 
-Brief CV
+About me
 ---------------
 Prof. Dr. Jorge Cardoso is Associate Professor and joined the Information System Group at the University of Coimbra in 2009. He has authored/co-authored more than 125 scientific publications and has been part of more than 120 program committees and organization bodies (journals and conferences). He his author/editor of more than 8 books. He holds a US patent titled "System and method of measuring process compliance". GoogleScholar shows more than 4100 citations for his research work with an h-index of 28. He is currently writing his next book titled "Service networks: a service science discipline" which results from the research work of his areas of interest: business process management, semantic Web, the Internet of Services, and service engineering.
 
