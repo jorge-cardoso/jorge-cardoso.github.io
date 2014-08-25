@@ -37,6 +37,11 @@ Research Streams
 Linked USDL (Unified Service Description Language) enables describing business, software, or real-world services using computer-readable and computer-understandable specifications to make them tradable on the web/Internet. It uses RDFS to provide a shared model. Check <a href="https://github.com/linked-usdl">Github</a> and <a href="http://www.linked-usdl.org">linked-usdl.org</a>
 </p>
 
+Bellow is an earlier video explaining the goal of USDL (please note that since then, XML has been replaced by RDFS).
+
+<iframe width="500}" height="281" src="http://player.vimeo.com/video/21894921" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen>
+</iframe>
+
 
 ####Service Systems
 <p>
@@ -74,9 +79,7 @@ He is a founding member of the IFIP Working Group 12.7 on Social Semantics. He c
 He completed his graduate studies with a Ph.D. from the University of Georgia (US) in 2002 and his undergraduate studies at the University of Coimbra, Portugal with a MSc and BSc in Informatics Engineering in 1995 and 1998, respectively.
 His current research interests are in the areas of Service models, cloud computing, service networks, service relationships, semantic web, service dynamics, business process management.
 
-<div class="fluid-width-video-wrapper" style="padding-top: 56.25%;">
-<iframe src="//www.youtube.com/embed/9e1nPyHXCFQ" frameborder="0" id="fitvid164211">
-</iframe></div>
+
 
 
 Humour 
