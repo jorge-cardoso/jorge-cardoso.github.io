@@ -2,30 +2,30 @@
 
 - title: Home
   url: /
-  excerpt: "Things I’ve written, illustrated, developed, coded, and whatever."
-  image: 300x200.gif
+  excerpt: "Home page"
+  image: Teaser-Home.png
 
 - title: Research
   url: /research/
-  excerpt: "Things I’ve written, illustrated, developed, coded, and whatever."
-  image: 300x200.gif
+  excerpt: "Main research interrests"
+  image: Teaser-Research.png
 
 - title: Publications
   url: /publications/
-  excerpt: "Things I’ve written, illustrated, developed, coded, and whatever."
-  image: 300x200.gif
+  excerpt: "List of scientific publications"
+  image: Teaser-Publications.png
 
 - title: Courses
   url: /courses/
-  excerpt: "Things I’ve written, illustrated, developed, coded, and whatever."
-  image: 300x200.gif
+  excerpt: "Courses taught over the years"
+  image: Teaser-Courses.jpg
   
 - title: Books
   url: /books/
-  excerpt: "Things I’ve written, illustrated, developed, coded, and whatever."
-  image: 300x200.gif
+  excerpt: "Academic and scientific books published"
+  image: Teaser-Books.jpg
 
 - title: Blog
   url: /blog/
-  excerpt: "Things I’ve written, illustrated, developed, coded, and whatever."
-  image: 300x200.gif   
+  excerpt: "My commemts, opinion, and thoughts"
+  image: Teaser-Blog.jpg  

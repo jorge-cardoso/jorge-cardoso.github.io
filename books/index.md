@@ -7,7 +7,7 @@ excerpt: Here is a list of the books I have published over the years
 tags: [books, semantic web, BPM]
 image:
   feature:
-  teaser:
+  teaser: 120x120.jpg
   thumb:
 ads: false
 ---
