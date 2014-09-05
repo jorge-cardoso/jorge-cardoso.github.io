@@ -215,9 +215,8 @@ demonstrate that these metrics serves their purpose, we plan to carry out severa
 
 Past Students
 -----------------
-+ sdsd
-+ sdsd
-+ sdsd
-+ sdsd
-+ sdsd
++ Coimbra
++ KIT
++ SAP
++ Madeira
 	
