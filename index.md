@@ -20,11 +20,11 @@ My main research interests include: semantic web, service systems, service descr
 News
 ---------------
 
-+ <span class="authors"> Sebastian Gotz, Thomas Ilsche, Jorge Cardoso, Josef Spillner, et. al., Frequencies Energy-Efficient Data Processing at Sweet Spot. In [On the Move to Meaningful Internet Systems (OTM 2014)](http://www.onthemove-conferences.org). Amantea, Italy, 2014.
++ Sebastian Gotz, Thomas Ilsche, Jorge Cardoso, Josef Spillner, et. al., Frequencies Energy-Efficient Data Processing at Sweet Spot. In [On the Move to Meaningful Internet Systems (OTM 2014)](http://www.onthemove-conferences.org). Amantea, Italy, 2014.
 + Cardoso,  J.; Lopes,  R. and Poels,  G. [Service Systems: Concepts, Modeling, and Programming](http://www.springer.com/computer/database+management+%26+information+retrieval/book/978-3-319-10812-4"), Springer, Germany, ISBN: 978-3-319-10812-4, pp. 112, 2014.
 + Pedrinaci, C.; Cardoso, J. and Leidig, T. [Linked USDL: A Vocabulary for Web-scale Service Trading](/publications/Papers/CP-2014-073-ESWC-Linked-USDL.pdf).  In 11th Extended Semantic Web Conference (ESWC), Crete, Greece, 2014.
 + Cardoso, J.; Binz, T.; Breitenbucher, Uwe; Kopp, O. and Leymann, F. [Cloud Computing Automation: Integrating USDL and TOSCA](/publications/Papers/CP-2013-068-CAISE-USDL-and-TOSCA.pdf). In 25th Conference on Advanced Information Systems Engineering (CAiSE  2013), pages 1-16, Springer, LNCS, Vol. 7908, 2013
-+ <span class="authors"> Francesco Guerra (Chair) and Jorge Cardoso (Vice-Chair). [COST Action IC1302: semantic KEYword-based Search on sTructured data sOurcEs](http://www.keystone-cost.eu), 2013-2017.
++ Francesco Guerra (Chair) and Jorge Cardoso (Vice-Chair). [COST Action IC1302: semantic KEYword-based Search on sTructured data sOurcEs](http://www.keystone-cost.eu), 2013-2017.
 
 
 Research
