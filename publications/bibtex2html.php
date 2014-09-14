@@ -668,7 +668,7 @@ function extractBibEntry($filename, $key) {
 
 function extractBibEntryFromString($fileContent, $key) {
 	if(is_array($fileContent)) $fileContent = implode("", $fileContent);
-	$fileContent = str_replace("\r", "\n", $fileContent);
+	$fileContent = str_replace("\r", "\r\n", $fileContent);
 	$fileContent = str_replace("\n\n", "\n", $fileContent);
 	$pos = strpos($fileContent, '{'.$key.',');
 	if($pos === false) return false;	
@@ -682,7 +682,11 @@ function extractBibEntryFromString($fileContent, $key) {
 				if(substr($fileContent, $i, 1) == '}') $braceLevel--;
 				if($braceLevel == 0) {
 					// Jorge Cardoso/JC: add new line after each bibtex entry
-					return nl2br(substr($fileContent, $pos, $i - $pos + 1));
+					// return nl2br(substr($fileContent, $pos, $i - $pos + 1));
+
+					// A simple trick: replace commas followed by two white spaces by a comma with a new line
+					// This can be done because each bib entry has the fields separated by a comma + 2 white spaces
+					return str_replace(",  ", ",  \r\n", substr($fileContent, $pos, $i - $pos + 1));
 				}
 			}
 			return false;
@@ -864,8 +868,14 @@ function bibstring2html($fileContent, $displayTypes = NULL, $groupType = NULL, $
 	return $ret;
 }
 
-// this is the main program
-
+/**
+ * main($filename_bib, $filename_html):
+ * Generates a Jekill file for the publications.  
+ * Generates all the bibs. The function bibstring2html has been changed. 
+ * Find the string 'bibs/' to see the code that was changed to generate and store the bibs
+ * 
+ * @author Jorge Cardoso
+ */
 if (isset($argv[1]) && isset($argv[2])) {
     echo 'Input bib file is:   ' . $argv[1] ;
     echo PHP_EOL;	

@@ -7,7 +7,7 @@
     <subtitle>JC Description</subtitle>
     <link href="/atom.xml" rel="self"/>
     <link href="/" rel="alternate" type="text/html"/>
-    <updated>2014-08-25T16:02:08+02:00</updated>
+    <updated>2014-09-14T16:22:00+01:00</updated>
     <id>/</id>
     <author>
 			<name></name>
@@ -19,7 +19,7 @@
     <entry>
         <title>Service Systems</title>
         <link href="/blog/service-systems/"/>
-        <updated>2015-01-01T12:39:59+01:00</updated>
+        <updated>2015-01-01T11:39:59+00:00</updated>
         <id>/blog/service-systems</id>
         <author>
 					<name></name>
@@ -36,7 +36,7 @@
     <entry>
         <title>Fundamentals of Service Systems</title>
         <link href="/books/fundamentals-of-service-systems/"/>
-        <updated>2015-01-01T12:39:59+01:00</updated>
+        <updated>2015-01-01T11:39:59+00:00</updated>
         <id>/books/fundamentals-of-service-systems</id>
         <author>
 					<name></name>
@@ -56,9 +56,26 @@
     </entry>
     
     <entry>
+        <title>Service Systems</title>
+        <link href="/blog/ITIL-maturity/"/>
+        <updated>2015-01-01T11:39:59+00:00</updated>
+        <id>/blog/ITIL-maturity</id>
+        <author>
+					<name></name>
+					<uri>/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Need to write a blog.&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
         <title>Service Systems: Concepts, Modeling, and Programming</title>
         <link href="/books/service-systems-concepts-modeling-and-programming/"/>
-        <updated>2014-10-01T13:39:28+02:00</updated>
+        <updated>2014-10-01T12:39:28+01:00</updated>
         <id>/books/service-systems-concepts-modeling-and-programming</id>
         <author>
 					<name></name>
@@ -86,7 +103,7 @@
     <entry>
         <title>Gestao de Workflows: Modelos, Metodos e Sistemas</title>
         <link href="/books/gestao-de-workflows-modelos-metodos-e-sistemas/"/>
-        <updated>2009-09-15T13:00:17+02:00</updated>
+        <updated>2009-09-15T12:00:17+01:00</updated>
         <id>/books/gestao-de-workflows-modelos-metodos-e-sistemas</id>
         <author>
 					<name></name>
@@ -110,7 +127,7 @@
     <entry>
         <title>Handbook of Research on Business Process Modeling</title>
         <link href="/books/handbook-of-research-on-business-process-modeling/"/>
-        <updated>2009-05-01T12:59:46+02:00</updated>
+        <updated>2009-05-01T11:59:46+01:00</updated>
         <id>/books/handbook-of-research-on-business-process-modeling</id>
         <author>
 					<name></name>
@@ -138,7 +155,7 @@
     <entry>
         <title>Semantic Web Engineering in the Knowledge Society</title>
         <link href="/books/semantic-web-engineering-in-the-knowledge-society/"/>
-        <updated>2008-10-10T12:59:29+02:00</updated>
+        <updated>2008-10-10T11:59:29+01:00</updated>
         <id>/books/semantic-web-engineering-in-the-knowledge-society</id>
         <author>
 					<name></name>
@@ -166,7 +183,7 @@
     <entry>
         <title>The Semantic Web: Real World Applications from Industry</title>
         <link href="/books/the-semantic-web-real-world-applications-from-industry/"/>
-        <updated>2008-06-15T12:58:31+02:00</updated>
+        <updated>2008-06-15T11:58:31+01:00</updated>
         <id>/books/the-semantic-web-real-world-applications-from-industry</id>
         <author>
 					<name></name>
@@ -198,7 +215,7 @@
     <entry>
         <title>Programacao de Sistemas Distribuidos em Java</title>
         <link href="/books/programacao-de-sistemas-distribuidos-em-java/"/>
-        <updated>2008-03-15T12:11:38+01:00</updated>
+        <updated>2008-03-15T11:11:38+00:00</updated>
         <id>/books/programacao-de-sistemas-distribuidos-em-java</id>
         <author>
 					<name></name>
@@ -233,7 +250,7 @@
     <entry>
         <title>Semantic Web Services: Theory, Tools and Applications</title>
         <link href="/books/semantic-web-services-theory-tools-and-applications/"/>
-        <updated>2007-03-31T12:58:52+02:00</updated>
+        <updated>2007-03-31T11:58:52+01:00</updated>
         <id>/books/semantic-web-services-theory-tools-and-applications</id>
         <author>
 					<name></name>
@@ -259,7 +276,7 @@
     <entry>
         <title>Semantic Web Services, Processes and Applications </title>
         <link href="/books/semantic-web-services-processes-and-applications/"/>
-        <updated>2006-08-15T12:59:09+02:00</updated>
+        <updated>2006-08-15T11:59:09+01:00</updated>
         <id>/books/semantic-web-services-processes-and-applications</id>
         <author>
 					<name></name>
