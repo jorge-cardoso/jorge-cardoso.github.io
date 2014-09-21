@@ -41,7 +41,7 @@ Linked USDL (Unified Service Description Language) enables describing business, 
 
 Bellow is an earlier video explaining the goal of USDL (please note that since then, XML has been replaced by RDFS).
 
-<iframe width="500" height="281" src="http://player.vimeo.com/video/21894921" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen alt="You browser does not supports video frames">
+<iframe width="500" height="281" src="http://player.vimeo.com/video/21894921" alt="The video is not available. Please use another browser or change your configuration." frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen alt="You browser does not supports video frames">
 </iframe>
 
 
