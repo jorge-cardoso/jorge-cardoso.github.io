@@ -903,7 +903,8 @@ if (isset($argv[1]) && isset($argv[2])) {
 else
 {
     echo PHP_EOL;	
-    echo 'Syntax: bibtex2html input_bib_file output_html_file';	
+    echo 'Syntax: php bibtex2html.php input_bib_file output_html_file';	
+    echo 'e.g.:   php bibtex2html.php cardoso.bib index.md';	
     echo PHP_EOL;	
     echo PHP_EOL;	
 }

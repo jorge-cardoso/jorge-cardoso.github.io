@@ -20,6 +20,7 @@ My main research interests include: semantic web, service systems, service descr
 News
 ---------------
 
++ Sebastian Gotz, Thomas Ilsche, Jorge Cardoso, Josef Spillner, Thomas Kissinger, Uwe Assmann, Wolfgang Lehner, Wolfgang Nagel and Alexander Schill, Energy-Efficient Databases using Sweet Spot Frequencies, Green Cloud Computing Workshop (GCC), London, UK, 2014.
 + Sebastian Gotz, Thomas Ilsche, Jorge Cardoso, Josef Spillner, et. al., Frequencies Energy-Efficient Data Processing at Sweet Spot. In [On the Move to Meaningful Internet Systems (OTM 2014)](http://www.onthemove-conferences.org). Amantea, Italy, 2014.
 + Cardoso,  J.; Lopes,  R. and Poels,  G. [Service Systems: Concepts, Modeling, and Programming](http://www.springer.com/computer/database+management+%26+information+retrieval/book/978-3-319-10812-4"), Springer, Germany, ISBN: 978-3-319-10812-4, pp. 112, 2014.
 + Pedrinaci, C.; Cardoso, J. and Leidig, T. [Linked USDL: A Vocabulary for Web-scale Service Trading](/publications/Papers/CP-2014-073-ESWC-Linked-USDL.pdf).  In 11th Extended Semantic Web Conference (ESWC), Crete, Greece, 2014.
