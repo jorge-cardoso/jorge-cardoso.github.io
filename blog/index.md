@@ -11,54 +11,45 @@ image:
   thumb:
 ads: false
 toc: true
+search_omit: true
 ---
 
- 
-<div class="home">
-	<header class="post-header">
-		<h1>Search</h1>
-	</header>
-	
-	<article class="post-content">
-		<div id="search">
-			<form action="/blog" method="get">
-				<input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">
-			</form>
-		</div>
- 
-		<section id="search-results" style="display: none;">
-			<p>Search results</p>
-			<div class="entries">
-			</div>
-		</section>
+<h1>Search</h1>
   
-		{% raw %}
-		<script id="search-results-template" type="text/mustache">
-			{{#entries}}
-			<article>
-				<h3>
-					{{#date}}<small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>{{/date}}
-					<a href="{{url}}">{{title}}</a>
-				</h3>
-			</article>
-			{{/entries}}
-		</script>
-		{% endraw %}
-  
-		<script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
-  
-		<script type="text/javascript">
-		$(function() {
-			$('#search-query').lunrSearch({
-				indexUrl: '/search.json',             // URL of the `search.json` index data for your site
-				results:  '#search-results',          // jQuery selector for the search results container
-				entries:  '.entries',                 // jQuery selector for the element to contain the results list, must be a child of the results element above.
-				template: '#search-results-template'  // jQuery selector for the Mustache.js template
-			});
-		});
-		</script>
-	</article>
-		
-</div>
+<!-- Search form -->
+<form method="get" action="/search" data-search-form>
+    <label for="q">Search term</label>
+    <input type="search" name="q" id="q" placeholder="Enter search term" data-search-input />
+    <input type="submit" value="Search" />
+  </form>
+
+<!-- Search results placeholder -->
+<p data-search-found>
+  <span data-search-found-count></span> result(s) found for &ldquo;<span data-search-found-term></span>&rdquo;.
+</p>
+<div data-search-results></div>
+
+<!-- Search result template -->
+<script type="text/x-template" id="search-result">
+    <div>
+      <h1><a href="##Url##">##Title##</a></h1>
+      <h2><a href="##Url##">##Date##</a></h2>
+      <a href="##Url##">Read &ldquo;##Title##&rdquo;</a>
+    </div>
+</script>
+
+<h3>Posts</h3>
+<ul>
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
 
 
+<!-- jQuery - required but can be moved to the <head> -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<!-- Search script - Must appear after template -->
+<script src="/js/search.js"></script>
