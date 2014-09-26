@@ -7,6 +7,10 @@ teaser: # 400x250 px default teaser image used in image archive grid
 #locale: http://0.0.0.0:4000
 locale: http://jorge-cardoso.github.io
 
+# Search 
+url: http://jorge-cardoso.github.io
+
+
 # Jekyll configuration
 
 sass:
@@ -36,5 +40,3 @@ quiet:    false
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
 
-# Search 
-url: http://0.0.0.0:4000
