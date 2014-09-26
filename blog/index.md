@@ -12,11 +12,11 @@ image:
 ads: false
 toc: true
 search_omit: true
----
+--- 
 
   
 <ul>
-  {% for post in site.posts.blogs %}
+  {% for post in site.posts.blogs %} 
   <li>
     <a href="{{ post.url }}">{{ post.title }}</a>
   </li>
