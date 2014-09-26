@@ -17,7 +17,7 @@ toc: true
 <ul>
   {% for post in site.categories.blog  %} 
   <li>
-    <a href="{{ post.url }}">{{ post.title }}</a> {{ page.date | date: "%-d %B %Y" }}
+    <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date: "%-d %B %Y" }}
   </li>
   {% endfor %}
 </ul>
