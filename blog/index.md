@@ -16,7 +16,7 @@ search_omit: true
 
   
 <ul>
-  {% for post in site.posts.blogs %} 
+  {% for post in site.posts.blog %} 
   <li>
     <a href="{{ post.url }}">{{ post.title }}</a>
   </li>
