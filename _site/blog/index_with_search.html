@@ -21,11 +21,11 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="Blog">
 	<meta property="og:description" content="Thoughts on research ...">
-	<meta property="og:url" content="http://0.0.0.0:4000/blog/">
+	<meta property="og:url" content="http://0.0.0.0:4000/blog/index_with_search.html">
 	<meta property="og:site_name" content="Jorge Cardoso">
     
 
-    <link rel="canonical" href="http://0.0.0.0:4000/blog/">
+    <link rel="canonical" href="http://0.0.0.0:4000/blog/index_with_search.html">
 
     <link href="http://0.0.0.0:4000/atom.xml" type="application/atom+xml" rel="alternate" title="Jorge Cardoso Atom Feed">
 
@@ -167,7 +167,29 @@
 		<div class="inner-wrap">
 			<nav class="toc"></nav><!-- /.toc -->
 			<div id="content" class="page-content" itemprop="articleBody">
-				<ul>
+				<!-- Search form -->
+<form method="get" action="/search" data-search-form="">
+<!--    <label for="q">Search term</label> -->
+    <input type="search" name="q" id="q" placeholder="Enter search term" data-search-input="" />
+    <input type="submit" value="Search" />
+</form>
+
+<!-- Search results placeholder -->
+<p data-search-found="">
+  <span data-search-found-count=""></span> result(s) found for &ldquo;<span data-search-found-term=""></span>&rdquo;.
+</p>
+<div data-search-results=""></div>
+
+<!-- Search result template -->
+<script type="text/x-template" id="search-result">
+    <div>
+      <p><a href="##Url##">##Title##</a> (##Date##)</p>
+      
+    </div>
+</script>
+
+<h3>Posts</h3>
+<ul>
   
   <li>
     <a href="/blog/service-systems/">Service Systems</a>
@@ -226,9 +248,9 @@
 				<footer class="page-footer">
 					
 					<div class="inline-btn">
-	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Blog&amp;url=http://0.0.0.0:4000/blog/&amp;via=" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
-	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://0.0.0.0:4000/blog/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Share on Facebook</a>
-	<a class="btn-social google-plus"  href="https://plus.google.com/share?url=http://0.0.0.0:4000/blog/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i> Share on Google+</a>
+	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Blog&amp;url=http://0.0.0.0:4000/blog/index_with_search.html&amp;via=" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
+	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://0.0.0.0:4000/blog/index_with_search.html" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Share on Facebook</a>
+	<a class="btn-social google-plus"  href="https://plus.google.com/share?url=http://0.0.0.0:4000/blog/index_with_search.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i> Share on Google+</a>
 </div><!-- /.share-this -->
 					
 				</footer><!-- /.footer -->

@@ -157,6 +157,8 @@ function populateResultContent(html, item) {
 }
 
 
+
+
 /**
  * Populates results string
  * @param {String} count 
