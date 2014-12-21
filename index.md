@@ -14,7 +14,7 @@ I am associate professor at the University of Coimbra, and affiliated to the Inf
 I am currently involved in developing new types of Enterprise Systems using RDFS, SPARQL, Linked Data, Cloud Computing paradigms, and Service Descriptions. 
 </p>
 
-My main research interests include: semantic web, service systems, service description languages, and business process management.
+My main research interests include: service analytics, semantic web, service systems, service description languages, and business process management.
 
 
 News
