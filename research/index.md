@@ -190,7 +190,7 @@ demonstrate that these metrics serves their purpose, we plan to carry out severa
 Support Material
 -----------------
 
-# Writing a <span class="dark">Paper</span>
+### Writing a <span class="dark">Paper</span>
 
 <p>
 <a href="WritingPaper.pdf">The Ten Commandments for writing academic papers</a>
@@ -238,7 +238,7 @@ Support Material
 </p>
 
 
-# Writing a <span class="dark">Thesis</span>
+### Writing a <span class="dark">Thesis</span>
 
 <a href="http://cs.uwec.edu/~buipj/teaching/cs.491.s13/static/pdf/01_how_to_read_a_paper.pdf">How to Read a Paper</a>
 <span class="small">David R. Cheriton School of Computer Science, University of Waterloo
