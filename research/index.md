@@ -63,74 +63,6 @@ The observation that the power of service-based economies is no longer restricte
 Understanding when, why, where, and how service networks function best is fundamental for the future because their analysis can provide an ``x-ray'' of service-based economies.
 
 
-Writing a <span class="dark">Paper</span>
------------------
-<p>
-<a href="WritingPaper.pdf">The Ten Commandments for writing academic papers</a>
-<img src="../images/pdf.png" alt="" height="16" width="16" border="0">
-<br>
-<span class="small">Julienne Hanson, Bartlett School of Architecture, London, November, 1988</span>
-</p>
-
-<p>
-<a href="writing-a-paper-slides.pdf">How to write a great research paper</a>
-<img src="../images/pdf.png" alt="" height="16" width="16" border="0">
-<br>
-<span class="small">Simon Peyton Jones at Microsoft Research.</span>
-</p>
-
-<p>
-<a href="Editorial do Ray Paul na EJIS">Editor's View: an opportunity for editors of IS journals to relate their experiences and offer advice.</a>
-<img src="../images/pdf.png" alt="" height="16" width="16" border="0">
-<br>
-<span class="small">The Editorial View of Ray J Paul. First in a series.</span>
-</p>
-
-<p>
-<a href="Reasons-Why-Manuscripts-Are-Not-Accepted.pdf">The Top 10 Reasons Why Manuscripts Are Not Accepted for Publication (Medical domain)</a>
-<img src="../images/pdf.png" alt="" height="16" width="16" border="0">
-<br>
-<span class="small">David J Pierson MD FAARC</span>
-</p>
-
-<p>The points your paper should address <br>
-<ul>
-<li>Is the research new?</li>
-<li>Is the research interesting?</li>
-<li>Is the research significant to the field of research?</li>
-<li>Does it clearly motivate and clearly formulate the research question?</li>
-<li>Does it identify the significant problems in the field of research?</li>
-<li>Does it outline the current knowledge of the problem domain, as well as the state of existing solutions?</li>
-<li>Does it present clearly any preliminary ideas, the proposed approach and the results achieved so far?</li>
-<li>Does it sketch the research methodology that is applied?</li>
-<li>Does it point out the contributions of the applicant to the problem solution?</li>
-<li>Does it state in what aspects the suggested solution is different, new or better as compared to existing approaches to the problem? </li>
-<li>Does it state how the expected results will be evaluated or compared to existing approaches to the problem?</li>
-<li>Does it state how and by whom the expected results can be applied?</li>
-</ul>
-</p>
-
-
-Writing a <span class="dark">Thesis</span>
------------------
-
-<a href="http://cs.uwec.edu/~buipj/teaching/cs.491.s13/static/pdf/01_how_to_read_a_paper.pdf">How to Read a Paper</a>
-<span class="small">David R. Cheriton School of Computer Science, University of Waterloo
-Waterloo, ON, Canada</span>
-
-<a href="http://lorien.ncl.ac.uk/ming/dept/Tips/writing/thesis/thesis-intro.htm">WRITING RESEARCH THESES OR DISSERTATIONS (guidelines and tips)</a>
-<br>
-<span class="small">School of Chemical Engineering and Advanced Materials, University of Newcastle upon Tyne</span>
-
-
-<a href="http://sydney.edu.au/stuserv/documents/thesisproposal.pdf">Writing a Thesis Proposal: Independent Learning Resources </a>
-<br>
-<span class="small">Learning Centre, University of Sydney</span>
-
-<a href="citingreferences.pdf">How to write references</a><img src="../images/pdf.png" alt="" height="16" width="16" border="0"><br>
-<span class="small">Aston University, Aston Triangle, Birmingham, B4 7ET.</span>
-
-
 
 Students
 -----------------
@@ -254,3 +186,72 @@ demonstrate that these metrics serves their purpose, we plan to carry out severa
 + CUCo - Comunicar Utilizando o Computador, Projecto Minerva, Universidade de Coimbra, 1994.
 + Puzzle Quiz, Projecto Minerva, Universidade de Coimbra, 1992.
 + Task Game, Projecto Minerva, Universidade de Coimbra, 1991.
+
+Support Material
+-----------------
+
+# Writing a <span class="dark">Paper</span>
+
+<p>
+<a href="WritingPaper.pdf">The Ten Commandments for writing academic papers</a>
+<img src="../images/pdf.png" alt="" height="16" width="16" border="0">
+<br>
+<span class="small">Julienne Hanson, Bartlett School of Architecture, London, November, 1988</span>
+</p>
+
+<p>
+<a href="writing-a-paper-slides.pdf">How to write a great research paper</a>
+<img src="../images/pdf.png" alt="" height="16" width="16" border="0">
+<br>
+<span class="small">Simon Peyton Jones at Microsoft Research.</span>
+</p>
+
+<p>
+<a href="Editorial do Ray Paul na EJIS">Editor's View: an opportunity for editors of IS journals to relate their experiences and offer advice.</a>
+<img src="../images/pdf.png" alt="" height="16" width="16" border="0">
+<br>
+<span class="small">The Editorial View of Ray J Paul. First in a series.</span>
+</p>
+
+<p>
+<a href="Reasons-Why-Manuscripts-Are-Not-Accepted.pdf">The Top 10 Reasons Why Manuscripts Are Not Accepted for Publication (Medical domain)</a>
+<img src="../images/pdf.png" alt="" height="16" width="16" border="0">
+<br>
+<span class="small">David J Pierson MD FAARC</span>
+</p>
+
+<p>The points your paper should address <br>
+<ul>
+<li>Is the research new?</li>
+<li>Is the research interesting?</li>
+<li>Is the research significant to the field of research?</li>
+<li>Does it clearly motivate and clearly formulate the research question?</li>
+<li>Does it identify the significant problems in the field of research?</li>
+<li>Does it outline the current knowledge of the problem domain, as well as the state of existing solutions?</li>
+<li>Does it present clearly any preliminary ideas, the proposed approach and the results achieved so far?</li>
+<li>Does it sketch the research methodology that is applied?</li>
+<li>Does it point out the contributions of the applicant to the problem solution?</li>
+<li>Does it state in what aspects the suggested solution is different, new or better as compared to existing approaches to the problem? </li>
+<li>Does it state how the expected results will be evaluated or compared to existing approaches to the problem?</li>
+<li>Does it state how and by whom the expected results can be applied?</li>
+</ul>
+</p>
+
+
+# Writing a <span class="dark">Thesis</span>
+
+<a href="http://cs.uwec.edu/~buipj/teaching/cs.491.s13/static/pdf/01_how_to_read_a_paper.pdf">How to Read a Paper</a>
+<span class="small">David R. Cheriton School of Computer Science, University of Waterloo
+Waterloo, ON, Canada</span>
+
+<a href="http://lorien.ncl.ac.uk/ming/dept/Tips/writing/thesis/thesis-intro.htm">WRITING RESEARCH THESES OR DISSERTATIONS (guidelines and tips)</a>
+<br>
+<span class="small">School of Chemical Engineering and Advanced Materials, University of Newcastle upon Tyne</span>
+
+
+<a href="http://sydney.edu.au/stuserv/documents/thesisproposal.pdf">Writing a Thesis Proposal: Independent Learning Resources </a>
+<br>
+<span class="small">Learning Centre, University of Sydney</span>
+
+<a href="citingreferences.pdf">How to write references</a><img src="../images/pdf.png" alt="" height="16" width="16" border="0"><br>
+<span class="small">Aston University, Aston Triangle, Birmingham, B4 7ET.</span>
