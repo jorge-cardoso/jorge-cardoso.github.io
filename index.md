@@ -10,8 +10,8 @@ ads: false
 <a href="http://placehold.it/1200x600.gif">
 <img src="/images/Jorge-Elbe.gif" height="128" width="155"  style="float:left;margin:0 20px 0 0;"/>
 </a>
-I am associate professor at the University of Coimbra, and affiliated to the Information Systems Group. 
-I am currently involved in developing new types of Enterprise Systems using RDFS, SPARQL, Linked Data, Cloud Computing paradigms, and Service Descriptions. 
+I am associate professor at the University of Coimbra, and affiliated to the Information Systems Group.
+I am currently involved in developing new types of Enterprise Systems using RDFS, SPARQL, Linked Data, Cloud Computing paradigms, and Service Descriptions.
 </p>
 
 My main research interests include: service analytics, semantic web, service systems, service description languages, and business process management.
@@ -20,7 +20,7 @@ My main research interests include: service analytics, semantic web, service sys
 News
 ---------------
 
-+ Jorge Cardoso and Carlos Pedrinaci, Evolution and Overview of Linked USDL. 6th International Conference Exploring Services Science, IESS 2015, Porto, Portugal, February 4-6, 2015, LNBIP, Vol. 201, Novoa, Henriqueta, Dragoicea, Monica (Eds.), 2015.
++ Jorge Cardoso and Carlos Pedrinaci, [Evolution and Overview of Linked USDL](/publications/Papers/CP-2015-077-Linked-USDL-Evolution-and-Overview.pdf). 6th International Conference Exploring Services Science, IESS 2015, Porto, Portugal, February 4-6, 2015, LNBIP, Vol. 201, Novoa, Henriqueta, Dragoicea, Monica (Eds.), 2015.
 + Sebastian Gotz, Thomas Ilsche, Jorge Cardoso, Josef Spillner, Thomas Kissinger, Uwe Assmann, Wolfgang Lehner, Wolfgang Nagel and Alexander Schill, Energy-Efficient Databases using Sweet Spot Frequencies, Green Cloud Computing Workshop (GCC), London, UK, 2014.
 + Sebastian Gotz, Thomas Ilsche, Jorge Cardoso, Josef Spillner, et. al., Frequencies Energy-Efficient Data Processing at Sweet Spot. In [On the Move to Meaningful Internet Systems (OTM 2014)](http://www.onthemove-conferences.org). Amantea, Italy, 2014.
 + Cardoso,  J.; Lopes,  R. and Poels,  G. [Service Systems: Concepts, Modeling, and Programming](http://www.springer.com/computer/database+management+%26+information+retrieval/book/978-3-319-10812-4"), Springer, Germany, ISBN: 978-3-319-10812-4, pp. 112, 2014.
@@ -32,7 +32,7 @@ News
 Research
 ---------------
 
-####Service Descriptions 
+####Service Descriptions
 <p>
 <a href="https://github.com/linked-usdl">
 <img src="/images/Logo-linked-usdl.png" width="100"  style="float:left;margin:0px 20px 0 0;"/>
@@ -55,7 +55,7 @@ The Linked Service System model for the Unified Service Description Language (LS
 </p>
 
 
-####Service Networks 
+####Service Networks
 <p>
 <a href="https://github.com/linked-usdl">
 <img src="/images/Logo-Service-Network.png" height="128" width="155"  style="float:left;margin:0 20px 0 0;"/>
@@ -66,9 +66,9 @@ Service networks are a class of networks of emerging interest since worldwide ec
 
 Resources
 ---------------
-+ [ACM Calendar of Events](http://campus.acm.org/calendar/) 
-+ [IEEE Conference Calls for Submissions](http://www.ieee.org/conferences_events/index.html) 
-+ [Google Trends](http://www.google.com/trends) 
++ [ACM Calendar of Events](http://campus.acm.org/calendar/)
++ [IEEE Conference Calls for Submissions](http://www.ieee.org/conferences_events/index.html)
++ [Google Trends](http://www.google.com/trends)
 
 
 About me
@@ -85,7 +85,7 @@ His current research interests are in the areas of Service models, cloud computi
 
 
 
-Humour 
+Humour
 ---------------
 
 <blockquote><p>
@@ -97,7 +97,7 @@ A good researcher says, "Lets find out", others say "Nobody knows". When a good 
 </blockquote>
 
 
-Contact 
+Contact
 ---------------
 <p class="notice">
 Prof. Jorge Cardoso<br>
