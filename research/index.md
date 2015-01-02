@@ -11,7 +11,7 @@ image:
   thumb:
 ads: false
 toc: true
----
+---  
 
 Looking for a PhD/MSc topic?
 -----------------
@@ -265,3 +265,4 @@ Waterloo, ON, Canada</span>
 
 <a href="citingreferences.pdf">How to write references</a><img src="../images/pdf.png" alt="" height="16" width="16" border="0"><br>
 <span class="small">Aston University, Aston Triangle, Birmingham, B4 7ET.</span>
+
