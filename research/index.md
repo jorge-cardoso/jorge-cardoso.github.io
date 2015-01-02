@@ -13,7 +13,7 @@ ads: false
 toc: true
 ---
 
-Research topics for PhD/MSc
+Looking for a PhD/MSc topic?
 -----------------
 You would like to do research? Maybe your MSc or PhD? You love to discover new things? To propose new innovative ideas? You like the areas of Service Science, Business Process Management, Information Systems, and Semantic Web?
 
@@ -61,12 +61,6 @@ The observation that the power of service-based economies is no longer restricte
 </p>
 
 Understanding when, why, where, and how service networks function best is fundamental for the future because their analysis can provide an ``x-ray'' of service-based economies.
-
-Current Projects
------------------
-+ Linked USDL. RDF, semantic web, linked data
-+ LSS USDL.
-+ Service Networks.
 
 
 Writing a <span class="dark">Paper</span>
@@ -155,7 +149,7 @@ Students
 +	Daniel Alberto Guedes Barrigas, CloudAid2, University of Coimbra, 2014.
 +	Filipe João Vinagre Barata, SUnSET: On the suitability of USDL for service description – A case study of a telecom operator, University of Coimbra, 2013.
 +	Jorge Araujo, SMS: Semantic Mashups of Linked-USDL Services, University of Coimbra, 2013.
-4.	Diana São Miguel, MOONRISE: Modeling Open Semantic Service Relationships, University of Coimbra, 2013.
++	Diana São Miguel, MOONRISE: Modeling Open Semantic Service Relationships, University of Coimbra, 2013.
 +	Pedro Macedo, MAYBE: MEO EPG Content Enrichment with External Information, University of Coimbra, 2013.
 +	Ricardo Lopes, LaNDLESS: Integrating Linked Data with Linked Services, University of Coimbra, 2013.
 +	João Casalta Nabais, InTeligent: Interoperable Telecommunications ITIL-compliant Services Management System, University of Coimbra, 2013.
