@@ -34,7 +34,7 @@ Research
 
 ####Service Analytics
 
-Currently, I am working on Service Analytics. We analyse large logs from IT service provisioning (e.g., ITIL) to find human behaviour patterns which are rewarded or penalized. Interesting work. It is the new challenge for companies future: to analyse people behaviour... My new upcoming book on Service Systems  Fundamentals/Springer will have a chapter dedicated to the topic.
+Currently, I am working on Service Analytics. We analyse large logs from IT service provisioning (e.g., ITIL) to find human behaviour patterns which are rewarded or penalized. Interesting work. It is the new challenge for companies, the future so to say: to analyse people behaviour... My new upcoming book on Service Systems  Fundamentals/Springer will have a chapter dedicated to the topic.
 
 
 ####Service Descriptions
