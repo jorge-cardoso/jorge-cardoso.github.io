@@ -59,6 +59,11 @@ Bellow is an earlier video explaining the goal of USDL (please note that since t
 The Linked Service System model for the Unified Service Description Language (LSS-USDL) explores the development of lightweight semantic models to capture the essence of service systems. Real service systems can be modeled with LSS-USDL, they can be accessed and queried programmatically, and they can be annotated with background knowledge. Check <a href="https://github.com/jorge-cardoso/lss-usdl">Github</a> and this recent book <a href="http://www.springer.com/computer/database+management+%26+information+retrieval/book/978-3-319-10812-4">Service Systems</a>.
 </p>
 
+The graphical artifact used to create instance for the LSS USDL model:
+<p>
+<a href="https://github.com/linked-usdl">
+<img src="/images/Six-start-model.png" width="400"  style="float:left;margin:0px 20px 0 0;"/>
+</a>
 
 ####Service Networks
 <p>
