@@ -32,6 +32,11 @@ News
 Research
 ---------------
 
+####Service Analytics
+
+Currently, I am working on Service Analytics. We analyse large logs from IT service provisioning (e.g., ITIL) to find human behaviour patterns which are rewarded or penalized. Interesting work. It is the new challenge for companies future: to analyse people behaviour... My new upcoming book on Service Systems  Fundamentals/Springer will have a chapter dedicated to the topic.
+
+
 ####Service Descriptions
 <p>
 <a href="https://github.com/linked-usdl">
@@ -79,7 +84,7 @@ He has participated in European, German and National research projects financed 
 
 He is a founding member of the IFIP Working Group 12.7 on Social Semantics. He created and led until 2009 the development of the W3C Unified Service Description Language (USDL). He regularly collaborates with the Knoesis Research Center (USA), the University of Georgia (USA), the University of Bayreuth (DE), the University of Eindhoven (NL), the Open University (UK), The University of Stuttgart (DE), SAP Research (DE), among others.
 
-His teaching, training, and consulting activities both in academia and in industry cover topics related to Service Management, Enterprise Architecture, Middleware technologies, and Semantic Web. He is an ISACA Academic Advocate (ISACA is a Worldwide association of IS professionals dedicated to the audit, control, and security of information systems). Since 2014 he is the Coordinator of the MSc program on Engineering Informatics at the University of Coimbra. 
+His teaching, training, and consulting activities both in academia and in industry cover topics related to Service Management, Enterprise Architecture, Middleware technologies, and Semantic Web. He is an ISACA Academic Advocate (ISACA is a Worldwide association of IS professionals dedicated to the audit, control, and security of information systems). Since 2014 he is the Coordinator of the MSc program on Engineering Informatics at the University of Coimbra.
 
 He completed his graduate studies with a Ph.D. from the University of Georgia (US) in 2002 and his undergraduate studies at the University of Coimbra, Portugal with a MSc and BSc in Informatics Engineering in 1995 and 1998, respectively.
 His current research interests are in the areas of Service models, cloud computing, service networks, service relationships, semantic web, service dynamics, business process management.
