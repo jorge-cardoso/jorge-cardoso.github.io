@@ -66,6 +66,10 @@ The graphical artifact used to create interactions for service systems using the
 </a>
 </p>
 
++ Jorge Cardoso, Ricardo Lopes, and Geert Poels. [Conceptual Frameworks](/publications/Papers/CH-2014-Service-Systems-Conceptual-Frameworks.pdf), in Service Systems: Concepts, Modeling, and Programming, Springer, 2014.
++ Jorge Cardoso, Ricardo Lopes, and Geert Poels. [The LSS-USDL Model](/publications/Papers/CH-2014-Service-Systems-The-LSS-USDL-Model.pdf), in Service Systems: Concepts, Modeling, and Programming, Springer, 2014.
+
+
 ####Service Networks
 <p>
 <a href="https://github.com/linked-usdl">
