@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "Data Science and Workflow Management Systems"
+title: "Data Science for Non-Programmers"
 modified:
 categories: blog
 excerpt:
