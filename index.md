@@ -20,7 +20,7 @@ My main research interests include: service analytics, semantic web, service sys
 News
 ---------------
 
-+ José María García, Carlos Pedrinaci, Manuel Resinas, Jorge Cardoso, Pablo Fernández, Antonio Ruiz-Cortés. Linked USDL Agreement: Effectively Sharing Semantic Service Level Agreements on the Web, The IEEE International Conference on Web Services (ICWS 2015), New York, USA.
++ José María García, Carlos Pedrinaci, Manuel Resinas, Jorge Cardoso, Pablo Fernández, Antonio Ruiz-Cortés. Linked USDL Agreement: Effectively Sharing Semantic Service Level Agreements on the Web, The IEEE International Conference on Web Services (ICWS), New York, USA. 2015.
 + We are glad to announce that the foreword of our next upcoming textbook on services, Foundations of Service Systems, will be written by [Jim Spohrer](http://en.wikipedia.org/wiki/Jim_Spohrer), the Director of IBM Global University Programs. 2015.
 + Jorge Cardoso and Carlos Pedrinaci, [Evolution and Overview of Linked USDL](/publications/Papers/CP-2015-077-Linked-USDL-Evolution-and-Overview.pdf). 6th International Conference Exploring Services Science, IESS 2015, Porto, Portugal, February 4-6, 2015, LNBIP, Vol. 201, Novoa, Henriqueta, Dragoicea, Monica (Eds.), 2015.
 + Sebastian Gotz, Thomas Ilsche, Jorge Cardoso, Josef Spillner, Thomas Kissinger, Uwe Assmann, Wolfgang Lehner, Wolfgang Nagel and Alexander Schill, Energy-Efficient Databases using Sweet Spot Frequencies, Green Cloud Computing Workshop (GCC), London, UK, 2014.
