@@ -11,7 +11,7 @@ ads: false
 <img src="/images/Jorge-Elbe.gif" height="128" width="155"  style="float:left;margin:0 20px 0 0;"/>
 </a>
 I am associate professor at the University of Coimbra, and affiliated to the Information Systems Group.
-I am currently involved in developing new types of Enterprise Systems using RDFS, SPARQL, Linked Data, Cloud Computing paradigms, and Service Descriptions.
+I am currently involved in developing Cloud Management Platforms, Service Cloud, Cloud BPM, and High Performance BPM systems.
 </p>
 
 My main research interests include: service analytics, semantic web, service systems, service description languages, and business process management.
