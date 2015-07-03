@@ -18,10 +18,9 @@ My current research involves the development of the next generation of Cloud Man
 
 
 You can find more about my research on Cloud Computing, BPM, Semantic Web, Web Services, and Enterprise Systems at:
-
-+ [LinkedIn](https://www.linkedin.com/profile/view?id=2572343&trk=hp-identity-name)
-+ [Google Scholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en&oi=ao)
-+ [DBLP](http://dblp.uni-trier.de/pers/hd/c/Cardoso:Jorge)
+[LinkedIn](https://www.linkedin.com/profile/view?id=2572343&trk=hp-identity-name),
+[Google Scholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en&oi=ao),
+[DBLP](http://dblp.uni-trier.de/pers/hd/c/Cardoso:Jorge).
 
 News
 ---------------
