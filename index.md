@@ -10,11 +10,9 @@ ads: false
 <a href="http://placehold.it/1200x600.gif">
 <img src="/images/Jorge-Elbe.gif" height="128" width="155"  style="float:left;margin:0 20px 0 0;"/>
 </a>
-I am associate professor at the University of Coimbra, and affiliated to the Information Systems Group.
-I am currently involved in developing Cloud Management Platforms, Service Cloud, Cloud BPM, and High Performance BPM systems.
+I am associate professor at the University of Coimbra (Portugal), and affiliated to the Information Systems Group. I am also Lead Architect for Cloud Management at Huawei's European Research Center in Munich, Germany,
+I am currently involved in developing the next generation of Cloud Management Platforms, Cloud Automation, Cloud BPM, and High Performance BPM (business process management) systems.
 </p>
-
-My main research interests include: service analytics, semantic web, service systems, service description languages, and business process management.
 
 + [LinkedIn](https://www.linkedin.com/profile/view?id=2572343&trk=hp-identity-name)
 + [Google Scholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en&oi=ao)
