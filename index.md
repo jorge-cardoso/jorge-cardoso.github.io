@@ -12,9 +12,7 @@ ads: false
 <img src="/images/Jorge-Elbe.gif" height="128" width="155"  style="float:left;margin:0 20px 0 0;"/>
 </a>
 </p>
-I am associate professor at the [University of Coimbra](http://www.uc.pt/en/fctuc/dei) (Portugal), and affiliated to the Information Systems Group.
-
-I am also Lead Architect for Cloud Management at [Huawei's European Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany.
+I am Associate Professor at the [University of Coimbra](http://www.uc.pt/en/fctuc/dei) (Portugal), and affiliated to the Information Systems Group. I am also Lead Architect for Cloud Management at [Huawei's European Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany.
 
 My current research involves the development of the next generation of Cloud Management Platforms ([CPM](http://www.gartner.com/it-glossary/cloud-management-platforms)), Cloud Automation solutions, Cloud Business Process Management (BPM), and High Performance BPM systems.
 
