@@ -7,9 +7,11 @@ ads: false
 ---
 
 <p>
+
 <a href="http://placehold.it/1200x600.gif">
 <img src="/images/Jorge-Elbe.gif" height="128" width="155"  style="float:left;margin:0 20px 0 0;"/>
 </a>
+
 I am associate professor at the [University of Coimbra](http://www.uc.pt/en/fctuc/dei) (Portugal), and affiliated to the Information Systems Group.
 
 I am also Lead Architect for Cloud Management at [Huawei's European Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany.
