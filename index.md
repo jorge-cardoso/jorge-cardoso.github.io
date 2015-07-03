@@ -11,15 +11,16 @@ ads: false
 <a href="http://placehold.it/1200x600.gif">
 <img src="/images/Jorge-Elbe.gif" height="128" width="155"  style="float:left;margin:0 20px 0 0;"/>
 </a>
-
+</p>
 I am associate professor at the [University of Coimbra](http://www.uc.pt/en/fctuc/dei) (Portugal), and affiliated to the Information Systems Group.
 
 I am also Lead Architect for Cloud Management at [Huawei's European Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany.
 
 My current research involves the development of the next generation of Cloud Management Platforms ([CPM](http://www.gartner.com/it-glossary/cloud-management-platforms)), Cloud Automation solutions, Cloud Business Process Management (BPM), and High Performance BPM systems.
-</p>
+
 
 You can find more about my research on Cloud Computing, BPM, Semantic Web, Web Services, and Enterprise Systems at:
+
 + [LinkedIn](https://www.linkedin.com/profile/view?id=2572343&trk=hp-identity-name)
 + [Google Scholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en&oi=ao)
 + [DBLP](http://dblp.uni-trier.de/pers/hd/c/Cardoso:Jorge)
