@@ -16,6 +16,9 @@ I am currently involved in developing new types of Enterprise Systems using RDFS
 
 My main research interests include: service analytics, semantic web, service systems, service description languages, and business process management.
 
++ [LinkedIn](https://www.linkedin.com/profile/view?id=2572343&trk=hp-identity-name)
++ [Google Scholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en&oi=ao)
++ [DBLP](http://dblp.uni-trier.de/pers/hd/c/Cardoso:Jorge)
 
 News
 ---------------
