@@ -16,11 +16,10 @@ I am Associate Professor at the [University of Coimbra](http://www.uc.pt/en/fctu
 
 My current research involves the development of the next generation of Cloud Management Platforms ([CPM](http://www.gartner.com/it-glossary/cloud-management-platforms)), Cloud Automation solutions, Cloud Business Process Management (BPM), and High Performance BPM systems.
 
-
 You can find more about my research on Cloud Computing, BPM, Semantic Web, Web Services, and Enterprise Systems at:
-[LinkedIn](https://www.linkedin.com/profile/view?id=2572343&trk=hp-identity-name),
 [Google Scholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en&oi=ao),
-[DBLP](http://dblp.uni-trier.de/pers/hd/c/Cardoso:Jorge).
+[DBLP](http://dblp.uni-trier.de/pers/hd/c/Cardoso:Jorge), and
+[LinkedIn](https://www.linkedin.com/profile/view?id=2572343&trk=hp-identity-name).
 
 News
 ---------------
