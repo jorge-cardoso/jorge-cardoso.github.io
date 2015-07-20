@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Evolution and Overview of Linked USDL • Jorge Cardoso</title>
+    
+    <meta name="keywords" content="">
+    
+    
+    	<!-- Twitter Cards -->
+	<meta name="twitter:title" content="Evolution and Overview of Linked USDL">
+	
+	
+	
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image" content="http://jorge-cardoso.github.io/images/Cover-FSS.gif">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="http://jorge-cardoso.github.io">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Evolution and Overview of Linked USDL">
+	
+	<meta property="og:url" content="http://jorge-cardoso.github.io/blog/Linked-USDL/">
+	<meta property="og:site_name" content="Jorge Cardoso">
+    
+
+    <link rel="canonical" href="http://jorge-cardoso.github.io/blog/Linked-USDL/">
+
+    <link href="http://jorge-cardoso.github.io/atom.xml" type="application/atom+xml" rel="alternate" title="Jorge Cardoso Atom Feed">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+    <style>
+    .sliding-menu-content {
+      top: 0;
+      right: 0;
+      text-align: center;
+      visibility: hidden;
+      height: 100%;
+      width: 100%;
+      -webkit-transform: translateX(100%);
+      -moz-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+      -o-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    </style>
+
+    <link rel="stylesheet" href="http://jorge-cardoso.github.io/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="http://jorge-cardoso.github.io/js/vendor/html5shiv.min.js"></script>
+      <script src="http://jorge-cardoso.github.io/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+    <header id="masthead">
+  <div class="inner-wrap">
+    <a href="http://jorge-cardoso.github.io" class="site-title">Jorge Cardoso</a>
+    <nav role="navigation" class="menu top-menu">
+        <ul class="menu-item">
+	<li class="home"><a href="/">Jorge Cardoso</a></li>
+	
+    
+        
+    
+    <li><a href="http://jorge-cardoso.github.io/" >Home</a></li>
+  
+    
+        
+    
+    <li><a href="http://jorge-cardoso.github.io/research/" >Research</a></li>
+  
+    
+        
+    
+    <li><a href="http://jorge-cardoso.github.io/publications/" >Publications</a></li>
+  
+    
+        
+    
+    <li><a href="http://jorge-cardoso.github.io/courses/" >Courses</a></li>
+  
+    
+        
+    
+    <li><a href="http://jorge-cardoso.github.io/books/" >Books</a></li>
+  
+    
+        
+    
+    <li><a href="http://jorge-cardoso.github.io/blog/" >Blog</a></li>
+  
+</ul>
+    </nav>
+  </div><!-- /.inner-wrap -->
+</header><!-- /.masthead -->
+    <nav role="navigation" class="js-menu sliding-menu-content">
+	<ul class="menu-item">
+		<li>
+      
+        
+      
+			<a href="http://jorge-cardoso.github.io/"><img src="http://jorge-cardoso.github.io/images/Teaser-Home.png" alt="teaser" class="teaser"></a>
+			<a href="http://jorge-cardoso.github.io/" class="title">Home</a>
+			<p class="excerpt">Home page</p>
+		</li><li>
+      
+        
+      
+			<a href="http://jorge-cardoso.github.io/research/"><img src="http://jorge-cardoso.github.io/images/Teaser-Research.png" alt="teaser" class="teaser"></a>
+			<a href="http://jorge-cardoso.github.io/research/" class="title">Research</a>
+			<p class="excerpt">Main research interrests</p>
+		</li><li>
+      
+        
+      
+			<a href="http://jorge-cardoso.github.io/publications/"><img src="http://jorge-cardoso.github.io/images/Teaser-Publications.png" alt="teaser" class="teaser"></a>
+			<a href="http://jorge-cardoso.github.io/publications/" class="title">Publications</a>
+			<p class="excerpt">List of scientific publications</p>
+		</li><li>
+      
+        
+      
+			<a href="http://jorge-cardoso.github.io/courses/"><img src="http://jorge-cardoso.github.io/images/Teaser-Courses.jpg" alt="teaser" class="teaser"></a>
+			<a href="http://jorge-cardoso.github.io/courses/" class="title">Courses</a>
+			<p class="excerpt">Courses taught over the years</p>
+		</li><li>
+      
+        
+      
+			<a href="http://jorge-cardoso.github.io/books/"><img src="http://jorge-cardoso.github.io/images/Teaser-Books.jpg" alt="teaser" class="teaser"></a>
+			<a href="http://jorge-cardoso.github.io/books/" class="title">Books</a>
+			<p class="excerpt">Academic and scientific books published</p>
+		</li><li>
+      
+        
+      
+			<a href="http://jorge-cardoso.github.io/blog/"><img src="http://jorge-cardoso.github.io/images/Teaser-Blog.jpg" alt="teaser" class="teaser"></a>
+			<a href="http://jorge-cardoso.github.io/blog/" class="title">Blog</a>
+			<p class="excerpt">My commemts, opinion, and thoughts</p>
+		</li>
+	</ul>
+</nav>
+<button type="button" class="js-menu-trigger sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+	<span class="lines"></span>
+</button>
+
+<div class="js-menu-screen menu-screen"></div>
+
+    <div id="page-wrapper">
+      <!--[if lt IE 9]><div class="upgrade notice-danger"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+
+      <div id="main" role="main">	
+	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+		
+		<nav class="breadcrumbs">
+  <a href="http://jorge-cardoso.github.io">Home</a> <span class="divider">/</span> <a href="http://jorge-cardoso.github.io/blog/">Blog</a> <span class="divider">/</span>
+</nav><!-- /.breadcrumbs -->
+		<div class="page-title">
+			<h1>Evolution and Overview of Linked USDL</h1>
+		</div>
+		<div class="inner-wrap">
+			<nav class="toc"></nav><!-- /.toc -->
+			<div id="content" class="page-content" itemprop="articleBody">
+				<p>Last Thursday (05.02.2015), Prof. Jorge Cardoso presented the paper titled “Evolution and Overview of Linked USDL” at the 6th International Conference Exploring Services Science (IESS 2015), held in Porto, Portugal. The paper, written with Carlos Pedrinaci, reviews the evolution and provides an overview of Linked USDL, the comprehensive language that provides a multi-faceted description of services over the web.</p>
+
+<p>The first attempts to develop USDL were made seven years ago, in 2008, and proposed a simple XML schema to capture the main characteristics of services. In 2011, technologies based on Ecore and EMF were used for modeling. To surpass existing limitations (e.g., rigidity and complexity) and to find a better alignment with web standards (e.g., HTTP and URI) motivated researchers develop Linked USDL, an approach based on Linked Data principles.
+It was completed in 2013 and it is the fourth version of the language.</p>
+
+<ul>
+  <li>Jorge Cardoso and Carlos Pedrinaci, <a href="/publications/Papers/CP-2015-077-Linked-USDL-Evolution-and-Overview.pdf">Evolution and Overview of Linked USDL</a>. 6th International Conference Exploring Services Science, IESS 2015, Porto, Portugal, February 4-6, 2015, LNBIP, Vol. 201, Novoa, Henriqueta, Dragoicea, Monica (Eds.), 2015.</li>
+</ul>
+
+				<hr />
+				<footer class="page-footer">
+					<div class="inline-btn">
+	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Evolution%20and%20Overview%20of%20Linked%20USDL&amp;url=http://jorge-cardoso.github.io/blog/Linked-USDL/&amp;via=" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
+	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://jorge-cardoso.github.io/blog/Linked-USDL/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Share on Facebook</a>
+	<a class="btn-social google-plus"  href="https://plus.google.com/share?url=http://jorge-cardoso.github.io/blog/Linked-USDL/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i> Share on Google+</a>
+</div><!-- /.share-this -->
+					<div class="page-meta">
+	<p>Updated <time datetime="2015-02-10T12:39:59Z" itemprop="datePublished">February 10, 2015</time></p>
+</div><!-- /.page-meta -->
+				</footer><!-- /.footer -->
+				<aside>
+					
+				</aside>
+			</div><!-- /.content -->
+		</div><!-- /.inner-wrap -->
+		
+	</article><!-- /.wrap -->
+</div><!-- /#main -->
+
+      <footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<ul class="menu-item">
+		
+      
+        
+      
+			<li><a href="http://jorge-cardoso.github.io" ></a></li>
+		
+		</ul>
+	</nav><!-- /.bottom-menu -->
+	<p class="copyright">&#169; 2015 <a href="http://jorge-cardoso.github.io">Jorge Cardoso</a> (powered by <a href="http://jekyllrb.com">Jekyll</a> and <a href="http://mademistakes.com">Skinny Bones</a>).</p>
+</footer>
+    </div>
+
+    
+
+    <script src="http://jorge-cardoso.github.io/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="http://jorge-cardoso.github.io/js/main.js"></script>
+    
+    
+
+    
+
+  </body>
+
+</html>

@@ -1,122 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  
   <url>
-    <loc>http://0.0.0.0:4000/blog/service-systems/</loc>
-    <lastmod>2015-01-01T11:39:59+00:00</lastmod>
-    <priority>0.8</priority>
+    <loc>http://jorge-cardoso.github.io/blog/Cloud-Management-Platforms-CMP/</loc>
+    <lastmod>2015-07-04T13:39:59+02:00</lastmod>
   </url>
-  
   <url>
-    <loc>http://0.0.0.0:4000/books/fundamentals-of-service-systems/</loc>
-    <lastmod>2015-01-01T11:39:59+00:00</lastmod>
-    <priority>0.8</priority>
+    <loc>http://jorge-cardoso.github.io/blog/Linked-USDL/</loc>
+    <lastmod>2015-02-10T12:39:59+01:00</lastmod>
   </url>
-  
   <url>
-    <loc>http://0.0.0.0:4000/blog/ITIL-maturity/</loc>
-    <lastmod>2015-01-01T11:39:59+00:00</lastmod>
-    <priority>0.8</priority>
+    <loc>http://jorge-cardoso.github.io/blog/Data-Science-4-NP/</loc>
+    <lastmod>2015-01-29T12:39:59+01:00</lastmod>
   </url>
-  
   <url>
-    <loc>http://0.0.0.0:4000/books/service-systems-concepts-modeling-and-programming/</loc>
-    <lastmod>2014-10-01T12:39:28+01:00</lastmod>
-    <priority>0.8</priority>
+    <loc>http://jorge-cardoso.github.io/books/fundamentals-of-service-systems/</loc>
+    <lastmod>2015-01-01T12:39:59+01:00</lastmod>
   </url>
-  
   <url>
-    <loc>http://0.0.0.0:4000/books/gestao-de-workflows-modelos-metodos-e-sistemas/</loc>
-    <lastmod>2009-09-15T12:00:17+01:00</lastmod>
-    <priority>0.8</priority>
+    <loc>http://jorge-cardoso.github.io/books/service-systems-concepts-modeling-and-programming/</loc>
+    <lastmod>2014-10-01T13:39:28+02:00</lastmod>
   </url>
-  
   <url>
-    <loc>http://0.0.0.0:4000/books/handbook-of-research-on-business-process-modeling/</loc>
-    <lastmod>2009-05-01T11:59:46+01:00</lastmod>
-    <priority>0.8</priority>
+    <loc>http://jorge-cardoso.github.io/books/gestao-de-workflows-modelos-metodos-e-sistemas/</loc>
+    <lastmod>2009-09-15T13:00:17+02:00</lastmod>
   </url>
-  
   <url>
-    <loc>http://0.0.0.0:4000/books/semantic-web-engineering-in-the-knowledge-society/</loc>
-    <lastmod>2008-10-10T11:59:29+01:00</lastmod>
-    <priority>0.8</priority>
+    <loc>http://jorge-cardoso.github.io/books/handbook-of-research-on-business-process-modeling/</loc>
+    <lastmod>2009-05-01T12:59:46+02:00</lastmod>
   </url>
-  
   <url>
-    <loc>http://0.0.0.0:4000/books/the-semantic-web-real-world-applications-from-industry/</loc>
-    <lastmod>2008-06-15T11:58:31+01:00</lastmod>
-    <priority>0.8</priority>
+    <loc>http://jorge-cardoso.github.io/books/semantic-web-engineering-in-the-knowledge-society/</loc>
+    <lastmod>2008-10-10T12:59:29+02:00</lastmod>
   </url>
-  
   <url>
-    <loc>http://0.0.0.0:4000/books/programacao-de-sistemas-distribuidos-em-java/</loc>
-    <lastmod>2008-03-15T11:11:38+00:00</lastmod>
-    <priority>0.8</priority>
+    <loc>http://jorge-cardoso.github.io/books/the-semantic-web-real-world-applications-from-industry/</loc>
+    <lastmod>2008-06-15T12:58:31+02:00</lastmod>
   </url>
-  
   <url>
-    <loc>http://0.0.0.0:4000/books/semantic-web-services-theory-tools-and-applications/</loc>
-    <lastmod>2007-03-31T11:58:52+01:00</lastmod>
-    <priority>0.8</priority>
+    <loc>http://jorge-cardoso.github.io/books/programacao-de-sistemas-distribuidos-em-java/</loc>
+    <lastmod>2008-03-15T12:11:38+01:00</lastmod>
   </url>
-  
   <url>
-    <loc>http://0.0.0.0:4000/books/semantic-web-services-processes-and-applications/</loc>
-    <lastmod>2006-08-15T11:59:09+01:00</lastmod>
-    <priority>0.8</priority>
+    <loc>http://jorge-cardoso.github.io/books/semantic-web-services-theory-tools-and-applications/</loc>
+    <lastmod>2007-03-31T12:58:52+02:00</lastmod>
   </url>
-  
-  
   <url>
-    <loc>http://0.0.0.0:4000/</loc>
-    <lastmod>2014-09-26T22:12:55+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <loc>http://jorge-cardoso.github.io/books/semantic-web-services-processes-and-applications/</loc>
+    <lastmod>2006-08-15T12:59:09+02:00</lastmod>
   </url>
-  
   <url>
-    <loc>http://0.0.0.0:4000/blog/</loc>
-    <lastmod>2014-09-26T22:12:55+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <loc>http://jorge-cardoso.github.io/</loc>
   </url>
-  
   <url>
-    <loc>http://0.0.0.0:4000/publications/</loc>
-    <lastmod>2014-09-26T22:12:55+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <loc>http://jorge-cardoso.github.io/blog/</loc>
   </url>
-  
   <url>
-    <loc>http://0.0.0.0:4000/courses/</loc>
-    <lastmod>2014-09-26T22:12:55+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <loc>http://jorge-cardoso.github.io/publications/</loc>
   </url>
-  
   <url>
-    <loc>http://0.0.0.0:4000/research/</loc>
-    <lastmod>2014-09-26T22:12:55+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <loc>http://jorge-cardoso.github.io/courses/</loc>
   </url>
-  
   <url>
-    <loc>http://0.0.0.0:4000/books/</loc>
-    <lastmod>2014-09-26T22:12:55+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <loc>http://jorge-cardoso.github.io/research/</loc>
   </url>
-  
   <url>
-    <loc>http://0.0.0.0:4000/blog/index_with_search.html</loc>
-    <lastmod>2014-09-26T22:12:55+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <loc>http://jorge-cardoso.github.io/books/</loc>
   </url>
-  
-  
+  <url>
+    <loc>http://jorge-cardoso.github.io/blog/index_with_search.html</loc>
+  </url>
 </urlset>

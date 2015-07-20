@@ -4,45 +4,125 @@
     
 
     <title>Jorge Cardoso</title>
-    <generator uri="https://github.com/jekyll/jekyll">Jekyll v2.2.0</generator>
-		<icon>http://0.0.0.0:4000/apple-touch-icon-precomposed.png</icon>
+    <generator uri="https://github.com/jekyll/jekyll">Jekyll v2.5.3</generator>
+		<icon>http://jorge-cardoso.github.io/apple-touch-icon-precomposed.png</icon>
     <subtitle>JC Description</subtitle>
-    <link href="http://0.0.0.0:4000/atom.xml" rel="self"/>
-    <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html"/>
-    <updated>2014-09-26T22:12:55+01:00</updated>
-    <id>http://0.0.0.0:4000/</id>
+    <link href="http://jorge-cardoso.github.io/atom.xml" rel="self"/>
+    <link href="http://jorge-cardoso.github.io/" rel="alternate" type="text/html"/>
+    <updated>2015-07-20T21:40:14+02:00</updated>
+    <id>http://jorge-cardoso.github.io/</id>
     <author>
 			<name></name>
-			<uri>http://0.0.0.0:4000/</uri>
+			<uri>http://jorge-cardoso.github.io/</uri>
 			
 		</author>
 
     
     <entry>
-        <title>Service Systems</title>
-        <link href="http://0.0.0.0:4000/blog/service-systems/"/>
-        <updated>2015-01-01T11:39:59+00:00</updated>
-        <id>http://0.0.0.0:4000/blog/service-systems</id>
+        <title>Cloud Management Platforms (CMP) </title>
+        <link href="http://jorge-cardoso.github.io/blog/Cloud-Management-Platforms-CMP/"/>
+        <updated>2015-07-04T13:39:59+02:00</updated>
+        <id>http://jorge-cardoso.github.io/blog/Cloud-Management-Platforms-CMP</id>
         <author>
 					<name></name>
-					<uri>http://0.0.0.0:4000/</uri>
+					<uri>http://jorge-cardoso.github.io/</uri>
 					
 				</author>
         <content type="html">
         	
-        	&lt;p&gt;Need to write a blog.&lt;/p&gt;
+        	
+&lt;p&gt;Cloud Management Platforms (&lt;a href=&quot;http://www.gartner.com/it-glossary/cloud-management-platforms&quot;&gt;CPM&lt;/a&gt;) can operate at three levels: Infrastructure-as-a-Service (IaaS), Platform-as-a-Service (PaaS), and Software-as-a-Service (SaaS).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;At the IaaS level, CMP assist administrators to manage the physical infrastructure by providing management capabilities in the fields of pricing/billing, SLA management, scheduling, VM pool management, monitoring, and reservation. From the provider side, CMP allows better exploiting hardware virtualization and provides a more robust environment where executing third party applications. From the  customer side, it supports the construction of their infrastructure in the cloud.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;At the PaaS level, CMP assist administrators to manage development and deployment platforms for running applications in the cloud. CMP manage the processes established to deploy applications to the IaaS, which include configuring application libraries, and compiling and debugging. While solutions to manage Web application are the most popular (e.g., Heroku and Google AppEngine), other solutions provide a platform for any type of application (e.g., GigaSpaces and Microsoft Windows Azure).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;At the SaaS level, CMP assists administrators at managing applications provided through the Internet as a Web-based service, such as CRM, ERP, and social networking applications.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>Evolution and Overview of Linked USDL</title>
+        <link href="http://jorge-cardoso.github.io/blog/Linked-USDL/"/>
+        <updated>2015-02-10T12:39:59+01:00</updated>
+        <id>http://jorge-cardoso.github.io/blog/Linked-USDL</id>
+        <author>
+					<name></name>
+					<uri>http://jorge-cardoso.github.io/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Last Thursday (05.02.2015), Prof. Jorge Cardoso presented the paper titled “Evolution and Overview of Linked USDL” at the 6th International Conference Exploring Services Science (IESS 2015), held in Porto, Portugal. The paper, written with Carlos Pedrinaci, reviews the evolution and provides an overview of Linked USDL, the comprehensive language that provides a multi-faceted description of services over the web.&lt;/p&gt;
+
+&lt;p&gt;The first attempts to develop USDL were made seven years ago, in 2008, and proposed a simple XML schema to capture the main characteristics of services. In 2011, technologies based on Ecore and EMF were used for modeling. To surpass existing limitations (e.g., rigidity and complexity) and to find a better alignment with web standards (e.g., HTTP and URI) motivated researchers develop Linked USDL, an approach based on Linked Data principles.
+It was completed in 2013 and it is the fourth version of the language.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Jorge Cardoso and Carlos Pedrinaci, &lt;a href=&quot;/publications/Papers/CP-2015-077-Linked-USDL-Evolution-and-Overview.pdf&quot;&gt;Evolution and Overview of Linked USDL&lt;/a&gt;. 6th International Conference Exploring Services Science, IESS 2015, Porto, Portugal, February 4-6, 2015, LNBIP, Vol. 201, Novoa, Henriqueta, Dragoicea, Monica (Eds.), 2015.&lt;/li&gt;
+&lt;/ul&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>Data Science for Non-Programmers</title>
+        <link href="http://jorge-cardoso.github.io/blog/Data-Science-4-NP/"/>
+        <updated>2015-01-29T12:39:59+01:00</updated>
+        <id>http://jorge-cardoso.github.io/blog/Data-Science-4-NP</id>
+        <author>
+					<name></name>
+					<uri>http://jorge-cardoso.github.io/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;h4 id=&quot;background&quot;&gt;Background&lt;/h4&gt;
+&lt;p&gt;The leading consulting company McKinsey estimates that there will be a shortage of data scientists to enable organizations to explore the full potential of big data. By 2018, the United States alone will face a shortage of 140,000 to 190,000 professionals with strong analytical skills with the know-how to analyze big data to make effective decisions. This shortage will be more dramatic in Portugal since, in contrast to US universities that provide Data Science degrees for several years (e.g., at Berkeley and Carnegie Mellon University), Portuguese universities are just making the first steps. In short, without Data Science professionals, the competitive advantage that big data can bring to Portuguese companies will remain untapped.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-problem&quot;&gt;The Problem&lt;/h4&gt;
+&lt;p&gt;This shortage of professionals cannot be mitigated easily since training students to become data scientists requires time and resources to teach skills from diverse knowledge areas such as Computer Science, Statistics, Business, and Data Visualization. Data scientists are involved across the full data lifecycle – from acquiring new data sets to making business decisions based on the knowledge discovered. They need to be skilled with programming languages (e.g., Python and Perl) to clean, integrate and transform data, and use complex programming packages (e.g., Scikit-Learn for analytics and MatPlotLib for visualization). Mastering this type of working environment is not easy.&lt;/p&gt;
+
+&lt;h4 id=&quot;objective&quot;&gt;Objective&lt;/h4&gt;
+&lt;p&gt;A short term objective for companies will be to explore the use of visual programming paradigms to enable non-programmers to be part of the Data Science workforce.&lt;/p&gt;
+
+&lt;h4 id=&quot;existing-approaches&quot;&gt;Existing Approaches&lt;/h4&gt;
+&lt;p&gt;In contrast to existing approaches, which require programming, Scientific Workflow Management Systems (SWMS) can become an alternative to support the visual programming of data science projects. Such systems (e.g. Taverna and Kepler) use a simple graphical, graph-based structure to develop applications. This simplicity has shown to be suitable in several scientific areas such as bioinformatics, geophysics, and climate analysis.&lt;/p&gt;
+
+&lt;h4 id=&quot;limitation&quot;&gt;Limitation&lt;/h4&gt;
+&lt;p&gt;Despite the success of SWMS in data intensive research, they did not reach a state where non-programmers data scientists can use them. They still require some programming and scripting skills to code individual processing tasks. That is why research teams using those systems are usually composed of scientists and software developers. Thus, further research is required to remove any programming still required from these systems to make them suitable for non-programmers.&lt;/p&gt;
+
+&lt;h4 id=&quot;proposed-approach&quot;&gt;Proposed Approach&lt;/h4&gt;
+&lt;p&gt;Current SWMS need to be extended to support the parameterization of generic prebuild workflow templates. Workflow templates capture the processing tasks of data science projects. A template can be seen as a formalized best practice that data scientists can use to solve common data analysis challenges. Templates are developed by multidisciplinary teams of experts and reused by non-programmer data scientists, since they do not require programming. Parameterized workflows have been used successfully in the field of enterprise computing since 1970 to increase software reuse. For example, SAP became the largest software company in Europe by using parameterized workflows to automatize business process models. We claim that the same type of benefits can be obtained by parameterizing scientific workflow templates.&lt;/p&gt;
+
+&lt;h4 id=&quot;implementation&quot;&gt;Implementation&lt;/h4&gt;
+&lt;p&gt;Approaches based on templates can be implemented in SWMSs such as Taverna, an open source software tool for designing and executing workflows, which is used by 350 major research institutions worldwide. Platforms, such as ?myexperiment.org?, can be used for sharing workflow templates among data scientists.&lt;/p&gt;
+
+&lt;h4 id=&quot;evaluation&quot;&gt;Evaluation&lt;/h4&gt;
+&lt;p&gt;Naturally, this systems need to be evaluated by data intensive organizations such as telecommunication providers and governmental agencies managing Open Data. Furthermore, hackathons can be ideal events to attract young participants, interested in developing science, business, and technology projects, to evaluate these new types of approaches.&lt;/p&gt;
+
+&lt;h4 id=&quot;benefits&quot;&gt;Benefits&lt;/h4&gt;
+&lt;p&gt;On the one hand, workflow templates and SWMSs will be available for student and professionals to conduct data science experiments. On the other hand, such a project can generate a wealth of material – workflow templates, datasets, articles, code, and software – which will be used to prepare new hands-on courses on Data Science and SWMS to be offered at the university level.&lt;/p&gt;
+
 
         </content>
     </entry>
     
     <entry>
         <title>Fundamentals of Service Systems</title>
-        <link href="http://0.0.0.0:4000/books/fundamentals-of-service-systems/"/>
-        <updated>2015-01-01T11:39:59+00:00</updated>
-        <id>http://0.0.0.0:4000/books/fundamentals-of-service-systems</id>
+        <link href="http://jorge-cardoso.github.io/books/fundamentals-of-service-systems/"/>
+        <updated>2015-01-01T12:39:59+01:00</updated>
+        <id>http://jorge-cardoso.github.io/books/fundamentals-of-service-systems</id>
         <author>
 					<name></name>
-					<uri>http://0.0.0.0:4000/</uri>
+					<uri>http://jorge-cardoso.github.io/</uri>
 					
 				</author>
         <content type="html">
@@ -58,30 +138,13 @@
     </entry>
     
     <entry>
-        <title>Service Systems</title>
-        <link href="http://0.0.0.0:4000/blog/ITIL-maturity/"/>
-        <updated>2015-01-01T11:39:59+00:00</updated>
-        <id>http://0.0.0.0:4000/blog/ITIL-maturity</id>
-        <author>
-					<name></name>
-					<uri>http://0.0.0.0:4000/</uri>
-					
-				</author>
-        <content type="html">
-        	
-        	&lt;p&gt;Need to write a blog.&lt;/p&gt;
-
-        </content>
-    </entry>
-    
-    <entry>
         <title>Service Systems: Concepts, Modeling, and Programming</title>
-        <link href="http://0.0.0.0:4000/books/service-systems-concepts-modeling-and-programming/"/>
-        <updated>2014-10-01T12:39:28+01:00</updated>
-        <id>http://0.0.0.0:4000/books/service-systems-concepts-modeling-and-programming</id>
+        <link href="http://jorge-cardoso.github.io/books/service-systems-concepts-modeling-and-programming/"/>
+        <updated>2014-10-01T13:39:28+02:00</updated>
+        <id>http://jorge-cardoso.github.io/books/service-systems-concepts-modeling-and-programming</id>
         <author>
 					<name></name>
-					<uri>http://0.0.0.0:4000/</uri>
+					<uri>http://jorge-cardoso.github.io/</uri>
 					
 				</author>
         <content type="html">
@@ -91,9 +154,9 @@
 	&lt;figcaption&gt;Cardoso, Lopes, and Geert. Springer 2014.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;This SpringerBrief explores the internal workings of service systems. &lt;/p&gt;
+&lt;p&gt;This SpringerBrief explores the internal workings of service systems.&lt;/p&gt;
 
-&lt;p&gt;The authors propose a lightweight semantic model for an effective representation to capture the essence of service systems. Key topics include modeling frameworks, service descriptions and linked data, creating service instances, tool support, and applications in enterprises. Previous books on service system modeling and various streams of scientific developments used an external perspective to describe how systems can be integrated. This brief introduces the concept of white-box service system modeling as an approach to model the internal aspects and elements of service systems. This approach provides descriptions that can be used for service management, optimization, and analytics. &lt;/p&gt;
+&lt;p&gt;The authors propose a lightweight semantic model for an effective representation to capture the essence of service systems. Key topics include modeling frameworks, service descriptions and linked data, creating service instances, tool support, and applications in enterprises. Previous books on service system modeling and various streams of scientific developments used an external perspective to describe how systems can be integrated. This brief introduces the concept of white-box service system modeling as an approach to model the internal aspects and elements of service systems. This approach provides descriptions that can be used for service management, optimization, and analytics.&lt;/p&gt;
 
 &lt;p&gt;Service Systems: Concepts, Modeling, and Programming is designed for researchers, teachers, and advanced-level students who want to learn about the new emerging field of service science and IS/IT practitioners who are looking for better ways to describe, model, and communicate services.&lt;/p&gt;
 
@@ -104,12 +167,12 @@
     
     <entry>
         <title>Gestao de Workflows: Modelos, Metodos e Sistemas</title>
-        <link href="http://0.0.0.0:4000/books/gestao-de-workflows-modelos-metodos-e-sistemas/"/>
-        <updated>2009-09-15T12:00:17+01:00</updated>
-        <id>http://0.0.0.0:4000/books/gestao-de-workflows-modelos-metodos-e-sistemas</id>
+        <link href="http://jorge-cardoso.github.io/books/gestao-de-workflows-modelos-metodos-e-sistemas/"/>
+        <updated>2009-09-15T13:00:17+02:00</updated>
+        <id>http://jorge-cardoso.github.io/books/gestao-de-workflows-modelos-metodos-e-sistemas</id>
         <author>
 					<name></name>
-					<uri>http://0.0.0.0:4000/</uri>
+					<uri>http://jorge-cardoso.github.io/</uri>
 					
 				</author>
         <content type="html">
@@ -128,12 +191,12 @@
     
     <entry>
         <title>Handbook of Research on Business Process Modeling</title>
-        <link href="http://0.0.0.0:4000/books/handbook-of-research-on-business-process-modeling/"/>
-        <updated>2009-05-01T11:59:46+01:00</updated>
-        <id>http://0.0.0.0:4000/books/handbook-of-research-on-business-process-modeling</id>
+        <link href="http://jorge-cardoso.github.io/books/handbook-of-research-on-business-process-modeling/"/>
+        <updated>2009-05-01T12:59:46+02:00</updated>
+        <id>http://jorge-cardoso.github.io/books/handbook-of-research-on-business-process-modeling</id>
         <author>
 					<name></name>
-					<uri>http://0.0.0.0:4000/</uri>
+					<uri>http://jorge-cardoso.github.io/</uri>
 					
 				</author>
         <content type="html">
@@ -143,9 +206,9 @@
 	&lt;figcaption&gt;Cardoso and Aalst. IGI Global 2009.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;In the last 10 years, there has been an explosion in the number of theories, technologies, standards, and tools providing business process support. At the same time, process support has taken an increasingly important role within information systems development (process-aware systems). &lt;/p&gt;
+&lt;p&gt;In the last 10 years, there has been an explosion in the number of theories, technologies, standards, and tools providing business process support. At the same time, process support has taken an increasingly important role within information systems development (process-aware systems).&lt;/p&gt;
 
-&lt;p&gt;The conjunction of these factors has created a need among practitioners (e.g., researchers, system analysts, IT consultants, business analysts, and chief process officers) for a book providing a broad overview of this promising field from an academic and industrial perspective. &lt;/p&gt;
+&lt;p&gt;The conjunction of these factors has created a need among practitioners (e.g., researchers, system analysts, IT consultants, business analysts, and chief process officers) for a book providing a broad overview of this promising field from an academic and industrial perspective.&lt;/p&gt;
 
 &lt;p&gt;To achieve this goal, this handbook will bring together in one place contributions from leading experts, thereby guaranteeing a broad and diverse base of knowledge and expertise. The need for a comprehensive and authoritative book on Research on Business Process Modeling is latent among researchers from academia and industry and from workflow and BPM vendors. Stakeholders are often overloaded with a massive amount of BPM data available on the Web, but with no coherent 360? view of the field. When referring to general theory, techniques, and technologies, publications refer to an array of survey articles, with no reference standing out as an agreed-upon source of common ground.&lt;/p&gt;
 
@@ -156,12 +219,12 @@
     
     <entry>
         <title>Semantic Web Engineering in the Knowledge Society</title>
-        <link href="http://0.0.0.0:4000/books/semantic-web-engineering-in-the-knowledge-society/"/>
-        <updated>2008-10-10T11:59:29+01:00</updated>
-        <id>http://0.0.0.0:4000/books/semantic-web-engineering-in-the-knowledge-society</id>
+        <link href="http://jorge-cardoso.github.io/books/semantic-web-engineering-in-the-knowledge-society/"/>
+        <updated>2008-10-10T12:59:29+02:00</updated>
+        <id>http://jorge-cardoso.github.io/books/semantic-web-engineering-in-the-knowledge-society</id>
         <author>
 					<name></name>
-					<uri>http://0.0.0.0:4000/</uri>
+					<uri>http://jorge-cardoso.github.io/</uri>
 					
 				</author>
         <content type="html">
@@ -171,9 +234,9 @@
 	&lt;figcaption&gt;Cardoso and Lytras. IGI Global 2008.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;The main objective of the book is to lay the foundations for understanding the technologies behind the Semantic Web. &lt;/p&gt;
+&lt;p&gt;The main objective of the book is to lay the foundations for understanding the technologies behind the Semantic Web.&lt;/p&gt;
 
-&lt;p&gt;Organizations are striving for literature that guides them in the development of end-to-end applications and systems that use semantics. While the industry is willing to use semantics, the academia has not yet shown how to systematically employ Semantic Web technologies to deploy a new breed of systems. &lt;/p&gt;
+&lt;p&gt;Organizations are striving for literature that guides them in the development of end-to-end applications and systems that use semantics. While the industry is willing to use semantics, the academia has not yet shown how to systematically employ Semantic Web technologies to deploy a new breed of systems.&lt;/p&gt;
 
 &lt;p&gt;The book aims to provide relevant theories, tools, and methodologies to develop semantic applications. It is written for students and professionals who want to improve their understanding of how semantics and ontologies can be used inside organizations. It also aims at studying the application of semantics to each of the steps in the semantic applications lifecycle and how semantics can help address critical issues in reuse, integration, and interoperability.&lt;/p&gt;
 
@@ -184,12 +247,12 @@
     
     <entry>
         <title>The Semantic Web: Real World Applications from Industry</title>
-        <link href="http://0.0.0.0:4000/books/the-semantic-web-real-world-applications-from-industry/"/>
-        <updated>2008-06-15T11:58:31+01:00</updated>
-        <id>http://0.0.0.0:4000/books/the-semantic-web-real-world-applications-from-industry</id>
+        <link href="http://jorge-cardoso.github.io/books/the-semantic-web-real-world-applications-from-industry/"/>
+        <updated>2008-06-15T12:58:31+02:00</updated>
+        <id>http://jorge-cardoso.github.io/books/the-semantic-web-real-world-applications-from-industry</id>
         <author>
 					<name></name>
-					<uri>http://0.0.0.0:4000/</uri>
+					<uri>http://jorge-cardoso.github.io/</uri>
 					
 				</author>
         <content type="html">
@@ -199,7 +262,7 @@
 	&lt;figcaption&gt;Cardoso, Hepp, Lytras. Springer 2008.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Semantic Web: Real-World Applications from Industry offers a glimpse into the opening door of semantic technologies by means of concentrated examples of semantic applications in real business environments. &lt;/p&gt;
+&lt;p&gt;Semantic Web: Real-World Applications from Industry offers a glimpse into the opening door of semantic technologies by means of concentrated examples of semantic applications in real business environments.&lt;/p&gt;
 
 &lt;p&gt;For quite a while, there has been evidence from academic research and early industrial prototypes that semantic technology can help humans and machines substantially in accessing and using the unprecedented, and exponentially growing, amount of information that the World Wide Web provides. Now semantic technology is moving from academic and industrial research into real products and applications.  This book provides a series of case studies which demonstrate how real benefits can be derived from the adoption of semantic technology in popular business domains, such as telecommunication, B2B integration, healthcare, education, and others.&lt;/p&gt;
 
@@ -216,12 +279,12 @@
     
     <entry>
         <title>Programacao de Sistemas Distribuidos em Java</title>
-        <link href="http://0.0.0.0:4000/books/programacao-de-sistemas-distribuidos-em-java/"/>
-        <updated>2008-03-15T11:11:38+00:00</updated>
-        <id>http://0.0.0.0:4000/books/programacao-de-sistemas-distribuidos-em-java</id>
+        <link href="http://jorge-cardoso.github.io/books/programacao-de-sistemas-distribuidos-em-java/"/>
+        <updated>2008-03-15T12:11:38+01:00</updated>
+        <id>http://jorge-cardoso.github.io/books/programacao-de-sistemas-distribuidos-em-java</id>
         <author>
 					<name></name>
-					<uri>http://0.0.0.0:4000/</uri>
+					<uri>http://jorge-cardoso.github.io/</uri>
 					
 				</author>
         <content type="html">
@@ -234,13 +297,13 @@
 &lt;p&gt;The purpose of this book is to present the concepts and technologies needed to develop distributed systems in Java. It describes and illustrates how sockets, CORBA, RPC, Java RMI, and Web services can be used to design and implement distributed systems. This book is an indispensable compendium for BSc/MSc students and professionals involved with the implementation of distributed systems. The topics covered include:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Evolution of Computing Systems &lt;/li&gt;
-  &lt;li&gt;Data Networks &lt;/li&gt;
-  &lt;li&gt;Distributed Systems Architectures &lt;/li&gt;
-  &lt;li&gt;DNS: the Domain Name System &lt;/li&gt;
-  &lt;li&gt;Programming with Sockets &lt;/li&gt;
-  &lt;li&gt;CORBA &lt;/li&gt;
-  &lt;li&gt;Java Remote Method Invocation &lt;/li&gt;
+  &lt;li&gt;Evolution of Computing Systems&lt;/li&gt;
+  &lt;li&gt;Data Networks&lt;/li&gt;
+  &lt;li&gt;Distributed Systems Architectures&lt;/li&gt;
+  &lt;li&gt;DNS: the Domain Name System&lt;/li&gt;
+  &lt;li&gt;Programming with Sockets&lt;/li&gt;
+  &lt;li&gt;CORBA&lt;/li&gt;
+  &lt;li&gt;Java Remote Method Invocation&lt;/li&gt;
   &lt;li&gt;Web Services&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -251,12 +314,12 @@
     
     <entry>
         <title>Semantic Web Services: Theory, Tools and Applications</title>
-        <link href="http://0.0.0.0:4000/books/semantic-web-services-theory-tools-and-applications/"/>
-        <updated>2007-03-31T11:58:52+01:00</updated>
-        <id>http://0.0.0.0:4000/books/semantic-web-services-theory-tools-and-applications</id>
+        <link href="http://jorge-cardoso.github.io/books/semantic-web-services-theory-tools-and-applications/"/>
+        <updated>2007-03-31T12:58:52+02:00</updated>
+        <id>http://jorge-cardoso.github.io/books/semantic-web-services-theory-tools-and-applications</id>
         <author>
 					<name></name>
-					<uri>http://0.0.0.0:4000/</uri>
+					<uri>http://jorge-cardoso.github.io/</uri>
 					
 				</author>
         <content type="html">
@@ -277,12 +340,12 @@
     
     <entry>
         <title>Semantic Web Services, Processes and Applications </title>
-        <link href="http://0.0.0.0:4000/books/semantic-web-services-processes-and-applications/"/>
-        <updated>2006-08-15T11:59:09+01:00</updated>
-        <id>http://0.0.0.0:4000/books/semantic-web-services-processes-and-applications</id>
+        <link href="http://jorge-cardoso.github.io/books/semantic-web-services-processes-and-applications/"/>
+        <updated>2006-08-15T12:59:09+02:00</updated>
+        <id>http://jorge-cardoso.github.io/books/semantic-web-services-processes-and-applications</id>
         <author>
 					<name></name>
-					<uri>http://0.0.0.0:4000/</uri>
+					<uri>http://jorge-cardoso.github.io/</uri>
 					
 				</author>
         <content type="html">
