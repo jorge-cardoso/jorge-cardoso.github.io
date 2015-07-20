@@ -41,21 +41,39 @@ News
 + Francesco Guerra (Chair) and Jorge Cardoso (Vice-Chair). [COST Action IC1302: semantic KEYword-based Search on sTructured data sOurcEs](http://www.keystone-cost.eu), 2013-2017.
 
 
+
+Research on Cloud Management
+---------------
+
+### Research Topics
++ Provisioning/automation. Chef, GigaSpaces Technologies, Puppet Labs, RightScale, Salt, Ansible.
++ Cloud management. IBM systems and workload automation, Microsoft System Center and Microsoft Operations Management Suite, HP Cloud Service Automation, and Huawei FusionSphere.
+
+### Research Groups
++ Software Systems Research/NICTA. [Dependable Cloud Operations](http://ssrg.nicta.com.au/projects/cloud).
+
+### Conferences
++ [IEEE International Conference on Cloud Computing (IEEE CLOUD)](http://www.thecloudcomputing.org/).
++ [IEEE International Conference on Cloud Engineering (IC2E)](http://conferences.computer.org/IC2E/).
++ [International Conference on Cloud Computing and Services Science (CLOSER)](http://closer.scitevents.org).
+
+### Software Platforms
++ [Cloud Management at BMC](http://www.bmc.com/it-solutions/cloud-computing-software.html).
++ [Cloud Management at CA Technologies](http://www.ca.com/us/default.aspx).
++ [Cloud Service Automation at HP](http://www8.hp.com/us/en/software-solutions/cloud-service-automation/).
++ [IBM IT service management for Cloud](http://www-03.ibm.com/software/products/en/category/it-service-management).
+
+
+
+
+
+
 Events
 ---------------
 
 + On 23rd of March 2015 we organised an [SAP](http://www.sap.com) CodeJam event around SAP HANA Cloud Platform to demonstrate how Cloud Computing is being explored by companies. This event was part of the Service Engineering course of the Master in Computer Science. Take a look at some of the pictures and a more detailed description of the [CodeJam](http://scn.sap.com/community/events/codejam/blog/2015/03/25/sap-codejam-event-in-coimbra-sap-hana-cloud).
 
 + On February 2015, five students from the course Information Systems Management received the [ITIL](https://www.axelos.com/best-practice-solutions/itil/what-is-itil) Foundation certification. The certification was given in partnership with the consulting company [Deloitte](http://www2.deloitte.com/us/en.html?icid=global_site_selector_us). Congratulations to all.
-
-
-
-
-
-Research
----------------
-
-
 
 
 Resources
