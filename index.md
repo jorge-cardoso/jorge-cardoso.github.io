@@ -56,7 +56,6 @@ Research on Cloud Management
 + [IEEE International Conference on Cloud Computing (IEEE CLOUD)](http://www.thecloudcomputing.org/).
 + [IEEE International Conference on Cloud Engineering (IC2E)](http://conferences.computer.org/IC2E/).
 + [International Conference on Cloud Computing and Services Science (CLOSER)](http://closer.scitevents.org).
-+ [IEEE International Conference on Cloud Engineering (IC2E)](http://conferences.computer.org/IC2E/2015/index.htm)
 + [International Conference on Service-Oriented Computing (ICSOC)](http://icsoc.in)
 + [IEEE International Conference on Utility and Cloud Computing (UCC)](http://cyprusconferences.org/ucc2015/)
 
