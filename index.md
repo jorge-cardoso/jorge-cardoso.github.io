@@ -49,8 +49,10 @@ Research on Cloud Management
 + Provisioning/automation. Chef, GigaSpaces Technologies, Puppet Labs, RightScale, Salt, Ansible.
 + Cloud management. IBM systems and workload automation, Microsoft System Center and Microsoft Operations Management Suite, HP Cloud Service Automation, and Huawei FusionSphere.
 
-### Research Groups
+### Research Groups and Initiatives
 + Software Systems Research/NICTA. [Dependable Cloud Operations](http://ssrg.nicta.com.au/projects/cloud).
++ InIT Cloud Computing Lab (ICCLab). [Dependable Cloud Operations](http://blog.zhaw.ch/icclab/).
++ Autonomous Control for a Reliable Internet of Services (ACROSS). [ICT COST Action IC1304](http://www.cost.eu/COST_Actions/ict/Actions/IC1304). 
 
 ### Conferences
 + [IEEE International Conference on Cloud Computing (IEEE CLOUD)](http://www.thecloudcomputing.org/).
