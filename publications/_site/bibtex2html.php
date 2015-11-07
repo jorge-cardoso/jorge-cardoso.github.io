@@ -393,7 +393,9 @@ function bibtex2html($entry, $type, $accents, $hightlightName = ''){
 		if((trim($author)=="") || (trim($title)=="")) return "";
 		
 		if(trim($webpdf)!="") {
-			$title = '<a href="'.$webpdf.'" >'.$title.'</a>';
+//			$title = '<a href="'.$webpdf.'" >'.$title.'</a>';
+			$title = '<a href="' . "/publications" . $webpdf.'" >'.$title.'</a>';
+			 
 		}
 		// Ttitle:
 		$ret .= '<span class="title">'.$title.'</span>. ';
@@ -616,13 +618,14 @@ function bibtex2html($entry, $type, $accents, $hightlightName = ''){
 		if($ret[strlen($ret)-1] != '.') $ret .= '.';
 		
 		// Links:
-		$ret .= '<span class="links">';
+		$ret .= '<span class="links"><br>';
 		
 		if(trim($webpdf) != "") {
 			//$ret .= ' <span class="webpdf"><a href="'.$webpdf.'" >pdf..</a></span>&nbsp;';
 
 			// Jorge Cardoso/JC
-		    $ret .= ' <a href="'. "http://eden.dei.uc.pt/~jcardoso/Research/" . $webpdf.'"><img src="../images/pdf.png"></a>';
+		    $ret .= ' <a href="'. "/publications". $webpdf.'"><img src="../images/pdf.png"></a>';
+#		    $ret .= ' <a href="'. "http://eden.dei.uc.pt/~jcardoso/Research/" . $webpdf.'"><img src="../images/pdf.png"></a>';
 			//$googletitle = urlencode($title);
 			$ret .= ' <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=' .$textual_title. '"><img src="../images/Google.png"></a>';
 		}
@@ -665,7 +668,7 @@ function extractBibEntry($filename, $key) {
 
 function extractBibEntryFromString($fileContent, $key) {
 	if(is_array($fileContent)) $fileContent = implode("", $fileContent);
-	$fileContent = str_replace("\r", "\n", $fileContent);
+	$fileContent = str_replace("\r", "\r\n", $fileContent);
 	$fileContent = str_replace("\n\n", "\n", $fileContent);
 	$pos = strpos($fileContent, '{'.$key.',');
 	if($pos === false) return false;	
@@ -679,7 +682,11 @@ function extractBibEntryFromString($fileContent, $key) {
 				if(substr($fileContent, $i, 1) == '}') $braceLevel--;
 				if($braceLevel == 0) {
 					// Jorge Cardoso/JC: add new line after each bibtex entry
-					return nl2br(substr($fileContent, $pos, $i - $pos + 1));
+					// return nl2br(substr($fileContent, $pos, $i - $pos + 1));
+
+					// A simple trick: replace commas followed by two white spaces by a comma with a new line
+					// This can be done because each bib entry has the fields separated by a comma + 2 white spaces
+					return str_replace(",  ", ",  \r\n", substr($fileContent, $pos, $i - $pos + 1));
 				}
 			}
 			return false;
@@ -712,7 +719,7 @@ function bibstring2html($fileContent, $displayTypes = NULL, $groupType = NULL, $
 	// Default parameter values
 	if($displayTypes === null) {
 		$displayTypes = array(	'article' => 'Journal Articles',
-								'inbook' => 'Book chapters',
+								'inbook' => 'Book Chapters',
 								'inproceedings' => 'In Proceedings',
 							 	'book' => 'Books',
 								'proceedings' => 'Conference Proceedings',
@@ -861,8 +868,14 @@ function bibstring2html($fileContent, $displayTypes = NULL, $groupType = NULL, $
 	return $ret;
 }
 
-// this is the main program
-
+/**
+ * main($filename_bib, $filename_html):
+ * Generates a Jekill file for the publications.  
+ * Generates all the bibs. The function bibstring2html has been changed. 
+ * Find the string 'bibs/' to see the code that was changed to generate and store the bibs
+ * 
+ * @author Jorge Cardoso
+ */
 if (isset($argv[1]) && isset($argv[2])) {
     echo 'Input bib file is:   ' . $argv[1] ;
     echo PHP_EOL;	
@@ -870,12 +883,28 @@ if (isset($argv[1]) && isset($argv[2])) {
     echo PHP_EOL;	
 	$data = bibfile2html($argv[1], NULL, true, false, 
 	             "javascript: var bibwindow = window.open('http://eden.dei.uc.pt/~jcardoso/Research/displayBibTex.php?key=%key', '%key', 'height=300,width=750' );");
-	file_put_contents($argv[2], $data);
+				 	 
+ 	file_put_contents($argv[2], '---'. PHP_EOL);
+  	file_put_contents($argv[2], 'layout: article ' . PHP_EOL, FILE_APPEND);
+ 	file_put_contents($argv[2], 'title: "Publications"'. PHP_EOL, FILE_APPEND);
+  	file_put_contents($argv[2], 'date:'. PHP_EOL, FILE_APPEND);
+ 	file_put_contents($argv[2], 'modified:'. PHP_EOL, FILE_APPEND);
+  	file_put_contents($argv[2], 'excerpt:'. PHP_EOL, FILE_APPEND);
+ 	file_put_contents($argv[2], 'tags: []'. PHP_EOL, FILE_APPEND);
+  	file_put_contents($argv[2], 'image:'. PHP_EOL, FILE_APPEND);
+ 	file_put_contents($argv[2], '  feature:'. PHP_EOL, FILE_APPEND);
+  	file_put_contents($argv[2], '  teaser:'. PHP_EOL, FILE_APPEND);
+ 	file_put_contents($argv[2], '  thumb:'. PHP_EOL, FILE_APPEND);
+  	file_put_contents($argv[2], 'ads: false'. PHP_EOL, FILE_APPEND);
+  	file_put_contents($argv[2], 'toc: true'. PHP_EOL, FILE_APPEND);
+  	file_put_contents($argv[2], '---'. PHP_EOL, FILE_APPEND);
+	file_put_contents($argv[2], $data. PHP_EOL, FILE_APPEND);
 }
 else
 {
     echo PHP_EOL;	
-    echo 'Syntax: bibtex2html input_bib_file output_html_file';	
+    echo 'Syntax: php bibtex2html.php input_bib_file output_html_file';	
+    echo 'e.g.:   php bibtex2html.php cardoso.bib index.md';	
     echo PHP_EOL;	
     echo PHP_EOL;	
 }
