@@ -7,8 +7,8 @@ excerpt:
 tags: []
 image:
   feature: 
-  teaser: Cover-FSS.gif
-  thumb: Cover-FSS.gif
+  teaser: Cover-FSS.jpg
+  thumb: Cover-FSS.jpg
 ads: false
 date: 2015-01-01T13:39:59+02:00
 ---
