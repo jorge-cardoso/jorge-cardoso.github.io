@@ -33,4 +33,3 @@ To update git hub run the following instructions.
 To generate the new bibs and publications web page:
 + cd jorge-cardoso.github.io/publications
 + php bibtex2html.php cardoso.bib index.md 
-+ php bibtex2html.php cardoso.bib index.md
