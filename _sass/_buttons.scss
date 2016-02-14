@@ -80,7 +80,7 @@
 	}
 }
 .btn-social {
-	$social: 
+	$social:
     (facebook, $facebook-color),
 		(flickr, $flickr-color),
 		(foursquare, $foursquare-color),
@@ -103,7 +103,7 @@
 	@each $socialnetwork, $color in $social {
 		i.fa-#{$socialnetwork} {
 	    color: $color;
-    }    
+    }
 	}
 	&:hover {
 		color: $white !important;
@@ -115,8 +115,8 @@
 		    @each $socialnetwork, $color in $social {
 					i.fa-#{$socialnetwork} {
 				    color: $white;
-			    }    
+			    }
 				}
-	    }    
+	    }
 	}
 }
