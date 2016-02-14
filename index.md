@@ -9,7 +9,7 @@ ads: false
 <p>
 
 <a href="http://placehold.it/1200x600.gif">
-<img src="/images/Jorge-Elbe.gif" height="128" width="155"  style="float:left;margin:0 20px 0 0;"/>
+<img src="/images/Jorge_Cardoso.png" height="128" width="155"  style="float:left;margin:0 20px 0 0;"/>
 </a>
 </p>
 I am Associate Professor at the [University of Coimbra](http://www.uc.pt/en/fctuc/dei) (Portugal), and affiliated to the Information Systems Group. I am also Lead Architect for Cloud Management at [Huawei's European Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany.
@@ -52,7 +52,7 @@ Research on Cloud Management
 ### Research Groups and Initiatives
 + Software Systems Research/NICTA. [Dependable Cloud Operations](http://ssrg.nicta.com.au/projects/cloud).
 + InIT Cloud Computing Lab (ICCLab). [Dependable Cloud Operations](http://blog.zhaw.ch/icclab/).
-+ Autonomous Control for a Reliable Internet of Services (ACROSS). [ICT COST Action IC1304](http://www.cost.eu/COST_Actions/ict/Actions/IC1304). 
++ Autonomous Control for a Reliable Internet of Services (ACROSS). [ICT COST Action IC1304](http://www.cost.eu/COST_Actions/ict/Actions/IC1304).
 
 ### Conferences
 + [IEEE International Conference on Cloud Computing (IEEE CLOUD)](http://www.thecloudcomputing.org/).
