@@ -1,0 +1,36 @@
+
+This is, well, my web site
+=============
+
+You can go directly to the [web site](http://jorge-cardoso.github.io) and see what is all about :)
+Bellow I include the main things you need to know in order to operate it in a very simple way.
+
+
+Operating Jekyll
+--------------
+### Deploy locally
+sudo gem install jekyll
+sudo gem install jekyll-sitemap
+jekyll new my-awesome-site
+cd my-awesome-site
+~/my-awesome-site $ jekyll serve
+
+
+To deploy the site locally run:
+### Run a local webserver
+jekyll serve
+
+
+To update git hub run the following commands:
+Managing Content
+--------------
+### Updating github after changes
+git add .
+git commit -m "made some changes"
+git push origin master
+
+To generate the new bibs and publications web page:
+### enerate the new bibs and publications
+cd jorge-cardoso.github.io/publications
+php bibtex2html.php cardoso.bib index.md 
+php bibtex2html.php cardoso.bib index.md
