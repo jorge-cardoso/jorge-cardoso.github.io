@@ -24,11 +24,11 @@ You can find more about my research on Cloud Computing, BPM, Semantic Web, Web S
 Research Interests
 ---------------
 
-+ Use new fault injection techniques to improve the reliability of for complex, large distributed cloud platforms, such as the [Open Telekom Cloud](https://cloud.telekom.de/en/) from Deutsche Telekom.
++ Developed new fault injection techniques to improve the reliability of for complex, large distributed cloud platforms, such as the [Open Telekom Cloud](https://cloud.telekom.de/en/) from Deutsche Telekom.
 
 + Use [event processing technologies](https://en.wikipedia.org/wiki/Storm_(event_processor)) to detect  anomalies in cloud platforms in real time.
 
-+ Use approaches from the data mining, such as [Bayesian networks](https://en.wikipedia.org/wiki/Bayesian_network) and [Markov processes](https://en.wikipedia.org/wiki/Markov_process), to automatically detect and localize failures in cloud platforms.
++ Adapt approaches from the field of data mining, such as [Bayesian networks](https://en.wikipedia.org/wiki/Bayesian_network) and [Markov processes](https://en.wikipedia.org/wiki/Markov_process), to automatically detect and localize failures in cloud platforms.
 
 + Incorporate new resilient mechanisms into the [OpenStack](https://www.openstack.org) cloud operating system to increase its reliability and availability.
 
