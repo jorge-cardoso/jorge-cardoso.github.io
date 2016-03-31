@@ -443,7 +443,10 @@ toc: true
 
 </ol></div><h2>Books<span class="dark"></span></h2>
 <div class="publication">
-<ol start="142"><li><span class="authors">Cardoso,  J.; Lopes,  R. and Poels,  G.</span> <span class="title">Service Systems: Concepts, Modeling, and Programming</span>.  <span class="publisher">Springer</span>, Germany, ISBN: 978-3-319-10812-4, pp. 112, 2014.<span class="links"><br> <span class="url"><a href="http://www.springer.com/computer/database+management+%26+information+retrieval/book/978-3-319-10812-4" target="_blank"><img src="../images/www.png"></a></span>&nbsp;</span>
+<ol start="142"><li><span class="authors">Cardoso, J.; Fromm, H.; Nickel, S.; Satzger, G.; Studer, R. and Weinhardt, C.</span> <span class="title">Fundamentals of Service Systems</span>.  <span class="publisher"><a href="http://dx.doi.org/10.1007/978-3-319-23195-2" target="_blank">Springer</a></span>, ISBN: 978-3-319-23195-2, pp. 357, 2015.<span class="links"><br> <span class="url"><a href="http://www.springer.com/de/book/9783319231945" target="_blank"><img src="../images/www.png"></a></span>&nbsp;</span>
+ <span class="bibtexlink"><a href="bibs/Cardoso2015_FSS.bib"><img src="../images/bibtex.png"></a></span></li>
+
+<li><span class="authors">Cardoso,  J.; Lopes,  R. and Poels,  G.</span> <span class="title">Service Systems: Concepts, Modeling, and Programming</span>.  <span class="publisher">Springer</span>, Germany, ISBN: 978-3-319-10812-4, pp. 112, 2014.<span class="links"><br> <span class="url"><a href="http://www.springer.com/computer/database+management+%26+information+retrieval/book/978-3-319-10812-4" target="_blank"><img src="../images/www.png"></a></span>&nbsp;</span>
  <span class="bibtexlink"><a href="bibs/Cardoso2014SS.bib"><img src="../images/bibtex.png"></a></span></li>
 
 <li><span class="authors">Aalst,  W. v. d. and Hee,  K. v.</span> <span class="title">Gest&atilde;o de Workflows. Modelos, m&eacute;todos e sistemas (Translation  by Cardoso, J.)</span>.  <span class="publisher">Coimbra University Press</span>, Coimbra, Portugal, ISBN: 978-989-26-000-0, pp. 316, 2009.<span class="links"><br> <span class="url"><a href="http://www.uc.pt/imprensa_uc/catalogo/ensino/workflows" target="_blank"><img src="../images/www.png"></a></span>&nbsp;</span>
@@ -469,7 +472,7 @@ toc: true
 
 </ol></div><h2>Conference Proceedings<span class="dark"></span></h2>
 <div class="publication">
-<ol start="150"><li><span class="authors">Lorenz, P.; Sinderen, M. va and Cardoso, J., ed.</span> <span class="title">ICSOFT-PT 2015 - Proceedings of the 10th International Conference on Software Paradigm Trends, Colmar, Alsace, France, 20-22 July, 2015</span>.  <span class="publisher">SciTePress</span>, ISBN: 978-989-758-115-1, 2015.<span class="links"><br></span>
+<ol start="151"><li><span class="authors">Lorenz, P.; Sinderen, M. va and Cardoso, J., ed.</span> <span class="title">ICSOFT-PT 2015 - Proceedings of the 10th International Conference on Software Paradigm Trends, Colmar, Alsace, France, 20-22 July, 2015</span>.  <span class="publisher">SciTePress</span>, ISBN: 978-989-758-115-1, 2015.<span class="links"><br></span>
  <span class="bibtexlink"><a href="bibs/ICSOFT2015pt.bib"><img src="../images/bibtex.png"></a></span></li>
 
 <li><span class="authors">Holzinger, A.; Cardoso, J.; Cordeiro, J.; Libourel, T.; Maciaszek, L. A and Sinderen, M. va, ed.</span> <span class="title">Software Technologies - 9th International Joint Conference, ICSOFT 2014, Vienna, Austria, August 29-31, 2014, Revised Selected Papers</span>.  <span class="publisher"><a href="http://dx.doi.org/10.1007/978-3-319-25579-8" target="_blank">Springer</a></span>, Communications in Computer and Information Science, Vol. 555, ISBN: 978-3-319-25578-1, 2015.<span class="links"><br> <span class="url"><a href="http://dx.doi.org/10.1007/978-3-319-25579-8" target="_blank"><img src="../images/www.png"></a></span>&nbsp;</span>
@@ -510,22 +513,22 @@ toc: true
 
 </ol></div><h2>Technical Reports<span class="dark"></span></h2>
 <div class="publication">
-<ol start="163"><li><span class="authors">Cardoso, J.</span> <span class="title">On the suitability of USDL for service description -- A case study  of a telecom operator</span>.  Technical Report UC-DEI-GSI-2012-02, <span class="institution"><a href="http://eden.dei.uc.pt/~jcardoso/UC-DEI-GSI-2012-02.pdf" target="_blank">Department of Engineering Informatics, University of Coimbra</a></span>, Coimbra, Portugal, 2012.<span class="links"><br></span>
+<ol start="164"><li><span class="authors">Cardoso, J.</span> <span class="title">On the suitability of USDL for service description -- A case study  of a telecom operator</span>.  Technical Report UC-DEI-GSI-2012-02, <span class="institution"><a href="http://eden.dei.uc.pt/~jcardoso/UC-DEI-GSI-2012-02.pdf" target="_blank">Department of Engineering Informatics, University of Coimbra</a></span>, Coimbra, Portugal, 2012.<span class="links"><br></span>
  <span class="bibtexlink"><a href="bibs/UC-DEI-GSI-2012-02.bib"><img src="../images/bibtex.png"></a></span></li>
 
 </ol></div><h2>PhD Theses<span class="dark"></span></h2>
 <div class="publication">
-<ol start="164"><li><span class="authors">Cardoso,  J.</span> <span class="title"><a href="/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf" >Quality of Service and Semantic Composition of Workflows</a></span>.  Ph.D. Thesis, <span class="school">University of Georgia, Department of Computer Science</span>, Athens, GA, USA, 2002.<span class="links"><br> <a href="/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf"><img src="../images/pdf.png"></a> <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Quality of Service and Semantic Composition of Workflows"><img src="../images/Google.png"></a></span>
+<ol start="165"><li><span class="authors">Cardoso,  J.</span> <span class="title"><a href="/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf" >Quality of Service and Semantic Composition of Workflows</a></span>.  Ph.D. Thesis, <span class="school">University of Georgia, Department of Computer Science</span>, Athens, GA, USA, 2002.<span class="links"><br> <a href="/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf"><img src="../images/pdf.png"></a> <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Quality of Service and Semantic Composition of Workflows"><img src="../images/Google.png"></a></span>
  <span class="bibtexlink"><a href="bibs/Cardoso02PhD.bib"><img src="../images/bibtex.png"></a></span></li>
 
 </ol></div><h2>Master's Theses<span class="dark"></span></h2>
 <div class="publication">
-<ol start="165"><li><span class="authors">Cardoso,  J.</span> <span class="title">Sistema Computorizado para a Automatizacao de Processos Organizacionais</span>.  Master's Thesis, <span class="school">University of Coimbra, Department of Informatics Engineering</span>, Coimbra, Portugal, 1998.<span class="links"><br></span>
+<ol start="166"><li><span class="authors">Cardoso,  J.</span> <span class="title">Sistema Computorizado para a Automatizacao de Processos Organizacionais</span>.  Master's Thesis, <span class="school">University of Coimbra, Department of Informatics Engineering</span>, Coimbra, Portugal, 1998.<span class="links"><br></span>
  <span class="bibtexlink"><a href="bibs/Cardoso98MSc.bib"><img src="../images/bibtex.png"></a></span></li>
 
 </ol></div><h2>Keynotes, invited talks, summer schools<span class="dark"></span></h2>
 <div class="publication">
-<ol start="166"><li><span class="authors">Cardoso,  J.</span> <span class="title">Service Engineering for The Internet of Service</span>.  Porto Salvo, Portugal, 2009.<span class="links"><br></span>
+<ol start="167"><li><span class="authors">Cardoso,  J.</span> <span class="title">Service Engineering for The Internet of Service</span>.  Porto Salvo, Portugal, 2009.<span class="links"><br></span>
  <span class="bibtexlink"><a href="bibs/Cardoso09KeynoteIPBPM.bib"><img src="../images/bibtex.png"></a></span></li>
 
 <li><span class="authors">Cardoso,  J.</span> <span class="title">Process Management and Integration with SAP</span>.  Ciudad Real, Spain, 2008.<span class="links"><br></span>
