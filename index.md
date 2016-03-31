@@ -24,13 +24,14 @@ You can find more about my research on Cloud Computing, BPM, Semantic Web, Web S
 Research Interests
 ---------------
 
-+ Developed new fault injection techniques to improve the reliability of for complex, large distributed cloud platforms, such as the [Open Telekom Cloud](https://cloud.telekom.de/en/) from Deutsche Telekom.
++ Developed new fault injection techniques to improve the reliability of complex, large distributed cloud platforms, such as the [Open Telekom Cloud](https://cloud.telekom.de/en/) from Deutsche Telekom.
 
 + Use [event processing technologies](https://en.wikipedia.org/wiki/Storm_(event_processor)) to detect  anomalies in cloud platforms in real time.
 
 + Adapt approaches from the field of data mining, such as [Bayesian networks](https://en.wikipedia.org/wiki/Bayesian_network) and [Markov processes](https://en.wikipedia.org/wiki/Markov_process), to automatically detect and localize failures in cloud platforms.
 
-+ Incorporate new resilient mechanisms into the [OpenStack](https://www.openstack.org) cloud operating system to increase its reliability and availability.
++ Incorporate new resilient mechanisms into the [OpenStack](https://www.openstack.org) cloud operating system and [Huawei FusionSphere](http://e.huawei.com/en/products/cloud-computing-dc/cloud-computing/fusionsphere/fusionsphere) to increase its reliability and availability.
+
 
 
 News
@@ -57,9 +58,6 @@ News
 Research on Cloud Management
 ---------------
 
-### Research Topics
-+ Provisioning/automation. Chef, GigaSpaces Technologies, Puppet Labs, RightScale, Salt, Ansible.
-+ Cloud management. IBM systems and workload automation, Microsoft System Center and Microsoft Operations Management Suite, HP Cloud Service Automation, and Huawei FusionSphere.
 
 ### Research Groups and Initiatives
 + Software Systems Research/NICTA. [Dependable Cloud Operations](http://ssrg.nicta.com.au/projects/cloud).
