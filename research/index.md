@@ -15,7 +15,7 @@ toc: true
 
 Looking for a PhD/MSc topic?
 -----------------
-You would like to do research? Maybe your MSc or PhD? You love to discover new things? To propose new innovative ideas? You like the areas of Service Science, Business Process Management, Information Systems, and Semantic Web?
+You would like to do research? Maybe your MSc or PhD? You love to discover new things? To propose new innovative ideas? You like the areas of Cloud Computing, Business Process Management, Information Systems, and Semantic Web?
 
 Then you should send me an e-mail (jcardoso hhatte dei.uc.pt) and/or we should have a chat (office D2.20). I always have a couple of interesting topics to be explored.
 
@@ -25,10 +25,12 @@ Service Systems
 
 Our recent research places emphasis on three fields: service description languages (with the USDL family), service system modeling (with the LSS USDL language), service analytics (using process mining), and service networks (using principals from social networks).
 
-####Service Analytics
+### Service Analytics
+
 Currently, I am working on Service Analytics. We analyse large logs from IT service provisioning (e.g., ITIL) to find human behaviour patterns which are rewarded or penalized. Interesting work. It is the new challenge for companies, the future so to say: to analyse people behaviour... My new upcoming book on Service Systems  Fundamentals/Springer will have a chapter dedicated to the topic.
 
-####Service Descriptions
+### Service Descriptions
+
 <p>
 <a href="https://github.com/linked-usdl">
 <img src="/images/Logo-linked-usdl.png" width="100"  style="float:left;margin:0px 20px 0 0;"/>
@@ -41,8 +43,8 @@ Bellow is an earlier video explaining the goal of USDL (please note that since t
 <iframe width="500" height="281" src="http://player.vimeo.com/video/21894921" alt="The video is not available. Please use another browser or change your configuration." frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen alt="You browser does not supports video frames">
 </iframe>
 
+### Service Systems
 
-####Service Systems
 <p>
 <a href="https://github.com/jorge-cardoso/lss-usdl">
 <img src="/images/Logo-LSS-USDL.png" width="200"  style="float:left;margin:0 20px 0 0;"/>
@@ -63,8 +65,7 @@ This approach provides descriptions that can be used for service management, opt
 + Jorge Cardoso, Ricardo Lopes, and Geert Poels. [The LSS-USDL Model](/publications/Papers/CH-2014-Service-Systems-The-LSS-USDL-Model.pdf), in Service Systems: Concepts, Modeling, and Programming, Springer, 2014.
 
 
-
-####Service Networks
+### Service Networks
 
 Societies are becoming increasingly service-oriented. Service revenues from companies, such as Rolls Royce, Caterpillar, and ThyssenKrupp, often reach more than 35\% of total sales. In the field of information technology, the global spending on cloud services is expected to grow 40\% over the next seven years. Despite these facts, services are still the least studied part of the economy.
 
