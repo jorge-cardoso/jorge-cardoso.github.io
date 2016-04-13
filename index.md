@@ -38,11 +38,8 @@ News
 ---------------
 
 + Our article "Modeling Service Level Agreements with Linked USDL Agreement" will soon be published by IEEE Transactions on Services Computing (Impact Factor 2016: 3.049) (under publication).
-
 + We are glad to announce that the foreword of our next upcoming textbook on services, Foundations of Service Systems, will be written by [Jim Spohrer](http://en.wikipedia.org/wiki/Jim_Spohrer), the Director of IBM Global University Programs. 2015.
-
 + Jorge Cardoso, Ronny Mans, Paulo Rupino da Cunha, Wil van der Aalst, Henrike Berthold, Silvana Quaglini. [A framework for next generation e-health systems and services](/publications/Papers/CP-2015-080-Framework-e-health-systems.pdf). [Twenty-first Americas Conference on Information Systems](http://amcis2015.aisnet.org), Puerto Rico, 2015
-
 + José María García, Carlos Pedrinaci, Manuel Resinas, Jorge Cardoso, Pablo Fernández, Antonio Ruiz-Cortés. [Linked USDL Agreement: Effectively Sharing Semantic Service Level Agreements on the Web](/publications/Papers/CP-2015-079-Linked-USDL-Agreement.pdf), [The IEEE International Conference on Web Services (ICWS)](http://conferences.computer.org/icws/2015/), June 27 - July 2, 2015, New York, USA. (2015 ICWS Acceptance Rate: 17.4%)
 + Alexandre Furtado Fernandes, Jorge Cardoso, Maria Jose Marcelino. [A Systematic Mapping Applied to MOOC’s Study](/publications/Papers/CP-2015-078-Systematic-Mapping-MOOCs.pdf). 7th International Conference on Computer Supported Education (CSEDU), pp. 444-449, 23-25 May, 2015, Lisbon, Portugal.
 + Jorge Cardoso and Carlos Pedrinaci, [Evolution and Overview of Linked USDL](/publications/Papers/CP-2015-077-Linked-USDL-Evolution-and-Overview.pdf). 6th International Conference Exploring Services Science, IESS 2015, Porto, Portugal, February 4-6, 2015, LNBIP, Vol. 201, Novoa, Henriqueta, Dragoicea, Monica (Eds.), 2015.
