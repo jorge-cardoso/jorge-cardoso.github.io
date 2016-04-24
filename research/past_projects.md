@@ -18,9 +18,6 @@ Past Projects
 ------------------------------
 ###Semantic Domain System
 
-<a href="sds/">
-<img src="/images/sds.gif" width="100"  style="float:left;margin:0 20px 0 0;"/>
-</a>
 <img align="right" src="/images/sds.gif" width="100">
 
 Enterprises have the need to communicate. In business to business applications, usually XML is used to automatically exchange information. But sometimes more semantics is needed. Enterprises  also need to share concepts, terms, definitions and relationships (between concepts) relevant to their business activities.
