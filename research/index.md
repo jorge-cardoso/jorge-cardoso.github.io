@@ -20,6 +20,8 @@ You would like to do research? Maybe your MSc or PhD? You love to discover new t
 + [Writing a Thesis Proposal](http://sydney.edu.au/stuserv/documents/thesisproposal.pdf), Learning Centre, University of Sydney.
 + [How to write a great research paper](http://research.microsoft.com/en-us/um/people/simonpj/papers/giving-a-talk/writing-a-paper-slides.pdf), by Simon Peyton Jones at Microsoft Research.
 + [The Ten Commandments for writing academic papers](The_Ten_Commandments.pdf), by Julienne Hanson, Bartlett School of Architecture, London.
++ [Understanding Science 101](http://undsci.berkeley.edu/article/0_0_0/us101contents_01), Berkeley, US.
+
 
 Then you should send me an e-mail (jcardoso hhatte dei.uc.pt) and/or we should have a chat (office D2.20). I always have a couple of interesting topics to be explored.
 
@@ -80,34 +82,6 @@ Students
 +	Luis Roberto Fernandes Faria, Poseidon: A tool for semi-automatic process design, BSc, University of Madeira, 2004/05. (Supervisor)
 
 
-Support Material
------------------
-
-### The Process of Science
-
-<p>
-<a href="http://undsci.berkeley.edu/article/0_0_0/us101contents_01">Understanding Science 101</a>
-<img src="../images/pdf.png" alt="" height="16" width="16" border="0">
-<br>
-<span class="small">Berkeley, US</span>
-</p>
 
 
-
-<p>The points your paper should address <br>
-<ul>
-<li>Is the research new?</li>
-<li>Is the research interesting?</li>
-<li>Is the research significant to the field of research?</li>
-<li>Does it clearly motivate and clearly formulate the research question?</li>
-<li>Does it identify the significant problems in the field of research?</li>
-<li>Does it outline the current knowledge of the problem domain, as well as the state of existing solutions?</li>
-<li>Does it present clearly any preliminary ideas, the proposed approach and the results achieved so far?</li>
-<li>Does it sketch the research methodology that is applied?</li>
-<li>Does it point out the contributions of the applicant to the problem solution?</li>
-<li>Does it state in what aspects the suggested solution is different, new or better as compared to existing approaches to the problem? </li>
-<li>Does it state how the expected results will be evaluated or compared to existing approaches to the problem?</li>
-<li>Does it state how and by whom the expected results can be applied?</li>
-</ul>
-</p>
 
