@@ -20,7 +20,7 @@ You would like to do research? Maybe your MSc or PhD? You love to discover new t
 + [Writing a Thesis Proposal](http://sydney.edu.au/stuserv/documents/thesisproposal.pdf), Learning Centre, University of Sydney.
 + [How to write a great research paper](http://research.microsoft.com/en-us/um/people/simonpj/papers/giving-a-talk/writing-a-paper-slides.pdf), by Simon Peyton Jones at Microsoft Research.
 + [The Ten Commandments for writing academic papers](The_Ten_Commandments.pdf), by Julienne Hanson, Bartlett School of Architecture, London.
-+ [Understanding Science 101](http://undsci.berkeley.edu/article/0_0_0/us101contents_01), Berkeley, US.
++ [Understanding Science 101](http://undsci.berkeley.edu/article/0_0_0/us101contents_01), University of California, Berkeley, US.
 
 
 Then you should send me an e-mail (jcardoso hhatte dei.uc.pt) and/or we should have a chat (office D2.20). I always have a couple of interesting topics to be explored.
