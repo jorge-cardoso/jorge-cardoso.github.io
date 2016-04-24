@@ -17,12 +17,10 @@ Looking for a PhD/MSc topic?
 -----------------
 You would like to do research? Maybe your MSc or PhD? You love to discover new things? To propose new innovative ideas? You like the areas of Cloud Computing, Business Process Management, Information Systems, and Semantic Web?
 
++ [Writing a Thesis Proposal](http://sydney.edu.au/stuserv/documents/thesisproposal.pdf), Learning Centre, University of Sydney.
+
 Then you should send me an e-mail (jcardoso hhatte dei.uc.pt) and/or we should have a chat (office D2.20). I always have a couple of interesting topics to be explored.
 
-
-## Writing a PhD or MSc Thesis
-
-+ [Writing a Thesis Proposal](http://sydney.edu.au/stuserv/documents/thesisproposal.pdf), Learning Centre, University of Sydney.
 
 
 Service Systems
