@@ -22,7 +22,7 @@ Then you should send me an e-mail (jcardoso hhatte dei.uc.pt) and/or we should h
 
 ## Writing a PhD or MSc Thesis
 
-+ [Writingresearch theses or dissertations](http://lorien.ncl.ac.uk/ming/dept/Tips/writing/thesis/thesis-intro.htm) School of Chemical Engineering and Advanced Materials, University of Newcastle upon Tyne.
++ [Writing research theses or dissertations](http://lorien.ncl.ac.uk/ming/dept/Tips/writing/thesis/thesis-intro.htm) School of Chemical Engineering and Advanced Materials, University of Newcastle upon Tyne.
 
 + [Writing a Thesis Proposal: Independent Learning Resources](http://sydney.edu.au/stuserv/documents/thesisproposal.pdf), Learning Centre, University of Sydney.
 
