@@ -43,6 +43,7 @@ Students
 ### PhD students
 + João Carlos Palmela Pinheiro Caldeira, Agile Software Development Process Mining: Discovery, Conformance Checking and Enhancement, University Institute of Lisbon (ISCTE), (co-supervisor with Fernando Brito e Abreu), 2015-(ongoing).
 +	Alexandre Furtado Fernandes, “Aprendizagem Ubíqua e Web Semântica no E-Learning”, PhD, University of Coimbra, Portugal, 2013-2017 (ongoing).
++  Kateryna Rybina, Modelling the Live Migration Time of Virtual Machines, Technical University of Dresden, Germany (external-supervisor with Alexander Schill), 2013-2016.
 +	Konrad Voigt, “Semi-automatic matching of heterogeneous model-based specifications”, PhD, SAP Research CEC Dresden and Technical University of Dresden, Dresden, Germany. November 2011. (SAP Research/Industry supervisor: 2007-2009)
 +	Matthias Winkler, “SLA management in the Internet of Services”, PhD, SAP Research CEC Dresden and Technical University of Dresden, Dresden, Germany. June 2010. (SAP Research/Industry supervisor: 2007-2009)
 +	Délia Canha Gouveia, “Modeling and Analyzing the Quality of Service of Workflows using Petri Nets”, University of Madeira. (Supervision: 2007-2009).
