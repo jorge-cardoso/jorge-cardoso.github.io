@@ -41,6 +41,7 @@ Students
 +	Rodrigo Costa dos Santos, “Using PROM to Validate Process Model Similarity”, Postdoc, University of Coimbra, Portugal. (Supervisor: 2014-2015).
 
 ### PhD students
++ João Carlos Palmela Pinheiro Caldeira, Agile Software Development Process Mining: Discovery, Conformance Checking and Enhancement, University Institute of Lisbon (ISCTE), (co-supervisor with Fernando Brito e Abreu), 2015-(ongoing).
 +	Alexandre Furtado Fernandes, “Aprendizagem Ubíqua e Web Semântica no E-Learning”, PhD, University of Coimbra, Portugal, 2013-2017 (ongoing).
 +	Konrad Voigt, “Semi-automatic matching of heterogeneous model-based specifications”, PhD, SAP Research CEC Dresden and Technical University of Dresden, Dresden, Germany. November 2011. (SAP Research/Industry supervisor: 2007-2009)
 +	Matthias Winkler, “SLA management in the Internet of Services”, PhD, SAP Research CEC Dresden and Technical University of Dresden, Dresden, Germany. June 2010. (SAP Research/Industry supervisor: 2007-2009)
