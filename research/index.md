@@ -19,25 +19,18 @@ You would like to do research? Maybe your MSc or PhD? You love to discover new t
 
 Then you should send me an e-mail (jcardoso hhatte dei.uc.pt) and/or we should have a chat (office D2.20). I always have a couple of interesting topics to be explored.
 
-Writing a <span class="dark">PhD or MSc Thesis</span>
+
+Writing a PhD or MSc Thesis
 ---------------
 
-<a href="http://cs.uwec.edu/~buipj/teaching/cs.491.s13/static/pdf/01_how_to_read_a_paper.pdf">How to Read a Paper</a>
-<span class="small">David R. Cheriton School of Computer Science, University of Waterloo
-Waterloo, ON, Canada</span>
+[Writingresearch theses or dissertations](http://lorien.ncl.ac.uk/ming/dept/Tips/writing/thesis/thesis-intro.htm) School of Chemical Engineering and Advanced Materials, University of Newcastle upon Tyne.
 
-<a href="http://lorien.ncl.ac.uk/ming/dept/Tips/writing/thesis/thesis-intro.htm">WRITING RESEARCH THESES OR DISSERTATIONS (guidelines and tips)</a>
-<br>
-<span class="small">School of Chemical Engineering and Advanced Materials, University of Newcastle upon Tyne</span>
-
-
-<a href="http://sydney.edu.au/stuserv/documents/thesisproposal.pdf">Writing a Thesis Proposal: Independent Learning Resources </a>
-<br>
-<span class="small">Learning Centre, University of Sydney</span>
+[Writing a Thesis Proposal: Independent Learning Resources](http://sydney.edu.au/stuserv/documents/thesisproposal.pdf), Learning Centre, University of Sydney.
 
 <a href="citingreferences.pdf">How to write references</a><img src="../images/pdf.png" alt="" height="16" width="16" border="0"><br>
 <span class="small">Aston University, Aston Triangle, Birmingham, B4 7ET.</span>
 
+[How to Read a Paper](http://cs.uwec.edu/~buipj/teaching/cs.491.s13/static/pdf/01_how_to_read_a_paper.pdf) by David R. Cheriton School of Computer Science, University of Waterloo, Waterloo, ON, Canada.
 
 Service Systems
 ---------------
