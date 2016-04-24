@@ -13,7 +13,7 @@ ads: false
 toc: true
 ---  
 
-Looking for a PhD/MSc topic?
+Wanting to do a PhD/MSc?
 -----------------
 You would like to do research? Maybe your MSc or PhD? You love to discover new things? To propose new innovative ideas? You like the areas of Cloud Computing, Business Process Management, Information Systems, and Semantic Web?
 
