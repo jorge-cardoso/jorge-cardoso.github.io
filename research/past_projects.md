@@ -70,16 +70,16 @@ demonstrate that these metrics serves their purpose, we plan to carry out severa
 
 ### Other projects
 
-+ Process Control-Flow Analysis (<a href="http://apus.uma.pt/%7ejcardoso/ComplexityAnalysis/">http://apus.uma.pt/~jcardoso/ComplexityAnalysis/index.php</a>)
++ Process Control-Flow Analysis
 + Semantic Dynamic Packaging (POSI/EIA/56164/2004).
 + DME&nbsp;Web Site Development, Jos&eacute; Nelson Alves e Duarte Abreu.
-+ <a href="Poseidon/index.htm">Poseidon: A tool for semi-automatic process design,</a>Jos&eacute; Miguel Rodrigues de Freitas and Luis Roberto Fernandes Faria.
-+ <a href="WS-jxta/index.html">Web Services over Peer-to-Peer infrastructure</a>, Martinho da Silva Correia.
-+ Quality of Service Management for METEOR Workflow Management System</b>, University of Georgia, GA, USA.
-+ Semantic e-Workflow Composition for METEOR Workflow Management System</b>, University of Georgia, GA, USA.
-+ <a href="Marathon/Marathon%20Project.pdf">MARATHON</a><b> </b>- Workflow Management System, Jorge Cardoso and Christoph Bussler, Boeing Company, July 1999, WA, USA.
-+ <a href="SketchPad/SketchPad.pdf">SketchPad</a>, <a href="http://www.ccg.pt">CCG/ZGDV</a> - Centro de Computa&ccedil;&atilde;o Gr&aacute;fica and <a href="http://www.igd.fraunhofer.de/">IGD/Darmstadt</a>, Germany
-+ <a href="Dialactato/RelatorioDialactato.pdf">DiagLactato 2.0</a> (in Portuguese) - An Expert System for Healthcare, Septembre 1994.
++ Poseidon: A tool for semi-automatic process design, Jose Miguel Rodrigues de Freitas and Luis Roberto Fernandes Faria.
++ <Web Services over Peer-to-Peer infrastructure, Martinho da Silva Correia.
++ Quality of Service Management for METEOR Workflow Management System, University of Georgia, GA, USA.
++ Semantic e-Workflow Composition for METEOR Workflow Management System, University of Georgia, GA, USA.
++ MARATHON Workflow Management System, Jorge Cardoso and Christoph Bussler, Boeing Company, July 1999, WA, USA.
++ SketchPad, CCG/ZGDV - Centro de Computa&ccedil;&atilde;o Gr&aacute;fica and <a href="http://www.igd.fraunhofer.de/">IGD/Darmstadt</a>, Germany
++ DiagLactato 2.0: An Expert System for Healthcare, 1994.
 + CUCo - Comunicar Utilizando o Computador, Projecto Minerva, Universidade de Coimbra, 1994.
 + Puzzle Quiz, Projecto Minerva, Universidade de Coimbra, 1992.
 + Task Game, Projecto Minerva, Universidade de Coimbra, 1991.
