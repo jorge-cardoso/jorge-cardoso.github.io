@@ -33,9 +33,7 @@ concept definitions. The system will allow a clear representation of concepts an
 
 ###Semantic B2B Integration
 
-<a href="B2BISS/">
-<img src="/images/b2biss_vertical_small.png" width="100"  style="float:left;margin:0 20px 0 0;"/>
-</a>
+<img align="right" src="/images/b2biss_vertical_small.png" width="100">
 
 B2B integration, also known as external IS integration and e-business integration, has promised to automate and
 integrate business processes and interactions between companies by considerably renovating the way business was
@@ -50,9 +48,7 @@ B2BISS (Business-to-Business Integration using Syntactic-to-Semantic Mapping).
 
 ### JXML2OWL
 
-<a href="jxml2owl/index.html">
-<img src="/images/JXML2OWL.gif" width="100"  style="float:left;margin:0 20px 0 0;"/>
-</a>
+<img align="right" src="/images/JXML2OWL.gif" width="100">
 
 Today's enterprises face critical needs in integrating disparate information spread over several data sources inside
 and even outside the organization. Semantic web technologies, such as ontologies, play an important role in the semantic
@@ -63,9 +59,7 @@ global model defined by an ontology using semantic web related technologies such
 
 ### Business Process Quality Metrics
 
-<a href="BPQM/bpqm.html">
-<img src="/images/bpqm.jpg" width="100"  style="float:left;margin:0 20px 0 0;"/>
-</a>
+<img align="right" src="/images/bpqm.jpg" width="100">
 
 Our intentions are twofold. On the one hand, we think it is fundamental to survey findings from neighboring disciplines on
 how Business Process Quality Metrics can be developed. In particular, we believe that we can gather additional insights from
