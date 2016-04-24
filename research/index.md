@@ -23,7 +23,7 @@ You would like to do research? Maybe your MSc or PhD? You love to discover new t
 + [Understanding Science 101](http://undsci.berkeley.edu/article/0_0_0/us101contents_01), University of California, Berkeley, US.
 
 
-Then you should send me an e-mail [send email](mailto:jcardoso@dei.uc.pt)(jcardoso hhatte dei.uc.pt) and/or we should have a chat (office D2.20). I always have a couple of interesting topics to be explored.
+Then you should  [send me an e-mail](mailto:jcardoso@dei.uc.pt) and/or we should have a chat (office D2.20). I always have a couple of interesting topics to be explored.
 
 You can information additional information on my research here:
 
