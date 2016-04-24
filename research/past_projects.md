@@ -74,7 +74,7 @@ demonstrate that these metrics serves their purpose, we plan to carry out severa
 + Semantic Dynamic Packaging (POSI/EIA/56164/2004).
 + DME&nbsp;Web Site Development, Jos&eacute; Nelson Alves e Duarte Abreu.
 + Poseidon: A tool for semi-automatic process design, Jose Miguel Rodrigues de Freitas and Luis Roberto Fernandes Faria.
-+ <Web Services over Peer-to-Peer infrastructure, Martinho da Silva Correia.
++ Web Services over Peer-to-Peer infrastructure, Martinho da Silva Correia.
 + Quality of Service Management for METEOR Workflow Management System, University of Georgia, GA, USA.
 + Semantic e-Workflow Composition for METEOR Workflow Management System, University of Georgia, GA, USA.
 + MARATHON Workflow Management System, Jorge Cardoso and Christoph Bussler, Boeing Company, July 1999, WA, USA.
