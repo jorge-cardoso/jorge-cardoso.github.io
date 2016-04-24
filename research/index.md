@@ -32,7 +32,7 @@ Information of what a PhD thesis is about can be found in the following links:
 + [How to write a great research paper](http://research.microsoft.com/en-us/um/people/simonpj/papers/giving-a-talk/writing-a-paper-slides.pdf), by Simon Peyton Jones at Microsoft Research.
 + [The Ten Commandments for writing academic papers](The_Ten_Commandments.pdf), by Julienne Hanson, Bartlett School of Architecture, London.
 + [Understanding Science 101](http://undsci.berkeley.edu/article/0_0_0/us101contents_01), University of California, Berkeley, US.
-
++ [Academic Writing and Publishing: A Practical Handbook](https://www.amazon.co.uk/Academic-Writing-Publishing-Practical-Handbook/dp/0415453224), by James Hartley.
 
 
 
