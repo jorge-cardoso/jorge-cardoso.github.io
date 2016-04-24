@@ -18,6 +18,8 @@ Looking for a PhD/MSc topic?
 You would like to do research? Maybe your MSc or PhD? You love to discover new things? To propose new innovative ideas? You like the areas of Cloud Computing, Business Process Management, Information Systems, and Semantic Web?
 
 + [Writing a Thesis Proposal](http://sydney.edu.au/stuserv/documents/thesisproposal.pdf), Learning Centre, University of Sydney.
++ The Ten Commandments for writing academic papers, by Julienne Hanson, Bartlett School of Architecture, London, November, 1988.
++ How to write a great research paper, Simon Peyton Jones at Microsoft Research.
 
 Then you should send me an e-mail (jcardoso hhatte dei.uc.pt) and/or we should have a chat (office D2.20). I always have a couple of interesting topics to be explored.
 
@@ -93,35 +95,6 @@ Support Material
 </p>
 
 
-### Writing a <span class="dark">Paper</span>
-
-<p>
-<a href="WritingPaper.pdf">The Ten Commandments for writing academic papers</a>
-<img src="../images/pdf.png" alt="" height="16" width="16" border="0">
-<br>
-<span class="small">Julienne Hanson, Bartlett School of Architecture, London, November, 1988</span>
-</p>
-
-<p>
-<a href="writing-a-paper-slides.pdf">How to write a great research paper</a>
-<img src="../images/pdf.png" alt="" height="16" width="16" border="0">
-<br>
-<span class="small">Simon Peyton Jones at Microsoft Research.</span>
-</p>
-
-<p>
-<a href="Editorial do Ray Paul na EJIS">Editor's View: an opportunity for editors of IS journals to relate their experiences and offer advice.</a>
-<img src="../images/pdf.png" alt="" height="16" width="16" border="0">
-<br>
-<span class="small">The Editorial View of Ray J Paul. First in a series.</span>
-</p>
-
-<p>
-<a href="Reasons-Why-Manuscripts-Are-Not-Accepted.pdf">The Top 10 Reasons Why Manuscripts Are Not Accepted for Publication (Medical domain)</a>
-<img src="../images/pdf.png" alt="" height="16" width="16" border="0">
-<br>
-<span class="small">David J Pierson MD FAARC</span>
-</p>
 
 <p>The points your paper should address <br>
 <ul>
