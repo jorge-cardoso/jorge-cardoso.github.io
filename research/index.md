@@ -26,7 +26,9 @@ You can information additional information on my research here:
 + [Cloud Reliability and Resilience](http://www.slideshare.net/JorgeCardoso4/cloud-resilience-with-open-stack)  
 + [Service Systems](service_systems.md)
 
+Information on past projects can be found here:
 
++ [Past projects](past_projects.md)
 
 
 
