@@ -16,12 +16,8 @@ toc: true
 What is Cloud Reliability and Resilience?
 -----------------
 
-You can information additional information on my current research here:
+You can information additional information from a Meetup meeting on [Cloud Reliability and Resilience](http://www.slideshare.net/JorgeCardoso4/cloud-resilience-with-open-stack).
 
-+ [Cloud Reliability and Resilience](http://www.slideshare.net/JorgeCardoso4/cloud-resilience-with-open-stack)  
-+ [Service Systems](jorge-cardoso.github.io/research/service_systems.md)
-
-> (Information on [past projects](past_projects.md)).
 
 
 
