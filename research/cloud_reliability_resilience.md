@@ -20,7 +20,7 @@ Cloud Reliability and Resilience?
 ## What is Cloud Reliability and Resilience?
 Reliability is a measure of the percentage uptime of cloud services to customers, considering the downtime due to faults. Many cloud providers are setting a reliability level of 99.95%. This means that if you provision a VM it will be available 99.95% of the time, with a possible downtime of 21.6 minutes per month. Reliability is an important characteristic which enables platforms to adapt and recover under stress and remain functional from a customer perspective. You can information additional information from a Meetup meeting on [Cloud Reliability and Resilience](http://www.slideshare.net/JorgeCardoso4/cloud-resilience-with-open-stack). 
 
-Every year big companies made the headlines for the wrong reason: reliability problems. In 2016, Microsoft (9 days), Twitter (8h), Apple (7h), PayPal (7h):
+Every year big companies made the headlines for the wrong reason: reliability problems. In Q1 2016, Microsoft (9 days), Twitter (8h), Apple (7h), are PayPal (7h) are the "lucky" winners:
 + [Two separate outages meant Microsoft's biggest customers haven't had access to email for several days](http://www.businessinsider.de/microsoft-has-a-9-day-long-office-365-outage-2016-1?r=UK&IR=T)
 + [Twitter Went Down Because of an ‘Internal Code Change’](http://recode.net/2016/01/19/twitter-went-down-because-of-an-internal-code-change/)
 + [eBay, Etsy and Online Merchants Hit by PayPal Outage](http://www.ecommercebytes.com/C/blog/blog.pl?/pl/2016/3/1457113386.html)
