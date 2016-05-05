@@ -22,9 +22,9 @@ Reliability is a measure of the percentage uptime of cloud services to customers
 
 Every year big companies made the headlines for the wrong reason: reliability problems. In Q1 2016, Microsoft (9 days), Twitter (8h), Apple (7h), are PayPal (7h) are the "lucky" winners:
 + Two separate outages meant [Microsoft's biggest customers haven't had access to email] for several days(http://www.businessinsider.de/microsoft-has-a-9-day-long-office-365-outage-2016-1?r=UK&IR=T)
-+ [Twitter Went Down] Because of an ‘Internal Code Change’(http://recode.net/2016/01/19/twitter-went-down-because-of-an-internal-code-change/)
++ [Twitter Went Down](http://recode.net/2016/01/19/twitter-went-down-because-of-an-internal-code-change/) Because of an ‘Internal Code Change’.
 + eBay, Etsy and Online Merchants Hit by [PayPal Outage](http://www.ecommercebytes.com/C/blog/blog.pl?/pl/2016/3/1457113386.html)
-+ [Apple Pay suffers] first wobble with seven-hour outage(http://www.theinquirer.net/inquirer/news/2446737/apple-pay-suffers-first-wobble-with-seven-hour-outage). Problem saw Visa users unable to sign up to iPhone payments service.
++ [Apple Pay suffers](http://www.theinquirer.net/inquirer/news/2446737/apple-pay-suffers-first-wobble-with-seven-hour-outage) first wobble with seven-hour outage. Problem saw Visa users unable to sign up to iPhone payments service.
 
 
 
