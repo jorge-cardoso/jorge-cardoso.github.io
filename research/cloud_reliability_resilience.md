@@ -43,7 +43,23 @@ Major player are building competences in the field of cloud reliability. [Micros
 ## Huawei's Proposed Challenges
 
 
-## Research Groups
+## Research Groups and Initiatives
 
 + [Reliable Software Systems (RSS) Group](http://www.iste.uni-stuttgart.de/rss.html), Institute for Software Technology (ISTE)
 University of Stuttgart, Germany.
++ Software Systems Research/NICTA. [Dependable Cloud Operations](http://ssrg.nicta.com.au/projects/cloud).
++ InIT Cloud Computing Lab (ICCLab). [Dependable Cloud Operations](http://blog.zhaw.ch/icclab/).
++ Autonomous Control for a Reliable Internet of Services (ACROSS). [ICT COST Action IC1304](http://www.cost.eu/COST_Actions/ict/Actions/IC1304).
+
+### Conferences
++ [IEEE International Conference on Cloud Computing (IEEE CLOUD)](http://www.thecloudcomputing.org/).
++ [IEEE International Conference on Cloud Engineering (IC2E)](http://conferences.computer.org/IC2E/).
++ [International Conference on Cloud Computing and Services Science (CLOSER)](http://closer.scitevents.org).
++ [International Conference on Service-Oriented Computing (ICSOC)](http://icsoc.in)
++ [IEEE International Conference on Utility and Cloud Computing (UCC)](http://cyprusconferences.org/ucc2015/)
+
+### Software Platforms
++ [Cloud Management at BMC](http://www.bmc.com/it-solutions/cloud-computing-software.html).
++ [Cloud Management at CA Technologies](http://www.ca.com/us/default.aspx).
++ [Cloud Service Automation at HP](http://www8.hp.com/us/en/software-solutions/cloud-service-automation/).
++ [IBM IT service management for Cloud](http://www-03.ibm.com/software/products/en/category/it-service-management).
