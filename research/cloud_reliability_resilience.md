@@ -43,3 +43,7 @@ Major player are building competences in the field of cloud reliability. [Micros
 ## Huawei's Proposed Challenges
 
 
+## Research Groups
+
++ [Reliable Software Systems (RSS) Group](http://www.iste.uni-stuttgart.de/rss.html), Institute for Software Technology (ISTE)
+University of Stuttgart, Germany.
