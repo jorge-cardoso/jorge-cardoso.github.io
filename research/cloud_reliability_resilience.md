@@ -48,8 +48,11 @@ Major players are building competences in the field of cloud reliability. [Micro
 
 
 
-## Huawei's Proposed Challenges
+## Proposed Challenges
 
++ Efficient execution trace processing using stream processing
++ Dynamic time-based fingerprinting to detect timeouts
++ Position and negative fingerprints for automated diagnosis and localization of user commands
 
 ## Research Groups and Initiatives
 
