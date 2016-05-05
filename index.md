@@ -37,7 +37,7 @@ Research Interests
 News
 ---------------
 
-+ I am looking for MSc students to work on a research project (with T-Systems and Deutsche Telekom) which evaluates the reliability of OpenStack. Drop me an e-mail if you are interrested. More information can be found [here](jorge-cardoso.github.io/research/Master_Thesis_Cloud_Resilience_Reliability_Fault-Library-2016-04-12.pdf)   
++ I am looking for MSc students to work on a research project (with T-Systems and Deutsche Telekom) which evaluates the reliability of OpenStack. Drop me an e-mail if you are interrested. More information can be found [here](research/Master_Thesis_Cloud_Resilience_Reliability_Fault-Library-2016-04-12.pdf)   
 + Our article "Modeling Service Level Agreements with Linked USDL Agreement" will soon be published by IEEE Transactions on Services Computing **(Impact Factor 2016: 3.049)** (under publication).
 + José María García, Carlos Pedrinaci, Manuel Resinas, Jorge Cardoso, Pablo Fernández, Antonio Ruiz-Cortés. [Linked USDL Agreement: Effectively Sharing Semantic Service Level Agreements on the Web](/publications/Papers/CP-2015-079-Linked-USDL-Agreement.pdf), [The IEEE International Conference on Web Services (ICWS)](http://conferences.computer.org/icws/2015/), June 27 - July 2, 2015, New York, USA. **(Acceptance Rate: 17.4%)**
 + Jorge Cardoso and Carlos Pedrinaci, [Evolution and Overview of Linked USDL](/publications/Papers/CP-2015-077-Linked-USDL-Evolution-and-Overview.pdf). 6th International Conference Exploring Services Science, IESS 2015, Porto, Portugal, February 4-6, 2015, LNBIP, Vol. 201, Novoa, Henriqueta, Dragoicea, Monica (Eds.), 2015.
