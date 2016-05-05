@@ -36,7 +36,7 @@ Major player are building competences in the field of cloud reliability. [Micros
 
 ## Available Approches
 
-+ [Fault injection](https://en.wikipedia.org/wiki/Fault_injection)
++ [Fault-injection technologies](https://en.wikipedia.org/wiki/Fault_injection) or FIT provides approches to demonstrate that software is robustness and fault tolerance by injecting faults to damage internal components to test its fault tolerance.
 + []()
 
 ## Huawei's Proposed Challenges
