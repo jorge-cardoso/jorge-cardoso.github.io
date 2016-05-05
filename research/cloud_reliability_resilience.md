@@ -36,7 +36,8 @@ Major player are building competences in the field of cloud reliability. [Micros
 
 ## Available Approches
 
-
++ [Fault injection](https://en.wikipedia.org/wiki/Fault_injection)
++ []()
 
 ## Huawei's Proposed Challenges
 
