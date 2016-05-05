@@ -40,6 +40,9 @@ Major players are building competences in the field of cloud reliability. [Micro
 + [Fault-injection technologies](https://en.wikipedia.org/wiki/Fault_injection) or FIT provides approches to demonstrate that software is robustness and fault tolerance by injecting faults to damage internal components to test its fault tolerance.
   + Domenico Cotroneo and Henrique Madeira. [Introduction to software fault injection](http://link.springer.com/chapter/10.1007/978-88-470-2772-5_1). In Domenico Cotroneo, editor, Innovative Technologies for Dependable OTS-Based Critical Systems, pages 1–15. Springer Milan, 2013.
   + Haissam Ziade, Rafic A Ayoubi, Raoul Velazco, et al. [A survey on fault injection techniques](http://ccis2k.org/iajit/PDF/vol.1,no.2/04-Hissam.pdf). Int. Arab J. Inf. Technol., 1(2):171–186, 2004.
++ In [Experience report: Anomaly detection of cloud application operations using log and cloud metric correlation analysis (2015)](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7381796&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7381796), the authors present an approach to detect anomalies by correlating data & events extracted from logs and metrics geenrated by Amazon AWS. While the approach is interesting, the level of datail provided by Amazon logging system does not enable to gain an insighful view and prediction of failures.
+
+
 
 ## Huawei's Proposed Challenges
 
