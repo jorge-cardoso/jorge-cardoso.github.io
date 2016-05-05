@@ -14,7 +14,7 @@ toc: true
 ---  
 
 
-Cloud Reliability and Resilience?
+Cloud Reliability and Resilience
 ----------------------------------
 
 ## What is Cloud Reliability and Resilience?
