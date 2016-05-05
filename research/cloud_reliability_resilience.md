@@ -34,5 +34,10 @@ OpenStack is a cloud operating system (Cloud OS) for building public and private
 
 Major player are building competences in the field of cloud reliability. [Microsoft Trustworthy Computing](https://www.microsoft.com/en-us/twc/reliability.aspx) has a division dedicated to Reliability and IBM offers specialized [resiliency services](http://www-935.ibm.com/services/us/en/it-services/business-continuity/) to assure continuous business operations and improve overall reliability.
 
+## Available Approches
+
+
+
+## Huawei's Proposed Challenges
 
 
