@@ -21,7 +21,7 @@ Then you should  [send me an e-mail](mailto:jcardoso@dei.uc.pt) and we should ha
 
 You can information additional information on my current research here:
 
-+ [Cloud Reliability and Resilience](http://www.slideshare.net/JorgeCardoso4/cloud-resilience-with-open-stack)  
++ [Cloud Reliability and Resilience](jorge-cardoso.github.io/research/cloud_reliability_resilience.md)  
 + [Service Systems](jorge-cardoso.github.io/research/service_systems.md)
 
 > (Information on [past projects](past_projects.md)).
