@@ -32,6 +32,8 @@ Research Interests
 
 + Incorporate new resilient mechanisms into the [OpenStack](https://www.openstack.org) cloud operating system and [Huawei FusionSphere](http://e.huawei.com/en/products/cloud-computing-dc/cloud-computing/fusionsphere/fusionsphere) to increase its reliability and availability.
 
++ More information on [Cloud Reliability and Resilience](research/cloud_reliability_resilience)   
+
 
 
 News
