@@ -37,7 +37,8 @@ Major player are building competences in the field of cloud reliability. [Micros
 ## Available Approches
 
 + [Fault-injection technologies](https://en.wikipedia.org/wiki/Fault_injection) or FIT provides approches to demonstrate that software is robustness and fault tolerance by injecting faults to damage internal components to test its fault tolerance.
-+ []()
+  + Domenico Cotroneo and Henrique Madeira. [Introduction to software fault injection](). In Domenico Cotroneo, editor, Innovative Technologies for Dependable OTS-Based Critical Systems, pages 1–15. Springer Milan, 2013.
+  + Haissam Ziade, Rafic A Ayoubi, Raoul Velazco, et al. [A survey on fault injection techniques](http://ccis2k.org/iajit/PDF/vol.1,no.2/04-Hissam.pdf). Int. Arab J. Inf. Technol., 1(2):171–186, 2004.
 
 ## Huawei's Proposed Challenges
 
