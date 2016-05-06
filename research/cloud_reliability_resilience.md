@@ -70,6 +70,7 @@ University of Stuttgart, Germany.
 + [Dependable Cloud Operations](http://ssrg.nicta.com.au/projects/cloud), Software Systems Research/NICTA, Australia.
 + InIT Cloud Computing Lab (ICCLab). [Dependable Cloud Operations](http://blog.zhaw.ch/icclab/), Zurich, Switzerland.
 + Autonomous Control for a Reliable Internet of Services (ACROSS). [ICT COST Action IC1304](http://www.cost.eu/COST_Actions/ict/Actions/IC1304).
++ [OpenStack Foundation](http://www.openstack.org/foundation/companies/)
 
 ### Conferences
 + [IEEE International Conference on Cloud Computing (IEEE CLOUD)](http://www.thecloudcomputing.org/).
