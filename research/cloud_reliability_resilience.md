@@ -26,12 +26,22 @@ Every year big companies made the headlines for the wrong reason: reliability pr
 
 Cloud resiliency is the ability of a cloud platform or service to recover and continue operating when failures occur. Automated means for recovery are the most desirable solutions.
 
+
+
 ## OpenStack Cloud OS
 OpenStack is a cloud operating system (Cloud OS) for building public and private clouds. It can control pools of compute, storage, and networking recourses located in large data centres. It is supported by major IT players in the world which include IBM, HP, Intel, Huawei, Red Hat, AT&T, and Ericsson. At Huawei Research we are currently developing the next generation of reliable cloud platforms for Deutsche Telekom. The Open Telekom Cloud engineered by Huawei and operated by T-Systems was launched at CeBIT 2016 and delivers flexible and convenient cloud services.
 
 <img align="right" src="/images/OTC.png" width="450">
 
 Major players are building competences in the field of cloud reliability. [Microsoft Trustworthy Computing](https://www.microsoft.com/en-us/twc/reliability.aspx) has a division dedicated to Reliability and IBM offers specialized [Resiliency Services](http://www-935.ibm.com/services/us/en/it-services/business-continuity/) to assure continuous business operations and improve overall reliability.
+
+Cloud reliability and resilience of OpenStack can be analyzed and improved at 3 levels:
+
++	Level 1. OpenStack paltform and services 
++	Level 2. Hypervisor and virtual machines (VM) managed 
++	Level 3. Applications running inside VMs 
+
+We concentrate our efforts on Level 1.
 
 
 ## Available Approaches
