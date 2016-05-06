@@ -16,6 +16,7 @@ toc: true
 
 Past Projects
 ------------------------------
+
 ###Semantic Domain System
 
 <img align="right" src="/images/sds.gif" width="100">
