@@ -40,7 +40,7 @@ Information of what a PhD thesis is about can be found in the following links:
 
 Students
 -----------------
-A list of students that I worked with me can be found [here](students)).
+A list of students that I worked with me over the years can be found [here](students).
 
 
 
