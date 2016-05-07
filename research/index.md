@@ -24,7 +24,7 @@ You can information additional information on my current research here:
 + [Cloud Reliability and Resilience](cloud_reliability_resilience)  
 + [Service Systems](service_systems)
 
-> (Information on [past projects](past_projects)).
+The many projects I was involved can be found here: [past projects](past_projects).
 
 
 What is a PhD and MSc about?
