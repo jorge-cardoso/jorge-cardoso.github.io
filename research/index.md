@@ -26,6 +26,9 @@ You can information additional information on my current research here:
 
 > (Information on [past projects](past_projects)).
 
+
+What is a PhD and MSc about?
+-----------------
 Information of what a PhD thesis is about can be found in the following links:
 
 + [Writing a Thesis Proposal](http://sydney.edu.au/stuserv/documents/thesisproposal.pdf), Learning Centre, University of Sydney.
