@@ -81,9 +81,12 @@ We concentrate our efforts on Level 1.
 
 + [Reliable Software Systems (RSS) Group](http://www.iste.uni-stuttgart.de/rss.html), Institute for Software Technology (ISTE)
 University of Stuttgart, Germany.
++ [Resilient Computing Lab (RCL)](http://rcl.dsi.unifi.it), University of Florence, italy.
++ {}
++ [Software and Systems Engineering](https://www.cisuc.uc.pt/groups/show/sse), University of Coimbra, Portugal.
 + [Dependable Cloud Operations](http://ssrg.nicta.com.au/projects/cloud), Software Systems Research/NICTA, Australia.
-+ InIT Cloud Computing Lab (ICCLab). [Dependable Cloud Operations](http://blog.zhaw.ch/icclab/), Zurich, Switzerland.
-+ Autonomous Control for a Reliable Internet of Services (ACROSS). [ICT COST Action IC1304](http://www.cost.eu/COST_Actions/ict/Actions/IC1304).
++ [InIT Cloud Computing Lab (ICCLab)](http://blog.zhaw.ch/icclab/), Zurich, Switzerland.
++ [ICT COST Action IC1304](http://www.cost.eu/COST_Actions/ict/Actions/IC1304). Autonomous Control for a Reliable Internet of Services (ACROSS). 
 + [OpenStack Foundation](http://www.openstack.org/foundation/companies/)
 
 ### Conferences
