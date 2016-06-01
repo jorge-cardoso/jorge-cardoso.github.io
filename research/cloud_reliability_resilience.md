@@ -43,8 +43,12 @@ Cloud reliability and resilience of OpenStack can be analyzed and improved at 3 
 
 We concentrate our efforts on Level 1.
 
+## Solutions from Industry
 
-## Available Approaches
++  To guarantee HA, LinkedIn simulates data center failures and measure the effects. To improve response time and lower the cost of operations, they have built the [Nurse](https://engineering.linkedin.com/sre/introducing-nurse-auto-remediation-linkedin) system, a workflow engine which enables to define tasks to recover automatically from failures.
+
+
+## Available Approaches (Patents and Research Papers)
 
 + [Fault-injection technologies](https://en.wikipedia.org/wiki/Fault_injection) or FIT provides approaches to demonstrate that software is robustness and fault tolerance by injecting faults to damage internal components to test its fault tolerance.
   + Domenico Cotroneo and Henrique Madeira. [Introduction to software fault injection](http://link.springer.com/chapter/10.1007/978-88-470-2772-5_1). In Domenico Cotroneo, editor, Innovative Technologies for Dependable OTS-Based Critical Systems, pages 1–15. Springer Milan, 2013.
