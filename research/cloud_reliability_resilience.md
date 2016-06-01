@@ -81,8 +81,7 @@ We concentrate our efforts on Level 1.
 
 + [Reliable Software Systems (RSS) Group](http://www.iste.uni-stuttgart.de/rss.html), Institute for Software Technology (ISTE)
 University of Stuttgart, Germany.
-+ [Resilient Computing Lab (RCL)](http://rcl.dsi.unifi.it), University of Florence, italy.
-+ {}
++ [Resilient Computing Lab (RCL)](http://rcl.dsi.unifi.it), University of Florence, Italy.
 + [Software and Systems Engineering](https://www.cisuc.uc.pt/groups/show/sse), University of Coimbra, Portugal.
 + [Dependable Cloud Operations](http://ssrg.nicta.com.au/projects/cloud), Software Systems Research/NICTA, Australia.
 + [InIT Cloud Computing Lab (ICCLab)](http://blog.zhaw.ch/icclab/), Zurich, Switzerland.
