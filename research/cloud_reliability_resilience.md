@@ -26,7 +26,12 @@ Every year big companies made the headlines for the wrong reason: reliability pr
 
 Cloud resiliency is the ability of a cloud platform or service to recover and continue operating when failures occur. Automated means for recovery are the most desirable solutions.
 
+### Open Positions
 
++ MSc thesis. [Reliability of OpenStack usign Fault Injection](research/Master_Thesis_Cloud_Resilience_Reliability_Fault-Library-2016-04-12.pdf) 
++ MSc thesis. [Intelligently Instrument OpenStack](research/Master_Thesis_Cloud_Resilience_Reliability_Intelligent_Instrumentation-2016-06-03.pdf).
++ Permanent position. [Cloud Reliability Engineer](http://www.stepstone.de/stellenangebote--Cloud-Reliability-Engineer-Muenchen-Huawei-Technologies-Duesseldorf-GmbH--3799684-inline.html)
++ Permanent position. [OpenStack Software Engineer](http://www.stackjobs.io/jobs/68-openstack-software-engineer-huawei)
 
 ## OpenStack Cloud OS
 OpenStack is a cloud operating system (Cloud OS) for building public and private clouds. It can control pools of compute, storage, and networking recourses located in large data centres. It is supported by major IT players in the world which include IBM, HP, Intel, Huawei, Red Hat, AT&T, and Ericsson. At Huawei Research we are currently developing the next generation of reliable cloud platforms for Deutsche Telekom. The Open Telekom Cloud engineered by Huawei and operated by T-Systems was launched at CeBIT 2016 and delivers flexible and convenient cloud services.
