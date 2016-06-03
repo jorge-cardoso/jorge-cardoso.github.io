@@ -21,6 +21,15 @@ You can find more about my research on Cloud Computing, BPM, Semantic Web, Web S
 [DBLP](http://dblp.uni-trier.de/pers/hd/c/Cardoso:Jorge), and
 [LinkedIn](https://www.linkedin.com/profile/view?id=2572343&trk=hp-identity-name).
 
+
+Open Positions
+---------------
++ MSc thesis. [Reliability of OpenStack usign Fault Injection](research/Master_Thesis_Cloud_Resilience_Reliability_Fault-Library-2016-04-12.pdf) 
++ MSc thesis. [Intelligently Instrument OpenStack](research/Master_Thesis_Cloud_Resilience_Reliability_Intelligent_Instrumentation-2016-06-03.pdf).
++ Permanent position. [Cloud Reliability Engineer](http://www.stepstone.de/stellenangebote--Cloud-Reliability-Engineer-Muenchen-Huawei-Technologies-Duesseldorf-GmbH--3799684-inline.html)
++ Permanent position. [OpenStack Software Engineer](http://www.stackjobs.io/jobs/68-openstack-software-engineer-huawei)
+
+
 Research Interests
 ---------------
 
@@ -33,7 +42,6 @@ Research Interests
 + Incorporate new resilient mechanisms into the [OpenStack](https://www.openstack.org) cloud operating system and [Huawei FusionSphere](http://e.huawei.com/en/products/cloud-computing-dc/cloud-computing/fusionsphere/fusionsphere) to increase its reliability and availability.
 
 + More information on [Cloud Reliability and Resilience](research/cloud_reliability_resilience)   
-
 
 
 News
