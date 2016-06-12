@@ -26,6 +26,9 @@ Open Positions
 ---------------
 + MSc thesis. [Reliability of OpenStack usign Fault Injection](research/Master_Thesis_Cloud_Resilience_Reliability_Fault-Library-2016-04-12.pdf) 
 + MSc thesis. [Intelligently Instrument OpenStack](research/Master_Thesis_Cloud_Resilience_Reliability_Intelligent_Instrumentation-2016-06-03.pdf).
++ PhD student. OpenStack Reliability
++ PhD student. Data Science.
++ PhD student. Orchestration of cloud services/microservices.
 + Permanent position. [Cloud Reliability Engineer](http://www.stepstone.de/stellenangebote--Cloud-Reliability-Engineer-Muenchen-Huawei-Technologies-Duesseldorf-GmbH--3799684-inline.html)
 + Permanent position. [OpenStack Software Engineer](http://www.stackjobs.io/jobs/68-openstack-software-engineer-huawei)
 
@@ -46,7 +49,7 @@ Research Interests
 + Use the open source Cloud platform [OpenStack](https://www.openstack.org) to provision services
 + Implement new algorithms from the field of Data Science to process streaming data using e.g., [Kafka](http://kafka.apache.org) and [Storm](http://storm.apache.org) and publish them as [microservices](http://martinfowler.com/articles/microservices.html). 
 + Use new workflow languages such as [Mistral](https://wiki.openstack.org/wiki/Mistral) to orchestrate microservices 
-+ Build POC to show the value of agregating these technologies to manage Clour Reliability and Large-scale Cloud Monitoring.
++ Build POC to show the value of aggregating these technologies to manage Cloud Reliability and Large-scale Cloud Monitoring.
 
 News
 ---------------
