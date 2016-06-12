@@ -33,7 +33,7 @@ Open Positions
 Research Interests
 ---------------
 
-## [Cloud Reliability and Resilience](research/cloud_reliability_resilience)  
+### [Cloud Reliability and Resilience](research/cloud_reliability_resilience)  
 + Developed new fault injection techniques to improve the reliability of complex, large distributed cloud platforms, such as the [Open Telekom Cloud](https://cloud.telekom.de/en/) from Deutsche Telekom.
 
 + Use [event processing technologies](https://en.wikipedia.org/wiki/Storm_(event_processor)) to detect  anomalies in cloud platforms in real time.
@@ -42,7 +42,7 @@ Research Interests
 
 + Incorporate new resilient mechanisms into the [OpenStack](https://www.openstack.org) cloud operating system and [Huawei FusionSphere](http://e.huawei.com/en/products/cloud-computing-dc/cloud-computing/fusionsphere/fusionsphere) to increase its reliability and availability.
 
-## Data Science
+### Data Science
 + Use the open source Cloud platform [OpenStack](https://www.openstack.org) to provision services
 + Implement new algorithms from the field of Data Science to process streaming data using e.g., [Kafka](http://kafka.apache.org) and [Storm](http://storm.apache.org) and publish them as [microservices](http://martinfowler.com/articles/microservices.html). 
 + Use new workflow languages such as [Mistral](https://wiki.openstack.org/wiki/Mistral) to orchestrate microservices 
