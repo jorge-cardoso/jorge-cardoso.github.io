@@ -46,6 +46,7 @@ Research Interests
 + Use the open source Cloud platform [OpenStack](https://www.openstack.org) to provision services
 + Implement new algorithms from the field of Data Science to process streaming data using e.g., [Kafka](http://kafka.apache.org) and [Storm](http://storm.apache.org) and publish them as [microservices](http://martinfowler.com/articles/microservices.html). 
 + Use new workflow languages such as [Mistral](https://wiki.openstack.org/wiki/Mistral) to orchestrate microservices 
++ Build POC to show the value of agregating these technologies to manage Clour Reliability and Large-scale Cloud Monitoring.
 
 News
 ---------------
