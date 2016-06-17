@@ -84,6 +84,8 @@ Component-based monitoring tools provide not information into the relationship b
 + [Methods and Systems of Distributed Tracing](http://www.google.com/patents/US20140215443) and US 20140215443 A1 Application and US 9135145 B2 Grant by Rackspace Us, Inc. (Sept 2015). A system and methods are provided for distributed tracing in a distributed application by observing messages sent and received among components of the distributed application, generating a probabilistic model of a call flow, and constructing a call flow graph based on the probabilistic model for the distributed application.
 + Mike Y. Chen, Anthony Accardi, Emre Kiciman, Jim Lloyd, Dave Patterson, Armando Fox, and Eric Brewer. 2004. [Path-based faliure and evolution management](http://people.eecs.berkeley.edu/~brewer/papers/nsdi2004_chen_paths.pdf). In Proceedings of the 1st conference on Symposium on Networked Systems Design and Implementation - Volume 1 (NSDI'04), Vol. 1. USENIX Association, Berkeley, CA, USA, 23-23.
 
+Other tools from the field of APM ([Application Performance Management](https://en.wikipedia.org/wiki/Application_performance_management)), such as [NewRelic](https://newrelic.com) limite their span to monitor the performance of transactions across web application stacks.
+
 ## Proposed Challenges
 
 + Efficient execution trace processing using stream processing
