@@ -12,7 +12,7 @@ ads: false
 <img src="/images/Jorge_Cardoso.png" height="128" width="155"  style="float:left;margin:0 20px 0 0;"/>
 </a>
 </p>
-I am Associate Professor at the [University of Coimbra](http://www.uc.pt/en/fctuc/dei) (Portugal), and affiliated to the Information Systems Group. I am also Lead Architect for Cloud Management at [Huawei's European Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany.
+I am Lead Architect for Cloud Management at [Huawei's European Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany. I am also Associate Professor at the [University of Coimbra](http://www.uc.pt/en/fctuc/dei) (Portugal), and affiliated to the Information Systems Group. 
 
 My current research involves the development of the next generation of Cloud Management Platforms ([CPM](http://www.gartner.com/it-glossary/cloud-management-platforms)), Cloud Automation solutions, Cloud Business Process Management (BPM), and High Performance BPM systems.
 
@@ -78,7 +78,7 @@ Resources
 
 About me
 ---------------
-Prof. Dr. Jorge Cardoso is Associate Professor and joined the Information System Group at the University of Coimbra in 2009. He has authored/co-authored more than 135 scientific publications and has been part of more than 120 program committees and organization bodies (journals and conferences). He his author/editor of 9 books. He holds a US patent titled "System and method of measuring process compliance". GoogleScholar shows more than 5050 citations for his research work with an h-index of 31. He is currently writing his next book titled "Foundation of Service Systems" which results from the research work of his areas of interest: business process management, semantic Web, the Internet of Services, and service engineering.
+Prof. Dr. Jorge Cardoso is Lead Architect for Cloud Management at [Huawei's European Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany. He is also Associate Professor and joined the Information System Group at the University of Coimbra in 2009. He has authored/co-authored more than 135 scientific publications and has been part of more than 120 program committees and organization bodies (journals and conferences). He his author/editor of 9 books. He holds a US patent titled "System and method of measuring process compliance". GoogleScholar shows more than 6000 citations for his research work with an h-index of 35. He is currently writing his next book titled "Foundation of Service Systems" which results from the research work of his areas of interest: business process management, semantic Web, the Internet of Services, and service engineering.
 
 He has participated in European, German and National research projects financed by the European Commission (FP7), the Education, Audiovisual and Culture Executive Agency (EACEA), the German Ministry for Education and Research (BMBF), SAP Research (SAP) and Fundacao para a Ciencia e Technologia (FCT). Previously he worked for several major companies such as SAP Research (Germany) on the Internet of Services, the Boeing Company in Seattle (USA) on Enterprise Application Integration and CCG/Zentrum fur Graphische Datenverarbeitung on Computer Supported Cooperative Work. He gave lectures at the University of Madeira (Portugal) -- where he obtained tenure -- and the University of Georgia (USA). He is currently leading the Genssiz center for service systems research (10+ members). In the past, he has led 2 large research groups. One while at SAP Research in Germany (15+ members) and another one, the SEED Laboratory (10+ members), while at the University of Madeira.
 
@@ -88,7 +88,6 @@ His teaching, training, and consulting activities both in academia and in indust
 
 He completed his graduate studies with a Ph.D. from the University of Georgia (US) in 2002 and his undergraduate studies at the University of Coimbra, Portugal with a MSc and BSc in Informatics Engineering in 1995 and 1998, respectively.
 His current research interests are in the areas of Service models, cloud computing, service networks, service relationships, semantic web, service dynamics, business process management.
-
 
 
 
