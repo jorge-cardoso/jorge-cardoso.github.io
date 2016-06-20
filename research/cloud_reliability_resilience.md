@@ -93,6 +93,7 @@ Other tools from the field of APM ([Application Performance Management](https://
 + Efficient execution trace processing using stream processing
 + Dynamic time-based fingerprinting to detect timeouts
 + Position and negative fingerprints for automated diagnosis and localization of user commands
++ Rely as much possible on open source and Python (see [Python frameworks, libraries, software and resources](https://github.com/vinta/awesome-python))
 
 ## Research Groups and Initiatives
 
