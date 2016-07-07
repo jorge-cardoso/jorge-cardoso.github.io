@@ -31,7 +31,7 @@ Open Positions
 + PhD student. Orchestration of cloud services/microservices.
 + Permanent position. [Cloud Reliability Engineer](JD_IT_Cloud_Reliability_Engineer_(May 2016).pdf)
 + Permanent position. [OpenStack Software Engineer](JD_IT_OpenStack_Software_Engineer_(Jan 2016).pdf)
-+ Permanent position. [Juniro/Senior Researcher Large-scale Distributed Systems](JD_IT_Junior_Senior_Researcher_Large-Scale_Distributed_Systems_(Jul 2016).pdf)
++ Permanent position. [Junior/Senior Researcher Large-scale Distributed Systems](JD_IT_Junior_Senior_Researcher_Large-Scale_Distributed_Systems_(Jul 2016).pdf)
 
 
 Research Interests
