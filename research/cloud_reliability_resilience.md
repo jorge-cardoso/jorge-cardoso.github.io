@@ -97,7 +97,7 @@ Component-based monitoring tools provide not information into the relationship b
 
 Other tools from the field of APM ([Application Performance Management](https://en.wikipedia.org/wiki/Application_performance_management)), such as [NewRelic](https://newrelic.com) limite their span to monitor the performance of transactions across web application stacks.
 
-## Huawei's Approch 
+## Huawei's Approach 
 
 + Efficient execution trace processing using stream processing
 + Dynamic time-based fingerprinting to detect timeouts
