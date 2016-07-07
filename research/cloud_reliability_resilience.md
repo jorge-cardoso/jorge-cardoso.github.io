@@ -27,8 +27,8 @@ Every year big companies made the headlines for the wrong reason: reliability pr
 Cloud resiliency is the ability of a cloud platform or service to recover and continue operating when failures occur. Automated means for recovery are the most desirable solutions.
 
 ### Open Positions
-+ MSc thesis. [Reliability of OpenStack usign Fault Injection](research/Master_Thesis_Cloud_Resilience_Reliability_Fault-Library-2016-04-12.pdf) 
-+ MSc thesis. [Intelligently Instrument OpenStack](research/Master_Thesis_Cloud_Resilience_Reliability_Intelligent_Instrumentation-2016-06-03.pdf).
++ MSc thesis. [Reliability of OpenStack usign Fault Injection](Master_Thesis_Cloud_Resilience_Reliability_Fault-Library-2016-04-12.pdf) 
++ MSc thesis. [Intelligently Instrument OpenStack](Master_Thesis_Cloud_Resilience_Reliability_Intelligent_Instrumentation-2016-06-03.pdf).
 + PhD student. OpenStack Reliability
 + PhD student. Data Science.
 + PhD student. Orchestration of cloud services/microservices.
