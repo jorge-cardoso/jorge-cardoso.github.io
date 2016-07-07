@@ -52,6 +52,11 @@ Cloud reliability and resilience of OpenStack can be analyzed and improved at 3 
 
 We concentrate our efforts on Level 1.
 
+## General Problems with Building Large-scale Distributed Systems
+
+Reliable large-scale distributed systems are hard to build since their validation is time consuming, complex, and often non-deterministic. OpenStack is not an exception. Research from Microsoft with [MODIST](https://www.usenix.org/legacy/event/nsdi09/tech/full_papers/yang/yang_html/) (Junfeng Yang, et al., MODIST: Transparent Model Checking of Unmodified Distributed Systems Proceedings of the 6th Symposium on Networked Systems Design and Implementation (NSDI '09), Pages 213-228) exemplifies well the problems associated with general distributed systems. Experiments found a total of 35 bugs in Berkeley DB, a Paxos implementation, and a primary-backup replication protocol implementation. Thus, validation, testing, and benchmarking frameworks are needed, specifically, when OpenStack is used to support mission critical applications.
+
+
 ## Solutions from Industry
 
 +  To guarantee HA, [LinkedIn](linkedin.com) simulates data center failures and measure the effects. To improve response time and lower the cost of operations, they have built the [Nurse](https://engineering.linkedin.com/sre/introducing-nurse-auto-remediation-linkedin) system, a workflow engine which enables to define tasks to recover automatically from failures.
@@ -92,7 +97,7 @@ Component-based monitoring tools provide not information into the relationship b
 
 Other tools from the field of APM ([Application Performance Management](https://en.wikipedia.org/wiki/Application_performance_management)), such as [NewRelic](https://newrelic.com) limite their span to monitor the performance of transactions across web application stacks.
 
-## Proposed Challenges
+## Huawei's Approch 
 
 + Efficient execution trace processing using stream processing
 + Dynamic time-based fingerprinting to detect timeouts
