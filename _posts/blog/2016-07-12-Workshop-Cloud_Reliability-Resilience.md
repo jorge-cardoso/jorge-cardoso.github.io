@@ -27,24 +27,24 @@ This workshop intends to bring together industry, academia, and regulators to id
 
 #### Topics of Interest
 The workshop places focus on the following topics:
-•	Challenges of data center reliability 
-•	Methods and algorithms for failure prediction
-•	Damage detection and problem diagnosis
-•	Automated repair and recovery of cloud systems
-•	Disaster recovery in cloud computing 
-•	Fault-injection as an approach for reliability
-•	Evaluation of cloud platforms reliability 
-•	Cloud reliability metrics and benchmarks
-•	Service Level Agreement (SLA) and reliability
-•	Quality of Service in the cloud
-•	Standards, regulations, and legislation
++	Challenges of data center reliability 
++	Methods and algorithms for failure prediction
++	Damage detection and problem diagnosis
++	Automated repair and recovery of cloud systems
++	Disaster recovery in cloud computing 
++	Fault-injection as an approach for reliability
++	Evaluation of cloud platforms reliability 
++	Cloud reliability metrics and benchmarks
++	Service Level Agreement (SLA) and reliability
++	Quality of Service in the cloud
++	Standards, regulations, and legislation
 
 #### General Chairs
 + Henrik Abramowicz, EIT Digital, Germany.
 + Jorge Cardoso, Huawei ERC, Munich, Germany.
 
 #### Program Chairs
-TBA
++ TBA
 
 
 
