@@ -13,6 +13,8 @@ ads: false
 date: 2016-07-12T13:39:59+02:00
 ---
 
+#### International Industry-Academia Workshop on Cloud Reliability and Resilience 
+
 November 7-8, 2016, Berlin, Germany 
 
 #### Overview
