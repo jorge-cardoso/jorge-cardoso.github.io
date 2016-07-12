@@ -1,6 +1,6 @@
 ---
 layout: media
-title: "Data Science for Non-Programmers"
+title: "International Industry-Academia Workshop on Cloud Reliability and Resilience "
 modified:
 categories: blog
 excerpt:
