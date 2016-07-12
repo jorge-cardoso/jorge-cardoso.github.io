@@ -29,9 +29,7 @@ This workshop intends to bring together industry, academia, and regulators to id
 The workshop places focus on the following topics:
 
 +	Challenges of data center reliability 
-
 +	Methods and algorithms for failure prediction
-
 +	Damage detection and problem diagnosis
 +	Automated repair and recovery of cloud systems
 +	Disaster recovery in cloud computing 
