@@ -44,7 +44,7 @@ The workshop places focus on the following topics:
 
 #### General Chairs
 + Henrik Abramowicz, EIT Digital, Germany.
-+ Jorge Cardoso, Huawei ERC, Munich, Germany.
++ Jorge Cardoso, Huawei ERC, Munich, Germany and University of Coimbra, Portugal
 
 #### Program Chairs
 + TBA
