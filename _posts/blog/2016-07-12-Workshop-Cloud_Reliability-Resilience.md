@@ -10,7 +10,7 @@ image:
   teaser: Cover-FSS.gif
   thumb: Cover-FSS.gif
 ads: false
-date: 2015-01-29T13:39:59+02:00
+date: 2016-07-12T13:39:59+02:00
 ---
 
 #### International Industry-Academia Workshop on Cloud Reliability and Resilience 
@@ -24,7 +24,7 @@ Nonetheless, a study from Gartner found that 47% of all documented cloud problem
 
 Thus, the development of new strategies, techniques, and methods to evaluate and increase the reliability and resilience of cloud platforms from a software perspective is fundamental.
 
-#### Workshop Goal
+#### Goal
 This workshop intends to bring together industry, academia, and regulators to identify the most relevant requirements in the field of cloud reliability and resilience, on one hand, and existing state-of-the-art solutions, on the other. We invite engineers, scientists, and experts to discuss and contribute to the creation of a new generation of highly reliable cloud platforms. 
 
 #### Topics of Interest
