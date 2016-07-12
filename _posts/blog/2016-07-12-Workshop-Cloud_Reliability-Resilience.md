@@ -10,7 +10,7 @@ image:
   teaser: Cover-FSS.gif
   thumb: Cover-FSS.gif
 ads: false
-date: 2016-07-12T13:39:59+02:00
+date: 2016-07-11T13:39:59+02:00
 ---
 
 #### International Industry-Academia Workshop on Cloud Reliability and Resilience 
