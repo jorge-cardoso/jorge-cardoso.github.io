@@ -15,7 +15,7 @@ date: 2015-01-29T13:39:59+02:00
 
 #### International Industry-Academia Workshop on Cloud Reliability and Resilience 
 
-November 7-8, Berlin, Germany 
+November 7-8, 2016, Berlin, Germany 
 
 #### Overview
 With the increasing adoption and reliance on cloud platforms and services, it is undeniable that cloud computing is becoming a utility such as water, energy, transportation, or telecommunications. This status brings the responsibility for public providers to ensure the development of highly reliable platform and services. 
