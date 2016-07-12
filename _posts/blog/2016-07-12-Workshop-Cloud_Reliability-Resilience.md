@@ -13,30 +13,38 @@ ads: false
 date: 2015-01-29T13:39:59+02:00
 ---
 
-#### Background
-The leading consulting company McKinsey estimates that there will be a shortage of data scientists to enable organizations to explore the full potential of big data. By 2018, the United States alone will face a shortage of 140,000 to 190,000 professionals with strong analytical skills with the know-how to analyze big data to make effective decisions. This shortage will be more dramatic in Portugal since, in contrast to US universities that provide Data Science degrees for several years (e.g., at Berkeley and Carnegie Mellon University), Portuguese universities are just making the first steps. In short, without Data Science professionals, the competitive advantage that big data can bring to Portuguese companies will remain untapped.
+#### International Industry-Academia Workshop on Cloud Reliability and Resilience 
 
-#### The Problem 
-This shortage of professionals cannot be mitigated easily since training students to become data scientists requires time and resources to teach skills from diverse knowledge areas such as Computer Science, Statistics, Business, and Data Visualization. Data scientists are involved across the full data lifecycle -- from acquiring new data sets to making business decisions based on the knowledge discovered. They need to be skilled with programming languages (e.g., Python and Perl) to clean, integrate and transform data, and use complex programming packages (e.g., Scikit-Learn for analytics and MatPlotLib for visualization). Mastering this type of working environment is not easy. 
+November 7-8, Berlin, Germany 
 
-#### Objective 
-A short term objective for companies will be to explore the use of visual programming paradigms to enable non-programmers to be part of the Data Science workforce.
+#### Overview
+With the increasing adoption and reliance on cloud platforms and services, it is undeniable that cloud computing is becoming a utility such as water, energy, transportation, or telecommunications. This status brings the responsibility for public providers to ensure the development of highly reliable platform and services. 
 
-#### Existing Approaches 
-In contrast to existing approaches, which require programming, Scientific Workflow Management Systems (SWMS) can become an alternative to support the visual programming of data science projects. Such systems (e.g. Taverna and Kepler) use a simple graphical, graph-based structure to develop applications. This simplicity has shown to be suitable in several scientific areas such as bioinformatics, geophysics, and climate analysis.
+Nonetheless, a study from Gartner found that 47% of all documented cloud problems were caused by service outages. Their duration ranged between 40 minutes and five days. Another study from Ponemon Institute found that outages on average cost US$ 690,204. To aggravate these results, the increasing use of commodity hardware to build data centers will negatively contribute and will lower the reliability of existing cloud computing platforms.
 
-#### Limitation 
-Despite the success of SWMS in data intensive research, they did not reach a state where non-programmers data scientists can use them. They still require some programming and scripting skills to code individual processing tasks. That is why research teams using those systems are usually composed of scientists and software developers. Thus, further research is required to remove any programming still required from these systems to make them suitable for non-programmers. 
+Thus, the development of new strategies, techniques, and methods to evaluate and increase the reliability and resilience of cloud platforms from a software perspective is fundamental.
+This workshop intends to bring together industry, academia, and regulators to identify the most relevant requirements in the field of cloud reliability and resilience, on one hand, and existing state-of-the-art solutions, on the other. We invite engineers, scientists, and experts to discuss and contribute to the creation of a new generation of highly reliable cloud platforms. 
 
-#### Proposed Approach 
-Current SWMS need to be extended to support the parameterization of generic prebuild workflow templates. Workflow templates capture the processing tasks of data science projects. A template can be seen as a formalized best practice that data scientists can use to solve common data analysis challenges. Templates are developed by multidisciplinary teams of experts and reused by non-programmer data scientists, since they do not require programming. Parameterized workflows have been used successfully in the field of enterprise computing since 1970 to increase software reuse. For example, SAP became the largest software company in Europe by using parameterized workflows to automatize business process models. We claim that the same type of benefits can be obtained by parameterizing scientific workflow templates. 
+#### Topics of Interest
+The workshop places focus on the following topics:
+•	Challenges of data center reliability 
+•	Methods and algorithms for failure prediction
+•	Damage detection and problem diagnosis
+•	Automated repair and recovery of cloud systems
+•	Disaster recovery in cloud computing 
+•	Fault-injection as an approach for reliability
+•	Evaluation of cloud platforms reliability 
+•	Cloud reliability metrics and benchmarks
+•	Service Level Agreement (SLA) and reliability
+•	Quality of Service in the cloud
+•	Standards, regulations, and legislation
 
-#### Implementation 
-Approaches based on templates can be implemented in SWMSs such as Taverna, an open source software tool for designing and executing workflows, which is used by 350 major research institutions worldwide. Platforms, such as ?myexperiment.org?, can be used for sharing workflow templates among data scientists. 
+#### General Chairs
++ Henrik Abramowicz, EIT Digital, Germany.
++ Jorge Cardoso, Huawei ERC, Munich, Germany.
 
-#### Evaluation 
-Naturally, this systems need to be evaluated by data intensive organizations such as telecommunication providers and governmental agencies managing Open Data. Furthermore, hackathons can be ideal events to attract young participants, interested in developing science, business, and technology projects, to evaluate these new types of approaches.  
+#### Program Chairs
+TBA
 
-#### Benefits 
-On the one hand, workflow templates and SWMSs will be available for student and professionals to conduct data science experiments. On the other hand, such a project can generate a wealth of material -- workflow templates, datasets, articles, code, and software -- which will be used to prepare new hands-on courses on Data Science and SWMS to be offered at the university level. 
+
 
