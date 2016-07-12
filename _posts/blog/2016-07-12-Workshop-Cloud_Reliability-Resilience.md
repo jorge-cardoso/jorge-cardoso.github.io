@@ -27,6 +27,7 @@ This workshop intends to bring together industry, academia, and regulators to id
 
 #### Topics of Interest
 The workshop places focus on the following topics:
+
 +	Challenges of data center reliability 
 +	Methods and algorithms for failure prediction
 +	Damage detection and problem diagnosis
