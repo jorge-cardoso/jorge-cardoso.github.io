@@ -24,6 +24,8 @@ Every year big companies made the headlines for the wrong reason: reliability pr
 + eBay, Etsy and Online Merchants Hit by [PayPal Outage](http://www.ecommercebytes.com/C/blog/blog.pl?/pl/2016/3/1457113386.html)
 + [Apple Pay suffers](http://www.theinquirer.net/inquirer/news/2446737/apple-pay-suffers-first-wobble-with-seven-hour-outage) first wobble with seven-hour outage. Problem saw Visa users unable to sign up to iPhone payments service.
 
+According to section of [IEEE Society](http://rs.ieee.org) working on Reliability, "reliability engineering is a design engineering discipline which applies scientific knowledge to assure that a system will perform its intended function for the required duration within a given environment, including the ability to test and support the system through its total lifecycle (...) it is the probability of failure-free software operation for a specified period of time in a specified environment."
+
 Cloud resiliency is the ability of a cloud platform or service to recover and continue operating when failures occur. Automated means for recovery are the most desirable solutions.
 
 ### Open Positions
