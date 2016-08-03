@@ -118,6 +118,8 @@ University of Stuttgart, Germany.
 + [InIT Cloud Computing Lab (ICCLab)](http://blog.zhaw.ch/icclab/), Zurich, Switzerland.
 + [ICT COST Action IC1304](http://www.cost.eu/COST_Actions/ict/Actions/IC1304). Autonomous Control for a Reliable Internet of Services (ACROSS). 
 + [OpenStack Foundation](http://www.openstack.org/foundation/companies/)
++ [IFIP WG10.4 on Dependable Computing and Fault Tolerance](http://www.dependability.org/wg10.4/)
++ [IEEE Reliability Society](http://rs.ieee.org/)
 
 ### Conferences
 + [IEEE International Conference on Cloud Computing (IEEE CLOUD)](http://www.thecloudcomputing.org/).
