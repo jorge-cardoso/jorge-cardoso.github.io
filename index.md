@@ -37,7 +37,7 @@ Open Positions
 Research Interests
 ---------------
 
-### [Cloud Reliability and Resilience](research/cloud_reliability_resilience)  
+### [Cloud Reliability and Resilience](research/)  
 + Developed new fault injection techniques to improve the reliability of complex, large distributed cloud platforms, such as the [Open Telekom Cloud](https://cloud.telekom.de/en/) from Deutsche Telekom.
 + Use [event processing technologies](https://en.wikipedia.org/wiki/Storm_(event_processor)) to detect  anomalies in cloud platforms in real time.
 + Adapt approaches from the field of data mining, such as [Bayesian networks](https://en.wikipedia.org/wiki/Bayesian_network) and [Markov processes](https://en.wikipedia.org/wiki/Markov_process), to automatically detect and localize failures in cloud platforms.
