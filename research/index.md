@@ -132,5 +132,6 @@ University of Stuttgart, Germany.
 + [IEEE International Conference on Utility and Cloud Computing (UCC)](http://cyprusconferences.org/ucc2015/)
 + [Workshop on Resiliency in High Performance Computing (Resilience) in Clusters, Clouds, and Grids](http://www.csm.ornl.gov/srt/conferences/Resilience/2016/)
 
-### Books
+### Literature
 + [Software Fault Injection](https://www.amazon.com/Software-Fault-Injection-Jeffrey-Voas/dp/0471183814) by Jeffrey M. Voas and Gary McGraw.
++ [Patterns of resilience](http://www.slideshare.net/ufried/patterns-of-resilience) by Uwe Friedrichsen
