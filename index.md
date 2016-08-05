@@ -41,6 +41,7 @@ Open Positions
 
 Research Interests
 ---------------
+
 ### [Cloud Reliability and Resilience](research/)  
 
 ### Data Science as a Service
