@@ -67,6 +67,8 @@ Reliable large-scale distributed systems are hard to build since their validatio
  
 + Microsoft proposed the Resilience Modeling and Analysis [(RMA)](http://download.microsoft.com/download/f/a/2/fa2a49ab-13af-44fc-883c-7b8c48d8a042/resilience-by-design-for-cloud-services.pdf) methodology. It is an approach for improving resilience adapted from the industry-standard technique known as Failure Mode and Effects Analysis (FMEA).
 
++ [Fault Injection at Cloudera](http://blog.cloudera.com/blog/2016/04/quality-assurance-at-cloudera-fault-injection-and-elastic-partitioning/)
+
 ## Available Approaches (Patents and Research Papers)
 
 ### Fault Injection
