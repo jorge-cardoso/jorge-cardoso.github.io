@@ -131,8 +131,8 @@ University of Stuttgart, Germany.
 + [IEEE International Conference on Utility and Cloud Computing (UCC)](http://cyprusconferences.org/ucc2015/)
 + [Workshop on Resiliency in High Performance Computing (Resilience) in Clusters, Clouds, and Grids](http://www.csm.ornl.gov/srt/conferences/Resilience/2016/)
 
-### Software Platforms
-+ [Cloud Management at BMC](http://www.bmc.com/it-solutions/cloud-computing-software.html).
-+ [Cloud Management at CA Technologies](http://www.ca.com/us/default.aspx).
-+ [Cloud Service Automation at HP](http://www8.hp.com/us/en/software-solutions/cloud-service-automation/).
-+ [IBM IT service management for Cloud](http://www-03.ibm.com/software/products/en/category/it-service-management).
+### Books
++ [Software Fault Injection](https://www.amazon.com/Software-Fault-Injection-Jeffrey-Voas/dp/0471183814) by Jeffrey M. Voas and Gary McGraw
+
+
+by Jeffrey M. Voas and Gary McGraw
