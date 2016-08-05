@@ -14,7 +14,12 @@ ads: false
 </p>
 I am Lead Architect for Cloud Management at [Huawei's European Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany. I am also Associate Professor at the [University of Coimbra](http://www.uc.pt/en/fctuc/dei) (Portugal), and affiliated to the Information Systems Group. 
 
-My current research involves the development of the next generation of Cloud Management Platforms ([CPM](http://www.gartner.com/it-glossary/cloud-management-platforms)), Cloud Automation solutions, Cloud Business Process Management (BPM), and High Performance BPM systems.
+My current research involves the development of the next generation of Cloud Management Platforms ([CPM](http://www.gartner.com/it-glossary/cloud-management-platforms)), Cloud Automation solutions, Cloud Business Process Management (BPM), and High Performance BPM systems. More precisely,
+
++ Develop new fault injection techniques to improve the reliability of complex, large distributed cloud platforms, such as the [Open Telekom Cloud](https://cloud.telekom.de/en/) from Deutsche Telekom.
++ Use [event processing technologies](https://en.wikipedia.org/wiki/Storm_(event_processor)) to detect  anomalies in cloud platforms in real time.
++ Adapt approaches from the field of data mining, such as [Bayesian networks](https://en.wikipedia.org/wiki/Bayesian_network) and [Markov processes](https://en.wikipedia.org/wiki/Markov_process), to automatically detect and localize failures in cloud platforms.
++ Incorporate new resilient mechanisms into the [OpenStack](https://www.openstack.org) cloud operating system and [Huawei FusionSphere](http://e.huawei.com/en/products/cloud-computing-dc/cloud-computing/fusionsphere/fusionsphere) to increase its reliability and availability.
 
 You can find more about my research on Cloud Computing, BPM, Semantic Web, Web Services, and Enterprise Systems at:
 [Google Scholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en&oi=ao),
@@ -36,12 +41,7 @@ Open Positions
 
 Research Interests
 ---------------
-
 ### [Cloud Reliability and Resilience](research/)  
-+ Developed new fault injection techniques to improve the reliability of complex, large distributed cloud platforms, such as the [Open Telekom Cloud](https://cloud.telekom.de/en/) from Deutsche Telekom.
-+ Use [event processing technologies](https://en.wikipedia.org/wiki/Storm_(event_processor)) to detect  anomalies in cloud platforms in real time.
-+ Adapt approaches from the field of data mining, such as [Bayesian networks](https://en.wikipedia.org/wiki/Bayesian_network) and [Markov processes](https://en.wikipedia.org/wiki/Markov_process), to automatically detect and localize failures in cloud platforms.
-+ Incorporate new resilient mechanisms into the [OpenStack](https://www.openstack.org) cloud operating system and [Huawei FusionSphere](http://e.huawei.com/en/products/cloud-computing-dc/cloud-computing/fusionsphere/fusionsphere) to increase its reliability and availability.
 
 ### Data Science as a Service
 + Use the open source Cloud platform [OpenStack](https://www.openstack.org) to provision services
