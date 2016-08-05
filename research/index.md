@@ -129,6 +129,7 @@ University of Stuttgart, Germany.
 + [International Conference on Cloud Computing and Services Science (CLOSER)](http://closer.scitevents.org).
 + [International Conference on Service-Oriented Computing (ICSOC)](http://icsoc.in)
 + [IEEE International Conference on Utility and Cloud Computing (UCC)](http://cyprusconferences.org/ucc2015/)
++ [Workshop on Resiliency in High Performance Computing (Resilience) in Clusters, Clouds, and Grids](http://www.csm.ornl.gov/srt/conferences/Resilience/2016/)
 
 ### Software Platforms
 + [Cloud Management at BMC](http://www.bmc.com/it-solutions/cloud-computing-software.html).
