@@ -132,7 +132,4 @@ University of Stuttgart, Germany.
 + [Workshop on Resiliency in High Performance Computing (Resilience) in Clusters, Clouds, and Grids](http://www.csm.ornl.gov/srt/conferences/Resilience/2016/)
 
 ### Books
-+ [Software Fault Injection](https://www.amazon.com/Software-Fault-Injection-Jeffrey-Voas/dp/0471183814) by Jeffrey M. Voas and Gary McGraw
-
-
-by Jeffrey M. Voas and Gary McGraw
++ [Software Fault Injection](https://www.amazon.com/Software-Fault-Injection-Jeffrey-Voas/dp/0471183814) by Jeffrey M. Voas and Gary McGraw.
