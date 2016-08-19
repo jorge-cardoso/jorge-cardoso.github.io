@@ -9,13 +9,13 @@ image:
   feature:
   teaser:
   thumb:
-ads: false 
+ads: false
 toc: true
 ---  
 
 
 ## Overview
-Reliability is a measure of the percentage uptime of cloud services to customers, considering the downtime due to faults. Many cloud providers are setting a reliability level of 99.95%. This means that if you provision a VM it will be available 99.95% of the time, with a possible downtime of 21.6 minutes per month. Reliability is an important characteristic which enables platforms to adapt and recover under stress and remain functional from a customer perspective. You can find additional information from a Meetup meeting on [Cloud Reliability and Resilience](http://www.slideshare.net/JorgeCardoso4/cloud-resilience-with-open-stack). 
+Reliability is a measure of the percentage uptime of cloud services to customers, considering the downtime due to faults. Many cloud providers are setting a reliability level of 99.95%. This means that if you provision a VM it will be available 99.95% of the time, with a possible downtime of 21.6 minutes per month. Reliability is an important characteristic which enables platforms to adapt and recover under stress and remain functional from a customer perspective. You can find additional information from a Meetup meeting on [Cloud Reliability and Resilience](http://www.slideshare.net/JorgeCardoso4/cloud-resilience-with-open-stack).
 
 Every year big companies made the headlines for the wrong reason: reliability problems. In Q1 2016, Microsoft (9 days), Twitter (8h), Apple (7h), are PayPal (7h) are the "lucky" winners:
 
@@ -29,7 +29,7 @@ According to section of [IEEE Society](http://rs.ieee.org) working on Reliabilit
 Cloud resiliency is the ability of a cloud platform or service to recover and continue operating when failures occur. Automated means for recovery are the most desirable solutions.
 
 ### Open Positions
-+ MSc thesis. [Reliability of OpenStack usign Fault Injection](http://jorge-cardoso.github.io/research/Master_Thesis_Cloud_Resilience_Reliability_Fault-Library-2016-04-12.pdf) 
++ MSc thesis. [Reliability of OpenStack usign Fault Injection](http://jorge-cardoso.github.io/research/Master_Thesis_Cloud_Resilience_Reliability_Fault-Library-2016-04-12.pdf)
 + MSc thesis. [Intelligently Instrument OpenStack](http://jorge-cardoso.github.io/research/Master_Thesis_Cloud_Resilience_Reliability_Intelligent_Instrumentation-2016-06-03.pdf).
 + PhD student. OpenStack Reliability
 + PhD student. Data Science.
@@ -48,9 +48,9 @@ Major players are building competences in the field of cloud reliability. [Micro
 
 Cloud reliability and resilience of OpenStack can be analyzed and improved at 3 levels:
 
-+	Level 1. OpenStack paltform and services 
-+	Level 2. Hypervisor and virtual machines (VM) managed 
-+	Level 3. Applications running inside VMs 
++	Level 1. OpenStack paltform and services
++	Level 2. Hypervisor and virtual machines (VM) managed
++	Level 3. Applications running inside VMs
 
 We concentrate our efforts on Level 1.
 
@@ -64,7 +64,7 @@ Reliable large-scale distributed systems are hard to build since their validatio
 +  To guarantee HA, [LinkedIn](linkedin.com) simulates data center failures and measure the effects. To improve response time and lower the cost of operations, they have built the [Nurse](https://engineering.linkedin.com/sre/introducing-nurse-auto-remediation-linkedin) system, a workflow engine which enables to define tasks to recover automatically from failures.
 
 + The book [Resilience and Reliability on AWS](https://www.amazon.com/Resilience-Reliability-AWS-Jurg-Vliet/dp/1449339190) provides  a motivation and a few examples (for beginners) on the importance of reliability. The author shares their experience to achieve resilience and reliability with code examples to monitor Redis or MongoDB. The use of simple techniques to solve the complex problem of reliability of clouds clearly indicates that current solutions are limited and further systmathic approaches are needed.
- 
+
 + Microsoft proposed the Resilience Modeling and Analysis [(RMA)](http://download.microsoft.com/download/f/a/2/fa2a49ab-13af-44fc-883c-7b8c48d8a042/resilience-by-design-for-cloud-services.pdf) methodology. It is an approach for improving resilience adapted from the industry-standard technique known as Failure Mode and Effects Analysis (FMEA).
 
 + [Fault Injection at Cloudera](http://blog.cloudera.com/blog/2016/04/quality-assurance-at-cloudera-fault-injection-and-elastic-partitioning/)
@@ -75,8 +75,8 @@ Reliable large-scale distributed systems are hard to build since their validatio
 + [Fault-injection technologies](https://en.wikipedia.org/wiki/Fault_injection) or FIT provides approaches to demonstrate that software is robustness and fault tolerance by injecting faults to damage internal components to test its fault tolerance.
   + Domenico Cotroneo and Henrique Madeira. [Introduction to software fault injection](http://link.springer.com/chapter/10.1007/978-88-470-2772-5_1). In Domenico Cotroneo, editor, Innovative Technologies for Dependable OTS-Based Critical Systems, pages 1–15. Springer Milan, 2013.
   + Haissam Ziade, Rafic A Ayoubi, Raoul Velazco, et al. [A survey on fault injection techniques](http://ccis2k.org/iajit/PDF/vol.1,no.2/04-Hissam.pdf). Int. Arab J. Inf. Technol., 1(2):171–186, 2004.
-+ (Graph-based) In [Towards a Fault-Resilient Cloud Management Stack](https://kabru.eecs.umich.edu/papers/publications/2013/socc2013_ju.pdf), the authors use execution graphs to monitor and observe the processing of external requests. Intrumentation is done between openStack and the hypervisor, the database, REST, HTTP, and AMQP. Server-crash faults are injected by killing relevant service processes via systemd. 
-+ (Graph-based) In [HANSEL: Diagnosing Faults in OpenStack](http://conferences2.sigcomm.org/co-next/2015/img/papers/conext15-final156.pdf]), the auhtors intercept AMQP and REST messages to reconstruct an execution graph. The approach requires network monitoring agents at each node in the OpenStack deployment. One of the challenges is the so-called transaction stitching to reconstruct full transactions to recreate the execution graph. 
++ (Graph-based) In [Towards a Fault-Resilient Cloud Management Stack](https://kabru.eecs.umich.edu/papers/publications/2013/socc2013_ju.pdf), the authors use execution graphs to monitor and observe the processing of external requests. Intrumentation is done between openStack and the hypervisor, the database, REST, HTTP, and AMQP. Server-crash faults are injected by killing relevant service processes via systemd.
++ (Graph-based) In [HANSEL: Diagnosing Faults in OpenStack](http://conferences2.sigcomm.org/co-next/2015/img/papers/conext15-final156.pdf]), the auhtors intercept AMQP and REST messages to reconstruct an execution graph. The approach requires network monitoring agents at each node in the OpenStack deployment. One of the challenges is the so-called transaction stitching to reconstruct full transactions to recreate the execution graph.
 + (String-based) In [Toward achieving operational excellence in a cloud](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6798708&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6798708) and [US20150161025 A1: Injecting Faults at Select Execution Points of Distributed Applications ](http://www.google.com/patents/US20150161025), the authors rely on the operating system level information to build message traces by observing system events such as SEND or RECV system calls (or LIBC calls). These events are monitored per thread since with higher granularities (i.e., process-level or system-level), the job of separating events is difficult. Message sequences are converted into string of symbols and strings are comapred using an edit distance function. High distances indicate possible anomalies between executions.
 + [DICE Fault Injection](https://github.com/dice-project/DICE-Fault-Injection-Tool): A tool to generate faults within Virtual Machine. Under development.
 + [Lineage-driven Fault Injection](https://people.eecs.berkeley.edu/~palvaro/molly.pdf) by	Peter Alvaro, Joshua Rosen, Joseph M. Hellerstein	UC Berkeley, Proceeding SIGMOD '15.
@@ -90,14 +90,14 @@ Reliable large-scale distributed systems are hard to build since their validatio
 
 ### Monitoring and Tracing
 
-Traditional monitoring solutions for cloud platforms and applications, such as [Cloudwatch](https://aws.amazon.com/cloudwatch/) from Amazon AWS, [Ceilometer](https://wiki.openstack.org/wiki/Telemetry) from Openstack, and [Nagios](https://www.nagios.org/), place emphasis on *component-based monitoring*. Existing solutions collect detailed information on system statistics about virtual machines, CPU, disk IO, hosts, RPC, etc. 
+Traditional monitoring solutions for cloud platforms and applications, such as [Cloudwatch](https://aws.amazon.com/cloudwatch/) from Amazon AWS, [Ceilometer](https://wiki.openstack.org/wiki/Telemetry) from Openstack, and [Nagios](https://www.nagios.org/), place emphasis on *component-based monitoring*. Existing solutions collect detailed information on system statistics about virtual machines, CPU, disk IO, hosts, RPC, etc.
 
 Component-based monitoring tools provide not information into the relationship between the components of a distributed service. Since debugging a distributed system is a danting task using these tools, cross-component monitoring (tracing) solutions were explored to aliviate exisitng limitation by tracing the path of events and method calls that are generated at runtime.
 
 The study from Sambasivan, Raja R., et al. titled [So, you want to trace your distributed system? Key design insights from years of practical experience](http://www.pdl.cmu.edu/PDL-FTP/SelfStar/CMU-PDL-14-102.pdf) (Vol. 102. Technical Report, CMU-PDL-14, 2014) provides a very good overview of tracing systems developed up to 2014, and include the analysis of X-Trace, Magpie, Dapper, etc. The thesis from Nathan Scott of the Monash University, Australia, titled [Unifying Event Trace and Sampled Performance Data] (http://pcp.io/papers/unifying-thesis.pdf) also give a fairly good overview of these main tracing systems.
 
 + [X-Trace](http://people.eecs.berkeley.edu/~istoica/papers/2007/xtr-nsdi07.pdf) from [Berkeley](http://www.berkeley.edu/) outputs a set of task graphs according to Lamport’s happens before relation to trace the execution path of a distributed system. It does not rely on physical clocks and uses low level primitives for instrumentation (e.g., xtr::logEvent(string), xtr::logEvent("end"), pushdown(), and pushnext()).
-+ [Magpie](http://research.microsoft.com/en-us/projects/magpie/) from [Microsoft](http://www.microsoft.com) infers traces by combining event logs generated by low level black-box instrumentation. It automatically extracting individual requests from a running system and constructs a probabilistic workload model. Magpie relies on experts with deep knowledge about the system to construct a schema of how to correlate events in different components. In contrast to other approach (from Google, Twitter, and Cloudera), it infers causal relations from the events generated by the operating system and application instrumentation. 
++ [Magpie](http://research.microsoft.com/en-us/projects/magpie/) from [Microsoft](http://www.microsoft.com) infers traces by combining event logs generated by low level black-box instrumentation. It automatically extracting individual requests from a running system and constructs a probabilistic workload model. Magpie relies on experts with deep knowledge about the system to construct a schema of how to correlate events in different components. In contrast to other approach (from Google, Twitter, and Cloudera), it infers causal relations from the events generated by the operating system and application instrumentation.
 + [Dapper](http://research.google.com/pubs/pub36356.html) from [Google](http://www.google.com) focuses on library and middleware modifications and provides a special context to track execution across async callbacks and RPCs.
 + [HTrace](https://github.com/cloudera/htrace) from [Cloudera](www.cloudera.com/) is a tracing framework intended for use with distributed systems written in java. It is similar to Dapper and performs end-to-end tracing to capture detailed paths of causally between events generated by the components which make a distributed system.
 + [Zipkin ](http://zipkin.io) from Twitter is also a distributed tracing system. It helps gather timing data needed to troubleshoot latency problems in microservice architectures. Zipkin's design is based on the Google Dapper.
@@ -107,7 +107,7 @@ The study from Sambasivan, Raja R., et al. titled [So, you want to trace your di
 
 Other tools from the field of APM ([Application Performance Management](https://en.wikipedia.org/wiki/Application_performance_management)), such as [NewRelic](https://newrelic.com) limite their span to monitor the performance of transactions across web application stacks.
 
-## Huawei's Approach 
+## Huawei's Approach
 
 + Efficient execution trace processing using stream processing
 + Dynamic time-based fingerprinting to detect timeouts
@@ -122,7 +122,7 @@ University of Stuttgart, Germany.
 + [Software and Systems Engineering](https://www.cisuc.uc.pt/groups/show/sse), University of Coimbra, Portugal.
 + [Dependable Cloud Operations](http://ssrg.nicta.com.au/projects/cloud), Software Systems Research/NICTA, Australia.
 + [InIT Cloud Computing Lab (ICCLab)](http://blog.zhaw.ch/icclab/), Zurich, Switzerland.
-+ [ICT COST Action IC1304](http://www.cost.eu/COST_Actions/ict/Actions/IC1304). Autonomous Control for a Reliable Internet of Services (ACROSS). 
++ [ICT COST Action IC1304](http://www.cost.eu/COST_Actions/ict/Actions/IC1304). Autonomous Control for a Reliable Internet of Services (ACROSS).
 + [OpenStack Foundation](http://www.openstack.org/foundation/companies/)
 + [IFIP WG10.4 on Dependable Computing and Fault Tolerance](http://www.dependability.org/wg10.4/)
 + [IEEE Reliability Society](http://rs.ieee.org/)
@@ -139,4 +139,4 @@ University of Stuttgart, Germany.
 + [Software Fault Injection](https://www.amazon.com/Software-Fault-Injection-Jeffrey-Voas/dp/0471183814) by Jeffrey M. Voas and Gary McGraw.
 + [Patterns of resilience](http://www.slideshare.net/ufried/patterns-of-resilience) by Uwe Friedrichsen
 + [Site Reliability Engineering: How Google Runs Production Systems](https://books.google.de/books?id=81UrjwEACAAJ&redir_esc=y). Edited by Betsy Beyer, Chris Jones, Jennifer Petoff and Niall Richard Murphy.
-
++ [How Complex Systems Fail](http://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf) by Richard I. Cook, MD Cognitive technologies Laboratory, University of Chicago.
