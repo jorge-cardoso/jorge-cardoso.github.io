@@ -12,7 +12,7 @@ ads: false
 <img src="/images/Jorge_Cardoso.png" height="128" width="155"  style="float:left;margin:0 20px 0 0;"/>
 </a>
 </p>
-I am Lead Architect for Cloud Management at [Huawei's European Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany. I am also Associate Professor at the [University of Coimbra](http://www.uc.pt/en/fctuc/dei) (Portugal), and affiliated to the Information Systems Group. 
+I am Lead Architect for Cloud Management at [Huawei's European Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany. I am also Associate Professor at the [University of Coimbra](http://www.uc.pt/en/fctuc/dei) (Portugal), and affiliated to the Information Systems Group.
 
 My current research involves the development of the next generation of Cloud Management Platforms ([CPM](http://www.gartner.com/it-glossary/cloud-management-platforms)), Cloud Automation solutions, Cloud Business Process Management (BPM), and High Performance BPM systems. More precisely,
 
@@ -29,7 +29,7 @@ You can find more about my research on Cloud Computing, BPM, Semantic Web, Web S
 
 Open Positions
 ---------------
-+ MSc thesis. [Reliability of OpenStack usign Fault Injection](research/Master_Thesis_Cloud_Resilience_Reliability_Fault-Library-2016-04-12.pdf) 
++ MSc thesis. [Reliability of OpenStack usign Fault Injection](research/Master_Thesis_Cloud_Resilience_Reliability_Fault-Library-2016-04-12.pdf)
 + MSc thesis. [Intelligently Instrument OpenStack](research/Master_Thesis_Cloud_Resilience_Reliability_Intelligent_Instrumentation-2016-06-03.pdf).
 + PhD student. OpenStack Reliability
 + PhD student. Data Science.
@@ -42,22 +42,23 @@ Open Positions
 Research Interests
 ---------------
 
-### [Cloud Reliability and Resilience](research/)  
++ [Cloud Platforms Reliability and Resilience](research/)  
++ Data Science as a Service
+  + Use the open source Cloud platform [OpenStack](https://www.openstack.org) to provision services
+  + Implement new algorithms from the field of Data Science to process streaming data using e.g., [Kafka](http://kafka.apache.org) and [Storm](http://storm.apache.org) and publish them as [microservices](http://martinfowler.com/articles/microservices.html).
+  + Use new workflow languages such as [Mistral](https://wiki.openstack.org/wiki/Mistral) to orchestrate microservices
+  + Build POC to show the value of aggregating these technologies to manage Cloud Reliability and Large-scale Cloud Monitoring.
 
-### Data Science as a Service
-+ Use the open source Cloud platform [OpenStack](https://www.openstack.org) to provision services
-+ Implement new algorithms from the field of Data Science to process streaming data using e.g., [Kafka](http://kafka.apache.org) and [Storm](http://storm.apache.org) and publish them as [microservices](http://martinfowler.com/articles/microservices.html). 
-+ Use new workflow languages such as [Mistral](https://wiki.openstack.org/wiki/Mistral) to orchestrate microservices 
-+ Build POC to show the value of aggregating these technologies to manage Cloud Reliability and Large-scale Cloud Monitoring.
 
 News
 ---------------
 
-+ I am looking for MSc students to work on a research project (with T-Systems and Deutsche Telekom) to evaluate the [Reliability of OpenStack usign Fault Injection](research/Master_Thesis_Cloud_Resilience_Reliability_Fault-Library-2016-04-12.pdf) and [Intelligently Instrument OpenStack](research/Master_Thesis_Cloud_Resilience_Reliability_Intelligent_Instrumentation-2016-06-03.pdf). Drop me an e-mail if you are interrested. 
++ [International Industry-Academia Workshop on Cloud Reliability and Resilience](https://www.eitdigital.eu/news-events/events/article/international-industry-academia-workshop-on-cloud-reliability-and-resilience/), 7-8 November 2016, Berlin, Germany.
++ I am looking for MSc students to work on a research project (with T-Systems and Deutsche Telekom) to evaluate the [Reliability of OpenStack usign Fault Injection](research/Master_Thesis_Cloud_Resilience_Reliability_Fault-Library-2016-04-12.pdf) and [Intelligently Instrument OpenStack](research/Master_Thesis_Cloud_Resilience_Reliability_Intelligent_Instrumentation-2016-06-03.pdf). Drop me an e-mail if you are interrested.
 + Our article "Modeling Service Level Agreements with Linked USDL Agreement" will soon be published by IEEE Transactions on Services Computing **(Impact Factor 2016: 3.049)** (under publication).
 + José María García, Carlos Pedrinaci, Manuel Resinas, Jorge Cardoso, Pablo Fernández, Antonio Ruiz-Cortés. [Linked USDL Agreement: Effectively Sharing Semantic Service Level Agreements on the Web](/publications/Papers/CP-2015-079-Linked-USDL-Agreement.pdf), [The IEEE International Conference on Web Services (ICWS)](http://conferences.computer.org/icws/2015/), June 27 - July 2, 2015, New York, USA. **(Acceptance Rate: 17.4%)**
 + Jorge Cardoso and Carlos Pedrinaci, [Evolution and Overview of Linked USDL](/publications/Papers/CP-2015-077-Linked-USDL-Evolution-and-Overview.pdf). 6th International Conference Exploring Services Science, IESS 2015, Porto, Portugal, February 4-6, 2015, LNBIP, Vol. 201, Novoa, Henriqueta, Dragoicea, Monica (Eds.), 2015.
-+ Pedrinaci, C.; Cardoso, J. and Leidig, T. [Linked USDL: A Vocabulary for Web-scale Service Trading](/publications/Papers/CP-2014-073-ESWC-Linked-USDL.pdf).  In 11th Extended Semantic Web Conference (ESWC), Crete, Greece, 2014. (Acceptance Rate: 25%) 
++ Pedrinaci, C.; Cardoso, J. and Leidig, T. [Linked USDL: A Vocabulary for Web-scale Service Trading](/publications/Papers/CP-2014-073-ESWC-Linked-USDL.pdf).  In 11th Extended Semantic Web Conference (ESWC), Crete, Greece, 2014. (Acceptance Rate: 25%)
 + Cardoso, J.; Binz, T.; Breitenbucher, Uwe; Kopp, O. and Leymann, F. [Cloud Computing Automation: Integrating USDL and TOSCA](/publications/Papers/CP-2013-068-CAISE-USDL-and-TOSCA.pdf). In 25th Conference on Advanced Information Systems Engineering (CAiSE  2013), pages 1-16, Springer, LNCS, Vol. 7908, 2013. **(Acceptance rate: 16,6%)**
 + Francesco Guerra (Chair) and Jorge Cardoso (Vice-Chair). [COST Action IC1302: semantic KEYword-based Search on sTructured data sOurcEs](http://www.keystone-cost.eu), 2013-2017.
 
@@ -71,26 +72,28 @@ Events
 + On February 2015, five students from the course Information Systems Management received the [ITIL](https://www.axelos.com/best-practice-solutions/itil/what-is-itil) Foundation certification. The certification was given in partnership with the consulting company [Deloitte](http://www2.deloitte.com/us/en.html?icid=global_site_selector_us). Congratulations to all.
 
 
+
+About me
+---------------
+
+Prof. Dr. Jorge Cardoso is Chief Architect for Cloud Operations and Analytics at the [Huawei's European Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany and Associate Professor at the [University of Coimbra](http://www.uc.pt/en), Portugal.
+
+His current R&D work focuses on increasing the [Reliability of Cloud Platforms](research/) to support mission critical applications with [five nines](https://en.wikipedia.org/wiki/Five_nines).  The work is being done jointly by Huawei and Deutsche Telekom, and applied to the [Open Telekom Cloud](https://cloud.telekom.de/en/cloud-infrastructure/open-telekom-cloud/) operated by [T-Systems](https://www.t-systems.com) in Magdeburg. Our approach uses fault-injection techniques and conceptually follows the so-called methodology [Chaos Engineering](http://techblog.netflix.com/2014/09/introducing-chaos-engineering.html) from Netflix. The first prototypes were made available in Q2 2016 and a running system will be ready in Q1 2017.
+
+Previously he worked for several major companies such as [SAP Research](http://go.sap.com/) (Germany) on the Internet of Services, [The Boeing Company](http://www.boeing.com) in Seattle (USA) on Enterprise Application Integration and [CCG/Zentrum fur Graphische Datenverarbeitung]( http://www.ccg.pt/en/) on Computer Supported Cooperative Work.
+
+He has authored and co-authored more than 135 scientific publications and has been part of more than 120 program committees and organization bodies (journals and conferences). He his author/editor of 9 books. He holds a US and EU patents on “System and method of measuring process compliance” and “Multi-Phase High Performance Business Process Management System”. [GoogleScholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en) shows more than 6100 citations for his research work with an h-index of 36. His lasts book, titled [Fundamentals of Service Systems](http://www.springer.com/de/book/9783319231945) from Springer, compiles results from the research work of his areas of interest: cloud computing, business process management, semantic Web, the Internet of Services, and service engineering.
+
+He participated in European, German, US, and National research projects financed by the European Commission (FP7, EACEA), the German Ministry for Education and Research (BMBF), SAP Research (SAP) and Portuguese NSF (FCT). He is a founding member of the IFIP Working Group 12.7 on Social Semantics. He created and led until 2009 the development of the W3C Unified Service Description Language (USDL).
+
+He has a Ph.D. from the University of Georgia (US, 2002) and his undergraduate studies at the University of Coimbra (Portugal) with a MSc and BSc in Informatics Engineering in 1995 and 1998, respectively.
+
+
 Resources
 ---------------
 + [ACM Calendar of Events](http://campus.acm.org/calendar/)
 + [IEEE Conference Calls for Submissions](http://www.ieee.org/conferences_events/index.html)
 + [Google Trends](http://www.google.com/trends)
-
-
-About me
----------------
-Prof. Dr. Jorge Cardoso is Chief Architect for Cloud Operations and Analytics at [Huawei's European Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany. He is also Associate Professor and joined the Information System Group at the University of Coimbra in 2009. He has authored/co-authored more than 135 scientific publications and has been part of more than 120 program committees and organization bodies (journals and conferences). He his author/editor of 9 books. He holds a US patent titled "System and method of measuring process compliance" and "Multi-Phase High Performance Business Process Management System" (other patent applications are pending). GoogleScholar shows more than 6000 citations for his research work with an h-index of 36. He is currently writing his next book titled "Foundation of Service Systems" which results from the research work of his areas of interest: business process management, semantic Web, the Internet of Services, and service engineering.
-
-He has participated in European, German and National research projects financed by the European Commission (FP7), the Education, Audiovisual and Culture Executive Agency (EACEA), the German Ministry for Education and Research (BMBF), SAP Research (SAP) and Fundacao para a Ciencia e Technologia (FCT). Previously he worked for several major companies such as SAP Research (Germany) on the Internet of Services, the Boeing Company in Seattle (USA) on Enterprise Application Integration and CCG/Zentrum fur Graphische Datenverarbeitung on Computer Supported Cooperative Work. He gave lectures at the University of Madeira (Portugal) -- where he obtained tenure -- and the University of Georgia (USA). He is currently leading the Genssiz center for service systems research (10+ members). In the past, he has led 2 large research groups. One while at SAP Research in Germany (15+ members) and another one, the SEED Laboratory (10+ members), while at the University of Madeira.
-
-He is a founding member of the IFIP Working Group 12.7 on Social Semantics. He created and led until 2009 the development of the W3C Unified Service Description Language (USDL). 
-
-His teaching, training, and consulting activities both in academia and in industry cover topics related to Service Management, Enterprise Architecture, Middleware technologies, and Semantic Web. He is an ISACA Academic Advocate (ISACA is a Worldwide association of IS professionals dedicated to the audit, control, and security of information systems). Since 2014 he is the Coordinator of the MSc program on Engineering Informatics at the University of Coimbra.
-
-He completed his graduate studies with a Ph.D. from the University of Georgia (US) in 2002 and his undergraduate studies at the University of Coimbra, Portugal with a MSc and BSc in Informatics Engineering in 1995 and 1998, respectively.
-His current research interests are in the areas of Service models, cloud computing, service networks, service relationships, semantic web, service dynamics, business process management.
-
 
 
 Humour
