@@ -61,14 +61,7 @@ News
 + Pedrinaci, C.; Cardoso, J. and Leidig, T. [Linked USDL: A Vocabulary for Web-scale Service Trading](/publications/Papers/CP-2014-073-ESWC-Linked-USDL.pdf).  In 11th Extended Semantic Web Conference (ESWC), Crete, Greece, 2014. (Acceptance Rate: 25%)
 + Cardoso, J.; Binz, T.; Breitenbucher, Uwe; Kopp, O. and Leymann, F. [Cloud Computing Automation: Integrating USDL and TOSCA](/publications/Papers/CP-2013-068-CAISE-USDL-and-TOSCA.pdf). In 25th Conference on Advanced Information Systems Engineering (CAiSE  2013), pages 1-16, Springer, LNCS, Vol. 7908, 2013. **(Acceptance rate: 16,6%)**
 + Francesco Guerra (Chair) and Jorge Cardoso (Vice-Chair). [COST Action IC1302: semantic KEYword-based Search on sTructured data sOurcEs](http://www.keystone-cost.eu), 2013-2017.
-
-
-
-Events
----------------
-
 + On 23rd of March 2015 we organised an [SAP](http://www.sap.com) CodeJam event around SAP HANA Cloud Platform to demonstrate how Cloud Computing is being explored by companies. This event was part of the Service Engineering course of the Master in Computer Science. Take a look at some of the pictures and a more detailed description of the [CodeJam](http://scn.sap.com/community/events/codejam/blog/2015/03/25/sap-codejam-event-in-coimbra-sap-hana-cloud).
-
 + On February 2015, five students from the course Information Systems Management received the [ITIL](https://www.axelos.com/best-practice-solutions/itil/what-is-itil) Foundation certification. The certification was given in partnership with the consulting company [Deloitte](http://www2.deloitte.com/us/en.html?icid=global_site_selector_us). Congratulations to all.
 
 
