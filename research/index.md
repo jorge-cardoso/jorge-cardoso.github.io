@@ -139,4 +139,4 @@ University of Stuttgart, Germany.
 + [Software Fault Injection](https://www.amazon.com/Software-Fault-Injection-Jeffrey-Voas/dp/0471183814) by Jeffrey M. Voas and Gary McGraw.
 + [Patterns of resilience](http://www.slideshare.net/ufried/patterns-of-resilience) by Uwe Friedrichsen
 + [Site Reliability Engineering: How Google Runs Production Systems](https://books.google.de/books?id=81UrjwEACAAJ&redir_esc=y). Edited by Betsy Beyer, Chris Jones, Jennifer Petoff and Niall Richard Murphy.
-+ [How Complex Systems Fail](http://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf) by Richard I. Cook, MD Cognitive technologies Laboratory, University of Chicago.
++ [How Complex Systems Fail](http://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf) by Richard I. Cook, MD Cognitive technologies Laboratory, University of Chicago (2000).
