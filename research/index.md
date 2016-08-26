@@ -48,9 +48,9 @@ Major players are building competences in the field of cloud reliability. [Micro
 
 Cloud reliability and resilience of OpenStack can be analyzed and improved at 3 levels:
 
-+	Level 1. OpenStack paltform and services
-+	Level 2. Hypervisor and virtual machines (VM) managed
-+	Level 3. Applications running inside VMs
++ Level 1. OpenStack paltform and services
++ Level 2. Hypervisor and virtual machines (VM) managed
++ Level 3. Applications running inside VMs
 
 We concentrate our efforts on Level 1.
 
@@ -59,17 +59,8 @@ We concentrate our efforts on Level 1.
 Reliable large-scale distributed systems are hard to build since their validation is time consuming, complex, and often non-deterministic. OpenStack is not an exception. Research from Microsoft with [MODIST](https://www.usenix.org/legacy/event/nsdi09/tech/full_papers/yang/yang_html/) (Junfeng Yang, et al., MODIST: Transparent Model Checking of Unmodified Distributed Systems Proceedings of the 6th Symposium on Networked Systems Design and Implementation (NSDI '09), Pages 213-228) exemplifies well the problems associated with general distributed systems. Experiments found a total of 35 bugs in Berkeley DB, a Paxos implementation, and a primary-backup replication protocol implementation. Thus, validation, testing, and benchmarking frameworks are needed, specifically, when OpenStack is used to support mission critical applications.
 
 
-## Solutions from Industry
 
-+  To guarantee HA, [LinkedIn](linkedin.com) simulates data center failures and measure the effects. To improve response time and lower the cost of operations, they have built the [Nurse](https://engineering.linkedin.com/sre/introducing-nurse-auto-remediation-linkedin) system, a workflow engine which enables to define tasks to recover automatically from failures.
-
-+ The book [Resilience and Reliability on AWS](https://www.amazon.com/Resilience-Reliability-AWS-Jurg-Vliet/dp/1449339190) provides  a motivation and a few examples (for beginners) on the importance of reliability. The author shares their experience to achieve resilience and reliability with code examples to monitor Redis or MongoDB. The use of simple techniques to solve the complex problem of reliability of clouds clearly indicates that current solutions are limited and further systmathic approaches are needed.
-
-+ Microsoft proposed the Resilience Modeling and Analysis [(RMA)](http://download.microsoft.com/download/f/a/2/fa2a49ab-13af-44fc-883c-7b8c48d8a042/resilience-by-design-for-cloud-services.pdf) methodology. It is an approach for improving resilience adapted from the industry-standard technique known as Failure Mode and Effects Analysis (FMEA).
-
-+ [Fault Injection at Cloudera](http://blog.cloudera.com/blog/2016/04/quality-assurance-at-cloudera-fault-injection-and-elastic-partitioning/)
-
-## Available Approaches (Patents and Research Papers)
+## Available Approaches (Industry solutions, Patents, Research Papers)
 
 ### Fault Injection
 + [Fault-injection technologies](https://en.wikipedia.org/wiki/Fault_injection) or FIT provides approaches to demonstrate that software is robustness and fault tolerance by injecting faults to damage internal components to test its fault tolerance.
@@ -79,7 +70,15 @@ Reliable large-scale distributed systems are hard to build since their validatio
 + (Graph-based) In [HANSEL: Diagnosing Faults in OpenStack](http://conferences2.sigcomm.org/co-next/2015/img/papers/conext15-final156.pdf]), the auhtors intercept AMQP and REST messages to reconstruct an execution graph. The approach requires network monitoring agents at each node in the OpenStack deployment. One of the challenges is the so-called transaction stitching to reconstruct full transactions to recreate the execution graph.
 + (String-based) In [Toward achieving operational excellence in a cloud](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6798708&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6798708) and [US20150161025 A1: Injecting Faults at Select Execution Points of Distributed Applications ](http://www.google.com/patents/US20150161025), the authors rely on the operating system level information to build message traces by observing system events such as SEND or RECV system calls (or LIBC calls). These events are monitored per thread since with higher granularities (i.e., process-level or system-level), the job of separating events is difficult. Message sequences are converted into string of symbols and strings are comapred using an edit distance function. High distances indicate possible anomalies between executions.
 + [DICE Fault Injection](https://github.com/dice-project/DICE-Fault-Injection-Tool): A tool to generate faults within Virtual Machine. Under development.
-+ [Lineage-driven Fault Injection](https://people.eecs.berkeley.edu/~palvaro/molly.pdf) by	Peter Alvaro, Joshua Rosen, Joseph M. Hellerstein	UC Berkeley, Proceeding SIGMOD '15.
++ [Lineage-driven Fault Injection](https://people.eecs.berkeley.edu/~palvaro/molly.pdf) by Peter Alvaro, Joshua Rosen, Joseph M. Hellerstein UC Berkeley, Proceeding SIGMOD '15.
++ [New Functional Testing in etcd](https://coreos.com/blog/new-functional-testing-in-etcd/). CoreOS uses a fault-injection framework to simulate the most common cases of failures that the system etcd may meet in real life.
++ To guarantee HA, [LinkedIn](linkedin.com) simulates data center failures and measure the effects. To improve response time and lower the cost of operations, they have built the [Nurse](https://engineering.linkedin.com/sre/introducing-nurse-auto-remediation-linkedin) system, a workflow engine which enables to define tasks to recover automatically from failures.
+
++ The book [Resilience and Reliability on AWS](https://www.amazon.com/Resilience-Reliability-AWS-Jurg-Vliet/dp/1449339190) provides  a motivation and a few examples (for beginners) on the importance of reliability. The author shares their experience to achieve resilience and reliability with code examples to monitor Redis or MongoDB. The use of simple techniques to solve the complex problem of reliability of clouds clearly indicates that current solutions are limited and further systmathic approaches are needed.
+
++ Microsoft proposed the Resilience Modeling and Analysis [(RMA)](http://download.microsoft.com/download/f/a/2/fa2a49ab-13af-44fc-883c-7b8c48d8a042/resilience-by-design-for-cloud-services.pdf) methodology. It is an approach for improving resilience adapted from the industry-standard technique known as Failure Mode and Effects Analysis (FMEA).
+
++ [Fault Injection at Cloudera](http://blog.cloudera.com/blog/2016/04/quality-assurance-at-cloudera-fault-injection-and-elastic-partitioning/) uses fault-injection tools and elastic-partitioning techniques for the continuous improvement and verification of their Hadoop ecosystem (CDH) via an extensive QA process during the software-development life cycle.
 
 ### Anomaly Detection
 
@@ -106,6 +105,9 @@ The study from Sambasivan, Raja R., et al. titled [So, you want to trace your di
 + [Eliot](https://github.com/ClusterHQ/eliot) A Python library for Logging for complex distributed systems
 
 Other tools from the field of APM ([Application Performance Management](https://en.wikipedia.org/wiki/Application_performance_management)), such as [NewRelic](https://newrelic.com) limite their span to monitor the performance of transactions across web application stacks.
+
+### Repair and Recovery
+Automation is having an important role in making the management of cloud data centers automated and 'automatic'. The principals underlying Google SRE and DevOps all call for automation. For cloud reliability and resilience, the procedures to repair the IT infrastructure need to be encoded into executable processes. Large-scale distributed monitoring (dapper), stream and events (spark and flink), and time-based databases (prometheus) provide the base to identify important event that when flagged as alarms need to trigger encoded procedures to repair faulty systems. An important question is 'How to encode procedures to repair IT infrastructure automatically?'
 
 ## Huawei's Approach
 
