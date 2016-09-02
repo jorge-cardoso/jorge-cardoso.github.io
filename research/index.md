@@ -79,6 +79,8 @@ Reliable large-scale distributed systems are hard to build since their validatio
 + Microsoft proposed the Resilience Modeling and Analysis [(RMA)](http://download.microsoft.com/download/f/a/2/fa2a49ab-13af-44fc-883c-7b8c48d8a042/resilience-by-design-for-cloud-services.pdf) methodology. It is an approach for improving resilience adapted from the industry-standard technique known as Failure Mode and Effects Analysis (FMEA).
 
 + [Fault Injection at Cloudera](http://blog.cloudera.com/blog/2016/04/quality-assurance-at-cloudera-fault-injection-and-elastic-partitioning/) uses fault-injection tools and elastic-partitioning techniques for the continuous improvement and verification of their Hadoop ecosystem (CDH) via an extensive QA process during the software-development life cycle.
++ [OpenStack Reliability Testing](http://docs.openstack.org/developer/performance-docs/test_plans/reliability/plan.html)describes an abstract methodology for OpenStack cluster high-availability testing and analysis.
+
 
 ### Anomaly Detection
 
