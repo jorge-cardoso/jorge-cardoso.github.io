@@ -15,7 +15,7 @@ toc: true
 
 
 ## Overview
-Reliability is a measure of the percentage uptime of cloud services to customers, considering the downtime due to faults. Many cloud providers are setting a reliability level of 99.95% ([Download an uptime cheat sheet](http://royal.pingdom.com/wp-content/uploads/2015/04/pingdom_uptime_cheat_sheet.pdf)). This means that if you provision a VM it will be available 99.95% of the time, with a possible downtime of 21.6 minutes per month. Reliability is an important characteristic which enables platforms to adapt and recover under stress and remain functional from a customer perspective. You can find additional information from a Meetup meeting on [Cloud Reliability and Resilience](http://www.slideshare.net/JorgeCardoso4/cloud-resilience-with-open-stack).
+Reliability is a measure of the percentage uptime of cloud services to customers, considering the downtime due to faults. Many cloud providers are setting a reliability level of 99.95% ([download uptime cheat sheet](http://royal.pingdom.com/wp-content/uploads/2015/04/pingdom_uptime_cheat_sheet.pdf)). This means that if you provision a VM it will be available 99.95% of the time, with a possible downtime of 21.6 minutes per month. Reliability is an important characteristic which enables platforms to adapt and recover under stress and remain functional from a customer perspective. You can find additional information from a Meetup meeting on [Cloud Reliability and Resilience](http://www.slideshare.net/JorgeCardoso4/cloud-resilience-with-open-stack).
 
 Every year big companies made the headlines for the wrong reason: reliability problems. In Q1 2016, Microsoft (9 days), Twitter (8h), Apple (7h), are PayPal (7h) are the "lucky" winners:
 
