@@ -1,3 +1,19 @@
+---
+layout: article
+title: "Enterprise Cloud Computing"
+date:
+modified:
+excerpt: "Enterprise Cloud Computing"
+tags: []
+image:
+  feature:
+  teaser:
+  thumb:
+ads: false
+toc: true
+---
+
+
 Enterprise Cloud Computing
 ==========================
 
