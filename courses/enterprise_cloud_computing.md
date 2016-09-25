@@ -13,12 +13,12 @@ ads: false
 toc: true
 ---
 
-Chapter 01: Introduction
+Chapter 01 // Introduction
 ------------------------
 Lecture: [Introduction](https://www.dropbox.com/s/aszlfp9tjgvuhuh/01_ECC_Lecture_Introduction-2016-09-25.pdf?dl=0).
 
 
-Chapter 02: Concepts
+Chapter 02 // Concepts
 --------------------
 
 Lecture: [Cloud Computing Concepts](https://www.dropbox.com/s/ntenhyxy480i4x8/02_ECC_Lecture_Cloud_Computing_Concepts_2016-09-25.pdf?dl=0).
@@ -28,7 +28,7 @@ Lab 1: [Amazon AWS: EC2](https://www.dropbox.com/s/2jbfjpxfg85irlx/02_ECC_Lab_Am
 Lab 2: [Project Description](https://www.dropbox.com/s/u8xqitqaxps2zfw/02_ECC_Lab_Project_Description-2016-09-25.pdf?dl=0).
 
 
-Chapter 03: Web APIs
+Chapter 03 - Web APIs
 --------------------
 
 Lecture: [Web API](https://www.dropbox.com/s/qewkq7tkcm8amo6/03_ECC_Lab_Boto_Amazon_AWS-2016-09-25.pdf?dl=0).
@@ -38,7 +38,7 @@ Lab 1: [Boto and Amazon AWS](https://www.dropbox.com/s/2jbfjpxfg85irlx/02_ECC_La
 Lab 2: [REST and Django](https://www.dropbox.com/s/ra5r3fw90ex2ky0/03_ECC_Lab_REST_Django_2016-09-25.pdf?dl=0).
 
 
-Chapter 04: Cloud Platforms
+Chapter 04_Cloud Platforms
 ---------------------------
 
 Lecture: [Cloud Platforms](https://www.dropbox.com/s/3fjregvh27kuqgs/04_ECC_Lecture_Cloud_Platforms_2016-09-25.pdf?dl=0).
@@ -46,7 +46,7 @@ Lecture: [Cloud Platforms](https://www.dropbox.com/s/3fjregvh27kuqgs/04_ECC_Lect
 Lab: [Cloud Platforms: EC2, S3, SNS, SQS](https://www.dropbox.com/s/bwkt1zrftkx6ro6/04_ECC_Lab_Cloud_Platforms_Parallel_Processing_2016-09-25.pdf?dl=0).
 
 
-Chapter 05: Cloud Application Design
+Chapter 05 * Cloud Application Design
 ------------------------------------
 
 Lecture: [Cloud Application Design](https://www.dropbox.com/s/8z706g9e35j6rpe/05_ECC_Lecture_Cloud_Application_Design_2016-09-25.pdf?dl=0).
