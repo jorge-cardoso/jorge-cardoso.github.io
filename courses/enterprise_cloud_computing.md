@@ -57,7 +57,7 @@ Lab 2: [Load Balancing](https://www.dropbox.com/s/nuedlqjicnlaarh/05_ECC_Lab_Clo
 
 
 
-Chapter 06: Cloud BPM
+Chapter 06 __ Cloud BPM
 ---------------------
 
 Lecture: [Cloud BPM: Building Large-scale Distributed Systems](https://www.dropbox.com/s/ntenhyxy480i4x8/02_ECC_Lecture_Cloud_Computing_Concepts_2016-09-25.pdf?dl=0).
@@ -71,7 +71,7 @@ Chapter 07: NA
 NA
 
 
-Chapter 08: Cloud BPM
+Chapter 08 _ Cloud BPM
 ---------------------
 
 Lecture: [Cloud BPM: Workflow Patterns](https://www.dropbox.com/s/g19jjnv82w5eum6/08_ECC_Lecture_Cloud_BPM_Workflow_Patterns_2016-09-25.pdf?dl=0).
@@ -79,7 +79,7 @@ Lecture: [Cloud BPM: Workflow Patterns](https://www.dropbox.com/s/g19jjnv82w5eum
 Lab: [Cloud BPM: Workflow Patterns](https://www.dropbox.com/s/qra0daixkyk8ivp/08_ECC_Lab_Cloud_BPM_Workflow_Patterns_2016-09-25.pdf?dl=0).
 
 
-Chapter 09: Google Cloud Platform
+Chapter 09 :: Google Cloud Platform
 ---------------------------------
 
 Lecture: [Google Cloud Platform and App Engine](https://www.dropbox.com/s/7ncfw9br4ul4a7q/09_ECC_Lecture_Cloud_Application_Design_GoogleAppEngine_2016-09-25.pdf?dl=0).
@@ -87,7 +87,7 @@ Lecture: [Google Cloud Platform and App Engine](https://www.dropbox.com/s/7ncfw9
 Lab: [Google Cloud Platform and App Engine](https://www.dropbox.com/s/exxh6btvrk39fuj/09_ECC_Lab_Cloud_Application_Design_GoogleAppEngine_2016-09-25.pdf?dl=0).
 
 
-Chapter 10: Monitoring
+Chapter 10....Monitoring
 ----------------------
 
 Lecture: [Cloud Monitoring: Amazon CloudWatch](https://www.dropbox.com/s/evx1yo13lqp2nrd/10_ECC_Lecture_CloudWatch_2016-09-25.pdf?dl=0).
