@@ -79,7 +79,7 @@ Lecture: [Cloud BPM: Workflow Patterns](https://www.dropbox.com/s/g19jjnv82w5eum
 Lab: [Cloud BPM: Workflow Patterns](https://www.dropbox.com/s/qra0daixkyk8ivp/08_ECC_Lab_Cloud_BPM_Workflow_Patterns_2016-09-25.pdf?dl=0).
 
 
-Chapter 09 __ Google Cloud Platform
+Chapter 09 __ Google Platform
 ---------------------------------
 
 Lecture: [Google Cloud Platform and App Engine](https://www.dropbox.com/s/7ncfw9br4ul4a7q/09_ECC_Lecture_Cloud_Application_Design_GoogleAppEngine_2016-09-25.pdf?dl=0).
