@@ -14,13 +14,10 @@ toc: true
 ---
 
 
-+ Chapter 01: [Course Overview](https://www.dropbox.com/s/ontsn5h5xipj057/01_SE_T_Introduction-2016-09-12.pdf?dl=0).
-  + Enterprise Cloud Computing
-  + ABC
-  + ABC
-  + ABC
-+ Chapter 02: [xx]
-  + Enterprise Cloud Computing
-  + ABC
-  + ABC
-  + ABC
+Chapter 01 (Lecture): [Introduction](https://www.dropbox.com/s/aszlfp9tjgvuhuh/01_ECC_Lecture_Introduction-2016-09-25.pdf?dl=0).
+
+
+Chapter 02 (Lecture): [Cloud Computing Concepts](https://www.dropbox.com/s/ntenhyxy480i4x8/02_ECC_Lecture_Cloud_Computing_Concepts_2016-09-25.pdf?dl=0).
+Chapter 02 (Lab): [Amazon AWS: EC2](https://www.dropbox.com/s/2jbfjpxfg85irlx/02_ECC_Lab_Amazon_AWS_2016-09-25.pdf?dl=0).
+
+Chapter 02 (Lab): [Project Description](https://www.dropbox.com/s/u8xqitqaxps2zfw/02_ECC_Lab_Project_Description-2016-09-25.pdf?dl=0).
