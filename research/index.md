@@ -58,6 +58,10 @@ We concentrate our efforts on Level 1.
 
 Reliable large-scale distributed systems are hard to build since their validation is time consuming, complex, and often non-deterministic. OpenStack is not an exception. Research from Microsoft with [MODIST](https://www.usenix.org/legacy/event/nsdi09/tech/full_papers/yang/yang_html/) (Junfeng Yang, et al., MODIST: Transparent Model Checking of Unmodified Distributed Systems Proceedings of the 6th Symposium on Networked Systems Design and Implementation (NSDI '09), Pages 213-228) exemplifies well the problems associated with general distributed systems. Experiments found a total of 35 bugs in Berkeley DB, a Paxos implementation, and a primary-backup replication protocol implementation. Thus, validation, testing, and benchmarking frameworks are needed, specifically, when OpenStack is used to support mission critical applications.
 
+Building large-scale distributed systems requires the consideration of several theories, technologies, and methodologies, such as:
++ [CAP Theorem](https://en.wikipedia.org/wiki/CAP_theorem)
++ [Microservices](http://martinfowler.com/articles/microservices.html)
++ [Twelve Factor App](https://12factor.net)
 
 
 ## Available Approaches (Industry solutions, Patents, Research Papers)
