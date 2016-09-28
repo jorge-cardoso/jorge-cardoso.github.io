@@ -113,6 +113,8 @@ Automation is having an important role in making the management of cloud data ce
 
 ## Huawei's Approach
 
+Ensuring the reliability of large-scale, complex distributed cloud platform requires new innovative approaches. While NetFlix’s ChaosMonkey proposed a new tool (and concept) for site reliability engineers, it only enables the analysis of cloud native applications. Since at Huawei we are developing highly reliable cloud platforms (e.g., Openstack), the site reliability engineering team developed a new approach framework, called Butterfly Effect, to automatically inject faults into cloud infrastructures.
+
 + Efficient execution trace processing using stream processing
 + Dynamic time-based fingerprinting to detect timeouts
 + Position and negative fingerprints for automated diagnosis and localization of user commands
