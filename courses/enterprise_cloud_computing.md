@@ -38,11 +38,13 @@ This chapter covers important concepts which are fundamental to understand why c
 Chapter 03 __ Web APIs
 --------------------
 
-Lecture: [Web API](https://www.dropbox.com/s/qewkq7tkcm8amo6/03_ECC_Lab_Boto_Amazon_AWS-2016-09-25.pdf?dl=0).
-
-Lab 1: [Boto and Amazon AWS](https://www.dropbox.com/s/2jbfjpxfg85irlx/02_ECC_Lab_Amazon_AWS_2016-09-25.pdf?dl=0).
-
-Lab 2: [REST and Django](https://www.dropbox.com/s/ra5r3fw90ex2ky0/03_ECC_Lab_REST_Django_2016-09-25.pdf?dl=0).
++ Lecture: [Web API](https://www.dropbox.com/s/qewkq7tkcm8amo6/03_ECC_Lab_Boto_Amazon_AWS-2016-09-25.pdf?dl=0).
++ Lab 1: [Boto and Amazon AWS](https://www.dropbox.com/s/2jbfjpxfg85irlx/02_ECC_Lab_Amazon_AWS_2016-09-25.pdf?dl=0).
++ Chapter 1: General Info (pp. 1-10). Python and AWS Cookbook by Mitch Garnaat, O'Reilly Media, 2011.
++ Chapter 2: EC2 Recipes (pp. 11-45). Python and AWS Cookbook by Mitch Garnaat, O'Reilly Media, 2011.
++ Chapter 3: S3 Recipes (pp. 47-63). Python and AWS Cookbook by Mitch Garnaat, O'Reilly Media, 2011.
++ Lab 2: [REST and Django](https://www.dropbox.com/s/ra5r3fw90ex2ky0/03_ECC_Lab_REST_Django_2016-09-25.pdf?dl=0).
++ Chapter 4: Building a REST API (pp. 61-91). Lightweight Django by Julia Elman, Mark Lavin, O'Reilly Media, 2014.
 
 
 Chapter 04 __ Cloud Platforms
