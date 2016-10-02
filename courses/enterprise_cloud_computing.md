@@ -45,6 +45,7 @@ Chapter 03 __ Web APIs
 + Chapter 3: S3 Recipes (pp. 47-63). Python and AWS Cookbook by Mitch Garnaat, O'Reilly Media, 2011.
 + Lab 2: [REST and Django](https://www.dropbox.com/s/ra5r3fw90ex2ky0/03_ECC_Lab_REST_Django_2016-09-25.pdf?dl=0).
 + Chapter 4: Building a REST API (pp. 61-91). Lightweight Django by Julia Elman, Mark Lavin, O'Reilly Media, 2014.
++ Chapter 4: The Resource-Oriented Architecture (pp. 79-105). RESTful Web Services by Leonard Richardson and Sam Ruby, O'Reilly Media, 2007.
 
 
 Chapter 04 __ Cloud Platforms
