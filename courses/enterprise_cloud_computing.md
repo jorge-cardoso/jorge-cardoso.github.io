@@ -36,7 +36,23 @@ This chapter covers important concepts which are fundamental to understand why c
 
 
 Chapter 03 __ Web APIs
---------------------
+----------------------
+
+The API Economy 
+
+Distributed Systems 
+
+WS-* Services 
+
+What is REST 
+
+REST and SOAP 
+
+REST principles 
+
+REST design guidelines
+
+
 
 + Lecture: [Web API](https://www.dropbox.com/s/1it2tyjva8uz1l5/03_ECC_Lecture_Web_API_2016-09-25.pdf?dl=0).
 + Lab 1: [Boto and Amazon AWS](https://www.dropbox.com/s/qewkq7tkcm8amo6/03_ECC_Lab_Boto_Amazon_AWS-2016-09-25.pdf?dl=0).
