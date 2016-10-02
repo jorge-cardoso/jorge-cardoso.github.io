@@ -13,8 +13,7 @@ ads: false
 toc: true
 ---
 
-##### Online course
-
+##### Online Courses
 
 + [Enterprise Cloud Computing](https://github.com/jorge-cardoso/jorge-cardoso.github.io/blob/master/courses/enterprise_cloud_computing.md).
 
