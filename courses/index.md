@@ -15,7 +15,7 @@ toc: true
 
 ##### Online Courses
 
-+ [Enterprise Cloud Computing](https://github.com/jorge-cardoso/jorge-cardoso.github.io/blob/master/courses/enterprise_cloud_computing.md).
++ [Enterprise Cloud Computing](http://jorge-cardoso.github.io/courses/enterprise_cloud_computing/).
 
 
 ##### Course List
