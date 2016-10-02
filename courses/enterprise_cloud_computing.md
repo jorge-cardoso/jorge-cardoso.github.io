@@ -30,11 +30,13 @@ This chapter covers important concepts which are fundamental to understand why c
 [Software as a Service (SaaS)](https://en.wikipedia.org/wiki/Software_as_a_service), [Platform as a Service (PaaS)](https://en.wikipedia.org/wiki/Platform_as_a_service), and [Infrastructure as a Service (IaaS)](https://en.wikipedia.org/wiki/Cloud_computing#Infrastructure_as_a_service_.28IaaS.29). Each type identifies which software is made available as a utility. For example, storage, hardware, servers, compilers and development environments, or office applications. Finally, cloud platform can be build for private use, these are called private clouds, or for public usage, these are called public clouds. A use of both types is called a hybrid cloud.
 
 
-Lecture: [Cloud Computing Concepts](https://www.dropbox.com/s/ntenhyxy480i4x8/02_ECC_Lecture_Cloud_Computing_Concepts_2016-09-25.pdf?dl=0).
++ Lecture: [Cloud Computing Concepts](https://www.dropbox.com/s/ntenhyxy480i4x8/02_ECC_Lecture_Cloud_Computing_Concepts_2016-09-25.pdf?dl=0).
 
-Lab 1: [Amazon AWS: EC2](https://www.dropbox.com/s/2jbfjpxfg85irlx/02_ECC_Lab_Amazon_AWS_2016-09-25.pdf?dl=0).
++ Lab 1: [Amazon AWS: EC2](https://www.dropbox.com/s/2jbfjpxfg85irlx/02_ECC_Lab_Amazon_AWS_2016-09-25.pdf?dl=0).
 
-Lab 2: [Project Description](https://www.dropbox.com/s/u8xqitqaxps2zfw/02_ECC_Lab_Project_Description-2016-09-25.pdf?dl=0).
++ Lab 2: [Project Description](https://www.dropbox.com/s/u8xqitqaxps2zfw/02_ECC_Lab_Project_Description-2016-09-25.pdf?dl=0).
+
++ Chapter 4: Cloud Computing Concepts. Mastering Cloud Computing: Foundations and Applications Programming, by Rajkumar Buyya Christian Vecchiola S.Thamarai Selvi, 2013.
 
 
 Chapter 03 __ Web APIs
