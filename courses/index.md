@@ -13,6 +13,14 @@ ads: false
 toc: true
 ---
 
+##### Online course
+
+
++ [Enterprise Cloud Computing](https://github.com/jorge-cardoso/jorge-cardoso.github.io/blob/master/courses/enterprise_cloud_computing.md).
+
+
+##### Course List
+
 + <span class="badge warning">KIT</span> Service-Oriented Computing
 
 + <span class="badge info">UC</span> Service Engineering, Databases and Information Analysis, Information Systems, Organizational behavior, Information Systems Management, Human-Computer Interaction
