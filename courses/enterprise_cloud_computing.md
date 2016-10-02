@@ -19,6 +19,7 @@ Chapter 01 __ Introduction
 The first chapter provides an introduction to the term 'cloud'. What is the cloud? What is [cloud Computing](https://en.wikipedia.org/wiki/Cloud_computing)? Where is the cloud? Who is providing clouds? These are all questions you have probably heard and asked yourself. The term 'cloud' and 'cloud computing' is being used everywhere and often with a fuzzy meaning. Companies are quickly adopting cloud computing since it enables to outsource IT and allows to use the latest technologies without large invertment on infrastructure, software and IT staff. Examples of cloud services include Microsoft OfficeLive, DropBox, AppEngine, SalesForce VMforce, and Amazon EC2.
 
 Lecture 1: [Introduction](https://www.dropbox.com/s/aszlfp9tjgvuhuh/01_ECC_Lecture_Introduction-2016-09-25.pdf?dl=0). 
+
 Lab 1: [Amazon AWS Hands-on](https://www.dropbox.com/s/z9tqepul83qetek/01_ECC_Lab_Amazon_AWS_Hands_On-2016-09-29.pdf?dl=0).
 
 
