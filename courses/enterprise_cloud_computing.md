@@ -22,7 +22,11 @@ Lecture 1: [Introduction](https://www.dropbox.com/s/aszlfp9tjgvuhuh/01_ECC_Lectu
 
 
 Chapter 02 __ Concepts
---------------------
+----------------------
+
+This chapter covers important concepts which are fundamental to understand why cloud computing became so quickly widespread. One of the major benefits of the cloud comes for the economic model it delivers. Cloud service providers adopt a "pay as you go" or [OpEx model](https://en.wikipedia.org/wiki/Operating_expense) which allows customers to pay only for what they use (similar to energy or waterwi). Customers do not need to own expensive assets (e.g., data centers, servers, or software), the [CapEx](https://en.wikipedia.org/wiki/Capital_expenditure). Naturally, the benefits of the cloud go beyond the economic model provided and also include additional positive aspects such as on-demand self-service, broad network access, and elasticity. Different types of software are made available to customers. While, nowadays, many classifications exist, one of the first taxonomies developed included only three main classes: 
+[Software as a Service (SaaS)](https://en.wikipedia.org/wiki/Software_as_a_service), [Platform as a Service (PaaS)](https://en.wikipedia.org/wiki/Platform_as_a_service), and [Infrastructure as a Service (IaaS)](https://en.wikipedia.org/wiki/Cloud_computing#Infrastructure_as_a_service_.28IaaS.29). Each type identifies which software is made available as a utility. For example, storage, hardware, servers, compilers and development environments, or office applications. Finally, cloud platform can be build for private use, these are called private clouds, or for public usage, these are called public clouds. A use of both types is called a hybrid cloud.
+
 
 Lecture: [Cloud Computing Concepts](https://www.dropbox.com/s/ntenhyxy480i4x8/02_ECC_Lecture_Cloud_Computing_Concepts_2016-09-25.pdf?dl=0).
 
