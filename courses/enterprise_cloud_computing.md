@@ -30,7 +30,7 @@ Chapter 02 __ Concepts
 *Summary*. The second chapter covers important concepts which are fundamental to understand why cloud computing became so quickly widespread. One of the major benefits of the cloud comes for the economic model it delivers. Cloud service providers adopt a "pay as you go" or [OpEx model](https://en.wikipedia.org/wiki/Operating_expense) which allows customers to pay only for what they use (similar to energy or waterwi). Customers do not need to own expensive assets (e.g., data centers, servers, or software), the [CapEx](https://en.wikipedia.org/wiki/Capital_expenditure). Naturally, the benefits of the cloud go beyond the economic model provided and also include additional positive aspects such as on-demand self-service, broad network access, and elasticity. Different types of software are made available to customers. While, nowadays, many classifications exist, one of the first taxonomies developed included only three main classes: 
 [Software as a Service (SaaS)](https://en.wikipedia.org/wiki/Software_as_a_service), [Platform as a Service (PaaS)](https://en.wikipedia.org/wiki/Platform_as_a_service), and [Infrastructure as a Service (IaaS)](https://en.wikipedia.org/wiki/Cloud_computing#Infrastructure_as_a_service_.28IaaS.29). Each type identifies which software is made available as a utility. For example, storage, hardware, servers, compilers and development environments, or office applications. Finally, cloud platform can be build for private use, these are called private clouds, or for public usage, these are called public clouds. A use of both types is called a hybrid cloud.
 
-*Key points covered*: 
+*Key points covered*.
 
 + Lecture: [Cloud Computing Concepts](https://www.dropbox.com/s/ntenhyxy480i4x8/02_ECC_Lecture_Cloud_Computing_Concepts_2016-09-25.pdf?dl=0).
 + Chapter 4: Cloud Computing Concepts (pp. 111-140). Mastering Cloud Computing: Foundations and Applications Programming, by Rajkumar Buyya, Christian Vecchiola, S.Thamarai Selvi, 2013.
@@ -44,7 +44,7 @@ Chapter 03 __ Web APIs
 
 *Summary*. The dissemination and easy of use of web services and [Application Programming Interfaces (API)](https://en.wikipedia.org/wiki/Application_programming_interface) has enables the edification of an API Economy. Companies can seamlessly work together by integrating their information systems using programming interfaces and provide they as web services. The technologies that made this possible live under the umbrella of distributed systems and correspond to two schools of thought: [WS-\* Services](https://en.wikipedia.org/wiki/List_of_web_service_specifications)/[SOAP](https://en.wikipedia.org/wiki/SOAP) and [REST](https://en.wikipedia.org/wiki/Representational_state_transfer). WS-\* Services and SOAP are based on traditional standards (XML, SOAP, HTTP, etc.) and REST where minimal [middleware](https://en.wikipedia.org/wiki/Middleware) is necessary (only HTTP support is required). These two approaches provide the basic building blocks for cloud computing and are used by most platforms available in the market.
 
-*Key points covered*: 
+*Key points covered*:.
 
 + Lecture: [Web API](https://www.dropbox.com/s/1it2tyjva8uz1l5/03_ECC_Lecture_Web_API_2016-09-25.pdf?dl=0).
 + Lab 1: [Boto and Amazon AWS](https://www.dropbox.com/s/qewkq7tkcm8amo6/03_ECC_Lab_Boto_Amazon_AWS-2016-09-25.pdf?dl=0).
@@ -61,7 +61,7 @@ Chapter 04 __ Cloud Platforms
 
 *Summary*. Nowadays, there are three public cloud providers in field of IaaS: Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform, and IBM Bluemix. Other players are emerging. Examples include [Open Telekom Cloud](https://cloud.telekom.de/en/) from Deutsche Telekom,  [Telefonica's Open Cloud](https://www.business-solutions.telefonica.com/en/information-centre/news/telefonica-and-huawei-reach-a-global-agreement-to-promote-enterprise-migration-to-the-cloud/), Alibaba, BT, NTT, Orange, Rackspace, Salesforce, etc. Amazon AWS is the leader by innovation and market share. Nonetheless, analysts believe that Microsoft Azure will soon overtake AWS. The AWS platform was launched in 2006. In 2016, it is composed of 35 Availability Zones (AZ) within 13 geographic Regions (e.g., Ireland, Frankfurt, Sao Paulo, Singapore, Tokyo, Sydney, Northern Virginia, Oregon). It has a rich spectrum of services from compute, storage, netowrking, analytics, mobile, developer tools, management tools, and security spaces. To programatically manage complex set ups in the AWS, several tools and and SDK libaries exist. For example, [boto](https://github.com/boto/boto) can be used to automate AWS services in Python. It allows to write scripts to provide programmatic connectivity to Amazon Web Services.
 
-*Key points covered*: 
+*Key points covered*:.
 
 + Lecture: [Cloud Platforms](https://www.dropbox.com/s/3fjregvh27kuqgs/04_ECC_Lecture_Cloud_Platforms_2016-09-25.pdf?dl=0).
 + Chapter 9: Cloud Platforms in Industry (pp. 315-351). Mastering Cloud Computing: Foundations and Applications Programming, by Rajkumar Buyya, Christian Vecchiola, S.Thamarai Selvi, 2013.
@@ -76,7 +76,7 @@ Chapter 05 __ Cloud Application Design
 
 *Summary*.
 
-*Key points covered*: 
+*Key points covered*:.
 
 + Lecture: [Cloud Application Design](https://www.dropbox.com/s/8z706g9e35j6rpe/05_ECC_Lecture_Cloud_Application_Design_2016-09-25.pdf?dl=0).
 + Lab 1: [Cloud Application Design](https://www.dropbox.com/s/05jem96dru8cy9h/05_ECC_Lab_Cloud_Application_Design_2016-09-25.pdf?dl=0).
@@ -85,11 +85,11 @@ Chapter 05 __ Cloud Application Design
 
 
 Chapter 06 __ Cloud BPM
----------------------
+-----------------------
 
 *Summary*.
 
-*Key points covered*: 
+*Key points covered*:.
 
 + Lecture: [Cloud BPM: Building Large-scale Distributed Systems](https://www.dropbox.com/s/ntenhyxy480i4x8/02_ECC_Lecture_Cloud_Computing_Concepts_2016-09-25.pdf?dl=0).
 + Lab: [Cloud BPM with AWS SWT](https://www.dropbox.com/s/gt3n3td38td09u9/06_ECC_Lab_Cloud_BPM_AWS_SWF_2016-09-25.pdf?dl=0).
@@ -100,7 +100,7 @@ Chapter 07 __ NA
 
 *Summary*.
 
-*Key points covered*: 
+*Key points covered*:.
 
 
 Chapter 08 __ Cloud BPM
@@ -108,7 +108,7 @@ Chapter 08 __ Cloud BPM
 
 *Summary*.
 
-*Key points covered*: 
+*Key points covered*:.
 
 + Lecture: [Cloud BPM: Workflow Patterns](https://www.dropbox.com/s/g19jjnv82w5eum6/08_ECC_Lecture_Cloud_BPM_Workflow_Patterns_2016-09-25.pdf?dl=0).
 + Lab: [Cloud BPM: Workflow Patterns](https://www.dropbox.com/s/qra0daixkyk8ivp/08_ECC_Lab_Cloud_BPM_Workflow_Patterns_2016-09-25.pdf?dl=0).
@@ -119,28 +119,28 @@ Chapter 09 __ Google Platform
 
 *Summary*.
 
-*Key points covered*: 
+*Key points covered*:.
 
 + Lecture: [Google Cloud Platform and App Engine](https://www.dropbox.com/s/7ncfw9br4ul4a7q/09_ECC_Lecture_Cloud_Application_Design_GoogleAppEngine_2016-09-25.pdf?dl=0).
 + Lab: [Google Cloud Platform and App Engine](https://www.dropbox.com/s/exxh6btvrk39fuj/09_ECC_Lab_Cloud_Application_Design_GoogleAppEngine_2016-09-25.pdf?dl=0).
 
 
 Chapter 10 __ Monitoring
-----------------------
+------------------------
 
 *Summary*.
 
-*Key points covered*: 
+*Key points covered*. 
 
 + Lecture: [Cloud Monitoring: Amazon CloudWatch](https://www.dropbox.com/s/evx1yo13lqp2nrd/10_ECC_Lecture_CloudWatch_2016-09-25.pdf?dl=0).
 
 
 Chapter 11 __ Resilience
-----------------------
+------------------------
 
 *Summary*.
 
-*Key points covered*: 
+*Key points covered*:.
 
 + Lecture: [Cloud Resilience: The Simian Army and Chaos Monkey](https://www.dropbox.com/s/a6evie6ml2hshdy/11_ECC_Lecture_Chaos_Monkey_2016-09-25.pdf?dl=0).
 
