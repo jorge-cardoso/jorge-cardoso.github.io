@@ -51,7 +51,13 @@ The dissemination and easy of use of web services and [Application Programming I
 
 
 Chapter 04 __ Cloud Platforms
----------------------------
+-----------------------------
+
+AWS, Microsoft Azure, Google compute platforms
+AWS platofrm and its services
+Tools and kits, SDK librbaries,  EC2 API and boto
+Billing and pricing
+CloudFormation
 
 Lecture: [Cloud Platforms](https://www.dropbox.com/s/3fjregvh27kuqgs/04_ECC_Lecture_Cloud_Platforms_2016-09-25.pdf?dl=0).
 
