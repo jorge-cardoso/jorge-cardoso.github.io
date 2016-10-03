@@ -60,9 +60,11 @@ Billing and pricing
 CloudFormation
 
 + Lecture: [Cloud Platforms](https://www.dropbox.com/s/3fjregvh27kuqgs/04_ECC_Lecture_Cloud_Platforms_2016-09-25.pdf?dl=0).
++ Chapter 9: Cloud Platforms in Industry (pp. 315-351). Mastering Cloud Computing: Foundations and Applications Programming, by Rajkumar Buyya, Christian Vecchiola, S.Thamarai Selvi, 2013.
 + Lab: [Cloud Platforms: EC2, S3, SNS, SQS](https://www.dropbox.com/s/bwkt1zrftkx6ro6/04_ECC_Lab_Cloud_Platforms_Parallel_Processing_2016-09-25.pdf?dl=0).
 + [Overview of Amazon Web Services, Amazon AWS](https://d0.awsstatic.com/whitepapers/aws-overview.pdf), Dec 31, 2015
 + [AWS Simple Icons for Architecture Diagrams](https://aws.amazon.com/architecture/icons/)
++ [AWS Essentials Student Guide 2.5](http://www.yeeday.org/ninjas/AWSLab.pdf), 2013.
 
 
 Chapter 05 __ Cloud Application Design
