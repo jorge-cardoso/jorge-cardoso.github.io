@@ -59,9 +59,10 @@ Tools and kits, SDK librbaries,  EC2 API and boto
 Billing and pricing
 CloudFormation
 
-Lecture: [Cloud Platforms](https://www.dropbox.com/s/3fjregvh27kuqgs/04_ECC_Lecture_Cloud_Platforms_2016-09-25.pdf?dl=0).
-
-Lab: [Cloud Platforms: EC2, S3, SNS, SQS](https://www.dropbox.com/s/bwkt1zrftkx6ro6/04_ECC_Lab_Cloud_Platforms_Parallel_Processing_2016-09-25.pdf?dl=0).
++ Lecture: [Cloud Platforms](https://www.dropbox.com/s/3fjregvh27kuqgs/04_ECC_Lecture_Cloud_Platforms_2016-09-25.pdf?dl=0).
++ Lab: [Cloud Platforms: EC2, S3, SNS, SQS](https://www.dropbox.com/s/bwkt1zrftkx6ro6/04_ECC_Lab_Cloud_Platforms_Parallel_Processing_2016-09-25.pdf?dl=0).
++ [Overview of Amazon Web Services, Amazon AWS](https://d0.awsstatic.com/whitepapers/aws-overview.pdf), Dec 31, 2015
++ [AWS Simple Icons for Architecture Diagrams](https://aws.amazon.com/architecture/icons/)
 
 
 Chapter 05 __ Cloud Application Design
