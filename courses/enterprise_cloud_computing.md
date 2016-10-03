@@ -53,8 +53,10 @@ The dissemination and easy of use of web services and [Application Programming I
 Chapter 04 __ Cloud Platforms
 -----------------------------
 
-AWS, Microsoft Azure, Google compute platforms
-AWS platofrm and its services
+Nowadays, there are three public cloud providers in field of IaaS: Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform, and IBM Bluemix. Other players are emerging. Examples include [Open Telekom Cloud](https://cloud.telekom.de/en/) from Deutsche Telekom,  [Telefonica's Open Cloud] (https://www.business-solutions.telefonica.com/en/information-centre/news/telefonica-and-huawei-reach-a-global-agreement-to-promote-enterprise-migration-to-the-cloud/), Alibaba, BT, NTT, Orange, Rackspace, Salesforce, etc. Amazon AWS is the leader by innovation and market share. Nonetheless, analysts believe that Microsoft Azure will soon overtake AWS.
+
+The AWS platform was launched in 2006. It has a rich spectrum of services from compute, storage, netowrking, analytics, mobile, developer tools, management tools, and security spaces. 
+
 Tools and kits, SDK librbaries,  EC2 API and boto
 Billing and pricing
 CloudFormation
