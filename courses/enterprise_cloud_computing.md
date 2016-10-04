@@ -129,7 +129,7 @@ Chapter 09 __ Google Platform
 Chapter 10 __ Monitoring
 ------------------------
 
-*Summary*.
+*Summary*. Amazon CloudWatch. Architecture. Terms. Supported AWS Services. Accessing CloudWatch. Regions and Endpoints. CloudWatch Limits. Related AWS Services. Resources.
 
 *Key points covered*. 
 
