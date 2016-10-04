@@ -61,7 +61,7 @@ Chapter 04 __ Cloud Platforms
 
 *Summary*. Nowadays, there are three public cloud providers in field of IaaS: Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform, and IBM Bluemix. Other players are emerging. Examples include [Open Telekom Cloud](https://cloud.telekom.de/en/) from Deutsche Telekom,  [Telefonica's Open Cloud](https://www.business-solutions.telefonica.com/en/information-centre/news/telefonica-and-huawei-reach-a-global-agreement-to-promote-enterprise-migration-to-the-cloud/), Alibaba, BT, NTT, Orange, Rackspace, Salesforce, etc. Amazon AWS is the leader by innovation and market share. Nonetheless, analysts believe that Microsoft Azure will soon overtake AWS. The AWS platform was launched in 2006. In 2016, it is composed of 35 Availability Zones (AZ) within 13 geographic Regions (e.g., Ireland, Frankfurt, Sao Paulo, Singapore, Tokyo, Sydney, Northern Virginia, Oregon). It has a rich spectrum of services from compute, storage, netowrking, analytics, mobile, developer tools, management tools, and security spaces. To programatically manage complex set ups in the AWS, several tools and and SDK libaries exist. For example, [boto](https://github.com/boto/boto) can be used to automate AWS services in Python. It allows to write scripts to provide programmatic connectivity to Amazon Web Services.
 
-*Key points covered*:.
+*Key points covered*. Cloud Computing Offerings. AWS Platform (Compute Services, Storage Services, Communication Services, Additional Services). Tools and Kits. Billing and Pricing
 
 + Lecture: [Cloud Platforms](https://www.dropbox.com/s/3fjregvh27kuqgs/04_ECC_Lecture_Cloud_Platforms_2016-09-25.pdf?dl=0).
 + Chapter 9: Cloud Platforms in Industry (pp. 315-351). Mastering Cloud Computing: Foundations and Applications Programming, by Rajkumar Buyya, Christian Vecchiola, S.Thamarai Selvi, 2013.
@@ -76,7 +76,7 @@ Chapter 05 __ Cloud Application Design
 
 *Summary*.
 
-*Key points covered*:.
+*Key points covered*. Cloud Architectures (One tier, Two tiers, Three tiers, Four tiers). High Availability Architectures. Scalable Architectures. AWS elements (EC2 Images, Elastic Load Balancing, Lunch Configurations, Auto Scaling Groups, Cloud Watch). Cloud Systems’ Reliability.
 
 + Lecture: [Cloud Application Design](https://www.dropbox.com/s/8z706g9e35j6rpe/05_ECC_Lecture_Cloud_Application_Design_2016-09-25.pdf?dl=0).
 + Lab 1: [Cloud Application Design](https://www.dropbox.com/s/05jem96dru8cy9h/05_ECC_Lab_Cloud_Application_Design_2016-09-25.pdf?dl=0).
