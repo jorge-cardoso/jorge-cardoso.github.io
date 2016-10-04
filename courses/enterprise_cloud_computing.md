@@ -34,9 +34,11 @@ Chapter 02 __ Concepts
 
 + Lecture: [Cloud Computing Concepts](https://www.dropbox.com/s/ntenhyxy480i4x8/02_ECC_Lecture_Cloud_Computing_Concepts_2016-09-25.pdf?dl=0).
 + Chapter 4: Cloud Computing Concepts (pp. 111-140). Mastering Cloud Computing: Foundations and Applications Programming, by Rajkumar Buyya, Christian Vecchiola, S.Thamarai Selvi, 2013.
++ Chapter 2: Electronic Services (pp. XX-XX). Fundamentals of Service Systems, Cardoso et al., Springer, 2015.
 + Lab 1: [Amazon AWS: EC2](https://www.dropbox.com/s/2jbfjpxfg85irlx/02_ECC_Lab_Amazon_AWS_2016-09-25.pdf?dl=0).
 + Lab 2: [Project Description](https://www.dropbox.com/s/u8xqitqaxps2zfw/02_ECC_Lab_Project_Description-2016-09-25.pdf?dl=0).
 + Lab 2: [Project Report Template](https://www.dropbox.com/s/e2kxcq7aodmrsd2/02_ECC_Lab_Project_Description_Written_Report_Template.doc?dl=0).
+
 
 
 Chapter 03 __ Web APIs
