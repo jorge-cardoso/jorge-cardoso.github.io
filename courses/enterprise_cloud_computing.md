@@ -141,7 +141,7 @@ Chapter 11 __ Resilience
 
 *Summary*.
 
-*Key points covered*:.
+*Key points covered*. Simian Army. Fault Injection.
 
 + Lecture: [Cloud Resilience: The Simian Army and Chaos Monkey](https://www.dropbox.com/s/a6evie6ml2hshdy/11_ECC_Lecture_Chaos_Monkey_2016-09-25.pdf?dl=0).
 
