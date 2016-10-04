@@ -141,11 +141,13 @@ Chapter 10 __ Monitoring
 Chapter 11 __ Resilience
 ------------------------
 
-*Summary*.
+*Summary*. Desciption from Charter on waking up at 2 in the morning and about INCREASIng the Covereage.
 
 *Key points covered*. Simian Army. Fault Injection.
 
 + Lecture: [Cloud Resilience: The Simian Army and Chaos Monkey](https://www.dropbox.com/s/a6evie6ml2hshdy/11_ECC_Lecture_Chaos_Monkey_2016-09-25.pdf?dl=0).
++ DOST presentation
++ Using sequential diagnosis with openstack
 
 
 
