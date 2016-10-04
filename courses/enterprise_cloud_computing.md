@@ -89,7 +89,8 @@ Chapter 06 __ Cloud BPM
 
 *Summary*.
 
-*Key points covered*:.
+*Key points covered*. Cloud BPM. Concepts (Domains, workflows, activities, workers, deciders and schedulers). How to run a Workflow? Implementing Workflows.
+
 
 + Lecture: [Cloud BPM: Building Large-scale Distributed Systems](https://www.dropbox.com/s/ntenhyxy480i4x8/02_ECC_Lecture_Cloud_Computing_Concepts_2016-09-25.pdf?dl=0).
 + Lab: [Cloud BPM with AWS SWT](https://www.dropbox.com/s/gt3n3td38td09u9/06_ECC_Lab_Cloud_BPM_AWS_SWF_2016-09-25.pdf?dl=0).
