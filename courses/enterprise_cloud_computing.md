@@ -109,7 +109,7 @@ Chapter 08 __ Cloud BPM
 
 *Summary*.
 
-*Key points covered*:.
+*Key points covered*. Cloud BPM. Workflows Patterns (Sequence, Parallel Split, Synchronization, Exclusive Choice, Simple Merge, Multi-Choice).
 
 + Lecture: [Cloud BPM: Workflow Patterns](https://www.dropbox.com/s/g19jjnv82w5eum6/08_ECC_Lecture_Cloud_BPM_Workflow_Patterns_2016-09-25.pdf?dl=0).
 + Lab: [Cloud BPM: Workflow Patterns](https://www.dropbox.com/s/qra0daixkyk8ivp/08_ECC_Lab_Cloud_BPM_Workflow_Patterns_2016-09-25.pdf?dl=0).
