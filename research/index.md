@@ -93,7 +93,7 @@ Building large-scale distributed systems requires the consideration of several t
 + Generic approaches for reliability such as Fault Tree Analysis (FTA), Root cause analysis (RCA), Failure mode and effects analysis (FMCA), Cause–effect graphs, Ishikawa diagram, Five whys, etc.
 
 
-### Monitoring and Tracing
+### Tracing
 
 Traditional monitoring solutions for cloud platforms and applications, such as [Cloudwatch](https://aws.amazon.com/cloudwatch/) from Amazon AWS, [Ceilometer](https://wiki.openstack.org/wiki/Telemetry) from Openstack, and [Nagios](https://www.nagios.org/), place emphasis on *component-based monitoring*. Existing solutions collect detailed information on system statistics about virtual machines, CPU, disk IO, hosts, RPC, etc.
 
@@ -108,8 +108,12 @@ The study from Sambasivan, Raja R., et al. titled [So, you want to trace your di
 + [Zipkin ](http://zipkin.io) from Twitter is also a distributed tracing system. It helps gather timing data needed to troubleshoot latency problems in microservice architectures. Zipkin's design is based on the Google Dapper.
 + [Methods and Systems of Distributed Tracing](http://www.google.com/patents/US20140215443) and US 20140215443 A1 Application and US 9135145 B2 Grant by Rackspace Us, Inc. (Sept 2015). A system and methods are provided for distributed tracing in a distributed application by observing messages sent and received among components of the distributed application, generating a probabilistic model of a call flow, and constructing a call flow graph based on the probabilistic model for the distributed application.
 + Mike Y. Chen, Anthony Accardi, Emre Kiciman, Jim Lloyd, Dave Patterson, Armando Fox, and Eric Brewer. 2004. [Path-based faliure and evolution management](http://people.eecs.berkeley.edu/~brewer/papers/nsdi2004_chen_paths.pdf). In Proceedings of the 1st conference on Symposium on Networked Systems Design and Implementation - Volume 1 (NSDI'04), Vol. 1. USENIX Association, Berkeley, CA, USA, 23-23.
+
+### Monitoring
+
 + [Eliot](https://github.com/ClusterHQ/eliot) A Python library for Logging for complex distributed systems
 + [Monitoring without Infrastructure @ Airbnb](https://www.usenix.org/conference/srecon15/program/presentation/serebryany) Airbnb uses logstash, statsd, NewRelic, Datadog, and their own open-sourced configuration-as-code alerting framework for monitoring.
++ [RefStack](https://refstack.openstack.org/#/results/303e7538-136d-4802-a7e9-a85cfe3c9fc1). RefStack provides users in the OpenStack community with a Tempest wrapper, refstack-client, that helps to verify interoperability of their cloud with other OpenStack clouds. It does so by validating any cloud implementation against the OpenStack Tempest API tests
 
 Other tools from the field of APM ([Application Performance Management](https://en.wikipedia.org/wiki/Application_performance_management)), such as [NewRelic](https://newrelic.com) limite their span to monitor the performance of transactions across web application stacks.
 
