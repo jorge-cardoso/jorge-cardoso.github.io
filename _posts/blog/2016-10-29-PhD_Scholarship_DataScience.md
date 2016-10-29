@@ -1,6 +1,17 @@
-
-
-PhD student grant
+---
+layout: media
+title: "PhD Student Grant/Scholarship"
+modified:
+categories: blog
+excerpt:
+tags: []
+image:
+  feature:
+  teaser: Cover-FSS.gif
+  thumb: Cover-FSS.gif
+ads: false
+date: 2016-10-29T13:39:59+02:00
+---
 
 Research Project: DataScience4NP (Data Science for Non-Programmers)
 
