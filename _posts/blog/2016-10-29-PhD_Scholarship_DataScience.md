@@ -23,7 +23,7 @@ The expected outcome of the research is the development of advanced data analyti
 The University of Coimbra (UC) is a Portuguese public higher education institution with more than 700 years of experience in education, training and research. The first and the only Portuguese-speaking university until the early 20th century, UC has affirmed its position over the years with a unique mix of tradition, contemporaneity and innovation.
 
 # How to apply
-send an e-mail to Prof. Rui Pedro Paiva (ruipedro@dei.uc.pt), with your CV containing clear information regarding the selection criteria, with "DS4NP grant" in the subject.
+Send an e-mail to Prof. Rui Pedro Paiva (ruipedro@dei.uc.pt), with your CV containing clear information regarding the selection criteria, with "DS4NP grant" in the subject.
 
 # Closing date
 November 8, 2016
