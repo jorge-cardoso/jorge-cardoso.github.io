@@ -20,15 +20,7 @@ Research and development of advanced data analytics services for Data Science us
 
 Profile of the candidate: Master degree in Computer Science or related area
 
-Supervision: Profs. Alexandre Pinto, Jorge Cardoso and Rui Pedro Paiva
-
-Selection criteria:
-Curricular elements (final average classification in the BSc and MSc degrees): 30%
-Scientific curriculum (scientific publications, research projects, etc.): 20%
-Proof of proficiency in data science and machine learning: 15%
-Experience in similar R&D projects: 7.5%
-Motivation letter: 2.5%
-Interview (if applicable: only the three top ranked candidates will be interviewed): 25%
+The University of Coimbra (UC) is a Portuguese public higher education institution with more than 700 years of experience in education, training and research. The first and the only Portuguese-speaking university until the early 20th century, UC has affirmed its position over the years with a unique mix of tradition, contemporaneity and innovation.
 
 Salary: 980€ / month + insurance
 
