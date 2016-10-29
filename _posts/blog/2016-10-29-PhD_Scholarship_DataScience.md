@@ -32,6 +32,6 @@ Interview (if applicable: only the three top ranked candidates will be interview
 
 Salary: 980€ / month + insurance
 
-How to apply: send an e-mail to Prof. Rui Pedro Paiva (ruipedro@dei.uc.pt), with your CV containing clear information regarding the selection criteria, with “DS4NP grant” in the subject.
+How to apply: send an e-mail to Prof. Rui Pedro Paiva (ruipedro@dei.uc.pt), with your CV containing clear information regarding the selection criteria, with "DS4NP grant" in the subject.
 
 Due date: November 8, 2016
