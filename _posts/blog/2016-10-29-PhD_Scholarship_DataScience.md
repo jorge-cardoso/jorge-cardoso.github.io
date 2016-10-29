@@ -14,7 +14,7 @@ date: 2016-10-29T13:39:59+02:00
 ---
 
 # PhD Scholarship
-We are offering a funded 3 years PhD position at the [Department of Informatics Engineering](http://www.uc.pt/fctuc/dei/) of the University of Coimbra, Portugal, starting November 2016 or January 2017.
+We are offering a funded 3 years PhD position at the [Department of Informatics Engineering](http://www.uc.pt/fctuc/dei/) of the [University of Coimbra](http://www.uc.pt), Portugal, starting November 2016 or January 2017.
 
 # University of Coimbra
 The expected outcome of the research is the development of advanced data analytics services for Data Science orchestrated using the concept of micro-services and workflows. Services must be parametrisable and implement specific machine learning and prediction algorithms (e.g., SVM, deep learning, ...). Services must also be dynamically composable into reusable workflows which can run on top of OpenStack using recent advances in the field of process management (such as Mistral or Airflow).
