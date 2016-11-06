@@ -158,6 +158,8 @@ Chapter 12 __ OpenStack Platform
 *Summary*.
 
 *Key points covered*:.
++ See slides from Pluralsight about Introduction To Openstack 2014
++ See course RedHat on OpenStack administration
 
 
 
