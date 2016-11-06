@@ -33,6 +33,7 @@ Chapter 02 __ Concepts
 
 *Key points covered*. Computing shift. Economical driver. Definition. Cloud characteristics. Deployment models. Delivery models. Examples. Inherent problems.
 
+*Material*. 
 + Lecture: [Cloud Computing Concepts](https://www.dropbox.com/s/ntenhyxy480i4x8/02_ECC_Lecture_Cloud_Computing_Concepts_2016-09-25.pdf?dl=0).
 + Chapter 4: Cloud Computing Concepts (pp. 111-140). Mastering Cloud Computing: Foundations and Applications Programming, by Rajkumar Buyya, Christian Vecchiola, S.Thamarai Selvi, 2013.
 + Chapter 2: Electronic Services (pp. XX-XX). Fundamentals of Service Systems, Cardoso et al., Springer, 2015.
@@ -49,6 +50,7 @@ Chapter 03 __ Web APIs
 
 *Key points covered*. The API Economy. Distributed Systems. WS-\* Services. What is REST? REST and SOAP. REST principles. REST design guidelines.
 
+*Material*. 
 + Lecture: [Web API](https://www.dropbox.com/s/1it2tyjva8uz1l5/03_ECC_Lecture_Web_API_2016-09-25.pdf?dl=0).
 + Lab 1: [Boto and Amazon AWS](https://www.dropbox.com/s/qewkq7tkcm8amo6/03_ECC_Lab_Boto_Amazon_AWS-2016-09-25.pdf?dl=0).
 + Chapter 1: General Info (pp. 1-10). Python and AWS Cookbook by Mitch Garnaat, O'Reilly Media, 2011.
@@ -66,6 +68,7 @@ Chapter 04 __ Cloud Platforms
 
 *Key points covered*. Cloud Computing Offerings. AWS Platform (Compute Services, Storage Services, Communication Services, Additional Services). Tools and Kits. Billing and Pricing
 
+*Material*. 
 + Lecture: [Cloud Platforms](https://www.dropbox.com/s/3fjregvh27kuqgs/04_ECC_Lecture_Cloud_Platforms_2016-09-25.pdf?dl=0).
 + Chapter 9: Cloud Platforms in Industry (pp. 315-351). Mastering Cloud Computing: Foundations and Applications Programming, by Rajkumar Buyya, Christian Vecchiola, S.Thamarai Selvi, 2013.
 + Lab: [Cloud Platforms: EC2, S3, SNS, SQS](https://www.dropbox.com/s/bwkt1zrftkx6ro6/04_ECC_Lab_Cloud_Platforms_Parallel_Processing_2016-09-25.pdf?dl=0).
@@ -81,6 +84,7 @@ Chapter 05 __ Cloud Application Design
 
 *Key points covered*. Cloud Architectures (One tier, Two tiers, Three tiers, Four tiers). High Availability Architectures. Scalable Architectures. AWS elements (EC2 Images, Elastic Load Balancing, Lunch Configurations, Auto Scaling Groups, Cloud Watch). Cloud Systems’ Reliability.
 
+*Material*. 
 + Lecture: [Cloud Application Design](https://www.dropbox.com/s/8z706g9e35j6rpe/05_ECC_Lecture_Cloud_Application_Design_2016-09-25.pdf?dl=0).
 + Lab 1: [Cloud Application Design](https://www.dropbox.com/s/05jem96dru8cy9h/05_ECC_Lab_Cloud_Application_Design_2016-09-25.pdf?dl=0).
 + Lab 2: [Load Balancing](https://www.dropbox.com/s/nuedlqjicnlaarh/05_ECC_Lab_Cloud_Application_Design_Load_Balancing_2016-09-25.pdf?dl=0).
@@ -94,7 +98,7 @@ Chapter 06 __ Cloud BPM
 
 *Key points covered*. Cloud BPM. Concepts (Domains, workflows, activities, workers, deciders and schedulers). How to run a Workflow? Implementing Workflows.
 
-
+*Material*. 
 + Lecture: [Cloud BPM: Building Large-scale Distributed Systems](https://www.dropbox.com/s/ntenhyxy480i4x8/02_ECC_Lecture_Cloud_Computing_Concepts_2016-09-25.pdf?dl=0).
 + Lab: [Cloud BPM with AWS SWT](https://www.dropbox.com/s/gt3n3td38td09u9/06_ECC_Lab_Cloud_BPM_AWS_SWF_2016-09-25.pdf?dl=0).
 
@@ -106,6 +110,8 @@ Chapter 07 __ NA
 
 *Key points covered*:.
 
+*Material*. 
+
 
 Chapter 08 __ Cloud BPM
 ---------------------
@@ -114,6 +120,7 @@ Chapter 08 __ Cloud BPM
 
 *Key points covered*. Cloud BPM. Workflows Patterns (Sequence, Parallel Split, Synchronization, Exclusive Choice, Simple Merge, Multi-Choice).
 
+*Material*. 
 + Lecture: [Cloud BPM: Workflow Patterns](https://www.dropbox.com/s/g19jjnv82w5eum6/08_ECC_Lecture_Cloud_BPM_Workflow_Patterns_2016-09-25.pdf?dl=0).
 + Lab: [Cloud BPM: Workflow Patterns](https://www.dropbox.com/s/qra0daixkyk8ivp/08_ECC_Lab_Cloud_BPM_Workflow_Patterns_2016-09-25.pdf?dl=0).
 
@@ -126,6 +133,7 @@ Chapter 09 __ Google Platform
 
 *Key points covered*:.
 
+*Material*. 
 + Lecture: [Google Cloud Platform and App Engine](https://www.dropbox.com/s/7ncfw9br4ul4a7q/09_ECC_Lecture_Cloud_Application_Design_GoogleAppEngine_2016-09-25.pdf?dl=0).
 + Lab: [Google Cloud Platform and App Engine](https://www.dropbox.com/s/exxh6btvrk39fuj/09_ECC_Lab_Cloud_Application_Design_GoogleAppEngine_2016-09-25.pdf?dl=0).
 
@@ -138,6 +146,7 @@ Chapter 10 __ Monitoring
 
 *Key points covered*. 
 
+*Material*. 
 + Lecture: [Cloud Monitoring: Amazon CloudWatch](https://www.dropbox.com/s/evx1yo13lqp2nrd/10_ECC_Lecture_CloudWatch_2016-09-25.pdf?dl=0).
 
 
@@ -148,6 +157,7 @@ Chapter 11 __ Resilience
 
 *Key points covered*. Simian Army. Fault Injection.
 
+*Material*. 
 + Lecture: [Cloud Resilience: The Simian Army and Chaos Monkey](https://www.dropbox.com/s/a6evie6ml2hshdy/11_ECC_Lecture_Chaos_Monkey_2016-09-25.pdf?dl=0).
 + DOST presentation
 + Using sequential diagnosis with openstack
@@ -159,9 +169,8 @@ Chapter 12 __ OpenStack Platform
 *Summary*.
 
 *Key points covered*:.
+
+*Material*. 
 + See slides from Pluralsight about Introduction To Openstack 2014
 + See course RedHat on OpenStack administration
-
-
-
 
