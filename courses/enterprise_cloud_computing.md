@@ -20,6 +20,7 @@ Chapter 01 __ Introduction
 
 *Key points covered*. What are cloud services? What is cloud computing? Business shift. Job market. Examples of cloud services.
 
+*Material*. 
 + Lecture 1: [Introduction](https://www.dropbox.com/s/aszlfp9tjgvuhuh/01_ECC_Lecture_Introduction-2016-09-25.pdf?dl=0). 
 + Lab 1: [Amazon AWS Hands-on](https://www.dropbox.com/s/z9tqepul83qetek/01_ECC_Lab_Amazon_AWS_Hands_On-2016-09-29.pdf?dl=0).
 
