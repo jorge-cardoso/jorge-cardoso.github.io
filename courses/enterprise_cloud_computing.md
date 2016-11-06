@@ -117,6 +117,7 @@ Chapter 08 __ Cloud BPM
 + Lab: [Cloud BPM: Workflow Patterns](https://www.dropbox.com/s/qra0daixkyk8ivp/08_ECC_Lab_Cloud_BPM_Workflow_Patterns_2016-09-25.pdf?dl=0).
 
 
+
 Chapter 09 __ Google Platform
 ---------------------------------
 
@@ -126,6 +127,7 @@ Chapter 09 __ Google Platform
 
 + Lecture: [Google Cloud Platform and App Engine](https://www.dropbox.com/s/7ncfw9br4ul4a7q/09_ECC_Lecture_Cloud_Application_Design_GoogleAppEngine_2016-09-25.pdf?dl=0).
 + Lab: [Google Cloud Platform and App Engine](https://www.dropbox.com/s/exxh6btvrk39fuj/09_ECC_Lab_Cloud_Application_Design_GoogleAppEngine_2016-09-25.pdf?dl=0).
+
 
 
 Chapter 10 __ Monitoring
@@ -149,6 +151,13 @@ Chapter 11 __ Resilience
 + DOST presentation
 + Using sequential diagnosis with openstack
 
+
+Chapter 12 __ OpenStack Platform
+---------------------------------
+
+*Summary*.
+
+*Key points covered*:.
 
 
 
