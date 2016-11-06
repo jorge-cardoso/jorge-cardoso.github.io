@@ -85,6 +85,7 @@ Chapter 05 __ Cloud Application Design
 *Key points covered*. Cloud Architectures (One tier, Two tiers, Three tiers, Four tiers). High Availability Architectures. Scalable Architectures. AWS elements (EC2 Images, Elastic Load Balancing, Lunch Configurations, Auto Scaling Groups, Cloud Watch). Cloud Systems’ Reliability.
 
 *Material*. 
+
 + Lecture: [Cloud Application Design](https://www.dropbox.com/s/8z706g9e35j6rpe/05_ECC_Lecture_Cloud_Application_Design_2016-09-25.pdf?dl=0).
 + Lab 1: [Cloud Application Design](https://www.dropbox.com/s/05jem96dru8cy9h/05_ECC_Lab_Cloud_Application_Design_2016-09-25.pdf?dl=0).
 + Lab 2: [Load Balancing](https://www.dropbox.com/s/nuedlqjicnlaarh/05_ECC_Lab_Cloud_Application_Design_Load_Balancing_2016-09-25.pdf?dl=0).
