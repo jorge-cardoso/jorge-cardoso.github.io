@@ -82,12 +82,8 @@ Chapter 05 __ Cloud Application Design
 
 *Summary*.
 
-Cloud computing does not only provides a service-based access to virtual machines, more interestingly, it enables to create so called cloud-native applications. Applications that can be developed on a cloud platform, then deployed to different clouds where supporting software stacks will help them run at scale and with high reliability.
+Cloud computing does not only provides a service-based access to virtual machines, more interestingly, it enables to create so called cloud-native applications. Applications that can be developed on a cloud platform and use the many resources available to run at scale and with high reliability, and avoid problems such as the [Slashdot Effect](https://en.wikipedia.org/wiki/Slashdot_effect). This requires new  architectures that departs from traditional enterprise application design.
 
-
-It's a term that recognizes that getting software to work in the cloud requires a broad set of components that work together. It also requires an architecture that departs from traditional enterprise application design.
-
-[Slashdot Effect](https://en.wikipedia.org/wiki/Slashdot_effect)
 Important properties of distributed systems: Availability, Scalability, and Elasticity
 Reference Architectures
 [Multitier architectures](https://en.wikipedia.org/wiki/Multitier_architecture) 
