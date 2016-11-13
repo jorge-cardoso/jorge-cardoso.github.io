@@ -80,9 +80,7 @@ Chapter 04 __ Cloud Platforms
 Chapter 05 __ Cloud Application Design
 ------------------------------------
 
-*Summary*.
-
-Cloud computing does not only provides a service-based access to virtual machines, more interestingly, it enables to create so called cloud-native applications. Applications that can be developed on a cloud platform and use the many resources available to run at scale and with high reliability, and avoid problems such as the [Slashdot Effect](https://en.wikipedia.org/wiki/Slashdot_effect). This requires new  architectures that departs from traditional enterprise application design.
+*Summary*. Cloud computing does not only provides a service-based access to virtual machines, more interestingly, it enables to create so called [cloud-native applications](https://www.cncf.io). Applications that can be developed on a cloud platform and use the many resources available to run at scale and with high reliability, and avoid problems such as the [Slashdot Effect](https://en.wikipedia.org/wiki/Slashdot_effect). This requires new  architectures that departs from traditional enterprise application design.
 
 Important properties of distributed systems: Availability, Scalability, and Elasticity
 Reference Architectures
@@ -93,7 +91,7 @@ Patterns
 cloud system's reliability
 
 
-*Key points covered*. Cloud Architectures (One tier, Two tiers, Three tiers, Four tiers). High Availability Architectures. Scalable Architectures. AWS elements (EC2 Images, Elastic Load Balancing, Lunch Configurations, Auto Scaling Groups, Cloud Watch). Cloud Systems’ Reliability.
+*Key points covered*. Cloud-native applications. Cloud Architectures (One tier, Two tiers, Three tiers, Four tiers). High Availability Architectures. Scalable Architectures. AWS elements (EC2 Images, Elastic Load Balancing, Lunch Configurations, Auto Scaling Groups, Cloud Watch). Cloud Systems’ Reliability.
 
 *Material*. 
 + Lecture: [Cloud Application Design](https://www.dropbox.com/s/8z706g9e35j6rpe/05_ECC_Lecture_Cloud_Application_Design_2016-09-25.pdf?dl=0).
@@ -155,7 +153,7 @@ Chapter 10 __ Monitoring
 
 *Summary*. Amazon CloudWatch. Architecture. Terms. Supported AWS Services. Accessing CloudWatch. Regions and Endpoints. CloudWatch Limits. Related AWS Services. Resources.
 
-*Key points covered*. 
+*Key points covered*. [Prometheus](https://prometheus.io). [OpenTracing](http://opentracing.io)
 
 *Material*. 
 + Lecture: [Cloud Monitoring: Amazon CloudWatch](https://www.dropbox.com/s/evx1yo13lqp2nrd/10_ECC_Lecture_CloudWatch_2016-09-25.pdf?dl=0).
