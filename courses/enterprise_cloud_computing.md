@@ -80,7 +80,7 @@ Chapter 04 __ Cloud Platforms
 Chapter 05 __ Cloud Application Design
 ------------------------------------
 
-*Summary*. Cloud computing does not only provides a service-based access to virtual machines, more interestingly, it enables to create so called [cloud-native applications](https://www.cncf.io). Applications that can be developed on a cloud platform and use the many resources available to run at scale and with high reliability, and avoid problems such as the [Slashdot Effect](https://en.wikipedia.org/wiki/Slashdot_effect). This requires new  architectures that departs from traditional enterprise application design.
+*Summary*. Cloud computing does not only provides a service-based access to virtual machines, more interestingly, it enables to create so called [cloud-native applications](https://www.cncf.io). Applications that can be developed on a cloud platform, use the many resources available, run at scale with a high reliability, and avoid problems such as the [Slashdot Effect](https://en.wikipedia.org/wiki/Slashdot_effect). This requires new architectures that departs from traditional enterprise application design.
 
 Important properties of distributed systems: Availability, Scalability, and Elasticity
 Reference Architectures
