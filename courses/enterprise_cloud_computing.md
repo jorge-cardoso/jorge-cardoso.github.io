@@ -80,13 +80,14 @@ Chapter 04 __ Cloud Platforms
 Chapter 05 __ Cloud Application Design
 ------------------------------------
 
-*Summary*. Cloud computing does not only provides a service-based access to virtual machines, more interestingly, it enables to create so called [cloud-native applications](https://www.cncf.io). Applications that can be developed on a cloud platform, use the many resources available, run at scale with a high reliability, and avoid problems such as the [Slashdot Effect](https://en.wikipedia.org/wiki/Slashdot_effect). This requires new architectures that departs from traditional enterprise application design to address requrirements such as high availability, scalability, and elasticity. For example, [IBM Cloud Architecture Center](https://developer.ibm.com/architecture/) enables developers to understand how to quickly create new cloud native applications using [Bluemix](https://console.ng.bluemix.net), IBM's PaaS solution.
+*Summary*. Cloud computing does not only provides a service-based access to virtual machines, more interestingly, it enables to create so called [cloud-native applications](https://www.cncf.io). Applications that can be developed on a cloud platform, use the many resources available, run at scale with a high reliability, and avoid problems such as the [Slashdot Effect](https://en.wikipedia.org/wiki/Slashdot_effect). This requires new [cloud architectures](https://aws.amazon.com/about-aws/whats-new/2008/07/16/cloud-architectures-white-paper/) that departs from traditional enterprise application design to address requrirements such as high availability, scalability, and elasticity. For example, [IBM Cloud Architecture Center](https://developer.ibm.com/architecture/) enables developers to understand how to quickly create new cloud native applications using [Bluemix](https://console.ng.bluemix.net), IBM's PaaS solution. The types of services provded by a cloud platforms enables to develop architectures, e.g., wwht four tiers, which not not easily engineered usign traditional software paltforms. Thus, architectures are evolving into [Multitier architectures](https://en.wikipedia.org/wiki/Multitier_architecture),
 
-Reference Architectures
-[Multitier architectures](https://en.wikipedia.org/wiki/Multitier_architecture) 
-High Availability = multiple zones, [cloudwatch](http://aws.amazon.com/cloudwatch/), autoscalling
-Scalability = [auto-scaling groups](http://aws.amazon.com/autoscaling/), elastic load balancers, [message queues](http://aws.amazon.com/sqs), 
-Patterns
+Amazon AWS provides an infrastructure which contains the necessary ingreduents to develop distributed system with high availability, scalability, and elasticity. Examples of key services include multiple zones, [cloudwatch](http://aws.amazon.com/cloudwatch/), [auto-scaling](http://aws.amazon.com/autoscaling/), elastic load balancers, and [message queues](http://aws.amazon.com/sqs). 
+
+Microsoft [Cloud Design Patterns](https://msdn.microsoft.com/en-us/library/dn568099.aspx)
+AWS [Cloud Design Patterns](http://en.clouddesignpattern.org/index.php/CDP:DB_Replication_Pattern)
+book Cloud Computing Patterns (http://www.cloudcomputingpatterns.org/book/)
+
 cloud system's reliability
 
 
