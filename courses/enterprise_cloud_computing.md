@@ -80,7 +80,7 @@ Chapter 04 __ Cloud Platforms
 Chapter 05 __ Cloud Application Design
 ------------------------------------
 
-*Summary*. Cloud computing does not only provides a service-based access to virtual machines, more interestingly, it enables to create so called [cloud-native applications](https://www.cncf.io). Applications that can be developed on a cloud platform, use the many resources available, run at scale with a high reliability, and avoid problems such as the [Slashdot Effect](https://en.wikipedia.org/wiki/Slashdot_effect). This requires new architectures that departs from traditional enterprise application design to address requrirements such as high availability, scalability, and elasticity.
+*Summary*. Cloud computing does not only provides a service-based access to virtual machines, more interestingly, it enables to create so called [cloud-native applications](https://www.cncf.io). Applications that can be developed on a cloud platform, use the many resources available, run at scale with a high reliability, and avoid problems such as the [Slashdot Effect](https://en.wikipedia.org/wiki/Slashdot_effect). This requires new architectures that departs from traditional enterprise application design to address requrirements such as high availability, scalability, and elasticity. For example, [IBM Cloud Architecture Center](https://developer.ibm.com/architecture/) enables developers to understand how to quickly create new cloud native applications using [Bluemix](https://console.ng.bluemix.net), IBM's PaaS solution.
 
 Reference Architectures
 [Multitier architectures](https://en.wikipedia.org/wiki/Multitier_architecture) 
