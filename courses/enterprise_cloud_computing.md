@@ -82,6 +82,16 @@ Chapter 05 __ Cloud Application Design
 
 *Summary*.
 
+[Slashdot Effect](https://en.wikipedia.org/wiki/Slashdot_effect)
+Important properties of distributed systems: Availability, Scalability, and Elasticity
+Reference Architectures
+[Multitier architectures](https://en.wikipedia.org/wiki/Multitier_architecture) 
+High Availability = multiple zones, [cloudwatch](http://aws.amazon.com/cloudwatch/), autoscalling
+Scalability = [auto-scaling groups](http://aws.amazon.com/autoscaling/), elastic load balancers, [message queues](http://aws.amazon.com/sqs), 
+Patterns
+cloud system's reliability
+
+
 *Key points covered*. Cloud Architectures (One tier, Two tiers, Three tiers, Four tiers). High Availability Architectures. Scalable Architectures. AWS elements (EC2 Images, Elastic Load Balancing, Lunch Configurations, Auto Scaling Groups, Cloud Watch). Cloud Systems’ Reliability.
 
 *Material*. 
