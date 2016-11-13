@@ -84,10 +84,9 @@ Chapter 05 __ Cloud Application Design
 
 The facilitate the develooment of native applicaiotns, companies and acdemia is looking into ways to identify and abstract generic  architectures which can be reused across domains. Initiatives centeres in patterns have been popular. Examples include, Microsoft [Cloud Design Patterns](https://msdn.microsoft.com/en-us/library/dn568099.aspx), AWS [Cloud Design Patterns](http://en.clouddesignpattern.org/index.php/CDP:DB_Replication_Pattern), and the book Cloud Computing Patterns (http://www.cloudcomputingpatterns.org/book/) coming from the academia.
 
-[Dependability](https://en.wikipedia.org/wiki/Dependability), and in particular [reliability](https://en.wikipedia.org/wiki/Reliability_engineering), have gained importance since planet-scale cloud applicaiton need often to be available 24x7x52.
+[Dependability](https://en.wikipedia.org/wiki/Dependability), and in particular [reliability](https://en.wikipedia.org/wiki/Reliability_engineering), have gained importance since planet-scale cloud applicaiton need often to be available 24x7x52. Since native applications can be seen as complex systems with services, behavior, compositions, which are put together using an architectural style driven by decisions, exisitng concepts and therories from the field of software engineering can be used to evaluate the reliability of applicaitons.    
 
-
-*Key points covered*. Cloud-native applications. Cloud Architectures (One tier, Two tiers, Three tiers, Four tiers). High Availability Architectures. Scalable Architectures. AWS elements (EC2 Images, Elastic Load Balancing, Lunch Configurations, Auto Scaling Groups, Cloud Watch). Cloud Systems’ Reliability.
+*Key points covered*. Cloud-native applications. Cloud Architectures (One tier, Two tiers, Three tiers, Four tiers). High Availability Architectures. Scalable Architectures. AWS elements (EC2 Images, Elastic Load Balancing, Lunch Configurations, Auto Scaling Groups, Cloud Watch). Native cloud applications reliability.
 
 *Material*. 
 + Lecture: [Cloud Application Design](https://www.dropbox.com/s/8z706g9e35j6rpe/05_ECC_Lecture_Cloud_Application_Design_2016-09-25.pdf?dl=0).
