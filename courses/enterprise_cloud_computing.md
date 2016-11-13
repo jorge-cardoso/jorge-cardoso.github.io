@@ -84,7 +84,7 @@ Chapter 05 __ Cloud Application Design
 
 The facilitate the develooment of native applicaiotns, companies and acdemia is looking into ways to identify and abstract generic  architectures which can be reused across domains. Initiatives centeres in patterns have been popular. Examples include, Microsoft [Cloud Design Patterns](https://msdn.microsoft.com/en-us/library/dn568099.aspx), AWS [Cloud Design Patterns](http://en.clouddesignpattern.org/index.php/CDP:DB_Replication_Pattern), and the book Cloud Computing Patterns (http://www.cloudcomputingpatterns.org/book/) coming from the academia.
 
-cloud system's reliability
+[Dependability](https://en.wikipedia.org/wiki/Dependability), and in particular [reliability](https://en.wikipedia.org/wiki/Reliability_engineering), have gained importance since planet-scale cloud applicaiton need often to be available 24x7x52.
 
 
 *Key points covered*. Cloud-native applications. Cloud Architectures (One tier, Two tiers, Three tiers, Four tiers). High Availability Architectures. Scalable Architectures. AWS elements (EC2 Images, Elastic Load Balancing, Lunch Configurations, Auto Scaling Groups, Cloud Watch). Cloud Systems’ Reliability.
