@@ -45,8 +45,28 @@ The workshop places focus on the following topics:
 + Henrik Abramowicz, EIT Digital, Germany.
 + Jorge Cardoso, Huawei ERC, Munich, Germany and University of Coimbra, Portugal
 
-#### Program Chairs
-+ TBA
+#### Steering Committee
++ Dr. Götz Reinhäckel, Head of Cloud Engineering, T-Systems International, Germany.
++ Dr. Jeff Voas, US National Institute of Standards and Technology (NIST), US.
++ Prof. Paulo Esteves Veríssimo, University of Luxembourg, Luxembourg.
++ Michel Drescher, Cloud Computing Standards Specialist, University of Oxford, UK. 
++ Valentina Salapura, Chief Architect, Resiliency and Business Continuity, IBM, US.
+
+#### Invited Speakers
++ Building Blocks for Site Reliability At Google, Sebastian Kirsch, Google, Switzerland.
++ Breaking Azure for Fun and Profit, Pavel Michailov, Microsoft, US.
++ Using Event-driven Automation and Workflows for Auto-remediation, Dmitri Zimine, Brocade, US.
++ High Availability and Disaster Recovery in OpenStack: From humble beginnings to enterprise reliability, Florian Haas, Hastexo, Austria.
++ A Tale of Ice and Fire, or: The Cloud and The Standards, Michel Drescher, University of Oxford, UK.
++ I'm No Hero: Full Stack Reliability at LinkedIn, Todd Palino, LinkedIn, US.
++ Resilient Cloud Storage – The Consistency View, Neeraj Suri, TU Darmstadt, Germany.
++ A Cloud is Not Enough, Reliable Delivery Matters More, Ajay Gulati, ZeroStack, US.
++ Dependable Storage and Computing using Multiple Cloud Providers, Alysson Neves Bessani, University of Lisbon, Portugal.
++ Cloud Based Fault Injection for Anomaly Detection, Craig Sheridan, flexiOPS, UK.
+
+#### Location
+
+EIT Digital Berlin Co-Location Centre
 
 
 
