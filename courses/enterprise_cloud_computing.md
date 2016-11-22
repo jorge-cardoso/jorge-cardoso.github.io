@@ -18,6 +18,7 @@ Course Description
 
 # Prerequisites
 
++ Programming, operating systems, networks. 
 
 # Textbook
 
