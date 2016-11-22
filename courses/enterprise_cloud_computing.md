@@ -26,12 +26,13 @@ Course Description
 
 ### Learning Outcomes
 
-1. Demonstrate the knowledge of cloud computing (including cloud architecture and service models, the economics of cloud computing, parallel and distributed computing, cluster/grid computing, peer-to-peer networks and computing, internet of things, virtualization, OpenStack, service oriented architecture, high availability, horizontal/vertical scaling, thin client, disaster recovery, free cloud services and open source software, example commercial cloud services, and federation/presence/identity/privacy in cloud computing), by answering exam questions correctly.
+Recall (knowledge), interpret (comprehension), apply, analyse, create (synthesis), evaluate.
 
-2. Demonstrate the ability to build example web applications of cloud services using open source cloud computing tools/systems, by implementing programming assignments correctly.
+1. Understand the main concepts, key technologies, benefits, and characteristics of cloud computing.
 
-3. Demonstrate the ability to read current research papers and implement example research group project in cloud computing by doing term project and showing reasonable contributions in this field.
+2. Identify the architecture associated with cloud computing, including SaaS, PaaS, IaaS, public cloud, private cloud, and hybrid cloud.
 
+3. Write a research paper and present the results.
 
 
 Chapter 01 __ Introduction
