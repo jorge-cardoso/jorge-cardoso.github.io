@@ -13,6 +13,22 @@ ads: false
 toc: true
 ---
 
+Course Description
+------------------
+
+# Prerequisites
+
+
+# Textbook
+
++ Distributed and Cloud Computing: From Parallel Processing to the Internet of Things, Kai Hwang, Jack Dongarra, Geoffrey C. Fox, Morgan Kaufmann, 2013.
+
+# Learning Outcomes
+
+
+
+
+
 Chapter 01 __ Introduction
 --------------------------
 
