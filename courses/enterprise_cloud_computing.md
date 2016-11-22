@@ -16,17 +16,21 @@ toc: true
 Course Description
 ------------------
 
-# Prerequisites
+### Prerequisites
 
 + Programming, operating systems, networks. 
 
-# Textbook
+### Textbook
 
 + Distributed and Cloud Computing: From Parallel Processing to the Internet of Things, Kai Hwang, Jack Dongarra, Geoffrey C. Fox, Morgan Kaufmann, 2013.
 
-# Learning Outcomes
+### Learning Outcomes
 
+1. Demonstrate the knowledge of cloud computing (including cloud architecture and service models, the economics of cloud computing, parallel and distributed computing, cluster/grid computing, peer-to-peer networks and computing, internet of things, virtualization, OpenStack, service oriented architecture, high availability, horizontal/vertical scaling, thin client, disaster recovery, free cloud services and open source software, example commercial cloud services, and federation/presence/identity/privacy in cloud computing), by answering exam questions correctly.
 
+2. Demonstrate the ability to build example web applications of cloud services using open source cloud computing tools/systems, by implementing programming assignments correctly.
+
+3. Demonstrate the ability to read current research papers and implement example research group project in cloud computing by doing term project and showing reasonable contributions in this field.
 
 
 
