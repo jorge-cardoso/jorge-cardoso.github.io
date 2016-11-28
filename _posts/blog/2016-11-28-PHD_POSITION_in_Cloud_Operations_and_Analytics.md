@@ -20,8 +20,8 @@ Riesstrasse 25
 80992 Munich  
 
 
-PHD POSITION in Cloud Operations and Analytics
-==============================================
+DESCRIPTION
+===========  
 We are looking for PhD students interested in doing research in the field of Cloud Computing. The students will be fully supported as research assistants at the Huawei German Research Center under the supervision of [Prof. Jorge Cardoso](http://jorge-cardoso.github.io/) and a professor from the [Technical University of Munich](http://www.tum.de) or [Ludwig Maximilian University of Munich](http://www.uni-muenchen.de).  
 The position if fully funded for 3 years.
 
