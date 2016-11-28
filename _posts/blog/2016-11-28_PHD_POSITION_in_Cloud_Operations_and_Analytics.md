@@ -14,10 +14,10 @@ date: 2016-11-280T10:39:59+02:00
 ---
 
 
-Huawei Technologies Duesseldorf GmbH
-German Research Center
-Riesstrasse 25
-80992 Munich
+Huawei Technologies Duesseldorf GmbH  
+German Research Center  
+Riesstrasse 25  
+80992 Munich  
 
 
 PHD POSITION in Cloud Operations and Analytics
@@ -49,8 +49,8 @@ You should be interested in solving challenging scientific problems, motivated f
 APPLICATIONS
 ============
 If you are interested, please send an e-mail to Prof. Jorge Cardoso with:  
-1. CV listing education background and publications (if any).
-2. Undergraduate and master transcripts (if applicable).
+1. CV listing education background and publications (if any).  
+2. Undergraduate and master transcripts (if applicable).  
 
 Contact: http://jorge-cardoso.github.io/  
 E-mail: firstname.lastname at huawei.com
