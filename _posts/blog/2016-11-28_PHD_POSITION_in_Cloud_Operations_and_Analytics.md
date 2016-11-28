@@ -28,10 +28,10 @@ The position if fully funded for 3 years.
 RESEARCH TOPICS
 ===============
 Research areas include but are not limited to:  
-(1) site reliability engineering.  
-(2) planet-scale distributed systems monitoring.  
-(3) cloud operations using analytics.  
-(4) large-scale software predictive maintenance.  
+1. site reliability engineering.  
+2. planet-scale distributed systems monitoring.  
+3. cloud operations using analytics.  
+4. large-scale software predictive maintenance.  
 
 QUALIFICATIONS
 ==============
