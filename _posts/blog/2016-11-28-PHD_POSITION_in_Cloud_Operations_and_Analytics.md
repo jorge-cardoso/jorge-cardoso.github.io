@@ -35,14 +35,14 @@ Research areas include but are not limited to:
 
 QUALIFICATIONS
 ==============
-As a successful candidate you should hold a university degree (Master or equivalent) in Computer Science and knowledge in one or more of the following areas:
-* Distributed systems.
-* Cloud computing.
-* Machine learning.
-* Software reliability.
-* Stream data management.
-* Decision support systems.
-* Very good programming skills (C/C++, Java, Python).
+As a successful candidate you should hold a university degree (Master or equivalent) in Computer Science and knowledge in one or more of the following areas:  
++ Distributed systems.  
++ Cloud computing.
++ Machine learning.
++ Software reliability.
++ Stream data management.
++ Decision support systems.
++ Very good programming skills (C/C++, Java, Python).
 
 You should be interested in solving challenging scientific problems, motivated for independent and goal-oriented research, and have a good level of written and spoken English.
 
