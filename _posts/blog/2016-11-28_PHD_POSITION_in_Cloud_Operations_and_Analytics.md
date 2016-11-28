@@ -22,7 +22,7 @@ Riesstrasse 25
 
 PHD POSITION in Cloud Operations and Analytics
 ==============================================
-We are looking for PhD students interested in doing research in the field of Cloud Computing. The students will be fully supported as research assistants at the Huawei German Research Center under the supervision of Prof. Jorge Cardoso (http://jorge-cardoso.github.io/) and a professor from the Technical University of Munich (www.tum.de) or Ludwig Maximilian University of Munich (www.uni-muenchen.de).
+We are looking for PhD students interested in doing research in the field of Cloud Computing. The students will be fully supported as research assistants at the Huawei German Research Center under the supervision of [Prof. Jorge Cardoso](http://jorge-cardoso.github.io/) and a professor from the [Technical University of Munich](http://www.tum.de) or [Ludwig Maximilian University of Munich](http://www.uni-muenchen.de).  
 The position if fully funded for 3 years.
 
 RESEARCH TOPICS
@@ -48,12 +48,11 @@ You should be interested in solving challenging scientific problems, motivated f
 
 APPLICATIONS
 ============
-If you are interested, please send an e-mail to Prof. Jorge Cardoso with:
-
+If you are interested, please send an e-mail to Prof. Jorge Cardoso with:  
 1. CV listing education background and publications (if any).
 2. Undergraduate and master transcripts (if applicable).
 
-Contact: http://jorge-cardoso.github.io/
+Contact: http://jorge-cardoso.github.io/  
 E-mail: firstname.lastname at huawei.com
 
 CLOSING DATE
@@ -68,7 +67,7 @@ Germany
 
 ABOUT THE ADVISOR
 =================
-  Prof. Jorge Cardoso (see his (website)[http://jorge-cardoso.github.io/]) obtained his PhD degree in Computer Science from the University of Georgia (US) in 2002.
+Prof. Jorge Cardoso (see his [website](http://jorge-cardoso.github.io/)) obtained his PhD degree in Computer Science from the University of Georgia (US) in 2002.
 He is Chief Architect for Cloud Operations and Analytics at Huawei GRC in Munich, Germany, and Professor at the University of Coimbra, Portugal.
 He frequently publishes papers in first-tier conferences such as ICWS, CAISE, and ESWC, and first-tier journals such as IEEE TSC and Journal of Web Semantics.
 He has published several books on distributed systems, process management systems, and service systems.
