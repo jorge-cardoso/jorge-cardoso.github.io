@@ -29,16 +29,16 @@ RESEARCH TOPICS
 ===============
 Research areas include but are not limited to:  
 
-1. site reliability engineering.  
-2. planet-scale distributed systems monitoring.  
-3. cloud operations using analytics.  
-4. large-scale software predictive maintenance.  
+1. site reliability engineering.
+2. planet-scale distributed systems monitoring.
+3. cloud operations using analytics.
+4. large-scale software predictive maintenance.
 
 QUALIFICATIONS
 ==============
 As a successful candidate you should hold a university degree (Master or equivalent) in Computer Science and knowledge in one or more of the following areas:
 
-+ Distributed systems.  
++ Distributed systems.
 + Cloud computing.
 + Machine learning.
 + Software reliability.
@@ -52,8 +52,8 @@ APPLICATIONS
 ============
 If you are interested, please send an e-mail to Prof. Jorge Cardoso with:  
 
-1. CV listing education background and publications (if any).  
-2. Undergraduate and master transcripts (if applicable).  
+1. CV listing education background and publications (if any).
+2. Undergraduate and master transcripts (if applicable).
 
 Contact: http://jorge-cardoso.github.io/  
 E-mail: firstname.lastname at huawei.com
