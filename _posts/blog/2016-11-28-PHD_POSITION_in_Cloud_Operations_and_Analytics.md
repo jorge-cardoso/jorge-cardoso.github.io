@@ -28,6 +28,7 @@ The position if fully funded for 3 years.
 RESEARCH TOPICS
 ===============
 Research areas include but are not limited to:  
+
 1. site reliability engineering.  
 2. planet-scale distributed systems monitoring.  
 3. cloud operations using analytics.  
@@ -35,7 +36,8 @@ Research areas include but are not limited to:
 
 QUALIFICATIONS
 ==============
-As a successful candidate you should hold a university degree (Master or equivalent) in Computer Science and knowledge in one or more of the following areas:  
+As a successful candidate you should hold a university degree (Master or equivalent) in Computer Science and knowledge in one or more of the following areas:
+
 + Distributed systems.  
 + Cloud computing.
 + Machine learning.
@@ -49,6 +51,7 @@ You should be interested in solving challenging scientific problems, motivated f
 APPLICATIONS
 ============
 If you are interested, please send an e-mail to Prof. Jorge Cardoso with:  
+
 1. CV listing education background and publications (if any).  
 2. Undergraduate and master transcripts (if applicable).  
 
