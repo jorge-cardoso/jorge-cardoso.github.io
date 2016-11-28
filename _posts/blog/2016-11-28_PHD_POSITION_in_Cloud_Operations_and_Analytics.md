@@ -49,6 +49,7 @@ You should be interested in solving challenging scientific problems, motivated f
 APPLICATIONS
 ============
 If you are interested, please send an e-mail to Prof. Jorge Cardoso with:
+
 1. CV listing education background and publications (if any).
 2. Undergraduate and master transcripts (if applicable).
 
@@ -61,9 +62,9 @@ The position will remain open until filled (this advertisement will expire on Ma
 
 LOCATION
 ========
-Huawei German Research Center (GRC)
-80992 Munich
-Germany
+Huawei German Research Center (GRC)  
+80992 Munich  
+Germany  
 
 ABOUT THE ADVISOR
 =================
