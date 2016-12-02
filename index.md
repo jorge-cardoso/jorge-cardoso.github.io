@@ -44,10 +44,10 @@ Research Interests
 
 + [Cloud Platforms Reliability and Resilience](research/)  
 + Data Science as a Service
-  + Use the open source Cloud platform [OpenStack](https://www.openstack.org) to provision services
-  + Implement new algorithms from the field of Data Science to process streaming data using e.g., [Kafka](http://kafka.apache.org) and [Storm](http://storm.apache.org) and publish them as [microservices](http://martinfowler.com/articles/microservices.html).
-  + Use new workflow languages such as [Mistral](https://wiki.openstack.org/wiki/Mistral) to orchestrate microservices
-  + Build POC to show the value of aggregating these technologies to manage Cloud Reliability and Large-scale Cloud Monitoring.
++ Use the open source Cloud platform [OpenStack](https://www.openstack.org) to provision services
++ Implement new algorithms from the field of Data Science to process streaming data using e.g., [Kafka](http://kafka.apache.org) and [Storm](http://storm.apache.org) and publish them as [microservices](http://martinfowler.com/articles/microservices.html).
++ Use new workflow languages such as [Mistral](https://wiki.openstack.org/wiki/Mistral) to orchestrate microservices
++ Build POC to show the value of aggregating these technologies to manage Cloud Reliability and Large-scale Cloud Monitoring.
 
 
 News
