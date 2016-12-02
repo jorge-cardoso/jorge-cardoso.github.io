@@ -12,7 +12,7 @@ ads: false
 <img src="/images/Jorge_Cardoso.png" height="128" width="155"  style="float:left;margin:0 20px 0 0;"/>
 </a>
 </p>
-I am Lead Architect for Cloud Management at [Huawei's European Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany. I am also Associate Professor at the [University of Coimbra](http://www.uc.pt/en/fctuc/dei) (Portugal), and affiliated to the Information Systems Group.
+I am Chief Architect for Cloud OPerations and Analytics at [Huawei's European Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany. I am also Associate Professor at the [University of Coimbra](http://www.uc.pt/en/fctuc/dei) (Portugal), and affiliated to the Information Systems Group.
 
 My current research involves the development of the next generation of Cloud Management Platforms ([CPM](http://www.gartner.com/it-glossary/cloud-management-platforms)), Cloud Automation solutions, Cloud Business Process Management (BPM), and High Performance BPM systems. More precisely,
 
