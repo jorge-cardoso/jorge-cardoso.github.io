@@ -12,7 +12,7 @@ ads: false
 <img src="/images/Jorge_Cardoso.png" height="128" width="155"  style="float:left;margin:0 20px 0 0;"/>
 </a>
 </p>
-I am Lead Architect for Cloud Management at [Huawei's European Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany. I am also Associate Professor at the [University of Coimbra](http://www.uc.pt/en/fctuc/dei) (Portugal), and affiliated to the Information Systems Group.
+I am Chief Architect for Cloud OPerations and Analytics at [Huawei's European Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany. I am also Associate Professor at the [University of Coimbra](http://www.uc.pt/en/fctuc/dei) (Portugal), and affiliated to the Information Systems Group.
 
 My current research involves the development of the next generation of Cloud Management Platforms ([CPM](http://www.gartner.com/it-glossary/cloud-management-platforms)), Cloud Automation solutions, Cloud Business Process Management (BPM), and High Performance BPM systems. More precisely,
 
@@ -34,9 +34,9 @@ Open Positions
 + PhD student. OpenStack Reliability
 + PhD student. Data Science.
 + PhD student. Orchestration of cloud services/microservices.
-+ Permanent position. [Cloud Reliability Engineer](JD_IT_Cloud_Reliability_Engineer_(May 2016).pdf)
-+ Permanent position. [OpenStack Software Engineer](JD_IT_OpenStack_Software_Engineer_(Jan 2016).pdf)
-+ Permanent position. [Junior/Senior Researcher Large-scale Distributed Systems](JD_IT_Junior_Senior_Researcher_Large-Scale_Distributed_Systems_(Jul 2016).pdf)
++ Permanent position. [Cloud Reliability Engineer](research/JD_IT_Cloud_Reliability_Engineer_(May 2016).pdf)
++ Permanent position. [OpenStack Software Engineer](research/JD_IT_OpenStack_Software_Engineer_(Jan 2016).pdf)
++ Permanent position. [Junior/Senior Researcher Large-scale Distributed Systems](research/JD_IT_Junior_Senior_Researcher_Large-Scale_Distributed_Systems_(Jul 2016).pdf)
 
 
 Research Interests
@@ -44,10 +44,10 @@ Research Interests
 
 + [Cloud Platforms Reliability and Resilience](research/)  
 + Data Science as a Service
-  + Use the open source Cloud platform [OpenStack](https://www.openstack.org) to provision services
-  + Implement new algorithms from the field of Data Science to process streaming data using e.g., [Kafka](http://kafka.apache.org) and [Storm](http://storm.apache.org) and publish them as [microservices](http://martinfowler.com/articles/microservices.html).
-  + Use new workflow languages such as [Mistral](https://wiki.openstack.org/wiki/Mistral) to orchestrate microservices
-  + Build POC to show the value of aggregating these technologies to manage Cloud Reliability and Large-scale Cloud Monitoring.
++ Use the open source Cloud platform [OpenStack](https://www.openstack.org) to provision services
++ Implement new algorithms from the field of Data Science to process streaming data using e.g., [Kafka](http://kafka.apache.org) and [Storm](http://storm.apache.org) and publish them as [microservices](http://martinfowler.com/articles/microservices.html).
++ Use new workflow languages such as [Mistral](https://wiki.openstack.org/wiki/Mistral) to orchestrate microservices
++ Build POC to show the value of aggregating these technologies to manage Cloud Reliability and Large-scale Cloud Monitoring.
 
 
 News
