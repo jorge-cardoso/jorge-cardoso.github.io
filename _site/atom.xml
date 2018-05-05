@@ -1,31 +1,279 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-    
-
     <title>Jorge Cardoso</title>
-    <generator uri="https://github.com/jekyll/jekyll">Jekyll v2.5.3</generator>
-		<icon>http://jorge-cardoso.github.io/apple-touch-icon-precomposed.png</icon>
+    <generator uri="https://github.com/jekyll/jekyll">Jekyll v3.8.1</generator>
+		<icon>http://localhost:4000/apple-touch-icon-precomposed.png</icon>
     <subtitle>JC Description</subtitle>
-    <link href="http://jorge-cardoso.github.io/atom.xml" rel="self"/>
-    <link href="http://jorge-cardoso.github.io/" rel="alternate" type="text/html"/>
-    <updated>2015-11-07T11:36:13+01:00</updated>
-    <id>http://jorge-cardoso.github.io/</id>
+    <link href="http://localhost:4000/atom.xml" rel="self"/>
+    <link href="http://localhost:4000/" rel="alternate" type="text/html"/>
+    <updated>2018-05-05T14:56:29+02:00</updated>
+    <id>http://localhost:4000/</id>
     <author>
 			<name></name>
-			<uri>http://jorge-cardoso.github.io/</uri>
+			<uri>http://localhost:4000/</uri>
 			
 		</author>
 
     
     <entry>
-        <title>Cloud Management Platforms (CMP) </title>
-        <link href="http://jorge-cardoso.github.io/blog/Cloud-Management-Platforms-CMP/"/>
-        <updated>2015-07-04T13:39:59+02:00</updated>
-        <id>http://jorge-cardoso.github.io/blog/Cloud-Management-Platforms-CMP</id>
+        <title>PHD POSITION in Cloud Operations and Analytics</title>
+        <link href="http://localhost:4000/blog/PHD_POSITION_in_Cloud_Operations_and_Analytics/"/>
+        <updated>2016-11-27T09:01:01+01:00</updated>
+        <id>http://localhost:4000/blog/PHD_POSITION_in_Cloud_Operations_and_Analytics</id>
         <author>
 					<name></name>
-					<uri>http://jorge-cardoso.github.io/</uri>
+					<uri>http://localhost:4000/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;Huawei Technologies Duesseldorf GmbH&lt;br /&gt;
+German Research Center&lt;br /&gt;
+Riesstrasse 25&lt;br /&gt;
+80992 Munich&lt;/p&gt;
+
+&lt;h1 id=&quot;description&quot;&gt;DESCRIPTION&lt;/h1&gt;
+&lt;p&gt;We are looking for PhD students interested in doing research in the field of Cloud Computing. The students will be fully supported as research assistants at the Huawei German Research Center under the supervision of &lt;a href=&quot;http://jorge-cardoso.github.io/&quot;&gt;Prof. Jorge Cardoso&lt;/a&gt; and a professor from the &lt;a href=&quot;http://www.tum.de&quot;&gt;Technical University of Munich&lt;/a&gt; or &lt;a href=&quot;http://www.uni-muenchen.de&quot;&gt;Ludwig Maximilian University of Munich&lt;/a&gt;.&lt;br /&gt;
+The position if fully funded for 3 years.&lt;/p&gt;
+
+&lt;h1 id=&quot;research-topics&quot;&gt;RESEARCH TOPICS&lt;/h1&gt;
+&lt;p&gt;Research areas include but are not limited to:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;site reliability engineering.&lt;/li&gt;
+  &lt;li&gt;planet-scale distributed systems monitoring.&lt;/li&gt;
+  &lt;li&gt;cloud operations using analytics.&lt;/li&gt;
+  &lt;li&gt;large-scale software predictive maintenance.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;qualifications&quot;&gt;QUALIFICATIONS&lt;/h1&gt;
+&lt;p&gt;As a successful candidate you should hold a university degree (Master or equivalent) in Computer Science and knowledge in one or more of the following areas:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Distributed systems.&lt;/li&gt;
+  &lt;li&gt;Cloud computing.&lt;/li&gt;
+  &lt;li&gt;Machine learning.&lt;/li&gt;
+  &lt;li&gt;Software reliability.&lt;/li&gt;
+  &lt;li&gt;Stream data management.&lt;/li&gt;
+  &lt;li&gt;Decision support systems.&lt;/li&gt;
+  &lt;li&gt;Very good programming skills (C/C++, Java, Python).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You should be interested in solving challenging scientific problems, motivated for independent and goal-oriented research, and have a good level of written and spoken English.&lt;/p&gt;
+
+&lt;h1 id=&quot;applications&quot;&gt;APPLICATIONS&lt;/h1&gt;
+&lt;p&gt;If you are interested, please send an e-mail to Prof. Jorge Cardoso with:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;CV listing education background and publications (if any).&lt;/li&gt;
+  &lt;li&gt;Undergraduate and master transcripts (if applicable).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Contact: http://jorge-cardoso.github.io/&lt;br /&gt;
+E-mail: firstname.lastname at huawei.com&lt;/p&gt;
+
+&lt;h1 id=&quot;closing-date&quot;&gt;CLOSING DATE&lt;/h1&gt;
+&lt;p&gt;The position will remain open until filled (this advertisement will expire on March 15, 2017).&lt;/p&gt;
+
+&lt;h1 id=&quot;location&quot;&gt;LOCATION&lt;/h1&gt;
+&lt;p&gt;Huawei German Research Center (GRC)&lt;br /&gt;
+80992 Munich&lt;br /&gt;
+Germany&lt;/p&gt;
+
+&lt;h1 id=&quot;about-the-advisor&quot;&gt;ABOUT THE ADVISOR&lt;/h1&gt;
+&lt;p&gt;Prof. Jorge Cardoso (see his &lt;a href=&quot;http://jorge-cardoso.github.io/&quot;&gt;website&lt;/a&gt;) obtained his PhD degree in Computer Science from the University of Georgia (US) in 2002.
+He is Chief Architect for Cloud Operations and Analytics at Huawei GRC in Munich, Germany, and Professor at the University of Coimbra, Portugal.
+He frequently publishes papers in first-tier conferences such as ICWS, CAISE, and ESWC, and first-tier journals such as IEEE TSC and Journal of Web Semantics.
+He has published several books on distributed systems, process management systems, and service systems.&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>International Industry-Academia Workshop on Cloud Reliability and Resilience</title>
+        <link href="http://localhost:4000/blog/CloudRR2016/"/>
+        <updated>2016-11-20T09:39:59+01:00</updated>
+        <id>http://localhost:4000/blog/CloudRR2016</id>
+        <author>
+					<name></name>
+					<uri>http://localhost:4000/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;p&gt;The International Industry-Academia Workshop on Cloud Reliability and Resilience was held in Berlin on 7-8 November 2016. The workshop gathered close to 50 participants from industry (Intel, Red Hat, CISCO, SAP, Google, LinkedIn, Microsoft, Mirantis, Brocade, T-Systems,
+SysEleven, Deutsche Telekom, Flexiant, Hastexo) and academia (TU Wien, TU Berlin, U Oxford, ETH, U Stuttgart, TU Chemnitz, U Potsdam, TU Darmstadt, U Lisbon, U Coimbra).&lt;/p&gt;
+
+&lt;p&gt;During two days, modern approaches for managing the reliability and resilience of cloud platforms and large-scale systems were discussed. The main topics under scrutiny were focused on site reliability engineering, fault injection testing, auto remediation, cloud
+standards, and dependable cloud storage.&lt;/p&gt;
+
+&lt;p&gt;&lt;img align=&quot;middle&quot; src=&quot;/images/Dmitri_Zimine.png&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Dmitri Zimine (Brocade) giving his speech on workflows for auto-remediation (credits to Johannes Weingart).&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The workshop also gathered a panel titled “What’s next for Cloud Reliability and Resilience: Challenges, Opportunities, Technologies, Theories, and More…” moderated by Dr. Goetz Brasche (Huawei), with the participation of Dr. Goetz Reinhaeckel (T-Systems), Dmitri Zimine (Brocade), Prof. Alysson Bessani (U Lisbon), and Sebastian Kirsch (Google).&lt;/p&gt;
+
+&lt;p&gt;During the workshop, participants agreed that reliability and resilience are having an increasing importance for companies operating large-scale or planet-scale systems. Well-known service providers such as LinkedIn, Google, Uber, Dropbox, Salesforce, Netflix, and New Relic are all adopting concepts borrowed from Site Reliability Engineering (SRE), and have developed homegrown frameworks, techniques, and tools to run numerous services as efficiently and reliably as possible. Examples of techniques that were discussed
+include fault injection testing, workflows for auto remediation, and the use of multiple clouds to build dependable storage. Areas of interest which still need to be explored in the future include service level objectives and agreements, real-time monitoring and analytics, failure prediction, predictive maintenance, and automated recovery.&lt;/p&gt;
+
+&lt;p&gt;&lt;img align=&quot;middle&quot; src=&quot;/images/Sebastian_Kirsch.png&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Sebastian Kirsch (Google), co-author of the bestselling book Site Reliability Engineering from Google, and the workshop organizer Jorge Cardoso (Huawei).&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The presentations covered the following topics:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Building Blocks for Site Reliability, Sebastian Kirsch, Google, Switzerland.&lt;/li&gt;
+  &lt;li&gt;Breaking Azure for Fun and Profit, Pavel Michailov, Microsoft, US.&lt;/li&gt;
+  &lt;li&gt;Using Event-driven Automation and Workflows for Auto-remediation, Dmitri Zimine, Brocade, US.&lt;/li&gt;
+  &lt;li&gt;High Availability and Disaster Recovery in OpenStack: From humble beginnings to enterprise reliability, Florian Haas, Hastexo, Austria.&lt;/li&gt;
+  &lt;li&gt;A Tale of Ice and Fire, or: The Cloud and the Standards, Michel Drescher, University of Oxford, UK.&lt;/li&gt;
+  &lt;li&gt;I’m No Hero: Full Stack Reliability at LinkedIn, Todd Palino, LinkedIn, US.&lt;/li&gt;
+  &lt;li&gt;Dependable Storage and Computing using Multiple Cloud Providers, Alysson Neves Bessani, University of Lisbon, Portugal.&lt;/li&gt;
+  &lt;li&gt;Cloud Based Fault Injection for Anomaly Detection, Craig Sheridan, flexiOPS, UK.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We would like to express our thanks, first of all, to the invited speakers for sharing their expertise with the audience. They were keystones of the program that we believe was exciting and of high quality. Next, we would like to thank the steering committee, who helped us with strategic guidance. Special thanks should be addressed to the organization and sponsorship of the event made by EIT Digital and Huawei German Research Center.&lt;/p&gt;
+
+&lt;p&gt;General Chair,&lt;/p&gt;
+
+&lt;p&gt;Prof. Jorge Cardoso, Huawei GRC, Germany&lt;/p&gt;
+
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>PhD Student Grant/Scholarship</title>
+        <link href="http://localhost:4000/blog/PhD_Scholarship_DataScience/"/>
+        <updated>2016-10-29T13:39:59+02:00</updated>
+        <id>http://localhost:4000/blog/PhD_Scholarship_DataScience</id>
+        <author>
+					<name></name>
+					<uri>http://localhost:4000/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;h1 id=&quot;phd-scholarship&quot;&gt;PhD Scholarship&lt;/h1&gt;
+&lt;p&gt;We are offering a funded 3 years PhD position at the &lt;a href=&quot;http://www.uc.pt/fctuc/dei/&quot;&gt;Department of Informatics Engineering&lt;/a&gt; of the &lt;a href=&quot;http://www.uc.pt&quot;&gt;University of Coimbra&lt;/a&gt;, Portugal, starting November 2016 or January 2017.&lt;/p&gt;
+
+&lt;h1 id=&quot;research-area&quot;&gt;Research Area&lt;/h1&gt;
+&lt;p&gt;The expected outcome of the research is the development of advanced data analytics services for Data Science orchestrated using the concept of micro-services and workflows. Services must be parametrisable and implement specific machine learning and prediction algorithms (e.g., SVM, deep learning, …). Services must also be dynamically composable into reusable workflows which can run on top of OpenStack using recent advances in the field of process management (such as Mistral or Airflow).&lt;/p&gt;
+
+&lt;h1 id=&quot;collaboration&quot;&gt;Collaboration&lt;/h1&gt;
+&lt;p&gt;The research will be conducted closely in collaboration with Prof. Jorge Cardoso of the &lt;a href=&quot;https://www.huawei.eu/research-and-innovation&quot;&gt;Huawei German Research Center (GRC)&lt;/a&gt; in Munich, Germany. Results of the research will be tested in a large-scale computing platform such as the Open Telekom Cloud from Deustche Telekom. Collaboration will also be undertake with the &lt;a href=&quot;http://iscte-iul.pt/home.aspx&quot;&gt;University Institute of Lisbon ISCTE&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;university-of-coimbra&quot;&gt;University of Coimbra&lt;/h1&gt;
+&lt;p&gt;The University of Coimbra (UC) is a Portuguese public higher education institution with more than 700 years of experience in education, training and research. The first and the only Portuguese-speaking university until the early 20th century, UC has affirmed its position over the years with a unique mix of tradition, contemporaneity and innovation.&lt;/p&gt;
+
+&lt;h1 id=&quot;selection-criteria&quot;&gt;Selection Criteria&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Curricular elements (final average classification in the BSc and MSc degrees): 30%&lt;/li&gt;
+  &lt;li&gt;Scientific curriculum (scientific publications, research projects, etc.): 20%&lt;/li&gt;
+  &lt;li&gt;Proof of proficiency in data science and machine learning: 15%&lt;/li&gt;
+  &lt;li&gt;Experience in similar R&amp;amp;D projects: 7.5%&lt;/li&gt;
+  &lt;li&gt;Motivation letter: 2.5%&lt;/li&gt;
+  &lt;li&gt;Interview (if applicable: only the three top ranked candidates will be interviewed): 25%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;how-to-apply&quot;&gt;How to Apply&lt;/h1&gt;
+&lt;p&gt;Send an e-mail to Prof. Rui Pedro Paiva (ruipedro@dei.uc.pt), with your CV containing clear information regarding the selection criteria, with “DS4NP grant” in the subject.&lt;/p&gt;
+
+&lt;h1 id=&quot;closing-date&quot;&gt;Closing Date&lt;/h1&gt;
+&lt;p&gt;November 8, 2016&lt;/p&gt;
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>International Industry-Academia Workshop on Cloud Reliability and Resilience </title>
+        <link href="http://localhost:4000/blog/Workshop-Cloud_Reliability-Resilience/"/>
+        <updated>2016-07-11T13:39:59+02:00</updated>
+        <id>http://localhost:4000/blog/Workshop-Cloud_Reliability-Resilience</id>
+        <author>
+					<name></name>
+					<uri>http://localhost:4000/</uri>
+					
+				</author>
+        <content type="html">
+        	
+        	&lt;h4 id=&quot;international-industry-academia-workshop-on-cloud-reliability-and-resilience&quot;&gt;International Industry-Academia Workshop on Cloud Reliability and Resilience&lt;/h4&gt;
+&lt;p&gt;November 7-8, 2016, Berlin, Germany&lt;/p&gt;
+
+&lt;h4 id=&quot;overview&quot;&gt;Overview&lt;/h4&gt;
+&lt;p&gt;With the increasing adoption and reliance on cloud platforms and services, it is undeniable that cloud computing is becoming a utility such as water, energy, transportation, or telecommunications. This status brings the responsibility for public providers to ensure the development of highly reliable platform and services.&lt;/p&gt;
+
+&lt;p&gt;Nonetheless, a study from Gartner found that 47% of all documented cloud problems were caused by service outages. Their duration ranged between 40 minutes and five days. Another study from Ponemon Institute found that outages on average cost US$ 690,204. To aggravate these results, the increasing use of commodity hardware to build data centers will negatively contribute and will lower the reliability of existing cloud computing platforms.&lt;/p&gt;
+
+&lt;p&gt;Thus, the development of new strategies, techniques, and methods to evaluate and increase the reliability and resilience of cloud platforms from a software perspective is fundamental.&lt;/p&gt;
+
+&lt;h4 id=&quot;goal&quot;&gt;Goal&lt;/h4&gt;
+&lt;p&gt;This workshop intends to bring together industry, academia, and regulators to identify the most relevant requirements in the field of cloud reliability and resilience, on one hand, and existing state-of-the-art solutions, on the other. We invite engineers, scientists, and experts to discuss and contribute to the creation of a new generation of highly reliable cloud platforms.&lt;/p&gt;
+
+&lt;h4 id=&quot;topics-of-interest&quot;&gt;Topics of Interest&lt;/h4&gt;
+&lt;p&gt;The workshop places focus on the following topics:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Challenges of data center reliability&lt;/li&gt;
+  &lt;li&gt;Methods and algorithms for failure prediction&lt;/li&gt;
+  &lt;li&gt;Damage detection and problem diagnosis&lt;/li&gt;
+  &lt;li&gt;Automated repair and recovery of cloud systems&lt;/li&gt;
+  &lt;li&gt;Disaster recovery in cloud computing&lt;/li&gt;
+  &lt;li&gt;Fault-injection as an approach for reliability&lt;/li&gt;
+  &lt;li&gt;Evaluation of cloud platforms reliability&lt;/li&gt;
+  &lt;li&gt;Cloud reliability metrics and benchmarks&lt;/li&gt;
+  &lt;li&gt;Service Level Agreement (SLA) and reliability&lt;/li&gt;
+  &lt;li&gt;Quality of Service in the cloud&lt;/li&gt;
+  &lt;li&gt;Standards, regulations, and legislation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;general-chairs&quot;&gt;General Chairs&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Henrik Abramowicz, EIT Digital, Germany.&lt;/li&gt;
+  &lt;li&gt;Jorge Cardoso, Huawei ERC, Munich, Germany and University of Coimbra, Portugal&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;steering-committee&quot;&gt;Steering Committee&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Dr. Götz Reinhäckel, Head of Cloud Engineering, T-Systems International, Germany.&lt;/li&gt;
+  &lt;li&gt;Dr. Jeff Voas, US National Institute of Standards and Technology (NIST), US.&lt;/li&gt;
+  &lt;li&gt;Prof. Paulo Esteves Veríssimo, University of Luxembourg, Luxembourg.&lt;/li&gt;
+  &lt;li&gt;Michel Drescher, Cloud Computing Standards Specialist, University of Oxford, UK.&lt;/li&gt;
+  &lt;li&gt;Valentina Salapura, Chief Architect, Resiliency and Business Continuity, IBM, US.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;invited-speakers&quot;&gt;Invited Speakers&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Building Blocks for Site Reliability At Google, Sebastian Kirsch, Google, Switzerland.&lt;/li&gt;
+  &lt;li&gt;Breaking Azure for Fun and Profit, Pavel Michailov, Microsoft, US.&lt;/li&gt;
+  &lt;li&gt;Using Event-driven Automation and Workflows for Auto-remediation, Dmitri Zimine, Brocade, US.&lt;/li&gt;
+  &lt;li&gt;High Availability and Disaster Recovery in OpenStack: From humble beginnings to enterprise reliability, Florian Haas, Hastexo, Austria.&lt;/li&gt;
+  &lt;li&gt;A Tale of Ice and Fire, or: The Cloud and The Standards, Michel Drescher, University of Oxford, UK.&lt;/li&gt;
+  &lt;li&gt;I’m No Hero: Full Stack Reliability at LinkedIn, Todd Palino, LinkedIn, US.&lt;/li&gt;
+  &lt;li&gt;Resilient Cloud Storage – The Consistency View, Neeraj Suri, TU Darmstadt, Germany.&lt;/li&gt;
+  &lt;li&gt;A Cloud is Not Enough, Reliable Delivery Matters More, Ajay Gulati, ZeroStack, US.&lt;/li&gt;
+  &lt;li&gt;Dependable Storage and Computing using Multiple Cloud Providers, Alysson Neves Bessani, University of Lisbon, Portugal.&lt;/li&gt;
+  &lt;li&gt;Cloud Based Fault Injection for Anomaly Detection, Craig Sheridan, flexiOPS, UK.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;location&quot;&gt;Location&lt;/h4&gt;
+
+&lt;p&gt;EIT Digital Berlin Co-Location Centre&lt;/p&gt;
+
+
+        </content>
+    </entry>
+    
+    <entry>
+        <title>Cloud Management Platforms (CMP) </title>
+        <link href="http://localhost:4000/blog/Cloud-Management-Platforms-CMP/"/>
+        <updated>2015-07-04T13:39:59+02:00</updated>
+        <id>http://localhost:4000/blog/Cloud-Management-Platforms-CMP</id>
+        <author>
+					<name></name>
+					<uri>http://localhost:4000/</uri>
 					
 				</author>
         <content type="html">
@@ -50,12 +298,12 @@
     
     <entry>
         <title>Evolution and Overview of Linked USDL</title>
-        <link href="http://jorge-cardoso.github.io/blog/Linked-USDL/"/>
+        <link href="http://localhost:4000/blog/Linked-USDL/"/>
         <updated>2015-02-10T12:39:59+01:00</updated>
-        <id>http://jorge-cardoso.github.io/blog/Linked-USDL</id>
+        <id>http://localhost:4000/blog/Linked-USDL</id>
         <author>
 					<name></name>
-					<uri>http://jorge-cardoso.github.io/</uri>
+					<uri>http://localhost:4000/</uri>
 					
 				</author>
         <content type="html">
@@ -74,12 +322,12 @@ It was completed in 2013 and it is the fourth version of the language.&lt;/p&gt;
     
     <entry>
         <title>Data Science for Non-Programmers</title>
-        <link href="http://jorge-cardoso.github.io/blog/Data-Science-4-NP/"/>
+        <link href="http://localhost:4000/blog/Data-Science-4-NP/"/>
         <updated>2015-01-29T12:39:59+01:00</updated>
-        <id>http://jorge-cardoso.github.io/blog/Data-Science-4-NP</id>
+        <id>http://localhost:4000/blog/Data-Science-4-NP</id>
         <author>
 					<name></name>
-					<uri>http://jorge-cardoso.github.io/</uri>
+					<uri>http://localhost:4000/</uri>
 					
 				</author>
         <content type="html">
@@ -117,34 +365,61 @@ It was completed in 2013 and it is the fourth version of the language.&lt;/p&gt;
     
     <entry>
         <title>Fundamentals of Service Systems</title>
-        <link href="http://jorge-cardoso.github.io/books/fundamentals-of-service-systems/"/>
+        <link href="http://localhost:4000/books/fundamentals-of-service-systems/"/>
         <updated>2015-01-01T12:39:59+01:00</updated>
-        <id>http://jorge-cardoso.github.io/books/fundamentals-of-service-systems</id>
+        <id>http://localhost:4000/books/fundamentals-of-service-systems</id>
         <author>
 					<name></name>
-					<uri>http://jorge-cardoso.github.io/</uri>
+					<uri>http://localhost:4000/</uri>
 					
 				</author>
         <content type="html">
         	
         	&lt;figure&gt;
-	&lt;img src=&quot;/images/Cover-FSS.gif&quot; /&gt;
+	&lt;img src=&quot;/images/Cover-FSS.jpg&quot; /&gt;
 	&lt;figcaption&gt;Cardoso et al.. Springer 2015.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;This book is available at &lt;a href=&quot;http://www.springer.com/&quot; title=&quot;Title&quot;&gt;Springer.com&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;This textbook addresses the conceptual and practical aspects of the various phases of the lifecycle of service systems, ranging from service ideation, design, implementation, analysis, improvement and trading associated with service systems engineering. Written by leading experts in the field, this indispensable textbook will enable a new wave of future professionals to think in a service-focused way with the right balance of competencies in computer science, engineering, and management.&lt;/p&gt;
+
+&lt;p&gt;Fundamentals of Service Systems is a centerpiece for a course syllabus on service systems. Each chapter includes a summary, a list of learning objectives, an opening case, and a review section with questions, a project description, a list of key terms, and a list of further reading bibliography. All these elements enable students to learn at a faster and more comfortable peace.
+For researchers, teachers, and students who want to learn about this new emerging science, Fundamentals of Service Systems provides an overview of the core disciplines underlying the study of service systems. It is aimed at students of information systems, information technology, and business and economics. It also targets business and IT practitioners, especially those who are looking for better ways of innovating, designing, modeling, analyzing, and optimizing service systems.&lt;/p&gt;
+
+&lt;h2 id=&quot;distinctive-aspects&quot;&gt;Distinctive aspects&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Integrates seamlessly the fields of service innovation, design, semantics, analytics, optimization, co-creation, markets, and research&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Each chapter includes a review section with questions, a project description, a list of key terms, and further reading&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Includes a preface written by Jim Spohrer, the Director of IBM Global University Programs and driving advocate of the Service Science, Management and Engineering initiative&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Enables training of T-shaped professionals who must have a deeply developed specialty area (e.g., business management or computer science) as well as a broad set of skills and capabilities in the field of services (e.g., service design and optimization)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A companion website provides additional materials and activities to help lecturers use the text in their teaching and to help students practice and reinforce their learning independently&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This book is available at &lt;a href=&quot;http://www.springer.com/us/book/9783319231945&quot; title=&quot;Title&quot;&gt;Springer.com&lt;/a&gt; and &lt;a href=&quot;http://www.amazon.com/Fundamentals-Service-Systems-Science-Innovations/dp/3319231944&quot; title=&quot;Title&quot;&gt;Amazon.com&lt;/a&gt;&lt;/p&gt;
 
         </content>
     </entry>
     
     <entry>
         <title>Service Systems: Concepts, Modeling, and Programming</title>
-        <link href="http://jorge-cardoso.github.io/books/service-systems-concepts-modeling-and-programming/"/>
+        <link href="http://localhost:4000/books/service-systems-concepts-modeling-and-programming/"/>
         <updated>2014-10-01T13:39:28+02:00</updated>
-        <id>http://jorge-cardoso.github.io/books/service-systems-concepts-modeling-and-programming</id>
+        <id>http://localhost:4000/books/service-systems-concepts-modeling-and-programming</id>
         <author>
 					<name></name>
-					<uri>http://jorge-cardoso.github.io/</uri>
+					<uri>http://localhost:4000/</uri>
 					
 				</author>
         <content type="html">
@@ -167,12 +442,12 @@ It was completed in 2013 and it is the fourth version of the language.&lt;/p&gt;
     
     <entry>
         <title>Gestao de Workflows: Modelos, Metodos e Sistemas</title>
-        <link href="http://jorge-cardoso.github.io/books/gestao-de-workflows-modelos-metodos-e-sistemas/"/>
+        <link href="http://localhost:4000/books/gestao-de-workflows-modelos-metodos-e-sistemas/"/>
         <updated>2009-09-15T13:00:17+02:00</updated>
-        <id>http://jorge-cardoso.github.io/books/gestao-de-workflows-modelos-metodos-e-sistemas</id>
+        <id>http://localhost:4000/books/gestao-de-workflows-modelos-metodos-e-sistemas</id>
         <author>
 					<name></name>
-					<uri>http://jorge-cardoso.github.io/</uri>
+					<uri>http://localhost:4000/</uri>
 					
 				</author>
         <content type="html">
@@ -191,12 +466,12 @@ It was completed in 2013 and it is the fourth version of the language.&lt;/p&gt;
     
     <entry>
         <title>Handbook of Research on Business Process Modeling</title>
-        <link href="http://jorge-cardoso.github.io/books/handbook-of-research-on-business-process-modeling/"/>
+        <link href="http://localhost:4000/books/handbook-of-research-on-business-process-modeling/"/>
         <updated>2009-05-01T12:59:46+02:00</updated>
-        <id>http://jorge-cardoso.github.io/books/handbook-of-research-on-business-process-modeling</id>
+        <id>http://localhost:4000/books/handbook-of-research-on-business-process-modeling</id>
         <author>
 					<name></name>
-					<uri>http://jorge-cardoso.github.io/</uri>
+					<uri>http://localhost:4000/</uri>
 					
 				</author>
         <content type="html">
@@ -219,12 +494,12 @@ It was completed in 2013 and it is the fourth version of the language.&lt;/p&gt;
     
     <entry>
         <title>Semantic Web Engineering in the Knowledge Society</title>
-        <link href="http://jorge-cardoso.github.io/books/semantic-web-engineering-in-the-knowledge-society/"/>
+        <link href="http://localhost:4000/books/semantic-web-engineering-in-the-knowledge-society/"/>
         <updated>2008-10-10T12:59:29+02:00</updated>
-        <id>http://jorge-cardoso.github.io/books/semantic-web-engineering-in-the-knowledge-society</id>
+        <id>http://localhost:4000/books/semantic-web-engineering-in-the-knowledge-society</id>
         <author>
 					<name></name>
-					<uri>http://jorge-cardoso.github.io/</uri>
+					<uri>http://localhost:4000/</uri>
 					
 				</author>
         <content type="html">
@@ -247,12 +522,12 @@ It was completed in 2013 and it is the fourth version of the language.&lt;/p&gt;
     
     <entry>
         <title>The Semantic Web: Real World Applications from Industry</title>
-        <link href="http://jorge-cardoso.github.io/books/the-semantic-web-real-world-applications-from-industry/"/>
+        <link href="http://localhost:4000/books/the-semantic-web-real-world-applications-from-industry/"/>
         <updated>2008-06-15T12:58:31+02:00</updated>
-        <id>http://jorge-cardoso.github.io/books/the-semantic-web-real-world-applications-from-industry</id>
+        <id>http://localhost:4000/books/the-semantic-web-real-world-applications-from-industry</id>
         <author>
 					<name></name>
-					<uri>http://jorge-cardoso.github.io/</uri>
+					<uri>http://localhost:4000/</uri>
 					
 				</author>
         <content type="html">
@@ -279,12 +554,12 @@ It was completed in 2013 and it is the fourth version of the language.&lt;/p&gt;
     
     <entry>
         <title>Programacao de Sistemas Distribuidos em Java</title>
-        <link href="http://jorge-cardoso.github.io/books/programacao-de-sistemas-distribuidos-em-java/"/>
+        <link href="http://localhost:4000/books/programacao-de-sistemas-distribuidos-em-java/"/>
         <updated>2008-03-15T12:11:38+01:00</updated>
-        <id>http://jorge-cardoso.github.io/books/programacao-de-sistemas-distribuidos-em-java</id>
+        <id>http://localhost:4000/books/programacao-de-sistemas-distribuidos-em-java</id>
         <author>
 					<name></name>
-					<uri>http://jorge-cardoso.github.io/</uri>
+					<uri>http://localhost:4000/</uri>
 					
 				</author>
         <content type="html">
@@ -314,12 +589,12 @@ It was completed in 2013 and it is the fourth version of the language.&lt;/p&gt;
     
     <entry>
         <title>Semantic Web Services: Theory, Tools and Applications</title>
-        <link href="http://jorge-cardoso.github.io/books/semantic-web-services-theory-tools-and-applications/"/>
+        <link href="http://localhost:4000/books/semantic-web-services-theory-tools-and-applications/"/>
         <updated>2007-03-31T12:58:52+02:00</updated>
-        <id>http://jorge-cardoso.github.io/books/semantic-web-services-theory-tools-and-applications</id>
+        <id>http://localhost:4000/books/semantic-web-services-theory-tools-and-applications</id>
         <author>
 					<name></name>
-					<uri>http://jorge-cardoso.github.io/</uri>
+					<uri>http://localhost:4000/</uri>
 					
 				</author>
         <content type="html">
@@ -340,12 +615,12 @@ It was completed in 2013 and it is the fourth version of the language.&lt;/p&gt;
     
     <entry>
         <title>Semantic Web Services, Processes and Applications </title>
-        <link href="http://jorge-cardoso.github.io/books/semantic-web-services-processes-and-applications/"/>
+        <link href="http://localhost:4000/books/semantic-web-services-processes-and-applications/"/>
         <updated>2006-08-15T12:59:09+02:00</updated>
-        <id>http://jorge-cardoso.github.io/books/semantic-web-services-processes-and-applications</id>
+        <id>http://localhost:4000/books/semantic-web-services-processes-and-applications</id>
         <author>
 					<name></name>
-					<uri>http://jorge-cardoso.github.io/</uri>
+					<uri>http://localhost:4000/</uri>
 					
 				</author>
         <content type="html">

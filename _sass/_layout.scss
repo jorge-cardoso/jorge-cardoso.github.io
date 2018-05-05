@@ -153,7 +153,8 @@
 			@include row($direction: RTL);
 		}
 		@include media($large) {
-			@include span-columns(2 of 9);
+			// @include span-columns(2 of 9);
+			@include span-columns(2 of 11);
 		}
 	}
 	.page-title {
@@ -329,7 +330,7 @@
 	}
 	li {
 		@include media($micro) { @include font-size(16,no,18); }
-    @include media($small) { @include font-size(16,no,18); }
+    	@include media($small) { @include font-size(16,no,18); }
 		@include font-size(12,no,16);
 		border-bottom: 1px solid $border-color;
 	}

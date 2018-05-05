@@ -9,12 +9,24 @@ body {
 
 p {
 	@include font-size(18,yes,28);
+    margin: 0px 0;
+    padding: 5px 0;
 }
 
-// jcardoso @include font-size(16,12,24);
+// jcardoso 05.2018, @include font-size(16,12,24);
 li {
 	@include font-size(18);
+	line-height: 150%;
+	margin: 2px 0;
 }
+
+// jcardoso 05.2018, @include font-size(16,12,24);
+ul {
+	@include font-size(18);
+	line-height: 150%;
+	margin: 5px 0;
+}
+
 
 // Headings
 h1, h2, h3, h4, h5, h6 {
@@ -25,7 +37,9 @@ h1 {
 	@include font-size(36);
 }
 h2 {
-	@include font-size(32);
+	// jcardoso, 05.2018
+	// @include font-size(32);
+	@include font-size(30);
 }
 h3 {
 	@include font-size(28);
