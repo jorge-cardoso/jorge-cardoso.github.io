@@ -24,11 +24,6 @@ Managing Content
 --------------
 To update git hub run the following instructions.
 
-### Updating github after changes
-+ git add .
-+ git commit -m "made some changes"
-+ git push origin master
-
 ### Generate the new bibs and publications
 To generate the new bibs and publications web page:
 + cd /Users/jcardoso/GitHub/jorge-cardoso.github.io/publications
@@ -37,3 +32,8 @@ To generate the new bibs and publications web page:
 + Copy the file to cardoso.bib   
 + php bibtex2html.php cardoso.bib index.md
 + make sure the file works and rune $ jekyll serve
+
+### Updating github after changes
++ git add .
++ git commit -m "made some changes"
++ git push origin master

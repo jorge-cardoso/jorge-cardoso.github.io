@@ -53,6 +53,7 @@ Research Interests
 News
 ---------------
 
++ Our article "[Efficient Failure Diagnosis of OpenStack using Tempest](Efficient Failure Diagnosis of OpenStack using Tempest)." was accepted for publication at IEEE Internet Computing **(Impact Factor 2018: 1.923)**.
 + Our article "Linked USDL Privacy: Describing Privacy Policies for Service", Georgia Kapitsaki, Josef Ioannou, Jorge Cardoso, Carlos Pedrinaci, was published at the IEEE Inter. Conf. on Web Services (ICWS) **(Conference Rank: A)**, 2-7 July 2018, San Francisco, USA, 2018. 
 + [International Industry-Academia Workshop on Cloud Reliability and Resilience](https://www.eitdigital.eu/news-events/events/article/international-industry-academia-workshop-on-cloud-reliability-and-resilience/), 7-8 November 2016, Berlin, Germany.
 +  José María García, Pablo Fernández, Carlos Pedrinaci, Manuel Resinas, Jorge Cardoso, Antonio Ruiz-Cortés, "Modeling Service Level Agreements with Linked USDL Agreement", IEEE Transactions on Services Computing **(Impact Factor 2016: 3.049)**, pp. 52-65, Volume: 10, Issue: 1, Jan.-Feb. 1 2017.
