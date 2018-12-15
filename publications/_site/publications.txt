@@ -1,0 +1,53 @@
+2603||An Entropy-based uncertainty measure of process models
+2604||Modeling Services using ISE Framework: Foundations and Extensions
+2605||IoS-Based Services, Platform Services, SLA and Models for the Internet of Services
+2606||Towards Thresholds of Control Flow Complexity Measure for BPMN models
+2607||Towards a Unified Service Description Language for the Internet of Services: Requirements and First Developments
+2608||Handbook of Research on Business Process Modeling
+2609||Gestao de Workflows. Modelos, metodos e sistemas (Translation by Cardoso, J.).
+2610||Open Source Workflow Management Systems: A Concise Survey
+2611||Inter-Enterprise System and Application Integration: A Reality Check
+2612||Service Engineering for The Internet of Services
+2613||The Internet of Services
+2614||A Service Description Language for the Internet of Services
+2615||Integrating business process and user interface models using a model-driven approach
+2616||Measuring the Compliance of Processes with Reference Models
+2618||Distributed Contracting and Monitoring in the Internet of Services
+2633||PRIME: Proactive Inter-Middleware for Global Enterprise Resource  Integration
+2694||Mapping between heterogeneous XML and OWL transaction representations in B2B integration
+2695||Service Science: concepts, tools and platforms to support digital services for SME
+3015||Open semantic service networks
+3016||Internet-Based Self-Services: from Analysis and Design to Deployment
+3293||Ontological Representation and Governance of Business Semantics in Compliant Service Networks
+3294||Open Semantic Service Networks: Modeling and Analysis
+3295||Modeling Service Relationships for Service Networks
+3441|| Cloud Computing Automation: Integrating USDL and TOSCA
+3630||Foundations of Open Semantic Service Networks
+3728||Increase Accuracy of Service Costing using Customer Involvement - An Application Scenario based on Service System Analytics
+3729||Service System Analytics: Cost Prediction
+3730||A navigation metaphor to support mobile workflow systems
+3731||Open Service Network Analysis
+3732||Open Service Networks: Research Directions
+3813||Interface Design for IT Service Management Practice
+3876||The Web Ontology Language (OWL) and its Applications
+3960||Linked USDL: A Vocabulary for Web-scale Service Trading
+3961||Energy-Efficient Databases using Sweet Spot Frequencies
+3962||Energy-Efficient Data Processing at Sweet Spot Frequencies
+3963||Service Systems: Concepts, Modeling, and Programming
+4245||An entropy-based uncertainty measure of process models
+4246||Analysis and Validation of Control-Flow Complexity Measures with BPMN Process Models
+4553||Semantic Keyword-based Search on Structured Data Sources
+4564||Foundations
+4565||Electronic Services
+4566||Service Design
+4567||Service Semantics
+4568||Service Analytics
+4569||Service Research
+4570||Fundamentals of Service Systems
+4571||The Web Ontology Language (OWL) and Its Applications
+4572||A framework for next generation e-health systems and services
+4573||Linked USDL Agreement: Effectively Sharing Semantic Service Level Agreements on the Web
+4574||Evolution and Overview of Linked USDL
+4575||Proceedings of the 10th International Conference on Software Paradigm Trends
+4576||Software Technologies
+4577||A Systematic Mapping Applied to MOOC’s Study

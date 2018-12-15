@@ -30,6 +30,14 @@ Students
 +	Janez Hrastnik, “Improving business performance by applying knowledge management to process-oriented quality management”, University of Madeira. (Supervision: 2006-2008).
 
 ### MSc students
++ Artur Jorge de Carvalho Pedroso, Building Machine Learning Microservices for the Data Science for Non-Programmers Platform (with Prof. Filipe Araújo), 2018. 
++ Bruno Leonel André Lopes, Data Science for Non-Programmers: Orchestration of Microservices and Graphical User Interface (with Prof. Filipe Araújo), 2018. 
++ Fábio Figueiredo Pina, Monitoria de Arquiteturas de Micro-serviços (with Prof. Filipe Araújo and Prof. Rui Paiva), 2018. 
++ Fábio de Carvalho Ribeiro, Elastic Microservices Platform (with Prof. Filipe Araújo and Prof. Rui Paiva), 2018. 
++ Phani Pawan, Event correlation and analysis for fast Root Cause Analysis in OpenStack Clouds, Technical University of Munich (TUM), Munich, Germany, 2018.
++ Ankur Bhatia, Increasing OpenStack reliability using fault injection, Technical University of Munich (TUM), Munich, Germany, 2017.
++ Hugo Miguel Rijo Sousa da Conceição, Plataforma de Gestão de Importação, University of Coimbra, 2015. 
++ António Pedro de Ferreira Lucas, Desenvolvimento de Plataforma Web para Gestão de Infantários, University of Coimbra, 2015.
 +	Daniel Alberto Guedes Barrigas, CloudAid2, University of Coimbra, 2014.
 +	Filipe João Vinagre Barata, SUnSET: On the suitability of USDL for service description – A case study of a telecom operator, University of Coimbra, 2013.
 +	Jorge Araujo, SMS: Semantic Mashups of Linked-USDL Services, University of Coimbra, 2013.

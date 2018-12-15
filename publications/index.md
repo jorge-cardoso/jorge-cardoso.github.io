@@ -14,8 +14,11 @@ toc: true
 ---
 <h2>Journal Articles<span class="dark"></span></h2>
 <div class="publication">
-<ol start="1"><li><span class="authors">Garc&iacute;a, J. M.; Fernandez, P.; Pedrinaci, C.; Resinas, M.; Cardoso, J. and Cort&eacute;s, A. R.</span> <span class="title"><a href="/publications/Papers/JA-2016-Modeling-Service-Level-Agreements-with-Linked-USDL.pdf" >Modeling Service Level Agreements with Linked USDL Agreement</a></span>.  <span class="in">In IEEE Transactions on Services Computing</span>, Vol. 10 (1): 52-65, 2017.<span class="links"><br> <a href="/publications/Papers/JA-2016-Modeling-Service-Level-Agreements-with-Linked-USDL.pdf"><img src="../images/pdf.png"></a> <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Modeling Service Level Agreements with Linked USDL Agreement"><img src="../images/Google.png"></a></span>
- <span class="bibtexlink"><a href="bibs/GarciaFPRCR2017.bib"><img src="../images/bibtex.png"></a></span></li>
+<ol start="1"><li><span class="authors">Bhatia, A.; Cardoso, J. and Gerndt, M.</span> <span class="title">Efficient Failure Diagnosis of OpenStack using Tempest</span>.  <span class="in">In IEEE Internet Computing</span>, 2018.<span class="links"><br></span>
+ <span class="bibtexlink"><a href="bibs/BhatiaIEEEIC2018.bib"><img src="../images/bibtex.png"></a></span></li>
+
+<li><span class="authors">Garc&iacute;a, J. M.; Fernandez, P.; Pedrinaci, C.; Resinas, M.; Cardoso, J. and Cort&eacute;s, A. R.</span> <span class="title"><a href="/publications/Papers/JA-2016-Modeling-Service-Level-Agreements-with-Linked-USDL.pdf" >Modeling Service Level Agreements with Linked USDL Agreement</a></span>.  <span class="in">In IEEE Transactions on Services Computing</span>, Vol. XX (X): XX-XX, 2016.<span class="links"><br> <a href="/publications/Papers/JA-2016-Modeling-Service-Level-Agreements-with-Linked-USDL.pdf"><img src="../images/pdf.png"></a> <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Modeling Service Level Agreements with Linked USDL Agreement"><img src="../images/Google.png"></a></span>
+ <span class="bibtexlink"><a href="bibs/GarciaFPRCR2016.bib"><img src="../images/bibtex.png"></a></span></li>
 
 <li><span class="authors">Cardoso, J.; Pedrinaci, C.; Leidig, T.; Rupino, P. and Leenheer, P. D</span> <span class="title"><a href="/publications/Papers/JA-2013-021-IJSSMET-OSSN.pdf" >Foundations of Open Semantic Service Setworks</a></span>.  <span class="in">In International Journal of Service Science, Management, Engineering, and Technology</span>, Vol. 4 (2): 1-16, 2013.<span class="links"><br> <a href="/publications/Papers/JA-2013-021-IJSSMET-OSSN.pdf"><img src="../images/pdf.png"></a> <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Foundations of Open Semantic Service Setworks"><img src="../images/Google.png"></a></span>
  <span class="bibtexlink"><a href="bibs/Cardoso2013FOSSN.bib"><img src="../images/bibtex.png"></a></span></li>
@@ -88,7 +91,7 @@ toc: true
 
 </ol></div><h2>Book Chapters<span class="dark"></span></h2>
 <div class="publication">
-<ol start="25"><li><span class="authors">Fromm, H. and Cardoso, J.</span> <span class="title"><a href="/publications/Papers/BC-2015-032-Foundations.pdf" >Foundations</a></span>.  <span class="in">In <a href="http://dx.doi.org/10.1007/978-3-319-23195-2" target="_blank">Fundamentals of Service Systems</a></span>, pages 1-32, <span class="publisher"><a href="http://dx.doi.org/10.1007/978-3-319-23195-2" target="_blank">Springer</a></span>, 2015.<span class="links"><br> <a href="/publications/Papers/BC-2015-032-Foundations.pdf"><img src="../images/pdf.png"></a> <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Foundations"><img src="../images/Google.png"></a></span>
+<ol start="26"><li><span class="authors">Fromm, H. and Cardoso, J.</span> <span class="title"><a href="/publications/Papers/BC-2015-032-Foundations.pdf" >Foundations</a></span>.  <span class="in">In <a href="http://dx.doi.org/10.1007/978-3-319-23195-2" target="_blank">Fundamentals of Service Systems</a></span>, pages 1-32, <span class="publisher"><a href="http://dx.doi.org/10.1007/978-3-319-23195-2" target="_blank">Springer</a></span>, 2015.<span class="links"><br> <a href="/publications/Papers/BC-2015-032-Foundations.pdf"><img src="../images/pdf.png"></a> <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Foundations"><img src="../images/Google.png"></a></span>
  <span class="bibtexlink"><a href="bibs/Hansjoerg2015_Foundations.bib"><img src="../images/bibtex.png"></a></span></li>
 
 <li><span class="authors">Cardoso, J. and Fromm, H.</span> <span class="title"><a href="/publications/Papers/BC-2015-033-Electronic_Services.pdf" >Electronic Services</a></span>.  <span class="in">In <a href="http://dx.doi.org/10.1007/978-3-319-23195-2" target="_blank">Fundamentals of Service Systems</a></span>, pages 33-74, <span class="publisher"><a href="http://dx.doi.org/10.1007/978-3-319-23195-2" target="_blank">Springer</a></span>, 2015.<span class="links"><br> <a href="/publications/Papers/BC-2015-033-Electronic_Services.pdf"><img src="../images/pdf.png"></a> <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Electronic Services"><img src="../images/Google.png"></a></span>
@@ -201,8 +204,26 @@ toc: true
 
 </ol></div><h2>In Proceedings<span class="dark"></span></h2>
 <div class="publication">
-<ol start="62"><li><span class="authors">Kapitsaki, G.; Ioannou, J.; Cardoso, J. and Pedrinaci, C.</span> <span class="title">Linked USDL Privacy: Describing Privacy Policies for Service</span>.  <span class="in">In IEEE International Conference on Web Services (ICWS 2018)</span>, <span class="publisher">Springer</span>, 2018.<span class="links"><br></span>
+<ol start="63"><li><span class="authors">Kapitsaki, G.; Ioannou, J.; Cardoso, J. and Pedrinaci, C.</span> <span class="title">Linked USDL Privacy: Describing Privacy Policies for Service</span>.  <span class="in">In IEEE International Conference on Web Services (ICWS)</span>, 2018.<span class="links"><br></span>
  <span class="bibtexlink"><a href="bibs/KapitsakiICWS2018.bib"><img src="../images/bibtex.png"></a></span></li>
+
+<li><span class="authors">FIlipe, R; Correia, J; Araujo, F and Cardoso, J</span> <span class="title">On Black-Box Monitoring Techniques for Multi-Component Services</span>.  <span class="in">In The 17th IEEE International Symposium on Network Computing and Applications (NCA)</span>, CP-2018-083-On-Black-Box-Monitoring Techniques-for-Multi-Component-Services.pdf, 2018.<span class="links"><br></span>
+ <span class="bibtexlink"><a href="bibs/FIlipeNCA2018.bib"><img src="../images/bibtex.png"></a></span></li>
+
+<li><span class="authors">Correia, J; Ribeiro, F; Araujo, F; Paiva, R. P and Cardoso, J</span> <span class="title">Response Time Characterization of Microservice-Based Systems</span>.  <span class="in">In The 17th IEEE International Symposium on Network Computing and Applications (NCA)</span>, CP-2018-082-Response Time-Characterization-of-Microservice-Based-Systems.pdf, 2018.<span class="links"><br></span>
+ <span class="bibtexlink"><a href="bibs/PedrosoNCA2018.bib"><img src="../images/bibtex.png"></a></span></li>
+
+<li><span class="authors">Pina, F; Correia, J; Araujo, F and Cardoso, J</span> <span class="title">Nonintrusive Monitoring of Microservice-based Systems</span>.  <span class="in">In The 17th IEEE International Symposium on Network Computing and Applications (NCA)</span>, CP-2018-084-Nonintrusive-Monitoring-of-Microservice-based-Systems.pdf, 2018.<span class="links"><br></span>
+ <span class="bibtexlink"><a href="bibs/PinaNCA2018.bib"><img src="../images/bibtex.png"></a></span></li>
+
+<li><span class="authors">Lopes, B. L; Pedroso, A; Correia, J; Araujo, F; Cardoso, J and Paiva, R. P</span> <span class="title">DataScience4NP - A Data Science Service for Non-Programmers</span>.  <span class="in">In 10º Simposio de Informatica (INForum)</span>, CP-2018-087-DataScience4NP-A-Data-Science-Service-for-Non-Programmers.pdf, 2018.<span class="links"><br></span>
+ <span class="bibtexlink"><a href="bibs/LopesINForum2018.bib"><img src="../images/bibtex.png"></a></span></li>
+
+<li><span class="authors">Pedroso, A; Lopes, B. L; Correia, J; Araujo, F; Cardoso, J and Paiva, R. P</span> <span class="title">A Data Mining Service for Non-Programmers</span>.  <span class="in">In 10th International Conference on Knowledge Discovery and Information Retrieval (KDIR)</span>, 2018.<span class="links"><br></span>
+ <span class="bibtexlink"><a href="bibs/PedrosoKDIR2018.bib"><img src="../images/bibtex.png"></a></span></li>
+
+<li><span class="authors">Cardoso, J.</span> <span class="title">Cloud Reliability: Decreasing outage frequency using fault injection</span>.  <span class="in">In 9th International Workshop on Software Engineering for Resilient Systems (SERENE)</span>, CP-2017-081-Cloud-Reliability-Decreasing-outage-frequency-using-fault-injection.pdf, 2017.<span class="links"><br></span>
+ <span class="bibtexlink"><a href="bibs/CardosoSERENA2017.bib"><img src="../images/bibtex.png"></a></span></li>
 
 <li><span class="authors">Cardoso, J.; Mans, R.; Cunha, P. R. d; Aalst, W. v. de; Berthold, H. and Quaglini, S.</span> <span class="title"><a href="/publications/Papers/CP-2015-080-Framework-e-health-systems.pdf" >A framework for next generation e-health systems and services</a></span>.  <span class="in">In Twenty-first Americas Conference on Information Systems, Puerto Rico, 2015</span>, 2015.<span class="links"><br> <a href="/publications/Papers/CP-2015-080-Framework-e-health-systems.pdf"><img src="../images/pdf.png"></a> <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=A framework for next generation e-health systems and services"><img src="../images/Google.png"></a></span>
  <span class="bibtexlink"><a href="bibs/CardosoMRABQ2015.bib"><img src="../images/bibtex.png"></a></span></li>
@@ -452,7 +473,7 @@ toc: true
 
 </ol></div><h2>Books<span class="dark"></span></h2>
 <div class="publication">
-<ol start="145"><li><span class="authors">Helfert,  M.; Ferguson,  D.; Mendez Munoz,  V. and Cardoso,  J.</span> <span class="title">Cloud Computing and Services Science</span>.  <span class="publisher">Springer</span>, ISBN: 978-3-319-62594-2, 2017.<span class="links"><br></span>
+<ol start="152"><li><span class="authors">Helfert,  M.; Ferguson,  D.; Mendez Munoz,  V. and Cardoso,  J.</span> <span class="title">Cloud Computing and Services Science</span>.  <span class="publisher">Springer</span>, ISBN: 978-3-319-62594-2, 2017.<span class="links"><br></span>
  <span class="bibtexlink"><a href="bibs/CloudCSS17.bib"><img src="../images/bibtex.png"></a></span></li>
 
 <li><span class="authors">Cabello,  E.; Cardoso,  J.; Ludwig,  A.; Maciaszek,  L.A. and van Sinderen,  M.</span> <span class="title">Software Technologies</span>.  <span class="publisher">Springer</span>, ISBN: 978-3-319-62569-0, 2017.<span class="links"><br></span>
@@ -499,7 +520,7 @@ toc: true
 
 </ol></div><h2>Conference Proceedings<span class="dark"></span></h2>
 <div class="publication">
-<ol start="160"><li><span class="authors">Cabello, E.; Cardoso, J.; Maciaszek, L. and Sinderen, M. va, ed.</span> <span class="title">Proceedings of the 12th International Conference on Software Technologies</span>.  <span class="publisher">SCITEPRESS</span>, ISBN: 978-989-758-262-2, 2017.<span class="links"><br></span>
+<ol start="167"><li><span class="authors">Cabello, E.; Cardoso, J.; Maciaszek, L. and Sinderen, M. va, ed.</span> <span class="title">Proceedings of the 12th International Conference on Software Technologies</span>.  <span class="publisher">SCITEPRESS</span>, ISBN: 978-989-758-262-2, 2017.<span class="links"><br></span>
  <span class="bibtexlink"><a href="bibs/ICSOFT17.bib"><img src="../images/bibtex.png"></a></span></li>
 
 <li><span class="authors">Ludwig, A.; Cabello, E.; Cardoso, J.; Maciaszek, L. and Sinderen, M. va, ed.</span> <span class="title">Proceedings of the 11th International Joint Conference on Software Technologies, Volume 2: ICSOFT-PT</span>.  <span class="publisher">SCITEPRESS</span>, ISBN: 978-989-758-194-6, 2016.<span class="links"><br></span>
@@ -558,22 +579,22 @@ toc: true
 
 </ol></div><h2>Technical Reports<span class="dark"></span></h2>
 <div class="publication">
-<ol start="179"><li><span class="authors">Cardoso, J.</span> <span class="title">On the suitability of USDL for service description -- A case study of a telecom operator</span>.  Technical Report UC-DEI-GSI-2012-02, <span class="institution"><a href="http://eden.dei.uc.pt/~jcardoso/UC-DEI-GSI-2012-02.pdf" target="_blank">Department of Engineering Informatics, University of Coimbra</a></span>, Coimbra, Portugal, 2012.<span class="links"><br></span>
+<ol start="186"><li><span class="authors">Cardoso, J.</span> <span class="title">On the suitability of USDL for service description -- A case study of a telecom operator</span>.  Technical Report UC-DEI-GSI-2012-02, <span class="institution"><a href="http://eden.dei.uc.pt/~jcardoso/UC-DEI-GSI-2012-02.pdf" target="_blank">Department of Engineering Informatics, University of Coimbra</a></span>, Coimbra, Portugal, 2012.<span class="links"><br></span>
  <span class="bibtexlink"><a href="bibs/UC-DEI-GSI-2012-02.bib"><img src="../images/bibtex.png"></a></span></li>
 
 </ol></div><h2>PhD Theses<span class="dark"></span></h2>
 <div class="publication">
-<ol start="180"><li><span class="authors">Cardoso,  J.</span> <span class="title"><a href="/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf" >Quality of Service and Semantic Composition of Workflows</a></span>.  Ph.D. Thesis, <span class="school">University of Georgia, Department of Computer Science</span>, Athens, GA, USA, 2002.<span class="links"><br> <a href="/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf"><img src="../images/pdf.png"></a> <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Quality of Service and Semantic Composition of Workflows"><img src="../images/Google.png"></a></span>
+<ol start="187"><li><span class="authors">Cardoso,  J.</span> <span class="title"><a href="/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf" >Quality of Service and Semantic Composition of Workflows</a></span>.  Ph.D. Thesis, <span class="school">University of Georgia, Department of Computer Science</span>, Athens, GA, USA, 2002.<span class="links"><br> <a href="/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf"><img src="../images/pdf.png"></a> <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Quality of Service and Semantic Composition of Workflows"><img src="../images/Google.png"></a></span>
  <span class="bibtexlink"><a href="bibs/Cardoso02PhD.bib"><img src="../images/bibtex.png"></a></span></li>
 
 </ol></div><h2>Master's Theses<span class="dark"></span></h2>
 <div class="publication">
-<ol start="181"><li><span class="authors">Cardoso,  J.</span> <span class="title">Sistema Computorizado para a Automatizacao de Processos Organizacionais</span>.  Master's Thesis, <span class="school">University of Coimbra, Department of Informatics Engineering</span>, Coimbra, Portugal, 1998.<span class="links"><br></span>
+<ol start="188"><li><span class="authors">Cardoso,  J.</span> <span class="title">Sistema Computorizado para a Automatizacao de Processos Organizacionais</span>.  Master's Thesis, <span class="school">University of Coimbra, Department of Informatics Engineering</span>, Coimbra, Portugal, 1998.<span class="links"><br></span>
  <span class="bibtexlink"><a href="bibs/Cardoso98MSc.bib"><img src="../images/bibtex.png"></a></span></li>
 
 </ol></div><h2>Keynotes, invited talks, summer schools<span class="dark"></span></h2>
 <div class="publication">
-<ol start="182"><li><span class="authors">Cardoso,  J.</span> <span class="title">Service Engineering for The Internet of Service</span>.  Porto Salvo, Portugal, 2009.<span class="links"><br></span>
+<ol start="189"><li><span class="authors">Cardoso,  J.</span> <span class="title">Service Engineering for The Internet of Service</span>.  Porto Salvo, Portugal, 2009.<span class="links"><br></span>
  <span class="bibtexlink"><a href="bibs/Cardoso09KeynoteIPBPM.bib"><img src="../images/bibtex.png"></a></span></li>
 
 <li><span class="authors">Cardoso,  J.</span> <span class="title">Process Management and Integration with SAP</span>.  Ciudad Real, Spain, 2008.<span class="links"><br></span>
