@@ -13,23 +13,34 @@ ads: false
 toc: true
 ---  
 
-Wanting to do a PhD/MSc?
------------------
-You would like to do research? Maybe your MSc or PhD? You love to discover new things? To propose new innovative ideas? You like the areas of Cloud Computing, Business Process Management, Information Systems, and Semantic Web?
+Thanks for your interest in working with our applied research group at the 
+[Huawei Munich Research Center](https://huawei.eu/research-and-innovation) or at the 
+[University of Coimbra](https://www.uc.pt/en). Our group has a special in interested in:
 
-Then you should  [send me an e-mail](mailto:jcardoso@dei.uc.pt) and we should have a chat (office D2.20). I always have a couple of interesting topics to be explored.
++ AI applied to cloud operations (AIOps)
++ Planet-scale cloud computing.
++ Machine learning.
++ Distributed systems.
++ Other fields (see my [Google Scholar profile](https://scholar.google.com/citations?user=n9JFmAkAAAAJ&hl=en)) .
 
-You can information additional information on my current research here:
+Our group thrives to see the larger picture, be innovative and creative, and drive to make a lasting impact 
+on distributed system design and software systems. *We can't solve problems by using the same kind of thinking
+we used when we created them* -- Einstein.
 
-+ [Cloud Reliability and Resilience](cloud_reliability_resilience)  
-+ [Service Systems](service_systems)
+We are always looking forward to work with excellent researchers which:
++ Simplify the complexity of existing technical solutions (KISS principle) 
++ Solve difficult technical problems (DIY principle)
++ Focus on the solution, not the obstacle
++ Translate theory into practice
+
+
+PhD/MSc
+-------
+You would like to do research? Maybe your MSc or PhD? You love to discover new things? To propose new innovative ideas?
 
 The many projects I was involved can be found here: [past projects](past_projects).
 
-
-What is a PhD and MSc about?
------------------
-Information of what a PhD thesis is about can be found in the following links:
+If need more information explaining what a PhD thesis is about, browse over the following links:
 
 + [Writing a Thesis Proposal](http://sydney.edu.au/stuserv/documents/thesisproposal.pdf), Learning Centre, University of Sydney.
 + [How to write a great research paper](http://research.microsoft.com/en-us/um/people/simonpj/papers/giving-a-talk/writing-a-paper-slides.pdf), by Simon Peyton Jones at Microsoft Research.
@@ -37,12 +48,22 @@ Information of what a PhD thesis is about can be found in the following links:
 + [Understanding Science 101](http://undsci.berkeley.edu/article/0_0_0/us101contents_01), University of California, Berkeley, US.
 + [Academic Writing and Publishing: A Practical Handbook](https://www.amazon.co.uk/Academic-Writing-Publishing-Practical-Handbook/dp/0415453224), by James Hartley.
 
-
-Students
------------------
 A list of students that I worked with me over the years can be found [here](students).
 
+Visiting Positions
+------------------
+We are also open to host academic visitors (students or faculty).
 
 
+If you are interested in a PhD/MSc student position or in a visiting position, 
+please [send me an e-mail](mailto:jcardoso@dei.uc.pt) with your application.  
+
+
+I thank you again for your interest and wish you the best.
+
+Jorge Cardoso,
+Intelligent Cloud Operations @ Munich Research Center
+
+2019.01.25
 
 
