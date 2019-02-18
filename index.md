@@ -12,16 +12,41 @@ ads: false
 <img src="/images/Jorge_Cardoso.png" height="128" width="155"  style="float:left;margin:0 20px 0 0;"/>
 </a>
 </p>
-I am Chief Architect for Cloud OPerations and Analytics at [Huawei's European Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany. I am also Associate Professor at the [University of Coimbra](http://www.uc.pt/en/fctuc/dei) (Portugal), and affiliated to the Information Systems Group.
 
-My current research involves the development of the next generation of Cloud Management Platforms ([CPM](http://www.gartner.com/it-glossary/cloud-management-platforms)), Cloud Automation solutions, Cloud Business Process Management (BPM), and High Performance BPM systems. More precisely,
+I am Chief Architect for Inteligent Cloud Operations at 
+[Huawei's European Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany.
+I am also Associate Professor at the [University of Coimbra](http://www.uc.pt/en/fctuc/dei) (Portugal), and
+affiliated to the Information Systems Group.
 
-+ Develop new fault injection techniques to improve the reliability of complex, large distributed cloud platforms, such as the [Open Telekom Cloud](https://cloud.telekom.de/en/) from Deutsche Telekom.
-+ Use [event processing technologies](https://en.wikipedia.org/wiki/Storm_(event_processor)) to detect  anomalies in cloud platforms in real time.
-+ Adapt approaches from the field of data mining, such as [Bayesian networks](https://en.wikipedia.org/wiki/Bayesian_network) and [Markov processes](https://en.wikipedia.org/wiki/Markov_process), to automatically detect and localize failures in cloud platforms.
-+ Incorporate new resilient mechanisms into the [OpenStack](https://www.openstack.org) cloud operating system and [Huawei FusionSphere](http://e.huawei.com/en/products/cloud-computing-dc/cloud-computing/fusionsphere/fusionsphere) to increase its reliability and availability.
+My current research involves the development of the next generation of AI-driven IT Operations tools and platforms.
+This field in nowadays generally called AIOps (artificial intelligence for IT operations).
+In planet-scale deployments, the Operation and Maintenance (O&M) of cloud platforms cannot be done any longer manually
+or simply with off-the-shelf solutions. It requires self-developed automated systems, ideally exploiting the use of AI
+to provide tools for autonomous cloud operations. My research looks into how deep learning, distributed traces, and 
+time-series analysis (sequence analysis) can be used to effectively detect anomalous cloud infrastructure behaviors 
+during operations to reduce the workload of human operators.
 
-You can find more about my research on Cloud Computing, BPM, Semantic Web, Web Services, and Enterprise Systems at:
+My group is currently developing the iForesight system which is being used to evaluate this new O&M approach. 
+iForesight 2.0 is the result of more than 2 years of research with the goal to provide an intelligent new 
+tool aimed at [SRE](https://en.wikipedia.org/wiki/Site_Reliability_Engineering) cloud maintenance teams. 
+It enables them to quickly detect and predict anomalies thanks to the use of artificial intelligence when
+cloud services are slow or unresponsive. 
+
+The basic research areas we touch and integrate include:
++ Cloud computing.
++ Machine learning.
++ Deep learning.
++ Distributed systems.
++ Software reliability.
+
+They are applied to create new and innovative systems for:
++ AI-driven Cloud Operations
++ Fault prevention, prediction, detection, localization, and recovery.  
++ Planet-scale monitoring of distributed systems
++ Applied machine learning for predictive software maintenance
++ Natural Language Processing for systems’ behaviour analysis.
+
+Previously I also looked into Cloud Computing, BPM, Semantic Web, Web Services, and Enterprise Systems:
 [Google Scholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en&oi=ao),
 [DBLP](http://dblp.uni-trier.de/pers/hd/c/Cardoso:Jorge), and
 [LinkedIn](https://www.linkedin.com/profile/view?id=2572343&trk=hp-identity-name).
@@ -29,25 +54,9 @@ You can find more about my research on Cloud Computing, BPM, Semantic Web, Web S
 
 Open Positions
 ---------------
-+ MSc thesis. [Reliability of OpenStack usign Fault Injection](research/Master_Thesis_Cloud_Resilience_Reliability_Fault-Library-2016-04-12.pdf)
-+ MSc thesis. [Intelligently Instrument OpenStack](research/Master_Thesis_Cloud_Resilience_Reliability_Intelligent_Instrumentation-2016-06-03.pdf).
-+ PhD student. OpenStack Reliability
-+ PhD student. Data Science.
-+ PhD student. Orchestration of cloud services/microservices.
++ [PhD Position/Postdoc in AI-Driven Cloud Operations](research/PhD_Postdoc_Position_Intelligent_Cloud_Operations_2019-02-15.pdf)
 + Permanent position. [Cloud Reliability Engineer](research/JD_IT_Cloud_Reliability_Engineer_(May 2016).pdf)
-+ Permanent position. [OpenStack Software Engineer](research/JD_IT_OpenStack_Software_Engineer_(Jan 2016).pdf)
 + Permanent position. [Junior/Senior Researcher Large-scale Distributed Systems](research/JD_IT_Junior_Senior_Researcher_Large-Scale_Distributed_Systems_(Jul 2016).pdf)
-
-
-Research Interests
----------------
-
-+ [Cloud Platforms Reliability and Resilience](research/)  
-+ Data Science as a Service
-+ Use the open source Cloud platform [OpenStack](https://www.openstack.org) to provision services
-+ Implement new algorithms from the field of Data Science to process streaming data using e.g., [Kafka](http://kafka.apache.org) and [Storm](http://storm.apache.org) and publish them as [microservices](http://martinfowler.com/articles/microservices.html).
-+ Use new workflow languages such as [Mistral](https://wiki.openstack.org/wiki/Mistral) to orchestrate microservices
-+ Build POC to show the value of aggregating these technologies to manage Cloud Reliability and Large-scale Cloud Monitoring.
 
 
 News
