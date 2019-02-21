@@ -11,6 +11,7 @@ p {
 	@include font-size(18,yes,28);
     margin: 0px 0;
     padding: 5px 0;
+    text-align: justify;
 }
 
 // jcardoso 05.2018, @include font-size(16,12,24);

@@ -13,23 +13,25 @@ ads: false
 </a>
 </p>
 
-I am Chief Architect for Inteligent Cloud Operations at 
-[Huawei's European Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany.
+I am Chief Architect for **Inteligent Cloud Operations** at 
+[Huawei Munich Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany.
 I am also Associate Professor at the [University of Coimbra](http://www.uc.pt/en/fctuc/dei) (Portugal), and
 affiliated to the Information Systems Group.
 
-My current research involves the development of the next generation of AI-driven IT Operations tools and platforms.
-This field in nowadays generally called AIOps (artificial intelligence for IT operations).
+My current research involves the development of the **next generation of AI-driven IT Operations tools and platforms**.
+This field in nowadays generally called [AIOps](https://pt.slideshare.net/JorgeCardoso4/mastering-aiops-with-deep-learning) 
+(artificial intelligence for IT operations).
 In planet-scale deployments, the Operation and Maintenance (O&M) of cloud platforms cannot be done any longer manually
 or simply with off-the-shelf solutions. It requires self-developed automated systems, ideally exploiting the use of AI
-to provide tools for autonomous cloud operations. My research looks into how deep learning, distributed traces, and 
-time-series analysis (sequence analysis) can be used to effectively detect anomalous cloud infrastructure behaviors 
-during operations to reduce the workload of human operators.
+to provide tools for autonomous cloud operations. My research looks into how **deep learning**, **machine learning 
+learning**, **distributed traces**, **graph analysis**, and **time-series analysis** (sequence analysis) can be used 
+to effectively **detect and localize anomalous cloud infrastructure behaviors** during operations to reduce the 
+workload of human operators.
 
 My group is currently developing the iForesight system which is being used to evaluate this new O&M approach. 
-iForesight 2.0 is the result of more than 2 years of research with the goal to provide an intelligent new 
+**iForesight 2.0** is the result of more than 2 years of research with the goal to provide an intelligent new 
 tool aimed at [SRE](https://en.wikipedia.org/wiki/Site_Reliability_Engineering) cloud maintenance teams. 
-It enables them to quickly detect and predict anomalies thanks to the use of artificial intelligence when
+It enables them to quickly detect, localize and predict anomalies thanks to the use of artificial intelligence when
 cloud services are slow or unresponsive. 
 
 The basic research areas we touch and integrate include:
@@ -46,57 +48,51 @@ They are applied to create new and innovative systems for:
 + Applied machine learning for predictive software maintenance
 + Natural Language Processing for systems’ behaviour analysis.
 
-Previously I also looked into Cloud Computing, BPM, Semantic Web, Web Services, and Enterprise Systems:
-[Google Scholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en&oi=ao),
+Previously I also looked into Cloud Computing, BPM, Semantic Web, Web Services, and Enterprise Systems.
+See [Google Scholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en&oi=ao),
 [DBLP](http://dblp.uni-trier.de/pers/hd/c/Cardoso:Jorge), and
-[LinkedIn](https://www.linkedin.com/profile/view?id=2572343&trk=hp-identity-name).
+[LinkedIn](https://www.linkedin.com/in/jorge-cardoso-75ba40/).
 
 
 Open Positions
----------------
-+ [PhD Position/Postdoc in AI-Driven Cloud Operations](research/PhD_Postdoc_Position_Intelligent_Cloud_Operations_2019-02-15.pdf)
-+ Permanent position. [Cloud Reliability Engineer](research/JD_IT_Cloud_Reliability_Engineer_(May 2016).pdf)
-+ Permanent position. [Junior/Senior Researcher Large-scale Distributed Systems](research/JD_IT_Junior_Senior_Researcher_Large-Scale_Distributed_Systems_(Jul 2016).pdf)
+--------------
+I currently have a few open positions for PhD student, postdocs, or professionals that would like to work with us
+to improve and extend with new ideas our system to release **iForesight 3.0**.
+
++ PhD Position/Postdoc: [AI-Driven Cloud Operations](research/PhD_Postdoc_Position_Intelligent_Cloud_Operations_2019-02-15.pdf)
++ Permanent position: [Cloud Reliability Engineer](research/JD_IT_Cloud_Reliability_Engineer_(May 2016).pdf)
++ Permanent position: [Junior/Senior Researcher Large-scale Distributed Systems](research/JD_IT_Junior_Senior_Researcher_Large-Scale_Distributed_Systems_(Jul 2016).pdf)
 
 
 News
 ---------------
 
-+ Our article "[Efficient Failure Diagnosis of OpenStack using Tempest](https://www.computer.org/csdl/mags/ic/preprint/08509185-abs.html)." was accepted for publication at IEEE Internet Computing **(Impact Factor 2018: 1.923)**.
-+ Our article "Linked USDL Privacy: Describing Privacy Policies for Service", Georgia Kapitsaki, Josef Ioannou, Jorge Cardoso, Carlos Pedrinaci, was published at the IEEE Inter. Conf. on Web Services (ICWS) **(Conference Rank: A)**, 2-7 July 2018, San Francisco, USA, 2018. 
++ Our article [Efficient Failure Diagnosis of OpenStack using Tempest](https://www.computer.org/csdl/mags/ic/preprint/08509185-abs.html) was accepted for publication at IEEE Internet Computing **(Impact Factor 2018: 1.923)**.
++ Georgia Kapitsaki, Josef Ioannou, Jorge Cardoso, Carlos Pedrinaci, "Linked USDL Privacy: Describing Privacy Policies
+ for Service",  was published at the IEEE Inter. Conf. on Web Services (ICWS) **(Conference Rank: A)**, 2-7 July 2018, San Francisco, USA, 2018. 
 + [International Industry-Academia Workshop on Cloud Reliability and Resilience](https://www.eitdigital.eu/news-events/events/article/international-industry-academia-workshop-on-cloud-reliability-and-resilience/), 7-8 November 2016, Berlin, Germany.
-+  José María García, Pablo Fernández, Carlos Pedrinaci, Manuel Resinas, Jorge Cardoso, Antonio Ruiz-Cortés, "Modeling Service Level Agreements with Linked USDL Agreement", IEEE Transactions on Services Computing **(Impact Factor 2016: 3.049)**, pp. 52-65, Volume: 10, Issue: 1, Jan.-Feb. 1 2017.
++ José María García, Pablo Fernández, Carlos Pedrinaci, Manuel Resinas, Jorge Cardoso, Antonio Ruiz-Cortés, "Modeling Service Level Agreements with Linked USDL Agreement", IEEE Transactions on Services Computing **(Impact Factor 2016: 3.049)**, pp. 52-65, Volume: 10, Issue: 1, Jan.-Feb. 1 2017.
 + José María García, Carlos Pedrinaci, Manuel Resinas, Jorge Cardoso, Pablo Fernández, Antonio Ruiz-Cortés. [Linked USDL Agreement: Effectively Sharing Semantic Service Level Agreements on the Web](/publications/Papers/CP-2015-079-Linked-USDL-Agreement.pdf), [The IEEE International Conference on Web Services (ICWS)](http://conferences.computer.org/icws/2015/), June 27 - July 2, 2015, New York, USA. **(Acceptance Rate: 17.4%)**
 + Jorge Cardoso and Carlos Pedrinaci, [Evolution and Overview of Linked USDL](/publications/Papers/CP-2015-077-Linked-USDL-Evolution-and-Overview.pdf). 6th International Conference Exploring Services Science, IESS 2015, Porto, Portugal, February 4-6, 2015, LNBIP, Vol. 201, Novoa, Henriqueta, Dragoicea, Monica (Eds.), 2015.
 + Pedrinaci, C.; Cardoso, J. and Leidig, T. [Linked USDL: A Vocabulary for Web-scale Service Trading](/publications/Papers/CP-2014-073-ESWC-Linked-USDL.pdf).  In 11th Extended Semantic Web Conference (ESWC), Crete, Greece, 2014. (Acceptance Rate: 25%)
 + Cardoso, J.; Binz, T.; Breitenbucher, Uwe; Kopp, O. and Leymann, F. [Cloud Computing Automation: Integrating USDL and TOSCA](/publications/Papers/CP-2013-068-CAISE-USDL-and-TOSCA.pdf). In 25th Conference on Advanced Information Systems Engineering (CAiSE  2013), pages 1-16, Springer, LNCS, Vol. 7908, 2013. **(Acceptance rate: 16,6%)**
 + Francesco Guerra (Chair) and Jorge Cardoso (Vice-Chair). [COST Action IC1302: semantic KEYword-based Search on sTructured data sOurcEs](http://www.keystone-cost.eu), 2013-2017.
-+ On 23rd of March 2015 we organised an [SAP](http://www.sap.com) CodeJam event around SAP HANA Cloud Platform to demonstrate how Cloud Computing is being explored by companies. This event was part of the Service Engineering course of the Master in Computer Science. Take a look at some of the pictures and a more detailed description of the [CodeJam](http://scn.sap.com/community/events/codejam/blog/2015/03/25/sap-codejam-event-in-coimbra-sap-hana-cloud).
-+ On February 2015, five students from the course Information Systems Management received the [ITIL](https://www.axelos.com/best-practice-solutions/itil/what-is-itil) Foundation certification. The certification was given in partnership with the consulting company [Deloitte](http://www2.deloitte.com/us/en.html?icid=global_site_selector_us). Congratulations to all.
++ [ACM Calendar of Events](http://campus.acm.org/calendar/)
++ [IEEE Conference Calls for Submissions](http://www.ieee.org/conferences_events/index.html)
 
 
 
 About me
----------------
+--------
 
-Prof. Dr. Jorge Cardoso is Chief Architect for Cloud Operations and Analytics at [Huawei's European Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany and Associate Professor at the [University of Coimbra](http://www.uc.pt/en), Portugal.
-
-His current R&D work focuses on increasing the [Reliability of Cloud Platforms](research/) to support mission critical applications with [five nines](https://en.wikipedia.org/wiki/Five_nines).  The work is being done jointly by Huawei and Deutsche Telekom, and applied to the [Open Telekom Cloud](https://cloud.telekom.de/en/cloud-infrastructure/open-telekom-cloud/) operated by [T-Systems](https://www.t-systems.com) in Magdeburg. Our approach uses fault-injection techniques and conceptually follows the so-called [Chaos Engineering](http://techblog.netflix.com/2014/09/introducing-chaos-engineering.html) methodology from Netflix. The first prototypes were made available in Q2 2016 and a running system will be ready in Q1 2017.
-
-Previously he worked for several major companies such as [SAP Research](http://go.sap.com/) (Germany) on the Internet of Services, [The Boeing Company](http://www.boeing.com) in Seattle (USA) on Enterprise Application Integration and [CCG/Zentrum fur Graphische Datenverarbeitung]( http://www.ccg.pt/en/) on Computer Supported Cooperative Work.
+(Outdated) Previously he worked for several major companies such as [SAP Research](http://go.sap.com/) (Germany) on the 
+Internet of Services, [The Boeing Company](http://www.boeing.com) in Seattle (USA) on Enterprise Application Integration and [CCG/Zentrum fur Graphische Datenverarbeitung]( http://www.ccg.pt/en/) on Computer Supported Cooperative Work.
 
 He has authored and co-authored more than 135 scientific publications and has been part of more than 120 program committees and organization bodies (journals and conferences). He his author/editor of 9 books. He holds a US and EU patents on “System and method of measuring process compliance” and “Multi-Phase High Performance Business Process Management System”. [GoogleScholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en) shows more than 6100 citations for his research work with an h-index of 36. His last book, titled [Fundamentals of Service Systems](http://www.springer.com/de/book/9783319231945) from Springer, compiles results from the research work of his areas of interest: cloud computing, business process management, semantic Web, the Internet of Services, and service engineering.
 
 He participated in European, German, US, and National research projects financed by the European Commission (FP7, EACEA), the German Ministry for Education and Research (BMBF), SAP Research (SAP) and Portuguese NSF (FCT). He is a founding member of the IFIP Working Group 12.7 on Social Semantics. He created and led until 2009 the development of the W3C Unified Service Description Language (USDL).
 
 He has a Ph.D. from the University of Georgia (US, 2002) and a MSc and BSc in Informatics Engineering University of Coimbra (1995 and 1998, Portugal).
-
-
-Resources
----------------
-+ [ACM Calendar of Events](http://campus.acm.org/calendar/)
-+ [IEEE Conference Calls for Submissions](http://www.ieee.org/conferences_events/index.html)
-+ [Google Trends](http://www.google.com/trends)
 
 
 Humour

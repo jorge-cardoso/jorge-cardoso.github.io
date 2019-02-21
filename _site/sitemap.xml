@@ -617,8 +617,12 @@
 <lastmod>2016-03-31T19:22:24+02:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/publications/Papers/JA-2016-Modeling-Service-Level-Agreements-with-Linked-USDL.pdf</loc>
+<loc>http://localhost:4000/publications/Papers/JA-2016-022-Modeling-Service-Level-Agreements-with-Linked-USDL.pdf</loc>
 <lastmod>2016-07-29T02:08:21+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/publications/Papers/JA-2018-023-IEEE_Internet_Computing_Nov_Dec_2018.pdf</loc>
+<lastmod>2019-02-18T11:54:20+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf</loc>
@@ -751,6 +755,10 @@
 <url>
 <loc>http://localhost:4000/research/Master_Thesis_Cloud_Resilience_Reliability_Intelligent_Instrumentation-2016-06-03.pdf</loc>
 <lastmod>2016-07-29T02:19:44+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/research/PhD_Postdoc_Position_Intelligent_Cloud_Operations_2019-02-15.pdf</loc>
+<lastmod>2019-02-18T18:12:42+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/research/The_Ten_Commandments.pdf</loc>
