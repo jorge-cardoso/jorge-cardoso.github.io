@@ -67,6 +67,8 @@ to improve and extend with new ideas our system to release **iForesight 3.0**.
 News
 ---------------
 
++ Our article **Anomaly Detection and Classification using Distributed Tracing and Deep Learning** was accepted to 
+CCGrid 2019, 14-17.05, Cyprus. 
 + Our article [Efficient Failure Diagnosis of OpenStack using Tempest](https://www.computer.org/csdl/mags/ic/preprint/08509185-abs.html) was accepted for publication at IEEE Internet Computing **(Impact Factor 2018: 1.923)**.
 + Georgia Kapitsaki, Josef Ioannou, Jorge Cardoso, Carlos Pedrinaci, "Linked USDL Privacy: Describing Privacy Policies
  for Service",  was published at the IEEE Inter. Conf. on Web Services (ICWS) **(Conference Rank: A)**, 2-7 July 2018, San Francisco, USA, 2018. 
