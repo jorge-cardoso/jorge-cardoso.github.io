@@ -99,18 +99,6 @@ He participated in European, German, US, and National research projects financed
 He has a Ph.D. from the University of Georgia (US, 2002) and a MSc and BSc in Informatics Engineering University of Coimbra (1995 and 1998, Portugal).
 
 
-Humour
----------------
-
-<blockquote><p>
-A good researcher says, "Lets find out", others say "Nobody knows". When a good researcher makes a mistake, he says, I was wrong", others say "It wasn't my fault". A good researcher works harder than others and has more time. Others are always "too busy" to do what is necessary.</p>
-</blockquote>
-
-<blockquote>
-  <p><cite><em>Adapted from Web page n. 1.236.784.322.345 of the Internet</em></cite></p>
-</blockquote>
-
-
 Contact
 ---------------
 <p class="notice">
@@ -121,3 +109,11 @@ Universidade da Coimbra<br>
 Portugal<br>
 Tel: + 351 239 790 051, jcardoso [*.A._.T$] dei | uc | pt <br>
 </p>
+
+<blockquote><p>
+A good researcher says, "Lets find out", others say "Nobody knows". When a good researcher makes a mistake, he says, I was wrong", others say "It wasn't my fault". A good researcher works harder than others and has more time. Others are always "too busy" to do what is necessary.</p>
+</blockquote>
+
+<blockquote>
+  <p><cite><em>Adapted from Web page n. 1.236.784.322.345 of the Internet</em></cite></p>
+</blockquote>
