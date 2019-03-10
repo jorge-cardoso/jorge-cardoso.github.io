@@ -90,27 +90,40 @@ About me
 --------
 
 (Outdated) Previously he worked for several major companies such as [SAP Research](http://go.sap.com/) (Germany) on the 
-Internet of Services, [The Boeing Company](http://www.boeing.com) in Seattle (USA) on Enterprise Application Integration and [CCG/Zentrum fur Graphische Datenverarbeitung]( http://www.ccg.pt/en/) on Computer Supported Cooperative Work.
+Internet of Services, [The Boeing Company](http://www.boeing.com) in Seattle (USA) on Enterprise Application 
+Integration and [CCG/Zentrum fur Graphische Datenverarbeitung]( http://www.ccg.pt/en/) on Computer Supported 
+Cooperative Work.
 
-He has authored and co-authored more than 135 scientific publications and has been part of more than 120 program committees and organization bodies (journals and conferences). He his author/editor of 9 books. He holds a US and EU patents on “System and method of measuring process compliance” and “Multi-Phase High Performance Business Process Management System”. [GoogleScholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en) shows more than 6100 citations for his research work with an h-index of 36. His last book, titled [Fundamentals of Service Systems](http://www.springer.com/de/book/9783319231945) from Springer, compiles results from the research work of his areas of interest: cloud computing, business process management, semantic Web, the Internet of Services, and service engineering.
+He has authored and co-authored more than 135 scientific publications and has been part of more than 120 program 
+committees and organization bodies (journals and conferences). He his author/editor of 9 books. He holds 6 US 
+and EU patents on process management and reliability engineering.
+[GoogleScholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en) shows more than 
+8000 citations for his research work with an h-index of 42. 
+His last book, titled [Fundamentals of Service Systems](http://www.springer.com/de/book/9783319231945) from Springer, 
+compiles results from the research work of his areas of interest: cloud computing, business process management, 
+semantic Web, the Internet of Services, and service engineering.
 
-He participated in European, German, US, and National research projects financed by the European Commission (FP7, EACEA), the German Ministry for Education and Research (BMBF), SAP Research (SAP) and Portuguese NSF (FCT). He is a founding member of the IFIP Working Group 12.7 on Social Semantics. He created and led until 2009 the development of the W3C Unified Service Description Language (USDL).
+He participated in European, German, US, and National research projects financed by the 
+European Commission (FP7, EACEA), the German Ministry for Education and Research (BMBF), SAP Research (SAP) 
+and Portuguese NSF (FCT). He is a founding member of the IFIP Working Group 12.7 on Social Semantics. 
 
-He has a Ph.D. from the University of Georgia (US, 2002) and a MSc and BSc in Informatics Engineering University of Coimbra (1995 and 1998, Portugal).
+He created and led until 2009 the development of the [W3C Unified Service Description Language (USDL)](https://github.com/linked-usdl).
+
+He has a Ph.D. from the [University of Georgia](https://www.uga.edu) (US, 2002) and a MSc and BSc in Informatics 
+Engineering [University of Coimbra](univeristy of coimbra) (1995 and 1998, Portugal).
 
 
 Contact
 ---------------
-<p class="notice">
 Prof. Jorge Cardoso<br>
-
 [Huawei Munich Research Center](https://huawei.eu/research-and-innovation), Germany<br>
-[Departamento de Engenharia Informatica](http://www.uc.pt/en/fctuc/dei), Universidade da Coimbra, Portugal<br>
+[Departamento de Engenharia Informatica](http://www.uc.pt/en/fctuc/dei), University of Coimbra, Portugal<br>
 jcardoso [*.A._.T$] dei | uc | pt <br>
-</p>
 
 <blockquote><p>
-A good researcher says, "Lets find out", others say "Nobody knows". When a good researcher makes a mistake, he says, I was wrong", others say "It wasn't my fault". A good researcher works harder than others and has more time. Others are always "too busy" to do what is necessary.</p>
+A good researcher says, "Lets find out", others say "Nobody knows". When a good researcher makes a mistake, he says,
+I was wrong", others say "It wasn't my fault". A good researcher works harder than others and has more time. 
+Others are always "too busy" to do what is necessary.</p>
 </blockquote>
 
 <blockquote>
