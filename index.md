@@ -67,6 +67,7 @@ to improve and extend with new ideas our system to release **iForesight 3.0**.
 News
 ---------------
 
++ Work in progress on process analytics: **IDE-based Software Development Process Analytics**
 + Our article **Anomaly Detection and Classification using Distributed Tracing and Deep Learning** was accepted to 
 [CCGrid 2019](https://www.ccgrid2019.org/index.html), 14-17.05, Cyprus. 
 + Our article [Efficient Failure Diagnosis of OpenStack using Tempest](https://www.computer.org/csdl/mags/ic/2018/06/08509185-abs.html) was accepted for publication at IEEE Internet Computing **(Impact Factor 2018: 1.923)**.
