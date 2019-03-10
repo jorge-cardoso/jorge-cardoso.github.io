@@ -7,9 +7,8 @@ ads: false
 ---
 
 <p>
-
-<a href="http://placehold.it/1200x600.gif">
-<img src="/images/Jorge_Cardoso.png" height="128" width="155"  style="float:left;margin:0 20px 0 0;"/>
+<a href="/images/Jorge_Cardoso.png">
+<img src="/images/Jorge_Cardoso.png" height="128" width="155" style="float:left;margin:0 20px 0 0;"/>
 </a>
 </p>
 
@@ -56,7 +55,7 @@ See [Google Scholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en
 
 Open Positions
 --------------
-I currently have a few open positions for PhD student, postdocs, or professionals that would like to work with us
+I currently have a few open positions for PhD students, postdocs, or professionals that would like to work with us
 to improve and extend with new ideas our system to release **iForesight 3.0**.
 
 + PhD Position/Postdoc: [AI-Driven Cloud Operations](research/PhD_Postdoc_Position_Intelligent_Cloud_Operations_2019-02-15.pdf)
