@@ -64,8 +64,7 @@ to improve and extend with new ideas our system to release **iForesight 3.0**.
 
 
 News
----------------
-
+----
 + Work in progress on process analytics: **IDE-based Software Development Process Analytics**
 + Our article **Anomaly Detection and Classification using Distributed Tracing and Deep Learning** was accepted to 
 [CCGrid 2019](https://www.ccgrid2019.org/index.html), 14-17.05, Cyprus. 
@@ -84,10 +83,8 @@ News
 + [IEEE Conference Calls for Submissions](http://www.ieee.org/conferences_events/index.html)
 
 
-
 About me
 --------
-
 (Outdated) Previously he worked for several major companies such as [SAP Research](http://go.sap.com/) (Germany) on the 
 Internet of Services, [The Boeing Company](http://www.boeing.com) in Seattle (USA) on Enterprise Application 
 Integration and [CCG/Zentrum fur Graphische Datenverarbeitung]( http://www.ccg.pt/en/) on Computer Supported 
@@ -113,7 +110,7 @@ Engineering [University of Coimbra](univeristy of coimbra) (1995 and 1998, Portu
 
 
 Contact
----------------
+-------
 Prof. Jorge Cardoso<br>
 [Huawei Munich Research Center](https://huawei.eu/research-and-innovation), Germany<br>
 [Departamento de Engenharia Informatica](http://www.uc.pt/en/fctuc/dei), University of Coimbra, Portugal<br>
