@@ -115,5 +115,5 @@ A good researcher says, "Lets find out", others say "Nobody knows". When a good 
 </blockquote>
 
 <blockquote>
-  <p><cite><em>Adapted from Web page n. 1.236.784.322.345 of the Internet</em></cite></p>
+  <p><cite><em>Unknown source</em></cite></p>
 </blockquote>
