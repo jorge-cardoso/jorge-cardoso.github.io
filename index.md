@@ -103,11 +103,10 @@ Contact
 ---------------
 <p class="notice">
 Prof. Jorge Cardoso<br>
-Departamento de Engenharia Informatica<br>
-Universidade da Coimbra<br>
-3030-290 Coimbra<br>
-Portugal<br>
-Tel: + 351 239 790 051, jcardoso [*.A._.T$] dei | uc | pt <br>
+
+[Huawei Munich Research Center](https://huawei.eu/research-and-innovation), Germany<br>
+[Departamento de Engenharia Informatica](http://www.uc.pt/en/fctuc/dei), Universidade da Coimbra, Portugal<br>
+jcardoso [*.A._.T$] dei | uc | pt <br>
 </p>
 
 <blockquote><p>
