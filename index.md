@@ -25,7 +25,7 @@ or simply with off-the-shelf solutions. It requires self-developed automated sys
 to provide tools for autonomous cloud operations. My research looks into how **deep learning**, **machine learning 
 learning**, **distributed traces**, **graph analysis**, and **time-series analysis** (sequence analysis) can be used 
 to effectively **detect and localize anomalous cloud infrastructure behaviors** during operations to reduce the 
-workload of human operators.
+workload of human operators. These techniques are typically applied to Big Data coming from microservice [observability data](https://www.mstakx.com/wp-content/uploads/2018/09/A-Practical-Observability-Primer-1.pdf).
 
 My group is currently developing the iForesight system which is being used to evaluate this new O&M approach. 
 **iForesight 2.0** is the result of more than 2 years of research with the goal to provide an intelligent new 
