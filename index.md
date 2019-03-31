@@ -29,7 +29,6 @@ workload of human operators. These techniques are typically applied to Big Data 
 microservice [observability data](https://www.mstakx.com/wp-content/uploads/2018/09/A-Practical-Observability-Primer-1.pdf).
 
 My group is currently developing the iForesight system which is being used to evaluate this new O&M approach. 
-[iForesight 3.0](http://jorge-cardoso.github.io/iforesight.md)
 [iForesight 3.0](research/iforesight) is the result of more than 2 years of research with
 the goal to provide an intelligent new tool aimed at [SRE](https://en.wikipedia.org/wiki/Site_Reliability_Engineering)
 cloud maintenance teams. 
