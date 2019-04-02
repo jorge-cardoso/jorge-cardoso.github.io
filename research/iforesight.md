@@ -42,7 +42,7 @@ to detect impact to customers, identify the root cause within seconds, and fix t
 the 1/5/10 rule (detection: 1 min, RCA: 5 min, recovery: 10 min).
 
 The following figure from [Gartner]() provide a high level architecture of the system we are building highliting the main areas of concern: 
-+ real-time streaming and historical data, observations, Big Data, Machine Learning, Anomaly Detection, Performance Analysis, and Automation. 
++ Real-time streaming and historical data, observations, Big Data, Machine Learning, Anomaly Detection, Performance Analysis, and Automation. 
 <p>
 <img src="https://blogs.bmc.com/wp-content/uploads/2019/02/AIOpsGraphicGartner2018-768x408.png" height="408" width="768" style="float:center;margin:0 20px 0 0;"/>
 </p>
