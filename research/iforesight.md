@@ -41,6 +41,11 @@ Our mission is to analyze observability data from [Huawei Cloud](https://www.hua
 to detect impact to customers, identify the root cause within seconds, and fix the problem using 
 the 1/5/10 rule (detection: 1 min, RCA: 5 min, recovery: 10 min).
 
+The following figure from [Gartner]() provide a high level architecture of the systems we are building.
+<p>
+<img src="https://blogs.bmc.com/wp-content/uploads/2019/02/AIOpsGraphicGartner2018-768x408.png" height="128" width="155" style="float:left;margin:0 20px 0 0;"/>
+</p>
+
 
 ## Next-gen Solutions
 
