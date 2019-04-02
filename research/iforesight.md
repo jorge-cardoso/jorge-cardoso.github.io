@@ -37,7 +37,7 @@ Huawei Cloud is one of the largest and fastest growing platforms in the world.
 It has a strong presence throughout the world with over 40 availability zones located across 23 geographical regions,
 ranging from Hong Kong and Russia to Thailand and South Africa.
 
-Our mission is to analyze observability data from [Huawei Cloud](https://www.huaweicloud.com/en-us/about/about_us.html)
+Our mission is to develop new systems and tools to analyze observability data from [Huawei Cloud](https://www.huaweicloud.com/en-us/about/about_us.html)
 to detect impact to customers, identify the root cause within seconds, and fix the problem using 
 the 1/5/10 rule (detection: 1 min, RCA: 5 min, recovery: 10 min).
 
