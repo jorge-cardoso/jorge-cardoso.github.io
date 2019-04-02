@@ -15,7 +15,7 @@ toc: true
 
 <p>
 <a href="iforesight3.png">
-<img src="iforesight3.png" height="50%" width="50%" style="float:left;margin:0 20px 0 0;"/>
+<img src="iforesight3.png" height="25%" width="25%" style="float:left;margin:0 20px 0 0;"/>
 </a>
 </p>
 
