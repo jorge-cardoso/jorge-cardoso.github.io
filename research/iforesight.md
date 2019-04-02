@@ -13,7 +13,11 @@ ads: false
 toc: true
 ---  
 
-
+<p>
+<a href="iforesight3.png">
+<img src="iforesight3.png" height="25%" width="25%" style="float:left;margin:0 20px 0 0;"/>
+</a>
+</p>
 
 In planet-scale deployments, the Operation and Maintenance (O&M) of cloud platforms cannot be done any longer 
 manually or simply with off-the-shelf solutions. It requires self-developed automated systems, ideally exploiting 
