@@ -94,9 +94,11 @@ In the future, this knowledge will be associated with recovery actions and manag
 
 iForesight is build using the following software stack and applications. 
 
-+ Backend: Microservices, Docker, 
 + Frontend: Grafana, Jupyter, Node.js
 + AI: Tensorflow, Keras, PyTorch, Pandas/NumPy, Scikit-learn, Huawei Model Arts
++ Backend: Microservices, Docker, OpenTSDB, Hive, MySQL, ArangoDB, Spark Streaming. 
++ Transport: Kafka
++ Data sources: metrics, app logs, tracing, alarms, topologies, and change events
 + Language: Python
 
 In 2019, we will closely following the progresses make in the following 5 fields to extend our stack and suite:
