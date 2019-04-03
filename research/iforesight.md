@@ -115,6 +115,6 @@ In 2019, we will closely following the progresses make in the following 5 fields
 Our culture of innovation and R&D is based on 3 main guiding principles:
 
 + [DIY](https://en.wikipedia.org/wiki/Do_it_yourself), [KISS](https://pt.wikipedia.org/wiki/Keep_It_Simple),
-[FOCUS](https://www.amazon.com/gp/product/1455586692)*
+[Deep Work](https://www.amazon.com/gp/product/1455586692)*
 
-*High-quality work produced = (Time Spent) x (Intensity of Focus)
+*Deep Work = (Time Spent) x (Intensity of Focus)
