@@ -35,7 +35,7 @@ are slow or unresponsive.
 
 Huawei Cloud is one of the largest and fastest growing platforms in the world. 
 It has a strong presence throughout the world with over 40 availability zones located across 23 geographical regions,
-ranging from Hong Kong and Russia to Thailand and South Africa.
+ranging from Germany, France, South/Central America, Hong Kong and Russia to Thailand and South Africa.
 
 The mission of the **Intelligent Cloud Operations** SRE team (based in [Munich](https://www.muenchen.de/int/en.html), Germany) is to develop new systems and tools to analyze observability data from [Huawei Cloud](https://www.huaweicloud.com/en-us/about/about_us.html)
 to detect impact to customers, identify the root cause within seconds, and fix the problem using 
