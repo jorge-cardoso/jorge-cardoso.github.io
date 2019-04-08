@@ -23,7 +23,7 @@ This field in nowadays generally called [AIOps](https://pt.slideshare.net/JorgeC
 In planet-scale deployments, the Operation and Maintenance (O&M) of cloud platforms cannot be done any longer manually
 or simply with off-the-shelf solutions. It requires self-developed automated systems, ideally exploiting the use of AI
 to provide tools for autonomous cloud operations. My research looks into how **deep learning**, **machine learning 
-learning**, **distributed traces**, **graph analysis**, and **time-series analysis** (sequence analysis) can be used 
+learning**, **distributed traces**, **graph analysis**, **time-series analysis** (sequence analysis), and **log analysis** can be used 
 to effectively **detect and localize anomalous cloud infrastructure behaviors** during operations to reduce the 
 workload of human operators. These techniques are typically applied to Big Data coming from 
 microservice [observability data](https://www.mstakx.com/wp-content/uploads/2018/09/A-Practical-Observability-Primer-1.pdf).
