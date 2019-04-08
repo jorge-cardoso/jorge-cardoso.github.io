@@ -72,6 +72,11 @@ For example, we can autonomously identify anomalous microservices' latencies by 
 temporal features, predict memory leaks ahead of time before impacting systems, or finding rare message entries in 
 service logs with billions records. We applies all these techniques to real-time data streams.
 
+As another example, although distributed logging is a solved problem and many solutions already exist, 
+what still needs to be mastered is the extraction of meaningful and actionable information from massive logs.
+While many argue that "the more [data] the merrier", in reality, the more log statements you have, the less
+you can find due to noise and non-determinism.
+
 With the success of anomaly detection in 2017-2018, in 2019 we are planning the next phase of our next-gen 
 monitoring and troubleshooting suite. 
 We will extend anomaly detection by implementing two new detector services for distributed trace and service logs.
