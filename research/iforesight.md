@@ -116,6 +116,17 @@ In 2019, we will closely following the progresses make in the following 5 fields
 [RPA](https://en.wikipedia.org/wiki/Robotic_process_automation)
 
 
+## Systems from Academia and Industry
+
++ [Lightstep](https://lightstep.com)
++ [Google StackDriver](https://cloud.google.com/trace/)
++ [Amazon X-Ray](https://aws.amazon.com/xray/)
++ [New Relic](https://newrelic.com/products/application-monitoring)
++ [AppDynamics](https://www.appdynamics.com)
++ [Dynatrace](https://www.dynatrace.com)
++ [Azure Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/cloudservices)
++ [CA APM](https://www.ca.com/us/products/application-performance-monitoring.html)
+
 ## Culture
 
 Our culture of innovation and R&D is based on 3 main guiding principles:
