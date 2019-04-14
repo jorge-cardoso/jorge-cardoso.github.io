@@ -111,6 +111,7 @@ In 2019, we will closely following the progresses make in the following 5 fields
 
 + [AIOps](https://blog.appdynamics.com/aiops/what-is-aiops/),
 [Service Mesh](https://www.nginx.com/blog/what-is-a-service-mesh/),
+[Istio](https://istio.io),
 [Distributed Tracing](https://opentracing.io/docs/overview/what-is-tracing/),
 [SRE](https://landing.google.com/sre/),
 [RPA](https://en.wikipedia.org/wiki/Robotic_process_automation)
