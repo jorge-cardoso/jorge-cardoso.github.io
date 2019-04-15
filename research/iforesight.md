@@ -118,7 +118,7 @@ In 2019, we will closely following the progresses make in the following 5 fields
 
 ## Our skill set
 
-+ Data Science (Analytics), Software Engineering (Analysis, Design, Development, Testing), Operation (Deployment, Infrastructure)
++ AiDevOps: AI/Data Science (Analytics), Software Engineering (Analysis, Design, Development, Testing), Operation (Deployment, Infrastructure)
 
 ## Systems from Academia and Industry
 
