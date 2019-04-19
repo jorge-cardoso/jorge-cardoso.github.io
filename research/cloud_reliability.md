@@ -14,21 +14,30 @@ toc: true
 ---  
 
 
-
 ## Overview
 Reliability is a measure of the percentage uptime of cloud services to customers, considering the downtime due to 
-faults. Many cloud providers are setting a reliability level of 99.95% ([download uptime cheat sheet](http://royal.pingdom.com/wp-content/uploads/2015/04/pingdom_uptime_cheat_sheet.pdf)). This means that if you provision a VM it will be available 99.95% of the time, with a possible downtime of 21.6 minutes per month. Reliability is an important characteristic which enables platforms to adapt and recover under stress and remain functional from a customer perspective. You can find additional information from a Meetup meeting on [Cloud Reliability and Resilience](http://www.slideshare.net/JorgeCardoso4/cloud-resilience-with-open-stack).
+faults. Many cloud providers are setting a reliability level of 99.95% ([download uptime cheat sheet](http://royal.pingdom.com/wp-content/uploads/2015/04/pingdom_uptime_cheat_sheet.pdf)).
+This means that if you provision a VM it will be available 99.95% of the time, with a possible downtime
+of 21.6 minutes per month. Reliability is an important characteristic which enables platforms to adapt and 
+recover under stress and remain functional from a customer perspective. You can find additional information from 
+a Meetup meeting on [Cloud Reliability and Resilience](http://www.slideshare.net/JorgeCardoso4/cloud-resilience-with-open-stack).
 
-Every year big companies made the headlines for the wrong reason: reliability problems. In Q1 2016, Microsoft (9 days), Twitter (8h), Apple (7h), are PayPal (7h) are the "lucky" winners:
+Every year big companies made the headlines for the wrong reason: reliability problems. In Q1 2016, 
+Microsoft (9 days), Twitter (8h), Apple (7h), are PayPal (7h) are the "lucky" winners:
 
 + Two separate outages meant [Microsoft's biggest customers haven't had access to email](http://www.businessinsider.de/microsoft-has-a-9-day-long-office-365-outage-2016-1?r=UK&IR=T) for several days.
 + [Twitter Went Down](http://recode.net/2016/01/19/twitter-went-down-because-of-an-internal-code-change/) Because of an ‘Internal Code Change’.
 + eBay, Etsy and Online Merchants Hit by [PayPal Outage](http://www.ecommercebytes.com/C/blog/blog.pl?/pl/2016/3/1457113386.html)
 + [Apple Pay suffers](http://www.theinquirer.net/inquirer/news/2446737/apple-pay-suffers-first-wobble-with-seven-hour-outage) first wobble with seven-hour outage. Problem saw Visa users unable to sign up to iPhone payments service.
 
-According to section of [IEEE Society](http://rs.ieee.org) working on Reliability, "reliability engineering is a design engineering discipline which applies scientific knowledge to assure that a system will perform its intended function for the required duration within a given environment, including the ability to test and support the system through its total lifecycle (...) it is the probability of failure-free software operation for a specified period of time in a specified environment."
+According to section of [IEEE Society](http://rs.ieee.org) working on Reliability, "reliability engineering is a
+design engineering discipline which applies scientific knowledge to assure that a system will perform its intended
+function for the required duration within a given environment, including the ability to test and support the system
+through its total lifecycle (...) it is the probability of failure-free software operation for a specified period
+of time in a specified environment."
 
-Cloud resiliency is the ability of a cloud platform or service to recover and continue operating when failures occur. Automated means for recovery are the most desirable solutions.
+Cloud resiliency is the ability of a cloud platform or service to recover and continue operating when failures occur. 
+Automated means for recovery are the most desirable solutions.
 
 ### Open Positions
 + MSc thesis. [Reliability of OpenStack usign Fault Injection](http://jorge-cardoso.github.io/research/Master_Thesis_Cloud_Resilience_Reliability_Fault-Library-2016-04-12.pdf)
@@ -42,11 +51,18 @@ Cloud resiliency is the ability of a cloud platform or service to recover and co
 
 
 ## OpenStack Cloud OS
-OpenStack is a cloud operating system (Cloud OS) for building public and private clouds. It can control pools of compute, storage, and networking recourses located in large data centres. It is supported by major IT players in the world which include IBM, HP, Intel, Huawei, Red Hat, AT&T, and Ericsson. At Huawei Research we are currently developing the next generation of reliable cloud platforms for Deutsche Telekom. The Open Telekom Cloud engineered by Huawei and operated by T-Systems was launched at CeBIT 2016 and delivers flexible and convenient cloud services.
+OpenStack is a cloud operating system (Cloud OS) for building public and private clouds. It can control pools of 
+compute, storage, and networking recourses located in large data centres. It is supported by major IT players in 
+the world which include IBM, HP, Intel, Huawei, Red Hat, AT&T, and Ericsson. At Huawei Research we are currently 
+developing the next generation of reliable cloud platforms for Deutsche Telekom. The Open Telekom Cloud engineered
+by Huawei and operated by T-Systems was launched at CeBIT 2016 and delivers flexible and convenient cloud services.
 
 <img align="right" src="/images/OTC.png" width="450">
 
-Major players are building competences in the field of cloud reliability. [Microsoft Trustworthy Computing](https://www.microsoft.com/en-us/twc/reliability.aspx) has a division dedicated to Reliability and IBM offers specialized [Resiliency Services](http://www-935.ibm.com/services/us/en/it-services/business-continuity/) to assure continuous business operations and improve overall reliability.
+Major players are building competences in the field of cloud reliability. 
+[Microsoft Trustworthy Computing](https://www.microsoft.com/en-us/twc/reliability.aspx) has a division dedicated 
+to Reliability and IBM offers specialized [Resiliency Services](http://www-935.ibm.com/services/us/en/it-services/business-continuity/) 
+to assure continuous business operations and improve overall reliability.
 
 Cloud reliability and resilience of OpenStack can be analyzed and improved at 3 levels:
 
@@ -58,9 +74,17 @@ We concentrate our efforts on Level 1.
 
 ## General Problems with Building Large-scale Distributed Systems
 
-Reliable large-scale distributed systems are hard to build since their validation is time consuming, complex, and often non-deterministic. OpenStack is not an exception. Research from Microsoft with [MODIST](https://www.usenix.org/legacy/event/nsdi09/tech/full_papers/yang/yang_html/) (Junfeng Yang, et al., MODIST: Transparent Model Checking of Unmodified Distributed Systems Proceedings of the 6th Symposium on Networked Systems Design and Implementation (NSDI '09), Pages 213-228) exemplifies well the problems associated with general distributed systems. Experiments found a total of 35 bugs in Berkeley DB, a Paxos implementation, and a primary-backup replication protocol implementation. Thus, validation, testing, and benchmarking frameworks are needed, specifically, when OpenStack is used to support mission critical applications.
+Reliable large-scale distributed systems are hard to build since their validation is time consuming, complex, and 
+often non-deterministic. OpenStack is not an exception. Research from Microsoft 
+with [MODIST](https://www.usenix.org/legacy/event/nsdi09/tech/full_papers/yang/yang_html/) 
+(Junfeng Yang, et al., MODIST: Transparent Model Checking of Unmodified Distributed Systems Proceedings of the
+6th Symposium on Networked Systems Design and Implementation (NSDI '09), Pages 213-228) exemplifies well the
+problems associated with general distributed systems. Experiments found a total of 35 bugs in Berkeley DB,
+a Paxos implementation, and a primary-backup replication protocol implementation. Thus, validation, testing, 
+and benchmarking frameworks are needed, specifically, when OpenStack is used to support mission critical applications.
 
-Building large-scale distributed systems requires the consideration of several theories, technologies, and methodologies, such as:
+Building large-scale distributed systems requires the consideration of several theories, technologies, 
+and methodologies, such as:
 + [CAP Theorem](https://en.wikipedia.org/wiki/CAP_theorem)
 + [Microservices](http://martinfowler.com/articles/microservices.html)
 + [Twelve Factor App](https://12factor.net)

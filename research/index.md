@@ -18,12 +18,11 @@ toc: true
 
 If you are curious about systems, want to be challenged and engage in cutting edge research, propose novel ideas not 
 proposed before, and leave your own mark on the academic world, you are probably a good candidate for a PhD.
-
 While a MSc involve often involves the application of existing models and techniques, a PhD are almost totally 
 independent and involve the creation of novel knowledge not know before. 
 
 If you would like to do you PhD or Msc with our applied research group visit the following 
-webpage [Phd/MSsc and_visiting_positions](phd_msc_visiting_positions).
+webpage [Phd/MSsc and visiting positions](phd_msc_visiting_positions).
 
 ## AI-Driven Operations
 
@@ -34,8 +33,13 @@ artificial intelligence when cloud services are slow or unresponsive.
 
 ## Cloud Reliability
 
-My group is currently developing the iForesight system which is being used to evaluate this new O&M approach. 
-[cloud_reliability](cloud_reliability) 
+Huawei Cloud is one of the largest and fastest growing platforms in the world, with over 40 availability zones 
+located across 23 geographical regions, ranging from Germany, France, South/Central America, Hong Kong and Russia to 
+Thailand and South Africa. Thus, it is extremely important that our platform remain up at all times.
+
+In our research, we explored how [Chaos Engineering](https://en.wikipedia.org/wiki/Chaos_engineering), 
+introduced by Netflix in 2011, could be used to improve the resiliency of our complex distributed systems.
+More information is available here: [cloud_reliability](cloud_reliability) 
 
 ## Service Systems
 
