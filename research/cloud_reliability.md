@@ -16,7 +16,8 @@ toc: true
 
 
 ## Overview
-Reliability is a measure of the percentage uptime of cloud services to customers, considering the downtime due to faults. Many cloud providers are setting a reliability level of 99.95% ([download uptime cheat sheet](http://royal.pingdom.com/wp-content/uploads/2015/04/pingdom_uptime_cheat_sheet.pdf)). This means that if you provision a VM it will be available 99.95% of the time, with a possible downtime of 21.6 minutes per month. Reliability is an important characteristic which enables platforms to adapt and recover under stress and remain functional from a customer perspective. You can find additional information from a Meetup meeting on [Cloud Reliability and Resilience](http://www.slideshare.net/JorgeCardoso4/cloud-resilience-with-open-stack).
+Reliability is a measure of the percentage uptime of cloud services to customers, considering the downtime due to 
+faults. Many cloud providers are setting a reliability level of 99.95% ([download uptime cheat sheet](http://royal.pingdom.com/wp-content/uploads/2015/04/pingdom_uptime_cheat_sheet.pdf)). This means that if you provision a VM it will be available 99.95% of the time, with a possible downtime of 21.6 minutes per month. Reliability is an important characteristic which enables platforms to adapt and recover under stress and remain functional from a customer perspective. You can find additional information from a Meetup meeting on [Cloud Reliability and Resilience](http://www.slideshare.net/JorgeCardoso4/cloud-resilience-with-open-stack).
 
 Every year big companies made the headlines for the wrong reason: reliability problems. In Q1 2016, Microsoft (9 days), Twitter (8h), Apple (7h), are PayPal (7h) are the "lucky" winners:
 
@@ -35,9 +36,9 @@ Cloud resiliency is the ability of a cloud platform or service to recover and co
 + PhD student. OpenStack Reliability
 + PhD student. Data Science.
 + PhD student. Orchestration of cloud services/microservices.
-+ Permanent position. [Cloud Reliability Engineer](http://jorge-cardoso.github.io/research/JD_IT_Cloud_Reliability_Engineer_(May 2016).pdf)
-+ Permanent position. [OpenStack Software Engineer](http://jorge-cardoso.github.io/research/JD_IT_OpenStack_Software_Engineer_(Jan 2016).pdf)
-+ Permanent position. [Junior/Senior Researcher Large-scale Distributed Systems](http://jorge-cardoso.github.io/research/JD_IT_Junior_Senior_Researcher_Large-Scale_Distributed_Systems_(Jul 2016).pdf)
++ Permanent position. [Cloud Reliability Engineer](http://jorge-cardoso.github.io/research/pdf_img/JD_IT_Cloud_Reliability_Engineer_(May 2016).pdf)
++ Permanent position. [OpenStack Software Engineer](http://jorge-cardoso.github.io/research/pdf_img/JD_IT_OpenStack_Software_Engineer_(Jan 2016).pdf)
++ Permanent position. [Junior/Senior Researcher Large-scale Distributed Systems](http://jorge-cardoso.github.io/research/pdf_img/JD_IT_Junior_Senior_Researcher_Large-Scale_Distributed_Systems_(Jul 2016).pdf)
 
 
 ## OpenStack Cloud OS
