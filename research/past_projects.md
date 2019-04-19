@@ -21,7 +21,9 @@ Past Projects
 
 <img align="right" src="/images/sds.gif" width="100">
 
-Enterprises have the need to communicate. In business to business applications, usually XML is used to automatically exchange information. But sometimes more semantics is needed. Enterprises  also need to share concepts, terms, definitions and relationships (between concepts) relevant to their business activities.
+Enterprises have the need to communicate. In business to business applications, usually XML is used to automatically 
+exchange information. But sometimes more semantics is needed. Enterprises  also need to share concepts, terms, 
+definitions and relationships (between concepts) relevant to their business activities.
 
 Why are developing the Semantic Domain System which is a systems that follows similar concepts from the DNS.
 The Domain Name System or DNS, is a service where relationships between IP addresses and physical domains are stored.

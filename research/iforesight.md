@@ -14,8 +14,8 @@ toc: true
 ---  
 
 <p>
-<a href="http://jorge-cardoso.github.io/research/iforesight3.png">
-<img src="http://jorge-cardoso.github.io/research/iforesight3.png" height="25%" width="25%" style="float:left;margin:0 20px 0 0;"/>
+<a href="http://jorge-cardoso.github.io/research/pdf_img/iforesight3.png">
+<img src="http://jorge-cardoso.github.io/research/pdf_img//iforesight3.png" height="25%" width="25%" style="float:left;margin:0 20px 0 0;"/>
 </a>
 </p>
 
@@ -37,11 +37,14 @@ Huawei Cloud is one of the largest and fastest growing platforms in the world.
 It has a strong presence throughout the world with over 40 availability zones located across 23 geographical regions,
 ranging from Germany, France, South/Central America, Hong Kong and Russia to Thailand and South Africa.
 
-The mission of the **Intelligent Cloud Operations** SRE team (based in [Munich](https://www.muenchen.de/int/en.html), Germany) is to develop new systems and tools to analyze observability data from [Huawei Cloud](https://www.huaweicloud.com/en-us/about/about_us.html)
+The mission of the **Intelligent Cloud Operations** SRE team (based in [Munich](https://www.muenchen.de/int/en.html), 
+Germany) is to develop new systems and tools to analyze observability data 
+from [Huawei Cloud](https://www.huaweicloud.com/en-us/about/about_us.html)
 to detect impact to customers, identify the root cause within seconds, and fix the problem using 
 the 1/5/10 rule (detection: 1 min, RCA: 5 min, recovery: 10 min).
 
-The following figure from [Gartner](https://www.gartner.com/en) provides a high level architecture of the system we are building highliting the main areas of concern: 
+The following figure from [Gartner](https://www.gartner.com/en) provides a high level architecture of the system 
+we are building highliting the main areas of concern: 
 + Real-time streaming and historical data, observations, [Big Data](https://en.wikipedia.org/wiki/Big_data), Machine Learning, [Anomaly Detection](https://en.wikipedia.org/wiki/Anomaly_detection), [Root-Cause Analysis](https://en.wikipedia.org/wiki/Root_cause_analysis), [Performance Analysis](https://en.wikipedia.org/wiki/Application_performance_management), [Predictive Maintenance](https://en.wikipedia.org/wiki/Predictive_maintenance), and [Automation](https://en.wikipedia.org/wiki/Robotic_process_automation). 
 <p>
 <img src="https://blogs.bmc.com/wp-content/uploads/2019/02/AIOpsGraphicGartner2018-768x408.png" height="408" width="768" style="float:center;margin:0 20px 0 0;"/>
