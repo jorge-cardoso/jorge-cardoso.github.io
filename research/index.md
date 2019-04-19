@@ -39,19 +39,18 @@ Thailand and South Africa. Thus, it is extremely important that our platform rem
 
 In our research, we explored how [Chaos Engineering](https://en.wikipedia.org/wiki/Chaos_engineering), 
 introduced by Netflix in 2011, could be used to improve the resiliency of our complex distributed systems.
-More information is available here: [cloud_reliability](cloud_reliability) 
+More information is available here: [Cloud Reliability](cloud_reliability) 
 
 ## Service Systems
-
-My group is currently developing the iForesight system which is being used to evaluate this new O&M approach. 
-[Service Systems](service_systems) 
+Between 2012-2015, we did research on service systems. Namely, service description languages (with the USDL 
+family), service system modeling (with the LSS USDL language), service analytics (using process mining), and 
+service networks (using principals from social networks). Results of our results are available 
+here: [Service Systems](service_systems).
 
 ## Past Projects
 
-My group is currently developing the iForesight system which is being used to evaluate this new O&M approach. 
-[past_projects](past_projects) 
+Over the years we have participated in many projects: [Past Projects](past_projects).
 
 ## Students
 
-My group is currently developing the iForesight system which is being used to evaluate this new O&M approach. 
-[students](students) 
+All the students that worked with us is available at [Past Students](students).

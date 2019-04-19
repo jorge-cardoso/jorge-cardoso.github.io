@@ -18,7 +18,9 @@ toc: true
 Service Systems
 ---------------
 
-Our recent research places emphasis on three fields: service description languages (with the USDL family), service system modeling (with the LSS USDL language), service analytics (using process mining), and service networks (using principals from social networks).
+Our recent research places emphasis on three fields: service description languages (with the USDL family), 
+service system modeling (with the LSS USDL language), service analytics (using process mining), and 
+service networks (using principals from social networks).
 
 ### Service Analytics
 
