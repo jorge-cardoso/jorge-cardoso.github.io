@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Research"
+title: "PhD, MSc, and Visiting Positions"
 date:
 modified:
 excerpt: "excerpt"

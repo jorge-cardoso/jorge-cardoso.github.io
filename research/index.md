@@ -14,14 +14,23 @@ toc: true
 ---  
 
 
-## Overview
+## PhD, MSc, and Visiting Positions
 
-[doing_a_PhD_Msc](doing_a_PhD_Msc) 
+If you are curious about systems, want to be challenged and engage in cutting edge research, propose novel ideas not 
+proposed before, and leave your own mark on the academic world, you are probably a good candidate for a PhD.
+
+While a MSc involve often involves the application of existing models and techniques, a PhD are almost totally 
+independent and involve the creation of novel knowledge not know before. 
+
+If you would like to do you PhD or Msc with our applied research group visit the following 
+webpage [Phd/MSsc and_visiting_positions](phd_msc_visiting_positions).
 
 ## AI-Driven Operations
 
-My group is currently developing the iForesight system which is being used to evaluate this new O&M approach. 
-[iForesight 3.0](iforesight) 
+Since 2016 my group is developing the [iForesight 3.0](iforesight) system which is being used to evaluate new O&M 
+approaches. It is intelligent a new tool aimed at [SRE](https://en.wikipedia.org/wiki/Site_Reliability_Engineering)
+cloud maintenance teams. It enables them to quickly detect, localize and predict anomalies thanks to the use of
+artificial intelligence when cloud services are slow or unresponsive. 
 
 ## Cloud Reliability
 
