@@ -14,14 +14,11 @@ toc: true
 ---  
 
 
-Students
------------------
-
-### Postdoc students
+## Postdoc students
 + Rodrigo Costa dos Santos, “Using PROM to Validate Process Model Similarity”, Postdoc, University of Coimbra, 
 Portugal. (Supervisor: 2014-2015).
 
-### PhD students
+## PhD students
 + João Carlos Palmela Pinheiro Caldeira, Agile Software Development Process Mining: Discovery, Conformance Checking 
 and Enhancement, University Institute of Lisbon (ISCTE), (co-supervisor with Fernando Brito e Abreu), 2015-(ongoing).
 + Alexandre Furtado Fernandes, “Aprendizagem Ubíqua e Web Semântica no E-Learning”, PhD, University of Coimbra, 
@@ -37,13 +34,12 @@ Madeira. (Supervision: 2007-2009).
 + Janez Hrastnik, “Improving business performance by applying knowledge management to process-oriented quality 
 management”, University of Madeira. (Supervision: 2006-2008).
 
-### MSc students
+## MSc students
 + Artur Jorge de Carvalho Pedroso, Building Machine Learning Microservices for the Data Science for Non-Programmers 
 Platform (with Prof. Filipe Araújo), 2018. 
 + Bruno Leonel André Lopes, Data Science for Non-Programmers: Orchestration of Microservices and Graphical User 
 Interface (with Prof. Filipe Araújo), 2018. 
-+ Fábio Figueiredo Pina, Monitoria de Arquiteturas de Micro-serviços (with Prof. Filipe Araújo and Prof. Rui Paiva), 
-2018. 
++ Fábio Figueiredo Pina, Monitoria de Arquiteturas de Micro-serviços (with Prof. Filipe Araújo and Prof. Rui Paiva), 2018. 
 + Fábio de Carvalho Ribeiro, Elastic Microservices Platform (with Prof. Filipe Araújo and Prof. Rui Paiva), 2018. 
 + Phani Pawan, Event correlation and analysis for fast Root Cause Analysis in OpenStack Clouds, Technical University 
 of Munich (TUM), Munich, Germany, 2018.
@@ -81,7 +77,7 @@ Thesis (Pré-Bolonha), University of Madeira, 2008. (Supervisor)
 + Bruno José de Sales Caires, Transparent Access to Relational, Autonomous and, Distributed Databases Using Semantic 
 Web and Service Oriented Technologies, Master Thesis (Pré-Bolonha), University of Madeira, 2007. (Supervisor)
 
-### Pre-Bologna BSc (equiv. MSc)
+## Pre-Bologna BSc (equiv. MSc)
 + João Sobrinho, Advanced Applications for Management, Integration and Analysis of Medium/Small Companies, BSc, 
 University of Madeira, 2006/07. (Supervisor)
 + Daniel Teixeira, Advanced Applications for Management, Integration and Analysis of Medium/Small Companies, BSc, 
