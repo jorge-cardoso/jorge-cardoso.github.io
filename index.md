@@ -60,6 +60,9 @@ Open Positions
 I currently have a few open positions for PhD students, postdocs, or professionals that would like to work with us
 to improve and extend with new ideas our system to release **iForesight 3.0**.
 
+
++ Permanent position (Munich or Dublin): [SRE / AIOps Engineer – Planet-scale Clouds](research/pdf_img/JD_OpenStack_SRE_Dub_(Apr_2019).pdf)
++ Permanent position (Munich or Dublin): [Openstack SRE Engineer – Planet-scale Clouds](research/pdf_img/JD_SRE_AIOps_Engineer_Dub_(Apr_2019).pdf)
 + PhD Position/Postdoc: [AI-Driven Cloud Operations](research/pdf_img/PhD_Postdoc_Position_Intelligent_Cloud_Operations_2019-02-15.pdf)
 + Permanent position: [Cloud Reliability Engineer](research/pdf_img/JD_IT_Cloud_Reliability_Engineer_(May 2016).pdf)
 + Permanent position: [Junior/Senior Researcher Large-scale Distributed Systems](research/pdf_img/JD_IT_Junior_Senior_Researcher_Large-Scale_Distributed_Systems_(Jul 2016).pdf)
