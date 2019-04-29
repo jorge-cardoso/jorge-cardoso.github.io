@@ -60,9 +60,9 @@ Open Positions
 I currently have a few open positions for PhD students, postdocs, or professionals that would like to work with us
 to improve and extend with new ideas our system to release **iForesight 3.0**.
 
-+ PhD Position/Postdoc: [AI-Driven Cloud Operations](research/PhD_Postdoc_Position_Intelligent_Cloud_Operations_2019-02-15.pdf)
-+ Permanent position: [Cloud Reliability Engineer](research/JD_IT_Cloud_Reliability_Engineer_(May 2016).pdf)
-+ Permanent position: [Junior/Senior Researcher Large-scale Distributed Systems](research/JD_IT_Junior_Senior_Researcher_Large-Scale_Distributed_Systems_(Jul 2016).pdf)
++ PhD Position/Postdoc: [AI-Driven Cloud Operations](research/pdf_img/PhD_Postdoc_Position_Intelligent_Cloud_Operations_2019-02-15.pdf)
++ Permanent position: [Cloud Reliability Engineer](research/pdf_img/JD_IT_Cloud_Reliability_Engineer_(May 2016).pdf)
++ Permanent position: [Junior/Senior Researcher Large-scale Distributed Systems](research/pdf_img/JD_IT_Junior_Senior_Researcher_Large-Scale_Distributed_Systems_(Jul 2016).pdf)
 
 
 News
