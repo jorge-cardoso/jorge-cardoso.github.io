@@ -135,7 +135,7 @@ In 2019, we will closely following the progresses make in the following 5 fields
 
 ## Team and Culture
 
-Several reserchers have contributed to iForesight, namely, llya Shakhat, Paul Staab, Wei Guangsheng, Sasho Nedelkoski, Alexander Wieder, Yi Feng, Florian Richter, Phani Pawan, and Ankur Bhatia, among others.
+Several reserchers have contributed to iForesight, namely, llya Shakhat, Paul Staab, Wei Guangsheng, Jinxunmi, Sasho Nedelkoski, Alexander Wieder, Yi Feng, Florian Richter, Francesco del Buono, Phani Pawan, and Ankur Bhatia, among others.
 
 Our culture of innovation and R&D is based on 3 main guiding principles:
 
