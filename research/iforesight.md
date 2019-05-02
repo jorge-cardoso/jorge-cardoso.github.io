@@ -90,8 +90,7 @@ A [semi-supervised machine learning](https://en.wikipedia.org/wiki/Semi-supervis
 the repository to automatically identify complex incidents associated with failures and explain the underlying
 possible root-cause to SREs and operators. 
 This analysis will learn associations between anomalies, alerts and external events which will be formalized as 
-rules and stored in a [knowledge-based system](https://en.wikipedia.org/wiki/Knowledge-based_systems).
-On top, a smart assistant will help operators in making associations and decisions on the relationship 
+rules and stored in a [knowledge-based system](https://en.wikipedia.org/wiki/Knowledge-based_systems)On top, a smart assistant will help operators in making associations and decisions on the relationship 
 between alerts and anomalies for [root-cause analysis](https://en.wikipedia.org/wiki/Root_cause_analysis). 
 
 In the future, this knowledge will be associated with recovery actions and managed by a
@@ -134,7 +133,9 @@ In 2019, we will closely following the progresses make in the following 5 fields
 + [Azure Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/cloudservices)
 + [CA APM](https://www.ca.com/us/products/application-performance-monitoring.html)
 
-## Culture
+## Team and Culture
+
+Several reserchers have contributed to iForesight, namely, llya Shakhat, Paul Staab, Wei Guangsheng, Sasho Nedelkoski, Alexander Wieder, Yi Feng, Florian Richter, Phani Pawan, and Ankur Bhatia, among others.
 
 Our culture of innovation and R&D is based on 3 main guiding principles:
 
@@ -142,3 +143,4 @@ Our culture of innovation and R&D is based on 3 main guiding principles:
 [Deep Work](https://www.amazon.com/gp/product/1455586692)*
 
 *(Time Spent) x (Intensity of Focus)
+
