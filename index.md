@@ -72,8 +72,9 @@ News
 ----
 + Our article **Anomaly Detection from System Tracing Data using Multimodal Deep Learning** was accepted to [IEEE Cloud 2019](http://conferences.computer.org/cloud/2019/), July 3-8, 2019, Milan, Italy. **(Acceptance Rate: 21%)**
 + Our article **Assessing Software Development Teams Efficiency using Process Mining** was accepted to [International Conference on Process Mining](https://icpmconference.org), June 24-26, 2019, Aachen, Germany
-+ Our article **Anomaly Detection and Classification using Distributed Tracing and Deep Learning** was accepted to [CCGrid 2019](https://www.ccgrid2019.org/index.html), 14-17.05, Cyprus. **(Conference Rank: A)**
++ Our article **Anomaly Detection and Classification using Distributed Tracing and Deep Learning** was accepted to [CCGrid 2019](https://www.ccgrid2019.org/index.html), 14-17.05, 2019, Cyprus. **(Conference Rank: A)**
 + Our article [Efficient Failure Diagnosis of OpenStack using Tempest](https://www.computer.org/csdl/mags/ic/2018/06/08509185-abs.html) was accepted for publication at IEEE Internet Computing **(Impact Factor 2018: 1.923)**.
++ This year we are part of the Program Committee of [SREcon 2019](https://www.usenix.org/conference/srecon19emea/), 2–4 October, 2019, Dublin, Ireland.
 + Jorge Cardoso [Mastering AIOps with Deep Learning](https://pt.slideshare.net/JorgeCardoso4/mastering-aiops-with-deep-learning), Presentation at [SRECon18](https://www.usenix.org/conference/srecon18europe), 29–31 August 2018, Dusseldorf, Germany.
 + Georgia Kapitsaki, Josef Ioannou, Jorge Cardoso, Carlos Pedrinaci, "Linked USDL Privacy: Describing Privacy Policies
  for Service",  was published at the IEEE Inter. Conf. on Web Services (ICWS) **(Conference Rank: A)**, 2-7 July 2018, San Francisco, USA, 2018. 
