@@ -71,6 +71,7 @@ These techniques, including **statistics**, **time-series analysis**, **deep lea
 **streaming**, and **data visualization**, enabled us to develop new production-ready services for troubleshooting 
 Huawei Cloud and detect issues which were previously undetectable.
 
+### Anomaly detection
 For example, we can autonomously identify anomalous microservices' latencies by dynamically choosing
 temporal features, predict memory leaks ahead of time before impacting systems, or finding rare message entries in 
 service logs with billions records. We applies all these techniques to real-time data streams.
@@ -86,6 +87,7 @@ We will extend anomaly detection by implementing two new detector services for d
 All the anomaly detectors contribute with results to a central knowledge repository of metric, trace, and log 
 observations, and alarms and relevant external events (e.g., platform upgrades).
 
+### Root-cause analysis
 A [semi-supervised machine learning](https://en.wikipedia.org/wiki/Semi-supervised_learning) system will analyze
 the repository to automatically identify complex incidents associated with failures and explain the underlying
 possible root-cause to SREs and operators. 
@@ -93,6 +95,7 @@ This analysis will learn associations between anomalies, alerts and external eve
 rules and stored in a [knowledge-based system](https://en.wikipedia.org/wiki/Knowledge-based_systems). On top, a smart assistant will help operators in making associations and decisions on the relationship 
 between alerts and anomalies for [root-cause analysis](https://en.wikipedia.org/wiki/Root_cause_analysis). 
 
+### Auto remediation
 Once methods for anomaly detection and root cause analysis are mastered, the next step is to look into auto remediation. The first approach consists in running automated diagnostics scripts (runbooks) to troubleshoot and gain insights of the current state of components, services, or systems to, afterwards, conduct a manual remediation. As knowledge on failure modes is gained, failure patterns are identified and recovery is encoded into automated remediation scripts. Often, only simple failure cases can be handled but this constitute a very good starting point for more complex scenarios. Examples include rebooting a host, restarting a microservice or hung process, free disk space, and remove cached data. As knowledge on running systems accumulates, auto-remediation becomes pervasive to service owners which can define their own recovery actions.
 
 
