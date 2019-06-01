@@ -98,8 +98,8 @@ between alerts and anomalies for [root-cause analysis](https://en.wikipedia.org/
 ### Auto remediation
 Once methods for anomaly detection and root cause analysis are mastered, the next step is to look into auto remediation. The first approach consists in running automated diagnostics scripts (runbooks) to troubleshoot and gain insights of the current state of components, services, or systems to, afterwards, conduct a manual remediation. As knowledge on failure modes is gained, failure patterns are identified and recovery is encoded into automated remediation scripts. Often, only simple failure cases can be handled but this constitute a very good starting point for more complex scenarios. Examples include rebooting a host, restarting a microservice or hung process, free disk space, and remove cached data. As knowledge on running systems accumulates, auto-remediation becomes pervasive to service owners which can define their own recovery actions.
 
-
 ## Tech Stack
+AIOps does not only requires new methods and techniques from the fields of statistics and ML, but it also needs online and offline big data infrastructure (such as Hadoop, HBase, Spark, Gobblin, Presto) to ingest and process scale monitoring data which can reach several PB/day. For example, Facebook uses Presto for interactive queries over their 300PB data stores.
 
 iForesight is build using the following software stack and applications. 
 
