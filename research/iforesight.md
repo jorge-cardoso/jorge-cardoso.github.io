@@ -158,7 +158,7 @@ Several reserchers have contributed to iForesight, namely, llya Shakhat, Paul St
 Our culture of innovation and R&D is based on 3 main guiding principles:
 
 + [DIY](https://en.wikipedia.org/wiki/Do_it_yourself), [KISS](https://pt.wikipedia.org/wiki/Keep_It_Simple),
-[Deep Work](https://www.amazon.com/gp/product/1455586692)*
+[Deep Work](https://www.amazon.com/gp/product/1455586692)*, [KPI-driven Research](https://en.wikipedia.org/wiki/Performance_indicator)
 
 *(Time Spent) x (Intensity of Focus)
 
