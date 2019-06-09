@@ -83,7 +83,7 @@ In 2017 we adopted AI in the form of [Data Science](https://en.wikipedia.org/wik
 [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning) approaches for anomaly detection, 
 root-cause analysis, fault prediction, and automated recovery into our suite. 
 
-These techniques, including **statistics**, **time-series analysis**, **deep learning**, **big data**,
+These techniques, including **statistical learning**, **time-series analysis**, **deep learning**, **big data**,
 **streaming**, and **data visualization**, enabled us to develop new production-ready services for troubleshooting 
 Huawei Cloud and detect issues which were previously undetectable.
 
