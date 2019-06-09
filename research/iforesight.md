@@ -45,10 +45,26 @@ the 1/5/10 rule (detection: 1 min, RCA: 5 min, recovery: 10 min).
 
 The following figure from [Gartner](https://www.gartner.com/en) provides a high level architecture of the system 
 we are building highliting the main areas of concern: 
-+ Real-time streaming and historical data, observations, [Big Data](https://en.wikipedia.org/wiki/Big_data), Machine Learning, [Anomaly Detection](https://en.wikipedia.org/wiki/Anomaly_detection), [Root-Cause Analysis](https://en.wikipedia.org/wiki/Root_cause_analysis), [Performance Analysis](https://en.wikipedia.org/wiki/Application_performance_management), [Predictive Maintenance](https://en.wikipedia.org/wiki/Predictive_maintenance), and [Automation](https://en.wikipedia.org/wiki/Robotic_process_automation). 
++ Real-time streaming and historical data, observations, 
+[Big Data](https://en.wikipedia.org/wiki/Big_data), 
+Machine Learning (ML), 
+[Anomaly Detection](https://en.wikipedia.org/wiki/Anomaly_detection), 
+[Root-Cause Analysis](https://en.wikipedia.org/wiki/Root_cause_analysis), 
+[Performance Analysis](https://en.wikipedia.org/wiki/Application_performance_management), 
+[Predictive Maintenance](https://en.wikipedia.org/wiki/Predictive_maintenance), and 
+[Automation](https://en.wikipedia.org/wiki/Robotic_process_automation). 
 <p>
 <img src="https://blogs.bmc.com/wp-content/uploads/2019/02/AIOpsGraphicGartner2018-768x408.png" height="408" width="768" style="float:center;margin:0 20px 0 0;"/>
 </p>
+
+The use of ML for production engineering can support the development of new approaches for: 
+1. Monitoring and alterting
+2. Anomaly detection and Root Cause Analysis
+3. Capacity planing and prediction
+4. Canarying validation
+5. Service Scaling
+
+Our work focuses on points 1) and 2). 
 
 
 ## Next-gen Solutions
