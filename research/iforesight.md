@@ -31,18 +31,24 @@ them to quickly detect and predict anomalies thanks to the use of artificial int
 are slow or unresponsive. 
 
 
-## Our Goal
+## Our Research
 
+### Limitations of existing systems
+Existing tools for monitoring IT infrastructures, networks and applications focus on collecting logs, metrics, events, and traces from distributed systems mainly for visualization. Nonetheless, the final goal of monitoring is to reach a level of technological development where we have tools that conduct root cause analysis with a high accuracy and enable to autonomously recover systems. To achieve this goal, we still need to shift from a data collection stage to an insight- and action-driven paradigm. One promising path to monitor planet- and large-scale platforms is to rely on advanced analytics and explore techniques from statistics, time-series analysis, data mining, natural language processing, graph processing, machine learning, and deep learning to extract insights from large volumes of monitoring data to support and drive recovery actions. 
+
+### Huawei Cloud
 Huawei Cloud is one of the largest and fastest growing platforms in the world. 
 It has a strong presence throughout the world with over 40 availability zones located across 23 geographical regions,
 ranging from Germany, France, South/Central America, Hong Kong and Russia to Thailand and South Africa.
 
+### AIOps
 The mission of the **Intelligent Cloud Operations** SRE team (based in [Munich](https://www.muenchen.de/int/en.html), 
 Germany) is to develop new systems and tools to analyze observability data 
 from [Huawei Cloud](https://www.huaweicloud.com/en-us/about/about_us.html)
 to detect impact to customers, identify the root cause within seconds, and fix the problem using 
 the 1/5/10 rule (detection: 1 min, RCA: 5 min, recovery: 10 min).
 
+### Main concerns
 The following figure from [Gartner](https://www.gartner.com/en) provides a high level architecture of the system 
 we are building highliting the main areas of concern: 
 + Real-time streaming and historical data, observations, 
