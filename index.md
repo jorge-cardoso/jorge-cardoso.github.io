@@ -93,16 +93,21 @@ News
 
 About me
 --------
-(Outdated) Previously he worked for several major companies such as [SAP Research](http://go.sap.com/) (Germany) on the 
+
+Jorge Cardoso his currently Chief Architect for **Intelligent Cloud Operations** at 
+[Huawei Munich Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany.
+I am also Associate Professor at the [University of Coimbra](http://www.uc.pt/en/fctuc/dei) (Portugal).
+
+Previously, he worked for several major companies such as [SAP Research](http://go.sap.com/) (Germany) on the 
 Internet of Services, [The Boeing Company](http://www.boeing.com) in Seattle (USA) on Enterprise Application 
 Integration and [CCG/Zentrum fur Graphische Datenverarbeitung]( http://www.ccg.pt/en/) on Computer Supported 
 Cooperative Work.
 
-He has authored and co-authored more than 135 scientific publications and has been part of more than 120 program 
+He has authored and co-authored more than 180 scientific publications and has been part of more than 120 program 
 committees and organization bodies (journals and conferences). He his author/editor of 9 books. He holds 6 US 
 and EU patents on process management and reliability engineering.
 [GoogleScholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en) shows more than 
-8000 citations for his research work with an h-index of 42. 
+8000 citations for his research work with an h-index of 43. 
 His last book, titled [Fundamentals of Service Systems](http://www.springer.com/de/book/9783319231945) from Springer, 
 compiles results from the research work of his areas of interest: cloud computing, business process management, 
 semantic Web, the Internet of Services, and service engineering.
@@ -120,8 +125,9 @@ Engineering [University of Coimbra](univeristy of coimbra) (1995 and 1998, Portu
 Contact
 -------
 Prof. Jorge Cardoso<br>
-[Huawei Munich Research Center](https://huawei.eu/research-and-innovation), Germany<br>
-[Departamento de Engenharia Informatica](http://www.uc.pt/en/fctuc/dei), University of Coimbra, Portugal<br>
++ [Huawei Munich Research Center](https://huawei.eu/research-and-innovation), Germany<br>
++ [Departamento de Engenharia Informatica](http://www.uc.pt/en/fctuc/dei), University of Coimbra, Portugal<br>
+
 jcardoso [*.A._.T$] dei | uc | pt <br>
 
 <blockquote><p>
