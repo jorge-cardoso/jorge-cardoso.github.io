@@ -205,7 +205,7 @@ In 2019, we will closely following the progresses make in the following 5 fields
 [SRE](https://landing.google.com/sre/),
 [RPA](https://en.wikipedia.org/wiki/Robotic_process_automation)
 
-## Our skill set
+## Our Skill Set
 
 + AiDevOps: AI/Data Science (Analytics), Software Engineering (Analysis, Design, Development, Testing), Operation (Deployment, Infrastructure)
 
