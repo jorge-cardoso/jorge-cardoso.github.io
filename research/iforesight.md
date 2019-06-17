@@ -124,16 +124,10 @@ In practice, these three tasks -- anomaly detection, RCA, and remediation -- are
 
 ### Evaluation
 
-We evaluate the techniques and algorithms we built using a 3 level approach:
-+ *Synthetics data*. We built a system simulating a microservice application which is able to generate data 
-under very specific conditions. These scenarios are usually difficult to obtain in by using testbeds and production systems.
-This controlled data enables a fine grained understanding of how new algorithms behave.
-+ *Testbed data*. Once an algorithm passes the evaluation of synthetic data, we evaluate it using testbed data.
-We run an OpenSack cloud platform under normal utilization. Fault have injects into the system and we expect algorithms
-to detect anomalies, find their root cause, predict anomalies, and remediate failures.
-+ *Production system*. In the last evaluation level, we deploy algorithm in planet-scale production systems. This is the
-final evaluation in an environment with noise and which generally makes algorithm generate many false positives.
-The accuracy, performance and the resources needed by the algorithms is also evaluated.
+We evaluate the techniques and algorithms we built using a 3-level approach:
++ *Synthetics data*. We built models simulating microservice applications which are able to generate data under very specific conditions. The scenarios simulated are usually difficult to obtain when using testbeds and production systems. The controlled data enables a fine-grained understanding of how new algorithms behave and are an effective way for improvement and redesign.
++ *Testbed data*. Once an algorithm passes the evaluation using synthetic data, we make a second evaluation using testbed data. We run an OpenSack cloud platform under normal utilization. Faults are injected into the platform and we expect algorithms to detect anomalies, find their root cause, predict errors, and remediate failures.
++ *Production data*. In the last step of the evaluation, we deploy algorithms in planet-scale production systems. This is the final evaluation in an environment with noise and which generally makes algorithms generate many false positives. Accuracy, performance and resources consumption is registered.
 
 
 ## Tech Stack
