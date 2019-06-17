@@ -122,6 +122,20 @@ Once methods for anomaly detection and root cause analysis are mastered, the nex
 ### The workflow
 In practice, these three tasks -- anomaly detection, RCA, and remediation -- are linked together to provide an end-to-end solution for O&M. For example, when anomaly detection identifies an HTTP endpoint with a high latency by analysing metrics, distributed traces are immediately analysed to reveal exactly which microservice or component is causing the problem. Its logs and context metrics are accessed to quickly diagnose the issue. Afterwards, when sufficient evidence characterizing the problem is collected, a remediation actions can be executed.
 
+### Evaluation
+
+We evaluate the techniques and algorithms we built using a 3 level approach:
++ *Synthetics data*. We built a system simulating a microservice application which is able to generate data 
+under very specific conditions. These scenarios are usually difficult to obtain in by using testbeds and production systems.
+This controlled data enables a fine grained understanding of how new algorithms behave.
++ *Testbed data*. Once an algorithm passes the evaluation of synthetic data, we evaluate it using testbed data.
+We run an OpenSack cloud platform under normal utilization. Fault have injects into the system and we expect algorithms
+to detect anomalies, find their root cause, predict anomalies, and remediate failures.
++ *Production system*. In the last evaluation level, we deploy algorithm in planet-scale production systems. This is the
+final evaluation in an environment with noise and which generally makes algorithm generate many false positives.
+The accuracy, performance and the resources needed by the algorithms is also evaluated.
+
+
 ## Tech Stack
 AIOps does not only requires new methods and techniques from the fields of statistics and ML, but it also needs online and offline big data infrastructure (such as Hadoop, HBase, Spark, Gobblin, Presto) to ingest and process scale monitoring data which can reach several PB/day. For example, Facebook uses Presto for interactive queries over their 300PB data stores.
 
