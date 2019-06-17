@@ -19,7 +19,8 @@ toc: true
 </a>
 </p>
 
-### Introduction
+
+## Introduction
 
 In planet-scale deployments, the Operation and Maintenance (O&M) of cloud platforms cannot be done any longer 
 manually or simply with off-the-shelf solutions. It requires self-developed automated systems, ideally exploiting 
@@ -32,22 +33,23 @@ of research with the goal to provide an intelligent new tool aimed at SRE cloud
 them to quickly detect and predict anomalies thanks to the use of artificial intelligence when cloud services 
 are slow or unresponsive. 
 
-### Limitations of existing systems
-Existing tools for monitoring IT infrastructures, networks and applications focus on collecting logs, metrics, events, and traces from distributed systems mainly for visualization. Nonetheless, the final goal of monitoring is to reach a level of technological development where we have tools that conduct root cause analysis with a high accuracy and enable to autonomously recover systems. To achieve this goal, we still need to shift from a data collection stage to an insight- and action-driven paradigm. One promising path to monitor planet- and large-scale platforms is to rely on advanced analytics and explore techniques from statistics, time-series analysis, data mining, natural language processing, graph processing, machine learning, and deep learning to extract insights from large volumes of monitoring data to support and drive recovery actions. 
+## Problem
+Existing tools for monitoring IT infrastructures, networks and applications focus on collecting logs, metrics, 
+events, and traces from distributed systems mainly for visualization. Nonetheless, the final goal of monitoring 
+is to reach a level of technological development where we have tools that conduct root cause analysis with a high 
+accuracy and enable to autonomously recover systems. To achieve this goal, we still need to shift from a data 
+collection stage to an insight- and action-driven paradigm. One promising path to monitor planet- and large-scale 
+platforms is to rely on advanced analytics and explore techniques from statistics, time-series analysis, data mining, 
+natural language processing, graph processing, machine learning, and deep learning to extract insights from large 
+volumes of monitoring data to support and drive recovery actions. 
 
-### AIOps
+## Approach
 The mission of the **Intelligent Cloud Operations** SRE team (based in [Munich](https://www.muenchen.de/int/en.html), 
 Germany) is to develop new systems and tools to analyze observability data 
 from [Huawei Cloud](https://www.huaweicloud.com/en-us/about/about_us.html)
 to detect impact to customers, identify the root cause within seconds, and fix the problem using 
 the 1/5/10 rule (detection: 1 min, RCA: 5 min, recovery: 10 min).
 
-### Huawei Cloud
-Huawei Cloud is one of the largest and fastest growing platforms in the world. 
-It has a strong presence throughout the world with over 40 availability zones located across 23 geographical regions,
-ranging from Germany, France, South/Central America, Hong Kong and Russia to Thailand and South Africa.
-
-### Main concerns
 The following figure from [Gartner](https://www.gartner.com/en) provides a high level architecture of the system 
 we are building highliting the main areas of concern: 
 + Real-time streaming and historical data, observations, 
@@ -63,17 +65,25 @@ Machine Learning (ML),
 </p>
 
 The use of ML for production engineering can support the development of new approaches for: 
-1. Monitoring and alterting
+1. Monitoring and alerting
 2. Anomaly detection and Root Cause Analysis
 3. Capacity planing and prediction
 4. Canarying validation
 5. Service Scaling
+6. Operational performance
 
 Our work focuses on points 1) and 2). 
 
+In 2017 we adopted AI in the form of [Data Science](https://en.wikipedia.org/wiki/Data_science) and 
+[Machine Learning](https://en.wikipedia.org/wiki/Machine_learning) approaches for anomaly detection, 
+root-cause analysis, fault prediction, and automated recovery into our suite. 
 
-## Next-gen Solutions
+These techniques, including **statistical learning**, **time-series analysis**, **deep learning**, **big data**,
+**streaming**, and **data visualization**, enabled us to develop new production-ready services for troubleshooting 
+Huawei Cloud and detect issues which were previously undetectable.
 
+
+## Huawei Cloud
 Our cloud has planet-scale technical requirements with an 
 [microservices](https://en.wikipedia.org/wiki/Microservices) architecture composed of hundreds of services.
 They are distributed over thousands of hosts in many geographical regions and operate with an availability 
@@ -84,13 +94,30 @@ opensource cloud operating system. OpenStack controls large pools of compute, st
 resources throughout tens of datacenters. The base services are predominantly written in Python and Java 
 running on Linux. 
 
-In 2017 we adopted AI in the form of [Data Science](https://en.wikipedia.org/wiki/Data_science) and 
-[Machine Learning](https://en.wikipedia.org/wiki/Machine_learning) approaches for anomaly detection, 
-root-cause analysis, fault prediction, and automated recovery into our suite. 
+Huawei Cloud is one of the largest and fastest growing platforms in the world. 
+It has a strong presence throughout the world with over 40 availability zones located across 23 geographical regions,
+ranging from Germany, France, South/Central America, Hong Kong and Russia to Thailand and South Africa.
 
-These techniques, including **statistical learning**, **time-series analysis**, **deep learning**, **big data**,
-**streaming**, and **data visualization**, enabled us to develop new production-ready services for troubleshooting 
-Huawei Cloud and detect issues which were previously undetectable.
+
+### Data Sources
+Generally, four types of data sources are desirable to monitor and collect:
+1. *Logs*. Service, microservices, and applications generate logs, composed of timestamped records with a structure 
+and free-form text, which are stored in system files.
+2. *Metrics*. Examples of metrics include CPU load, memory available, and the response time of a HTTP request.
+3. *Traces*. Traces records the workflow and tasks executed in response to an HTTP request. 
+4. *Events*. Major milestones which occur within a data center can be exposed as events. 
+Examples include alarms, service upgrades, and software releases.
+
+Once the data is collected, we apply reasoning algorithms and techniques to find suspicious patterns, 
+correlating multiple data sources to detect anomalies, conduct root-cause analysis, and remediate systems.
+
+### What to Analyse
+
+Google SRE team proposed [4 Golden Signals](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/) which provide key insights on how a distributed system is running.
++ *Latency*. Time to handle a request (aka response time)
++ *Traffic*. How much demand is being placed on a system
++ *Errors*. Rate of requests that fail
++ *Saturation*. Constraints places on service resources 
 
 ### Anomaly detection
 For example, we can autonomously identify anomalous microservices' latencies by dynamically choosing
@@ -113,14 +140,26 @@ A [semi-supervised machine learning](https://en.wikipedia.org/wiki/Semi-supervis
 the repository to automatically identify complex incidents associated with failures and explain the underlying
 possible root-cause to SREs and operators. 
 This analysis will learn associations between anomalies, alerts and external events which will be formalized as 
-rules and stored in a [knowledge-based system](https://en.wikipedia.org/wiki/Knowledge-based_systems). On top, a smart assistant will help operators in making associations and decisions on the relationship 
+rules and stored in a [knowledge-based system](https://en.wikipedia.org/wiki/Knowledge-based_systems). 
+On top, a smart assistant will help operators in making associations and decisions on the relationship 
 between alerts and anomalies for [root-cause analysis](https://en.wikipedia.org/wiki/Root_cause_analysis). 
 
 ### Auto remediation
-Once methods for anomaly detection and root cause analysis are mastered, the next step is to look into auto remediation. The first approach consists in running automated diagnostics scripts (runbooks) to troubleshoot and gain insights of the current state of components, services, or systems to, afterwards, conduct a manual remediation. As knowledge on failure modes is gained, failure patterns are identified and recovery is encoded into automated remediation scripts. Often, only simple failure cases can be handled but this constitute a very good starting point for more complex scenarios. Examples include rebooting a host, restarting a microservice or hung process, free disk space, and remove cached data. As knowledge on running systems accumulates, auto-remediation becomes pervasive to service owners which can define their own recovery actions.
+Once methods for anomaly detection and root cause analysis are mastered, the next step is to look into auto 
+remediation. The first approach consists in running automated diagnostics scripts (runbooks) to troubleshoot and 
+gain insights of the current state of components, services, or systems to, afterwards, conduct a manual remediation.
+As knowledge on failure modes is gained, failure patterns are identified and recovery is encoded into automated 
+remediation scripts. Often, only simple failure cases can be handled but this constitute a very good starting point 
+for more complex scenarios. Examples include rebooting a host, restarting a microservice or hung process, 
+free disk space, and remove cached data. As knowledge on running systems accumulates, auto-remediation becomes 
+pervasive to service owners which can define their own recovery actions.
 
 ### The workflow
-In practice, these three tasks -- anomaly detection, RCA, and remediation -- are linked together to provide an end-to-end solution for O&M. For example, when anomaly detection identifies an HTTP endpoint with a high latency by analysing metrics, distributed traces are immediately analysed to reveal exactly which microservice or component is causing the problem. Its logs and context metrics are accessed to quickly diagnose the issue. Afterwards, when sufficient evidence characterizing the problem is collected, a remediation actions can be executed.
+In practice, these three tasks -- anomaly detection, RCA, and remediation -- are linked together to provide an 
+end-to-end solution for O&M. For example, when anomaly detection identifies an HTTP endpoint with a high latency 
+by analysing metrics, distributed traces are immediately analysed to reveal exactly which microservice or component 
+is causing the problem. Its logs and context metrics are accessed to quickly diagnose the issue. Afterwards, when 
+sufficient evidence characterizing the problem is collected, a remediation actions can be executed.
 
 ### Evaluation
 
@@ -128,6 +167,20 @@ We evaluate the techniques and algorithms we built using a 3-level approach:
 + *Synthetics data*. We built models simulating microservice applications which are able to generate data under very specific conditions. The scenarios simulated are usually difficult to obtain when using testbeds and production systems. The controlled data enables a fine-grained understanding of how new algorithms behave and are an effective way for improvement and redesign.
 + *Testbed data*. Once an algorithm passes the evaluation using synthetic data, we make a second evaluation using testbed data. We run an OpenSack cloud platform under normal utilization. Faults are injected into the platform and we expect algorithms to detect anomalies, find their root cause, predict errors, and remediate failures.
 + *Production data*. In the last step of the evaluation, we deploy algorithms in planet-scale production systems. This is the final evaluation in an environment with noise and which generally makes algorithms generate many false positives. Accuracy, performance and resources consumption is registered.
+
+Many public datasets are also available to conduct comparative studies:
++ [Yahoo webscope](https://webscope.sandbox.yahoo.com/catalog.php?datatype=s&did=70&guccounter=1) 
++ [Alibaba clusterdata](https://github.com/alibaba/clusterdata)
++ [Azure Public Dataset](https://github.com/Azure/AzurePublicDataset)
++ [Google Cluster Data](https://github.com/google/cluster-data)
++ [Outlier Detection DataSets from Stonybrook](http://odds.cs.stonybrook.edu/)
++ [Outlier evaluation from LMU](http://www.dbs.ifi.lmu.de/research/outlier-evaluation/)
++ [Outlier datasets from ELKI](https://elki-project.github.io/datasets/outlier)
++ [LogPai datasets](https://github.com/logpai/loghub/blob/master/README.md)
++ [Timeseries classification](http://timeseriesclassification.com/dataset.php?train=&test=&leng=&class=&type=='sensor')
++ [Numenta Anomaly Benchmark](https://github.com/numenta/NAB)
++ [Anomaly detection datasets from Harvard](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OPQMVF)
++ [Anomaly detection datasets from Oregon State](https://ir.library.oregonstate.edu/concern/datasets/47429f155)
 
 
 ## Tech Stack
