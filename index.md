@@ -12,7 +12,7 @@ ads: false
 </a>
 </p>
 
-I am Chief Architect for **Inteligent Cloud Operations** at 
+I am Chief Architect for **Intelligent Cloud Operations** at 
 [Huawei Munich Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany.
 I am also Associate Professor at the [University of Coimbra](http://www.uc.pt/en/fctuc/dei) (Portugal), and
 affiliated to the Information Systems Group.
