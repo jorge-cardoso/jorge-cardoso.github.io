@@ -205,9 +205,6 @@ In 2019, we will closely following the progresses make in the following 5 fields
 [SRE](https://landing.google.com/sre/),
 [RPA](https://en.wikipedia.org/wiki/Robotic_process_automation)
 
-## Our Skill Set
-
-+ AiDevOps: AI/Data Science (Analytics), Software Engineering (Analysis, Design, Development, Testing), Operation (Deployment, Infrastructure)
 
 ## Systems from Academia and Industry
 
@@ -222,12 +219,20 @@ In 2019, we will closely following the progresses make in the following 5 fields
 
 ## Team and Culture
 
-Several reserchers have contributed to iForesight, namely, llya Shakhat, Paul Staab, Wei Guangsheng, Jinxunmi, Sasho Nedelkoski, Alexander Wieder, Yi Feng, Florian Richter, Francesco del Buono, Phani Pawan, and Ankur Bhatia, among others.
+Several researchers have contributed to iForesight, namely, llya Shakhat, Paul Staab, Wei Guangsheng, Jinxunmi,
+Sasho Nedelkoski, Alexander Wieder, Yi Feng, Florian Richter, Francesco del Buono, Phani Pawan, and Ankur Bhatia, 
+among others.
+
+Our skill set encompasses expertise in the fields of AI/Data Science (Analytics), 
+Software Engineering (Analysis, Design, Development, Testing), and Operation (Deployment, Infrastructure).
+
 
 Our culture of innovation and R&D is based on 4 main guiding principles:
 
-+ [DIY](https://en.wikipedia.org/wiki/Do_it_yourself), [KISS](https://pt.wikipedia.org/wiki/Keep_It_Simple),
-[Deep Work](https://www.amazon.com/gp/product/1455586692)*, [KPI-driven Research](https://en.wikipedia.org/wiki/Performance_indicator)
++ [DIY](https://en.wikipedia.org/wiki/Do_it_yourself),
+[KISS](https://pt.wikipedia.org/wiki/Keep_It_Simple),
+[Deep Work](https://www.amazon.com/gp/product/1455586692)*, 
+[KPI-driven Research](https://en.wikipedia.org/wiki/Performance_indicator)
 
 *(Time Spent) x (Intensity of Focus)
 
