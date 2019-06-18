@@ -61,6 +61,7 @@ I currently have a few open positions for PhD students, postdocs, or professiona
 to improve and extend with new ideas our system to release **iForesight 3.0**.
 
 
++ Permanent position (Munich or Dublin): [AI / Machine Learning](research/pdf_img/JD_AI_Machine_Learning_Mun_Dub_(Jun_2019).pdf)
 + Permanent position (Munich or Dublin): [SRE / AIOps Engineer – Planet-scale Clouds](research/pdf_img/JD_OpenStack_SRE_Dub_(Apr_2019).pdf)
 + Permanent position (Munich or Dublin): [Openstack SRE Engineer – Planet-scale Clouds](research/pdf_img/JD_SRE_AIOps_Engineer_Dub_(Apr_2019).pdf)
 + PhD Position/Postdoc: [AI-Driven Cloud Operations](research/pdf_img/PhD_Postdoc_Position_Intelligent_Cloud_Operations_2019-02-15.pdf)
