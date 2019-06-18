@@ -82,6 +82,9 @@ These techniques, including **statistical learning**, **time-series analysis**, 
 **streaming**, and **data visualization**, enabled us to develop new production-ready services for troubleshooting 
 Huawei Cloud and detect issues which were previously undetectable.
 
+## Challenges
+
+The challenges of operationalising AI are not limited to the understanding of deep learnign or machine learning algorithms. Major challenges are related with software engineering, access and processing of large amounts of distributed data, model management, updating, deleting and training models on specialized GPUs and hardware, composition of workflows for orchestrating parallel jobs, and the visual management of models, workflows, and results. 
 
 ## Huawei Cloud
 Our cloud has planet-scale technical requirements with an 
