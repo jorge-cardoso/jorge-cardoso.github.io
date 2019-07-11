@@ -192,6 +192,14 @@ Many public datasets are also available to conduct comparative studies:
 + [Anomaly detection datasets from Harvard](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OPQMVF)
 + [Anomaly detection datasets from Oregon State](https://ir.library.oregonstate.edu/concern/datasets/47429f155)
 
+### Exploring SRE Pain Points
+After identifying a pain point, we identify the following elements to develop a solution:
++ Existing manual workflows for troubleshooting for automatization 
++ Key golden metrics which can enable an effective anomaly detection
++ Data sources for root cause analysis
++ Manual recovery actions
++ Critical components which requires special monitoring infrastructure
+
 
 ## Tech Stack
 AIOps does not only requires new methods and techniques from the fields of statistics and ML, but it also needs online and offline big data infrastructure (such as Hadoop, HBase, Spark, Gobblin, Presto) to ingest and process scale monitoring data which can reach several PB/day. For example, Facebook uses Presto for interactive queries over their 300PB data stores.
