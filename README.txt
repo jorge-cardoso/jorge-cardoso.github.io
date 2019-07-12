@@ -11,12 +11,11 @@ $ jekyll serve
 To deploy the site locally run:
 jekyll serve
 
+To generate the new bibs and publications web page:
+cd jorge-cardoso.github.io/publications
+php bibtex2html.php cardoso.bib index.md
 
 To update git hub run the following commands:
 git add .
 git commit -m "made some changes"
 git push origin master
-
-To generate the new bibs and publications web page:
-cd jorge-cardoso.github.io/publications
-php bibtex2html.php cardoso.bib index.md
