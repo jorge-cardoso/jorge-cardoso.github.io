@@ -123,6 +123,8 @@ Google SRE team proposed [4 Golden Signals](https://landing.google.com/sre/sre-b
 + *Saturation*. Constraints places on service resources 
 
 ### Anomaly detection
+Services can be analyzed from a latency perspective to identify unreachable endpoints and permanent changes and spikes in  latency. 
+
 For example, we can autonomously identify anomalous microservices' latencies by dynamically choosing
 temporal features, predict memory leaks ahead of time before impacting systems, or finding rare message entries in 
 service logs with billions records. We applies all these techniques to real-time data streams.
@@ -145,7 +147,13 @@ possible root-cause to SREs and operators.
 This analysis will learn associations between anomalies, alerts and external events which will be formalized as 
 rules and stored in a [knowledge-based system](https://en.wikipedia.org/wiki/Knowledge-based_systems). 
 On top, a smart assistant will help operators in making associations and decisions on the relationship 
-between alerts and anomalies for [root-cause analysis](https://en.wikipedia.org/wiki/Root_cause_analysis). 
+between alerts and anomalies for [root-cause analysis](https://en.wikipedia.org/wiki/Root_cause_analysis).
+
+Several techniques can be for root cause analysis, e.g.:
++ Physical Host Analysis: Resource saturation high CPU utilization, >90% memory utilization, high dropping of network packets, low IO utilization, memory leaks
++ Traffic Analysis: Sudden increase in requests and slashdot effect.
++ Trace Analysis: Component or dependency failure
++ Event Analysis: Upgrades, reconfigurations, forklift replacements
 
 ### Auto remediation
 Once methods for anomaly detection and root cause analysis are mastered, the next step is to look into auto 
