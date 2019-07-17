@@ -151,9 +151,9 @@ between alerts and anomalies for [root-cause analysis](https://en.wikipedia.org/
 
 Several techniques can be for root cause analysis, e.g.:
 + Physical Host Analysis: Resource saturation high CPU utilization, >90% memory utilization, high dropping of network packets, low IO utilization, memory leaks
-+ Traffic Analysis: Sudden increase in requests and slashdot effect.
-+ Trace Analysis: Component or dependency failure
-+ Event Analysis: Upgrades, reconfigurations, forklift replacements
++ Traffic Analysis: Correlation between sudden increase in requests and slashdot effect, with increase latency of requests. 
++ Trace Analysis: Component or dependency failure, structural trace analysis, response time span analysis.
++ Event Analysis: Causality between upgrades, reconfigurations, and forklift replacements and failure.
 
 ### Auto remediation
 Once methods for anomaly detection and root cause analysis are mastered, the next step is to look into auto 
