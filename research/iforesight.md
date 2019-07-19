@@ -82,6 +82,17 @@ These techniques, including **statistical learning**, **time-series analysis**, 
 **streaming**, and **data visualization**, enabled us to develop new production-ready services for troubleshooting 
 Huawei Cloud and detect issues which were previously undetectable.
 
+## AIOPs platform
+An AIOps platform architecture consists of functional layers such as:
+
+1. *Big Data processing*. Real-time processing of streaming and historical data.
+2. *Data pipeline*. Connected data processing elements ingesting data from multiple sources.
+3. *Library of algorithms*: Statistical functions, classical machine learning, and deep learning algorithm.
+4. *Automation*. Use runbooks and RPA technology to automate repetitive tasks.
+5. *User interface*. Allows IT operations teams t interact with the platform and quickly identify issues and apply corrective actions.
+
+Our work focuses on points 1)-3). 
+
 ## Challenges
 
 The challenges of operationalising AI are not limited to the understanding of deep learnign or machine learning algorithms. Major challenges are related with software engineering, access and processing of large amounts of distributed data, model management, updating, deleting and training models on specialized GPUs and hardware, composition of workflows for orchestrating parallel jobs, and the visual management of models, workflows, and results. 
