@@ -95,7 +95,10 @@ Our work focuses on points 1)-3).
 
 ## Challenges
 
-The challenges of operationalising AI are not limited to the understanding of deep learnign or machine learning algorithms. Major challenges are related with software engineering, access and processing of large amounts of distributed data, model management, updating, deleting and training models on specialized GPUs and hardware, composition of workflows for orchestrating parallel jobs, and the visual management of models, workflows, and results. 
+The challenges of operationalising AI are not limited to the understanding of deep learnign or machine learning algorithms.
+Major challenges are related with software engineering, access and processing of large amounts of distributed data, 
+model management, updating, deleting and training models on specialized GPUs and hardware, composition of workflows
+for orchestrating parallel jobs, and the visual management of models, workflows, and results. 
 
 ## Huawei Cloud
 Our cloud has planet-scale technical requirements with an 
@@ -112,9 +115,17 @@ Huawei Cloud is one of the largest and fastest growing platforms in the world.
 It has a strong presence throughout the world with over 40 availability zones located across 23 geographical regions,
 ranging from Germany, France, South/Central America, Hong Kong and Russia to Thailand and South Africa.
 
+There are three properties that make platforms such as Huawei Cloud far more difficult to monitor and troubleshoot:
+1. Amount of data and relationships which O&M teams need to analyze.
+2. Due to its distributed nature and complexity, system data has a low signal to noise ratio.
+3. Since many different subsystems interact together, semantically reconciliating data is difficult.
 
 ### Data Sources
-Generally, four types of data sources are desirable to monitor and collect:
+
+Monitoring data comes from many different data sources such hypervisors, OS, applications, application servers, 
+middleware, databases, application logs, host and network metrics.
+
+Generally, data sources can be classified in four types:
 1. *Logs*. Service, microservices, and applications generate logs, composed of timestamped records with a structure 
 and free-form text, which are stored in system files.
 2. *Metrics*. Examples of metrics include CPU load, memory available, and the response time of a HTTP request.
@@ -122,19 +133,31 @@ and free-form text, which are stored in system files.
 4. *Events*. Major milestones which occur within a data center can be exposed as events. 
 Examples include alarms, service upgrades, and software releases.
 
-Once the data is collected, we apply reasoning algorithms and techniques to find suspicious patterns, 
-correlating multiple data sources to detect anomalies, conduct root-cause analysis, and remediate systems.
-
-### What to Analyse
-
-Google SRE team proposed [4 Golden Signals](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/) which provide key insights on how a distributed system is running.
+Google SRE team proposed [4 Golden Signals](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/) 
+which provide key insights on how a distributed system is running using metrics:
 + *Latency*. Time to handle a request (aka response time)
 + *Traffic*. How much demand is being placed on a system
 + *Errors*. Rate of requests that fail
 + *Saturation*. Constraints places on service resources 
 
-### Anomaly detection
-Services can be analyzed from a latency perspective to identify unreachable endpoints and permanent changes and spikes in  latency. 
+An AIOps platform needs to be able to ingest logs, metrics, traces, and events into efficient key-value databases
+where they are stored to later be accessed and analyzed.
+
+### Pattern Discovery
+
+The objective of approaches for pattern discovery is to detect patterns in noisy and high-dimensionality data. 
+Once the data is collected, we apply probabilistic algorithms, ML and other techniques to find suspicious patterns. 
+
+Examples of patterns of interests include:
++ Latency outliers and latency trends in metrics
++ Gradual degradation of traffic and incoming calls
++ Spikes or sudden change in error rate in logs
++ Saturation of memory utilization \>95% memory 
++ Structural changes in traces
+
+Patterns of interests are not always a synonym of an anomaly or a failure. Often, a pattern is associated with a
+probability that something is possibly wrong. By correlating patterns from multiple data sources, we increase 
+the confidence (precision and recall) that a failure is indeed under way.
 
 For example, we can autonomously identify anomalous microservices' latencies by dynamically choosing
 temporal features, predict memory leaks ahead of time before impacting systems, or finding rare message entries in 
@@ -145,30 +168,37 @@ what still needs to be mastered is the extraction of meaningful and actionable i
 While many argue that "the more [data] the merrier", in reality, the more log statements you have, the less
 you can find due to noise and non-determinism.
 
-With the success of anomaly detection in 2017-2018, in 2019 we are planning the next phase of our next-gen 
-monitoring and troubleshooting suite. 
-We will extend anomaly detection by implementing two new detector services for distributed trace and service logs.
+With the success of developing pattern discovery for anomaly detection in 2017-2018, in 2019 we are planning
+the next phase of our next-gen monitoring and troubleshooting suite. 
+We will extend supported patterns by implementing new detector services for distributed trace and service logs.
 All the anomaly detectors contribute with results to a central knowledge repository of metric, trace, and log 
 observations, and alarms and relevant external events (e.g., platform upgrades).
 
-### Root-cause analysis
+
+### Inductive Inference 
+
+Inductive reasoning draws a conclusion by gathering together particular observations (i.e., patterns discovered) in the
+form of premises and reasons from these particular premises to a general conclusion. Root-cause analysis is a 
+particular form of inference.
+
 A [semi-supervised machine learning](https://en.wikipedia.org/wiki/Semi-supervised_learning) system will analyze
-the repository to automatically identify complex incidents associated with failures and explain the underlying
+the repository to automatically infer complex incidents associated with failures and explain the underlying
 possible root-cause to SREs and operators. 
-This analysis will learn associations between anomalies, alerts and external events which will be formalized as 
+This inference will learn associations between patterns, alerts and external events which will be formalized as 
 rules and stored in a [knowledge-based system](https://en.wikipedia.org/wiki/Knowledge-based_systems). 
 On top, a smart assistant will help operators in making associations and decisions on the relationship 
-between alerts and anomalies for [root-cause analysis](https://en.wikipedia.org/wiki/Root_cause_analysis).
+between patterns, alerts and anomalies for [root-cause analysis](https://en.wikipedia.org/wiki/Root_cause_analysis).
 
 Several techniques can be for root cause analysis, e.g.:
-+ Physical Host Analysis: Resource saturation high CPU utilization, >90% memory utilization, high dropping of network packets, low IO utilization, memory leaks
-+ Traffic Analysis: Correlation between sudden increase in requests and slashdot effect, with increase latency of requests. 
-+ Trace Analysis: Component or dependency failure, structural trace analysis, response time span analysis.
-+ Event Analysis: Causality between upgrades, reconfigurations, and forklift replacements and failure.
++ Traffic analysis: Correlation between sudden increase in requests and slashdot effect, with increase 
+latency of requests. 
++ Trace analysis: Component or dependency failure, structural trace analysis, response time span analysis.
++ Event analysis: Causality between upgrades, reconfigurations, and forklift replacements and failure.
 
-### Auto remediation
-Once methods for anomaly detection and root cause analysis are mastered, the next step is to look into auto 
-remediation. The first approach consists in running automated diagnostics scripts (runbooks) to troubleshoot and 
+### Remediation
+
+Once methods for pattern discovery and inference are mastered, the next step is to look into auto remediation. 
+The first approach consists in running automated diagnostics scripts (runbooks) to troubleshoot and 
 gain insights of the current state of components, services, or systems to, afterwards, conduct a manual remediation.
 As knowledge on failure modes is gained, failure patterns are identified and recovery is encoded into automated 
 remediation scripts. Often, only simple failure cases can be handled but this constitute a very good starting point 
@@ -176,12 +206,16 @@ for more complex scenarios. Examples include rebooting a host, restarting a micr
 free disk space, and remove cached data. As knowledge on running systems accumulates, auto-remediation becomes 
 pervasive to service owners which can define their own recovery actions.
 
-### The workflow
-In practice, these three tasks -- anomaly detection, RCA, and remediation -- are linked together to provide an 
-end-to-end solution for O&M. For example, when anomaly detection identifies an HTTP endpoint with a high latency 
+### Automation
+
+In practice, these three tasks -- pattern discovery, inference, and remediation -- are linked together to provide an 
+end-to-end solution for O&M. 
+For example, when pattern discovery identifies an HTTP endpoint with a high latency associated with an anomaly 
 by analysing metrics, distributed traces are immediately analysed to reveal exactly which microservice or component 
-is causing the problem. Its logs and context metrics are accessed to quickly diagnose the issue. Afterwards, when 
-sufficient evidence characterizing the problem is collected, a remediation actions can be executed.
+is causing the problem.
+Its logs and context metrics are accessed to quickly diagnose the issue. 
+Afterwards, when sufficient evidence characterizing the problem is collected, inference will nominate remediation 
+actions to be executed.
 
 ### Evaluation
 
