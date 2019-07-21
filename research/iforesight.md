@@ -339,8 +339,11 @@ Several researchers have contributed to iForesight, namely, llya Shakhat, Paul S
 Sasho Nedelkoski, Alexander Wieder, Yi Feng, Florian Richter, Francesco del Buono, Phani Pawan, and Ankur Bhatia, 
 among others.
 
-Our skill set encompasses expertise in the fields of AI/Data Science (Analytics), 
-Software Engineering (Analysis, Design, Development, Testing), and Operation (Deployment, Infrastructure).
+Our skill set encompasses expertise in the fields of:
++ AI/Data Science (time series analysis, regression, decision trees, pattern recognition, probability theory 
+and neural networks),
++ Software Engineering (analysis, design, development, testing), and 
++ Operation (deployment, infrastructure).
 
 
 Our culture of innovation and R&D is based on 4 main guiding principles:
