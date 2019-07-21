@@ -143,10 +143,11 @@ which provide key insights on how a distributed system is running using metrics:
 An AIOps platform needs to be able to ingest logs, metrics, traces, and events into efficient key-value databases
 where they are stored to later be accessed and analyzed.
 
-### Pattern Discovery
+### Pattern Recognition
 
-The objective of approaches for pattern discovery is to detect patterns in noisy and high-dimensionality data. 
-Once the data is collected, we apply probabilistic algorithms, ML and other techniques to find suspicious patterns. 
+The objective of approaches for [pattern recognition](https://en.wikipedia.org/wiki/Pattern_recognition) is to detect
+patterns in noisy and high-dimensionality data. 
+Once the data is collected, we apply probabilistic algorithms, ML and other techniques to find suspicious patterns.
 
 Examples of patterns of interests include:
 + Latency outliers and latency trends in metrics
@@ -154,6 +155,9 @@ Examples of patterns of interests include:
 + Spikes or sudden change in error rate in logs
 + Saturation of memory utilization \>95% memory 
 + Structural changes in traces
+
+For metrics, pattern recognition can rely on [feature-based time-series analysis](https://arxiv.org/abs/1709.08055) 
+to identify interpretable insights of their structure.
 
 Patterns of interests are not always a synonym of an anomaly or a failure. Often, a pattern is associated with a
 probability that something is possibly wrong. By correlating patterns from multiple data sources, we increase 
@@ -168,7 +172,7 @@ what still needs to be mastered is the extraction of meaningful and actionable i
 While many argue that "the more [data] the merrier", in reality, the more log statements you have, the less
 you can find due to noise and non-determinism.
 
-With the success of developing pattern discovery for anomaly detection in 2017-2018, in 2019 we are planning
+With the success of developing pattern recognition for anomaly detection in 2017-2018, in 2019 we are planning
 the next phase of our next-gen monitoring and troubleshooting suite. 
 We will extend supported patterns by implementing new detector services for distributed trace and service logs.
 All the anomaly detectors contribute with results to a central knowledge repository of metric, trace, and log 
@@ -197,7 +201,7 @@ latency of requests.
 
 ### Remediation
 
-Once methods for pattern discovery and inference are mastered, the next step is to look into auto remediation. 
+Once methods for pattern recognition and inference are mastered, the next step is to look into auto remediation. 
 The first approach consists in running automated diagnostics scripts (runbooks) to troubleshoot and 
 gain insights of the current state of components, services, or systems to, afterwards, conduct a manual remediation.
 As knowledge on failure modes is gained, failure patterns are identified and recovery is encoded into automated 
@@ -208,9 +212,9 @@ pervasive to service owners which can define their own recovery actions.
 
 ### Automation
 
-In practice, these three tasks -- pattern discovery, inference, and remediation -- are linked together to provide an 
+In practice, these three tasks -- pattern recognition, inference, and remediation -- are linked together to provide an 
 end-to-end solution for O&M. 
-For example, when pattern discovery identifies an HTTP endpoint with a high latency associated with an anomaly 
+For example, when pattern recognition identifies an HTTP endpoint with a high latency associated with an anomaly 
 by analysing metrics, distributed traces are immediately analysed to reveal exactly which microservice or component 
 is causing the problem.
 Its logs and context metrics are accessed to quickly diagnose the issue. 
