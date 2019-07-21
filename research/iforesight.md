@@ -120,6 +120,36 @@ There are three properties that make platforms such as Huawei Cloud far more dif
 2. Due to its distributed nature and complexity, system data has a low signal to noise ratio.
 3. Since many different subsystems interact together, semantically reconciliating data is difficult.
 
+
+The strongest challenge for cloud architecture is design and operational complexity. 
+Cloud deployments comprise thousands of geographically distributed services and microservices.
+Key building block components which require a close monitoring include:
+
++ [API Gateways](https://microservices.io/patterns/apigateway.html) (e.g., [Kong](https://konghq.com))
++ [Load Balancers](https://en.wikipedia.org/wiki/Load_balancing_(computing) (e.g., [HAProxy](http://www.haproxy.org))
++ [Message Queuing Services](https://en.wikipedia.org/wiki/Message_queuing_service)
+(e.g., [RabbitMQ](https://en.wikipedia.org/wiki/RabbitMQ))
++ [Distributed Caches](https://en.wikipedia.org/wiki/Distributed_cache) 
+(e.g., [Redis](https://en.wikipedia.org/wiki/Redis))
++ [Web Servers](https://en.wikipedia.org/wiki/Web_server)
+(e.g., [Apache](https://en.wikipedia.org/wiki/Apache_HTTP_Server))
++ [Application Servers](https://en.wikipedia.org/wiki/Application_server) 
+(e.g., [EJB](https://en.wikipedia.org/wiki/Enterprise_JavaBeans))
++ [Database Servers](https://en.wikipedia.org/wiki/Database_server) 
+(e.g., [MySQL](https://en.wikipedia.org/wiki/MySQL))
++ [Linux Servers](https://en.wikipedia.org/wiki/Linux) 
++ [Network Switches](https://en.wikipedia.org/wiki/Network_switch) and 
+[Network Routers](https://en.wikipedia.org/wiki/Router_(computing)
+
+Besides these building blocks which are part of the base cloud infrastructure, service offerings also need to be
+monitored:
++ *Compute, network, storage*. Cloud servers, auto scaling, object storage, volume service, VPC network, and CDN, 
++ *Databases*. MySQl, PostgreSQL, and replication service.
++ *Security*. Vulnerability scan service, SSL management, and Anti-DDoS.
++ *Applications*. APM, API Gateway, and application orchestration. 
++ *Enterprise Intelligence*. Machine learning services, graph engines, face and image recognition, and Mapreduce.
++ *DevCloud*. Project management, build, code hub, code check, and code release.
+
 ### Data Sources
 
 Monitoring data comes from many different data sources such hypervisors, OS, applications, application servers, 
@@ -139,6 +169,15 @@ which provide key insights on how a distributed system is running using metrics:
 + *Traffic*. How much demand is being placed on a system
 + *Errors*. Rate of requests that fail
 + *Saturation*. Constraints places on service resources 
+
+Other proposals include the [RED](https://www.vividcortex.com/blog/monitoring-and-observability-with-use-and-red) and 
+[USE](http://www.brendangregg.com/usemethod.html?source=post_page---------------------------) methods.
+
+When key services are not often called by users, the volume of metrics collected is insufficient for 
+pattern recognition and anomaly detection.
+In such cases, [synthetic monitoring](https://en.wikipedia.org/wiki/Synthetic_monitoring) (also known as active 
+monitoring) can be adopted and consists in creating artificial users to simulate user behavior by making automated
+calls to services. 
 
 An AIOps platform needs to be able to ingest logs, metrics, traces, and events into efficient key-value databases
 where they are stored to later be accessed and analyzed.
@@ -181,19 +220,22 @@ observations, and alarms and relevant external events (e.g., platform upgrades).
 
 ### Inductive Inference 
 
-Inductive reasoning draws a conclusion by gathering together particular observations (i.e., patterns discovered) in the
-form of premises and reasons from these particular premises to a general conclusion. Root-cause analysis is a 
-particular form of inference.
+While the patterns recognized correspond to the symptoms of an underlying problem, inductive inference
+explores the problem space and tries to identify the faulty services or resources.
+
+Inductive reasoning draws a conclusion by gathering together particular observations (i.e., patterns discovered) 
+in the form of premises and reasons from these particular premises to a general conclusion.
+Troubleshooting, root-cause analysis, tuning, and capacity planning are particular forms of inference.
 
 A [semi-supervised machine learning](https://en.wikipedia.org/wiki/Semi-supervised_learning) system will analyze
-the repository to automatically infer complex incidents associated with failures and explain the underlying
-possible root-cause to SREs and operators. 
+an observed pattern repository to automatically infer complex incidents associated with failures and explain 
+the underlying possible root-cause to SREs and operators. 
 This inference will learn associations between patterns, alerts and external events which will be formalized as 
 rules and stored in a [knowledge-based system](https://en.wikipedia.org/wiki/Knowledge-based_systems). 
 On top, a smart assistant will help operators in making associations and decisions on the relationship 
 between patterns, alerts and anomalies for [root-cause analysis](https://en.wikipedia.org/wiki/Root_cause_analysis).
 
-Several techniques can be for root cause analysis, e.g.:
+Several techniques can be for inductive inference , e.g.:
 + Traffic analysis: Correlation between sudden increase in requests and slashdot effect, with increase 
 latency of requests. 
 + Trace analysis: Component or dependency failure, structural trace analysis, response time span analysis.
@@ -209,6 +251,7 @@ remediation scripts. Often, only simple failure cases can be handled but this co
 for more complex scenarios. Examples include rebooting a host, restarting a microservice or hung process, 
 free disk space, and remove cached data. As knowledge on running systems accumulates, auto-remediation becomes 
 pervasive to service owners which can define their own recovery actions.
+
 
 ### Automation
 
