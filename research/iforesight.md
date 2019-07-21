@@ -126,7 +126,7 @@ Cloud deployments comprise thousands of geographically distributed services and 
 Key building block components which require a close monitoring include:
 
 + [API Gateways](https://microservices.io/patterns/apigateway.html) (e.g., [Kong](https://konghq.com))
-+ [Load Balancers](https://en.wikipedia.org/wiki/Load_balancing_(computing) (e.g., [HAProxy](http://www.haproxy.org))
++ [Load Balancers](https://en.wikipedia.org/wiki/Load_balancing_(computing)) (e.g., [HAProxy](http://www.haproxy.org))
 + [Message Queuing Services](https://en.wikipedia.org/wiki/Message_queuing_service)
 (e.g., [RabbitMQ](https://en.wikipedia.org/wiki/RabbitMQ))
 + [Distributed Caches](https://en.wikipedia.org/wiki/Distributed_cache) 
