@@ -120,9 +120,11 @@ There are three properties that make platforms such as Huawei Cloud far more dif
 2. Due to its distributed nature and complexity, system data has a low signal to noise ratio.
 3. Since many different subsystems interact together, semantically reconciliating data is difficult.
 
-
 The strongest challenge for cloud architecture is design and operational complexity. 
 Cloud deployments comprise thousands of geographically distributed services and microservices.
+
+### Underlying Architecture
+
 Key building block components which require a close monitoring include:
 
 + [API Gateways](https://microservices.io/patterns/apigateway.html) (e.g., [Kong](https://konghq.com))
@@ -141,6 +143,9 @@ Key building block components which require a close monitoring include:
 + [Network Switches](https://en.wikipedia.org/wiki/Network_switch) and 
 [Network Routers](https://en.wikipedia.org/wiki/Router_(computing)
 
+
+### Service offerings
+
 Besides these building blocks which are part of the base cloud infrastructure, service offerings also need to be
 monitored:
 + *Compute, network, storage*. Cloud servers, auto scaling, object storage, volume service, VPC network, and CDN, 
@@ -149,6 +154,17 @@ monitored:
 + *Applications*. APM, API Gateway, and application orchestration. 
 + *Enterprise Intelligence*. Machine learning services, graph engines, face and image recognition, and Mapreduce.
 + *DevCloud*. Project management, build, code hub, code check, and code release.
+
+
+## Approach
+
+### Exploring SRE Pain Points
+After identifying a pain point, we identify the following elements to develop a solution:
++ Existing manual workflows for troubleshooting for automatization 
++ Key golden metrics which can enable an effective anomaly detection
++ Data sources for root cause analysis
++ Manual recovery actions
++ Critical components which requires special monitoring infrastructure
 
 ### Data Sources
 
@@ -292,13 +308,6 @@ Many public datasets are also available to conduct comparative studies:
 + [Anomaly detection datasets from Harvard](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OPQMVF)
 + [Anomaly detection datasets from Oregon State](https://ir.library.oregonstate.edu/concern/datasets/47429f155)
 
-### Exploring SRE Pain Points
-After identifying a pain point, we identify the following elements to develop a solution:
-+ Existing manual workflows for troubleshooting for automatization 
-+ Key golden metrics which can enable an effective anomaly detection
-+ Data sources for root cause analysis
-+ Manual recovery actions
-+ Critical components which requires special monitoring infrastructure
 
 
 ## Tech Stack
@@ -324,14 +333,19 @@ In 2019, we will closely following the progresses make in the following 5 fields
 [RPA](https://en.wikipedia.org/wiki/Robotic_process_automation)
 
 
-## Systems from Academia and Industry
+## Existing Systems
 
+## Industry
 + Tracing: [Lightstep](https://lightstep.com), [Google StackDriver](https://cloud.google.com/trace/),
 [Amazon X-Ray](https://aws.amazon.com/xray/)
 + APM: [New Relic](https://newrelic.com/products/application-monitoring), [AppDynamics](https://www.appdynamics.com),
 [Dynatrace](https://www.dynatrace.com), 
 [Azure Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/cloudservices),
 [CA APM](https://www.ca.com/us/products/application-performance-monitoring.html)
+
+## Academia
+
+To come...
 
 ## Team and Culture
 
