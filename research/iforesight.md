@@ -50,7 +50,7 @@ to detect impact to customers, identify the root cause within seconds, and fix t
 the 1/5/10 rule (detection: 1 min, RCA: 5 min, recovery: 10 min).
 
 AIOps (Artificial Intelligence for IT operations) characterizes systems which use complex monitoring platforms, heterogeneous big data, machine learning (ML) and other artificial intelligence technologies to toubleshoot IT problems.
-The term can be viewed as the evolution of [IT operations_analytic](https://en.wikipedia.org/wiki/IT_operations_analytics) and
+The term can be viewed as the evolution of [IT operations analytic](https://en.wikipedia.org/wiki/IT_operations_analytics) and
 [Software Analytics](http://taoxie.cs.illinois.edu/publications/ieeesoft13-softanalytics.pdf).
 
 The following figure from [Gartner](https://www.gartner.com/en) provides a high level architecture of the system 
