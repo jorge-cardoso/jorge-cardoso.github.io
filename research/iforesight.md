@@ -28,9 +28,8 @@ the use of AI to provide tools for autonomous cloud operations. We rely on deep 
 distributed traces, and time-series analysis (sequence analysis) to effectively detect and fix anomalous 
 cloud infrastructure behaviors during operations to reduce the workload of human operators. 
 
-The iForesight system is being used to evaluate new O&M approaches. iForesight 3.0 is the result of 2 years 
-of research with the goal to provide an intelligent new tool aimed at SRE cloud maintenance teams. It enables 
-them to quickly detect and predict anomalies thanks to the use of artificial intelligence when cloud services 
+The iForesight system, labelled under the AIOps software category, is being used to evaluate new O&M approaches. iForesight 3.0 is the result of 3 years of research with the goal to provide an intelligent new tool aimed at SRE cloud maintenance teams. 
+It enables them to quickly detect and predict anomalies thanks to the use of artificial intelligence when cloud services 
 are slow or unresponsive. 
 
 ## Problem
@@ -45,10 +44,14 @@ volumes of monitoring data to support and drive recovery actions.
 
 ## Approach
 The mission of the **Intelligent Cloud Operations** SRE team (based in [Munich](https://www.muenchen.de/int/en.html), 
-Germany) is to develop new systems and tools to analyze observability data 
+Germany) is to develop new AIOps systems and tools to analyze observability data 
 from [Huawei Cloud](https://www.huaweicloud.com/en-us/about/about_us.html)
 to detect impact to customers, identify the root cause within seconds, and fix the problem using 
 the 1/5/10 rule (detection: 1 min, RCA: 5 min, recovery: 10 min).
+
+AIOps (Artificial Intelligence for IT operations) characterizes systems which use complex monitoring platforms, heterogeneous big data, machine learning (ML) and other artificial intelligence technologies to toubleshoot IT problems.
+The term can be viewed as the evolution of [IT operations_analytic](https://en.wikipedia.org/wiki/IT_operations_analytics) and
+[Software Analytics](http://taoxie.cs.illinois.edu/publications/ieeesoft13-softanalytics.pdf).
 
 The following figure from [Gartner](https://www.gartner.com/en) provides a high level architecture of the system 
 we are building highliting the main areas of concern: 
@@ -64,15 +67,12 @@ Machine Learning (ML),
 <img src="https://blogs.bmc.com/wp-content/uploads/2019/02/AIOpsGraphicGartner2018-768x408.png" height="408" width="768" style="float:center;margin:0 20px 0 0;"/>
 </p>
 
-The use of ML for production engineering can support the development of new approaches for: 
+Other areas relevant to AIOps include: 
 1. Monitoring and alerting
-2. Anomaly detection and Root Cause Analysis
-3. Capacity planing and prediction
-4. Canarying validation
-5. Service Scaling
-6. Operational performance
-
-Our work focuses on points 1) and 2). 
+2. Capacity planing and prediction
+3. Canarying validation
+4. Service Scaling
+5. Operational performance
 
 In 2017 we adopted AI in the form of [Data Science](https://en.wikipedia.org/wiki/Data_science) and 
 [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning) approaches for anomaly detection, 
@@ -91,7 +91,7 @@ An AIOps platform architecture consists of functional layers such as:
 4. *Automation*. Use runbooks and RPA technology to automate repetitive tasks.
 5. *User interface*. Allows IT operations teams t interact with the platform and quickly identify issues and apply corrective actions.
 
-Our work focuses on points 1)-3). 
+For 2019-2020, our work focuses on points 1)-3).
 
 ## Challenges
 
