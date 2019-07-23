@@ -143,6 +143,15 @@ Key building block components which require a close monitoring include:
 + [Network Switches](https://en.wikipedia.org/wiki/Network_switch) and 
 [Network Routers](https://en.wikipedia.org/wiki/Router_(computing)
 
+For example, to troubleshoot a load balancer (LB), it is important to understand which components are being impacted. Load balancer metrics enable to measure the number and type of connections established, response time, and the quantity of data transfered across backend servers, listeners, and the balancer itself. The following metrics help to determine where to start an investigation to diagnose a load balancer and client issues:
++ Response time. Average response time of backend servers
++ Closed connections. Number of connections closed between the load balancer and backend servers.
++ 5xx status codes. Number of HTTP 5xx responses received from backend servers.
++ Unhealthy backend servers. The number of unhealthy backend servers in the backend set.
++ Connection count. Number of incoming client requests to the load balancer.
+
+The metric *closed connections* can be used to evaluate if a large-scale system has enough services running to handle the incoming load. And, the *5xx status codes* or *unhealthy backend servers* may provide evidence that the last deployment introduced a bug. 
+
 
 ### Service offerings
 
