@@ -141,7 +141,7 @@ Key building block components which require a close monitoring include:
 (e.g., [MySQL](https://en.wikipedia.org/wiki/MySQL))
 + [Linux Servers](https://en.wikipedia.org/wiki/Linux) 
 + [Network Switches](https://en.wikipedia.org/wiki/Network_switch) and 
-[Network Routers](https://en.wikipedia.org/wiki/Router_(computing)
+[Network Routers](https://en.wikipedia.org/wiki/Router_(computing))
 
 For example, to troubleshoot a load balancer (LB), it is important to understand which components are being impacted. Load balancer metrics enable to measure the number and type of connections established, response time, and the quantity of data transfered across backend servers, listeners, and the balancer itself. The following metrics help to determine where to start an investigation to diagnose a load balancer and client issues:
 + Response time. Average response time of backend servers
