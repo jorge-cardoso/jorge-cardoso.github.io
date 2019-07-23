@@ -151,7 +151,7 @@ For example, to troubleshoot a load balancer (LB), it is important to understand
 
 The metric *closed connections* can be used to evaluate if a large-scale system has enough services running to handle the incoming load. And, the *5xx status codes* or *unhealthy backend servers* may provide evidence that the last deployment introduced a bug. 
 
-As another example, datacenter use server systems assembled with commodity DRAM memory protected agains errors by storing redundant information and applying ECC to detect and correct errors. Nonetheless, a relatively recent study shows that event with ECC techniques, memory chip failures cause significant downtime in datacenters [DRAM Errors in the Wild: A Large-Scale Field Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35162.pdf). The main reason seems to be due to packaging and circuit problems.
+As another example, datacenter use server systems assembled with commodity DRAM memory protected agains errors by storing redundant information and applying ECC to detect and correct errors. Nonetheless, a relatively recent study shows that event with ECC techniques, memory chip failures cause significant downtime in datacenters [DRAM Errors in the Wild: A Large-Scale Field Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35162.pdf). The main reason seems to be due to packaging and circuit problems. Thus, monitoring DRAM module to detect and predict anomalies is relevant for AIOps.  
 
 
 ### Service offerings
