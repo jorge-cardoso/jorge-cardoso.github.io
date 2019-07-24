@@ -184,8 +184,8 @@ monitored:
 An AIOps platform architecture consists of functional layers such as:
 
 1. *Big Data processing*. Real-time processing of streaming and historical data.
-  1. *In-memory databases*. (e.g., [Gorilla](https://www.vldb.org/pvldb/vol8/p1816-teller.pdf))
-  2. *Distributed log system*. (e.g., [LogDevice](https://github.com/facebookincubator/LogDevice)) 
+  * *In-memory databases*. (e.g., [Gorilla](https://www.vldb.org/pvldb/vol8/p1816-teller.pdf))
+  * *Distributed log system*. (e.g., [LogDevice](https://github.com/facebookincubator/LogDevice)) 
 2. *Data pipeline*. Connected data processing elements ingesting data from multiple sources.
 3. *Library of algorithms*: Statistical functions, classical machine learning, and deep learning algorithm.
 4. *Automation*. Use runbooks and RPA technology to automate repetitive tasks.
