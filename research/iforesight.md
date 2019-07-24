@@ -20,6 +20,9 @@ toc: true
 </p>
 
 
+This page is in construction. You will certainly find errs.
+
+
 ## Introduction
 
 In planet-scale deployments, the Operation and Maintenance (O&M) of cloud platforms cannot be done any longer 
@@ -82,25 +85,18 @@ These techniques, including **statistical learning**, **time-series analysis**, 
 **streaming**, and **data visualization**, enabled us to develop new production-ready services for troubleshooting 
 Huawei Cloud and detect issues which were previously undetectable.
 
-## AIOPs platform
-An AIOps platform architecture consists of functional layers such as:
-
-1. *Big Data processing*. Real-time processing of streaming and historical data.
-2. *Data pipeline*. Connected data processing elements ingesting data from multiple sources.
-3. *Library of algorithms*: Statistical functions, classical machine learning, and deep learning algorithm.
-4. *Automation*. Use runbooks and RPA technology to automate repetitive tasks.
-5. *User interface*. Allows IT operations teams t interact with the platform and quickly identify issues and apply corrective actions.
-
-For 2019-2020, our work focuses on points 1)-3).
 
 ## Challenges
 
-The challenges of operationalising AI are not limited to the understanding of deep learnign or machine learning algorithms.
+The challenges of operationalising AI are not limited to the understanding of deep learning or machine learning algorithms.
 Major challenges are related with software engineering, access and processing of large amounts of distributed data, 
 model management, updating, deleting and training models on specialized GPUs and hardware, composition of workflows
 for orchestrating parallel jobs, and the visual management of models, workflows, and results. 
++ AIOps platform construction
++ Algorithms
 
-## Huawei Cloud
+
+## System Under the Microscope: Huawei Cloud 
 Our cloud has planet-scale technical requirements with an 
 [microservices](https://en.wikipedia.org/wiki/Microservices) architecture composed of hundreds of services.
 They are distributed over thousands of hosts in many geographical regions and operate with an availability 
@@ -178,6 +174,24 @@ monitored:
 + *Enterprise Intelligence*. Machine learning services, graph engines, face and image recognition, and Mapreduce.
 + *DevCloud*. Project management, build, code hub, code check, and code release.
 
+### Solutions Required for Toubleshooting 
++ Switch failure
++ HDD failures
++ Service anomaly detection/prediction. Using log analysis, trace analysis, and metric analysis
++ [Cluster failure prediction](https://dl.acm.org/citation.cfm?id=1362678)
+
+### AIOps Platform Requirments 
+An AIOps platform architecture consists of functional layers such as:
+
+1. *Big Data processing*. Real-time processing of streaming and historical data.
+  1. *In-memory databases*. (e.g., [Gorilla](https://www.vldb.org/pvldb/vol8/p1816-teller.pdf))
+  2. *Distributed log system*. (e.g., [LogDevice](https://github.com/facebookincubator/LogDevice)) 
+2. *Data pipeline*. Connected data processing elements ingesting data from multiple sources.
+3. *Library of algorithms*: Statistical functions, classical machine learning, and deep learning algorithm.
+4. *Automation*. Use runbooks and RPA technology to automate repetitive tasks.
+5. *User interface*. Allows IT operations teams t interact with the platform and quickly identify issues and apply corrective actions.
+
+For 2019-2020, our work focuses on points 1)-3).
 
 ## Approach
 
