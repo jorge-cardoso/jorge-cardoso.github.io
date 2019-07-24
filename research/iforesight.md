@@ -149,10 +149,23 @@ For example, to troubleshoot a load balancer (LB), it is important to understand
 + Unhealthy backend servers. The number of unhealthy backend servers in the backend set.
 + Connection count. Number of incoming client requests to the load balancer.
 
-The metric *closed connections* can be used to evaluate if a large-scale system has enough services running to handle the incoming load. And, the *5xx status codes* or *unhealthy backend servers* may provide evidence that the last deployment introduced a bug. 
+The metric *closed connections* can be used to evaluate if a large-scale system has enough services running 
+to handle the incoming load. 
+And, the *5xx status codes* or *unhealthy backend servers* may provide evidence that the last deployment 
+introduced a bug. 
 
-As another example, datacenter use server systems assembled with commodity DRAM memory protected agains errors by storing redundant information and applying ECC to detect and correct errors. Nonetheless, a relatively recent study shows that event with ECC techniques, memory chip failures cause significant downtime in datacenters [DRAM Errors in the Wild: A Large-Scale Field Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35162.pdf). The main reason seems to be due to packaging and circuit problems. Thus, monitoring DRAM module to detect and predict anomalies is relevant for AIOps.  
+As another example, datacenter use server systems assembled with commodity DRAM memory protected against errors 
+by storing redundant information and applying ECC to detect and correct errors. 
+Nonetheless, a relatively recent study shows that event with ECC techniques, memory chip failures cause significant 
+downtime in datacenters 
+[DRAM Errors in the Wild: A Large-Scale Field Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35162.pdf). 
+The main reason seems to be due to packaging and circuit problems. 
+Thus, monitoring DRAM module to detect and predict anomalies is relevant for AIOps.  
 
+Many databases externalize different status metrics to help operators to troubleshoot errors and identify performance 
+issues. Typical metrics include server resources, backend disk storage, query statistics, and cache issues.
+[CouchDB website](https://docs.couchbase.com/server/5.5/monitoring/ui-monitoring-statistics.html) provides a 
+detailed description of the metrics which can be used to troubleshooting.
 
 ### Service offerings
 
