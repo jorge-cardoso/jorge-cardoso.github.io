@@ -92,9 +92,8 @@ The challenges of operationalising AI are not limited to the understanding of de
 Major challenges are related with software engineering, access and processing of large amounts of distributed data, 
 model management, updating, deleting and training models on specialized GPUs and hardware, composition of workflows
 for orchestrating parallel jobs, and the visual management of models, workflows, and results. 
++ Methods, techniques, and algorithms
 + AIOps platform construction
-+ Algorithms
-
 
 ## System Under the Microscope: Huawei Cloud 
 Our cloud has planet-scale technical requirements with an 
@@ -180,7 +179,8 @@ monitored:
 + Service anomaly detection/prediction. Using log analysis, trace analysis, and metric analysis
 + [Cluster failure prediction](https://dl.acm.org/citation.cfm?id=1362678)
 
-### AIOps Platform Requirments 
+
+## AIOps AIOps Platform Construction
 An AIOps platform architecture consists of functional layers such as:
 
 1. *Big Data processing*. Real-time processing of streaming and historical data.
@@ -193,7 +193,32 @@ An AIOps platform architecture consists of functional layers such as:
 
 For 2019-2020, our work focuses on points 1)-3).
 
-## Approach
+AIOps does not only requires new methods and techniques from the fields of statistics and ML, but it also needs 
+online and offline big data infrastructure (such as Hadoop, HBase, Spark, Gobblin, Presto) to ingest and process
+scale monitoring data which can reach several PB/day. For example, Facebook uses Presto for interactive queries
+over their 300PB data stores.
+
+iForesight is build using the following software stack and applications. 
+
++ Frontend: Grafana, Jupyter, Node.js
++ AI: Tensorflow, Keras, PyTorch, Pandas/NumPy, Scikit-learn, Huawei Model Arts
++ Backend: Microservices, Docker, MySQL 
++ Big Data: OpenTSDB, Hive, ArangoDB, HBase, Elastic Search, Spark Streaming. 
++ Transport: Kafka
++ Data sources: metrics, app logs, tracing, alarms, topologies, and change events
++ Agents: StatsD, cAdvisor, FluentD 
++ Language: Python
+
+In 2019, we will closely following the progresses make in the following 5 fields to extend our stack and suite:
+
++ [AIOps](https://blog.appdynamics.com/aiops/what-is-aiops/),
+[Service Mesh](https://www.nginx.com/blog/what-is-a-service-mesh/),
+[Istio](https://istio.io),
+[Distributed Tracing](https://opentracing.io/docs/overview/what-is-tracing/),
+[SRE](https://landing.google.com/sre/),
+[RPA](https://en.wikipedia.org/wiki/Robotic_process_automation)
+
+## Methods, techniques, and algorithms
 
 ### Exploring SRE Pain Points
 After identifying a pain point, we identify the following elements to develop a solution:
@@ -345,29 +370,6 @@ Many public datasets are also available to conduct comparative studies:
 + [Anomaly detection datasets from Harvard](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OPQMVF)
 + [Anomaly detection datasets from Oregon State](https://ir.library.oregonstate.edu/concern/datasets/47429f155)
 
-
-
-## Tech Stack
-AIOps does not only requires new methods and techniques from the fields of statistics and ML, but it also needs online and offline big data infrastructure (such as Hadoop, HBase, Spark, Gobblin, Presto) to ingest and process scale monitoring data which can reach several PB/day. For example, Facebook uses Presto for interactive queries over their 300PB data stores.
-
-iForesight is build using the following software stack and applications. 
-
-+ Frontend: Grafana, Jupyter, Node.js
-+ AI: Tensorflow, Keras, PyTorch, Pandas/NumPy, Scikit-learn, Huawei Model Arts
-+ Backend: Microservices, Docker, MySQL 
-+ Big Data: OpenTSDB, Hive, ArangoDB, HBase, Elastic Search, Spark Streaming. 
-+ Transport: Kafka
-+ Data sources: metrics, app logs, tracing, alarms, topologies, and change events
-+ Language: Python
-
-In 2019, we will closely following the progresses make in the following 5 fields to extend our stack and suite:
-
-+ [AIOps](https://blog.appdynamics.com/aiops/what-is-aiops/),
-[Service Mesh](https://www.nginx.com/blog/what-is-a-service-mesh/),
-[Istio](https://istio.io),
-[Distributed Tracing](https://opentracing.io/docs/overview/what-is-tracing/),
-[SRE](https://landing.google.com/sre/),
-[RPA](https://en.wikipedia.org/wiki/Robotic_process_automation)
 
 
 ## Existing Systems
