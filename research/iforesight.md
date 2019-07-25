@@ -158,6 +158,13 @@ issues. Typical metrics include server resources, backend disk storage, query st
 [CouchDB website](https://docs.couchbase.com/server/5.5/monitoring/ui-monitoring-statistics.html) provides a 
 detailed description of the metrics which can be used to troubleshooting.
 
+Example of statistics metrics include:
+
++ *requests/sec*. Total number of requests processed per second.
++ *selects/sec*. Total number of SELECT requests processed per second.
++ *request time*. Average end-to-end time to process a query.
++ *service time*. Average time to execute a query.
+
 #### Troubleshooting Hardware
 
 As another example, datacenter use server systems assembled with commodity DRAM memory protected against errors 
