@@ -304,7 +304,7 @@ All the anomaly detectors contribute with results to a central knowledge reposit
 observations, and alarms and relevant external events (e.g., platform upgrades).
 
 #### Metric anomaly detection
-To come....
+To come.....
 
 #### Multi-metric anomaly detection
 To come...tsfresh and Random Forests
