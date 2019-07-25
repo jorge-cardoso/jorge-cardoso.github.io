@@ -137,6 +137,8 @@ Key building block components which require a close monitoring include:
 + [Linux Servers](https://en.wikipedia.org/wiki/Linux), [Network Switches](https://en.wikipedia.org/wiki/Network_switch) and 
 [Network Routers](https://en.wikipedia.org/wiki/Router_(computing))
 
+#### Troubleshooting Middleware
+
 For example, to troubleshoot a load balancer (LB), it is important to understand which components are being impacted. Load balancer metrics enable to measure the number and type of connections established, response time, and the quantity of data transfered across backend servers, listeners, and the balancer itself. The following metrics help to determine where to start an investigation to diagnose a load balancer and client issues:
 + Response time. Average response time of backend servers
 + Closed connections. Number of connections closed between the load balancer and backend servers.
@@ -149,6 +151,15 @@ to handle the incoming load.
 And, the *5xx status codes* or *unhealthy backend servers* may provide evidence that the last deployment 
 introduced a bug. 
 
+#### Troubleshooting Components
+
+Many databases externalize different status metrics to help operators to troubleshoot errors and identify performance 
+issues. Typical metrics include server resources, backend disk storage, query statistics, and cache issues.
+[CouchDB website](https://docs.couchbase.com/server/5.5/monitoring/ui-monitoring-statistics.html) provides a 
+detailed description of the metrics which can be used to troubleshooting.
+
+#### Troubleshooting Hardware
+
 As another example, datacenter use server systems assembled with commodity DRAM memory protected against errors 
 by storing redundant information and applying ECC to detect and correct errors. 
 Nonetheless, a relatively recent study shows that event with ECC techniques, memory chip failures cause significant 
@@ -157,10 +168,7 @@ downtime in datacenters
 The main reason seems to be due to packaging and circuit problems. 
 Thus, monitoring DRAM module to detect and predict anomalies is relevant for AIOps.  
 
-Many databases externalize different status metrics to help operators to troubleshoot errors and identify performance 
-issues. Typical metrics include server resources, backend disk storage, query statistics, and cache issues.
-[CouchDB website](https://docs.couchbase.com/server/5.5/monitoring/ui-monitoring-statistics.html) provides a 
-detailed description of the metrics which can be used to troubleshooting.
+
 
 ### Service offerings
 
