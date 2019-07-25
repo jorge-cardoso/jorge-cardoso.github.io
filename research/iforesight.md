@@ -70,13 +70,6 @@ Machine Learning (ML),
 <img src="https://blogs.bmc.com/wp-content/uploads/2019/02/AIOpsGraphicGartner2018-768x408.png" height="408" width="768" style="float:center;margin:0 20px 0 0;"/>
 </p>
 
-Other areas relevant to AIOps include: 
-1. Monitoring and alerting
-2. Capacity planing and prediction
-3. Canarying validation
-4. Service Scaling
-5. Operational performance
-
 In 2017 we adopted AI in the form of [Data Science](https://en.wikipedia.org/wiki/Data_science) and 
 [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning) approaches for anomaly detection, 
 root-cause analysis, fault prediction, and automated recovery into our suite. 
@@ -334,17 +327,31 @@ latency of requests.
 + Trace analysis: Component or dependency failure, structural trace analysis, response time span analysis.
 + Event analysis: Causality between upgrades, reconfigurations, and forklift replacements and failure.
 
-### Remediation
+Inference can also decide to run automated diagnostics scripts (runbooks) to gain additional insights of the 
+current state of components, services, or systems to improve inference.
 
-Once methods for pattern recognition and inference are mastered, the next step is to look into auto remediation. 
-The first approach consists in running automated diagnostics scripts (runbooks) to troubleshoot and 
-gain insights of the current state of components, services, or systems to, afterwards, conduct a manual remediation.
-As knowledge on failure modes is gained, failure patterns are identified and recovery is encoded into automated 
-remediation scripts. Often, only simple failure cases can be handled but this constitute a very good starting point 
-for more complex scenarios. Examples include rebooting a host, restarting a microservice or hung process, 
-free disk space, and remove cached data. As knowledge on running systems accumulates, auto-remediation becomes 
-pervasive to service owners which can define their own recovery actions.
 
+### Automated Operations
+
+The most common use of operations is to solve problems. Operations (actions) can be automatically triggered 
+in response to troubleshooting workflows.
+
+For example, once methods for pattern recognition and inference are mastered, the next step is to look into 
+auto-remediation. As knowledge on failure modes is gained, failure patterns are identified and recovery is 
+encoded into automated remediation scripts. Often, only simple failure cases can be handled but this constitute 
+a very good starting point for more complex scenarios.
+
+Examples include rebooting a host, restarting a microservice or hung process, free disk space, and remove 
+cached data. As knowledge on running systems accumulates, auto-remediation becomes pervasive to service owners 
+which can define their own recovery actions.
+
+Other types of operations relevant to AIOps include: 
+1. Capacity planing
+2. Canarying validation
+3. Service scaling
+4. Performance analysis
+5. Intelligent troubleticket routing
+6. Predictive maintenance
 
 ### Automation
 

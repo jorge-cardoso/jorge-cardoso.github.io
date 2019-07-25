@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/research/iforesight.md" beforeDir="false" afterPath="$PROJECT_DIR$/research/iforesight.md" afterDir="false" />
     </list>
@@ -20,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/research/iforesight.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="575">
-                <caret line="168" lean-forward="true" selection-start-line="168" selection-end-line="168" />
+              <first_editor relative-caret-position="689">
+                <caret line="348" column="26" lean-forward="true" selection-start-line="348" selection-start-column="26" selection-end-line="348" selection-end-column="26" />
               </first_editor>
               <second_editor />
             </state>
@@ -109,6 +106,35 @@
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
     </task>
+    <task id="LOCAL-00001" summary="coutchdb">
+      <created>1563944585892</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563944585892</updated>
+    </task>
+    <task id="LOCAL-00002" summary="coutchdb">
+      <created>1564028038524</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564028038524</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated troubleshooting">
+      <created>1564077704583</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564077704583</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated troubleshooting">
+      <created>1564077881186</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564077881186</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -134,12 +160,17 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="coutchdb" />
+    <MESSAGE value="Updated troubleshooting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated troubleshooting" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/research/iforesight.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="575">
-            <caret line="168" lean-forward="true" selection-start-line="168" selection-end-line="168" />
+          <first_editor relative-caret-position="689">
+            <caret line="348" column="26" lean-forward="true" selection-start-line="348" selection-start-column="26" selection-end-line="348" selection-end-column="26" />
           </first_editor>
           <second_editor />
         </state>
