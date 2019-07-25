@@ -303,6 +303,19 @@ We will extend supported patterns by implementing new detector services for dist
 All the anomaly detectors contribute with results to a central knowledge repository of metric, trace, and log 
 observations, and alarms and relevant external events (e.g., platform upgrades).
 
+#### Metric anomaly detection
+To come....
+
+#### Multi-metric anomaly detection
+To come...tsfresh and Random Forests
+
+#### Trace anomaly detection
+To come....
+
+#### Failure Prediction
+To come....
+
+
 
 ### Inductive Inference 
 
