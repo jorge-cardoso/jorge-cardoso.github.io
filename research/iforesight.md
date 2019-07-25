@@ -329,6 +329,12 @@ latency of requests.
 
 Inference can also decide to run automated diagnostics scripts (runbooks) to gain additional insights of the 
 current state of components, services, or systems to improve inference.
+For example, when pattern recognition identifies an HTTP endpoint with a high latency associated with an anomaly 
+by analysing metrics, distributed traces are immediately analysed to reveal exactly which microservice or component 
+is causing the problem.
+Its logs and context metrics are accessed to quickly diagnose the issue. 
+Afterwards, when sufficient evidence characterizing the problem is collected, inference will nominate operations and 
+remediation actions to be executed.
 
 
 ### Automated Operations
@@ -353,16 +359,6 @@ Other types of operations relevant to AIOps include:
 5. Intelligent troubleticket routing
 6. Predictive maintenance
 
-### Automation
-
-In practice, these three tasks -- pattern recognition, inference, and remediation -- are linked together to provide an 
-end-to-end solution for O&M. 
-For example, when pattern recognition identifies an HTTP endpoint with a high latency associated with an anomaly 
-by analysing metrics, distributed traces are immediately analysed to reveal exactly which microservice or component 
-is causing the problem.
-Its logs and context metrics are accessed to quickly diagnose the issue. 
-Afterwards, when sufficient evidence characterizing the problem is collected, inference will nominate remediation 
-actions to be executed.
 
 ### Evaluation
 
