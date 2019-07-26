@@ -317,10 +317,15 @@ We will extend supported patterns by implementing new detector services for dist
 All the anomaly detectors contribute with results to a central knowledge repository of metric, trace, and log 
 observations, and alarms and relevant external events (e.g., platform upgrades).
 
-#### Metric anomaly detection
-To come.....
+#### Multimodel metric anomaly detection
 
-#### Multi-metric anomaly detection
+Multimodal metrics are often a symptom that part of a system build for reliability has a performance degradation,
+possibly due to a failure. 
+The use of clustering algorithms for multimodal anomaly detection are an interesting approach. The latent groupings
+are found by finding a partition that separates the moniroting data into unimodal subsets that are more coherent
+than the unpartitioned superset.
+
+#### Multivariate anomaly detection
 To come...tsfresh and Random Forests
 
 #### Trace anomaly detection
