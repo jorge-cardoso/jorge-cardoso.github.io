@@ -326,7 +326,13 @@ are found by finding a partition that separates the moniroting data into unimoda
 than the unpartitioned superset.
 
 #### Multivariate anomaly detection
-To come...tsfresh and Random Forests
+
+To detect servers which are outliers, Netflix uses the clustering algorithm DBSCAN (Density-Based Spatial Clustering
+of Applications with Noise). Using a self-service paradigm, service owner identify the metrics to be monitored
+for outliers. The troubleshooting system runs DBSCAN to analysis metric windows which returns the set of servers 
+considered outliers.
+
+To come...using tsfresh and Random Forests
 
 #### Trace anomaly detection
 Traces play an essential role in understanding how a service request travels through a set of microservices.
