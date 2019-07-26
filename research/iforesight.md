@@ -330,11 +330,11 @@ than the unpartitioned superset.
 To detect servers which are outliers, [Netflix](https://medium.com/netflix-techblog/tracking-down-the-villains-outlier-detection-at-netflix-40360b31732) uses the clustering algorithm [DBSCAN](https://en.wikipedia.org/wiki/DBSCAN). 
 Using a self-service paradigm, service owners identify one metric to be monitored for outliers.
 The troubleshooting system runs DBSCAN to analysis metric windows which returns the set of servers considered outliers.
-Service owners also specify the minimum timeframe for a deviation to be considered an true positive outlier.
+Service owners also specify the minimum timeframe for a deviation to be considered a true positive outlier.
 
 Netflix solves the parameter selection challenge inherent to most algorithms by only asking service owners to define the current number of outliers. 
 Using [simulated annealing](https://en.wikipedia.org/wiki/Simulated_annealing), the distance and minimum cluster size parameters are determined.
-Results show a precision of 93%, recall: 87%, F-score: 90% for pools of almost 2K servers.
+Results show a precision of 93%, recall: 87%, [F-score](https://en.wikipedia.org/wiki/F1_score): 90% for pools of almost 2K servers.
 
 To come...using tsfresh and Random Forests
 
