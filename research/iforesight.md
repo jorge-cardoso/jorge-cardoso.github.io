@@ -120,6 +120,7 @@ Cloud deployments comprise thousands of geographically distributed services and 
 
 Key building block components which require a close monitoring include:
 
++ Firewalls and VPNs
 + [API Gateways](https://microservices.io/patterns/apigateway.html) (e.g., [Kong](https://konghq.com))
 + [Load Balancers](https://en.wikipedia.org/wiki/Load_balancing_(computing)) (e.g., [HAProxy](http://www.haproxy.org))
 + [Message Queuing Services](https://en.wikipedia.org/wiki/Message_queuing_service)
@@ -134,6 +135,13 @@ Key building block components which require a close monitoring include:
 (e.g., [MySQL](https://en.wikipedia.org/wiki/MySQL))
 + [Linux Servers](https://en.wikipedia.org/wiki/Linux), [Network Switches](https://en.wikipedia.org/wiki/Network_switch) and 
 [Network Routers](https://en.wikipedia.org/wiki/Router_(computing))
+
+#### Troubleshooting Services
+
++ Disk image library
++ Block storage
++ Object storage
++ Compute and network services
 
 #### Troubleshooting Middleware
 
@@ -317,38 +325,6 @@ We will extend supported patterns by implementing new detector services for dist
 All the anomaly detectors contribute with results to a central knowledge repository of metric, trace, and log 
 observations, and alarms and relevant external events (e.g., platform upgrades).
 
-#### Multimodel metric anomaly detection
-
-Multimodal metrics are often a symptom that part of a system build for reliability has a performance degradation,
-possibly due to a failure. 
-The use of clustering algorithms for multimodal anomaly detection are an interesting approach. The latent groupings
-are found by finding a partition that separates the moniroting data into unimodal subsets that are more coherent
-than the unpartitioned superset.
-
-#### Univariate/multivariate anomaly detection
-
-To detect servers which are outliers, [Netflix](https://medium.com/netflix-techblog/tracking-down-the-villains-outlier-detection-at-netflix-40360b31732) uses the clustering algorithm [DBSCAN](https://en.wikipedia.org/wiki/DBSCAN). 
-Using a self-service paradigm, service owners identify one metric to be monitored for outliers.
-The troubleshooting system runs DBSCAN to analysis metric windows which returns the set of servers considered outliers.
-Service owners also specify the minimum timeframe for a deviation to be considered a true positive outlier.
-
-Netflix solves the parameter selection challenge inherent to most algorithms by only asking service owners to define the current number of outliers. 
-Using [simulated annealing](https://en.wikipedia.org/wiki/Simulated_annealing), the distance and minimum cluster size parameters are determined.
-Results show a precision of 93%, recall: 87%, [F-score](https://en.wikipedia.org/wiki/F1_score): 90% for pools of almost 2K servers.
-
-Following the approach path from Netflix, [other researchers](https://www.hbs.edu/faculty/Publication%20Files/2019%20HICSS%20Anomoly_296d232d-ccb2-448d-9d19-603c08a04a19.pdf) have extended the approach by using several metrics. While the results were more modest, the software system at hand was more complex.
-
-To come...using tsfresh and Random Forests
-
-#### Trace anomaly detection
-Traces play an essential role in understanding how a service request travels through a set of microservices.
-
-More to come....
-
-#### Failure Prediction
-To come....
-
-
 
 ### Inductive Inference 
 
@@ -382,6 +358,10 @@ Its logs and context metrics are accessed to quickly diagnose the issue.
 Afterwards, when sufficient evidence characterizing the problem is collected, inference will nominate operations and 
 remediation actions to be executed.
 
+#### Challenges
++ Access to customer systems is not possible to calibrate models: use Transfer learning
++ Model localization: the same model is adapted to different contexts
++ How to improve model based on running and field information
 
 ### Automated Operations
 
@@ -434,6 +414,86 @@ Many public datasets are also available to conduct comparative studies:
 + [Anomaly detection datasets from Harvard](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OPQMVF)
 + [Anomaly detection datasets from Oregon State](https://ir.library.oregonstate.edu/concern/datasets/47429f155)
 
+#### Challenges
++ Generate positive and negative samples automatically
++ Sparse training samples
++ Hard to obtain data from clients environments
+
+
+## Interesting Problems
+
+### Multimodel metric anomaly detection
+
+Multimodal metrics are often a symptom that part of a system build for reliability has a performance degradation,
+possibly due to a failure. 
+The use of clustering algorithms for multimodal anomaly detection are an interesting approach. The latent groupings
+are found by finding a partition that separates the moniroting data into unimodal subsets that are more coherent
+than the unpartitioned superset.
+
+
+### Univariate/multivariate anomaly detection
+
+To detect servers which are outliers, [Netflix](https://medium.com/netflix-techblog/tracking-down-the-villains-outlier-detection-at-netflix-40360b31732) uses the clustering algorithm [DBSCAN](https://en.wikipedia.org/wiki/DBSCAN). 
+Using a self-service paradigm, service owners identify one metric to be monitored for outliers.
+The troubleshooting system runs DBSCAN to analysis metric windows which returns the set of servers considered outliers.
+Service owners also specify the minimum timeframe for a deviation to be considered a true positive outlier.
+
+Netflix solves the parameter selection challenge inherent to most algorithms by only asking service owners to define the current number of outliers. 
+Using [simulated annealing](https://en.wikipedia.org/wiki/Simulated_annealing), the distance and minimum cluster size parameters are determined.
+Results show a precision of 93%, recall: 87%, [F-score](https://en.wikipedia.org/wiki/F1_score): 90% for pools of almost 2K servers.
+
+Following the approach path from Netflix, [other researchers](https://www.hbs.edu/faculty/Publication%20Files/2019%20HICSS%20Anomoly_296d232d-ccb2-448d-9d19-603c08a04a19.pdf) have extended the approach by using several metrics. While the results were more modest, the software system at hand was more complex.
+
+To come...using tsfresh and Random Forests
+
+### Trace anomaly detection
+Traces play an essential role in understanding how a service request travels through a set of microservices.
+
+More to come....
+
+### Resource Optimization
+To come....
+
+### Root Cause Analysis
++ Proactively find anomalies before failures are reported
++ Perform audit trails and root cause analysis (RCA)
+
+### Capacity Planning
+
+Capture records of metrics relevant to understanding utilization trends and devise future capacity plans, and 
+resource poll capacity forecast.
+Examples of metrics to track include:
++ vCPU number, vRAM allocation, and compute load
++ Storage allocation and I/O latency
++ Network traffic
+
+Fore casting becomes challenging when holidays, multiple seasonalities need to be considered. 
+
+### Infrastructure Scaling
++ Configure predictive scaling that learns from the previous load conditions and usage patterns
+
+## Cost Management
++ Forecast the cost of infrastructure (VM or IT)
++ Intelligent cost mng. in an important feature of public clouds
+
+### Real time application behavior learning
++ Learns the behavior of application using trace patterns, log status messages, and performance metrics. 
+
+### Performance Tuning
++ Auto tuning of workloads by analyzing the time taken for common tasks such as responding to a request and apply an accurate fix to the problem
+
+### Energy Efficiency 
++ Manual
++ DVS Dual voltage papers
+
+### Memory and SSD anomaly detection
+to come
+
+### Alarm deduplication
+to come
+
+### Log analysis
+to come
 
 
 ## Existing Systems
