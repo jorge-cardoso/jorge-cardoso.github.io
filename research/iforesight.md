@@ -31,11 +31,15 @@ the use of AI to provide tools for autonomous cloud operations. We rely on deep 
 distributed traces, and time-series analysis (sequence analysis) to effectively detect and fix anomalous 
 cloud infrastructure behaviors during operations to reduce the workload of human operators. 
 
-The iForesight system, labelled under the AIOps software category, is being used to evaluate new O&M approaches. iForesight 3.0 is the result of 3 years of research with the goal to provide an intelligent new tool aimed at SRE cloud maintenance teams. 
+The iForesight system, labelled under the AIOps software category, is being used to evaluate new O&M approaches. 
+iForesight 3.0 is the result of 3 years of research with the goal to provide an intelligent new tool aimed at 
+SRE cloud maintenance teams. 
 It enables them to quickly detect and predict anomalies thanks to the use of artificial intelligence when cloud services 
 are slow or unresponsive. 
 
 ## Problem
+The operation of large-scale platforms serving millions of people often introduces complex and unique 
+engineering challenges. 
 Existing tools for monitoring IT infrastructures, networks and applications focus on collecting logs, metrics, 
 events, and traces from distributed systems mainly for visualization. Nonetheless, the final goal of monitoring 
 is to reach a level of technological development where we have tools that conduct root cause analysis with a high 
@@ -44,6 +48,7 @@ collection stage to an insight- and action-driven paradigm. One promising path t
 platforms is to rely on advanced analytics and explore techniques from statistics, time-series analysis, data mining, 
 natural language processing, graph processing, machine learning, and deep learning to extract insights from large 
 volumes of monitoring data to support and drive recovery actions. 
+
 
 ## Approach
 The mission of the **Intelligent Cloud Operations** SRE team (based in [Munich](https://www.muenchen.de/int/en.html), 
@@ -268,6 +273,15 @@ calls to services.
 An AIOps platform needs to be able to ingest logs, metrics, traces, and events into efficient key-value databases
 where they are stored to later be accessed and analyzed.
 
+#### Distributed Tracing
+Distributed tracing enables understanding how systems' components interact together when handling incoming requests.
+It has its root on early research on concepts such as X-Trace and Magpie, and was generalized in industry 
+with Google paper [Dapper](https://static.googleusercontent.com/media/research.google.com/en//archive/papers/dapper-2010-1.pdf)
+in 2010.
+
+Many companies supported by large-scale systems, such as Uber and Facebook, operate large scale distributed 
+tracing systems to gain observability capabilities. 
+
 ### Pattern Recognition
 
 The objective of approaches for [pattern recognition](https://en.wikipedia.org/wiki/Pattern_recognition) is to detect
@@ -310,7 +324,9 @@ To come.....
 To come...tsfresh and Random Forests
 
 #### Trace anomaly detection
-To come....
+Traces play an essential role in understanding how a service request travels through a set of microservices.
+
+More to come....
 
 #### Failure Prediction
 To come....
