@@ -336,6 +336,8 @@ Netflix solves the parameter selection challenge inherent to most algorithms by 
 Using [simulated annealing](https://en.wikipedia.org/wiki/Simulated_annealing), the distance and minimum cluster size parameters are determined.
 Results show a precision of 93%, recall: 87%, [F-score](https://en.wikipedia.org/wiki/F1_score): 90% for pools of almost 2K servers.
 
+Following the approach path from Netflix, [other researchs](https://www.hbs.edu/faculty/Publication%20Files/2019%20HICSS%20Anomoly_296d232d-ccb2-448d-9d19-603c08a04a19.pdf) have extended the approach by using several metrics. While the results were more modest, the sofwtare system at hand was more complex.
+
 To come...using tsfresh and Random Forests
 
 #### Trace anomaly detection
