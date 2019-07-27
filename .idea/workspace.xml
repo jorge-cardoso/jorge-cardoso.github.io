@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/research/iforesight.md" beforeDir="false" afterPath="$PROJECT_DIR$/research/iforesight.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +16,8 @@
         <entry file="file://$PROJECT_DIR$/research/iforesight.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="833">
-                <caret line="495" lean-forward="true" selection-start-line="495" selection-end-line="495" selection-end-column="7" />
+              <first_editor relative-caret-position="564">
+                <caret line="512" selection-start-line="512" selection-end-line="512" />
               </first_editor>
               <second_editor />
             </state>
@@ -38,8 +37,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="86" />
-    <option name="y" value="26" />
+    <option name="x" value="260" />
+    <option name="y" value="23" />
     <option name="width" value="1836" />
     <option name="height" value="1417" />
   </component>
@@ -169,11 +168,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564114103190</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Updated troubleshooting">
+      <created>1564159460486</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1564159460486</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="86" y="26" width="1836" height="1417" extended-state="0" />
+    <frame x="260" y="23" width="1836" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -204,8 +210,8 @@
     <entry file="file://$PROJECT_DIR$/research/iforesight.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="833">
-            <caret line="495" lean-forward="true" selection-start-line="495" selection-end-line="495" selection-end-column="7" />
+          <first_editor relative-caret-position="564">
+            <caret line="512" selection-start-line="512" selection-end-line="512" />
           </first_editor>
           <second_editor />
         </state>
