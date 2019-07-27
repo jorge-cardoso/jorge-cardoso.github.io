@@ -249,7 +249,7 @@ After identifying a pain point, we identify the following elements to develop a 
 + Manual recovery actions
 + Critical components which requires special monitoring infrastructure
 
-### Data Sources
+### Data Ingestion
 
 Monitoring data comes from many different data sources such hypervisors, OS, applications, application servers, 
 middleware, databases, application logs, host and network metrics.
@@ -280,6 +280,15 @@ calls to services.
 
 An AIOps platform needs to be able to ingest logs, metrics, traces, and events into efficient key-value databases
 where they are stored to later be accessed and analyzed.
+
+Challenges:
++ *Resolution*. While reading data sources every minute is relatively easy to achieve, as systems become more complex, 
+non-linear, and with an large customer base, fine grained metrics are needed. Often, one second polling resolution 
+is required since anomalies and uncommon patterns that occur in a one minute interval are invisible. 
+
+To get the monitoring data needed, SRE need to write new tools, patch existing systems, and add knobs to 
+production platforms to control their behavior.
+
 
 #### Distributed Tracing
 Distributed tracing enables understanding how systems' components interact together when handling incoming requests.
@@ -392,10 +401,12 @@ We evaluate the techniques and algorithms we built using a 3-level approach:
 + *Synthetics data*. We built models simulating microservice applications which are able to generate data under 
 very specific conditions. The scenarios simulated are usually difficult to obtain when using testbeds and 
 production systems. The controlled data enables a fine-grained understanding of how new algorithms behave and are an 
-effective way for improvement and redesign.
+effective way for improvement and redesign. Nonetheless, the type of traffic that is generated in production is
+typically not captured by synthetic data.
 + *Testbed data*. Once an algorithm passes the evaluation using synthetic data, we make a second evaluation using 
 testbed data. We run an OpenSack cloud platform under normal utilization. Faults are injected into the platform and
 we expect algorithms to detect anomalies, find their root cause, predict errors, and remediate failures.
+Service calls from normal production can be used to trigger the calls of the testbed.
 + *Production data*. In the last step of the evaluation, we deploy algorithms in planet-scale production systems. 
 This is the final evaluation in an environment with noise and which generally makes algorithms generate many 
 false positives. Accuracy, performance and resources consumption is registered.
@@ -528,6 +539,11 @@ To come....
 ### Performance Tuning
 + Auto tuning of workloads by analyzing the time taken for common tasks such as responding to a request and 
 apply an accurate fix to the problem
+
+Techniques:
++ Message Queuing analysis. Message queue length is a good metric for system health analysis.
+The length of queue of connecting microservices are constantly monitored and an alert is sent out if their size goes
+beyond a predefined threshold. Either generate alerts on the size of single queues or a sum of message queues.
 
 ### Energy Efficiency 
 + Manual
