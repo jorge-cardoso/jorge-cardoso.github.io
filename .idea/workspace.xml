@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="">
+    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="General Updated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/research/iforesight.md" beforeDir="false" afterPath="$PROJECT_DIR$/research/iforesight.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/research/iforesight.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="564">
-                <caret line="512" selection-start-line="512" selection-end-line="512" />
+              <first_editor relative-caret-position="704">
+                <caret line="344" column="9" selection-start-line="344" selection-start-column="9" selection-end-line="344" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
@@ -25,6 +26,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>queue</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -175,7 +181,28 @@
       <option name="project" value="LOCAL" />
       <updated>1564159460486</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Updated Use Cases">
+      <created>1564202175899</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1564202175899</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Updated Use Cases">
+      <created>1564202286620</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1564202286620</updated>
+    </task>
+    <task id="LOCAL-00013" summary="General Updated">
+      <created>1564208148334</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1564208148334</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -204,14 +231,24 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="coutchdb" />
     <MESSAGE value="Updated troubleshooting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated troubleshooting" />
+    <MESSAGE value="Updated Use Cases" />
+    <MESSAGE value="General Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="General Updated" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/research/aiops_white_paper.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/research/iforesight.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="564">
-            <caret line="512" selection-start-line="512" selection-end-line="512" />
+          <first_editor relative-caret-position="704">
+            <caret line="344" column="9" selection-start-line="344" selection-start-column="9" selection-end-line="344" selection-end-column="9" />
           </first_editor>
           <second_editor />
         </state>
