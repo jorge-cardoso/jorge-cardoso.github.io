@@ -343,8 +343,18 @@ If the number of components is known, expectation maximization (EM) can be used 
 parameters, and, afterwards run a clustering algorithm.
 Nonetheless, the number of components is unusably not known. Furthermore, the distribution of data points is often not
 Gaussian.
-
-
++ Direct and indirect metrics. CPU load, available memory, network resources, and IO are direct signal host-level
+metrics.
+On the other hand, the *response time* of a service call to a microservice provisioned by *n* distributed components
+is an indirect signal service-level metric. As its values dependent on the health of the subcomponents and the
+subset of components involved during the handling of the request.
+Indirect metrics are far more complex to analyze when compared to direct ones.
++ Variability. Due to the large number of components presents in a large-scale systems, the variability of latency 
+is high. The reasons of this variability in individual components of a service is well known and in the 
+Communication of the ACM article 
+[The Tail at Scale](https://www2.cs.duke.edu/courses/cps296.4/fall13/838-CloudPapers/dean_longtail.pdf).
+Sources of variability include the existence of daemons, shared resources, garbage collection, queueing, and 
+energy management.
 
 ### Inductive Inference 
 
@@ -382,6 +392,16 @@ remediation actions to be executed.
 + Access to customer systems is not possible to calibrate models: use Transfer learning
 + Model localization: the same model is adapted to different contexts
 + How to improve model based on running and field information
++ [Fuzzy Logic](https://en.wikipedia.org/wiki/Fuzzy_logic).
+Determining that a service is in a failed state is rather simple. The challenge is to determine if the current state 
+of a service is in the gray zone between the *ok* and *failed* states. For example, analyzing a service 
+which passes all the basic health checks, but is unable to complete client requests according SLOs for 5% of requests, 
+is far more difficult.
++ Masking. Complex distributed systems that use load balancing components to increase reliability and scalability
+make the detection of anomaly more difficult since their object is to mask problems from end users. 
+Thus, if an AIOps system is looking at a distributed system from the user perspective, it may not be able to easily
+identify health problems. 
+
 
 ### Automated Operations
 
