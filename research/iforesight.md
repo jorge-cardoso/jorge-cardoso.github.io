@@ -278,6 +278,23 @@ and free-form text, which are stored in system files.
 4. *Events*. Major milestones which occur within a data center can be exposed as events. 
 Examples include alarms, service upgrades, and software releases.
 
+Examples:
+
+> 2017-01-18 15:54:00.467 32552 ERROR oslo_messaging.rpc.server [req-c0b38ace - default default] Exception during message handling
+
+> {“tags": [“mem”, “192.196.0.2”, “AZ01”], “data”: [2483, 2669, 2576, 2560, 2549, 2506, 2480, 2565, 3140, …, 2542, 2636, 2638, 2538, 2521, 2614, 2514, 2574, 2519]}
+
+> {"traceId": "72c53", "name": "get", "timestamp": 1529029301238, "id": "df332", "duration": 124957, “annotations": [{"key": "http.status_code", "value": "200"}, {"key": "http.url", "value": "https://v2/e5/servers/detail?limit=200"}, {"key": "protocol", "value": "HTTP"}, "endpoint": {"serviceName": "hss", "ipv4": "126.75.191.253"}]
+
+
+> {"id": "dns_address_match“, "timestamp": 1529029301238, ...}
+> {"id": "ping_packet_loss“, "timestamp": 152902933452, ...}
+> {"id": "tcp_connection_time“, "timestamp": 15290294516578, ...}
+> {"id": "cpu_usage_average “, "timestamp": 1529023098976, ...}
+
+
+#### Examples 
+
 Google SRE team proposed [4 Golden Signals](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/) 
 which provide key insights on how a distributed system is running using metrics:
 + *Latency*. Time to handle a request (aka response time)
