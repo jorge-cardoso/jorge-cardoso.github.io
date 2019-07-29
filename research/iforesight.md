@@ -127,10 +127,10 @@ written by Google engineers, provide a very good description of the various part
 
 Software that provides services to end users.
 
-+ Disk image library
-+ Block storage
-+ Object storage
-+ Compute and network services
++ *OBS*. Object Storage Service is a stable, secure, efficient, cloud storage service
++ *EVS*. Elastic Volume Service offers scalable block storage for servers
++ *VPC*. Virtual Private Cloud enables to create private, isolated virtual networks
++ *ECS*. Elastic Cloud Server is a cloud server that provides scalable, on-demand computing resources
 
 #### Troubleshooting Middleware
 
