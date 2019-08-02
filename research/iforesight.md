@@ -115,7 +115,7 @@ There are three properties that make platforms such as Huawei Cloud far more dif
 
 The strongest challenge for cloud architecture is design and operational complexity. 
 Cloud deployments comprise thousands of geographically distributed services and microservices.
-Behavior patterns such as the [Universal Law of Computational Scalability](https://en.wikipedia.org/wiki/Neil_J._Gunther), 
+Behavior patterns such as the [Universal Law of Computational Scalability](http://www.perfdynamics.com/Manifesto/USLscalability.html), 
 make a distributed system highly non-linear and difficult to model.
 
 ### Underlying Architecture
