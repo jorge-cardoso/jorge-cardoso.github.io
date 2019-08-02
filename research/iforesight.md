@@ -115,6 +115,8 @@ There are three properties that make platforms such as Huawei Cloud far more dif
 
 The strongest challenge for cloud architecture is design and operational complexity. 
 Cloud deployments comprise thousands of geographically distributed services and microservices.
+Behavior patterns such as the [Universal Law of Computational Scalability](https://en.wikipedia.org/wiki/Neil_J._Gunther), 
+make a distributed system highly non-linear and difficult to model.
 
 ### Underlying Architecture
 
@@ -210,7 +212,7 @@ monitored:
 + *Enterprise Intelligence*. Machine learning services, graph engines, face and image recognition, and Mapreduce.
 + *DevCloud*. Project management, build, code hub, code check, and code release.
 
-### Solutions Required for Toubleshooting 
+### Solutions Required for Troubleshooting 
 + Switch failure
 + HDD failures
 + Service anomaly detection/prediction. Using log analysis, trace analysis, and metric analysis
