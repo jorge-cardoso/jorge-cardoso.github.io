@@ -115,10 +115,30 @@ There are three properties that make platforms such as Huawei Cloud far more dif
 
 The strongest challenge for cloud architecture is design and operational complexity. 
 Cloud deployments comprise thousands of geographically distributed services and microservices.
+Behavior patterns such as the [Universal Law of Computational Scalability](http://www.perfdynamics.com/Manifesto/USLscalability.html), 
+make a distributed system highly non-linear and difficult to model.
 
 ### Underlying Architecture
 
 Key building block components which require a close monitoring include:
+
+The book [The Datacenter as a Computer: An Introduction to the Design of Warehouse-Scale Machines](https://ai.google/research/pubs/pub41606), 
+written by Google engineers, provide a very good description of the various parts which make up a data center.
+It also identifies that less than 10% of outages are caused by hardware, approximately 60% by software, and 
+that operation and maintenance failure account for 20%.
+
+#### Troubleshooting Services
+
+Software that provides services to end users.
+
++ *OBS*. Object Storage Service is a stable, secure, efficient, cloud storage service
++ *EVS*. Elastic Volume Service offers scalable block storage for servers
++ *VPC*. Virtual Private Cloud enables to create private, isolated virtual networks
++ *ECS*. Elastic Cloud Server is a cloud server that provides scalable, on-demand computing resources
+
+#### Troubleshooting Middleware
+
+Examples:
 
 + Firewalls and VPNs
 + [API Gateways](https://microservices.io/patterns/apigateway.html) (e.g., [Kong](https://konghq.com))
@@ -133,19 +153,12 @@ Key building block components which require a close monitoring include:
 (e.g., [EJB](https://en.wikipedia.org/wiki/Enterprise_JavaBeans))
 + [Database Servers](https://en.wikipedia.org/wiki/Database_server) 
 (e.g., [MySQL](https://en.wikipedia.org/wiki/MySQL))
-+ [Linux Servers](https://en.wikipedia.org/wiki/Linux), [Network Switches](https://en.wikipedia.org/wiki/Network_switch) and 
-[Network Routers](https://en.wikipedia.org/wiki/Router_(computing))
 
-#### Troubleshooting Services
+For example, to troubleshoot a load balancer (LB), it is important to understand which components are being impacted. 
+Load balancer metrics enable to measure the number and type of connections established, response time, and the 
+quantity of data transfered across backend servers, listeners, and the balancer itself. 
 
-+ Disk image library
-+ Block storage
-+ Object storage
-+ Compute and network services
-
-#### Troubleshooting Middleware
-
-For example, to troubleshoot a load balancer (LB), it is important to understand which components are being impacted. Load balancer metrics enable to measure the number and type of connections established, response time, and the quantity of data transfered across backend servers, listeners, and the balancer itself. The following metrics help to determine where to start an investigation to diagnose a load balancer and client issues:
+The following metrics help to determine where to start an investigation to diagnose a load balancer and client issues:
 + Response time. Average response time of backend servers
 + Closed connections. Number of connections closed between the load balancer and backend servers.
 + 5xx status codes. Number of HTTP 5xx responses received from backend servers.
@@ -156,8 +169,6 @@ The metric *closed connections* can be used to evaluate if a large-scale system 
 to handle the incoming load. 
 And, the *5xx status codes* or *unhealthy backend servers* may provide evidence that the last deployment 
 introduced a bug. 
-
-#### Troubleshooting Components
 
 Many databases externalize different status metrics to help operators to troubleshoot errors and identify performance 
 issues. Typical metrics include server resources, backend disk storage, query statistics, and cache issues.
@@ -171,6 +182,13 @@ Example of statistics metrics include:
 + *request time*. Average end-to-end time to process a query.
 + *service time*. Average time to execute a query.
 
+#### Troubleshooting Platform
+
+Software which typically abstracts the hardware of physical server.
+
++ [Linux Servers](https://en.wikipedia.org/wiki/Linux)
+
+
 #### Troubleshooting Hardware
 
 As another example, datacenter use server systems assembled with commodity DRAM memory protected against errors 
@@ -181,6 +199,8 @@ downtime in datacenters
 The main reason seems to be due to packaging and circuit problems. 
 Thus, monitoring DRAM module to detect and predict anomalies is relevant for AIOps.  
 
++ [Network Switches](https://en.wikipedia.org/wiki/Network_switch) and 
+[Network Routers](https://en.wikipedia.org/wiki/Router_(computing))
 
 
 ### Service offerings
@@ -194,14 +214,14 @@ monitored:
 + *Enterprise Intelligence*. Machine learning services, graph engines, face and image recognition, and Mapreduce.
 + *DevCloud*. Project management, build, code hub, code check, and code release.
 
-### Solutions Required for Toubleshooting 
+### Solutions Required for Troubleshooting 
 + Switch failure
 + HDD failures
 + Service anomaly detection/prediction. Using log analysis, trace analysis, and metric analysis
 + [Cluster failure prediction](https://dl.acm.org/citation.cfm?id=1362678)
 
 
-## AIOps AIOps Platform Construction
+## AIOps Platform Construction
 An AIOps platform architecture consists of functional layers such as:
 
 1. *Big Data processing*. Real-time processing of streaming and historical data.
@@ -249,7 +269,7 @@ After identifying a pain point, we identify the following elements to develop a 
 + Manual recovery actions
 + Critical components which requires special monitoring infrastructure
 
-### Data Sources
+### Data Ingestion
 
 Monitoring data comes from many different data sources such hypervisors, OS, applications, application servers, 
 middleware, databases, application logs, host and network metrics.
@@ -261,6 +281,23 @@ and free-form text, which are stored in system files.
 3. *Traces*. Traces records the workflow and tasks executed in response to an HTTP request. 
 4. *Events*. Major milestones which occur within a data center can be exposed as events. 
 Examples include alarms, service upgrades, and software releases.
+
+Examples:
+
+> 2017-01-18 15:54:00.467 32552 ERROR oslo_messaging.rpc.server [req-c0b38ace - default default] Exception during message handling
+
+> {“tags": [“mem”, “192.196.0.2”, “AZ01”], “data”: [2483, 2669, 2576, 2560, 2549, 2506, 2480, 2565, 3140, …, 2542, 2636, 2638, 2538, 2521, 2614, 2514, 2574, 2519]}
+
+> {"traceId": "72c53", "name": "get", "timestamp": 1529029301238, "id": "df332", "duration": 124957, “annotations": [{"key": "http.status_code", "value": "200"}, {"key": "http.url", "value": "https://v2/e5/servers/detail?limit=200"}, {"key": "protocol", "value": "HTTP"}, "endpoint": {"serviceName": "hss", "ipv4": "126.75.191.253"}]
+
+
+> {"id": "dns_address_match“, "timestamp": 1529029301238, ...}
+> {"id": "ping_packet_loss“, "timestamp": 152902933452, ...}
+> {"id": "tcp_connection_time“, "timestamp": 15290294516578, ...}
+> {"id": "cpu_usage_average “, "timestamp": 1529023098976, ...}
+
+
+#### Examples 
 
 Google SRE team proposed [4 Golden Signals](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/) 
 which provide key insights on how a distributed system is running using metrics:
@@ -280,6 +317,15 @@ calls to services.
 
 An AIOps platform needs to be able to ingest logs, metrics, traces, and events into efficient key-value databases
 where they are stored to later be accessed and analyzed.
+
+Challenges:
++ *Resolution*. While reading data sources every minute is relatively easy to achieve, as systems become more complex, 
+non-linear, and with an large customer base, fine grained metrics are needed. Often, one second polling resolution 
+is required since anomalies and uncommon patterns that occur in a one minute interval are invisible. 
+
+To get the monitoring data needed, SRE need to write new tools, patch existing systems, and add knobs to 
+production platforms to control their behavior.
+
 
 #### Distributed Tracing
 Distributed tracing enables understanding how systems' components interact together when handling incoming requests.
@@ -325,6 +371,28 @@ We will extend supported patterns by implementing new detector services for dist
 All the anomaly detectors contribute with results to a central knowledge repository of metric, trace, and log 
 observations, and alarms and relevant external events (e.g., platform upgrades).
 
+#### Challenges
++ [Multimodal metrics](https://en.wikipedia.org/wiki/Multimodal_distribution). 
+Since distributed systems are composed of many subsystems, it is expected to observe Gaussian mixture models
+representing normally distributed subpopulations generated by the subcomponents. When subpopulation assignment 
+is not known, unsupervised learning can be used to determine the subpopulation a data point belongs to. 
+If the number of components is known, expectation maximization (EM) can be used to estimate the mixture model's
+parameters, and, afterwards run a clustering algorithm.
+Nonetheless, the number of components is unusably not known. Furthermore, the distribution of data points is often not
+Gaussian.
++ Direct and indirect metrics. CPU load, available memory, network resources, and IO are direct signal host-level
+metrics.
+On the other hand, the *response time* of a service call to a microservice provisioned by *n* distributed components
+is an indirect signal service-level metric. As its values dependent on the health of the subcomponents and the
+subset of components involved during the handling of the request.
+Indirect metrics are far more complex to analyze when compared to direct ones.
++ Variability. Due to the large number of components presents in a large-scale systems, the variability of latency 
+is high. The reasons of this variability in individual components of a service is well known and in the 
+Communication of the ACM article 
+[The Tail at Scale](https://www2.cs.duke.edu/courses/cps296.4/fall13/838-CloudPapers/dean_longtail.pdf).
+Sources of variability include the existence of daemons, shared resources, garbage collection, queueing, and 
+energy management. Techniques such as replication, sharding, and load-balancing all contribute to increase the entropy
+of a complex system. 
 
 ### Inductive Inference 
 
@@ -362,6 +430,16 @@ remediation actions to be executed.
 + Access to customer systems is not possible to calibrate models: use Transfer learning
 + Model localization: the same model is adapted to different contexts
 + How to improve model based on running and field information
++ [Fuzzy Logic](https://en.wikipedia.org/wiki/Fuzzy_logic).
+Determining that a service is in a failed state is rather simple. The challenge is to determine if the current state 
+of a service is in the gray zone between the *ok* and *failed* states. For example, analyzing a service 
+which passes all the basic health checks, but is unable to complete client requests according SLOs for 5% of requests, 
+is far more difficult.
++ Masking. Complex distributed systems that use load balancing components to increase reliability and scalability
+make the detection of anomaly more difficult since their object is to mask problems from end users. 
+Thus, if an AIOps system is looking at a distributed system from the user perspective, it may not be able to easily
+identify health problems. 
+
 
 ### Automated Operations
 
@@ -392,10 +470,12 @@ We evaluate the techniques and algorithms we built using a 3-level approach:
 + *Synthetics data*. We built models simulating microservice applications which are able to generate data under 
 very specific conditions. The scenarios simulated are usually difficult to obtain when using testbeds and 
 production systems. The controlled data enables a fine-grained understanding of how new algorithms behave and are an 
-effective way for improvement and redesign.
+effective way for improvement and redesign. Nonetheless, the type of traffic that is generated in production is
+typically not captured by synthetic data.
 + *Testbed data*. Once an algorithm passes the evaluation using synthetic data, we make a second evaluation using 
 testbed data. We run an OpenSack cloud platform under normal utilization. Faults are injected into the platform and
 we expect algorithms to detect anomalies, find their root cause, predict errors, and remediate failures.
+Service calls from normal production can be used to trigger the calls of the testbed.
 + *Production data*. In the last step of the evaluation, we deploy algorithms in planet-scale production systems. 
 This is the final evaluation in an environment with noise and which generally makes algorithms generate many 
 false positives. Accuracy, performance and resources consumption is registered.
@@ -528,6 +608,11 @@ To come....
 ### Performance Tuning
 + Auto tuning of workloads by analyzing the time taken for common tasks such as responding to a request and 
 apply an accurate fix to the problem
+
+Techniques:
++ Message Queuing analysis. Message queue length is a good metric for system health analysis.
+The length of queue of connecting microservices are constantly monitored and an alert is sent out if their size goes
+beyond a predefined threshold. Either generate alerts on the size of single queues or a sum of message queues.
 
 ### Energy Efficiency 
 + Manual

@@ -123,7 +123,9 @@ make a distributed system highly non-linear and difficult to model.
 Key building block components which require a close monitoring include:
 
 The book [The Datacenter as a Computer: An Introduction to the Design of Warehouse-Scale Machines](https://ai.google/research/pubs/pub41606), 
-written by Google engineers, provide a very good description of the various parts which make up a data center. 
+written by Google engineers, provide a very good description of the various parts which make up a data center.
+It also identifies that less than 10% of outages are caused by hardware, approximately 60% by software, and 
+that operation and maintenance failure account for 20%.
 
 #### Troubleshooting Services
 
