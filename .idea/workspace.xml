@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="General Updated">
+    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="Made a Summary of the file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/research/iforesight.md" beforeDir="false" afterPath="$PROJECT_DIR$/research/iforesight.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/research/aiops_white_paper.rst" beforeDir="false" afterPath="$PROJECT_DIR$/research/aiops_white_paper.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +14,11 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/research/iforesight.md">
+        <entry file="file://$PROJECT_DIR$/research/aiops_white_paper.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="704">
-                <caret line="344" column="9" selection-start-line="344" selection-start-column="9" selection-end-line="344" selection-end-column="9" />
+              <first_editor relative-caret-position="100">
+                <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
@@ -30,6 +30,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>queue</find>
+      <find>Oppenheimer</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -39,13 +40,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/research/iforesight.md" />
+        <option value="$PROJECT_DIR$/research/aiops_white_paper.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="260" />
+    <option name="x" value="257" />
     <option name="y" value="23" />
-    <option name="width" value="1836" />
+    <option name="width" value="2234" />
     <option name="height" value="1417" />
   </component>
   <component name="ProjectView">
@@ -202,15 +204,85 @@
       <option name="project" value="LOCAL" />
       <updated>1564208148334</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Multimodal metrics">
+      <created>1564324288871</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1564324288871</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Variability">
+      <created>1564327223565</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1564327223565</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Variability">
+      <created>1564377511557</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1564377511557</updated>
+    </task>
+    <task id="LOCAL-00017" summary="USL Law">
+      <created>1564718029998</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1564718029998</updated>
+    </task>
+    <task id="LOCAL-00018" summary="USL Law">
+      <created>1564718355003</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1564718355003</updated>
+    </task>
+    <task id="LOCAL-00019" summary="USL Law">
+      <created>1564807635508</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1564807635508</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Made a Summary of the file">
+      <created>1564808563139</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1564808563139</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Cleanup">
+      <created>1564821225285</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1564821225286</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Change to RST">
+      <created>1564822456505</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1564822456505</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Changed to rst">
+      <created>1564822486416</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1564822486416</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="23" width="1836" height="1417" extended-state="0" />
+    <frame x="257" y="23" width="2234" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11404958" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09353818" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -233,22 +305,31 @@
     <MESSAGE value="Updated troubleshooting" />
     <MESSAGE value="Updated Use Cases" />
     <MESSAGE value="General Updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="General Updated" />
+    <MESSAGE value="Multimodal metrics" />
+    <MESSAGE value="Variability" />
+    <MESSAGE value="USL Law" />
+    <MESSAGE value="Made a Summary of the file" />
+    <MESSAGE value="Cleanup" />
+    <MESSAGE value="Change to RST" />
+    <MESSAGE value="Changed to rst" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed to rst" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/research/aiops_white_paper.md">
+    <entry file="file://$PROJECT_DIR$/research/iforesight.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="433">
+            <caret line="278" selection-start-line="278" selection-end-line="291" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/research/iforesight.md">
+    <entry file="file://$PROJECT_DIR$/research/aiops_white_paper.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="704">
-            <caret line="344" column="9" selection-start-line="344" selection-start-column="9" selection-end-line="344" selection-end-column="9" />
+          <first_editor relative-caret-position="100">
+            <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           </first_editor>
           <second_editor />
         </state>
