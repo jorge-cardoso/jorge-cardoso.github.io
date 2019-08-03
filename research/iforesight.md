@@ -20,9 +20,6 @@ toc: true
 </p>
 
 
-This page is in construction. You will certainly find errs.
-
-
 ## Introduction
 
 In planet-scale deployments, the Operation and Maintenance (O&M) of cloud platforms cannot be done any longer 
@@ -31,15 +28,12 @@ the use of AI to provide tools for autonomous cloud operations. We rely on deep 
 distributed traces, and time-series analysis (sequence analysis) to effectively detect and fix anomalous 
 cloud infrastructure behaviors during operations to reduce the workload of human operators. 
 
-The iForesight system, labelled under the AIOps software category, is being used to evaluate new O&M approaches. 
-iForesight 3.0 is the result of 3 years of research with the goal to provide an intelligent new tool aimed at 
-SRE cloud maintenance teams. 
-It enables them to quickly detect and predict anomalies thanks to the use of artificial intelligence when cloud services 
+The iForesight system is being used to evaluate new O&M approaches. iForesight 3.0 is the result of 2 years 
+of research with the goal to provide an intelligent new tool aimed at SRE cloud maintenance teams. It enables 
+them to quickly detect and predict anomalies thanks to the use of artificial intelligence when cloud services 
 are slow or unresponsive. 
 
 ## Problem
-The operation of large-scale platforms serving millions of people often introduces complex and unique 
-engineering challenges. 
 Existing tools for monitoring IT infrastructures, networks and applications focus on collecting logs, metrics, 
 events, and traces from distributed systems mainly for visualization. Nonetheless, the final goal of monitoring 
 is to reach a level of technological development where we have tools that conduct root cause analysis with a high 
@@ -49,17 +43,12 @@ platforms is to rely on advanced analytics and explore techniques from statistic
 natural language processing, graph processing, machine learning, and deep learning to extract insights from large 
 volumes of monitoring data to support and drive recovery actions. 
 
-
 ## Approach
 The mission of the **Intelligent Cloud Operations** SRE team (based in [Munich](https://www.muenchen.de/int/en.html), 
-Germany) is to develop new AIOps systems and tools to analyze observability data 
+Germany) is to develop new systems and tools to analyze observability data 
 from [Huawei Cloud](https://www.huaweicloud.com/en-us/about/about_us.html)
 to detect impact to customers, identify the root cause within seconds, and fix the problem using 
 the 1/5/10 rule (detection: 1 min, RCA: 5 min, recovery: 10 min).
-
-AIOps (Artificial Intelligence for IT operations) characterizes systems which use complex monitoring platforms, heterogeneous big data, machine learning (ML) and other artificial intelligence technologies to toubleshoot IT problems.
-The term can be viewed as the evolution of [IT operations analytic](https://en.wikipedia.org/wiki/IT_operations_analytics) and
-[Software Analytics](http://taoxie.cs.illinois.edu/publications/ieeesoft13-softanalytics.pdf).
 
 The following figure from [Gartner](https://www.gartner.com/en) provides a high level architecture of the system 
 we are building highliting the main areas of concern: 
@@ -75,6 +64,16 @@ Machine Learning (ML),
 <img src="https://blogs.bmc.com/wp-content/uploads/2019/02/AIOpsGraphicGartner2018-768x408.png" height="408" width="768" style="float:center;margin:0 20px 0 0;"/>
 </p>
 
+The use of ML for production engineering can support the development of new approaches for: 
+1. Monitoring and alerting
+2. Anomaly detection and Root Cause Analysis
+3. Capacity planing and prediction
+4. Canarying validation
+5. Service Scaling
+6. Operational performance
+
+Our work focuses on points 1) and 2). 
+
 In 2017 we adopted AI in the form of [Data Science](https://en.wikipedia.org/wiki/Data_science) and 
 [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning) approaches for anomaly detection, 
 root-cause analysis, fault prediction, and automated recovery into our suite. 
@@ -83,17 +82,25 @@ These techniques, including **statistical learning**, **time-series analysis**, 
 **streaming**, and **data visualization**, enabled us to develop new production-ready services for troubleshooting 
 Huawei Cloud and detect issues which were previously undetectable.
 
+## AIOPs platform
+An AIOps platform architecture consists of functional layers such as:
+
+1. *Big Data processing*. Real-time processing of streaming and historical data.
+2. *Data pipeline*. Connected data processing elements ingesting data from multiple sources.
+3. *Library of algorithms*: Statistical functions, classical machine learning, and deep learning algorithm.
+4. *Automation*. Use runbooks and RPA technology to automate repetitive tasks.
+5. *User interface*. Allows IT operations teams t interact with the platform and quickly identify issues and apply corrective actions.
+
+Our work focuses on points 1)-3). 
 
 ## Challenges
 
-The challenges of operationalising AI are not limited to the understanding of deep learning or machine learning algorithms.
+The challenges of operationalising AI are not limited to the understanding of deep learnign or machine learning algorithms.
 Major challenges are related with software engineering, access and processing of large amounts of distributed data, 
 model management, updating, deleting and training models on specialized GPUs and hardware, composition of workflows
 for orchestrating parallel jobs, and the visual management of models, workflows, and results. 
-+ Methods, techniques, and algorithms
-+ AIOps platform construction
 
-## System Under the Microscope: Huawei Cloud 
+## Huawei Cloud
 Our cloud has planet-scale technical requirements with an 
 [microservices](https://en.wikipedia.org/wiki/Microservices) architecture composed of hundreds of services.
 They are distributed over thousands of hosts in many geographical regions and operate with an availability 
@@ -113,36 +120,13 @@ There are three properties that make platforms such as Huawei Cloud far more dif
 2. Due to its distributed nature and complexity, system data has a low signal to noise ratio.
 3. Since many different subsystems interact together, semantically reconciliating data is difficult.
 
+
 The strongest challenge for cloud architecture is design and operational complexity. 
 Cloud deployments comprise thousands of geographically distributed services and microservices.
-Behavior patterns such as the [Universal Law of Computational Scalability](http://www.perfdynamics.com/Manifesto/USLscalability.html), 
-make a distributed system highly non-linear and difficult to model.
-
-### Underlying Architecture
-
 Key building block components which require a close monitoring include:
 
-The book [The Datacenter as a Computer: An Introduction to the Design of Warehouse-Scale Machines](https://ai.google/research/pubs/pub41606), 
-written by Google engineers, provide a very good description of the various parts which make up a data center.
-It also identifies that less than 10% of outages are caused by hardware, approximately 60% by software, and 
-that operation and maintenance failure account for 20%.
-
-#### Troubleshooting Services
-
-Software that provides services to end users.
-
-+ *OBS*. Object Storage Service is a stable, secure, efficient, cloud storage service
-+ *EVS*. Elastic Volume Service offers scalable block storage for servers
-+ *VPC*. Virtual Private Cloud enables to create private, isolated virtual networks
-+ *ECS*. Elastic Cloud Server is a cloud server that provides scalable, on-demand computing resources
-
-#### Troubleshooting Middleware
-
-Examples:
-
-+ Firewalls and VPNs
 + [API Gateways](https://microservices.io/patterns/apigateway.html) (e.g., [Kong](https://konghq.com))
-+ [Load Balancers](https://en.wikipedia.org/wiki/Load_balancing_(computing)) (e.g., [HAProxy](http://www.haproxy.org))
++ [Load Balancers](https://en.wikipedia.org/wiki/Load_balancing_(computing) (e.g., [HAProxy](http://www.haproxy.org))
 + [Message Queuing Services](https://en.wikipedia.org/wiki/Message_queuing_service)
 (e.g., [RabbitMQ](https://en.wikipedia.org/wiki/RabbitMQ))
 + [Distributed Caches](https://en.wikipedia.org/wiki/Distributed_cache) 
@@ -153,57 +137,9 @@ Examples:
 (e.g., [EJB](https://en.wikipedia.org/wiki/Enterprise_JavaBeans))
 + [Database Servers](https://en.wikipedia.org/wiki/Database_server) 
 (e.g., [MySQL](https://en.wikipedia.org/wiki/MySQL))
-
-For example, to troubleshoot a load balancer (LB), it is important to understand which components are being impacted. 
-Load balancer metrics enable to measure the number and type of connections established, response time, and the 
-quantity of data transfered across backend servers, listeners, and the balancer itself. 
-
-The following metrics help to determine where to start an investigation to diagnose a load balancer and client issues:
-+ Response time. Average response time of backend servers
-+ Closed connections. Number of connections closed between the load balancer and backend servers.
-+ 5xx status codes. Number of HTTP 5xx responses received from backend servers.
-+ Unhealthy backend servers. The number of unhealthy backend servers in the backend set.
-+ Connection count. Number of incoming client requests to the load balancer.
-
-The metric *closed connections* can be used to evaluate if a large-scale system has enough services running 
-to handle the incoming load. 
-And, the *5xx status codes* or *unhealthy backend servers* may provide evidence that the last deployment 
-introduced a bug. 
-
-Many databases externalize different status metrics to help operators to troubleshoot errors and identify performance 
-issues. Typical metrics include server resources, backend disk storage, query statistics, and cache issues.
-[CouchDB website](https://docs.couchbase.com/server/5.5/monitoring/ui-monitoring-statistics.html) provides a 
-detailed description of the metrics which can be used to troubleshooting.
-
-Example of statistics metrics include:
-
-+ *requests/sec*. Total number of requests processed per second.
-+ *selects/sec*. Total number of SELECT requests processed per second.
-+ *request time*. Average end-to-end time to process a query.
-+ *service time*. Average time to execute a query.
-
-#### Troubleshooting Platform
-
-Software which typically abstracts the hardware of physical server.
-
-+ [Linux Servers](https://en.wikipedia.org/wiki/Linux)
-
-
-#### Troubleshooting Hardware
-
-As another example, datacenter use server systems assembled with commodity DRAM memory protected against errors 
-by storing redundant information and applying ECC to detect and correct errors. 
-Nonetheless, a relatively recent study shows that event with ECC techniques, memory chip failures cause significant 
-downtime in datacenters 
-[DRAM Errors in the Wild: A Large-Scale Field Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35162.pdf). 
-The main reason seems to be due to packaging and circuit problems. 
-Thus, monitoring DRAM module to detect and predict anomalies is relevant for AIOps.  
-
++ [Linux Servers](https://en.wikipedia.org/wiki/Linux) 
 + [Network Switches](https://en.wikipedia.org/wiki/Network_switch) and 
-[Network Routers](https://en.wikipedia.org/wiki/Router_(computing))
-
-
-### Service offerings
+[Network Routers](https://en.wikipedia.org/wiki/Router_(computing)
 
 Besides these building blocks which are part of the base cloud infrastructure, service offerings also need to be
 monitored:
@@ -214,62 +150,7 @@ monitored:
 + *Enterprise Intelligence*. Machine learning services, graph engines, face and image recognition, and Mapreduce.
 + *DevCloud*. Project management, build, code hub, code check, and code release.
 
-### Solutions Required for Troubleshooting 
-+ Switch failure
-+ HDD failures
-+ Service anomaly detection/prediction. Using log analysis, trace analysis, and metric analysis
-+ [Cluster failure prediction](https://dl.acm.org/citation.cfm?id=1362678)
-
-
-## AIOps Platform Construction
-An AIOps platform architecture consists of functional layers such as:
-
-1. *Big Data processing*. Real-time processing of streaming and historical data.
-  * *In-memory databases*. (e.g., [Gorilla](https://www.vldb.org/pvldb/vol8/p1816-teller.pdf))
-  * *Distributed log system*. (e.g., [LogDevice](https://github.com/facebookincubator/LogDevice)) 
-2. *Data pipeline*. Connected data processing elements ingesting data from multiple sources.
-3. *Library of algorithms*: Statistical functions, classical machine learning, and deep learning algorithm.
-4. *Automation*. Use runbooks and RPA technology to automate repetitive tasks.
-5. *User interface*. Allows IT operations teams t interact with the platform and quickly identify issues and apply corrective actions.
-
-For 2019-2020, our work focuses on points 1)-3).
-
-AIOps does not only requires new methods and techniques from the fields of statistics and ML, but it also needs 
-online and offline big data infrastructure (such as Hadoop, HBase, Spark, Gobblin, Presto) to ingest and process
-scale monitoring data which can reach several PB/day. For example, Facebook uses Presto for interactive queries
-over their 300PB data stores.
-
-iForesight is build using the following software stack and applications. 
-
-+ Frontend: Grafana, Jupyter, Node.js
-+ AI: Tensorflow, Keras, PyTorch, Pandas/NumPy, Scikit-learn, Huawei Model Arts
-+ Backend: Microservices, Docker, MySQL 
-+ Big Data: OpenTSDB, Hive, ArangoDB, HBase, Elastic Search, Spark Streaming. 
-+ Transport: Kafka
-+ Data sources: metrics, app logs, tracing, alarms, topologies, and change events
-+ Agents: StatsD, cAdvisor, FluentD 
-+ Language: Python
-
-In 2019, we will closely following the progresses make in the following 5 fields to extend our stack and suite:
-
-+ [AIOps](https://blog.appdynamics.com/aiops/what-is-aiops/),
-[Service Mesh](https://www.nginx.com/blog/what-is-a-service-mesh/),
-[Istio](https://istio.io),
-[Distributed Tracing](https://opentracing.io/docs/overview/what-is-tracing/),
-[SRE](https://landing.google.com/sre/),
-[RPA](https://en.wikipedia.org/wiki/Robotic_process_automation)
-
-## Methods, techniques, and algorithms
-
-### Exploring SRE Pain Points
-After identifying a pain point, we identify the following elements to develop a solution:
-+ Existing manual workflows for troubleshooting for automatization 
-+ Key golden metrics which can enable an effective anomaly detection
-+ Data sources for root cause analysis
-+ Manual recovery actions
-+ Critical components which requires special monitoring infrastructure
-
-### Data Ingestion
+### Data Sources
 
 Monitoring data comes from many different data sources such hypervisors, OS, applications, application servers, 
 middleware, databases, application logs, host and network metrics.
@@ -281,23 +162,6 @@ and free-form text, which are stored in system files.
 3. *Traces*. Traces records the workflow and tasks executed in response to an HTTP request. 
 4. *Events*. Major milestones which occur within a data center can be exposed as events. 
 Examples include alarms, service upgrades, and software releases.
-
-Examples:
-
-> 2017-01-18 15:54:00.467 32552 ERROR oslo_messaging.rpc.server [req-c0b38ace - default default] Exception during message handling
-
-> {“tags": [“mem”, “192.196.0.2”, “AZ01”], “data”: [2483, 2669, 2576, 2560, 2549, 2506, 2480, 2565, 3140, …, 2542, 2636, 2638, 2538, 2521, 2614, 2514, 2574, 2519]}
-
-> {"traceId": "72c53", "name": "get", "timestamp": 1529029301238, "id": "df332", "duration": 124957, “annotations": [{"key": "http.status_code", "value": "200"}, {"key": "http.url", "value": "https://v2/e5/servers/detail?limit=200"}, {"key": "protocol", "value": "HTTP"}, "endpoint": {"serviceName": "hss", "ipv4": "126.75.191.253"}]
-
-
-> {"id": "dns_address_match“, "timestamp": 1529029301238, ...}
-> {"id": "ping_packet_loss“, "timestamp": 152902933452, ...}
-> {"id": "tcp_connection_time“, "timestamp": 15290294516578, ...}
-> {"id": "cpu_usage_average “, "timestamp": 1529023098976, ...}
-
-
-#### Examples 
 
 Google SRE team proposed [4 Golden Signals](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/) 
 which provide key insights on how a distributed system is running using metrics:
@@ -317,24 +181,6 @@ calls to services.
 
 An AIOps platform needs to be able to ingest logs, metrics, traces, and events into efficient key-value databases
 where they are stored to later be accessed and analyzed.
-
-Challenges:
-+ *Resolution*. While reading data sources every minute is relatively easy to achieve, as systems become more complex, 
-non-linear, and with an large customer base, fine grained metrics are needed. Often, one second polling resolution 
-is required since anomalies and uncommon patterns that occur in a one minute interval are invisible. 
-
-To get the monitoring data needed, SRE need to write new tools, patch existing systems, and add knobs to 
-production platforms to control their behavior.
-
-
-#### Distributed Tracing
-Distributed tracing enables understanding how systems' components interact together when handling incoming requests.
-It has its root on early research on concepts such as X-Trace and Magpie, and was generalized in industry 
-with Google paper [Dapper](https://static.googleusercontent.com/media/research.google.com/en//archive/papers/dapper-2010-1.pdf)
-in 2010.
-
-Many companies supported by large-scale systems, such as Uber and Facebook, operate large scale distributed 
-tracing systems to gain observability capabilities. 
 
 ### Pattern Recognition
 
@@ -371,28 +217,6 @@ We will extend supported patterns by implementing new detector services for dist
 All the anomaly detectors contribute with results to a central knowledge repository of metric, trace, and log 
 observations, and alarms and relevant external events (e.g., platform upgrades).
 
-#### Challenges
-+ [Multimodal metrics](https://en.wikipedia.org/wiki/Multimodal_distribution). 
-Since distributed systems are composed of many subsystems, it is expected to observe Gaussian mixture models
-representing normally distributed subpopulations generated by the subcomponents. When subpopulation assignment 
-is not known, unsupervised learning can be used to determine the subpopulation a data point belongs to. 
-If the number of components is known, expectation maximization (EM) can be used to estimate the mixture model's
-parameters, and, afterwards run a clustering algorithm.
-Nonetheless, the number of components is unusably not known. Furthermore, the distribution of data points is often not
-Gaussian.
-+ Direct and indirect metrics. CPU load, available memory, network resources, and IO are direct signal host-level
-metrics.
-On the other hand, the *response time* of a service call to a microservice provisioned by *n* distributed components
-is an indirect signal service-level metric. As its values dependent on the health of the subcomponents and the
-subset of components involved during the handling of the request.
-Indirect metrics are far more complex to analyze when compared to direct ones.
-+ Variability. Due to the large number of components presents in a large-scale systems, the variability of latency 
-is high. The reasons of this variability in individual components of a service is well known and in the 
-Communication of the ACM article 
-[The Tail at Scale](https://www2.cs.duke.edu/courses/cps296.4/fall13/838-CloudPapers/dean_longtail.pdf).
-Sources of variability include the existence of daemons, shared resources, garbage collection, queueing, and 
-energy management. Techniques such as replication, sharding, and load-balancing all contribute to increase the entropy
-of a complex system. 
 
 ### Inductive Inference 
 
@@ -417,52 +241,28 @@ latency of requests.
 + Trace analysis: Component or dependency failure, structural trace analysis, response time span analysis.
 + Event analysis: Causality between upgrades, reconfigurations, and forklift replacements and failure.
 
-Inference can also decide to run automated diagnostics scripts (runbooks) to gain additional insights of the 
-current state of components, services, or systems to improve inference.
+### Remediation
+
+Once methods for pattern recognition and inference are mastered, the next step is to look into auto remediation. 
+The first approach consists in running automated diagnostics scripts (runbooks) to troubleshoot and 
+gain insights of the current state of components, services, or systems to, afterwards, conduct a manual remediation.
+As knowledge on failure modes is gained, failure patterns are identified and recovery is encoded into automated 
+remediation scripts. Often, only simple failure cases can be handled but this constitute a very good starting point 
+for more complex scenarios. Examples include rebooting a host, restarting a microservice or hung process, 
+free disk space, and remove cached data. As knowledge on running systems accumulates, auto-remediation becomes 
+pervasive to service owners which can define their own recovery actions.
+
+
+### Automation
+
+In practice, these three tasks -- pattern recognition, inference, and remediation -- are linked together to provide an 
+end-to-end solution for O&M. 
 For example, when pattern recognition identifies an HTTP endpoint with a high latency associated with an anomaly 
 by analysing metrics, distributed traces are immediately analysed to reveal exactly which microservice or component 
 is causing the problem.
 Its logs and context metrics are accessed to quickly diagnose the issue. 
-Afterwards, when sufficient evidence characterizing the problem is collected, inference will nominate operations and 
-remediation actions to be executed.
-
-#### Challenges
-+ Access to customer systems is not possible to calibrate models: use Transfer learning
-+ Model localization: the same model is adapted to different contexts
-+ How to improve model based on running and field information
-+ [Fuzzy Logic](https://en.wikipedia.org/wiki/Fuzzy_logic).
-Determining that a service is in a failed state is rather simple. The challenge is to determine if the current state 
-of a service is in the gray zone between the *ok* and *failed* states. For example, analyzing a service 
-which passes all the basic health checks, but is unable to complete client requests according SLOs for 5% of requests, 
-is far more difficult.
-+ Masking. Complex distributed systems that use load balancing components to increase reliability and scalability
-make the detection of anomaly more difficult since their object is to mask problems from end users. 
-Thus, if an AIOps system is looking at a distributed system from the user perspective, it may not be able to easily
-identify health problems. 
-
-
-### Automated Operations
-
-The most common use of operations is to solve problems. Operations (actions) can be automatically triggered 
-in response to troubleshooting workflows.
-
-For example, once methods for pattern recognition and inference are mastered, the next step is to look into 
-auto-remediation. As knowledge on failure modes is gained, failure patterns are identified and recovery is 
-encoded into automated remediation scripts. Often, only simple failure cases can be handled but this constitute 
-a very good starting point for more complex scenarios.
-
-Examples include rebooting a host, restarting a microservice or hung process, free disk space, and remove 
-cached data. As knowledge on running systems accumulates, auto-remediation becomes pervasive to service owners 
-which can define their own recovery actions.
-
-Other types of operations relevant to AIOps include: 
-1. Capacity planing
-2. Canarying validation
-3. Service scaling
-4. Performance analysis
-5. Intelligent troubleticket routing
-6. Predictive maintenance
-
+Afterwards, when sufficient evidence characterizing the problem is collected, inference will nominate remediation 
+actions to be executed.
 
 ### Evaluation
 
@@ -470,12 +270,10 @@ We evaluate the techniques and algorithms we built using a 3-level approach:
 + *Synthetics data*. We built models simulating microservice applications which are able to generate data under 
 very specific conditions. The scenarios simulated are usually difficult to obtain when using testbeds and 
 production systems. The controlled data enables a fine-grained understanding of how new algorithms behave and are an 
-effective way for improvement and redesign. Nonetheless, the type of traffic that is generated in production is
-typically not captured by synthetic data.
+effective way for improvement and redesign.
 + *Testbed data*. Once an algorithm passes the evaluation using synthetic data, we make a second evaluation using 
 testbed data. We run an OpenSack cloud platform under normal utilization. Faults are injected into the platform and
 we expect algorithms to detect anomalies, find their root cause, predict errors, and remediate failures.
-Service calls from normal production can be used to trigger the calls of the testbed.
 + *Production data*. In the last step of the evaluation, we deploy algorithms in planet-scale production systems. 
 This is the final evaluation in an environment with noise and which generally makes algorithms generate many 
 false positives. Accuracy, performance and resources consumption is registered.
@@ -494,150 +292,48 @@ Many public datasets are also available to conduct comparative studies:
 + [Anomaly detection datasets from Harvard](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OPQMVF)
 + [Anomaly detection datasets from Oregon State](https://ir.library.oregonstate.edu/concern/datasets/47429f155)
 
-#### Challenges
-+ Obtain support to make datasets available so that researchers can develop new approaches
-+ Generate positive and negative samples automatically
-+ Sparse training samples
-+ Hard to obtain data from clients environments
+### Exploring SRE Pain Points
+After identifying a pain point, we identify the following elements to develop a solution:
++ Existing manual workflows for troubleshooting for automatization 
++ Key golden metrics which can enable an effective anomaly detection
++ Data sources for root cause analysis
++ Manual recovery actions
++ Critical components which requires special monitoring infrastructure
 
 
-## Applications and Use Cases
+## Tech Stack
+AIOps does not only requires new methods and techniques from the fields of statistics and ML, but it also needs online and offline big data infrastructure (such as Hadoop, HBase, Spark, Gobblin, Presto) to ingest and process scale monitoring data which can reach several PB/day. For example, Facebook uses Presto for interactive queries over their 300PB data stores.
 
-### Anomaly Detection
-For large-scale, dynamic IT infrastructures, detecting problems is a complex task since its behavior becomes 
-too complex to understand.
-Without special tools, operators need to manually analyze different monitoring, configuration, trace, log, and 
-other data. 
-Techniques for anomaly detection allow to automatically discover potential problems by analyzing data generated by 
-the monitoring infrastructure and raising alarms when unusual conditions are meet. 
-This is especially important for planet-scale systems, where it is desirable to have teams which can scale while 
-maintaining quality of service and SLOs.
+iForesight is build using the following software stack and applications. 
 
-Techniques:
-+ Metrics. Time series analysis for multimodal and univariate/multivariate data.
-+ Logs. NLP 
-+ Traces. Graph-based techniques.
++ Frontend: Grafana, Jupyter, Node.js
++ AI: Tensorflow, Keras, PyTorch, Pandas/NumPy, Scikit-learn, Huawei Model Arts
++ Backend: Microservices, Docker, MySQL 
++ Big Data: OpenTSDB, Hive, ArangoDB, HBase, Elastic Search, Spark Streaming. 
++ Transport: Kafka
++ Data sources: metrics, app logs, tracing, alarms, topologies, and change events
++ Language: Python
 
-#### Multimodel metric anomaly detection
-Multimodal metrics are often a symptom that part of a system build for reliability has a performance degradation,
-possibly due to a failure. 
-The use of clustering algorithms for multimodal anomaly detection are an interesting approach. The latent groupings
-are found by finding a partition that separates the moniroting data into unimodal subsets that are more coherent
-than the unpartitioned superset.
+In 2019, we will closely following the progresses make in the following 5 fields to extend our stack and suite:
+
++ [AIOps](https://blog.appdynamics.com/aiops/what-is-aiops/),
+[Service Mesh](https://www.nginx.com/blog/what-is-a-service-mesh/),
+[Istio](https://istio.io),
+[Distributed Tracing](https://opentracing.io/docs/overview/what-is-tracing/),
+[SRE](https://landing.google.com/sre/),
+[RPA](https://en.wikipedia.org/wiki/Robotic_process_automation)
 
 
-#### Univariate/multivariate anomaly detection
-To detect servers which are outliers, [Netflix](https://medium.com/netflix-techblog/tracking-down-the-villains-outlier-detection-at-netflix-40360b31732) uses the clustering algorithm [DBSCAN](https://en.wikipedia.org/wiki/DBSCAN). 
-Using a self-service paradigm, service owners identify one metric to be monitored for outliers.
-The troubleshooting system runs DBSCAN to analysis metric windows which returns the set of servers considered outliers.
-Service owners also specify the minimum timeframe for a deviation to be considered a true positive outlier.
+## Systems from Academia and Industry
 
-Netflix solves the parameter selection challenge inherent to most algorithms by only asking service owners to define the current number of outliers. 
-Using [simulated annealing](https://en.wikipedia.org/wiki/Simulated_annealing), the distance and minimum cluster size parameters are determined.
-Results show a precision of 93%, recall: 87%, [F-score](https://en.wikipedia.org/wiki/F1_score): 90% for pools of almost 2K servers.
-
-Following the approach path from Netflix, [other researchers](https://www.hbs.edu/faculty/Publication%20Files/2019%20HICSS%20Anomoly_296d232d-ccb2-448d-9d19-603c08a04a19.pdf) have extended the approach by using several metrics. While the results were more modest, the software system at hand was more complex.
-
-To come...using tsfresh and Random Forests
-
-
-### Alarm Deduplication
-Large-scale, complex IT infrastructures can generate tens to hundreds of alarms and represent one of the most important 
-challenges for operators. 
-One unique problem can suddenly inundated an operation with 20-30 alarms in response to a database failure. 
-In such situations, the alarms system become a nuisance rather than a useful tool. 
-
-Alarm deduplication (also known as alarm suppression) is a class of management techniques which groups alarms related 
-to the same underlying problem. 
-It transforms a set of related alarms into one or two notifications that really matter. 
-In some cases, it is possible to identify the key alarm, core of the problem, and establish a relationship 
-with the root cause. 
-
-Techniques:
-+ Flood analysis
-+ Correlation and causality analysis 
-
-### Capacity Planning
-Refers to the capture of metric records relevant to understanding workloads and utilization trends to devise 
-future capacity plans, and resource poll capacity forecast.
-Examples of metrics to track include:
-+ vCPU number, vRAM allocation, and compute load
-+ Storage allocation and I/O latency
-+ Network traffic
-
-Fore casting becomes challenging when holidays, multiple seasonalities need to be considered. 
-
-
-### Response Automation
-When a root cause is matched with an alarm or anomaly, AIOps can initiate and orchestrate a remediation workflow and 
-route a description of the root cause to the most adequate expert team for change, problem, and incident management 
-following [ITIL best practices](https://en.wikipedia.org/wiki/ITIL).
-AI can act as a matchmaking and routing system by using multi-criteria techniques to identify in real time the 
-right teams based on on-call schedules, location and expertise.
-Additionally, AIOps can use NLP techniques to index relevant documentation to assist operation teams to remediate an 
-issue.
-
-
-### Security Management
-While anomaly detection is frequently employed to detect unusual patterns in monitoring data related to IT 
-infrastructure problems, the same techniques can be use to detect patterns typically associated with a variety of 
-security risks such violations, unauthorized access, and malicious activities.
-Machine learning algorithms can process netflow metrics, control plan traces, and application and network equipment
-logs for the analysis. 
-AIOps brings increased benefits when threats are complex and multi-dimensional, since their interpretation by human 
-is hard and time consuming. 
-
-
-### Resource Optimization
-To come....
-
-### Root Cause Analysis
-+ Proactively find anomalies before failures are reported
-+ Perform audit trails and root cause analysis (RCA)
-
-### Infrastructure Scaling
-+ Configure predictive scaling that learns from the previous load conditions and usage patterns
-
-## Cost Management
-+ Forecast the cost of infrastructure (VM or IT)
-+ Intelligent cost mng. in an important feature of public clouds
-
-### Real time application behavior learning
-+ Learns the behavior of application using trace patterns, log status messages, and performance metrics. 
-
-### Performance Tuning
-+ Auto tuning of workloads by analyzing the time taken for common tasks such as responding to a request and 
-apply an accurate fix to the problem
-
-Techniques:
-+ Message Queuing analysis. Message queue length is a good metric for system health analysis.
-The length of queue of connecting microservices are constantly monitored and an alert is sent out if their size goes
-beyond a predefined threshold. Either generate alerts on the size of single queues or a sum of message queues.
-
-### Energy Efficiency 
-+ Manual
-+ DVS Dual voltage papers
-
-### Memory and SSD anomaly detection
-to come
-
-### Alarm deduplication
-to come
-
-
-## Existing Systems
-
-## Industry
-+ Tracing: [Lightstep](https://lightstep.com), [Google StackDriver](https://cloud.google.com/trace/),
-[Amazon X-Ray](https://aws.amazon.com/xray/)
-+ APM: [New Relic](https://newrelic.com/products/application-monitoring), [AppDynamics](https://www.appdynamics.com),
-[Dynatrace](https://www.dynatrace.com), 
-[Azure Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/cloudservices),
-[CA APM](https://www.ca.com/us/products/application-performance-monitoring.html)
-
-## Academia
-
-To come...
++ [Lightstep](https://lightstep.com)
++ [Google StackDriver](https://cloud.google.com/trace/)
++ [Amazon X-Ray](https://aws.amazon.com/xray/)
++ [New Relic](https://newrelic.com/products/application-monitoring)
++ [AppDynamics](https://www.appdynamics.com)
++ [Dynatrace](https://www.dynatrace.com)
++ [Azure Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/cloudservices)
++ [CA APM](https://www.ca.com/us/products/application-performance-monitoring.html)
 
 ## Team and Culture
 
@@ -645,11 +341,8 @@ Several researchers have contributed to iForesight, namely, llya Shakhat, Paul S
 Sasho Nedelkoski, Alexander Wieder, Yi Feng, Florian Richter, Francesco del Buono, Phani Pawan, and Ankur Bhatia, 
 among others.
 
-Our skill set encompasses expertise in the fields of:
-+ AI/Data Science (time series analysis, regression, decision trees, pattern recognition, probability theory 
-and neural networks),
-+ Software Engineering (analysis, design, development, testing), and 
-+ Operation (deployment, infrastructure).
+Our skill set encompasses expertise in the fields of AI/Data Science (Analytics), 
+Software Engineering (Analysis, Design, Development, Testing), and Operation (Deployment, Infrastructure).
 
 
 Our culture of innovation and R&D is based on 4 main guiding principles:
@@ -660,4 +353,3 @@ Our culture of innovation and R&D is based on 4 main guiding principles:
 [KPI-driven Research](https://en.wikipedia.org/wiki/Performance_indicator)
 
 *(Time Spent) x (Intensity of Focus)
-
