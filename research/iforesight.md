@@ -23,19 +23,20 @@ toc: true
 ## Introduction
 
 In planet-scale deployments, the Operation and Maintenance (O&M) of cloud platforms cannot be done any longer 
-manually or simply with off-the-shelf solutions. It requires self-developed automated systems, ideally exploiting 
-the use of AI to provide tools for autonomous cloud operations. We rely on deep learning, 
-distributed traces, and time-series analysis (sequence analysis) to effectively detect and fix anomalous 
-cloud infrastructure behaviors during operations to reduce the workload of human operators. 
+manually or simply with off-the-shelf solutions. 
+It requires self-developed automated systems, ideally exploiting the use of AI to provide tools for autonomous 
+cloud operations. We rely on deep learning, distributed traces, and time-series analysis to effectively detect 
+and fix anomalous cloud infrastructure behaviors during operations to reduce the workload of human operators. 
 
-The iForesight system is being used to evaluate new O&M approaches. iForesight 3.0 is the result of 2 years 
+The iForesight system is being used to evaluate new O&M and AIOps approaches. iForesight 3.0 is the result of 3 years 
 of research with the goal to provide an intelligent new tool aimed at SRE cloud maintenance teams. It enables 
 them to quickly detect and predict anomalies thanks to the use of artificial intelligence when cloud services 
 are slow or unresponsive. 
 
 ## Problem
 Existing tools for monitoring IT infrastructures, networks and applications focus on collecting logs, metrics, 
-events, and traces from distributed systems mainly for visualization. Nonetheless, the final goal of monitoring 
+events, and traces from distributed systems mainly for visualization and simple rule-based alerting.
+Nonetheless, the final goal of monitoring 
 is to reach a level of technological development where we have tools that conduct root cause analysis with a high 
 accuracy and enable to autonomously recover systems. To achieve this goal, we still need to shift from a data 
 collection stage to an insight- and action-driven paradigm. One promising path to monitor planet- and large-scale 
@@ -44,11 +45,18 @@ natural language processing, graph processing, machine learning, and deep learni
 volumes of monitoring data to support and drive recovery actions. 
 
 ## Approach
-The mission of the **Intelligent Cloud Operations** SRE team (based in [Munich](https://www.muenchen.de/int/en.html), 
+The mission of the **AIOps SRE team** (based in [Munich](https://www.muenchen.de/int/en.html), 
 Germany) is to develop new systems and tools to analyze observability data 
 from [Huawei Cloud](https://www.huaweicloud.com/en-us/about/about_us.html)
-to detect impact to customers, identify the root cause within seconds, and fix the problem using 
+to detect problems which impact customers, identify the root cause within seconds, and fix failures using 
 the 1/5/10 rule (detection: 1 min, RCA: 5 min, recovery: 10 min).
+
+In 2017 we adopted AI in the form of [Data Science](https://en.wikipedia.org/wiki/Data_science) and 
+[Machine Learning](https://en.wikipedia.org/wiki/Machine_learning) approaches for anomaly detection, 
+root-cause analysis, fault prediction, and automated recovery into our suite. 
+These techniques, including **statistical learning**, **time-series analysis**, **deep learning**, **big data**,
+**streaming**, and **data visualization**, enabled us to develop new production-ready services for troubleshooting 
+Huawei Cloud and detect issues which were previously undetectable.
 
 The following figure from [Gartner](https://www.gartner.com/en) provides a high level architecture of the system 
 we are building highliting the main areas of concern: 
@@ -64,7 +72,7 @@ Machine Learning (ML),
 <img src="https://blogs.bmc.com/wp-content/uploads/2019/02/AIOpsGraphicGartner2018-768x408.png" height="408" width="768" style="float:center;margin:0 20px 0 0;"/>
 </p>
 
-The use of ML for production engineering can support the development of new approaches for: 
+The use of AI for production engineering can support the development of new approaches for: 
 1. Monitoring and alerting
 2. Anomaly detection and Root Cause Analysis
 3. Capacity planing and prediction
@@ -74,16 +82,7 @@ The use of ML for production engineering can support the development of new appr
 
 Our work focuses on points 1) and 2). 
 
-In 2017 we adopted AI in the form of [Data Science](https://en.wikipedia.org/wiki/Data_science) and 
-[Machine Learning](https://en.wikipedia.org/wiki/Machine_learning) approaches for anomaly detection, 
-root-cause analysis, fault prediction, and automated recovery into our suite. 
-
-These techniques, including **statistical learning**, **time-series analysis**, **deep learning**, **big data**,
-**streaming**, and **data visualization**, enabled us to develop new production-ready services for troubleshooting 
-Huawei Cloud and detect issues which were previously undetectable.
-
-## AIOPs platform
-An AIOps platform architecture consists of functional layers such as:
+An AIOps platform architecture which runs AI algorithms consists of functional layers such as:
 
 1. *Big Data processing*. Real-time processing of streaming and historical data.
 2. *Data pipeline*. Connected data processing elements ingesting data from multiple sources.
@@ -91,39 +90,38 @@ An AIOps platform architecture consists of functional layers such as:
 4. *Automation*. Use runbooks and RPA technology to automate repetitive tasks.
 5. *User interface*. Allows IT operations teams t interact with the platform and quickly identify issues and apply corrective actions.
 
-Our work focuses on points 1)-3). 
+For 2019, our work focuses on points 1)-3). 
 
 ## Challenges
 
-The challenges of operationalising AI are not limited to the understanding of deep learnign or machine learning algorithms.
+The challenges of operationalising AI are not limited to the understanding of deep learning or machine learning algorithms.
 Major challenges are related with software engineering, access and processing of large amounts of distributed data, 
 model management, updating, deleting and training models on specialized GPUs and hardware, composition of workflows
 for orchestrating parallel jobs, and the visual management of models, workflows, and results. 
 
 ## Huawei Cloud
-Our cloud has planet-scale technical requirements with an 
+HC, or Huawei Cloud, has planet-scale technical requirements. It has a 
 [microservices](https://en.wikipedia.org/wiki/Microservices) architecture composed of hundreds of services.
 They are distributed over thousands of hosts in many geographical regions and operate with an availability 
 higher than [five nines](https://en.wikipedia.org/wiki/High_availability). 
-
-Our system monitors Huawei Cloud which is build on top of [OpenStack](https://docs.openstack.org/), an 
-opensource cloud operating system. OpenStack controls large pools of compute, storage, and networking
-resources throughout tens of datacenters. The base services are predominantly written in Python and Java 
-running on Linux. 
+It was build on top of [OpenStack](https://docs.openstack.org/), an opensource cloud operating system.
+OpenStack controls large pools of compute, storage, and networking resources throughout tens of datacenters. 
+The base services are predominantly written in Python and Java, and run on Linux. 
 
 Huawei Cloud is one of the largest and fastest growing platforms in the world. 
 It has a strong presence throughout the world with over 40 availability zones located across 23 geographical regions,
 ranging from Germany, France, South/Central America, Hong Kong and Russia to Thailand and South Africa.
 
-There are three properties that make platforms such as Huawei Cloud far more difficult to monitor and troubleshoot:
+There are three properties that make platforms such as Huawei Cloud far more difficult to monitor and troubleshoot when
+compared to other distributed systems:
 1. Amount of data and relationships which O&M teams need to analyze.
 2. Due to its distributed nature and complexity, system data has a low signal to noise ratio.
 3. Since many different subsystems interact together, semantically reconciliating data is difficult.
 
 
-The strongest challenge for cloud architecture is design and operational complexity. 
+The strongest challenge is its architecture design and operational complexity. 
 Cloud deployments comprise thousands of geographically distributed services and microservices.
-Key building block components which require a close monitoring include:
+These key building block components require a close monitoring:
 
 + [API Gateways](https://microservices.io/patterns/apigateway.html) (e.g., [Kong](https://konghq.com))
 + [Load Balancers](https://en.wikipedia.org/wiki/Load_balancing_(computing) (e.g., [HAProxy](http://www.haproxy.org))
@@ -279,26 +277,18 @@ This is the final evaluation in an environment with noise and which generally ma
 false positives. Accuracy, performance and resources consumption is registered.
 
 Many public datasets are also available to conduct comparative studies:
++ Anomaly detection datasets: [Harvard](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OPQMVF),
+[Oregon State](https://ir.library.oregonstate.edu/concern/datasets/47429f155),
+[Numenta](https://github.com/numenta/NAB)
++ Outliers datasets: [Stonybrook](http://odds.cs.stonybrook.edu/), 
+[LMU](http://www.dbs.ifi.lmu.de/research/outlier-evaluation/),
+[ELKI](https://elki-project.github.io/datasets/outlier)
++ Cluster datasets: [Alibaba clusterdata](https://github.com/alibaba/clusterdata),
+[Google Cluster Data](https://github.com/google/cluster-data)
 + [Yahoo webscope](https://webscope.sandbox.yahoo.com/catalog.php?datatype=s&did=70&guccounter=1) 
-+ [Alibaba clusterdata](https://github.com/alibaba/clusterdata)
 + [Azure Public Dataset](https://github.com/Azure/AzurePublicDataset)
-+ [Google Cluster Data](https://github.com/google/cluster-data)
-+ [Outlier Detection DataSets from Stonybrook](http://odds.cs.stonybrook.edu/)
-+ [Outlier evaluation from LMU](http://www.dbs.ifi.lmu.de/research/outlier-evaluation/)
-+ [Outlier datasets from ELKI](https://elki-project.github.io/datasets/outlier)
 + [LogPai datasets](https://github.com/logpai/loghub/blob/master/README.md)
 + [Timeseries classification](http://timeseriesclassification.com/dataset.php?train=&test=&leng=&class=&type=='sensor')
-+ [Numenta Anomaly Benchmark](https://github.com/numenta/NAB)
-+ [Anomaly detection datasets from Harvard](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OPQMVF)
-+ [Anomaly detection datasets from Oregon State](https://ir.library.oregonstate.edu/concern/datasets/47429f155)
-
-### Exploring SRE Pain Points
-After identifying a pain point, we identify the following elements to develop a solution:
-+ Existing manual workflows for troubleshooting for automatization 
-+ Key golden metrics which can enable an effective anomaly detection
-+ Data sources for root cause analysis
-+ Manual recovery actions
-+ Critical components which requires special monitoring infrastructure
 
 
 ## Tech Stack
@@ -326,12 +316,12 @@ In 2019, we will closely following the progresses make in the following 5 fields
 
 ## Systems from Academia and Industry
 
-+ [Lightstep](https://lightstep.com)
-+ [Google StackDriver](https://cloud.google.com/trace/)
-+ [Amazon X-Ray](https://aws.amazon.com/xray/)
-+ [New Relic](https://newrelic.com/products/application-monitoring)
-+ [AppDynamics](https://www.appdynamics.com)
-+ [Dynatrace](https://www.dynatrace.com)
++ [Lightstep](https://lightstep.com),
+[Google StackDriver](https://cloud.google.com/trace/),
+[Amazon X-Ray](https://aws.amazon.com/xray/)
++ [New Relic](https://newrelic.com/products/application-monitoring),
+[AppDynamics](https://www.appdynamics.com),
+[Dynatrace](https://www.dynatrace.com)
 + [Azure Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/cloudservices)
 + [CA APM](https://www.ca.com/us/products/application-performance-monitoring.html)
 
