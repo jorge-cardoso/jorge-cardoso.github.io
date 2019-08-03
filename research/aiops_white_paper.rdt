@@ -481,18 +481,18 @@ This is the final evaluation in an environment with noise and which generally ma
 false positives. Accuracy, performance and resources consumption is registered.
 
 Many public datasets are also available to conduct comparative studies:
++ Anomaly detection datasets: [Harvard](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OPQMVF),
+[Oregon State](https://ir.library.oregonstate.edu/concern/datasets/47429f155),
+[Numenta](https://github.com/numenta/NAB)
++ Outliers datasets: [Stonybrook](http://odds.cs.stonybrook.edu/), 
+[LMU](http://www.dbs.ifi.lmu.de/research/outlier-evaluation/),
+[ELKI](https://elki-project.github.io/datasets/outlier)
++ Cluster datasets: [Alibaba clusterdata](https://github.com/alibaba/clusterdata),
+[Google Cluster Data](https://github.com/google/cluster-data)
 + [Yahoo webscope](https://webscope.sandbox.yahoo.com/catalog.php?datatype=s&did=70&guccounter=1) 
-+ [Alibaba clusterdata](https://github.com/alibaba/clusterdata)
 + [Azure Public Dataset](https://github.com/Azure/AzurePublicDataset)
-+ [Google Cluster Data](https://github.com/google/cluster-data)
-+ [Outlier Detection DataSets from Stonybrook](http://odds.cs.stonybrook.edu/)
-+ [Outlier evaluation from LMU](http://www.dbs.ifi.lmu.de/research/outlier-evaluation/)
-+ [Outlier datasets from ELKI](https://elki-project.github.io/datasets/outlier)
 + [LogPai datasets](https://github.com/logpai/loghub/blob/master/README.md)
 + [Timeseries classification](http://timeseriesclassification.com/dataset.php?train=&test=&leng=&class=&type=='sensor')
-+ [Numenta Anomaly Benchmark](https://github.com/numenta/NAB)
-+ [Anomaly detection datasets from Harvard](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OPQMVF)
-+ [Anomaly detection datasets from Oregon State](https://ir.library.oregonstate.edu/concern/datasets/47429f155)
 
 #### Challenges
 + Obtain support to make datasets available so that researchers can develop new approaches
