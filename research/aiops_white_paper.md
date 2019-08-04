@@ -703,7 +703,7 @@ To come....
 ### Infrastructure Scaling
 + Configure predictive scaling that learns from the previous load conditions and usage patterns
 
-## Cost Management
+### Cost Management
 + Forecast the cost of infrastructure (VM or IT)
 + Intelligent cost mng. in an important feature of public clouds
 
@@ -732,7 +732,7 @@ to come
 
 ## Existing Systems
 
-## Industry
+### Industry
 + Tracing: [Lightstep](https://lightstep.com), [Google StackDriver](https://cloud.google.com/trace/),
 [Amazon X-Ray](https://aws.amazon.com/xray/)
 + APM: [New Relic](https://newrelic.com/products/application-monitoring), [AppDynamics](https://www.appdynamics.com),
@@ -740,7 +740,7 @@ to come
 [Azure Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/cloudservices),
 [CA APM](https://www.ca.com/us/products/application-performance-monitoring.html)
 
-## Academia
+### Academia
 
 To come...
 
