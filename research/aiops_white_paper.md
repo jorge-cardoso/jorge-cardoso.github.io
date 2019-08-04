@@ -259,6 +259,107 @@ In 2019, we will closely following the progresses make in the following 5 fields
 [SRE](https://landing.google.com/sre/),
 [RPA](https://en.wikipedia.org/wiki/Robotic_process_automation)
 
+
+### Monitoring system
+
+The presentation "A Tale of One Billion Time Series" describes how Baidu.com monitors its large-scale search platform.
+In 2018, the number of metrics collected has grown to 1 billion.
+
++ Millions hosts, services, instances
++ 600+ metrics per target on average
++ 1.000.000.000 time series (and the number os still increasing)
+
+Looking at 1B time series from another angle brings the following requirements:
++ *Volume*. 50TB (1.000.000.000.000 bytes) per day (read a point of 4 bytes every 5 minutes=288*4=1152)
++ *Requests*. 10M r/w requests per second
++ *Points*. 40M in and 60M out per second
++ *Traffic*. 50Gbps write and 100 Gbps read
+
+Performance requirements are:
++ *Latency*: < 10s
++ *99th response time*: <= 500ms
++ *Availability (SLA)*: = 99.99%
+    + Uses Hot standby
+
+#### Storage
+The metrics are stored in a time-series database (TSDB) with three layers:
++ Memory database based on Redis stores **hot data**
+    + The query engine determines if to access HBase or Redis
+        + If the query is for data older than one day, it will query HBase, otherwise Redis
+    + Data in Redis is compressed. The algorithm is from Facebook.
++ HBase stores **warm data**
+    + Performance degradation: lots of compactation and splitting
+    + Intolerable r/w latency in underlying HDFS
+    + HBase balances random writes and sequentially access disks
+        + Buffers writes and flushes writes into multiple HFiles (append only)
+        + Read may need to scan all HFiles (disk seeks)
+    + Compactation 
+        + Compactation merges HFiles to accelerate read
+        + HBase tables are split into chunks of rows called "regions"
+        + Region will be split into two when it becomes too big
+        + Regions are distributed and can be moved across servers to balance load
+        + **Problem with compactation**: Consumes a lot of I/O; causes JVM stop the world GC; Block writes
+        + **Solution**: Partition data by date
+    + Handling splitting
+        + Pre-splitting 
++ HDFS stores **cold data**
+    + Need to reduce R/W latency
+    + Put region server and data node together in the same node
+
+
+The base architecture was optimize for high frequency read/writes:
++ *Write*. Use batch and asynchronous techniques to the write path.
++ *Read*. Customized data model with multi-layer down-sampling mechanism into HBase and 
+use compression for in-memory database
+
+The major challenge is the data scale.
+
+#### Read and write
+
+The architecture has two separate modules working on top on HBase to improve efficiency:
++ Query engine. Specialized read module
++ Saver. Specialized write module
+
+#### Data layout
+
+Data table:
++ data point: target, metric, time, value
+    + Use as a row key: hash(target) + hash(metric) + hash(rounded to 2 hours)
+    + Each row contains two hours of data
+    + Each row has a constant length: 7190
+    + Design inspired by OpenTSDB
++ data expires according to TTL
+
+Metadata tables and index:
++ Metric properties are: name, cycle, value type
++ Tags: isp, dc, etc.
++ Index: tag -> time series
+
+#### Challenges
++ Large queries are slow (and take a large bandwidth)
+    + Daily resource usage report of all the hosts (CPU, MEM, IO, etc.)
+        + Billions of data points requests
+    + PV Growth trend of the whole year
+        + Millions of data points requests
++ <20% critical data attract >80% small queries 
+    + PV anomaly detection (needs data of recent hours)
++ Query patterns
+    + Latency insensitive
+        + Short-term (a lot of metrics); long-term (high resolution)
+        + Daily resource usage report of all the hosts
+        + There one day available to process these queries
+        + **Solution:** Avoid HBase bandwidth exhaustion -> copy data to an external Hadoop asynchronously
+    + Latency sensitive
+        + Short-term (high resolution)
+        + long-term (low resolution): trend data important for business
+        + PV's growth trend visualization of the whole year 
+        + PV's anomaly detection
+        + **Solution:** Multi-level down-sampling
+            + Down-sampling: High resolution -> Low resolution
+            + Multi-level: 2 levels. A query for one year can be answer in a few milliseconds
+            + Online pre-aggregation (max, min, sum, count) within Saver in real-time
+                  
+
 ## Methods, techniques, and algorithms
 
 ### Exploring SRE Pain Points
@@ -568,7 +669,11 @@ Examples of metrics to track include:
 Fore casting becomes challenging when holidays, multiple seasonalities need to be considered. 
 
 
-### Response Automation
+### Incident Response
+
++ Alerting 
++ Troubleshooting
+
 When a root cause is matched with an alarm or anomaly, AIOps can initiate and orchestrate a remediation workflow and 
 route a description of the root cause to the most adequate expert team for change, problem, and incident management 
 following [ITIL best practices](https://en.wikipedia.org/wiki/ITIL).
