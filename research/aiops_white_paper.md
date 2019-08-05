@@ -49,6 +49,12 @@ platforms is to rely on advanced analytics and explore techniques from statistic
 natural language processing, graph processing, machine learning, and deep learning to extract insights from large 
 volumes of monitoring data to support and drive recovery actions. 
 
+Main challenges:
++ *Scale*. Large cloud providers can have more than 1 million physical servers. Each server has 2 CPUs. Each CPU has 
+10 VMs. Each VM has a OS and various applications.
++ *Distribution*. AZ and regions
++ *Complexity*. Microservices, containers, and serverless complexity. Several programming languages. Several teams.
++ *Dynamism*. Workloads around the sun, lunch and terminate instances. CMDB is static but VM is dynamic.
 
 ## Approach
 The mission of the **Intelligent Cloud Operations** SRE team (based in [Munich](https://www.muenchen.de/int/en.html), 
@@ -620,6 +626,18 @@ the monitoring infrastructure and raising alarms when unusual conditions are mee
 This is especially important for planet-scale systems, where it is desirable to have teams which can scale while 
 maintaining quality of service and SLOs.
 
+Anomaly detection approaches are classified into two types:
+1. *Reactive*. Algorithms detect anomalies after they happen.
+2. *Proactive*. Solutions predict upcoming anomalies when a system is a normal state.
+
+Techniques can be classified:
++ Model-based approaches describe system performance or system states.
+Problems are recognized by deviations from models capturing a normal behavior. 
++ Correlation-based approaches learn normal behavior by analyzing the correlations which exist between components' 
+metrics over time.
++ Statistical-based approaches analyze the normal distribution of data points and monitor distribution patterns 
+at runtime.
+
 Techniques:
 + Metrics. Time series analysis for multimodal and univariate/multivariate data.
 + *Logs*. 
@@ -627,13 +645,19 @@ Classifiers can be trained to detect anomalies in application logs.
 Since records are often not labelled, the challenge is to build predictive model trained with the *normal sequences* 
 of log records which reflect a normal execution or behavior of a distributed system. 
 The model can be used to detect anomalies when the sequence of records significantly differ from the learned sequences.
-For example, [Zhang et al.](https://ieeexplore.ieee.org/document/7840733/),
+One of the first works in this field can be traced back to 2009.
+[Xu et al.](https://dl.acm.org/citation.cfm?id=1629587) proposed to parse logs and analyse source code using 
+information retrieval approaches to create features which are analyzed using machine learning to detect problems.   
+More recent approaches, for example, [Zhang et al.](https://ieeexplore.ieee.org/document/7840733/),
 [Du et al.](https://www.cs.utah.edu/~lifeifei/papers/deeplog.pdf), and
-[Brown et al.](https://arxiv.org/pdf/1803.04967.pdf) use logs to generate feature sequences which are fed 
+[Brown et al.](https://arxiv.org/pdf/1803.04967.pdf), use logs to generate feature sequences which are fed 
 into an LSTM to, afterwards, detect anomalies of hardware and software applications. 
 
-
 + Traces. Graph-based techniques.
+
+The article [On Predictability of System Anomalies in Real World](https://ieeexplore.ieee.org/document/5581600) 
+provides an illustrative example on how hard drive failures can be predicted.
+
 
 #### Multimodel metric anomaly detection
 Multimodal metrics are often a symptom that part of a system build for reliability has a performance degradation,
