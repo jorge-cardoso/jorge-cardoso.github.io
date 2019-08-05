@@ -539,7 +539,6 @@ Its logs and context metrics are accessed to quickly diagnose the issue.
 Afterwards, when sufficient evidence characterizing the problem is collected, inference will nominate operations and 
 remediation actions to be executed.
 
-[Performance Troubleshooting in Data Centers: An Annotated Bibliography](http://www.istc-cc.cmu.edu/publications/papers/2013/annotated.pdf)
 
 #### Challenges
 + Access to customer systems is not possible to calibrate models: use Transfer learning
