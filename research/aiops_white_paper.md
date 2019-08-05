@@ -622,7 +622,17 @@ maintaining quality of service and SLOs.
 
 Techniques:
 + Metrics. Time series analysis for multimodal and univariate/multivariate data.
-+ Logs. NLP 
++ *Logs*. 
+Classifiers can be trained to detect anomalies in application logs. 
+Since records are often not labelled, the challenge is to build predictive model trained with the *normal sequences* 
+of log records which reflect a normal execution or behavior of a distributed system. 
+The model can be used to detect anomalies when the sequence of records significantly differ from the learned sequences.
+For example, [Zhang et al.](https://ieeexplore.ieee.org/document/7840733/),
+[Du et al.](https://www.cs.utah.edu/~lifeifei/papers/deeplog.pdf), and
+[Brown et al.](https://arxiv.org/pdf/1803.04967.pdf) use logs to generate feature sequences which are fed 
+into an LSTM to, afterwards, detect anomalies of hardware and software applications. 
+
+
 + Traces. Graph-based techniques.
 
 #### Multimodel metric anomaly detection
