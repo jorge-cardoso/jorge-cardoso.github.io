@@ -750,6 +750,12 @@ to come
 
 To come...
 
+## Research Methodology
+
+We will follow a KPI-driven development for the new approaches and algorithms devised by the project. 
+This means that we will always implement first a baseline algorithm to clearly demonstrate the limitations of existing approaches.
+Afterwards, for each incremental enhancement we make to the new algorithm, we will quantify the improvement using ROC AUC, F1 Score, etc. 
+
 ## Team and Culture
 
 Several researchers have contributed to iForesight, namely, llya Shakhat, Paul Staab, Wei Guangsheng, Jinxunmi,
