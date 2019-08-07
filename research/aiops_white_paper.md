@@ -439,6 +439,12 @@ production platforms to control their behavior.
 
 
 #### Distributed Tracing
+
+Trends:
++ Monoliths to microservices 
++ Basic concurrency to async concurrency to distributed concurrency
++ Complexity
+
 Distributed tracing enables understanding how systems' components interact together when handling incoming requests.
 It has its root on early research on concepts such as X-Trace and Magpie, and was generalized in industry 
 with Google paper [Dapper](https://static.googleusercontent.com/media/research.google.com/en//archive/papers/dapper-2010-1.pdf)
@@ -448,6 +454,26 @@ Trace events can be generated across software stacks and within a software stack
 
 Many companies supported by large-scale systems, such as Uber and Facebook, operate large scale distributed 
 tracing systems to gain observability capabilities. 
+
+Opensource:
++ [OpenTelemetry](https://opentelemetry.io)
++ [W3C Distributed Tracing Working Group](https://www.w3.org/2018/distributed-tracing/)
+
+[Industry Solutions](https://atscaleconference.com/videos/systems-scale-2019-observability-infra-uber-and-facebook/):
++ Facebook
+    + FBTrace (node trace model), trace datastore, Canopy (stream processing for traces), Scube
+    + Compare populations of traces (e.g., before and after releases, perf regression)
++ Uber
+    + One request has 30 services and 100 RPCs
+    + Use tracing for root cause analysis
+    + Compare trace structures (just like Code Diff) -- saseq
+    + Compare span durations (heat map of latencies) -- LMU
+    + Challenge:
+        + Individual traces can be an outlier 
+        + Users must find the right baseline
+            + Create a statistical model from an aggregate of traces
+    + Benefits:
+        + Uber can solve problems from 30 minutes to 2 minutes
 
 ### Pattern Recognition
 
