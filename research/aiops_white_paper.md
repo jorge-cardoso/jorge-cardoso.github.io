@@ -444,6 +444,7 @@ Trends:
 + Monoliths to microservices 
 + Basic concurrency to async concurrency to distributed concurrency
 + Complexity
++ Span Categorization Patent
 
 Distributed tracing enables understanding how systems' components interact together when handling incoming requests.
 It has its root on early research on concepts such as X-Trace and Magpie, and was generalized in industry 
@@ -461,7 +462,7 @@ Opensource:
 
 [Industry Solutions](https://atscaleconference.com/videos/systems-scale-2019-observability-infra-uber-and-facebook/):
 + Facebook
-    + FBTrace (node trace model), trace datastore, Canopy (stream processing for traces), Scube
+    + FBTrace (node trace model), trace filter, trace datastore, Canopy (stream processing for traces), Scube
     + Compare populations of traces (e.g., before and after releases, perf regression)
 + Uber
     + One request has 30 services and 100 RPCs
@@ -470,7 +471,7 @@ Opensource:
     + Compare span durations (heat map of latencies) -- LMU
     + Challenge:
         + Individual traces can be an outlier 
-        + Users must find the right baseline
+        + Users must find the right **baseline**
             + Create a statistical model from an aggregate of traces
     + Benefits:
         + Uber can solve problems from 30 minutes to 2 minutes
