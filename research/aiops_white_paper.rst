@@ -517,6 +517,9 @@ When a root cause is matched with an alarm or anomaly, AIOps can initiate and or
 
 Early work in this field include the research from `Candea et al. <https://link.springer.com/article/10.1007/s10586-006-7562-4>`__ which show how to reduce downtime of applications by automatically recovering from transient and intermittent software failures.
 
+More modern approaches, such as Facebook AutoRemediation (FBAR) (`Hardware Remediation at Scale <https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8416200&tag=1>`__) rely on ML and NLP to recover systems automatically. 
+
+
 Security Management
 ~~~~~~~~~~~~~~~~~~~
 
