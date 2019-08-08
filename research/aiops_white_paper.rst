@@ -582,6 +582,10 @@ Industry
 
 -  Tracing: `Lightstep <https://lightstep.com>`__, `Google StackDriver <https://cloud.google.com/trace/>`__, `Amazon X-Ray <https://aws.amazon.com/xray/>`__
 -  APM: `New Relic <https://newrelic.com/products/application-monitoring>`__, `AppDynamics <https://www.appdynamics.com>`__, `Dynatrace <https://www.dynatrace.com>`__, `Azure Application Insights <https://docs.microsoft.com/en-us/azure/azure-monitor/app/cloudservices>`__, `CA APM <https://www.ca.com/us/products/application-performance-monitoring.html>`__
+-  Facebook
+   - `Applied Machine Learning at Facebook: A Datacenter Infrastructure Perspective <https://ieeexplore.ieee.org/abstract/document/8327042/>`__
+   - `Machine Learning at Facebook: Understanding Inference at the Edge <https://ieeexplore.ieee.org/document/8675201/>`__
+   - `Profiling a Warehouse-Scale Computer <https://ieeexplore.ieee.org/document/7478434/>`__
 
 Academia
 ~~~~~~~~
