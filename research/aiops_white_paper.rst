@@ -432,9 +432,14 @@ Other types of operations relevant to AIOps include: 1. Capacity planing 2. Cana
 Evaluation
 ~~~~~~~~~~
 
-We evaluate the techniques and algorithms we built using a 3-level approach: + *Synthetics data*. We built models simulating microservice applications which are able to generate data under very specific conditions. The scenarios simulated are usually difficult to obtain when using testbeds and production systems. The controlled data enables a fine-grained understanding of how new algorithms behave and are an effective way for improvement and redesign. Nonetheless, the type of traffic that is generated in production is typically not captured by synthetic data. + *Testbed data*. Once an algorithm passes the evaluation using synthetic data, we make a second evaluation using testbed data. We run an OpenSack cloud platform under normal utilization. Faults are injected into the platform and we expect algorithms to detect anomalies, find their root cause, predict errors, and remediate failures. Service calls from normal production can be used to trigger the calls of the testbed. + *Production data*. In the last step of the evaluation, we deploy algorithms in planet-scale production systems. This is the final evaluation in an environment with noise and which generally makes algorithms generate many false positives. Accuracy, performance and resources consumption is registered.
+We evaluate the techniques and algorithms we built using a 3-level approach:
+
+- *Synthetics data*. We built models simulating microservice applications which are able to generate data under very specific conditions. The scenarios simulated are usually difficult to obtain when using testbeds and production systems. The controlled data enables a fine-grained understanding of how new algorithms behave and are an effective way for improvement and redesign. Nonetheless, the type of traffic that is generated in production is typically not captured by synthetic data.
+- *Testbed data*. Once an algorithm passes the evaluation using synthetic data, we make a second evaluation using testbed data. We run an OpenSack cloud platform under normal utilization. Faults are injected into the platform and we expect algorithms to detect anomalies, find their root cause, predict errors, and remediate failures. Service calls from normal production can be used to trigger the calls of the testbed.
+- *Production data*. In the last step of the evaluation, we deploy algorithms in planet-scale production systems. This is the final evaluation in an environment with noise and which generally makes algorithms generate many false positives. Accuracy, performance and resources consumption is registered.
 
 Many public datasets are also available to conduct comparative studies: + Anomaly detection datasets: `Harvard <https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OPQMVF>`__, `Oregon State <https://ir.library.oregonstate.edu/concern/datasets/47429f155>`__, `Numenta <https://github.com/numenta/NAB>`__ + Outliers datasets: `Stonybrook <http://odds.cs.stonybrook.edu/>`__, `LMU <http://www.dbs.ifi.lmu.de/research/outlier-evaluation/>`__, `ELKI <https://elki-project.github.io/datasets/outlier>`__ + Cluster datasets: `Alibaba clusterdata <https://github.com/alibaba/clusterdata>`__, `Google Cluster Data <https://github.com/google/cluster-data>`__ + `Yahoo webscope <https://webscope.sandbox.yahoo.com/catalog.php?datatype=s&did=70&guccounter=1>`__ + `Azure Public Dataset <https://github.com/Azure/AzurePublicDataset>`__ + `LogPai datasets <https://github.com/logpai/loghub/blob/master/README.md>`__ + `Timeseries classification <http://timeseriesclassification.com/dataset.php?train=&test=&leng=&class=&type=='sensor'>`__
+
 
 Challenges
 ^^^^^^^^^^
@@ -459,9 +464,25 @@ For large-scale, dynamic IT infrastructures, detecting problems is a complex tas
 
 Anomaly detection approaches are classified into two types: 1. *Reactive*. Algorithms detect anomalies after they happen. 2. *Proactive*. Solutions predict upcoming anomalies when a system is a normal state.
 
-Techniques can be classified: + Model-based approaches describe system performance or system states. Problems are recognized by deviations from models capturing a normal behavior. + Correlation-based approaches learn normal behavior by analyzing the correlations which exist between components' metrics over time. + Statistical-based approaches analyze the normal distribution of data points and monitor distribution patterns at runtime.
+Techniques can be classified:
 
-| Techniques: + Metrics. Time series analysis for multimodal and univariate/multivariate data. + *Logs*. Classifiers can be trained to detect anomalies in application logs. Since records are often not labelled, the challenge is to build predictive model trained with the *normal sequences* of log records which reflect a normal execution or behavior of a distributed system. The model can be used to detect anomalies when the sequence of records significantly differ from the learned sequences. One of the first works in this field can be traced back to 2009. `Xu et al. <https://dl.acm.org/citation.cfm?id=1629587>`__ proposed to parse logs and analyse source code using information retrieval approaches to create features which are analyzed using machine learning to detect problems.
+- Model-based approaches describe system performance or system states. Problems are recognized by deviations from models capturing a normal behavior.
+- Correlation-based approaches learn normal behavior by analyzing the correlations which exist between components' metrics over time.
+- Statistical-based approaches analyze the normal distribution of data points and monitor distribution patterns at runtime.
+
+Techniques can also be classified as:
+
+- Classification-based: KNN, SVN
+- Clustering-based
+- Deep-learning based
+- Knowledge-based: rules and expert systems, and logic based
+- Combination-based: ensemble and fusion methods
+- Statistic-based: non-parametric (kernel density estimator) and parametric (bayesian networks, finite mixture models)
+
+| Techniques:
+
+- Metrics. Time series analysis for multimodal and univariate/multivariate data.
+- *Logs*. Classifiers can be trained to detect anomalies in application logs. Since records are often not labelled, the challenge is to build predictive model trained with the *normal sequences* of log records which reflect a normal execution or behavior of a distributed system. The model can be used to detect anomalies when the sequence of records significantly differ from the learned sequences. One of the first works in this field can be traced back to 2009. `Xu et al. <https://dl.acm.org/citation.cfm?id=1629587>`__ proposed to parse logs and analyse source code using information retrieval approaches to create features which are analyzed using machine learning to detect problems.
 | More recent approaches, for example, `Zhang et al. <https://ieeexplore.ieee.org/document/7840733/>`__, `Du et al. <https://www.cs.utah.edu/~lifeifei/papers/deeplog.pdf>`__, and `Brown et al. <https://arxiv.org/pdf/1803.04967.pdf>`__, use logs to generate feature sequences which are fed into an LSTM to, afterwards, detect anomalies of hardware and software applications.
 
 -  Traces. Graph-based techniques.
