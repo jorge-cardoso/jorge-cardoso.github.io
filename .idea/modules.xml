@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AIOps/.idea/AIOps.iml" filepath="$PROJECT_DIR$/../AIOps/.idea/AIOps.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/jorge-cardoso.github.io.iml" filepath="$PROJECT_DIR$/.idea/jorge-cardoso.github.io.iml" />
     </modules>
   </component>
