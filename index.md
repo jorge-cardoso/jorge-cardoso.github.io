@@ -71,6 +71,7 @@ to improve and extend with new ideas our system to release **iForesight 3.0**.
 
 News
 ----
++ Our article *Towards Occupation Inference in Non-instrumented Services* was accepted to IEEE Network Computing and Applications. Boston, MA, USA, September 2019.
 + Andre Pascoal Bento defended successfully his thesis [Observing and Controlling Performance in Microservices](research/pdf_img/MSc_thesis_Andre_Bento.pdf)
 + Our article [Anomaly Detection from System Tracing Data using Multimodal Deep Learning](/publications/Papers/CP-2019-090-IEEECloud-Anomaly_Detection_from_System_Tracing_Data_and_MDL.pdf) was accepted to [IEEE Cloud 2019](http://conferences.computer.org/cloud/2019/), July 3-8, 2019, Milan, Italy. **(Acceptance Rate: 21%)**
 + Our article *Assessing Software Development Teams Efficiency using Process Mining* was accepted to [International Conference on Process Mining](https://icpmconference.org), June 24-26, 2019, Aachen, Germany
