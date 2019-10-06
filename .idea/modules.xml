@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../AIOps/.idea/AIOps.iml" filepath="$PROJECT_DIR$/../AIOps/.idea/AIOps.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/jorge-cardoso.github.io.iml" filepath="$PROJECT_DIR$/.idea/jorge-cardoso.github.io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dta_lstm/.idea/strace_lstm.iml" filepath="$PROJECT_DIR$/../dta_lstm/.idea/strace_lstm.iml" />
     </modules>
   </component>
 </project>
