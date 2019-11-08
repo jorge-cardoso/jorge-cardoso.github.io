@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="Reverted to md">
-      <change beforePath="$PROJECT_DIR$/.idea/jorge-cardoso.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jorge-cardoso.github.io.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="Updated">
+      <change beforePath="$PROJECT_DIR$/../AIOps/1_introduction.rst" beforeDir="false" afterPath="$PROJECT_DIR$/../AIOps/1_introduction.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AIOps/2_monitoring.rst" beforeDir="false" afterPath="$PROJECT_DIR$/../AIOps/2_monitoring.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AIOps/4_fault_diagnosis.rst" beforeDir="false" afterPath="$PROJECT_DIR$/../AIOps/4_fault_diagnosis.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,53 +15,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../dta_lstm/dta_lstm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="288">
-                <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="572">
-                <caret line="73" column="346" selection-start-line="73" selection-start-column="346" selection-end-line="73" selection-end-column="346" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/../AIOps/1_introduction.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AIOps/data_sources.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="4194">
-                <caret line="233" selection-start-line="233" selection-end-line="233" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/../AIOps/8_AIOps_Patform.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AIOps/conferences.rst">
+        <entry file="file://$PROJECT_DIR$/../AIOps/3_framework.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Pictures/Photos Library.photoslibrary/resources/proxies/derivatives/32/00/3211/UNADJUSTEDNONRAW_thumb_3211.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../AIOps/4_fault_diagnosis.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../AIOps/2_monitoring.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
@@ -72,50 +51,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AIOps/fault_diagnosis.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/../AIOps/3_fault_detection.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AIOps/fault_prediction.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="378">
-                <caret line="21" selection-start-line="21" selection-end-line="21" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/../AIOps/6_fault_prevention.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AIOps/fault_detection.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="288">
-                <caret line="16" selection-start-line="16" selection-end-line="16" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AIOps/fault_prevention.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/../AIOps/7_fault_recovery.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -124,10 +81,14 @@
       <find>AIops Pla</find>
       <find>Predicta</find>
       <find>tracing</find>
+      <find>indg0371-sipos.pdf</find>
+      <find>Prediction</find>
+      <find>The following figure</find>
+      <find>c87</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../AIOps" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -136,19 +97,39 @@
         <option value="$PROJECT_DIR$/research/aiops_white_paper.md" />
         <option value="$PROJECT_DIR$/research/aiops_white_paper.rst" />
         <option value="$PROJECT_DIR$/../AIOps/introduction.rst" />
-        <option value="$PROJECT_DIR$/../AIOps/README.md" />
         <option value="$PROJECT_DIR$/../AIOps/fault_dectection.md" />
         <option value="$PROJECT_DIR$/../AIOps/fault_prediction.md" />
         <option value="$PROJECT_DIR$/../AIOps/conferences.rst" />
         <option value="$PROJECT_DIR$/../AIOps/data_sources.md" />
         <option value="$PROJECT_DIR$/index.md" />
+        <option value="$PROJECT_DIR$/../AIOps/fault_diagnosis.md" />
+        <option value="$PROJECT_DIR$/../AIOps/fault_detection.md" />
+        <option value="$PROJECT_DIR$/../AIOps/2_data_sources.md" />
+        <option value="$PROJECT_DIR$/../AIOps/3_fault_detection.md" />
+        <option value="$PROJECT_DIR$/../AIOps/4_fault_diagnosis.md" />
+        <option value="$PROJECT_DIR$/../AIOps/8_AIOps_Patform.rst" />
+        <option value="$PROJECT_DIR$/../AIOps/tmp.rst" />
+        <option value="$PROJECT_DIR$/../AIOps/5_fault_prediction.rst" />
+        <option value="$PROJECT_DIR$/../AIOps/7_trace_analysis.rst" />
+        <option value="$PROJECT_DIR$/../AIOps/6_fault_prevention.rst" />
+        <option value="$PROJECT_DIR$/../AIOps/datasets.rst" />
+        <option value="$PROJECT_DIR$/../AIOps/3_fault_detection.rst" />
+        <option value="$PROJECT_DIR$/../AIOps/5_fault_prediction_n.rst" />
+        <option value="$PROJECT_DIR$/../AIOps/2_data_sources.rst" />
+        <option value="$PROJECT_DIR$/../AIOps/README.md" />
+        <option value="$PROJECT_DIR$/../AIOps/7_fault_recovery.py" />
+        <option value="$PROJECT_DIR$/../AIOps/7_fault_recovery.rst" />
+        <option value="$PROJECT_DIR$/../AIOps/2_framework.rst" />
+        <option value="$PROJECT_DIR$/../AIOps/2_monitoring.rst" />
+        <option value="$PROJECT_DIR$/../AIOps/4_fault_diagnosis.rst" />
+        <option value="$PROJECT_DIR$/../AIOps/1_introduction.rst" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="743" />
-    <option name="y" value="23" />
-    <option name="width" value="1748" />
+    <option name="x" value="1028" />
+    <option name="y" value="26" />
+    <option name="width" value="1502" />
     <option name="height" value="1417" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -157,6 +138,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,8 +148,12 @@
             </path>
             <path>
               <item name="jorge-cardoso.github.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jorge-cardoso.github" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="jorge-cardoso.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="AIOps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jorge-cardoso.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AIOps" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jorge-cardoso.github.com" type="b2602c69:ProjectViewProjectNode" />
@@ -181,12 +167,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AIOps/images" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -195,6 +180,15 @@
         <option name="myUseModuleSdk" value="true" />
       </console-settings>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../AIOps" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../AIOps/images" />
+      <recent name="$PROJECT_DIR$/../AIOps" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -218,69 +212,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
-    </task>
-    <task id="LOCAL-00001" summary="coutchdb">
-      <created>1563944585892</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1563944585892</updated>
-    </task>
-    <task id="LOCAL-00002" summary="coutchdb">
-      <created>1564028038524</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1564028038524</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Updated troubleshooting">
-      <created>1564077704583</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1564077704583</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Updated troubleshooting">
-      <created>1564077881186</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1564077881186</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Updated troubleshooting">
-      <created>1564079530448</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1564079530448</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Updated troubleshooting">
-      <created>1564079645857</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1564079645857</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Updated troubleshooting">
-      <created>1564079896110</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1564079896110</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Updated troubleshooting">
-      <created>1564079972965</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1564079972965</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Updated troubleshooting">
-      <created>1564114103189</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1564114103190</updated>
     </task>
     <task id="LOCAL-00010" summary="Updated troubleshooting">
       <created>1564159460486</created>
@@ -506,14 +437,133 @@
       <option name="project" value="LOCAL" />
       <updated>1570378334326</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Updated">
+      <created>1570378379546</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1570378379546</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Updated">
+      <created>1571160433648</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1571160433648</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Updated">
+      <created>1571374676222</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1571374676222</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Updated">
+      <created>1571378616227</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1571378616227</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Updated">
+      <created>1571379178144</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1571379178144</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Updated">
+      <created>1571383640997</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1571383640997</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Updated">
+      <created>1571386771034</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1571386771034</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Updated">
+      <created>1572159172598</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1572159172599</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Updated">
+      <created>1572163914372</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1572163914375</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Updated">
+      <created>1572163997593</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1572163997593</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Updated">
+      <created>1572171317522</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1572171317522</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Updated">
+      <created>1572172282672</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1572172282672</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Updated">
+      <created>1572173022267</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1572173022267</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Updated">
+      <created>1572189999629</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1572189999629</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Updated">
+      <created>1572190529814</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1572190529814</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Updated">
+      <created>1572191350228</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1572191350228</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Updated">
+      <created>1572192771365</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1572192771365</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="743" y="23" width="1748" height="1417" extended-state="0" />
+    <frame x="1028" y="26" width="1502" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14649682" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17083052" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -523,7 +573,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32981133" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.13886793" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50071126" side_tool="true" weight="0.32981133" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49928877" weight="0.32981133" />
@@ -555,7 +605,8 @@
     <MESSAGE value="Updated Lecture metadata" />
     <MESSAGE value="Updated lecture" />
     <MESSAGE value="Updated Links to Huawei Research centers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Links to Huawei Research centers" />
+    <MESSAGE value="Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/research/iforesight.md">
@@ -589,74 +640,6 @@
     <entry file="file://$PROJECT_DIR$/research/aiops_white_paper.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../AIOps/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1998">
-            <caret line="111" selection-start-line="111" selection-end-line="111" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AIOps/introduction.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AIOps/trend_analysis.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AIOps/data_sources.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="4194">
-            <caret line="233" selection-start-line="233" selection-end-line="233" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AIOps/conferences.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AIOps/datasets.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AIOps/fault_diagnosis.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AIOps/fault_prediction.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="378">
-            <caret line="21" selection-start-line="21" selection-end-line="21" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AIOps/fault_detection.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="288">
-            <caret line="16" selection-start-line="16" selection-end-line="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AIOps/fault_prevention.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../dta_lstm/dta_lstm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -668,7 +651,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="288">
-            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <caret line="16" selection-start-line="16" selection-end-line="16" />
           </first_editor>
           <second_editor />
         </state>
@@ -677,12 +660,91 @@
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="572">
+          <first_editor relative-caret-position="1314">
             <caret line="73" column="346" selection-start-line="73" selection-start-column="346" selection-end-line="73" selection-end-column="346" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AIOps/4_fault_diagnosis_bak.rst" />
+    <entry file="file://$PROJECT_DIR$/../AIOps/7_trace_analysis.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AIOps/conferences.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AIOps/README.md" />
+    <entry file="file://$PROJECT_DIR$/../AIOps/trend_analysis.png" />
+    <entry file="file://$PROJECT_DIR$/../AIOps/5_fault_prediction_n.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="925">
+            <caret line="74" column="181" lean-forward="true" selection-start-line="42" selection-end-line="74" selection-end-column="181" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AIOps/8_AIOps_Patform.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AIOps/3_framework.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Pictures/Photos Library.photoslibrary/resources/proxies/derivatives/32/00/3211/UNADJUSTEDNONRAW_thumb_3211.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AIOps/datasets.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AIOps/6_fault_prevention.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="72">
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AIOps/7_fault_recovery.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="12" column="519" lean-forward="true" selection-start-line="12" selection-start-column="519" selection-end-line="12" selection-end-column="519" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AIOps/3_fault_detection.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="146">
+            <caret line="82" column="2" selection-start-line="82" selection-start-column="2" selection-end-line="82" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AIOps/4_fault_diagnosis.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AIOps/2_monitoring.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="239">
+            <caret line="25" selection-start-line="25" selection-end-line="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AIOps/1_introduction.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
