@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="Updated">
+    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../AIOps/1_introduction.rst" beforeDir="false" afterPath="$PROJECT_DIR$/../AIOps/1_introduction.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AIOps/2_monitoring.rst" beforeDir="false" afterPath="$PROJECT_DIR$/../AIOps/2_monitoring.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AIOps/3_fault_detection.rst" beforeDir="false" afterPath="$PROJECT_DIR$/../AIOps/3_fault_detection.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AIOps/4_fault_diagnosis.rst" beforeDir="false" afterPath="$PROJECT_DIR$/../AIOps/4_fault_diagnosis.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AIOps/5_fault_prediction_n.rst" beforeDir="false" afterPath="$PROJECT_DIR$/../AIOps/5_fault_prediction_n.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AIOps/6_fault_prevention.rst" beforeDir="false" afterPath="$PROJECT_DIR$/../AIOps/6_fault_prevention.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publications/cardoso.bib" beforeDir="false" afterPath="$PROJECT_DIR$/publications/cardoso.bib" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +20,6 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../AIOps/1_introduction.rst">
-          <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AIOps/8_AIOps_Patform.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
@@ -57,6 +55,11 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../AIOps/6_fault_prevention.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../AIOps/5_fault_prediction_n.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
@@ -111,16 +114,16 @@
         <option value="$PROJECT_DIR$/../AIOps/tmp.rst" />
         <option value="$PROJECT_DIR$/../AIOps/5_fault_prediction.rst" />
         <option value="$PROJECT_DIR$/../AIOps/7_trace_analysis.rst" />
-        <option value="$PROJECT_DIR$/../AIOps/6_fault_prevention.rst" />
         <option value="$PROJECT_DIR$/../AIOps/datasets.rst" />
-        <option value="$PROJECT_DIR$/../AIOps/3_fault_detection.rst" />
-        <option value="$PROJECT_DIR$/../AIOps/5_fault_prediction_n.rst" />
         <option value="$PROJECT_DIR$/../AIOps/2_data_sources.rst" />
         <option value="$PROJECT_DIR$/../AIOps/README.md" />
         <option value="$PROJECT_DIR$/../AIOps/7_fault_recovery.py" />
         <option value="$PROJECT_DIR$/../AIOps/7_fault_recovery.rst" />
         <option value="$PROJECT_DIR$/../AIOps/2_framework.rst" />
         <option value="$PROJECT_DIR$/../AIOps/2_monitoring.rst" />
+        <option value="$PROJECT_DIR$/../AIOps/3_fault_detection.rst" />
+        <option value="$PROJECT_DIR$/../AIOps/6_fault_prevention.rst" />
+        <option value="$PROJECT_DIR$/../AIOps/5_fault_prediction_n.rst" />
         <option value="$PROJECT_DIR$/../AIOps/4_fault_diagnosis.rst" />
         <option value="$PROJECT_DIR$/../AIOps/1_introduction.rst" />
       </list>
@@ -138,22 +141,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="jorge-cardoso.github.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="jorge-cardoso.github" type="9c53a853:ProjectViewModuleGroupNode" />
-            </path>
-            <path>
-              <item name="jorge-cardoso.github.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AIOps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jorge-cardoso.github.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AIOps" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jorge-cardoso.github.com" type="b2602c69:ProjectViewProjectNode" />
@@ -167,6 +160,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,13 +206,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Updated troubleshooting">
-      <created>1564159460486</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1564159460486</updated>
     </task>
     <task id="LOCAL-00011" summary="Updated Use Cases">
       <created>1564202175899</created>
@@ -556,12 +543,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572192771365</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Updated">
+      <created>1573198472156</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1573198472157</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1028" y="26" width="1502" height="1417" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17083052" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -676,18 +669,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../AIOps/README.md" />
     <entry file="file://$PROJECT_DIR$/../AIOps/trend_analysis.png" />
-    <entry file="file://$PROJECT_DIR$/../AIOps/5_fault_prediction_n.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="925">
-            <caret line="74" column="181" lean-forward="true" selection-start-line="42" selection-end-line="74" selection-end-column="181" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../AIOps/8_AIOps_Patform.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AIOps/1_introduction.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../AIOps/3_framework.rst">
@@ -695,39 +680,6 @@
     </entry>
     <entry file="file://$USER_HOME$/Pictures/Photos Library.photoslibrary/resources/proxies/derivatives/32/00/3211/UNADJUSTEDNONRAW_thumb_3211.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AIOps/datasets.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AIOps/6_fault_prevention.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="72">
-            <caret line="4" selection-start-line="4" selection-end-line="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AIOps/7_fault_recovery.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="12" column="519" lean-forward="true" selection-start-line="12" selection-start-column="519" selection-end-line="12" selection-end-column="519" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AIOps/3_fault_detection.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="146">
-            <caret line="82" column="2" selection-start-line="82" selection-start-column="2" selection-end-line="82" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../AIOps/4_fault_diagnosis.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
@@ -743,8 +695,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../AIOps/1_introduction.rst">
+    <entry file="file://$PROJECT_DIR$/../AIOps/datasets.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AIOps/3_fault_detection.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="146">
+            <caret line="82" column="2" selection-start-line="82" selection-start-column="2" selection-end-line="82" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AIOps/6_fault_prevention.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="72">
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AIOps/5_fault_prediction_n.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="925">
+            <caret line="74" column="181" lean-forward="true" selection-start-line="42" selection-end-line="74" selection-end-column="181" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AIOps/7_fault_recovery.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="12" column="519" lean-forward="true" selection-start-line="12" selection-start-column="519" selection-end-line="12" selection-end-column="519" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

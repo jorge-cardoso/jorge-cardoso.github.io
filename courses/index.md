@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Courses Taught"
+title: "Courses"
 date:
 modified:
 excerpt: "The many courses I taught over the years"
@@ -15,8 +15,8 @@ toc: true
 
 ##### Online Courses
 
++ [AIOps](http://jorge-cardoso.github.io/courses/aiops/).
 + [Enterprise Cloud Computing](http://jorge-cardoso.github.io/courses/enterprise_cloud_computing/).
-
 
 ##### Course List
 

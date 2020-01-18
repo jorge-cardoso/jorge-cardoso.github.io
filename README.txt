@@ -17,5 +17,5 @@ php bibtex2html.php cardoso.bib index.md
 
 To update git hub run the following commands:
 git add .
-git commit -m "made some changes"
+git commit -m "update publication list"
 git push origin master
