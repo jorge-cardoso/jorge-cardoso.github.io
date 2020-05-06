@@ -90,6 +90,7 @@ to improve and extend with new ideas our system to release **iForesight 3.0**.
 
 News
 ----
++ Our AIOps article titled *Multi-source Distributed System Data for AI-Powered Analytics* was accepted to Service-Oriented and Cloud Computing (ESOCC 2020), 28-30 September, 2020, Crete.
 + My Lecture on [AIOps: Anomalous Span Detection in Distributed Traces Using Deep Learning](https://www.slideshare.net/JorgeCardoso4/aiops-anomalous-span-detection-in-distributed-traces-using-deep-learning) presented at [Prof. Joeran Beel's Chair](https://www.scss.tcd.ie/joeran.beel/) (Intelligent Systems, Trinity College Dublin) on 02.10.2019 is now available.
 + Our article *Towards Occupation Inference in Non-instrumented Services* was accepted to IEEE Network Computing and Applications. Boston, MA, USA, September 2019.
 + Andre Pascoal Bento defended successfully his thesis [Observing and Controlling Performance in Microservices](research/pdf_img/MSc_thesis_Andre_Bento.pdf)
