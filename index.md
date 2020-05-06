@@ -54,8 +54,8 @@ See [Google Scholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en
 [DBLP](http://dblp.uni-trier.de/pers/hd/c/Cardoso:Jorge), and
 [LinkedIn](https://www.linkedin.com/in/jorge-cardoso-75ba40/).
 
-MSc/PhD Research Topics
------------------------
+Research Topics
+---------------
 
 1. Anomaly Detection techniques using AI/ML methods
     * **Background.** Traditionally, anomaly detection research targeted to identify individual point anomalies in time series. Nonetheless, for planet-scale, complex systems such as Huawei Public Cloud, where noise and entropy are a constant, detecting collections of anomalous temporal events is far more relevant. 	

@@ -325,14 +325,17 @@
 	min-height: 1px;
 	ul {
 		margin-top: $gutter;
-		border: 1px solid $border-color;
+		// Jorge Cardoso 2020-05-06: border: 1px solid $border-color;
+		border: 0px solid $border-color;
 		border-radius: $border-radius;
 	}
 	li {
 		@include media($micro) { @include font-size(16,no,18); }
     	@include media($small) { @include font-size(16,no,18); }
-		@include font-size(12,no,16);
-		border-bottom: 1px solid $border-color;
+    	// Jorge Cardoso 2020-05-06: @include font-size(12,no,16);
+		@include font-size(15,no,15);
+		// Jorge Cardoso 2020-05-06: border-bottom: 1px solid $border-color;
+		border-bottom: 0px solid $border-color;
 	}
 	font-family: $alt-font;
 	a {

@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
     <title>Jorge Cardoso</title>
-    <generator uri="https://github.com/jekyll/jekyll">Jekyll v3.8.5</generator>
+    <generator uri="https://github.com/jekyll/jekyll">Jekyll v4.0.0</generator>
 		<icon>http://localhost:4000/apple-touch-icon-precomposed.png</icon>
     <subtitle>JC Description</subtitle>
     <link href="http://localhost:4000/atom.xml" rel="self"/>
     <link href="http://localhost:4000/" rel="alternate" type="text/html"/>
-    <updated>2019-03-31T08:27:47+02:00</updated>
+    <updated>2020-05-06T13:57:51+02:00</updated>
     <id>http://localhost:4000/</id>
     <author>
 			<name></name>
