@@ -19,7 +19,7 @@
   url: /courses/
   excerpt: "Courses taught over the years"
   image: Teaser-Courses.jpg
-  
+
 - title: Books
   url: /books/
   excerpt: "Academic and scientific books published"
@@ -28,4 +28,4 @@
 - title: Blog
   url: /blog/
   excerpt: "My commemts, opinion, and thoughts"
-  image: Teaser-Blog.jpg  
+  image: Teaser-Blog.jpg
