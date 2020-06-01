@@ -57,7 +57,9 @@
       {% include footer.html %}
     </div>
 
-    {% if page.image.feature %}{% include scroll-cue.html %}{% endif %}
+    {% if page.image.feature %}
+      {% include scroll-cue.html %}
+    {% endif %}
 
     <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="{{ site.url }}/js/main.js"></script>

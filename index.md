@@ -4,6 +4,7 @@ permalink: /
 title: "Home"
 toc: true
 ads: false
+comments: true
 ---
 
 <p>
@@ -29,7 +30,7 @@ workload of human operators. These techniques are typically applied to Big Data 
 microservice [observability data](https://www.mstakx.com/wp-content/uploads/2018/09/A-Practical-Observability-Primer-1.pdf).
 
 My group is currently developing the iForesight system which is being used to evaluate this new O&M approach. 
-[iForesight 3.0](research/iforesight) is the result of more than 2 years of research with
+[iForesight 3.0](_posts/research/iforesight) is the result of more than 2 years of research with
 the goal to provide an intelligent new tool aimed at [SRE](https://en.wikipedia.org/wiki/Site_Reliability_Engineering)
 cloud maintenance teams. 
 It enables them to quickly detect, localize and predict anomalies thanks to the use of artificial intelligence when
@@ -148,18 +149,16 @@ Engineering [University of Coimbra](univeristy of coimbra) (1995 and 1998, Portu
 
 Contact
 -------
-Prof. Jorge Cardoso<br>
-+ [Huawei Munich Research Center](https://huawei.eu/research-and-innovation), Germany<br>
-+ [Departamento de Engenharia Informatica](http://www.uc.pt/en/fctuc/dei), University of Coimbra, Portugal<br>
-
-jcardoso [*.A._.T$] dei | uc | pt <br>
-
-<blockquote><p>
-A good researcher says, "Lets find out", others say "Nobody knows". When a good researcher makes a mistake, he says,
-I was wrong", others say "It wasn't my fault". A good researcher works harder than others and has more time. 
-Others are always "too busy" to do what is necessary.</p>
-</blockquote>
++ Prof. Jorge Cardoso
++ [Huawei Munich Research Center](https://huawei.eu/research-and-innovation), Germany
++ [Departamento de Engenharia Informatica](http://www.uc.pt/en/fctuc/dei), University of Coimbra, Portugal
++ `jcardoso [*.A._.T$] dei | uc | pt`
 
 <blockquote>
-  <p><cite><em>Unknown source</em></cite></p>
+<p>
+A good researcher says, "Lets find out", others say "Nobody knows". When a good researcher makes a mistake, he says, I was wrong", others say "It wasn't my fault". A good researcher works harder than others and has more time. Others are always "too busy" to do what is necessary. [Unknown source]
+</p>
 </blockquote>
+
+
+

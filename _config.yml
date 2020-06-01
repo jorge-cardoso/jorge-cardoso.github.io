@@ -6,13 +6,10 @@ logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 #locale: http://0.0.0.0:4000
 locale: http://jorge-cardoso.github.io
-
 # Search
 url: http://jorge-cardoso.github.io
 
-
 # Jekyll configuration
-
 sass:
     sass_dir: _sass
     style: compressed
@@ -22,6 +19,10 @@ highlighter: rouge
 gems:
   - jekyll-sitemap
 
+# Jorge Cardoso: 2020.06.01
+# Leave shortname blank to disable comments site-wide.
+# Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+disqus-shortname: jorge-cardoso
 
 # Site owner
 owner:
@@ -33,9 +34,7 @@ owner:
     ad-slot:
   bio:
   avatar: bio-photo.jpg # 160x160 px image for author byline
-disqus-shortname:
 
 # Outputting
 quiet:    false
-
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

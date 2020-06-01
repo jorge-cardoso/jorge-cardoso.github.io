@@ -1,24 +1,26 @@
 ---
 layout: media
 title: "PHD POSITION in Cloud Operations and Analytics"
+date: 2016-11-27T10:01:01+02:00
 modified:
-categories: blog
+categories: 
+    - blog
 excerpt:
-tags: []
+tags:
+    - tag1
+    - tag2
 image:
   feature:
   teaser: Cover-FSS.gif
   thumb: Cover-FSS.gif
 ads: false
-date: 2016-11-27T10:01:01+02:00
+comments: true
 ---
-
 
 Huawei Technologies Duesseldorf GmbH  
 German Research Center  
 Riesstrasse 25  
 80992 Munich  
-
 
 DESCRIPTION
 ===========  

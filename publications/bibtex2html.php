@@ -433,10 +433,10 @@ function bibtex2html($entry, $type, $accents, $hightlightName = ''){
 						$doilinked = true;
 					}
 					
-					// Buid output
+					// Build output
 					$ret	= $ret.' <span class="in">In '.$journ.'</span>';
 
-                                   // Jorge Cardoso/JC - added the Volume (Vol.) keyword
+                    // Jorge Cardoso/JC - added the Volume (Vol.) keyword
 					if(trim($vol)	!= "") $ret = $ret.', Vol. '.$vol;
 					if(trim($numb)	!= "") $ret = $ret.' ('.str_replace(array("--", " -", "- "), "-", $numb).")";
 					if(trim($pages)	!= "") $ret = $ret.': '.str_replace(array("--", " -", "- "), "-", $pages);
@@ -490,7 +490,7 @@ function bibtex2html($entry, $type, $accents, $hightlightName = ''){
 					if(trim($publisher)	!= "") $ret = $ret.', <span class="publisher">'.$publisher.'</span>';
 					if(trim($pubaddress)!= "")  $ret = $ret.', '.$pubaddress.'';
 
-                                   // Jorge Cardoso/JC - added the Volume (Vol.) keyword
+                    // Jorge Cardoso/JC - added the Volume (Vol.) keyword
 					if(trim($series)		!= "") $ret = $ret.', '.$series.', Vol. '.$volume.'';
 					
 					// Jorge Cardoso/JC
@@ -614,37 +614,45 @@ function bibtex2html($entry, $type, $accents, $hightlightName = ''){
 		}
 		
 		// Put a full stop before the links
-		$ret = trim($ret);
+		$ret = ' __ ' . trim($ret);
 		if($ret[strlen($ret)-1] != '.') $ret .= '.';
 		
 		// Links:
 		$ret .= '<span class="links"><br>';
-		
+
+		if(!$doilinked && trim($doi) != "") {
+			// Jorge Cardoso/JC
+			//$ret .= ' <span class="doi"><a href="'.$doi.'" target="_blank">doi..</a></span>&nbsp;';
+  		       $ret = '<a href="'.$doi.'">doi </a>' . $ret;
+//   		       $ret = '<a href="'.$doi.'"><img src="../images/doi.png"></a>' . $ret;
+		}
+
 		if(trim($webpdf) != "") {
 			//$ret .= ' <span class="webpdf"><a href="'.$webpdf.'" >pdf..</a></span>&nbsp;';
 
 			// Jorge Cardoso/JC
-		    $ret .= ' <a href="'. "/publications". $webpdf.'"><img src="../images/pdf.png"></a>';
-#		    $ret .= ' <a href="'. "http://eden.dei.uc.pt/~jcardoso/Research/" . $webpdf.'"><img src="../images/pdf.png"></a>';
-			//$googletitle = urlencode($title);
-			$ret .= ' <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=' .$textual_title. '"><img src="../images/Google.png"></a>';
+			// $googletitle = urlencode($title);
+// 		    $ret .= ' <a href="'. "/publications". $webpdf.'"><img src="../images/pdf.png"></a>';
+// 			$ret .= ' <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=' .$textual_title. '"><img src="../images/Google.png"></a>';
+			$google = '<a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=' .$textual_title. '">gs </a>';
+//			$google = '<a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=' .$textual_title. '"><img src="../images/Google.png"></a>';
+// 		    $pdf = '<a href="'. "/publications". $webpdf.'"><img src="../images/pdf.png"></a>';
+            $pdf = '<a href="'. "/publications". $webpdf.'">pdf </a>';
+		    $ret = $pdf . $google . $ret ;
 		}
 		
 		$webcs = extractBib("citeseerurl", $entry, $accents);
 		if(trim($webcs) != "") {
 			$ret .= ' <span class="citeseerurl"><a href="'.$webcs.'" target="_blank">citeseer..</a></span>&nbsp;';
 		}
-		
-		if(!$doilinked && trim($doi) != "") {
-			// Jorge Cardoso/JC
-			//$ret .= ' <span class="doi"><a href="'.$doi.'" target="_blank">doi..</a></span>&nbsp;';
-  		       $ret .= ' <a href="'.$doi.'"><img src="../images/doi.png"></a>';
-		}
-		
+
 		if(!$urllinked && trim($url) != "") {
 			//$ret .= ' <span class="url"><a href="'.$url.'" target="_blank">more..</a></span>&nbsp;';
 			// Jorge Cardoso/JC
-			$ret .= ' <span class="url"><a href="'.$url.'" target="_blank"><img src="../images/www.png"></a></span>&nbsp;';
+			$html = ' <span class="url"><a href="'.$url.'" target="_blank">html </a></span>&nbsp;';
+// 			$html = ' <span class="url"><a href="'.$url.'" target="_blank"><img src="../images/html.png"></a></span>&nbsp;';
+			$ret = $html . $ret ;
+
 		}
 
 		if(!$publisherlinked && trim($publisherurl) != "") {
@@ -793,8 +801,9 @@ function bibstring2html($fileContent, $displayTypes = NULL, $groupType = NULL, $
 				fwrite($fp,$bibstring);
 				fclose($fp);
 
-				$text .= ' <span class="bibtexlink"><a href="'. $file_name .'"><img src="../images/bibtex.png"></a></span>';				
-				
+				$text = ' <span class="bibtexlink"><a href="'. $file_name .'">bib </a></span>' . $text;
+// 				$text = ' <span class="bibtexlink"><a href="'. $file_name .'"><img src="../images/bibtex.png"></a></span>' . $text;
+
 //				$text .= '<span class="bibtexlink"> <a href="javascript: var myWindow = window.open(\' \', \'ABC\', \'width=200, height=100\') ; bibwindow.document.write("' . $bibstring . '");><img src="../images/bibtex.png"></a></span>';
 					//'<span class="bibtexlink"><a href=javascript: var bibwindow = window.open("", "' . $key . '",); bibwindow.document.write("' . $bibstring . '"); '.'><img src="../images/bibtex.png"></a></span>' ; 
 		
