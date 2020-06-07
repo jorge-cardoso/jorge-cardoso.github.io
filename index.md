@@ -37,11 +37,10 @@ It enables them to quickly detect, localize and predict anomalies thanks to the 
 cloud services are slow or unresponsive. 
 
 The basic research areas we touch and integrate include:
-+ Cloud computing.
-+ Machine learning.
-+ Deep learning.
-+ Distributed systems.
-+ Software reliability.
++ Cloud Computing, Cloud Operations and Cloud Monitoring
++ Machine learning and Deep learning.
++ Distributed Systems Reliability and Availability.
++ Anomaly Detection and Root-cause Analysis. 
 
 They are applied to create new and innovative systems for:
 + AI-driven Cloud Operations
