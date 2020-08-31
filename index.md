@@ -90,6 +90,7 @@ to improve and extend with new ideas our system to release **iForesight 3.0**.
 
 News
 ----
++ Our work on *Self-Attentive Classification-Based Anomaly Detection in Unstructured Logs* was accepted at the [ICDM 2020](http://icdm2020.bigke.org) conference **(Conference Rank: A+)** (thanks to Sasho Nedelkoski, Jasmin Bogatinovski, Alexander Acker, and Odej Kao). 
 + Our work on *Self-Supervised Log Parsing* was accepted at the [ECML PKDD 2020](http://ecmlpkdd2020.net/) conference **(Conference Rank: A)** (thanks to Sasho Nedelkoski, Jasmin Bogatinovski, Alexander Acker, and  Odej Kao). 
 + Our AIOps article titled *Multi-source Distributed System Data for AI-Powered Analytics* was accepted to Service-Oriented and Cloud Computing (ESOCC 2020), 28-30 September, 2020, Crete.
 + My Lecture on [AIOps: Anomalous Span Detection in Distributed Traces Using Deep Learning](https://www.slideshare.net/JorgeCardoso4/aiops-anomalous-span-detection-in-distributed-traces-using-deep-learning) presented at [Prof. Joeran Beel's Chair](https://www.scss.tcd.ie/joeran.beel/) (Intelligent Systems, Trinity College Dublin) on 02.10.2019 is now available.

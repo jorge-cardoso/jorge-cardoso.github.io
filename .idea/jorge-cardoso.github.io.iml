@@ -4,7 +4,5 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.6 (venv_3.6.7)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="AIOps" />
-    <orderEntry type="module" module-name="strace_lstm" />
   </component>
 </module>
