@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="Updated">
-      <change beforePath="$PROJECT_DIR$/../AIOps/1_introduction.rst" beforeDir="false" afterPath="$PROJECT_DIR$/../AIOps/1_introduction.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/blog/2016-11-28-PHD_POSITION_in_Cloud_Operations_and_Analytics.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/blog/2016-11-28-PHD_POSITION_in_Cloud_Operations_and_Analytics.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publications/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/publications/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/research/aiops_white_paper.md" beforeDir="false" afterPath="$PROJECT_DIR$/research/aiops_white_paper.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/research/cloud_reliability.md" beforeDir="false" afterPath="$PROJECT_DIR$/research/cloud_reliability.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/research/iforesight.md" beforeDir="false" afterPath="$PROJECT_DIR$/research/iforesight.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,27 +22,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>queue</find>
-      <find>Oppenheimer</find>
-      <find>AIops Pla</find>
-      <find>Predicta</find>
-      <find>tracing</find>
-      <find>indg0371-sipos.pdf</find>
-      <find>Prediction</find>
-      <find>The following figure</find>
-      <find>c87</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1028" />
-    <option name="y" value="26" />
-    <option name="width" value="1502" />
-    <option name="height" value="1417" />
   </component>
   <component name="ProjectId" id="1gqs1YDBQN91ka22PuGMEbjpP3N" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -142,13 +128,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Updated Use Cases">
-      <created>1564202175899</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1564202175899</updated>
     </task>
     <task id="LOCAL-00012" summary="Updated Use Cases">
       <created>1564202286620</created>
@@ -486,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573198472157</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Updated news">
+      <created>1598853354894</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1598853354895</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -513,13 +499,22 @@
     <MESSAGE value="Updated lecture" />
     <MESSAGE value="Updated Links to Huawei Research centers" />
     <MESSAGE value="Updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated" />
+    <MESSAGE value="Updated news" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated news" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1360" y="302" key="CommitChangelistDialog2" timestamp="1598853275495">
+    <state x="1360" y="302" key="CommitChangelistDialog2" timestamp="1598853354712">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state x="1360" y="302" key="CommitChangelistDialog2/0.23.2495.1417@0.23.2495.1417" timestamp="1598853275495" />
+    <state x="1360" y="302" key="CommitChangelistDialog2/0.23.2495.1417@0.23.2495.1417" timestamp="1598853354712" />
+    <state x="847" y="471" key="Vcs.Push.Dialog.v2" timestamp="1598853356126">
+      <screen x="0" y="23" width="2495" height="1417" />
+    </state>
+    <state x="847" y="471" key="Vcs.Push.Dialog.v2/0.23.2495.1417@0.23.2495.1417" timestamp="1598853356126" />
+    <state x="924" y="259" width="1472" height="1085" key="find.popup" timestamp="1604640691989">
+      <screen x="0" y="23" width="2495" height="1417" />
+    </state>
+    <state x="924" y="259" width="1472" height="1085" key="find.popup/0.23.2495.1417@0.23.2495.1417" timestamp="1604640691989" />
   </component>
   <component name="masterDetails">
     <states>

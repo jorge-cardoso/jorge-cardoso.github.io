@@ -10,7 +10,7 @@ To generate the new bibs and publications web page:
 + Edit the file and add new publications
 + Copy the file to cardoso.bib   
 + php bibtex2html.php cardoso.bib index.md
-+ make sure the file works and rune $ jekyll serve
++ make sure the file works and run $ jekyll serve
 
 ### Updating github after changes
 + git add .

@@ -40,14 +40,14 @@ Cloud resiliency is the ability of a cloud platform or service to recover and co
 Automated means for recovery are the most desirable solutions.
 
 ### Open Positions
-+ MSc thesis. [Reliability of OpenStack usign Fault Injection](http://jorge-cardoso.github.io/research/Master_Thesis_Cloud_Resilience_Reliability_Fault-Library-2016-04-12.pdf)
-+ MSc thesis. [Intelligently Instrument OpenStack](http://jorge-cardoso.github.io/research/Master_Thesis_Cloud_Resilience_Reliability_Intelligent_Instrumentation-2016-06-03.pdf).
++ MSc thesis. [Reliability of OpenStack usign Fault Injection](research/Master_Thesis_Cloud_Resilience_Reliability_Fault-Library-2016-04-12.pdf)
++ MSc thesis. [Intelligently Instrument OpenStack](research/Master_Thesis_Cloud_Resilience_Reliability_Intelligent_Instrumentation-2016-06-03.pdf).
 + PhD student. OpenStack Reliability
 + PhD student. Data Science.
 + PhD student. Orchestration of cloud services/microservices.
-+ Permanent position. [Cloud Reliability Engineer](http://jorge-cardoso.github.io/research/pdf_img/JD_IT_Cloud_Reliability_Engineer_(May 2016).pdf)
-+ Permanent position. [OpenStack Software Engineer](http://jorge-cardoso.github.io/research/pdf_img/JD_IT_OpenStack_Software_Engineer_(Jan 2016).pdf)
-+ Permanent position. [Junior/Senior Researcher Large-scale Distributed Systems](http://jorge-cardoso.github.io/research/pdf_img/JD_IT_Junior_Senior_Researcher_Large-Scale_Distributed_Systems_(Jul 2016).pdf)
++ Permanent position. [Cloud Reliability Engineer](research/pdf_img/JD_IT_Cloud_Reliability_Engineer_(May 2016).pdf)
++ Permanent position. [OpenStack Software Engineer](research/pdf_img/JD_IT_OpenStack_Software_Engineer_(Jan 2016).pdf)
++ Permanent position. [Junior/Senior Researcher Large-scale Distributed Systems](research/pdf_img/JD_IT_Junior_Senior_Researcher_Large-Scale_Distributed_Systems_(Jul 2016).pdf)
 
 
 ## OpenStack Cloud OS

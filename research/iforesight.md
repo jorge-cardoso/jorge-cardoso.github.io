@@ -14,8 +14,8 @@ toc: true
 ---  
 
 <p>
-<a href="http://jorge-cardoso.github.io/research/pdf_img/iforesight3.png">
-<img src="http://jorge-cardoso.github.io/research/pdf_img//iforesight3.png" height="25%" width="25%" style="float:left;margin:0 20px 0 0;"/>
+<a href="research/pdf_img/iforesight3.png">
+<img src="research/pdf_img//iforesight3.png" height="25%" width="25%" style="float:left;margin:0 20px 0 0;"/>
 </a>
 </p>
 
