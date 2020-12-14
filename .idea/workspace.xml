@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/publications/Papers/WP-2020-078-AIOPS2020_Online_Memory_Leak_Detection.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publications/Papers/WP-2020-079-AIOPS2020_A_Systematic_Mapping_Study_in_AIOps.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publications/Papers/CP-2020-093-Multi-source_Dsitributed_System_Data.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/publications/bibs/NedelkoskiI_ESOCC_2020.bib" beforeDir="false" afterPath="$PROJECT_DIR$/publications/bibs/NedelkoskiI_ESOCC_2020.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publications/bibtex2html.php" beforeDir="false" afterPath="$PROJECT_DIR$/publications/bibtex2html.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/publications/cardoso.bib" beforeDir="false" afterPath="$PROJECT_DIR$/publications/cardoso.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publications/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/publications/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +74,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="check_links" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="jorge-cardoso.github.io" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/publications" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/publications/check_links.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
       <module name="AIOps" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,6 +138,11 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.check_links" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -125,13 +154,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Multimodal metrics">
-      <created>1564324288871</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1564324288871</updated>
     </task>
     <task id="LOCAL-00015" summary="Variability">
       <created>1564327223565</created>
@@ -469,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607932528237</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Added papers for the AIOPS2020 workshop">
+      <created>1607933123003</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1607933123003</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -501,14 +530,50 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added papers for the AIOPS2020 workshop" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1360" y="302" key="CommitChangelistDialog2" timestamp="1607932528003">
+    <state x="1311" y="438" key="#xdebugger.evaluate" timestamp="1607940150518">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state x="1360" y="302" key="CommitChangelistDialog2/0.23.2495.1417@0.23.2495.1417" timestamp="1607932528003" />
-    <state x="847" y="471" key="Vcs.Push.Dialog.v2" timestamp="1607932530159">
+    <state x="1311" y="438" key="#xdebugger.evaluate/0.23.2495.1417@0.23.2495.1417" timestamp="1607940150518" />
+    <state x="1360" y="302" key="CommitChangelistDialog2" timestamp="1607933122497">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state x="847" y="471" key="Vcs.Push.Dialog.v2/0.23.2495.1417@0.23.2495.1417" timestamp="1607932530159" />
+    <state x="1360" y="302" key="CommitChangelistDialog2/0.23.2495.1417@0.23.2495.1417" timestamp="1607933122497" />
+    <state width="1870" height="556" key="GridCell.Tab.0.bottom" timestamp="1607940879646">
+      <screen x="0" y="23" width="2495" height="1417" />
+    </state>
+    <state width="1870" height="556" key="GridCell.Tab.0.bottom/0.23.2495.1417@0.23.2495.1417" timestamp="1607940879646" />
+    <state width="1870" height="556" key="GridCell.Tab.0.center" timestamp="1607940879644">
+      <screen x="0" y="23" width="2495" height="1417" />
+    </state>
+    <state width="1870" height="556" key="GridCell.Tab.0.center/0.23.2495.1417@0.23.2495.1417" timestamp="1607940879644" />
+    <state width="1870" height="556" key="GridCell.Tab.0.left" timestamp="1607940879644">
+      <screen x="0" y="23" width="2495" height="1417" />
+    </state>
+    <state width="1870" height="556" key="GridCell.Tab.0.left/0.23.2495.1417@0.23.2495.1417" timestamp="1607940879644" />
+    <state width="1870" height="556" key="GridCell.Tab.0.right" timestamp="1607940879645">
+      <screen x="0" y="23" width="2495" height="1417" />
+    </state>
+    <state width="1870" height="556" key="GridCell.Tab.0.right/0.23.2495.1417@0.23.2495.1417" timestamp="1607940879645" />
+    <state width="1870" height="453" key="GridCell.Tab.1.bottom" timestamp="1607940650362">
+      <screen x="0" y="23" width="2495" height="1417" />
+    </state>
+    <state width="1870" height="453" key="GridCell.Tab.1.bottom/0.23.2495.1417@0.23.2495.1417" timestamp="1607940650362" />
+    <state width="1870" height="453" key="GridCell.Tab.1.center" timestamp="1607940650361">
+      <screen x="0" y="23" width="2495" height="1417" />
+    </state>
+    <state width="1870" height="453" key="GridCell.Tab.1.center/0.23.2495.1417@0.23.2495.1417" timestamp="1607940650361" />
+    <state width="1870" height="453" key="GridCell.Tab.1.left" timestamp="1607940650360">
+      <screen x="0" y="23" width="2495" height="1417" />
+    </state>
+    <state width="1870" height="453" key="GridCell.Tab.1.left/0.23.2495.1417@0.23.2495.1417" timestamp="1607940650360" />
+    <state width="1870" height="453" key="GridCell.Tab.1.right" timestamp="1607940650361">
+      <screen x="0" y="23" width="2495" height="1417" />
+    </state>
+    <state width="1870" height="453" key="GridCell.Tab.1.right/0.23.2495.1417@0.23.2495.1417" timestamp="1607940650361" />
+    <state x="847" y="471" key="Vcs.Push.Dialog.v2" timestamp="1607933124533">
+      <screen x="0" y="23" width="2495" height="1417" />
+    </state>
+    <state x="847" y="471" key="Vcs.Push.Dialog.v2/0.23.2495.1417@0.23.2495.1417" timestamp="1607933124533" />
     <state x="1351" y="649" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607932255990">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
@@ -517,6 +582,17 @@
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
     <state x="924" y="259" width="1472" height="1085" key="find.popup/0.23.2495.1417@0.23.2495.1417" timestamp="1604640861092" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/publications/check_links.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>
