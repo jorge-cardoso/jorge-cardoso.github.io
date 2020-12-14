@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/publications/Papers/CP-2020-093-Multi-source_Distributed_System_Data.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publications/Papers/CP-2020-094-ICDM_Self_Attentive_Classification_Based_Anomaly_Detection.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publications/Papers/CP-2020-095_ECML_Self_Supervised_Log_Parsing.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publications/Papers/CP-2020-093-Multi-source_Dsitributed_System_Data.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/publications/bibs/NedelkoskiI_ESOCC_2020.bib" beforeDir="false" afterPath="$PROJECT_DIR$/publications/bibs/NedelkoskiI_ESOCC_2020.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publications/bibtex2html.php" beforeDir="false" afterPath="$PROJECT_DIR$/publications/bibtex2html.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publications/cardoso.bib" beforeDir="false" afterPath="$PROJECT_DIR$/publications/cardoso.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publications/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/publications/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,13 +152,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Variability">
-      <created>1564327223565</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1564327223565</updated>
     </task>
     <task id="LOCAL-00016" summary="Variability">
       <created>1564377511557</created>
@@ -498,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607933123003</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Added papers for the AIOPS2020 workshop">
+      <created>1607940968915</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1607940968915</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -534,26 +532,26 @@
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
     <state x="1311" y="438" key="#xdebugger.evaluate/0.23.2495.1417@0.23.2495.1417" timestamp="1607940150518" />
-    <state x="1360" y="302" key="CommitChangelistDialog2" timestamp="1607933122497">
+    <state x="1360" y="302" key="CommitChangelistDialog2" timestamp="1607940968546">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state x="1360" y="302" key="CommitChangelistDialog2/0.23.2495.1417@0.23.2495.1417" timestamp="1607933122497" />
-    <state width="1870" height="556" key="GridCell.Tab.0.bottom" timestamp="1607940879646">
+    <state x="1360" y="302" key="CommitChangelistDialog2/0.23.2495.1417@0.23.2495.1417" timestamp="1607940968546" />
+    <state width="1870" height="556" key="GridCell.Tab.0.bottom" timestamp="1607940902281">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1870" height="556" key="GridCell.Tab.0.bottom/0.23.2495.1417@0.23.2495.1417" timestamp="1607940879646" />
-    <state width="1870" height="556" key="GridCell.Tab.0.center" timestamp="1607940879644">
+    <state width="1870" height="556" key="GridCell.Tab.0.bottom/0.23.2495.1417@0.23.2495.1417" timestamp="1607940902281" />
+    <state width="1870" height="556" key="GridCell.Tab.0.center" timestamp="1607940902280">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1870" height="556" key="GridCell.Tab.0.center/0.23.2495.1417@0.23.2495.1417" timestamp="1607940879644" />
-    <state width="1870" height="556" key="GridCell.Tab.0.left" timestamp="1607940879644">
+    <state width="1870" height="556" key="GridCell.Tab.0.center/0.23.2495.1417@0.23.2495.1417" timestamp="1607940902280" />
+    <state width="1870" height="556" key="GridCell.Tab.0.left" timestamp="1607940902280">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1870" height="556" key="GridCell.Tab.0.left/0.23.2495.1417@0.23.2495.1417" timestamp="1607940879644" />
-    <state width="1870" height="556" key="GridCell.Tab.0.right" timestamp="1607940879645">
+    <state width="1870" height="556" key="GridCell.Tab.0.left/0.23.2495.1417@0.23.2495.1417" timestamp="1607940902280" />
+    <state width="1870" height="556" key="GridCell.Tab.0.right" timestamp="1607940902281">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1870" height="556" key="GridCell.Tab.0.right/0.23.2495.1417@0.23.2495.1417" timestamp="1607940879645" />
+    <state width="1870" height="556" key="GridCell.Tab.0.right/0.23.2495.1417@0.23.2495.1417" timestamp="1607940902281" />
     <state width="1870" height="453" key="GridCell.Tab.1.bottom" timestamp="1607940650362">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
@@ -570,10 +568,10 @@
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
     <state width="1870" height="453" key="GridCell.Tab.1.right/0.23.2495.1417@0.23.2495.1417" timestamp="1607940650361" />
-    <state x="847" y="471" key="Vcs.Push.Dialog.v2" timestamp="1607933124533">
+    <state x="847" y="471" key="Vcs.Push.Dialog.v2" timestamp="1607940970283">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state x="847" y="471" key="Vcs.Push.Dialog.v2/0.23.2495.1417@0.23.2495.1417" timestamp="1607933124533" />
+    <state x="847" y="471" key="Vcs.Push.Dialog.v2/0.23.2495.1417@0.23.2495.1417" timestamp="1607940970283" />
     <state x="1351" y="649" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607932255990">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
@@ -582,17 +580,6 @@
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
     <state x="924" y="259" width="1472" height="1085" key="find.popup/0.23.2495.1417@0.23.2495.1417" timestamp="1604640861092" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/publications/check_links.py</url>
-          <line>54</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>
