@@ -90,6 +90,9 @@ to improve and extend with new ideas our system to release **iForesight 3.0**.
 
 News
 ----
++ Two new publications from our side: *A Systematic Mapping Study in AIOps* and *Online Memory Leak Detection in the Cloud-based Infrastructures*, [AIOPS2020](https://aiopsworkshop.github.io/). 
++ We organized the AIOPS 2020 International Workshop on Artificial Intelligence for IT Operations, part of the 
+18th International Conference on Service Oriented Computing, Dubai Virtual, 14 December 2020.
 + Our work on *Self-Attentive Classification-Based Anomaly Detection in Unstructured Logs* was accepted at the [ICDM 2020](http://icdm2020.bigke.org) conference **(Conference Rank: A+)** (thanks to Sasho Nedelkoski, Jasmin Bogatinovski, Alexander Acker, and Odej Kao). 
 + Our work on *Self-Supervised Log Parsing* was accepted at the [ECML PKDD 2020](http://ecmlpkdd2020.net/) conference **(Conference Rank: A)** (thanks to Sasho Nedelkoski, Jasmin Bogatinovski, Alexander Acker, and  Odej Kao). 
 + Our AIOps article titled *Multi-source Distributed System Data for AI-Powered Analytics* was accepted to Service-Oriented and Cloud Computing (ESOCC 2020), 28-30 September, 2020, Crete.
