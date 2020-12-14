@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publications/Papers/WP-2020-078-AIOPS2020_Online_Memory_Leak_Detection.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publications/Papers/WP-2020-079-AIOPS2020_A_Systematic_Mapping_Study_in_AIOps.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publications/cardoso.bib" beforeDir="false" afterPath="$PROJECT_DIR$/publications/cardoso.bib" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,13 +125,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
-    </task>
-    <task id="LOCAL-00013" summary="General Updated">
-      <created>1564208148334</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1564208148334</updated>
     </task>
     <task id="LOCAL-00014" summary="Multimodal metrics">
       <created>1564324288871</created>
@@ -468,11 +462,17 @@
       <option name="project" value="LOCAL" />
       <updated>1604640890377</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Added papers for the AIOPS2020 workshop">
+      <created>1607932528236</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1607932528237</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="coutchdb" />
     <MESSAGE value="Updated troubleshooting" />
     <MESSAGE value="Updated Use Cases" />
     <MESSAGE value="General Updated" />
@@ -497,17 +497,22 @@
     <MESSAGE value="Updated" />
     <MESSAGE value="Updated news" />
     <MESSAGE value="Fix https webpage display problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix https webpage display problem" />
+    <MESSAGE value="Added papers for the AIOPS2020 workshop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added papers for the AIOPS2020 workshop" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1360" y="302" key="CommitChangelistDialog2" timestamp="1604640890146">
+    <state x="1360" y="302" key="CommitChangelistDialog2" timestamp="1607932528003">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state x="1360" y="302" key="CommitChangelistDialog2/0.23.2495.1417@0.23.2495.1417" timestamp="1604640890146" />
-    <state x="847" y="471" key="Vcs.Push.Dialog.v2" timestamp="1604640891901">
+    <state x="1360" y="302" key="CommitChangelistDialog2/0.23.2495.1417@0.23.2495.1417" timestamp="1607932528003" />
+    <state x="847" y="471" key="Vcs.Push.Dialog.v2" timestamp="1607932530159">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state x="847" y="471" key="Vcs.Push.Dialog.v2/0.23.2495.1417@0.23.2495.1417" timestamp="1604640891901" />
+    <state x="847" y="471" key="Vcs.Push.Dialog.v2/0.23.2495.1417@0.23.2495.1417" timestamp="1607932530159" />
+    <state x="1351" y="649" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607932255990">
+      <screen x="0" y="23" width="2495" height="1417" />
+    </state>
+    <state x="1351" y="649" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2495.1417@0.23.2495.1417" timestamp="1607932255990" />
     <state x="924" y="259" width="1472" height="1085" key="find.popup" timestamp="1604640861092">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>

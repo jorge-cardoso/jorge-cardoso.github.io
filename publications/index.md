@@ -204,7 +204,13 @@ toc: true
 
 </ol></div><h2>In Proceedings<span class="dark"></span></h2>
 <div class="publication">
-<ol start="63"><li> <span class="bibtexlink"><a href="bibs/NedelkoskiI_ESOCC_2020.bib">bib </a></span><a href="/publications/Papers/CP-2020-093-Multi-source_Dsitributed_System_Data.pdf">pdf </a><a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Multi-source Distributed System Data for AI-Powered Analytics">gs </a> __ <span class="authors">Nedelkoski, S.; Bogatinovski, J.; Mandapati, A. K.; Becker, S.; Cardoso, J. and Kao, O.</span> <span class="title"><a href="/publications/Papers/CP-2020-093-Multi-source_Dsitributed_System_Data.pdf" >Multi-source Distributed System Data for AI-Powered Analytics</a></span>.  <span class="in">In Service-Oriented and Cloud Computing (ESOCC 2020), 28-30 September, 2020, Crete</span>, pages 161-176, 2020.<span class="links"><br></span>
+<ol start="63"><li> <span class="bibtexlink"><a href="bibs/Notaro2020AIOPS.bib">bib </a></span><a href="/publications/Papers/WP-2020-079-AIOPS2020_A_Systematic_Mapping_Study_in_AIOps.pdf">pdf </a><a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=A Systematic Mapping Study in AIOps">gs </a> __ <span class="authors">Notaro, P.; Cardoso, J. and Gerndt, M.</span> <span class="title"><a href="/publications/Papers/WP-2020-079-AIOPS2020_A_Systematic_Mapping_Study_in_AIOps.pdf" >A Systematic Mapping Study in AIOps</a></span>.  <span class="in">In AIOPS 2020 International Workshop on Artificial Intelligence for IT Operations</span>, <span class="publisher">Springer</span>, 2020.<span class="links"><br></span>
+</li>
+
+<li> <span class="bibtexlink"><a href="bibs/Jindal2020AIOPS.bib">bib </a></span><a href="/publications/Papers/WP-2020-078-AIOPS2020_Online_Memory_Leak_Detection.pdf">pdf </a><a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Online Memory Leak Detection in the Cloud-based Infrastructures">gs </a> __ <span class="authors">Jindal, A.; Staab, P.; Cardoso, J.; Gerndt, M. and Podolskiy, V.</span> <span class="title"><a href="/publications/Papers/WP-2020-078-AIOPS2020_Online_Memory_Leak_Detection.pdf" >Online Memory Leak Detection in the Cloud-based Infrastructures</a></span>.  <span class="in">In AIOPS 2020 International Workshop on Artificial Intelligence for IT Operations</span>, <span class="publisher">Springer</span>, 2020.<span class="links"><br></span>
+</li>
+
+<li> <span class="bibtexlink"><a href="bibs/NedelkoskiI_ESOCC_2020.bib">bib </a></span><a href="/publications/Papers/CP-2020-093-Multi-source_Dsitributed_System_Data.pdf">pdf </a><a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Multi-source Distributed System Data for AI-Powered Analytics">gs </a> __ <span class="authors">Nedelkoski, S.; Bogatinovski, J.; Mandapati, A. K.; Becker, S.; Cardoso, J. and Kao, O.</span> <span class="title"><a href="/publications/Papers/CP-2020-093-Multi-source_Dsitributed_System_Data.pdf" >Multi-source Distributed System Data for AI-Powered Analytics</a></span>.  <span class="in">In Service-Oriented and Cloud Computing (ESOCC 2020), 28-30 September, 2020, Crete</span>, pages 161-176, 2020.<span class="links"><br></span>
 </li>
 
 <li> <span class="bibtexlink"><a href="bibs/FilipeNCA2019.bib">bib </a></span><a href="/publications/Papers/CP-2019-092-IEEE_NCA_Towards-Occupation-Inference-in-Non-instrumented-Services">pdf </a><a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Towards Occupation Inference in Non-instrumented Services">gs </a> __ <span class="authors">Filipe, R.; Correia, J.; Araujo, F. and Cardoso, J.</span> <span class="title"><a href="/publications/Papers/CP-2019-092-IEEE_NCA_Towards-Occupation-Inference-in-Non-instrumented-Services" >Towards Occupation Inference in Non-instrumented Services</a></span>.  <span class="in">In IEEE 18th International Symposium on Network Computing and Applications (NCA)</span>, pages 1-7, 2019.<span class="links"><br></span>
@@ -488,7 +494,7 @@ toc: true
 
 </ol></div><h2>Books<span class="dark"></span></h2>
 <div class="publication">
-<ol start="157"><li> <span class="bibtexlink"><a href="bibs/CloudCSS17.bib">bib </a></span> __ <span class="authors">Helfert,  M.; Ferguson,  D.; Mendez Munoz,  V. and Cardoso,  J.</span> <span class="title">Cloud Computing and Services Science</span>.  <span class="publisher">Springer</span>, ISBN: 978-3-319-62594-2, 2017.<span class="links"><br></span>
+<ol start="159"><li> <span class="bibtexlink"><a href="bibs/CloudCSS17.bib">bib </a></span> __ <span class="authors">Helfert,  M.; Ferguson,  D.; Mendez Munoz,  V. and Cardoso,  J.</span> <span class="title">Cloud Computing and Services Science</span>.  <span class="publisher">Springer</span>, ISBN: 978-3-319-62594-2, 2017.<span class="links"><br></span>
 </li>
 
 <li> <span class="bibtexlink"><a href="bibs/SoftTech17.bib">bib </a></span> __ <span class="authors">Cabello,  E.; Cardoso,  J.; Ludwig,  A.; Maciaszek,  L.A. and van Sinderen,  M.</span> <span class="title">Software Technologies</span>.  <span class="publisher">Springer</span>, ISBN: 978-3-319-62569-0, 2017.<span class="links"><br></span>
@@ -535,7 +541,7 @@ toc: true
 
 </ol></div><h2>Conference Proceedings<span class="dark"></span></h2>
 <div class="publication">
-<ol start="172"><li> <span class="bibtexlink"><a href="bibs/ICSOFT17.bib">bib </a></span> __ <span class="authors">Cabello, E.; Cardoso, J.; Maciaszek, L. and Sinderen, M. va, ed.</span> <span class="title">Proceedings of the 12th International Conference on Software Technologies</span>.  <span class="publisher">SCITEPRESS</span>, ISBN: 978-989-758-262-2, 2017.<span class="links"><br></span>
+<ol start="174"><li> <span class="bibtexlink"><a href="bibs/ICSOFT17.bib">bib </a></span> __ <span class="authors">Cabello, E.; Cardoso, J.; Maciaszek, L. and Sinderen, M. va, ed.</span> <span class="title">Proceedings of the 12th International Conference on Software Technologies</span>.  <span class="publisher">SCITEPRESS</span>, ISBN: 978-989-758-262-2, 2017.<span class="links"><br></span>
 </li>
 
 <li> <span class="bibtexlink"><a href="bibs/ICSOFT-PT16.bib">bib </a></span> __ <span class="authors">Ludwig, A.; Cabello, E.; Cardoso, J.; Maciaszek, L. and Sinderen, M. va, ed.</span> <span class="title">Proceedings of the 11th International Joint Conference on Software Technologies, Volume 2: ICSOFT-PT</span>.  <span class="publisher">SCITEPRESS</span>, ISBN: 978-989-758-194-6, 2016.<span class="links"><br></span>
@@ -594,22 +600,22 @@ toc: true
 
 </ol></div><h2>Technical Reports<span class="dark"></span></h2>
 <div class="publication">
-<ol start="191"><li> <span class="bibtexlink"><a href="bibs/UC-DEI-GSI-2012-02.bib">bib </a></span> __ <span class="authors">Cardoso, J.</span> <span class="title">On the suitability of USDL for service description -- A case study of a telecom operator</span>.  Technical Report UC-DEI-GSI-2012-02, <span class="institution"><a href="http://eden.dei.uc.pt/~jcardoso/UC-DEI-GSI-2012-02.pdf" target="_blank">Department of Engineering Informatics, University of Coimbra</a></span>, Coimbra, Portugal, 2012.<span class="links"><br></span>
+<ol start="193"><li> <span class="bibtexlink"><a href="bibs/UC-DEI-GSI-2012-02.bib">bib </a></span> __ <span class="authors">Cardoso, J.</span> <span class="title">On the suitability of USDL for service description -- A case study of a telecom operator</span>.  Technical Report UC-DEI-GSI-2012-02, <span class="institution"><a href="http://eden.dei.uc.pt/~jcardoso/UC-DEI-GSI-2012-02.pdf" target="_blank">Department of Engineering Informatics, University of Coimbra</a></span>, Coimbra, Portugal, 2012.<span class="links"><br></span>
 </li>
 
 </ol></div><h2>PhD Theses<span class="dark"></span></h2>
 <div class="publication">
-<ol start="192"><li> <span class="bibtexlink"><a href="bibs/Cardoso02PhD.bib">bib </a></span><a href="/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf">pdf </a><a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Quality of Service and Semantic Composition of Workflows">gs </a> __ <span class="authors">Cardoso,  J.</span> <span class="title"><a href="/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf" >Quality of Service and Semantic Composition of Workflows</a></span>.  Ph.D. Thesis, <span class="school">University of Georgia, Department of Computer Science</span>, Athens, GA, USA, 2002.<span class="links"><br></span>
+<ol start="194"><li> <span class="bibtexlink"><a href="bibs/Cardoso02PhD.bib">bib </a></span><a href="/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf">pdf </a><a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Quality of Service and Semantic Composition of Workflows">gs </a> __ <span class="authors">Cardoso,  J.</span> <span class="title"><a href="/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf" >Quality of Service and Semantic Composition of Workflows</a></span>.  Ph.D. Thesis, <span class="school">University of Georgia, Department of Computer Science</span>, Athens, GA, USA, 2002.<span class="links"><br></span>
 </li>
 
 </ol></div><h2>Master's Theses<span class="dark"></span></h2>
 <div class="publication">
-<ol start="193"><li> <span class="bibtexlink"><a href="bibs/Cardoso98MSc.bib">bib </a></span> __ <span class="authors">Cardoso,  J.</span> <span class="title">Sistema Computorizado para a Automatizacao de Processos Organizacionais</span>.  Master's Thesis, <span class="school">University of Coimbra, Department of Informatics Engineering</span>, Coimbra, Portugal, 1998.<span class="links"><br></span>
+<ol start="195"><li> <span class="bibtexlink"><a href="bibs/Cardoso98MSc.bib">bib </a></span> __ <span class="authors">Cardoso,  J.</span> <span class="title">Sistema Computorizado para a Automatizacao de Processos Organizacionais</span>.  Master's Thesis, <span class="school">University of Coimbra, Department of Informatics Engineering</span>, Coimbra, Portugal, 1998.<span class="links"><br></span>
 </li>
 
 </ol></div><h2>Keynotes, invited talks, summer schools<span class="dark"></span></h2>
 <div class="publication">
-<ol start="194"><li> <span class="bibtexlink"><a href="bibs/Cardoso09KeynoteIPBPM.bib">bib </a></span> __ <span class="authors">Cardoso,  J.</span> <span class="title">Service Engineering for The Internet of Service</span>.  Porto Salvo, Portugal, 2009.<span class="links"><br></span>
+<ol start="196"><li> <span class="bibtexlink"><a href="bibs/Cardoso09KeynoteIPBPM.bib">bib </a></span> __ <span class="authors">Cardoso,  J.</span> <span class="title">Service Engineering for The Internet of Service</span>.  Porto Salvo, Portugal, 2009.<span class="links"><br></span>
 </li>
 
 <li> <span class="bibtexlink"><a href="bibs/Cardoso08PMIS.bib">bib </a></span> __ <span class="authors">Cardoso,  J.</span> <span class="title">Process Management and Integration with SAP</span>.  Ciudad Real, Spain, 2008.<span class="links"><br></span>
