@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/publications/Papers/CP-2020-093-Multi-source_Distributed_System_Data.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publications/Papers/CP-2020-094-ICDM_Self_Attentive_Classification_Based_Anomaly_Detection.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publications/Papers/CP-2020-095_ECML_Self_Supervised_Log_Parsing.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="Added missing pdf papers" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,13 +147,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Variability">
-      <created>1564377511557</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1564377511557</updated>
     </task>
     <task id="LOCAL-00017" summary="USL Law">
       <created>1564718029998</created>
@@ -496,11 +484,17 @@
       <option name="project" value="LOCAL" />
       <updated>1607940968915</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Added missing pdf papers">
+      <created>1607941971808</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1607941971808</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated troubleshooting" />
     <MESSAGE value="Updated Use Cases" />
     <MESSAGE value="General Updated" />
     <MESSAGE value="Multimodal metrics" />
@@ -525,17 +519,19 @@
     <MESSAGE value="Updated news" />
     <MESSAGE value="Fix https webpage display problem" />
     <MESSAGE value="Added papers for the AIOPS2020 workshop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added papers for the AIOPS2020 workshop" />
+    <MESSAGE value="Added missing pdf papers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added missing pdf papers" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1311" y="438" key="#xdebugger.evaluate" timestamp="1607940150518">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
     <state x="1311" y="438" key="#xdebugger.evaluate/0.23.2495.1417@0.23.2495.1417" timestamp="1607940150518" />
-    <state x="1360" y="302" key="CommitChangelistDialog2" timestamp="1607940968546">
-      <screen x="0" y="23" width="2495" height="1417" />
+    <state x="1365" y="302" key="CommitChangelistDialog2" timestamp="1607942206207">
+      <screen x="0" y="23" width="2506" height="1417" />
     </state>
-    <state x="1360" y="302" key="CommitChangelistDialog2/0.23.2495.1417@0.23.2495.1417" timestamp="1607940968546" />
+    <state x="1359" y="302" key="CommitChangelistDialog2/0.23.2495.1417@0.23.2495.1417" timestamp="1607942084729" />
+    <state x="1365" y="302" key="CommitChangelistDialog2/0.23.2506.1417@0.23.2506.1417" timestamp="1607942206207" />
     <state width="1870" height="556" key="GridCell.Tab.0.bottom" timestamp="1607940902281">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
@@ -568,10 +564,10 @@
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
     <state width="1870" height="453" key="GridCell.Tab.1.right/0.23.2495.1417@0.23.2495.1417" timestamp="1607940650361" />
-    <state x="847" y="471" key="Vcs.Push.Dialog.v2" timestamp="1607940970283">
+    <state x="847" y="471" key="Vcs.Push.Dialog.v2" timestamp="1607941973060">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state x="847" y="471" key="Vcs.Push.Dialog.v2/0.23.2495.1417@0.23.2495.1417" timestamp="1607940970283" />
+    <state x="847" y="471" key="Vcs.Push.Dialog.v2/0.23.2495.1417@0.23.2495.1417" timestamp="1607941973060" />
     <state x="1351" y="649" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607932255990">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
