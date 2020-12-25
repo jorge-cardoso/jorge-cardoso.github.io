@@ -14,10 +14,9 @@ toc: true
 ---  
 
 
-Past Projects
-------------------------------
 
-###Semantic Domain System
+
+### Semantic Domain System
 
 <img align="right" src="/images/sds.gif" width="100">
 
@@ -34,7 +33,7 @@ the use of names instead of IP addresses. Each company is responsible for mainta
 In SDS, like in DNS, each company is responsible for managing their own concepts and is able to browse other companies'
 concept definitions. The system will allow a clear representation of concepts and relationships between concepts.
 
-###Semantic B2B Integration
+### Semantic B2B Integration
 
 <img align="right" src="/images/b2biss_vertical_small.png" width="100">
 

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "AIOps"
+title: "Cloud AIOps"
 date:
 modified:
 excerpt: "excerpt"
@@ -14,8 +14,8 @@ toc: true
 ---  
 
 <p>
-<a href="research/pdf_img/iforesight3.png">
-<img src="research/pdf_img//iforesight3.png" height="25%" width="25%" style="float:left;margin:0 20px 0 0;"/>
+<a href="../pdf_img/iforesight3.png">
+<img src="../pdf_img/iforesight3.png" height="25%" width="25%" style="float:left;margin:0 20px 0 0;"/>
 </a>
 </p>
 
@@ -45,11 +45,7 @@ natural language processing, graph processing, machine learning, and deep learni
 volumes of monitoring data to support and drive recovery actions. 
 
 ## Approach
-The mission of the **AIOps SRE team** (based in [Munich](https://www.muenchen.de/int/en.html), 
-Germany) is to develop new systems and tools to analyze observability data 
-from [Huawei Cloud](https://www.huaweicloud.com/en-us/about/about_us.html)
-to detect problems which impact customers, identify the root cause within seconds, and fix failures using 
-the 1/5/10 rule (detection: 1 min, RCA: 5 min, recovery: 10 min).
+The mission of the **AIOps SRE team** (based in [Munich](https://www.muenchen.de/int/en.html),  Germany) is to develop new systems and tools to analyze observability data from [Huawei Cloud](https://www.huaweicloud.com/en-us/about/about_us.html) to detect problems which impact customers, identify the root cause within seconds, and fix failures using the 1/5/10 rule (detection: 1 min, RCA: 5 min, recovery: 10 min).
 
 In 2017 we adopted AI in the form of [Data Science](https://en.wikipedia.org/wiki/Data_science) and 
 [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning) approaches for anomaly detection, 
@@ -68,9 +64,6 @@ Machine Learning (ML),
 [Performance Analysis](https://en.wikipedia.org/wiki/Application_performance_management), 
 [Predictive Maintenance](https://en.wikipedia.org/wiki/Predictive_maintenance), and 
 [Automation](https://en.wikipedia.org/wiki/Robotic_process_automation). 
-<p>
-<img src="https://blogs.bmc.com/wp-content/uploads/2019/02/AIOpsGraphicGartner2018-768x408.png" height="408" width="768" style="float:center;margin:0 20px 0 0;"/>
-</p>
 
 The use of AI for production engineering can support the development of new approaches for: 
 1. Monitoring and alerting
@@ -314,7 +307,7 @@ In 2019, we will closely following the progresses make in the following 5 fields
 [RPA](https://en.wikipedia.org/wiki/Robotic_process_automation)
 
 
-## Systems from Academia and Industry
+## Existing Systems
 
 + [Lightstep](https://lightstep.com),
 [Google StackDriver](https://cloud.google.com/trace/),
@@ -325,21 +318,4 @@ In 2019, we will closely following the progresses make in the following 5 fields
 + [Azure Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/cloudservices)
 + [CA APM](https://www.ca.com/us/products/application-performance-monitoring.html)
 
-## Team and Culture
 
-Several researchers have contributed to iForesight, namely, llya Shakhat, Paul Staab, Wei Guangsheng, Jinxunmi,
-Sasho Nedelkoski, Alexander Wieder, Yi Feng, Florian Richter, Francesco del Buono, Phani Pawan, and Ankur Bhatia, 
-among others.
-
-Our skill set encompasses expertise in the fields of AI/Data Science (Analytics), 
-Software Engineering (Analysis, Design, Development, Testing), and Operation (Deployment, Infrastructure).
-
-
-Our culture of innovation and R&D is based on 4 main guiding principles:
-
-+ [DIY](https://en.wikipedia.org/wiki/Do_it_yourself),
-[KISS](https://pt.wikipedia.org/wiki/Keep_It_Simple),
-[Deep Work](https://www.amazon.com/gp/product/1455586692)*, 
-[KPI-driven Research](https://en.wikipedia.org/wiki/Performance_indicator)
-
-*(Time Spent) x (Intensity of Focus)
