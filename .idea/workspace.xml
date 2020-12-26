@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/publications/Papers/WP-2013-072-SIGSVC-Increasing-Accuracy-Service-Costing.pdf.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publications/bibs/Jindal2020AIOPS.bib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publications/bibs/NedelkoskiI_ECML2020.bib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publications/bibs/NedelkoskiI_ICDM2020.bib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publications/bibs/Notaro2020AIOPS.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publications/cardoso.bib" beforeDir="false" afterPath="$PROJECT_DIR$/publications/cardoso.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/research/cloud_reliability.md" beforeDir="false" afterPath="$PROJECT_DIR$/research/cloud_reliability.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/research/phd_msc_visiting_positions.md" beforeDir="false" afterPath="$PROJECT_DIR$/research/phd_msc_visiting_positions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publications/bibs/Cardoso07FrameworkDynPack.bib" beforeDir="false" afterPath="$PROJECT_DIR$/publications/bibs/Cardoso07FrameworkDynPack.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publications/bibs/FilipeNCA2019.bib" beforeDir="false" afterPath="$PROJECT_DIR$/publications/bibs/FilipeNCA2019.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publications/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/publications/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,13 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Made a Summary of the file">
-      <created>1564808563139</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1564808563139</updated>
     </task>
     <task id="LOCAL-00021" summary="Cleanup">
       <created>1564821225285</created>
@@ -531,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608966021174</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Fixed broken links">
+      <created>1608967058362</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1608967058362</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -583,11 +576,11 @@
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
     <state x="1311" y="438" key="#xdebugger.evaluate/0.23.2495.1417@0.23.2495.1417" timestamp="1607940150518" />
-    <state x="1360" y="302" key="CommitChangelistDialog2" timestamp="1608966020945">
+    <state x="1360" y="302" key="CommitChangelistDialog2" timestamp="1608967058061">
       <screen x="0" y="23" width="2496" height="1417" />
     </state>
     <state x="1359" y="302" key="CommitChangelistDialog2/0.23.2495.1417@0.23.2495.1417" timestamp="1607942084729" />
-    <state x="1360" y="302" key="CommitChangelistDialog2/0.23.2496.1417@0.23.2496.1417" timestamp="1608966020945" />
+    <state x="1360" y="302" key="CommitChangelistDialog2/0.23.2496.1417@0.23.2496.1417" timestamp="1608967058061" />
     <state x="1365" y="302" key="CommitChangelistDialog2/0.23.2506.1417@0.23.2506.1417" timestamp="1607942330019" />
     <state width="1870" height="453" key="GridCell.Tab.0.bottom" timestamp="1608882836877">
       <screen x="0" y="23" width="2495" height="1417" />
@@ -625,11 +618,11 @@
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
     <state width="1870" height="453" key="GridCell.Tab.1.right/0.23.2495.1417@0.23.2495.1417" timestamp="1608882836873" />
-    <state x="848" y="471" key="Vcs.Push.Dialog.v2" timestamp="1608966022348">
+    <state x="848" y="471" key="Vcs.Push.Dialog.v2" timestamp="1608967059683">
       <screen x="0" y="23" width="2496" height="1417" />
     </state>
     <state x="847" y="471" key="Vcs.Push.Dialog.v2/0.23.2495.1417@0.23.2495.1417" timestamp="1607941973060" />
-    <state x="848" y="471" key="Vcs.Push.Dialog.v2/0.23.2496.1417@0.23.2496.1417" timestamp="1608966022348" />
+    <state x="848" y="471" key="Vcs.Push.Dialog.v2/0.23.2496.1417@0.23.2496.1417" timestamp="1608967059683" />
     <state x="851" y="471" key="Vcs.Push.Dialog.v2/0.23.2506.1417@0.23.2506.1417" timestamp="1607942332032" />
     <state x="1351" y="649" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608882774411">
       <screen x="0" y="23" width="2495" height="1417" />
