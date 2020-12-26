@@ -38,9 +38,8 @@ PhD/MSc
 -------
 If need more information explaining what a PhD/MSc thesis is about, you can browse over the following links:
 
-+ [Writing a Thesis Proposal](http://sydney.edu.au/stuserv/documents/thesisproposal.pdf), Learning Centre, University of Sydney.
++ [Writing a Thesis Proposal](https://www.sydney.edu.au/content/dam/students/documents/learning-resources/learning-centre/writing-a-thesis-proposal.pdf), Learning Centre, University of Sydney.
 + [How to write a great research paper](http://research.microsoft.com/en-us/um/people/simonpj/papers/giving-a-talk/writing-a-paper-slides.pdf), by Simon Peyton Jones at Microsoft Research.
-+ [The Ten Commandments for writing academic papers](The_Ten_Commandments.pdf), by Julienne Hanson, Bartlett School of Architecture, London.
 + [Understanding Science 101](http://undsci.berkeley.edu/article/0_0_0/us101contents_01), University of California, Berkeley, US.
 + [Academic Writing and Publishing: A Practical Handbook](https://www.amazon.co.uk/Academic-Writing-Publishing-Practical-Handbook/dp/0415453224), by James Hartley.
 

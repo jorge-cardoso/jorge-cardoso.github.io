@@ -30,7 +30,7 @@ workload of human operators. These techniques are typically applied to Big Data 
 microservice [observability data](https://www.mstakx.com/wp-content/uploads/2018/09/A-Practical-Observability-Primer-1.pdf).
 
 My group is currently developing the iForesight system which is being used to evaluate this new O&M approach. 
-[iForesight 3.0](_posts/research/iforesight) is the result of more than 2 years of research with
+[iForesight 3.0](/research/iforesight) is the result of more than 2 years of research with
 the goal to provide an intelligent new tool aimed at [SRE](https://en.wikipedia.org/wiki/Site_Reliability_Engineering)
 cloud maintenance teams. 
 It enables them to quickly detect, localize and predict anomalies thanks to the use of artificial intelligence when
@@ -64,12 +64,12 @@ News
 + Our work on *Self-Attentive Classification-Based Anomaly Detection in Unstructured Logs* was accepted at the [ICDM 2020](http://icdm2020.bigke.org) conference **(Conference Rank: A+)** (thanks to Sasho Nedelkoski, Jasmin Bogatinovski, Alexander Acker, and Odej Kao). 
 + Our work on *Self-Supervised Log Parsing* was accepted at the [ECML PKDD 2020](http://ecmlpkdd2020.net/) conference **(Conference Rank: A)** (thanks to Sasho Nedelkoski, Jasmin Bogatinovski, Alexander Acker, and  Odej Kao). 
 + Our AIOps article titled *Multi-source Distributed System Data for AI-Powered Analytics* was accepted to Service-Oriented and Cloud Computing (ESOCC 2020), 28-30 September, 2020, Crete.
-+ My Lecture on [AIOps: Anomalous Span Detection in Distributed Traces Using Deep Learning](https://www.slideshare.net/JorgeCardoso4/aiops-anomalous-span-detection-in-distributed-traces-using-deep-learning) presented at [Prof. Joeran Beel's Chair](https://www.scss.tcd.ie/joeran.beel/) (Intelligent Systems, Trinity College Dublin) on 02.10.2019 is now available.
++ My Lecture on [AIOps: Anomalous Span Detection in Distributed Traces Using Deep Learning](https://www.slideshare.net/JorgeCardoso4/aiops-anomalous-span-detection-in-distributed-traces-using-deep-learning) presented at Prof. Joeran Beel's Chair(Intelligent Systems, Trinity College Dublin) on 02.10.2019 is now available.
 + Our article *Towards Occupation Inference in Non-instrumented Services* was accepted to IEEE Network Computing and Applications. Boston, MA, USA, September 2019.
 + Andre Pascoal Bento defended successfully his thesis [Observing and Controlling Performance in Microservices](research/pdf_img/MSc_thesis_Andre_Bento.pdf)
-+ Our article [Anomaly Detection from System Tracing Data using Multimodal Deep Learning](/publications/Papers/CP-2019-090-IEEECloud-Anomaly_Detection_from_System_Tracing_Data_and_MDL.pdf) was accepted to [IEEE Cloud 2019](http://conferences.computer.org/cloud/2019/), July 3-8, 2019, Milan, Italy. **(Acceptance Rate: 21%)**
++ Our article [Anomaly Detection from Systegridm Tracing Data using Multimodal Deep Learning](/publications/Papers/CP-2019-090-IEEECloud-Anomaly_Detection_from_System_Tracing_Data_and_MDL.pdf) was accepted to [IEEE Cloud 2019](http://conferences.computer.org/cloud/2019/), July 3-8, 2019, Milan, Italy. **(Acceptance Rate: 21%)**
 + Our article *Assessing Software Development Teams Efficiency using Process Mining* was accepted to [International Conference on Process Mining](https://icpmconference.org), June 24-26, 2019, Aachen, Germany
-+ Our article [Anomaly Detection and Classification using Distributed Tracing and Deep Learning](/publications/Papers/CP-2019-089-CCGrid-Anomaly_Detection_and_Classification_using_DT_and_DL.pdf) was accepted to [CCGrid 2019](https://www.ccgrid2019.org/index.html), 14-17.05, 2019, Cyprus. **(Conference Rank: A)**
++ Our article [Anomaly Detection and Classification using Distributed Tracing and Deep Learning](/publications/Papers/CP-2019-089-CCGrid-Anomaly_Detection_and_Classification_using_DT_and_DL.pdf) was accepted to [CCGrid 2019](https://www.ccgrid2019.org), 14-17.05, 2019, Cyprus. **(Conference Rank: A)**
 + Our article *On Black-Box Monitoring Techniques for Multi-Component Services* was accepted to [17th IEEE International Symposium on Network Computing and Applications (NCA)](http://www.ieee-nca.org/2018/), 1-3.10, 2018, Cambridge, US. **(Conference Rank: A)**
 + Our article [Efficient Failure Diagnosis of OpenStack using Tempest](https://www.computer.org/csdl/mags/ic/2018/06/08509185-abs.html) was accepted for publication at IEEE Internet Computing **(Impact Factor 2018: 1.923)**.
 + This year we are part of the Program Committee of [SREcon 2019](https://www.usenix.org/conference/srecon19emea/), 2–4 October, 2019, Dublin, Ireland.
@@ -78,7 +78,7 @@ News
  for Service",  was published at the IEEE Inter. Conf. on Web Services (ICWS) **(Conference Rank: A)**, 2-7 July 2018, San Francisco, USA, 2018. 
 + [International Industry-Academia Workshop on Cloud Reliability and Resilience](https://www.eitdigital.eu/news-events/events/article/international-industry-academia-workshop-on-cloud-reliability-and-resilience/), 7-8 November 2016, Berlin, Germany.
 + José María García, Pablo Fernández, Carlos Pedrinaci, Manuel Resinas, Jorge Cardoso, Antonio Ruiz-Cortés, "Modeling Service Level Agreements with Linked USDL Agreement", IEEE Transactions on Services Computing **(Impact Factor 2016: 3.049)**, pp. 52-65, Volume: 10, Issue: 1, Jan.-Feb. 1 2017.
-+ José María García, Carlos Pedrinaci, Manuel Resinas, Jorge Cardoso, Pablo Fernández, Antonio Ruiz-Cortés. [Linked USDL Agreement: Effectively Sharing Semantic Service Level Agreements on the Web](/publications/Papers/CP-2015-079-Linked-USDL-Agreement.pdf), [The IEEE International Conference on Web Services (ICWS)](http://conferences.computer.org/icws/2015/), June 27 - July 2, 2015, New York, USA. **(Acceptance Rate: 17.4%)**
++ José María García, Carlos Pedrinaci, Manuel Resinas, Jorge Cardoso, Pablo Fernández, Antonio Ruiz-Cortés. [Linked USDL Agreement: Effectively Sharing Semantic Service Level Agreements on the Web](/publications/Papers/CP-2015-079-Linked-USDL-Agreement.pdf), The IEEE International Conference on Web Services (ICWS), June 27 - July 2, 2015, New York, USA. **(Acceptance Rate: 17.4%)**
 + Jorge Cardoso and Carlos Pedrinaci, [Evolution and Overview of Linked USDL](/publications/Papers/CP-2015-077-Linked-USDL-Evolution-and-Overview.pdf). 6th International Conference Exploring Services Science, IESS 2015, Porto, Portugal, February 4-6, 2015, LNBIP, Vol. 201, Novoa, Henriqueta, Dragoicea, Monica (Eds.), 2015.
 + Cardoso, J., R Mans, PR da Cunha, W van der Aalst, H Berthold, [A framework for next generation e-health systems and services](/publications/Papers/CP-2015-080-Framework-e-health-systems.pdf) Proc. Amer. Conf. Inf. Syst. (AMCIS), pp. 1-11. 2015.  **(Conference Rank: A)**
 + Pedrinaci, C.; Cardoso, J. and Leidig, T. [Linked USDL: A Vocabulary for Web-scale Service Trading](/publications/Papers/CP-2014-073-ESWC-Linked-USDL.pdf). In 11th Extended Semantic Web Conference (ESWC), Crete, Greece, 2014. (Acceptance Rate: 25%)
@@ -93,30 +93,22 @@ About me
 
 Jorge Cardoso his currently Chief Architect for **Intelligent Cloud Operations** at 
 [Huawei Munich Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany.
-I am also Associate Professor at the [University of Coimbra](http://www.uc.pt/en/fctuc/dei) (Portugal).
+I am also Associate Professor at the [University of Coimbra](https://www.uc.pt/en/fctuc/dei) (Portugal).
 
 Previously, he worked for several major companies such as [SAP Research](http://go.sap.com/) (Germany) on the 
 Internet of Services, [The Boeing Company](http://www.boeing.com) in Seattle (USA) on Enterprise Application 
 Integration and [CCG/Zentrum fur Graphische Datenverarbeitung]( http://www.ccg.pt/en/) on Computer Supported 
 Cooperative Work.
 
-He has authored and co-authored more than 180 scientific publications and has been part of more than 120 program 
-committees and organization bodies (journals and conferences). He his author/editor of 9 books. He holds 6 US 
-and EU patents on process management and reliability engineering.
-[GoogleScholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en) shows more than 
-8000 citations for his research work with an h-index of 43. 
-His last book, titled [Fundamentals of Service Systems](http://www.springer.com/de/book/9783319231945) from Springer, 
-compiles results from the research work of his areas of interest: cloud computing, business process management, 
-semantic Web, the Internet of Services, and service engineering.
+He has authored and co-authored more than 180 scientific publications and has been part of more than 120 program  committees and organization bodies (journals and conferences). He his author/editor of 9 books. He holds 6 US  and EU patents on process management and reliability engineering.
+[GoogleScholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en) shows more than  8000 citations for his research work with an h-index of 43. 
+His last book, titled [Fundamentals of Service Systems](http://www.springer.com/de/book/9783319231945) from Springer, compiles results from the research work of his areas of interest: cloud computing, business process management,  semantic Web, the Internet of Services, and service engineering.
 
-He participated in European, German, US, and National research projects financed by the 
-European Commission (FP7, EACEA), the German Ministry for Education and Research (BMBF), SAP Research (SAP) 
-and Portuguese NSF (FCT). He is a founding member of the IFIP Working Group 12.7 on Social Semantics. 
+He participated in European, German, US, and National research projects financed by the  European Commission (FP7, EACEA), the German Ministry for Education and Research (BMBF), SAP Research (SAP)  and Portuguese NSF (FCT). He is a founding member of the IFIP Working Group 12.7 on Social Semantics. 
 
 He created and led until 2009 the development of the [W3C Unified Service Description Language (USDL)](https://github.com/linked-usdl).
 
-He has a Ph.D. from the [University of Georgia](https://www.uga.edu) (US, 2002) and a MSc and BSc in Informatics 
-Engineering [University of Coimbra](univeristy of coimbra) (1995 and 1998, Portugal).
+He has a Ph.D. from the [University of Georgia](https://www.uga.edu) (US, 2002) and a MSc and BSc in Informatics Engineering [University of Coimbra](https://www.uc.pt/en/fctuc/dei) (1995 and 1998, Portugal).
 
 
 Contact

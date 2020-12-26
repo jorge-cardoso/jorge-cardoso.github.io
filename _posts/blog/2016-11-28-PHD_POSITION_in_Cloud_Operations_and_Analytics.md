@@ -11,8 +11,8 @@ tags:
     - tag2
 image:
   feature:
-  teaser: Cover-FSS.gif
-  thumb: Cover-FSS.gif
+  teaser: Cover-FSS.jpg
+  thumb: Cover-FSS.jpg
 ads: false
 comments: true
 ---
