@@ -43,8 +43,6 @@ If need more information explaining what a PhD/MSc thesis is about, you can brow
 + [Understanding Science 101](http://undsci.berkeley.edu/article/0_0_0/us101contents_01), University of California, Berkeley, US.
 + [Academic Writing and Publishing: A Practical Handbook](https://www.amazon.co.uk/Academic-Writing-Publishing-Practical-Handbook/dp/0415453224), by James Hartley.
 
-A list of students that I worked with me over the years can be found [here](students).
-The projects I was involved can be found here: [past projects](past_projects).
 
 Visiting Positions
 ------------------

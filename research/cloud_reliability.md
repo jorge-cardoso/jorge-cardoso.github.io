@@ -15,8 +15,7 @@ toc: true
 
 
 ## Overview
-Reliability is a measure of the percentage uptime of cloud services to customers, considering the downtime due to 
-faults. Many cloud providers are setting a reliability level of 99.95% ([download uptime cheat sheet](http://royal.pingdom.com/wp-content/uploads/2015/04/pingdom_uptime_cheat_sheet.pdf)).
+Reliability is a measure of the percentage uptime of cloud services to customers, considering the downtime due to faults. Many cloud providers are setting a reliability level of 99.95%.
 This means that if you provision a VM it will be available 99.95% of the time, with a possible downtime
 of 21.6 minutes per month. Reliability is an important characteristic which enables platforms to adapt and 
 recover under stress and remain functional from a customer perspective. You can find additional information from 
@@ -84,7 +83,7 @@ and methodologies, such as:
 ### Fault Injection
 + [Fault-injection technologies](https://en.wikipedia.org/wiki/Fault_injection) or FIT provides approaches to demonstrate that software is robustness and fault tolerance by injecting faults to damage internal components to test its fault tolerance.
 + Domenico Cotroneo and Henrique Madeira. [Introduction to software fault injection](http://link.springer.com/chapter/10.1007/978-88-470-2772-5_1). In Domenico Cotroneo, editor, Innovative Technologies for Dependable OTS-Based Critical Systems, pages 1–15. Springer Milan, 2013.
-+ Haissam Ziade, Rafic A Ayoubi, Raoul Velazco, et al. [A survey on fault injection techniques](https://ccis2k.org/iajit/PDF/vol.1,no.2/04-Hissam.pdf). Int. Arab J. Inf. Technol., 1(2):171–186, 2004.
++ Haissam Ziade, Rafic A Ayoubi, Raoul Velazco, et al. A survey on fault injection techniques. Int. Arab J. Inf. Technol., 1(2):171–186, 2004.
 + (Graph-based) In [Towards a Fault-Resilient Cloud Management Stack](https://kabru.eecs.umich.edu/papers/publications/2013/socc2013_ju.pdf), the authors use execution graphs to monitor and observe the processing of external requests. Intrumentation is done between openStack and the hypervisor, the database, REST, HTTP, and AMQP. Server-crash faults are injected by killing relevant service processes via systemd.
 + (Graph-based) In HANSEL: Diagnosing Faults in OpenStack, the auhtors intercept AMQP and REST messages to reconstruct an execution graph. The approach requires network monitoring agents at each node in the OpenStack deployment. One of the challenges is the so-called transaction stitching to reconstruct full transactions to recreate the execution graph.
 + (String-based) In Toward achieving operational excellence in a cloud and [US20150161025 A1: Injecting Faults at Select Execution Points of Distributed Applications ](http://www.google.com/patents/US20150161025), the authors rely on the operating system level information to build message traces by observing system events such as SEND or RECV system calls (or LIBC calls). These events are monitored per thread since with higher granularities (i.e., process-level or system-level), the job of separating events is difficult. Message sequences are converted into string of symbols and strings are comapred using an edit distance function. High distances indicate possible anomalies between executions.
