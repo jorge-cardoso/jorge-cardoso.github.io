@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/publications/bibs/Cardoso07FrameworkDynPack.bib" beforeDir="false" afterPath="$PROJECT_DIR$/publications/bibs/Cardoso07FrameworkDynPack.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publications/bibs/FilipeNCA2019.bib" beforeDir="false" afterPath="$PROJECT_DIR$/publications/bibs/FilipeNCA2019.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publications/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/publications/index.md" afterDir="false" />
+    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="Added progress bar and automated download">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mondai/app/templates/progress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trump2cash/.idea/trump2cash.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jorge-cardoso.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jorge-cardoso.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/app/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/cli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/app/templates/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/templates/table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/data/stock.db" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/data/stock.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/stockmanager/manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/stockmanager/manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/stockmanager/scrapers/scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/stockmanager/scrapers/scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trump2cash/logs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../trump2cash/logs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trump2cash/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../trump2cash/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trump2cash/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../trump2cash/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trump2cash/twitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/../trump2cash/twitter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,11 +31,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../mondai" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1gqs1YDBQN91ka22PuGMEbjpP3N" />
@@ -29,6 +46,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/publications/Papers" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
@@ -52,7 +70,7 @@
       <recent name="$PROJECT_DIR$/../AIOps" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.struct_log">
+  <component name="RunManager" selected="Python.app">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="AIOps" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,19 +92,82 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="check_links" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="jorge-cardoso.github.io" />
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="quantai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/publications" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/venv_3.6.7/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/app" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/publications/check_links.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/app/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cli" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="quantai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/venv_3.6.7/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/app" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/app/cli.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="trump2cash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/venv_3.6.7/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../trump2cash" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../trump2cash/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="quantai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/venv_3.6.7/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/stockmanager/scrapers" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/stockmanager/scrapers/scraper.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,13 +241,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.check_links" />
       <item itemvalue="Python.struct_log" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.cli" />
+      <item itemvalue="Python.scraper" />
+      <item itemvalue="Python.app" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.cli" />
+        <item itemvalue="Python.scraper" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.struct_log" />
-        <item itemvalue="Python.check_links" />
       </list>
     </recent_temporary>
   </component>
@@ -180,20 +267,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Cleanup">
-      <created>1564821225285</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1564821225286</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Change to RST">
-      <created>1564822456505</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1564822456505</updated>
     </task>
     <task id="LOCAL-00023" summary="Changed to rst">
       <created>1564822486416</created>
@@ -524,7 +597,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608967058362</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Fixed broken links">
+      <created>1608967371195</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1608967371195</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Fixed broken links">
+      <created>1608967537079</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1608967537079</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -560,10 +647,11 @@
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
     <state x="1309" y="376" key="#Plugins/0.23.2495.1417@0.23.2495.1417" timestamp="1608883158999" />
-    <state x="1174" y="390" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608528572439">
-      <screen x="0" y="23" width="2496" height="1417" />
+    <state x="1174" y="390" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609261121204">
+      <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state x="1174" y="390" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2496.1417@0.23.2496.1417" timestamp="1608528572439" />
+    <state x="1174" y="390" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2495.1417@0.23.2495.1417" timestamp="1609261121204" />
+    <state x="1174" y="390" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2496.1417@0.23.2496.1417" timestamp="1608995130823" />
     <state x="1397" y="471" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1608882830765">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
@@ -576,54 +664,62 @@
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
     <state x="1311" y="438" key="#xdebugger.evaluate/0.23.2495.1417@0.23.2495.1417" timestamp="1607940150518" />
-    <state x="1360" y="302" key="CommitChangelistDialog2" timestamp="1608967058061">
-      <screen x="0" y="23" width="2496" height="1417" />
+    <state x="1359" y="302" key="CommitChangelistDialog2" timestamp="1609272835237">
+      <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state x="1359" y="302" key="CommitChangelistDialog2/0.23.2495.1417@0.23.2495.1417" timestamp="1607942084729" />
-    <state x="1360" y="302" key="CommitChangelistDialog2/0.23.2496.1417@0.23.2496.1417" timestamp="1608967058061" />
+    <state x="1359" y="302" key="CommitChangelistDialog2/0.23.2495.1417@0.23.2495.1417" timestamp="1609272835237" />
+    <state x="1238" y="302" key="CommitChangelistDialog2/0.23.2496.1417@0.23.2496.1417" timestamp="1608967536920" />
     <state x="1365" y="302" key="CommitChangelistDialog2/0.23.2506.1417@0.23.2506.1417" timestamp="1607942330019" />
-    <state width="1870" height="453" key="GridCell.Tab.0.bottom" timestamp="1608882836877">
+    <state width="2230" height="330" key="GridCell.Tab.0.bottom" timestamp="1609272695865">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1870" height="453" key="GridCell.Tab.0.bottom/0.23.2495.1417@0.23.2495.1417" timestamp="1608882836877" />
-    <state width="1548" height="253" key="GridCell.Tab.0.bottom/0.23.2496.1417@0.23.2496.1417" timestamp="1608529532704" />
-    <state width="1870" height="453" key="GridCell.Tab.0.center" timestamp="1608882836875">
+    <state width="2230" height="330" key="GridCell.Tab.0.bottom/0.23.2495.1417@0.23.2495.1417" timestamp="1609272695865" />
+    <state width="1590" height="453" key="GridCell.Tab.0.bottom/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073635" />
+    <state width="2230" height="330" key="GridCell.Tab.0.center" timestamp="1609272695864">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1870" height="453" key="GridCell.Tab.0.center/0.23.2495.1417@0.23.2495.1417" timestamp="1608882836875" />
-    <state width="1548" height="253" key="GridCell.Tab.0.center/0.23.2496.1417@0.23.2496.1417" timestamp="1608529532704" />
-    <state width="1870" height="453" key="GridCell.Tab.0.left" timestamp="1608882836875">
+    <state width="2230" height="330" key="GridCell.Tab.0.center/0.23.2495.1417@0.23.2495.1417" timestamp="1609272695864" />
+    <state width="1590" height="453" key="GridCell.Tab.0.center/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073634" />
+    <state width="2230" height="330" key="GridCell.Tab.0.left" timestamp="1609272695863">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1870" height="453" key="GridCell.Tab.0.left/0.23.2495.1417@0.23.2495.1417" timestamp="1608882836875" />
-    <state width="1548" height="253" key="GridCell.Tab.0.left/0.23.2496.1417@0.23.2496.1417" timestamp="1608529532703" />
-    <state width="1870" height="453" key="GridCell.Tab.0.right" timestamp="1608882836875">
+    <state width="2230" height="330" key="GridCell.Tab.0.left/0.23.2495.1417@0.23.2495.1417" timestamp="1609272695863" />
+    <state width="1590" height="453" key="GridCell.Tab.0.left/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073634" />
+    <state width="2230" height="330" key="GridCell.Tab.0.right" timestamp="1609272695864">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1870" height="453" key="GridCell.Tab.0.right/0.23.2495.1417@0.23.2495.1417" timestamp="1608882836875" />
-    <state width="1548" height="253" key="GridCell.Tab.0.right/0.23.2496.1417@0.23.2496.1417" timestamp="1608529532704" />
-    <state width="1870" height="453" key="GridCell.Tab.1.bottom" timestamp="1608882836873">
+    <state width="2230" height="330" key="GridCell.Tab.0.right/0.23.2495.1417@0.23.2495.1417" timestamp="1609272695864" />
+    <state width="1590" height="453" key="GridCell.Tab.0.right/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073634" />
+    <state width="2230" height="453" key="GridCell.Tab.1.bottom" timestamp="1609227242533">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1870" height="453" key="GridCell.Tab.1.bottom/0.23.2495.1417@0.23.2495.1417" timestamp="1608882836873" />
-    <state width="1870" height="453" key="GridCell.Tab.1.center" timestamp="1608882836872">
+    <state width="2230" height="453" key="GridCell.Tab.1.bottom/0.23.2495.1417@0.23.2495.1417" timestamp="1609227242533" />
+    <state width="1590" height="453" key="GridCell.Tab.1.bottom/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073634" />
+    <state width="2230" height="453" key="GridCell.Tab.1.center" timestamp="1609227242532">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1870" height="453" key="GridCell.Tab.1.center/0.23.2495.1417@0.23.2495.1417" timestamp="1608882836872" />
-    <state width="1870" height="453" key="GridCell.Tab.1.left" timestamp="1608882836871">
+    <state width="2230" height="453" key="GridCell.Tab.1.center/0.23.2495.1417@0.23.2495.1417" timestamp="1609227242532" />
+    <state width="1590" height="453" key="GridCell.Tab.1.center/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073633" />
+    <state width="2230" height="453" key="GridCell.Tab.1.left" timestamp="1609227242532">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1870" height="453" key="GridCell.Tab.1.left/0.23.2495.1417@0.23.2495.1417" timestamp="1608882836871" />
-    <state width="1870" height="453" key="GridCell.Tab.1.right" timestamp="1608882836873">
+    <state width="2230" height="453" key="GridCell.Tab.1.left/0.23.2495.1417@0.23.2495.1417" timestamp="1609227242532" />
+    <state width="1590" height="453" key="GridCell.Tab.1.left/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073632" />
+    <state width="2230" height="453" key="GridCell.Tab.1.right" timestamp="1609227242532">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1870" height="453" key="GridCell.Tab.1.right/0.23.2495.1417@0.23.2495.1417" timestamp="1608882836873" />
-    <state x="848" y="471" key="Vcs.Push.Dialog.v2" timestamp="1608967059683">
+    <state width="2230" height="453" key="GridCell.Tab.1.right/0.23.2495.1417@0.23.2495.1417" timestamp="1609227242532" />
+    <state width="1590" height="453" key="GridCell.Tab.1.right/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073633" />
+    <state x="848" y="471" key="Vcs.Push.Dialog.v2" timestamp="1608967538363">
       <screen x="0" y="23" width="2496" height="1417" />
     </state>
     <state x="847" y="471" key="Vcs.Push.Dialog.v2/0.23.2495.1417@0.23.2495.1417" timestamp="1607941973060" />
-    <state x="848" y="471" key="Vcs.Push.Dialog.v2/0.23.2496.1417@0.23.2496.1417" timestamp="1608967059683" />
+    <state x="848" y="471" key="Vcs.Push.Dialog.v2/0.23.2496.1417@0.23.2496.1417" timestamp="1608967538363" />
     <state x="851" y="471" key="Vcs.Push.Dialog.v2/0.23.2506.1417@0.23.2506.1417" timestamp="1607942332032" />
+    <state x="343" y="123" width="2051" height="1210" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1609229186145">
+      <screen x="0" y="23" width="2495" height="1417" />
+    </state>
+    <state x="343" y="123" width="2051" height="1210" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.2495.1417@0.23.2495.1417" timestamp="1609229186145" />
     <state x="1351" y="649" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608882774411">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>

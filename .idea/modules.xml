@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/jorge-cardoso.github.io.iml" filepath="$PROJECT_DIR$/.idea/jorge-cardoso.github.io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mondai/.idea/quantai.iml" filepath="$PROJECT_DIR$/../mondai/.idea/quantai.iml" />
       <module fileurl="file://$PROJECT_DIR$/../tmp_structlog/.idea/tmp_structlog.iml" filepath="$PROJECT_DIR$/../tmp_structlog/.idea/tmp_structlog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../trump2cash/.idea/trump2cash.iml" filepath="$PROJECT_DIR$/../trump2cash/.idea/trump2cash.iml" />
     </modules>
   </component>
 </project>
