@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../mondai/mondaictl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/README.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/conf/defaults.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/conf/defaults.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/mondaictl" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/mondaictl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$USER_HOME$/venv_3.6.7/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -251,13 +251,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Reverted to md">
-      <created>1564922160531</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1564922160531</updated>
     </task>
     <task id="LOCAL-00027" summary="Reverted to md">
       <created>1565026075076</created>
@@ -595,11 +588,17 @@
       <option name="project" value="LOCAL" />
       <updated>1609304169502</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Management tool for app">
+      <created>1609305570247</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1609305570247</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Made a Summary of the file" />
     <MESSAGE value="Cleanup" />
     <MESSAGE value="Change to RST" />
     <MESSAGE value="Changed to rst" />
@@ -624,17 +623,18 @@
     <MESSAGE value="Added progress bar and automated download" />
     <MESSAGE value="Fix python path" />
     <MESSAGE value="Added scheduler for 60 min" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added scheduler for 60 min" />
+    <MESSAGE value="Management tool for app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Management tool for app" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1309" y="376" key="#Plugins" timestamp="1608883158999">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
     <state x="1309" y="376" key="#Plugins/0.23.2495.1417@0.23.2495.1417" timestamp="1608883158999" />
-    <state x="1174" y="390" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609276304559">
+    <state x="863" y="389" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609306245581">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state x="1174" y="390" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2495.1417@0.23.2495.1417" timestamp="1609276304559" />
+    <state x="863" y="389" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2495.1417@0.23.2495.1417" timestamp="1609306245581" />
     <state x="1174" y="390" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2496.1417@0.23.2496.1417" timestamp="1608995130823" />
     <state x="1100" y="537" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609305278184">
       <screen x="0" y="23" width="2495" height="1417" />
@@ -652,31 +652,31 @@
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
     <state x="1311" y="438" key="#xdebugger.evaluate/0.23.2495.1417@0.23.2495.1417" timestamp="1607940150518" />
-    <state x="1359" y="302" key="CommitChangelistDialog2" timestamp="1609304169180">
+    <state x="1359" y="302" key="CommitChangelistDialog2" timestamp="1609305570012">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state x="1359" y="302" key="CommitChangelistDialog2/0.23.2495.1417@0.23.2495.1417" timestamp="1609304169180" />
+    <state x="1359" y="302" key="CommitChangelistDialog2/0.23.2495.1417@0.23.2495.1417" timestamp="1609305570012" />
     <state x="1238" y="302" key="CommitChangelistDialog2/0.23.2496.1417@0.23.2496.1417" timestamp="1608967536920" />
     <state x="1365" y="302" key="CommitChangelistDialog2/0.23.2506.1417@0.23.2506.1417" timestamp="1607942330019" />
-    <state width="2230" height="330" key="GridCell.Tab.0.bottom" timestamp="1609276574596">
+    <state width="2230" height="330" key="GridCell.Tab.0.bottom" timestamp="1609306253707">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="2230" height="330" key="GridCell.Tab.0.bottom/0.23.2495.1417@0.23.2495.1417" timestamp="1609276574596" />
+    <state width="2230" height="330" key="GridCell.Tab.0.bottom/0.23.2495.1417@0.23.2495.1417" timestamp="1609306253707" />
     <state width="1590" height="453" key="GridCell.Tab.0.bottom/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073635" />
-    <state width="2230" height="330" key="GridCell.Tab.0.center" timestamp="1609276574595">
+    <state width="2230" height="330" key="GridCell.Tab.0.center" timestamp="1609306253705">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="2230" height="330" key="GridCell.Tab.0.center/0.23.2495.1417@0.23.2495.1417" timestamp="1609276574595" />
+    <state width="2230" height="330" key="GridCell.Tab.0.center/0.23.2495.1417@0.23.2495.1417" timestamp="1609306253705" />
     <state width="1590" height="453" key="GridCell.Tab.0.center/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073634" />
-    <state width="2230" height="330" key="GridCell.Tab.0.left" timestamp="1609276574595">
+    <state width="2230" height="330" key="GridCell.Tab.0.left" timestamp="1609306253705">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="2230" height="330" key="GridCell.Tab.0.left/0.23.2495.1417@0.23.2495.1417" timestamp="1609276574595" />
+    <state width="2230" height="330" key="GridCell.Tab.0.left/0.23.2495.1417@0.23.2495.1417" timestamp="1609306253705" />
     <state width="1590" height="453" key="GridCell.Tab.0.left/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073634" />
-    <state width="2230" height="330" key="GridCell.Tab.0.right" timestamp="1609276574596">
+    <state width="2230" height="330" key="GridCell.Tab.0.right" timestamp="1609306253706">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="2230" height="330" key="GridCell.Tab.0.right/0.23.2495.1417@0.23.2495.1417" timestamp="1609276574596" />
+    <state width="2230" height="330" key="GridCell.Tab.0.right/0.23.2495.1417@0.23.2495.1417" timestamp="1609306253706" />
     <state width="1590" height="453" key="GridCell.Tab.0.right/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073634" />
     <state width="2230" height="453" key="GridCell.Tab.1.bottom" timestamp="1609227242533">
       <screen x="0" y="23" width="2495" height="1417" />
@@ -698,10 +698,10 @@
     </state>
     <state width="2230" height="453" key="GridCell.Tab.1.right/0.23.2495.1417@0.23.2495.1417" timestamp="1609227242532" />
     <state width="1590" height="453" key="GridCell.Tab.1.right/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073633" />
-    <state x="847" y="471" key="Vcs.Push.Dialog.v2" timestamp="1609304170824">
+    <state x="847" y="471" key="Vcs.Push.Dialog.v2" timestamp="1609305573295">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state x="847" y="471" key="Vcs.Push.Dialog.v2/0.23.2495.1417@0.23.2495.1417" timestamp="1609304170824" />
+    <state x="847" y="471" key="Vcs.Push.Dialog.v2/0.23.2495.1417@0.23.2495.1417" timestamp="1609305573295" />
     <state x="848" y="471" key="Vcs.Push.Dialog.v2/0.23.2496.1417@0.23.2496.1417" timestamp="1608967538363" />
     <state x="851" y="471" key="Vcs.Push.Dialog.v2/0.23.2506.1417@0.23.2506.1417" timestamp="1607942332032" />
     <state x="343" y="123" width="2051" height="1210" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1609229186145">
