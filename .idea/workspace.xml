@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/mondaictl" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/mondaictl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/README.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/app/templates/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/templates/table.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,13 +251,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Reverted to md">
-      <created>1565030942025</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1565030942025</updated>
     </task>
     <task id="LOCAL-00031" summary="Distributed Tracing">
       <created>1565151067772</created>
@@ -594,11 +588,17 @@
       <option name="project" value="LOCAL" />
       <updated>1609306768192</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Kill parent and children">
+      <created>1609307578553</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1609307578554</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Distributed Tracing" />
     <MESSAGE value="Distributed Traces" />
     <MESSAGE value="Moved to rst format" />
     <MESSAGE value="Anomaly detection" />
@@ -623,7 +623,8 @@
     <MESSAGE value="Adjusted conf path" />
     <MESSAGE value="rename file" />
     <MESSAGE value="added sudo" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sudo" />
+    <MESSAGE value="Kill parent and children" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kill parent and children" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1309" y="376" key="#Plugins" timestamp="1608883158999">
@@ -651,31 +652,31 @@
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
     <state x="1311" y="438" key="#xdebugger.evaluate/0.23.2495.1417@0.23.2495.1417" timestamp="1607940150518" />
-    <state x="1359" y="302" key="CommitChangelistDialog2" timestamp="1609306767978">
+    <state x="1359" y="302" key="CommitChangelistDialog2" timestamp="1609307578323">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state x="1359" y="302" key="CommitChangelistDialog2/0.23.2495.1417@0.23.2495.1417" timestamp="1609306767978" />
+    <state x="1359" y="302" key="CommitChangelistDialog2/0.23.2495.1417@0.23.2495.1417" timestamp="1609307578323" />
     <state x="1238" y="302" key="CommitChangelistDialog2/0.23.2496.1417@0.23.2496.1417" timestamp="1608967536920" />
     <state x="1365" y="302" key="CommitChangelistDialog2/0.23.2506.1417@0.23.2506.1417" timestamp="1607942330019" />
-    <state width="2230" height="330" key="GridCell.Tab.0.bottom" timestamp="1609306436933">
+    <state width="2230" height="330" key="GridCell.Tab.0.bottom" timestamp="1609309157479">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="2230" height="330" key="GridCell.Tab.0.bottom/0.23.2495.1417@0.23.2495.1417" timestamp="1609306436933" />
+    <state width="2230" height="330" key="GridCell.Tab.0.bottom/0.23.2495.1417@0.23.2495.1417" timestamp="1609309157479" />
     <state width="1590" height="453" key="GridCell.Tab.0.bottom/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073635" />
-    <state width="2230" height="330" key="GridCell.Tab.0.center" timestamp="1609306436932">
+    <state width="2230" height="330" key="GridCell.Tab.0.center" timestamp="1609309157477">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="2230" height="330" key="GridCell.Tab.0.center/0.23.2495.1417@0.23.2495.1417" timestamp="1609306436932" />
+    <state width="2230" height="330" key="GridCell.Tab.0.center/0.23.2495.1417@0.23.2495.1417" timestamp="1609309157477" />
     <state width="1590" height="453" key="GridCell.Tab.0.center/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073634" />
-    <state width="2230" height="330" key="GridCell.Tab.0.left" timestamp="1609306436932">
+    <state width="2230" height="330" key="GridCell.Tab.0.left" timestamp="1609309157474">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="2230" height="330" key="GridCell.Tab.0.left/0.23.2495.1417@0.23.2495.1417" timestamp="1609306436932" />
+    <state width="2230" height="330" key="GridCell.Tab.0.left/0.23.2495.1417@0.23.2495.1417" timestamp="1609309157474" />
     <state width="1590" height="453" key="GridCell.Tab.0.left/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073634" />
-    <state width="2230" height="330" key="GridCell.Tab.0.right" timestamp="1609306436933">
+    <state width="2230" height="330" key="GridCell.Tab.0.right" timestamp="1609309157478">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="2230" height="330" key="GridCell.Tab.0.right/0.23.2495.1417@0.23.2495.1417" timestamp="1609306436933" />
+    <state width="2230" height="330" key="GridCell.Tab.0.right/0.23.2495.1417@0.23.2495.1417" timestamp="1609309157478" />
     <state width="1590" height="453" key="GridCell.Tab.0.right/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073634" />
     <state width="2230" height="453" key="GridCell.Tab.1.bottom" timestamp="1609227242533">
       <screen x="0" y="23" width="2495" height="1417" />
@@ -697,10 +698,10 @@
     </state>
     <state width="2230" height="453" key="GridCell.Tab.1.right/0.23.2495.1417@0.23.2495.1417" timestamp="1609227242532" />
     <state width="1590" height="453" key="GridCell.Tab.1.right/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073633" />
-    <state x="847" y="471" key="Vcs.Push.Dialog.v2" timestamp="1609306769510">
+    <state x="847" y="471" key="Vcs.Push.Dialog.v2" timestamp="1609307579843">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state x="847" y="471" key="Vcs.Push.Dialog.v2/0.23.2495.1417@0.23.2495.1417" timestamp="1609306769510" />
+    <state x="847" y="471" key="Vcs.Push.Dialog.v2/0.23.2495.1417@0.23.2495.1417" timestamp="1609307579843" />
     <state x="848" y="471" key="Vcs.Push.Dialog.v2/0.23.2496.1417@0.23.2496.1417" timestamp="1608967538363" />
     <state x="851" y="471" key="Vcs.Push.Dialog.v2/0.23.2506.1417@0.23.2506.1417" timestamp="1607942332032" />
     <state x="343" y="123" width="2051" height="1210" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1609229186145">
