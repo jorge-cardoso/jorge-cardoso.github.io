@@ -2,29 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../mondai/data/em.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mondai/app/datasets/intrinsic_value.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mondai/app/datasets/intrinsic_value_simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mondai/data/quotes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mondai/app/app_flask.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/app_flask.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mondai/app/datasets/emerging_markets.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/datasets/emerging_markets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mondai/app/datasets/magic_formulae.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/datasets/magic_formulae.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/app/datasets/update.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/datasets/update.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mondai/app/templates/emerging_markets.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/templates/emerging_markets.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mondai/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mondai/app/templates/magic_formulae.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/templates/magic_formulae.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/config/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/data/stock.db" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/data/stock.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/stockmanager/manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/stockmanager/manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/stockmanager/scrapers/asx.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/stockmanager/scrapers/finnhub.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/stockmanager/scrapers/google.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/stockmanager/scrapers/gurufocus.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/stockmanager/scrapers/gurufocus.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/stockmanager/scrapers/nasdaq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/stockmanager/scrapers/scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/stockmanager/scraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/stockmanager/scrapers/stockmonitor.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/stockmanager/scrapers/stockmonitor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/stockmanager/scrapers/yahoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/stockmanager/scrapers/yahoo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/stockmanager/stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/stockmanager/stock.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../trump2cash/.idea/trump2cash.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../trump2cash/.idea/trump2cash.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/data/em.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/data/em.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/stockmanager/scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/stockmanager/scraper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +42,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../mondai/app/templates" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -78,7 +68,7 @@
       <recent name="$PROJECT_DIR$/../mondai/app" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.scraper">
+  <component name="RunManager" selected="Python.app_flask">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="AIOps" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,12 +118,12 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/venv_3.6.7/bin/python" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/app/features/emerging_markets.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/app/datasets/emerging_markets.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gurufocus" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="intrinsic_value" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="quantai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,7 +144,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/stockmanager/scrapers/gurufocus.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/app/datasets/intrinsic_value.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,19 +153,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="manager" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="intrinsic_value_simple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="quantai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/venv_3.6.7/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/app/datasets" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/stockmanager/manager.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/app/datasets/intrinsic_value_simple.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,27 +187,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/stockmanager/scraper.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="yahoo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="quantai" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/venv_3.6.7/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/stockmanager/scrapers/yahoo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,19 +239,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.gurufocus" />
       <item itemvalue="Python.scraper" />
-      <item itemvalue="Python.yahoo" />
       <item itemvalue="Python.app_flask" />
-      <item itemvalue="Python.manager" />
+      <item itemvalue="Python.intrinsic_value" />
+      <item itemvalue="Python.intrinsic_value_simple" />
+      <item itemvalue="Python.emerging_markets" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.scraper" />
-        <item itemvalue="Python.gurufocus" />
         <item itemvalue="Python.app_flask" />
-        <item itemvalue="Python.manager" />
-        <item itemvalue="Python.yahoo" />
+        <item itemvalue="Python.emerging_markets" />
+        <item itemvalue="Python.intrinsic_value" />
+        <item itemvalue="Python.intrinsic_value_simple" />
+        <item itemvalue="Python.scraper" />
       </list>
     </recent_temporary>
   </component>
@@ -296,20 +265,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Anomaly detection">
-      <created>1565326875272</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1565326875272</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Restructured">
-      <created>1565444846756</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1565444846756</updated>
     </task>
     <task id="LOCAL-00036" summary="Reverted to md">
       <created>1565444909237</created>
@@ -640,11 +595,24 @@
       <option name="project" value="LOCAL" />
       <updated>1609525145911</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Placed links into tables which lead to yahoo finance">
+      <created>1609577283345</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1609577283352</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Placed links into tables which lead to yahoo finance">
+      <created>1609577494413</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1609577494416</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Restructured" />
     <MESSAGE value="Reverted to md" />
     <MESSAGE value="Updated .gitignore" />
     <MESSAGE value="Updated Lecture at Trinity College Dublin" />
@@ -669,17 +637,18 @@
     <MESSAGE value="added Google Analytics" />
     <MESSAGE value="Changed favicon" />
     <MESSAGE value="Updated layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated layout" />
+    <MESSAGE value="Placed links into tables which lead to yahoo finance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Placed links into tables which lead to yahoo finance" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1309" y="376" key="#Plugins" timestamp="1608883158999">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
     <state x="1309" y="376" key="#Plugins/0.23.2495.1417@0.23.2495.1417" timestamp="1608883158999" />
-    <state x="1175" y="687" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609568986706">
+    <state x="1175" y="687" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609606555816">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state x="1175" y="687" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2495.1417@0.23.2495.1417" timestamp="1609568986706" />
+    <state x="1175" y="687" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2495.1417@0.23.2495.1417" timestamp="1609606555816" />
     <state x="1174" y="390" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2496.1417@0.23.2496.1417" timestamp="1608995130823" />
     <state x="864" y="389" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2498.1417@0.23.2498.1417" timestamp="1609420609289" />
     <state x="1100" y="537" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609305278184">
@@ -698,84 +667,84 @@
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
     <state x="1447" y="482" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2495.1417@0.23.2495.1417" timestamp="1609564278068" />
-    <state x="1311" y="438" width="1004" height="579" key="#xdebugger.evaluate" timestamp="1609577132169">
+    <state x="697" y="356" width="1798" height="1084" key="#xdebugger.evaluate" timestamp="1609619326907">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state x="1311" y="438" key="#xdebugger.evaluate/0.23.2495.1417@0.23.2495.1417" timestamp="1609577132169" />
+    <state x="697" y="356" width="1798" height="1084" key="#xdebugger.evaluate/0.23.2495.1417@0.23.2495.1417" timestamp="1609619326907" />
     <state x="1436" y="400" width="1004" height="579" key="#xdebugger.evaluate/0.23.2498.1417@0.23.2498.1417" timestamp="1609418481660" />
-    <state x="1359" y="302" key="CommitChangelistDialog2" timestamp="1609525145498">
+    <state x="1359" y="302" key="CommitChangelistDialog2" timestamp="1609577494075">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state x="1359" y="302" key="CommitChangelistDialog2/0.23.2495.1417@0.23.2495.1417" timestamp="1609525145498" />
+    <state x="1359" y="302" key="CommitChangelistDialog2/0.23.2495.1417@0.23.2495.1417" timestamp="1609577494075" />
     <state x="1238" y="302" key="CommitChangelistDialog2/0.23.2496.1417@0.23.2496.1417" timestamp="1608967536920" />
     <state x="1365" y="302" key="CommitChangelistDialog2/0.23.2506.1417@0.23.2506.1417" timestamp="1607942330019" />
-    <state width="1578" height="434" key="GridCell.Tab.0.bottom" timestamp="1609577104315">
+    <state width="1732" height="472" key="GridCell.Tab.0.bottom" timestamp="1609619792568">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1578" height="434" key="GridCell.Tab.0.bottom/0.23.2495.1417@0.23.2495.1417" timestamp="1609577104315" />
+    <state width="1732" height="472" key="GridCell.Tab.0.bottom/0.23.2495.1417@0.23.2495.1417" timestamp="1609619792568" />
     <state width="1590" height="453" key="GridCell.Tab.0.bottom/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073635" />
     <state width="1578" height="330" key="GridCell.Tab.0.bottom/0.23.2498.1417@0.23.2498.1417" timestamp="1609420873065" />
-    <state width="1578" height="434" key="GridCell.Tab.0.center" timestamp="1609577104314">
+    <state width="1732" height="472" key="GridCell.Tab.0.center" timestamp="1609619792567">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1578" height="434" key="GridCell.Tab.0.center/0.23.2495.1417@0.23.2495.1417" timestamp="1609577104314" />
+    <state width="1732" height="472" key="GridCell.Tab.0.center/0.23.2495.1417@0.23.2495.1417" timestamp="1609619792567" />
     <state width="1590" height="453" key="GridCell.Tab.0.center/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073634" />
     <state width="1578" height="330" key="GridCell.Tab.0.center/0.23.2498.1417@0.23.2498.1417" timestamp="1609420873065" />
-    <state width="1578" height="434" key="GridCell.Tab.0.left" timestamp="1609577104314">
+    <state width="1732" height="472" key="GridCell.Tab.0.left" timestamp="1609619792566">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1578" height="434" key="GridCell.Tab.0.left/0.23.2495.1417@0.23.2495.1417" timestamp="1609577104314" />
+    <state width="1732" height="472" key="GridCell.Tab.0.left/0.23.2495.1417@0.23.2495.1417" timestamp="1609619792566" />
     <state width="1590" height="453" key="GridCell.Tab.0.left/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073634" />
     <state width="1578" height="330" key="GridCell.Tab.0.left/0.23.2498.1417@0.23.2498.1417" timestamp="1609420873064" />
-    <state width="1578" height="434" key="GridCell.Tab.0.right" timestamp="1609577104315">
+    <state width="1732" height="472" key="GridCell.Tab.0.right" timestamp="1609619792567">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1578" height="434" key="GridCell.Tab.0.right/0.23.2495.1417@0.23.2495.1417" timestamp="1609577104315" />
+    <state width="1732" height="472" key="GridCell.Tab.0.right/0.23.2495.1417@0.23.2495.1417" timestamp="1609619792567" />
     <state width="1590" height="453" key="GridCell.Tab.0.right/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073634" />
     <state width="1578" height="330" key="GridCell.Tab.0.right/0.23.2498.1417@0.23.2498.1417" timestamp="1609420873065" />
-    <state width="1578" height="434" key="GridCell.Tab.1.bottom" timestamp="1609577101101">
+    <state width="1732" height="390" key="GridCell.Tab.1.bottom" timestamp="1609619670392">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1578" height="434" key="GridCell.Tab.1.bottom/0.23.2495.1417@0.23.2495.1417" timestamp="1609577101101" />
+    <state width="1732" height="390" key="GridCell.Tab.1.bottom/0.23.2495.1417@0.23.2495.1417" timestamp="1609619670392" />
     <state width="1590" height="453" key="GridCell.Tab.1.bottom/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073634" />
     <state width="1578" height="336" key="GridCell.Tab.1.bottom/0.23.2498.1417@0.23.2498.1417" timestamp="1609418532217" />
-    <state width="1578" height="434" key="GridCell.Tab.1.center" timestamp="1609577101100">
+    <state width="1732" height="390" key="GridCell.Tab.1.center" timestamp="1609619670391">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1578" height="434" key="GridCell.Tab.1.center/0.23.2495.1417@0.23.2495.1417" timestamp="1609577101100" />
+    <state width="1732" height="390" key="GridCell.Tab.1.center/0.23.2495.1417@0.23.2495.1417" timestamp="1609619670391" />
     <state width="1590" height="453" key="GridCell.Tab.1.center/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073633" />
     <state width="1578" height="336" key="GridCell.Tab.1.center/0.23.2498.1417@0.23.2498.1417" timestamp="1609418532216" />
-    <state width="1578" height="434" key="GridCell.Tab.1.left" timestamp="1609577101100">
+    <state width="1732" height="390" key="GridCell.Tab.1.left" timestamp="1609619670391">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1578" height="434" key="GridCell.Tab.1.left/0.23.2495.1417@0.23.2495.1417" timestamp="1609577101100" />
+    <state width="1732" height="390" key="GridCell.Tab.1.left/0.23.2495.1417@0.23.2495.1417" timestamp="1609619670391" />
     <state width="1590" height="453" key="GridCell.Tab.1.left/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073632" />
     <state width="1578" height="336" key="GridCell.Tab.1.left/0.23.2498.1417@0.23.2498.1417" timestamp="1609418532216" />
-    <state width="1578" height="434" key="GridCell.Tab.1.right" timestamp="1609577101100">
+    <state width="1732" height="390" key="GridCell.Tab.1.right" timestamp="1609619670392">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1578" height="434" key="GridCell.Tab.1.right/0.23.2495.1417@0.23.2495.1417" timestamp="1609577101100" />
+    <state width="1732" height="390" key="GridCell.Tab.1.right/0.23.2495.1417@0.23.2495.1417" timestamp="1609619670392" />
     <state width="1590" height="453" key="GridCell.Tab.1.right/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073633" />
     <state width="1578" height="336" key="GridCell.Tab.1.right/0.23.2498.1417@0.23.2498.1417" timestamp="1609418532217" />
     <state x="1182" y="367" key="SettingsEditor" timestamp="1609569028814">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
     <state x="1182" y="367" key="SettingsEditor/0.23.2495.1417@0.23.2495.1417" timestamp="1609569028814" />
-    <state x="1112" y="549" key="Vcs.Push.Dialog.v2" timestamp="1609525156742">
+    <state x="1112" y="549" key="Vcs.Push.Dialog.v2" timestamp="1609577496437">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state x="1112" y="549" key="Vcs.Push.Dialog.v2/0.23.2495.1417@0.23.2495.1417" timestamp="1609525156742" />
+    <state x="1112" y="549" key="Vcs.Push.Dialog.v2/0.23.2495.1417@0.23.2495.1417" timestamp="1609577496437" />
     <state x="848" y="471" key="Vcs.Push.Dialog.v2/0.23.2496.1417@0.23.2496.1417" timestamp="1608967538363" />
     <state x="851" y="471" key="Vcs.Push.Dialog.v2/0.23.2506.1417@0.23.2506.1417" timestamp="1607942332032" />
-    <state width="1002" height="708" key="XDebugger.FullValuePopup" timestamp="1609528999177">
+    <state width="1002" height="708" key="XDebugger.FullValuePopup" timestamp="1609617716244">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1002" height="708" key="XDebugger.FullValuePopup/0.23.2495.1417@0.23.2495.1417" timestamp="1609528999177" />
+    <state width="1002" height="708" key="XDebugger.FullValuePopup/0.23.2495.1417@0.23.2495.1417" timestamp="1609617716244" />
     <state width="1004" height="708" key="XDebugger.FullValuePopup/0.23.2498.1417@0.23.2498.1417" timestamp="1609400992482" />
-    <state x="343" y="123" width="2051" height="1210" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1609527774505">
+    <state x="343" y="123" width="2051" height="1210" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1609616681635">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state x="343" y="123" width="2051" height="1210" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.2495.1417@0.23.2495.1417" timestamp="1609527774505" />
+    <state x="343" y="123" width="2051" height="1210" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.2495.1417@0.23.2495.1417" timestamp="1609616681635" />
     <state x="343" y="123" width="2054" height="1210" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.2498.1417@0.23.2498.1417" timestamp="1609416637792" />
     <state x="1351" y="649" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608882774411">
       <screen x="0" y="23" width="2495" height="1417" />
@@ -807,13 +776,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/../mondai/app/datasets/magic_formulae.py</url>
-          <line>35</line>
+          <line>34</line>
           <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../mondai/stockmanager/scraper.py</url>
-          <line>46</line>
-          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
