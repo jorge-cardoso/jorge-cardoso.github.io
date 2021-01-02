@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../mondai/app/datasets/intrinsic_value.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mondai/app/datasets/intrinsic_value_simple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mondai/data/quotes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mondai/app/static/apple-touch-icon-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mondai/app/static/business/css/business-frontpage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/app/app_flask.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/app_flask.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/app/datasets/emerging_markets.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/datasets/emerging_markets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/app/datasets/magic_formulae.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/datasets/magic_formulae.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/app/templates/emerging_markets.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/templates/emerging_markets.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/app/templates/magic_formulae.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/templates/magic_formulae.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/data/em.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/data/em.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/stockmanager/scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/stockmanager/scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/README.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/mondaictl" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/mondaictl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,13 +258,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Reverted to md">
-      <created>1565444909237</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1565444909237</updated>
     </task>
     <task id="LOCAL-00037" summary="Updated .gitignore">
       <created>1569176131048</created>
@@ -609,11 +595,17 @@
       <option name="project" value="LOCAL" />
       <updated>1609577494416</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="Added Emerging Markets analysis">
+      <created>1609621625250</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1609621625252</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Reverted to md" />
     <MESSAGE value="Updated .gitignore" />
     <MESSAGE value="Updated Lecture at Trinity College Dublin" />
     <MESSAGE value="Updated Lecture metadata" />
@@ -638,17 +630,18 @@
     <MESSAGE value="Changed favicon" />
     <MESSAGE value="Updated layout" />
     <MESSAGE value="Placed links into tables which lead to yahoo finance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Placed links into tables which lead to yahoo finance" />
+    <MESSAGE value="Added Emerging Markets analysis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Emerging Markets analysis" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1309" y="376" key="#Plugins" timestamp="1608883158999">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
     <state x="1309" y="376" key="#Plugins/0.23.2495.1417@0.23.2495.1417" timestamp="1608883158999" />
-    <state x="1175" y="687" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609606555816">
+    <state x="1173" y="455" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609622351763">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state x="1175" y="687" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2495.1417@0.23.2495.1417" timestamp="1609606555816" />
+    <state x="1173" y="455" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2495.1417@0.23.2495.1417" timestamp="1609622351763" />
     <state x="1174" y="390" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2496.1417@0.23.2496.1417" timestamp="1608995130823" />
     <state x="864" y="389" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2498.1417@0.23.2498.1417" timestamp="1609420609289" />
     <state x="1100" y="537" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609305278184">
@@ -672,68 +665,68 @@
     </state>
     <state x="697" y="356" width="1798" height="1084" key="#xdebugger.evaluate/0.23.2495.1417@0.23.2495.1417" timestamp="1609619326907" />
     <state x="1436" y="400" width="1004" height="579" key="#xdebugger.evaluate/0.23.2498.1417@0.23.2498.1417" timestamp="1609418481660" />
-    <state x="1359" y="302" key="CommitChangelistDialog2" timestamp="1609577494075">
+    <state x="1359" y="302" key="CommitChangelistDialog2" timestamp="1609621624921">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state x="1359" y="302" key="CommitChangelistDialog2/0.23.2495.1417@0.23.2495.1417" timestamp="1609577494075" />
+    <state x="1359" y="302" key="CommitChangelistDialog2/0.23.2495.1417@0.23.2495.1417" timestamp="1609621624921" />
     <state x="1238" y="302" key="CommitChangelistDialog2/0.23.2496.1417@0.23.2496.1417" timestamp="1608967536920" />
     <state x="1365" y="302" key="CommitChangelistDialog2/0.23.2506.1417@0.23.2506.1417" timestamp="1607942330019" />
-    <state width="1732" height="472" key="GridCell.Tab.0.bottom" timestamp="1609619792568">
+    <state width="1732" height="390" key="GridCell.Tab.0.bottom" timestamp="1609623041960">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1732" height="472" key="GridCell.Tab.0.bottom/0.23.2495.1417@0.23.2495.1417" timestamp="1609619792568" />
+    <state width="1732" height="390" key="GridCell.Tab.0.bottom/0.23.2495.1417@0.23.2495.1417" timestamp="1609623041960" />
     <state width="1590" height="453" key="GridCell.Tab.0.bottom/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073635" />
     <state width="1578" height="330" key="GridCell.Tab.0.bottom/0.23.2498.1417@0.23.2498.1417" timestamp="1609420873065" />
-    <state width="1732" height="472" key="GridCell.Tab.0.center" timestamp="1609619792567">
+    <state width="1732" height="390" key="GridCell.Tab.0.center" timestamp="1609623041959">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1732" height="472" key="GridCell.Tab.0.center/0.23.2495.1417@0.23.2495.1417" timestamp="1609619792567" />
+    <state width="1732" height="390" key="GridCell.Tab.0.center/0.23.2495.1417@0.23.2495.1417" timestamp="1609623041959" />
     <state width="1590" height="453" key="GridCell.Tab.0.center/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073634" />
     <state width="1578" height="330" key="GridCell.Tab.0.center/0.23.2498.1417@0.23.2498.1417" timestamp="1609420873065" />
-    <state width="1732" height="472" key="GridCell.Tab.0.left" timestamp="1609619792566">
+    <state width="1732" height="390" key="GridCell.Tab.0.left" timestamp="1609623041959">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1732" height="472" key="GridCell.Tab.0.left/0.23.2495.1417@0.23.2495.1417" timestamp="1609619792566" />
+    <state width="1732" height="390" key="GridCell.Tab.0.left/0.23.2495.1417@0.23.2495.1417" timestamp="1609623041959" />
     <state width="1590" height="453" key="GridCell.Tab.0.left/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073634" />
     <state width="1578" height="330" key="GridCell.Tab.0.left/0.23.2498.1417@0.23.2498.1417" timestamp="1609420873064" />
-    <state width="1732" height="472" key="GridCell.Tab.0.right" timestamp="1609619792567">
+    <state width="1732" height="390" key="GridCell.Tab.0.right" timestamp="1609623041959">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1732" height="472" key="GridCell.Tab.0.right/0.23.2495.1417@0.23.2495.1417" timestamp="1609619792567" />
+    <state width="1732" height="390" key="GridCell.Tab.0.right/0.23.2495.1417@0.23.2495.1417" timestamp="1609623041959" />
     <state width="1590" height="453" key="GridCell.Tab.0.right/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073634" />
     <state width="1578" height="330" key="GridCell.Tab.0.right/0.23.2498.1417@0.23.2498.1417" timestamp="1609420873065" />
-    <state width="1732" height="390" key="GridCell.Tab.1.bottom" timestamp="1609619670392">
+    <state width="1732" height="390" key="GridCell.Tab.1.bottom" timestamp="1609623043699">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1732" height="390" key="GridCell.Tab.1.bottom/0.23.2495.1417@0.23.2495.1417" timestamp="1609619670392" />
+    <state width="1732" height="390" key="GridCell.Tab.1.bottom/0.23.2495.1417@0.23.2495.1417" timestamp="1609623043699" />
     <state width="1590" height="453" key="GridCell.Tab.1.bottom/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073634" />
     <state width="1578" height="336" key="GridCell.Tab.1.bottom/0.23.2498.1417@0.23.2498.1417" timestamp="1609418532217" />
-    <state width="1732" height="390" key="GridCell.Tab.1.center" timestamp="1609619670391">
+    <state width="1732" height="390" key="GridCell.Tab.1.center" timestamp="1609623043346">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1732" height="390" key="GridCell.Tab.1.center/0.23.2495.1417@0.23.2495.1417" timestamp="1609619670391" />
+    <state width="1732" height="390" key="GridCell.Tab.1.center/0.23.2495.1417@0.23.2495.1417" timestamp="1609623043346" />
     <state width="1590" height="453" key="GridCell.Tab.1.center/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073633" />
     <state width="1578" height="336" key="GridCell.Tab.1.center/0.23.2498.1417@0.23.2498.1417" timestamp="1609418532216" />
-    <state width="1732" height="390" key="GridCell.Tab.1.left" timestamp="1609619670391">
+    <state width="1732" height="390" key="GridCell.Tab.1.left" timestamp="1609623043100">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1732" height="390" key="GridCell.Tab.1.left/0.23.2495.1417@0.23.2495.1417" timestamp="1609619670391" />
+    <state width="1732" height="390" key="GridCell.Tab.1.left/0.23.2495.1417@0.23.2495.1417" timestamp="1609623043100" />
     <state width="1590" height="453" key="GridCell.Tab.1.left/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073632" />
     <state width="1578" height="336" key="GridCell.Tab.1.left/0.23.2498.1417@0.23.2498.1417" timestamp="1609418532216" />
-    <state width="1732" height="390" key="GridCell.Tab.1.right" timestamp="1609619670392">
+    <state width="1732" height="390" key="GridCell.Tab.1.right" timestamp="1609623043598">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state width="1732" height="390" key="GridCell.Tab.1.right/0.23.2495.1417@0.23.2495.1417" timestamp="1609619670392" />
+    <state width="1732" height="390" key="GridCell.Tab.1.right/0.23.2495.1417@0.23.2495.1417" timestamp="1609623043598" />
     <state width="1590" height="453" key="GridCell.Tab.1.right/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073633" />
     <state width="1578" height="336" key="GridCell.Tab.1.right/0.23.2498.1417@0.23.2498.1417" timestamp="1609418532217" />
     <state x="1182" y="367" key="SettingsEditor" timestamp="1609569028814">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
     <state x="1182" y="367" key="SettingsEditor/0.23.2495.1417@0.23.2495.1417" timestamp="1609569028814" />
-    <state x="1112" y="549" key="Vcs.Push.Dialog.v2" timestamp="1609577496437">
+    <state x="1112" y="549" key="Vcs.Push.Dialog.v2" timestamp="1609621630619">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state x="1112" y="549" key="Vcs.Push.Dialog.v2/0.23.2495.1417@0.23.2495.1417" timestamp="1609577496437" />
+    <state x="1112" y="549" key="Vcs.Push.Dialog.v2/0.23.2495.1417@0.23.2495.1417" timestamp="1609621630619" />
     <state x="848" y="471" key="Vcs.Push.Dialog.v2/0.23.2496.1417@0.23.2496.1417" timestamp="1608967538363" />
     <state x="851" y="471" key="Vcs.Push.Dialog.v2/0.23.2506.1417@0.23.2506.1417" timestamp="1607942332032" />
     <state width="1002" height="708" key="XDebugger.FullValuePopup" timestamp="1609617716244">
@@ -751,10 +744,10 @@
     </state>
     <state x="1351" y="649" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2495.1417@0.23.2495.1417" timestamp="1608882774411" />
     <state x="1357" y="649" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2506.1417@0.23.2506.1417" timestamp="1607942322180" />
-    <state x="924" y="259" width="1472" height="1085" key="find.popup" timestamp="1609525764746">
+    <state x="924" y="259" width="1472" height="1085" key="find.popup" timestamp="1609623057553">
       <screen x="0" y="23" width="2495" height="1417" />
     </state>
-    <state x="924" y="259" width="1472" height="1085" key="find.popup/0.23.2495.1417@0.23.2495.1417" timestamp="1609525764746" />
+    <state x="924" y="259" width="1472" height="1085" key="find.popup/0.23.2495.1417@0.23.2495.1417" timestamp="1609623057553" />
     <state x="922" y="355" width="1474" height="1085" key="find.popup/0.23.2496.1417@0.23.2496.1417" timestamp="1608964195857" />
     <state x="928" y="259" width="1479" height="1085" key="find.popup/0.23.2506.1417@0.23.2506.1417" timestamp="1608009254405" />
     <state x="1476" y="521" key="refactoring.ChangeSignatureDialog" timestamp="1609419578937">
