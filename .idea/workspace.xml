@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../mondai/app/static/apple-touch-icon-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mondai/app/static/business/css/business-frontpage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mondai/app/templates/intrinsic_value.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/README.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/mondaictl" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/mondaictl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/app/app_flask.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/app_flask.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/app/datasets/emerging_markets.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/datasets/emerging_markets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/app/datasets/intrinsic_value.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/datasets/intrinsic_value.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/app/datasets/update.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/datasets/update.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/app/templates/emerging_markets.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/templates/emerging_markets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/app/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +59,11 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../mondai/app" />
+      <recent name="$PROJECT_DIR$/../mondai" />
       <recent name="$PROJECT_DIR$/../mondai/stockmanager" />
       <recent name="$PROJECT_DIR$/../mondai/stockmanager/scrapers" />
       <recent name="$PROJECT_DIR$/../mondai/app/static" />
-      <recent name="$PROJECT_DIR$/../mondai/app/features" />
-      <recent name="$PROJECT_DIR$/../mondai/app" />
     </key>
   </component>
   <component name="RunManager" selected="Python.app_flask">
@@ -167,7 +172,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="wsgi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="quantai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,7 +184,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/stockmanager/scraper.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/app/wsgi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,22 +237,23 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.scraper" />
       <item itemvalue="Python.app_flask" />
       <item itemvalue="Python.intrinsic_value" />
       <item itemvalue="Python.intrinsic_value_simple" />
       <item itemvalue="Python.emerging_markets" />
+      <item itemvalue="Python.wsgi" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.app_flask" />
-        <item itemvalue="Python.emerging_markets" />
+        <item itemvalue="Python.wsgi" />
         <item itemvalue="Python.intrinsic_value" />
+        <item itemvalue="Python.emerging_markets" />
         <item itemvalue="Python.intrinsic_value_simple" />
-        <item itemvalue="Python.scraper" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -258,27 +264,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Updated .gitignore">
-      <created>1569176131048</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1569176131048</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Updated Lecture at Trinity College Dublin">
-      <created>1570377348389</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1570377348389</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Updated Lecture metadata">
-      <created>1570377452073</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1570377452073</updated>
     </task>
     <task id="LOCAL-00040" summary="Updated lecture">
       <created>1570377543504</created>
@@ -602,13 +587,31 @@
       <option name="project" value="LOCAL" />
       <updated>1609621625252</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Fix control script">
+      <created>1609623897721</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1609623897725</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Added links to EM table">
+      <created>1609661160322</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1609661160328</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Recursive kill">
+      <created>1609662166210</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1609662166213</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated .gitignore" />
-    <MESSAGE value="Updated Lecture at Trinity College Dublin" />
-    <MESSAGE value="Updated Lecture metadata" />
     <MESSAGE value="Updated lecture" />
     <MESSAGE value="Updated Links to Huawei Research centers" />
     <MESSAGE value="Updated" />
@@ -631,133 +634,10 @@
     <MESSAGE value="Updated layout" />
     <MESSAGE value="Placed links into tables which lead to yahoo finance" />
     <MESSAGE value="Added Emerging Markets analysis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Emerging Markets analysis" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1309" y="376" key="#Plugins" timestamp="1608883158999">
-      <screen x="0" y="23" width="2495" height="1417" />
-    </state>
-    <state x="1309" y="376" key="#Plugins/0.23.2495.1417@0.23.2495.1417" timestamp="1608883158999" />
-    <state x="1173" y="455" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609622351763">
-      <screen x="0" y="23" width="2495" height="1417" />
-    </state>
-    <state x="1173" y="455" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2495.1417@0.23.2495.1417" timestamp="1609622351763" />
-    <state x="1174" y="390" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2496.1417@0.23.2496.1417" timestamp="1608995130823" />
-    <state x="864" y="389" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2498.1417@0.23.2498.1417" timestamp="1609420609289" />
-    <state x="1100" y="537" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609305278184">
-      <screen x="0" y="23" width="2495" height="1417" />
-    </state>
-    <state x="1100" y="537" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2495.1417@0.23.2495.1417" timestamp="1609305278184" />
-    <state x="1494" y="505" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1609432635321">
-      <screen x="0" y="23" width="2495" height="1417" />
-    </state>
-    <state x="1494" y="505" key="#com.intellij.ide.macro.MacrosDialog/0.23.2495.1417@0.23.2495.1417" timestamp="1609432635321" />
-    <state x="1397" y="471" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1608882830765">
-      <screen x="0" y="23" width="2495" height="1417" />
-    </state>
-    <state x="1397" y="471" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.2495.1417@0.23.2495.1417" timestamp="1608882830765" />
-    <state x="1447" y="482" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609564278068">
-      <screen x="0" y="23" width="2495" height="1417" />
-    </state>
-    <state x="1447" y="482" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2495.1417@0.23.2495.1417" timestamp="1609564278068" />
-    <state x="697" y="356" width="1798" height="1084" key="#xdebugger.evaluate" timestamp="1609619326907">
-      <screen x="0" y="23" width="2495" height="1417" />
-    </state>
-    <state x="697" y="356" width="1798" height="1084" key="#xdebugger.evaluate/0.23.2495.1417@0.23.2495.1417" timestamp="1609619326907" />
-    <state x="1436" y="400" width="1004" height="579" key="#xdebugger.evaluate/0.23.2498.1417@0.23.2498.1417" timestamp="1609418481660" />
-    <state x="1359" y="302" key="CommitChangelistDialog2" timestamp="1609621624921">
-      <screen x="0" y="23" width="2495" height="1417" />
-    </state>
-    <state x="1359" y="302" key="CommitChangelistDialog2/0.23.2495.1417@0.23.2495.1417" timestamp="1609621624921" />
-    <state x="1238" y="302" key="CommitChangelistDialog2/0.23.2496.1417@0.23.2496.1417" timestamp="1608967536920" />
-    <state x="1365" y="302" key="CommitChangelistDialog2/0.23.2506.1417@0.23.2506.1417" timestamp="1607942330019" />
-    <state width="1732" height="390" key="GridCell.Tab.0.bottom" timestamp="1609623041960">
-      <screen x="0" y="23" width="2495" height="1417" />
-    </state>
-    <state width="1732" height="390" key="GridCell.Tab.0.bottom/0.23.2495.1417@0.23.2495.1417" timestamp="1609623041960" />
-    <state width="1590" height="453" key="GridCell.Tab.0.bottom/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073635" />
-    <state width="1578" height="330" key="GridCell.Tab.0.bottom/0.23.2498.1417@0.23.2498.1417" timestamp="1609420873065" />
-    <state width="1732" height="390" key="GridCell.Tab.0.center" timestamp="1609623041959">
-      <screen x="0" y="23" width="2495" height="1417" />
-    </state>
-    <state width="1732" height="390" key="GridCell.Tab.0.center/0.23.2495.1417@0.23.2495.1417" timestamp="1609623041959" />
-    <state width="1590" height="453" key="GridCell.Tab.0.center/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073634" />
-    <state width="1578" height="330" key="GridCell.Tab.0.center/0.23.2498.1417@0.23.2498.1417" timestamp="1609420873065" />
-    <state width="1732" height="390" key="GridCell.Tab.0.left" timestamp="1609623041959">
-      <screen x="0" y="23" width="2495" height="1417" />
-    </state>
-    <state width="1732" height="390" key="GridCell.Tab.0.left/0.23.2495.1417@0.23.2495.1417" timestamp="1609623041959" />
-    <state width="1590" height="453" key="GridCell.Tab.0.left/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073634" />
-    <state width="1578" height="330" key="GridCell.Tab.0.left/0.23.2498.1417@0.23.2498.1417" timestamp="1609420873064" />
-    <state width="1732" height="390" key="GridCell.Tab.0.right" timestamp="1609623041959">
-      <screen x="0" y="23" width="2495" height="1417" />
-    </state>
-    <state width="1732" height="390" key="GridCell.Tab.0.right/0.23.2495.1417@0.23.2495.1417" timestamp="1609623041959" />
-    <state width="1590" height="453" key="GridCell.Tab.0.right/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073634" />
-    <state width="1578" height="330" key="GridCell.Tab.0.right/0.23.2498.1417@0.23.2498.1417" timestamp="1609420873065" />
-    <state width="1732" height="390" key="GridCell.Tab.1.bottom" timestamp="1609623043699">
-      <screen x="0" y="23" width="2495" height="1417" />
-    </state>
-    <state width="1732" height="390" key="GridCell.Tab.1.bottom/0.23.2495.1417@0.23.2495.1417" timestamp="1609623043699" />
-    <state width="1590" height="453" key="GridCell.Tab.1.bottom/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073634" />
-    <state width="1578" height="336" key="GridCell.Tab.1.bottom/0.23.2498.1417@0.23.2498.1417" timestamp="1609418532217" />
-    <state width="1732" height="390" key="GridCell.Tab.1.center" timestamp="1609623043346">
-      <screen x="0" y="23" width="2495" height="1417" />
-    </state>
-    <state width="1732" height="390" key="GridCell.Tab.1.center/0.23.2495.1417@0.23.2495.1417" timestamp="1609623043346" />
-    <state width="1590" height="453" key="GridCell.Tab.1.center/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073633" />
-    <state width="1578" height="336" key="GridCell.Tab.1.center/0.23.2498.1417@0.23.2498.1417" timestamp="1609418532216" />
-    <state width="1732" height="390" key="GridCell.Tab.1.left" timestamp="1609623043100">
-      <screen x="0" y="23" width="2495" height="1417" />
-    </state>
-    <state width="1732" height="390" key="GridCell.Tab.1.left/0.23.2495.1417@0.23.2495.1417" timestamp="1609623043100" />
-    <state width="1590" height="453" key="GridCell.Tab.1.left/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073632" />
-    <state width="1578" height="336" key="GridCell.Tab.1.left/0.23.2498.1417@0.23.2498.1417" timestamp="1609418532216" />
-    <state width="1732" height="390" key="GridCell.Tab.1.right" timestamp="1609623043598">
-      <screen x="0" y="23" width="2495" height="1417" />
-    </state>
-    <state width="1732" height="390" key="GridCell.Tab.1.right/0.23.2495.1417@0.23.2495.1417" timestamp="1609623043598" />
-    <state width="1590" height="453" key="GridCell.Tab.1.right/0.23.2496.1417@0.23.2496.1417" timestamp="1609001073633" />
-    <state width="1578" height="336" key="GridCell.Tab.1.right/0.23.2498.1417@0.23.2498.1417" timestamp="1609418532217" />
-    <state x="1182" y="367" key="SettingsEditor" timestamp="1609569028814">
-      <screen x="0" y="23" width="2495" height="1417" />
-    </state>
-    <state x="1182" y="367" key="SettingsEditor/0.23.2495.1417@0.23.2495.1417" timestamp="1609569028814" />
-    <state x="1112" y="549" key="Vcs.Push.Dialog.v2" timestamp="1609621630619">
-      <screen x="0" y="23" width="2495" height="1417" />
-    </state>
-    <state x="1112" y="549" key="Vcs.Push.Dialog.v2/0.23.2495.1417@0.23.2495.1417" timestamp="1609621630619" />
-    <state x="848" y="471" key="Vcs.Push.Dialog.v2/0.23.2496.1417@0.23.2496.1417" timestamp="1608967538363" />
-    <state x="851" y="471" key="Vcs.Push.Dialog.v2/0.23.2506.1417@0.23.2506.1417" timestamp="1607942332032" />
-    <state width="1002" height="708" key="XDebugger.FullValuePopup" timestamp="1609617716244">
-      <screen x="0" y="23" width="2495" height="1417" />
-    </state>
-    <state width="1002" height="708" key="XDebugger.FullValuePopup/0.23.2495.1417@0.23.2495.1417" timestamp="1609617716244" />
-    <state width="1004" height="708" key="XDebugger.FullValuePopup/0.23.2498.1417@0.23.2498.1417" timestamp="1609400992482" />
-    <state x="343" y="123" width="2051" height="1210" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1609616681635">
-      <screen x="0" y="23" width="2495" height="1417" />
-    </state>
-    <state x="343" y="123" width="2051" height="1210" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.2495.1417@0.23.2495.1417" timestamp="1609616681635" />
-    <state x="343" y="123" width="2054" height="1210" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.2498.1417@0.23.2498.1417" timestamp="1609416637792" />
-    <state x="1351" y="649" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608882774411">
-      <screen x="0" y="23" width="2495" height="1417" />
-    </state>
-    <state x="1351" y="649" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2495.1417@0.23.2495.1417" timestamp="1608882774411" />
-    <state x="1357" y="649" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2506.1417@0.23.2506.1417" timestamp="1607942322180" />
-    <state x="924" y="259" width="1472" height="1085" key="find.popup" timestamp="1609623057553">
-      <screen x="0" y="23" width="2495" height="1417" />
-    </state>
-    <state x="924" y="259" width="1472" height="1085" key="find.popup/0.23.2495.1417@0.23.2495.1417" timestamp="1609623057553" />
-    <state x="922" y="355" width="1474" height="1085" key="find.popup/0.23.2496.1417@0.23.2496.1417" timestamp="1608964195857" />
-    <state x="928" y="259" width="1479" height="1085" key="find.popup/0.23.2506.1417@0.23.2506.1417" timestamp="1608009254405" />
-    <state x="1476" y="521" key="refactoring.ChangeSignatureDialog" timestamp="1609419578937">
-      <screen x="0" y="23" width="2498" height="1417" />
-    </state>
-    <state x="1476" y="521" key="refactoring.ChangeSignatureDialog/0.23.2498.1417@0.23.2498.1417" timestamp="1609419578937" />
-    <state x="1293" y="379" width="670" height="676" key="search.everywhere.popup" timestamp="1609406750134">
-      <screen x="0" y="23" width="2498" height="1417" />
-    </state>
-    <state x="1293" y="379" width="670" height="676" key="search.everywhere.popup/0.23.2498.1417@0.23.2498.1417" timestamp="1609406750134" />
+    <MESSAGE value="Fix control script" />
+    <MESSAGE value="Added links to EM table" />
+    <MESSAGE value="Recursive kill" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recursive kill" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -772,7 +652,19 @@
           <line>34</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../mondai/app/datasets/intrinsic_value.py</url>
+          <line>120</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="masterDetails">
