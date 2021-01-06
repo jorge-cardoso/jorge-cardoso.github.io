@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../mondai/app/templates/intrinsic_value.html" afterDir="false" />
+    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="Fix problem with website">
+      <change beforePath="$PROJECT_DIR$/.idea/jorge-cardoso.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jorge-cardoso.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/app/app_flask.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/app_flask.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/app/datasets/emerging_markets.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/datasets/emerging_markets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/app/datasets/intrinsic_value.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/datasets/intrinsic_value.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/app/datasets/update.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/datasets/update.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/app/templates/emerging_markets.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/templates/emerging_markets.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/app/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/app/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/apps/intrinsic_value/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/apps/intrinsic_value/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mondai/app/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mondai/apps/magic_formulae" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -52,21 +47,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../mondai/apps/magic_formulae" />
+      <recent name="$PROJECT_DIR$/../mondai/apps/emerging_markets" />
       <recent name="$PROJECT_DIR$/../mondai/app/templates" />
       <recent name="$PROJECT_DIR$/../mondai/app/static/business" />
       <recent name="$PROJECT_DIR$/../mondai/app" />
-      <recent name="$PROJECT_DIR$/publications/Papers" />
-      <recent name="$PROJECT_DIR$/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../mondai/app" />
-      <recent name="$PROJECT_DIR$/../mondai" />
+      <recent name="$PROJECT_DIR$/../mondai/stockmanager/manager" />
       <recent name="$PROJECT_DIR$/../mondai/stockmanager" />
-      <recent name="$PROJECT_DIR$/../mondai/stockmanager/scrapers" />
-      <recent name="$PROJECT_DIR$/../mondai/app/static" />
+      <recent name="$PROJECT_DIR$/../mondai/static" />
+      <recent name="$PROJECT_DIR$/../mondai/apps/intrinsic_value/static" />
+      <recent name="$PROJECT_DIR$/../mondai/apps/emerging_markets/static" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.app_flask">
+  <component name="RunManager" selected="Python.app (1)">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="AIOps" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,19 +83,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app_flask" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="quantai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/venv_3.6.7/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/apps/intrinsic_value" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/app/app_flask.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/apps/intrinsic_value/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +104,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="emerging_markets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="quantai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cli" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="quantai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,7 +137,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/app/datasets/emerging_markets.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/stockmanager/cli.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,28 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="intrinsic_value" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="quantai" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/venv_3.6.7/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/app/datasets/intrinsic_value.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="intrinsic_value_simple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tmp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="quantai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,11 +154,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/app/datasets" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/app/datasets/intrinsic_value_simple.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/tmp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,19 +167,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="wsgi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="update" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="quantai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/venv_3.6.7/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/app/wsgi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/update.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -237,19 +232,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.app_flask" />
-      <item itemvalue="Python.intrinsic_value" />
-      <item itemvalue="Python.intrinsic_value_simple" />
-      <item itemvalue="Python.emerging_markets" />
-      <item itemvalue="Python.wsgi" />
+      <item itemvalue="Python.cli" />
+      <item itemvalue="Python.update" />
+      <item itemvalue="Python.app" />
+      <item itemvalue="Python.app (1)" />
+      <item itemvalue="Python.tmp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app_flask" />
-        <item itemvalue="Python.wsgi" />
-        <item itemvalue="Python.intrinsic_value" />
-        <item itemvalue="Python.emerging_markets" />
-        <item itemvalue="Python.intrinsic_value_simple" />
+        <item itemvalue="Python.app (1)" />
+        <item itemvalue="Python.tmp" />
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.update" />
+        <item itemvalue="Python.cli" />
       </list>
     </recent_temporary>
   </component>
@@ -264,41 +259,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Updated lecture">
-      <created>1570377543504</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1570377543504</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Updated Links to Huawei Research centers">
-      <created>1570378334326</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1570378334326</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Updated">
-      <created>1570378379546</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1570378379546</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Updated">
-      <created>1571160433648</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1571160433648</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Updated">
-      <created>1571374676222</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1571374676222</updated>
     </task>
     <task id="LOCAL-00045" summary="Updated">
       <created>1571378616227</created>
@@ -608,13 +568,45 @@
       <option name="project" value="LOCAL" />
       <updated>1609662166213</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="Fix problem with website">
+      <created>1609739721189</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1609739721190</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Fix problem with website">
+      <created>1609740148049</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1609740148049</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Fix problem with website">
+      <created>1609740666118</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1609740666119</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Updated structure to use Blueprints">
+      <created>1609920420758</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1609920420759</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Added API from financialmodelingprep">
+      <created>1609961793748</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1609961793748</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated lecture" />
-    <MESSAGE value="Updated Links to Huawei Research centers" />
-    <MESSAGE value="Updated" />
     <MESSAGE value="Updated news" />
     <MESSAGE value="Fix https webpage display problem" />
     <MESSAGE value="Added papers for the AIOPS2020 workshop" />
@@ -637,7 +629,10 @@
     <MESSAGE value="Fix control script" />
     <MESSAGE value="Added links to EM table" />
     <MESSAGE value="Recursive kill" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recursive kill" />
+    <MESSAGE value="Fix problem with website" />
+    <MESSAGE value="Updated structure to use Blueprints" />
+    <MESSAGE value="Added API from financialmodelingprep" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added API from financialmodelingprep" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -648,14 +643,9 @@
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../mondai/app/datasets/magic_formulae.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../mondai/app/datasets/intrinsic_value.py</url>
-          <line>120</line>
-          <option name="timeStamp" value="60" />
+          <url>file://$PROJECT_DIR$/../mondai/apps/intrinsic_value/app.py</url>
+          <line>136</line>
+          <option name="timeStamp" value="118" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

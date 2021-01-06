@@ -8,5 +8,6 @@
     <orderEntry type="module" module-name="trump2cash" />
     <orderEntry type="module" module-name="trump2cash" />
     <orderEntry type="module" module-name="quantai" />
+    <orderEntry type="module" module-name="python-stock-service" />
   </component>
 </module>
