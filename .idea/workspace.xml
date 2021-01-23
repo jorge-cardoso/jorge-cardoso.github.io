@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="Fix problem with website">
-      <change beforePath="$PROJECT_DIR$/.idea/jorge-cardoso.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jorge-cardoso.github.io.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/apps/intrinsic_value/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/apps/intrinsic_value/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/mondaictl" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/mondaictl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +22,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../mondai" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1gqs1YDBQN91ka22PuGMEbjpP3N" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -34,9 +39,9 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mondai/apps/magic_formulae" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mondai/tools/ev_chart" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -47,21 +52,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../mondai/tools/ev_chart" />
       <recent name="$PROJECT_DIR$/../mondai/apps/magic_formulae" />
       <recent name="$PROJECT_DIR$/../mondai/apps/emerging_markets" />
       <recent name="$PROJECT_DIR$/../mondai/app/templates" />
       <recent name="$PROJECT_DIR$/../mondai/app/static/business" />
-      <recent name="$PROJECT_DIR$/../mondai/app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../mondai/tools/ev_chart" />
       <recent name="$PROJECT_DIR$/../mondai/stockmanager/manager" />
       <recent name="$PROJECT_DIR$/../mondai/stockmanager" />
       <recent name="$PROJECT_DIR$/../mondai/static" />
       <recent name="$PROJECT_DIR$/../mondai/apps/intrinsic_value/static" />
-      <recent name="$PROJECT_DIR$/../mondai/apps/emerging_markets/static" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.app (1)">
+  <component name="RunManager" selected="Python.update">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="AIOps" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="annotate_car_xls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="quantai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,11 +96,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/apps/intrinsic_value" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/tools/ev_chart" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/apps/intrinsic_value/app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/tools/ev_chart/annotate_car_xls.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,28 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="quantai" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="cli" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="eval_coralogix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="quantai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,7 +121,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/stockmanager/cli.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/tools/coralogix/eval_coralogix.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tmp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="gtrends" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="quantai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,11 +138,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/tools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/tmp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/tools/gtrends.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,6 +170,19 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gtrends.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/../mondai/tools/gtrends.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/tools" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
@@ -232,19 +229,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.cli" />
+      <item itemvalue="Python.annotate_car_xls" />
+      <item itemvalue="Python.gtrends" />
+      <item itemvalue="Python.eval_coralogix" />
+      <item itemvalue="Shell Script.gtrends.sh" />
       <item itemvalue="Python.update" />
-      <item itemvalue="Python.app" />
-      <item itemvalue="Python.app (1)" />
-      <item itemvalue="Python.tmp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app (1)" />
-        <item itemvalue="Python.tmp" />
-        <item itemvalue="Python.app" />
         <item itemvalue="Python.update" />
-        <item itemvalue="Python.cli" />
+        <item itemvalue="Python.eval_coralogix" />
+        <item itemvalue="Python.annotate_car_xls" />
+        <item itemvalue="Python.gtrends" />
+        <item itemvalue="Shell Script.gtrends.sh" />
       </list>
     </recent_temporary>
   </component>
@@ -259,34 +256,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Updated">
-      <created>1571378616227</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1571378616227</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Updated">
-      <created>1571379178144</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1571379178144</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Updated">
-      <created>1571383640997</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1571383640997</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Updated">
-      <created>1571386771034</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1571386771034</updated>
     </task>
     <task id="LOCAL-00049" summary="Updated">
       <created>1572159172598</created>
@@ -603,13 +572,38 @@
       <option name="project" value="LOCAL" />
       <updated>1609961793748</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Fix problem with website">
+      <created>1609967417514</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1609967417514</updated>
+    </task>
+    <task id="LOCAL-00095" summary="New intrinsic value calculation model">
+      <created>1610298946107</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1610298946107</updated>
+    </task>
+    <task id="LOCAL-00096" summary="EV History">
+      <created>1610400231555</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1610400231555</updated>
+    </task>
+    <task id="LOCAL-00097" summary="New mondaictl tool">
+      <created>1611416972229</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1611416972229</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated news" />
-    <MESSAGE value="Fix https webpage display problem" />
-    <MESSAGE value="Added papers for the AIOPS2020 workshop" />
     <MESSAGE value="Added missing pdf papers" />
     <MESSAGE value="Updated research" />
     <MESSAGE value="Fixed broken links" />
@@ -629,10 +623,13 @@
     <MESSAGE value="Fix control script" />
     <MESSAGE value="Added links to EM table" />
     <MESSAGE value="Recursive kill" />
-    <MESSAGE value="Fix problem with website" />
     <MESSAGE value="Updated structure to use Blueprints" />
     <MESSAGE value="Added API from financialmodelingprep" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added API from financialmodelingprep" />
+    <MESSAGE value="Fix problem with website" />
+    <MESSAGE value="New intrinsic value calculation model" />
+    <MESSAGE value="EV History" />
+    <MESSAGE value="New mondaictl tool" />
+    <option name="LAST_COMMIT_MESSAGE" value="New mondaictl tool" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -644,8 +641,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/../mondai/apps/intrinsic_value/app.py</url>
-          <line>136</line>
-          <option name="timeStamp" value="118" />
+          <line>127</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../mondai/tools/ev_chart/annotate_car_xls.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
