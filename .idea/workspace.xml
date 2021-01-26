@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/README.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/mondaictl" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/mondaictl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/stockmanager/data/stock.db" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/stockmanager/data/stock.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/stockmanager/scrapers/gurufocus.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/stockmanager/scrapers/gurufocus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/stockmanager/scrapers/yahoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/stockmanager/scrapers/yahoo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../mondai" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -69,7 +68,7 @@
       <recent name="$PROJECT_DIR$/../mondai/apps/intrinsic_value/static" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.app_intrinsic_value">
+  <component name="RunManager" selected="Python.eval_coralogix">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="AIOps" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,48 +82,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="quantai" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/apps/emerging_markets" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/apps/emerging_markets/app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="quantai" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,7 +119,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/tools/coralogix" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -175,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="update" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="gurufocus" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="quantai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,11 +140,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/stockmanager/scrapers" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/update.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/stockmanager/scrapers/gurufocus.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stockmonitor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="quantai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/stockmanager/scrapers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/stockmanager/scrapers/stockmonitor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="yahoo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="quantai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/stockmanager/scrapers/yahoo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -240,19 +239,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.eval_coralogix" />
-      <item itemvalue="Python.update" />
-      <item itemvalue="Python.app (1)" />
       <item itemvalue="Python.app_intrinsic_value" />
-      <item itemvalue="Python.app" />
+      <item itemvalue="Python.yahoo" />
+      <item itemvalue="Python.stockmonitor" />
+      <item itemvalue="Python.gurufocus" />
+      <item itemvalue="Python.eval_coralogix" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.eval_coralogix" />
+        <item itemvalue="Python.yahoo" />
+        <item itemvalue="Python.gurufocus" />
+        <item itemvalue="Python.stockmonitor" />
         <item itemvalue="Python.app_intrinsic_value" />
-        <item itemvalue="Python.app" />
-        <item itemvalue="Python.app (1)" />
-        <item itemvalue="Python.app" />
-        <item itemvalue="Python.update" />
       </list>
     </recent_temporary>
   </component>
@@ -267,13 +266,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Updated">
-      <created>1572172282672</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1572172282672</updated>
     </task>
     <task id="LOCAL-00054" summary="Updated">
       <created>1572173022267</created>
@@ -611,11 +603,17 @@
       <option name="project" value="LOCAL" />
       <updated>1611438144581</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="Fixed bash status">
+      <created>1611441162822</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1611441162822</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added progress bar and automated download" />
     <MESSAGE value="Fix python path" />
     <MESSAGE value="Added scheduler for 60 min" />
     <MESSAGE value="Management tool for app" />
@@ -640,7 +638,8 @@
     <MESSAGE value="Fixed intrinsic value calculation" />
     <MESSAGE value="Sample file" />
     <MESSAGE value="Fixed python path" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed python path" />
+    <MESSAGE value="Fixed bash status" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bash status" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

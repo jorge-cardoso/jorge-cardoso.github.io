@@ -7,6 +7,16 @@ ads: false
 comments: true
 ---
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-439XSV9K1D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-439XSV9K1D');
+</script>
+
 <p>
 <a href="/images/Jorge_Cardoso.png">
 <img src="/images/Jorge_Cardoso.png" height="128" width="155" style="float:left;margin:0 20px 0 0;"/>
