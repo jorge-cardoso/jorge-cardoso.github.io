@@ -68,6 +68,7 @@ See [Google Scholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en
 
 News
 ----
++ I will serve as Industrial Track Co-Chair for the *[19th edition of the International Conference on Service Oriented Computing (ICSOC 2021)](http://icsoc2021.josueonline.com/)*, November 22nd to 25th, Dubai.
 + Two new publications from our side: *A Systematic Mapping Study in AIOps* and *Online Memory Leak Detection in the Cloud-based Infrastructures*, [AIOPS2020](https://aiopsworkshop.github.io/). 
 + We organized the AIOPS 2020 International Workshop on Artificial Intelligence for IT Operations, part of the 
 18th International Conference on Service Oriented Computing, Dubai Virtual, 14 December 2020.
