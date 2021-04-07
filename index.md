@@ -102,9 +102,9 @@ News
 About me
 --------
 
-Jorge Cardoso his currently Chief Architect for **Intelligent Cloud Operations** at 
+Jorge Cardoso is currently Chief Architect for **Ultra-scale AIOps** at 
 [Huawei Munich Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany.
-I am also Associate Professor at the [University of Coimbra](https://www.uc.pt/en/fctuc/dei) (Portugal).
+He is also Associate Professor at the [University of Coimbra](https://www.uc.pt/en/fctuc/dei) (Portugal).
 
 Previously, he worked for several major companies such as [SAP Research](http://go.sap.com/) (Germany) on the 
 Internet of Services, [The Boeing Company](http://www.boeing.com) in Seattle (USA) on Enterprise Application 
@@ -112,7 +112,7 @@ Integration and [CCG/Zentrum fur Graphische Datenverarbeitung]( http://www.ccg.p
 Cooperative Work.
 
 He has authored and co-authored more than 180 scientific publications and has been part of more than 120 program  committees and organization bodies (journals and conferences). He his author/editor of 9 books. He holds 6 US  and EU patents on process management and reliability engineering.
-[GoogleScholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en) shows more than  8000 citations for his research work with an h-index of 43. 
+[GoogleScholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en) shows more than  9500 citations for his research work with an h-index of 45. 
 His last book, titled [Fundamentals of Service Systems](http://www.springer.com/de/book/9783319231945) from Springer, compiles results from the research work of his areas of interest: cloud computing, business process management,  semantic Web, the Internet of Services, and service engineering.
 
 He participated in European, German, US, and National research projects financed by the  European Commission (FP7, EACEA), the German Ministry for Education and Research (BMBF), SAP Research (SAP)  and Portuguese NSF (FCT). He is a founding member of the IFIP Working Group 12.7 on Social Semantics. 
