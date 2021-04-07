@@ -119,7 +119,7 @@ He participated in European, German, US, and National research projects financed
 
 He created and led until 2009 the development of the [W3C Unified Service Description Language (USDL)](https://github.com/linked-usdl).
 
-He has a Ph.D. from the [University of Georgia](https://www.uga.edu) (US, 2002) and a MSc and BSc in Informatics Engineering [University of Coimbra](https://www.uc.pt/en/fctuc/dei) (1995 and 1998, Portugal).
+He has a Ph.D. from the [University of Georgia](https://www.uga.edu) (US, 2002) and a MSc and BSc in Informatics Engineering [University of Coimbra](https://www.uc.pt/en/fctuc/dei) (Portugal, 1995, 1998).
 
 
 Contact
