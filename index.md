@@ -121,6 +121,9 @@ He created and led until 2009 the development of the [W3C Unified Service Descri
 
 He has a Ph.D. from the [University of Georgia](https://www.uga.edu) (US, 2002) and a MSc and BSc in Informatics Engineering [University of Coimbra](https://www.uc.pt/en/fctuc/dei) (Portugal, 1995, 1998).
 
+I discovered by a random chance my passion in programming and computing when I was 14. My first computer was a [Timex Computer 2068](https://en.wikipedia.org/wiki/Timex_Sinclair_2068) and [BASIC](https://en.wikipedia.org/wiki/BASIC) was the first language I learned.
+
+
 
 Contact
 -------
