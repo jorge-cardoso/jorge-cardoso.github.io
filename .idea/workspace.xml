@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="">
+    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="from sklearn.metrics import f1_score&#10;from sklearn.metrics import precision_score&#10;from sklearn.metrics import recall_score&#10;from sklearn.metrics import accuracy_score&#10;&#10;labels_tokenized = [label_mapper[label] for label in labels]&#10;# print(labels)&#10;# print(predictions)&#10;print(&quot;The F1 score is {}&quot;.format(f1_score(y_true=labels_tokenized, y_pred=predictions, average=&quot;weighted&quot;)))&#10;print(&quot;The Precision score is {}&quot;.format(precision_score(y_true=labels_tokenized, y_pred=predictions, average=&quot;weighted&quot;)))&#10;print(&quot;The Recall score is {}&quot;.format(recall_score(y_true=labels_tokenized, y_pred=predictions, average=&quot;weighted&quot;)))&#10;print(&quot;The Accuracy score is {}&quot;.format(accuracy_score(y_true=labels_tokenized, y_pred=predictions)))">
+      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mondai/apps/intrinsic_value/templates/INTRINSIC VALUE CALCULATION FORMULA SVEN CARLIN.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mondai/tools/linkedin/analyze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mondai/tools/linkedin/config_query_cicd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mondai/tools/linkedin/config_quey_elk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mondai/tools/linkedin/job_description.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mondai/tools/linkedin/linkedin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mondai/tools/oreo/classifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mondai/tools/oreo/commands.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mondai/tools/oreo/sessions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mondai/tools/oreo/spam.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mondai/tools/scalability_analysis/fit_curve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mondai/tools/scalability_analysis/fit_curve_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jorge-cardoso.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jorge-cardoso.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/stockmanager/scrapers/gurufocus.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/stockmanager/scrapers/gurufocus.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/stockmanager/scrapers/yahoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/stockmanager/scrapers/yahoo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/apps/intrinsic_value/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/apps/intrinsic_value/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/apps/intrinsic_value/static/intrinsic_value.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/apps/intrinsic_value/static/intrinsic_value.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mondai/tools/coralogix/eval_coralogix.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/tools/coralogix/eval_coralogix.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +57,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mondai/tools/ev_chart" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../log_classifier" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -54,21 +73,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../log_classifier" />
       <recent name="$PROJECT_DIR$/../mondai/tools/ev_chart" />
       <recent name="$PROJECT_DIR$/../mondai/apps/magic_formulae" />
       <recent name="$PROJECT_DIR$/../mondai/apps/emerging_markets" />
       <recent name="$PROJECT_DIR$/../mondai/app/templates" />
-      <recent name="$PROJECT_DIR$/../mondai/app/static/business" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../mondai/apps/intrinsic_value/templates" />
+      <recent name="$PROJECT_DIR$/../log_classifier/classes" />
+      <recent name="$PROJECT_DIR$/../mondai/tools/coralogix" />
       <recent name="$PROJECT_DIR$/../mondai/tools/ev_chart" />
       <recent name="$PROJECT_DIR$/../mondai/stockmanager/manager" />
-      <recent name="$PROJECT_DIR$/../mondai/stockmanager" />
-      <recent name="$PROJECT_DIR$/../mondai/static" />
-      <recent name="$PROJECT_DIR$/../mondai/apps/intrinsic_value/static" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.eval_coralogix">
+  <component name="RunManager" selected="Python.generator">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="AIOps" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app_intrinsic_value" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="fit_curve_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="quantai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,11 +117,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/tools/scalability_analysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/apps/intrinsic_value/app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/tools/scalability_analysis/fit_curve_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="eval_coralogix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="quantai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,11 +138,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/tools/coralogix" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/tools/oreo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/tools/coralogix/eval_coralogix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/tools/oreo/generator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,19 +151,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gurufocus" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="linkedin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="quantai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/stockmanager/scrapers" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/venv/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/tools/linkedin" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/stockmanager/scrapers/gurufocus.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/tools/linkedin/linkedin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,7 +172,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="stockmonitor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="purePythonPolyFit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="quantai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,11 +180,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/stockmanager/scrapers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/tools/scalability_analysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/stockmanager/scrapers/stockmonitor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/tools/scalability_analysis/purePythonPolyFit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,7 +193,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="yahoo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="timing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="quantai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -182,11 +201,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/tools/scalability_analysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/stockmanager/scrapers/yahoo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../mondai/tools/scalability_analysis/timing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,6 +223,20 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in testPurePythonPolyFit.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="quantai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../mondai/tools/scalability_analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/../mondai/tools/scalability_analysis/testPurePythonPolyFit.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -239,25 +272,26 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.app_intrinsic_value" />
-      <item itemvalue="Python.yahoo" />
-      <item itemvalue="Python.stockmonitor" />
-      <item itemvalue="Python.gurufocus" />
-      <item itemvalue="Python.eval_coralogix" />
+      <item itemvalue="Python.fit_curve_2" />
+      <item itemvalue="Python.generator" />
+      <item itemvalue="Python.linkedin" />
+      <item itemvalue="Python.purePythonPolyFit" />
+      <item itemvalue="Python.timing" />
+      <item itemvalue="Python tests.Unittests in testPurePythonPolyFit.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.eval_coralogix" />
-        <item itemvalue="Python.yahoo" />
-        <item itemvalue="Python.gurufocus" />
-        <item itemvalue="Python.stockmonitor" />
-        <item itemvalue="Python.app_intrinsic_value" />
+        <item itemvalue="Python.generator" />
+        <item itemvalue="Python.purePythonPolyFit" />
+        <item itemvalue="Python tests.Unittests in testPurePythonPolyFit.py" />
+        <item itemvalue="Python.timing" />
+        <item itemvalue="Python.fit_curve_2" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -266,41 +300,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Updated">
-      <created>1572173022267</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1572173022267</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Updated">
-      <created>1572189999629</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1572189999629</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Updated">
-      <created>1572190529814</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1572190529814</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Updated">
-      <created>1572191350228</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1572191350228</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Updated">
-      <created>1572192771365</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1572192771365</updated>
     </task>
     <task id="LOCAL-00059" summary="Updated">
       <created>1573198472156</created>
@@ -610,15 +609,45 @@
       <option name="project" value="LOCAL" />
       <updated>1611441162822</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="Added Google Analytics">
+      <created>1611648894715</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1611648894716</updated>
+    </task>
+    <task id="LOCAL-00104" summary="Update intrinsic value calculation">
+      <created>1611985922395</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1611985922396</updated>
+    </task>
+    <task id="LOCAL-00105" summary="added ICSOC 2021">
+      <created>1614750859447</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1614750859448</updated>
+    </task>
+    <task id="LOCAL-00106" summary="update metrics">
+      <created>1617768553553</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1617768553554</updated>
+    </task>
+    <task id="LOCAL-00107" summary="minor">
+      <created>1617770449208</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1617770449208</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix python path" />
-    <MESSAGE value="Added scheduler for 60 min" />
-    <MESSAGE value="Management tool for app" />
-    <MESSAGE value="Adjusted conf path" />
-    <MESSAGE value="rename file" />
     <MESSAGE value="added sudo" />
     <MESSAGE value="Kill parent and children" />
     <MESSAGE value="added Google Analytics" />
@@ -639,7 +668,12 @@
     <MESSAGE value="Sample file" />
     <MESSAGE value="Fixed python path" />
     <MESSAGE value="Fixed bash status" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed bash status" />
+    <MESSAGE value="Added Google Analytics" />
+    <MESSAGE value="Update intrinsic value calculation" />
+    <MESSAGE value="added ICSOC 2021" />
+    <MESSAGE value="update metrics" />
+    <MESSAGE value="minor" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -653,6 +687,11 @@
           <url>file://$PROJECT_DIR$/../mondai/tools/ev_chart/annotate_car_xls.py</url>
           <line>94</line>
           <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../mondai/tools/oreo/classifier.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="75" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

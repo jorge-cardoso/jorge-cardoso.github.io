@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/jorge-cardoso.github.io.iml" filepath="$PROJECT_DIR$/.idea/jorge-cardoso.github.io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../log_classifier/.idea/log_classifier.iml" filepath="$PROJECT_DIR$/../log_classifier/.idea/log_classifier.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/log_level_estimation/.idea/log_level_estimation.iml" filepath="$USER_HOME$/PycharmProjects/log_level_estimation/.idea/log_level_estimation.iml" />
       <module fileurl="file://$USER_HOME$/PycharmProjects/python-stock-service/.idea/python-stock-service.iml" filepath="$USER_HOME$/PycharmProjects/python-stock-service/.idea/python-stock-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mondai/.idea/quantai.iml" filepath="$PROJECT_DIR$/../mondai/.idea/quantai.iml" />
       <module fileurl="file://$PROJECT_DIR$/../tmp_structlog/.idea/tmp_structlog.iml" filepath="$PROJECT_DIR$/../tmp_structlog/.idea/tmp_structlog.iml" />
