@@ -1,10 +1,11 @@
 ---
 layout: media
 permalink: /
-title: "Home"
+title: Home
 toc: true
 ads: false
 comments: true
+published: true
 ---
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -137,6 +138,3 @@ Contact
 A good researcher says, "Lets find out", others say "Nobody knows". When a good researcher makes a mistake, he says, I was wrong", others say "It wasn't my fault". A good researcher works harder than others and has more time. Others are always "too busy" to do what is necessary. [Unknown source]
 </p>
 </blockquote>
-
-
-
