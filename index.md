@@ -41,7 +41,7 @@ The areas are explored in three fields:
 
 TUB Innovation Lab
 ------------------
-asas
+to come
 
 
 Ultra-scale AIOps
