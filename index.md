@@ -28,8 +28,6 @@ The areas are explored in three fields:
 
 <img src="./images/Cloud_edge_device.png" height="300" width="600" style="float:right;margin:0px 20px 20px 20px;"/>
 
-<img src="/images/Cloud_edge_device.png" height="300" width="600" style="float:right;margin:0px 20px 20px 20px;"/>
-
 + **Edge AI**. We bring ML algorithms, computation and data storage closer to the devices where data is generated. This local computation allows to process data with devices with a very low latency. Examples of use cases include video surveillance and  health monitoring. 
 
 + **AI for Networks**. We leverage ML to automate routine tasks, such as verification, configuration, optimization and troubleshooting. The new algorithms and tools developed enable network operators and architects with key network insights and actionable information.  
