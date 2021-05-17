@@ -8,37 +8,63 @@ comments: true
 published: true
 ---
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-439XSV9K1D"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-439XSV9K1D');
-</script>
 
 <p>
-<a href="/images/Jorge_Cardoso.png">
-<img src="/images/Jorge_Cardoso.png" height="128" width="155" style="float:left;margin:0 20px 0 0;"/>
+<a href="./images/Jorge_Cardoso.png">
+<img src="./images/Jorge_Cardoso.png" height="128" width="155" style="float:left;margin:0 20px 0 0;"/>
 </a>
 </p>
 
-I am Chief Architect for **Intelligent Cloud Operations (aka AIOps)** at 
-**Huawei Munich Research Center** in Munich, Germany and **Huawei Ireland Research Center** in Dublin, Ireland.
+
+I am Chief Architect for **Intelligent Cloud Operations (aka AIOps)** at **Huawei Munich Research Center** in Munich, Germany and **Huawei Ireland Research Center** in Dublin, Ireland.
 I am also Associate Professor at the [University of Coimbra](http://www.uc.pt/en/fctuc/dei) (Portugal), and
 affiliated to the Information Systems Group.
+
+I also have interests in Cloud Computing, BPM, Semantic Web, Web Services, and Enterprise Systems (see [Google Scholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en&oi=ao), [DBLP](http://dblp.uni-trier.de/pers/hd/c/Cardoso:Jorge), and [LinkedIn](https://www.linkedin.com/in/jorge-cardoso-75ba40/))
+
+
+Today, using machine learning and deep learning techniques, we apply AI to various area of [HUAWEI CLOUD](https://www.huaweicloud.com/intl/en-us/) datacenters such as: anomaly detection, root cause analysis, failure prediction, reliability and availability, risk estimation and security, network verification, and low-latency object tracking.
+The areas are explored in three fields:
+
+
++ **Ultra-scale AIOps**. We apply analytics and machine learning (ML) techniques to automate IT operations and maintenance. We collect operational data from IT infrastructures, leverage big data and AI platforms to automatically detect and predict failures in datacenters and cloud platforms in real-time.
+
+<p>
+<a href="./images/Cloud_edge_device.png">
+<img src="./images/Cloud_edge_device.png" height="300" width="600" style="float:right;margin:0px 20px 20px 20px;"/>
+</a>
+</p>
+
++ **Edge AI**. We bring ML algorithms, computation and data storage closer to the devices where data is generated. This local computation allows to process data with devices with a very low latency. Examples of use cases include video surveillance and  health monitoring. 
+ 
++ **AI for Networks**. We leverage ML to automate routine tasks, such as verification, configuration, optimization and troubleshooting. The new algorithms and tools developed enable network operators and architects with key network insights and actionable information.  
+
+
+
+TUB Innovation Lab
+------------------
+asas
+
+
+Ultra-scale AIOps
+-----------------
 
 My current research involves the development of the **next generation of AI-driven IT Operations tools and platforms**.
 This field in nowadays generally called [AIOps](https://pt.slideshare.net/JorgeCardoso4/mastering-aiops-with-deep-learning) 
 (artificial intelligence for IT operations).
 In planet-scale deployments, the Operation and Maintenance (O&M) of cloud platforms cannot be done any longer manually
-or simply with off-the-shelf solutions. It requires self-developed automated systems, ideally exploiting the use of AI
-to provide tools for autonomous cloud operations. My research looks into how **deep learning**, **machine learning 
-learning**, **distributed traces**, **graph analysis**, **time-series analysis** (sequence analysis), and **log analysis** can be used 
-to effectively **detect and localize anomalous cloud infrastructure behaviors** during operations to reduce the 
-workload of human operators. These techniques are typically applied to Big Data coming from 
+or simply with off-the-shelf solutions. 
+It requires self-developed automated systems, ideally exploiting the use of AI to provide tools for autonomous cloud operations. My research looks into how **deep learning**, **machine learning learning**, **distributed traces**, **graph analysis**, **time-series analysis** (sequence analysis), and **log analysis** can be used to effectively **detect and localize anomalous cloud infrastructure behaviors** during operations to reduce the workload of human operators. 
+These techniques are typically applied to Big Data coming from 
 microservice [observability data](https://www.mstakx.com/wp-content/uploads/2018/09/A-Practical-Observability-Primer-1.pdf).
+
+They are applied to create new and innovative systems for:
+
++ AI-driven Cloud Operations
++ Fault prevention, prediction, detection, localization, and recovery.  
++ Planet-scale monitoring of distributed systems
++ Applied machine learning for predictive software maintenance
++ Natural Language Processing for systems’ behaviour analysis.
 
 My group is currently developing the iForesight system which is being used to evaluate this new O&M approach. 
 [iForesight 3.0](/research/iforesight) is the result of more than 2 years of research with
@@ -47,43 +73,45 @@ cloud maintenance teams.
 It enables them to quickly detect, localize and predict anomalies thanks to the use of artificial intelligence when
 cloud services are slow or unresponsive. 
 
-The basic research areas we touch and integrate include:
-+ Cloud Computing, Cloud Operations and Cloud Monitoring
-+ Machine Learning and Deep Learning.
-+ Distributed Systems Reliability and Availability.
-+ Anomaly Detection and Root-cause Analysis. 
++ Two new publications from our side: *A Systematic Mapping Study in AIOps* and *Online Memory Leak Detection in the Cloud-based Infrastructures*, [AIOPS2020](https://aiopsworkshop.github.io/). 
++ Our work on *Self-Supervised Log Parsing* was accepted at the [ECML PKDD 2020](http://ecmlpkdd2020.net/) conference **(Conference Rank: A)** (thanks to Sasho Nedelkoski, Jasmin Bogatinovski, Alexander Acker, and  Odej Kao). 
++ Our AIOps article titled *Multi-source Distributed System Data for AI-Powered Analytics* was accepted to Service-Oriented and Cloud Computing (ESOCC 2020), 28-30 September, 2020, Crete.
++ Our article [Anomaly Detection and Classification using Distributed Tracing and Deep Learning](/publications/Papers/CP-2019-089-CCGrid-Anomaly_Detection_and_Classification_using_DT_and_DL.pdf) was accepted to [CCGrid 2019](https://www.ccgrid2019.org), 14-17.05, 2019, Cyprus. **(Conference Rank: A)**
++ Our article [Efficient Failure Diagnosis of OpenStack using Tempest](https://www.computer.org/csdl/mags/ic/2018/06/08509185-abs.html) was accepted for publication at IEEE Internet Computing **(Impact Factor 2018: 1.923)**.
++ Our work on *Self-Attentive Classification-Based Anomaly Detection in Unstructured Logs* was accepted at the [ICDM 2020](http://icdm2020.bigke.org) conference **(Conference Rank: A+)** (thanks to Sasho Nedelkoski, Jasmin Bogatinovski, Alexander Acker, and Odej Kao). 
++ Our article [Anomaly Detection from Systegridm Tracing Data using Multimodal Deep Learning](/publications/Papers/CP-2019-090-IEEECloud-Anomaly_Detection_from_System_Tracing_Data_and_MDL.pdf) was accepted to [IEEE Cloud 2019](http://conferences.computer.org/cloud/2019/), July 3-8, 2019, Milan, Italy. **(Acceptance Rate: 21%)**
 
-They are applied to create new and innovative systems for:
-+ AI-driven Cloud Operations
-+ Fault prevention, prediction, detection, localization, and recovery.  
-+ Planet-scale monitoring of distributed systems
-+ Applied machine learning for predictive software maintenance
-+ Natural Language Processing for systems’ behaviour analysis.
 
-Previously I also looked into Cloud Computing, BPM, Semantic Web, Web Services, and Enterprise Systems.
-See [Google Scholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en&oi=ao),
-[DBLP](http://dblp.uni-trier.de/pers/hd/c/Cardoso:Jorge), and
-[LinkedIn](https://www.linkedin.com/in/jorge-cardoso-75ba40/).
+Edge AI
+-------
+
++ [IEF](https://support.huaweicloud.com/intl/en-us/productdesc-ief/ief_productdesc_0001.html)
++ [Sedna](https://github.com/kubeedge/sedna)
++ [Kubeedge](https://github.com/kubeedge/kubeedge)
+
+
+AI for Networks
+---------------
+
+
 
 
 
 News
 ----
 + I will serve as Industrial Track Co-Chair for the *[19th edition of the International Conference on Service Oriented Computing (ICSOC 2021)](http://icsoc2021.josueonline.com/)*, November 22nd to 25th, Dubai.
-+ Two new publications from our side: *A Systematic Mapping Study in AIOps* and *Online Memory Leak Detection in the Cloud-based Infrastructures*, [AIOPS2020](https://aiopsworkshop.github.io/). 
 + We organized the AIOPS 2020 International Workshop on Artificial Intelligence for IT Operations, part of the 
 18th International Conference on Service Oriented Computing, Dubai Virtual, 14 December 2020.
-+ Our work on *Self-Attentive Classification-Based Anomaly Detection in Unstructured Logs* was accepted at the [ICDM 2020](http://icdm2020.bigke.org) conference **(Conference Rank: A+)** (thanks to Sasho Nedelkoski, Jasmin Bogatinovski, Alexander Acker, and Odej Kao). 
-+ Our work on *Self-Supervised Log Parsing* was accepted at the [ECML PKDD 2020](http://ecmlpkdd2020.net/) conference **(Conference Rank: A)** (thanks to Sasho Nedelkoski, Jasmin Bogatinovski, Alexander Acker, and  Odej Kao). 
-+ Our AIOps article titled *Multi-source Distributed System Data for AI-Powered Analytics* was accepted to Service-Oriented and Cloud Computing (ESOCC 2020), 28-30 September, 2020, Crete.
+
+
 + My Lecture on [AIOps: Anomalous Span Detection in Distributed Traces Using Deep Learning](https://www.slideshare.net/JorgeCardoso4/aiops-anomalous-span-detection-in-distributed-traces-using-deep-learning) presented at Prof. Joeran Beel's Chair (Intelligent Systems, Trinity College Dublin) on 02.10.2019 is now available.
 + Our article *Towards Occupation Inference in Non-instrumented Services* was accepted to IEEE Network Computing and Applications. Boston, MA, USA, September 2019.
 + Andre Pascoal Bento defended successfully his thesis [Observing and Controlling Performance in Microservices](research/pdf_img/MSc_thesis_Andre_Bento.pdf)
-+ Our article [Anomaly Detection from Systegridm Tracing Data using Multimodal Deep Learning](/publications/Papers/CP-2019-090-IEEECloud-Anomaly_Detection_from_System_Tracing_Data_and_MDL.pdf) was accepted to [IEEE Cloud 2019](http://conferences.computer.org/cloud/2019/), July 3-8, 2019, Milan, Italy. **(Acceptance Rate: 21%)**
+
 + Our article *Assessing Software Development Teams Efficiency using Process Mining* was accepted to [International Conference on Process Mining](https://icpmconference.org), June 24-26, 2019, Aachen, Germany
-+ Our article [Anomaly Detection and Classification using Distributed Tracing and Deep Learning](/publications/Papers/CP-2019-089-CCGrid-Anomaly_Detection_and_Classification_using_DT_and_DL.pdf) was accepted to [CCGrid 2019](https://www.ccgrid2019.org), 14-17.05, 2019, Cyprus. **(Conference Rank: A)**
+
 + Our article *On Black-Box Monitoring Techniques for Multi-Component Services* was accepted to [17th IEEE International Symposium on Network Computing and Applications (NCA)](http://www.ieee-nca.org/2018/), 1-3.10, 2018, Cambridge, US. **(Conference Rank: A)**
-+ Our article [Efficient Failure Diagnosis of OpenStack using Tempest](https://www.computer.org/csdl/mags/ic/2018/06/08509185-abs.html) was accepted for publication at IEEE Internet Computing **(Impact Factor 2018: 1.923)**.
+
 + This year we are part of the Program Committee of [SREcon 2019](https://www.usenix.org/conference/srecon19emea/), 2–4 October, 2019, Dublin, Ireland.
 + Jorge Cardoso [Mastering AIOps with Deep Learning](https://pt.slideshare.net/JorgeCardoso4/mastering-aiops-with-deep-learning), Presentation at [SRECon18](https://www.usenix.org/conference/srecon18europe), 29–31 August 2018, Dusseldorf, Germany.
 + Georgia Kapitsaki, Josef Ioannou, Jorge Cardoso, Carlos Pedrinaci, "Linked USDL Privacy: Describing Privacy Policies
@@ -138,3 +166,4 @@ Contact
 A good researcher says, "Lets find out", others say "Nobody knows". When a good researcher makes a mistake, he says, I was wrong", others say "It wasn't my fault". A good researcher works harder than others and has more time. Others are always "too busy" to do what is necessary. [Unknown source]
 </p>
 </blockquote>
+
