@@ -25,7 +25,7 @@
   excerpt: "Academic and scientific books published"
   image: Teaser-Books.jpg
 
-- title: Blog
-  url: /blog/
-  excerpt: "My commemts, opinion, and thoughts"
-  image: Teaser-Blog.jpg
+#- title: Blog
+#  url: /blog/
+#  excerpt: "My commemts, opinion, and thoughts"
+#  image: Teaser-Blog.jpg
