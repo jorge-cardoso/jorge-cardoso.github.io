@@ -36,14 +36,3 @@ If you would like to do you PhD or Msc with our applied research group visit the
 
 All the students that worked with us is available at [Past Students](students)
 
-
-## Team and Culture
-
-Our culture of innovation and R&D is based on 4 main guiding principles:
-
-+ [DIY](https://en.wikipedia.org/wiki/Do_it_yourself),
-[KISS](https://pt.wikipedia.org/wiki/Keep_It_Simple),
-[Deep Work](https://www.amazon.com/gp/product/1455586692)*, 
-[KPI-driven Research](https://en.wikipedia.org/wiki/Performance_indicator)
-
-*(Time Spent) x (Intensity of Focus)

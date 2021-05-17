@@ -11,22 +11,16 @@ published: true
 
 <p>
 <img src="./images/Jorge_Cardoso.png" height="128" width="155" style="float:left;margin:0 20px 0 0;"/>
-</a>
 </p>
 
 
-I am Chief Architect for **Intelligent Cloud Operations (aka AIOps)** at **Huawei Munich Research Center** in Munich, Germany and **Huawei Ireland Research Center** in Dublin, Ireland.
-I am also Associate Professor at the [University of Coimbra](http://www.uc.pt/en/fctuc/dei) (Portugal), and
-affiliated to the Information Systems Group.
-
-I also have interests in Cloud Computing, BPM, Semantic Web, Web Services, and Enterprise Systems (see [Google Scholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en&oi=ao), [DBLP](http://dblp.uni-trier.de/pers/hd/c/Cardoso:Jorge), and [LinkedIn](https://www.linkedin.com/in/jorge-cardoso-75ba40/))
+I currently lead the **Ultra-scale AIOps Lab** and I take dual role of Chief Architect and Engineer Manager at the 
+[Huawei Munich Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany and [Huawei Ireland Research Center](https://huawei.eu/what-we-do/digital-transformation) in Dublin, Ireland.
 
 Today, using machine learning and deep learning techniques, we apply AI to various area of [HUAWEI CLOUD](https://www.huaweicloud.com/intl/en-us/) datacenters such as: anomaly detection, root cause analysis, failure prediction, reliability and availability, risk estimation and security, network verification, and low-latency object tracking.
 The areas are explored in three fields:
 
-+ **Ultra-scale AIOps**. We apply analytics and machine learning (ML) techniques to automate IT operations and maintenance. We collect operational data from IT infrastructures, leverage big data and AI platforms to automatically detect and predict failures in datacenters and cloud platforms in real-time.
-
-<img src="./images/Cloud_edge_device.png" height="300" width="600" style="float:right;margin:0px 20px 20px 20px;"/>
++ **Ultra-scale AIOps**. We apply analytics and machine learning (ML) techniques to automate IT operations and maintenance. We collect operational data from IT infrastructures, leverage big data and AI platforms to automatically detect and predict failures in datacenters and cloud platforms in real-time. <img src="./images/Cloud_edge_device.png" height="300" width="600" style="float:right;margin:20px 20px 20px 20px;"/>
 
 + **Edge AI**. We bring ML algorithms, computation and data storage closer to the devices where data is generated. This local computation allows to process data with devices with a very low latency. Examples of use cases include video surveillance and  health monitoring. 
 
@@ -171,9 +165,11 @@ News
 About me
 --------
 
-Jorge Cardoso is currently Chief Architect for **Ultra-scale AIOps** at 
+Jorge Cardoso is currently leads the Ultra-scale AIOps Lab and takes the role of Chief Architect and Engineer Manager at the 
 [Huawei Munich Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany.
-He is also Associate Professor at the [University of Coimbra](https://www.uc.pt/en/fctuc/dei) (Portugal).
+He is also Associate Professor at the [University of Coimbra](https://www.uc.pt/en/fctuc/dei) (Portugal), and
+affiliated to the Information Systems Group.
+He has interests in the fields of Cloud Computing, AI, SRE, BPM, Semantic Web, Web Services, and Enterprise Systems (see [Google Scholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en&oi=ao), [DBLP](http://dblp.uni-trier.de/pers/hd/c/Cardoso:Jorge), and [LinkedIn](https://www.linkedin.com/in/jorge-cardoso-75ba40/))
 
 Previously, he worked for several major companies such as [SAP Research](http://go.sap.com/) (Germany) on the 
 Internet of Services, [The Boeing Company](http://www.boeing.com) in Seattle (USA) on Enterprise Application 
@@ -190,8 +186,26 @@ He created and led until 2009 the development of the [W3C Unified Service Descri
 
 He has a Ph.D. from the [University of Georgia](https://www.uga.edu) (US, 2002) and a MSc and BSc in Informatics Engineering [University of Coimbra](https://www.uc.pt/en/fctuc/dei) (Portugal, 1995, 1998).
 
+
+More...
+-------
+
 I discovered by a random chance my passion in programming and computing when I was 14. My first computer was a [Timex Computer 2068](https://en.wikipedia.org/wiki/Timex_Sinclair_2068) and [BASIC](https://en.wikipedia.org/wiki/BASIC) was the first language I learned.
 
+
+Our culture of innovation and R&D is based on 4 main guiding principles:
+
++ [DIY](https://en.wikipedia.org/wiki/Do_it_yourself),
+[KISS](https://pt.wikipedia.org/wiki/Keep_It_Simple),
+[Deep Work](https://www.amazon.com/gp/product/1455586692)*, 
+[KPI-driven Research](https://en.wikipedia.org/wiki/Performance_indicator), * (Time Spent) x (Intensity of Focus)
+
+> A good researcher says, "Lets find out", others say "Nobody knows". When a good researcher makes a mistake, he says, I was  wrong", others say "It wasn't my fault". A good researcher works harder than others and has more time. Others are always "too busy" to do what is necessary. [Unknown source]
+
+Two good sources of information for researcher:
+
++ [ACM Calendar of Events](http://campus.acm.org/calendar/)
++ [IEEE Conference Calls for Submissions](http://www.ieee.org/conferences_events/index.html)
 
 
 Contact
@@ -200,11 +214,3 @@ Contact
 + [Huawei Munich Research Center](https://huawei.eu/research-and-innovation), Germany
 + [Departamento de Engenharia Informatica](http://www.uc.pt/en/fctuc/dei), University of Coimbra, Portugal
 + `jcardoso [*.A._.T$] dei | uc | pt`
-
-> A good researcher says, "Lets find out", others say "Nobody knows". When a good researcher makes a mistake, he says, I was  wrong", others say "It wasn't my fault". A good researcher works harder than others and has more time. Others are always "too busy" to do what is necessary. [Unknown source]
-
-More...
--------
-
-+ [ACM Calendar of Events](http://campus.acm.org/calendar/)
-+ [IEEE Conference Calls for Submissions](http://www.ieee.org/conferences_events/index.html)

@@ -8,24 +8,25 @@ body {
 }
 
 p {
-	@include font-size(18,yes,28);
-    margin: 0px 0;
-    padding: 5px 0;
-    text-align: justify;
+	@include font-size(16,yes,28);
+	line-height: 150%;
+    margin: 4px 0;
+    padding: 4px 0;
+    text-align: left;
 }
 
 // jcardoso 05.2018, @include font-size(16,12,24);
 li {
-	@include font-size(18);
+	@include font-size(16);
 	line-height: 150%;
-	margin: 2px 0;
+	margin: 4px 0;
 }
 
 // jcardoso 05.2018, @include font-size(16,12,24);
 ul {
-	@include font-size(18);
+	@include font-size(16);
 	line-height: 150%;
-	margin: 5px 0;
+	margin: 4px 0;
 }
 
 // jcardoso 06.2020, @include font-size(16,12,24);
@@ -42,17 +43,18 @@ ul {
 h1, h2, h3, h4, h5, h6 {
 	font-family: $heading-font;
 	text-rendering: optimizeLegibility; // Fix the character spacing for headings
+	border-bottom: 1px solid LightGray
 }
 h1 {
-	@include font-size(36);
+	@include font-size(28);
 }
 h2 {
 	// jcardoso, 05.2018
 	// @include font-size(32);
-	@include font-size(30);
+	@include font-size(28);
 }
 h3 {
-	@include font-size(28);
+	@include font-size(26);
 }
 h4 {
 	@include font-size(24);
