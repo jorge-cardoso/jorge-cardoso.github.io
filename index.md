@@ -10,8 +10,8 @@ published: true
 
 
 <p>
-<a href="./images/Jorge_Cardoso.png">
-<img src="./images/Jorge_Cardoso.png" height="128" width="155" style="float:left;margin:0 20px 0 0;"/>
+<a href="/images/Jorge_Cardoso.png">
+<img src="/images/Jorge_Cardoso.png" height="128" width="155" style="float:left;margin:0 20px 0 0;"/>
 </a>
 </p>
 
@@ -29,8 +29,8 @@ The areas are explored in three fields:
 
 + **Ultra-scale AIOps**. We apply analytics and machine learning (ML) techniques to automate IT operations and maintenance. We collect operational data from IT infrastructures, leverage big data and AI platforms to automatically detect and predict failures in datacenters and cloud platforms in real-time.
 
-<a href="./images/Cloud_edge_device.png">
-<img src="./images/Cloud_edge_device.png" height="300" width="600" style="float:right;margin:0px 20px 20px 20px;"/>
+<a href="/images/Cloud_edge_device.png">
+<img src="/images/Cloud_edge_device.png" height="300" width="600" style="float:right;margin:0px 20px 20px 20px;"/>
 </a>
 
 + **Edge AI**. We bring ML algorithms, computation and data storage closer to the devices where data is generated. This local computation allows to process data with devices with a very low latency. Examples of use cases include video surveillance and  health monitoring. 
