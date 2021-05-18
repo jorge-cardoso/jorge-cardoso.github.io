@@ -23,7 +23,7 @@ The areas are explored in three fields:
 
 + **AI for Networks**. We leverage ML to automate routine tasks, such as verification, configuration, optimization and troubleshooting. The new algorithms and tools developed enable network operators and architects with key network insights and actionable information.  
 
-We are also exploring how AI can be leveraged to improve DevOps in the fields of configuration management, continuous verification, service management and scalability analysis. For example, we have developed a intelligent continuous verification tool to ensure software errors are not transferred to production. If a release verification fails, it is automatically kept out of production by doing a rollback. The tool determines whether or not a release can be pushed to production and requires little-to-no human intervention. 
+We are also exploring the area of **AI for DevOps** to determine how AI can be leveraged to improve configuration management, continuous verification, service management, scalability analysis, etc. For example, we have developed a intelligent continuous verification tool to ensure software errors are not transferred to production. If a release verification fails, it is automatically kept out of production by doing a rollback. The tool determines whether or not a release can be pushed to production and requires little-to-no human intervention. 
 
 
 TUB Innovation Lab
