@@ -1,7 +1,7 @@
 ---
 layout: media
 permalink: /
-title: Home
+title: 
 toc: true
 ads: false
 comments: true
@@ -9,10 +9,7 @@ published: true
 ---
 
 
-<p>
-<img src="./images/Jorge_Cardoso.png" height="128" width="155" style="float:left;margin:0 20px 0 0;"/>
-</p>
-
+<p><img src="./images/Jorge_Cardoso.png" height="128" width="155" style="float:left;margin:0 20px 0 0;"/></p>
 
 I currently lead the **Ultra-scale AIOps Lab** and I take dual role of Chief Architect and Engineer Manager at the 
 [Huawei Munich Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany and [Huawei Ireland Research Center](https://huawei.eu/what-we-do/digital-transformation) in Dublin, Ireland.
@@ -193,7 +190,7 @@ More...
 I discovered by a random chance my passion in programming and computing when I was 14. My first computer was a [Timex Computer 2068](https://en.wikipedia.org/wiki/Timex_Sinclair_2068) and [BASIC](https://en.wikipedia.org/wiki/BASIC) was the first language I learned.
 
 
-Our culture of innovation and R&D is based on 4 main guiding principles:
+Our lab's culture of innovation and R&D is based on 4 main guiding principles:
 
 + [DIY](https://en.wikipedia.org/wiki/Do_it_yourself),
 [KISS](https://pt.wikipedia.org/wiki/Keep_It_Simple),
@@ -202,7 +199,7 @@ Our culture of innovation and R&D is based on 4 main guiding principles:
 
 > A good researcher says, "Lets find out", others say "Nobody knows". When a good researcher makes a mistake, he says, I was  wrong", others say "It wasn't my fault". A good researcher works harder than others and has more time. Others are always "too busy" to do what is necessary. [Unknown source]
 
-Two good sources of information for researcher:
+Two good sources of information for researchers:
 
 + [ACM Calendar of Events](http://campus.acm.org/calendar/)
 + [IEEE Conference Calls for Submissions](http://www.ieee.org/conferences_events/index.html)
