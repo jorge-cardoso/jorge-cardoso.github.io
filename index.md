@@ -198,13 +198,12 @@ Our lab's culture of innovation and R&D is based on 4 main guiding principles:
 [Deep Work](https://www.amazon.com/gp/product/1455586692)*, 
 [KPI-driven Research](https://en.wikipedia.org/wiki/Performance_indicator), * (Time Spent) x (Intensity of Focus)
 
-> A good researcher says, "Lets find out", others say "Nobody knows". When a good researcher makes a mistake, he says, I was  wrong", others say "It wasn't my fault". A good researcher works harder than others and has more time. Others are always "too busy" to do what is necessary. [Unknown source]
-
 Two good sources of information for researchers:
 
 + [ACM Calendar of Events](http://campus.acm.org/calendar/)
 + [IEEE Conference Calls for Submissions](http://www.ieee.org/conferences_events/index.html)
 
+> A good researcher says, "Lets find out", others say "Nobody knows". When a good researcher makes a mistake, he says, I was  wrong", others say "It wasn't my fault". A good researcher works harder than others and has more time. Others are always "too busy" to do what is necessary. [Unknown source]
 
 Contact
 -------
