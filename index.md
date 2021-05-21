@@ -23,12 +23,11 @@ The areas are explored in three fields:
 
 + **AI for Networks**. We leverage ML to automate routine tasks, such as verification, configuration, optimization and troubleshooting. The new algorithms and tools developed enable network operators and architects with key network insights and actionable information.  
 
-We are also exploring the area of **AI for DevOps** to determine how AI can be leveraged to improve configuration management, continuous verification, service management, scalability analysis, etc. For example, we have developed a intelligent continuous verification tool to ensure software errors are not transferred to production. If a release verification fails, it is automatically kept out of production by doing a rollback. The tool determines whether or not a release can be pushed to production and requires little-to-no human intervention. 
+We are also exploring the area of **AI for DevOps** to determine how AI can be leveraged to improve configuration management, continuous verification, service management, scalability analysis, etc. For example, we have developed a intelligent continuous verification tool to ensure software errors are not transferred to production. If a release verification fails, it is automatically kept out of production by doing a rollback. The tool determines whether or not a release can be pushed to production and requires little-to-no human intervention. In this field we have some preliminary work on process mining (e.g., Assessing Software Development Teams Efficiency using Process Mining, [International Conference on Process Mining](https://icpmconference.org), 2019, Germany)
 
 
-TUB Innovation Lab
-------------------
-to come
+**TUB Innovation Lab**
+objectives from the Charter
 
 
 Ultra-scale AIOps
@@ -52,7 +51,7 @@ They are applied to create new and innovative systems for:
 + Natural Language Processing for systems’ behaviour analysis.
 
 We are currently developing the iForesight system which is being used to evaluate this new O&M approach. 
-[iForesight 3.0](/research/iforesight) is the result of more than 2 years of research with
+[iForesight 3.0](/projects/iforesight) is the result of more than 2 years of research with
 the goal to provide an intelligent new tool aimed at [SRE](https://en.wikipedia.org/wiki/Site_Reliability_Engineering)
 cloud maintenance teams. 
 It enables them to quickly detect, localize and predict anomalies thanks to the use of artificial intelligence when
@@ -91,6 +90,9 @@ In Service-Oriented and Cloud Computing (ESOCC 2020), online, 2020.
 Filipe, R.; Correia, J.; Araujo, F. and Cardoso, J.
 In IEEE 18th International Symposium on Network Computing and Applications (NCA), online, 2019.
 
+In 2020 we organized an interntional workshop on AIOps which we plan to repeat in 2021
+
++ AIOPS 2020 International Workshop on Artificial Intelligence for IT Operations, 18th International Conference on Service Oriented Computing, Dubai Virtual, 14 December 2020.
 
 
 Edge AI
@@ -138,27 +140,56 @@ As a step in the field of AI for Networks, we are organizing the [1st Network Ve
 News
 ----
 + I will serve as Industrial Track Co-Chair for the *[19th edition of the International Conference on Service Oriented Computing (ICSOC 2021)](http://icsoc2021.josueonline.com/)*, November 22nd to 25th, Dubai.
-+ We organized the AIOPS 2020 International Workshop on Artificial Intelligence for IT Operations, part of the 
-18th International Conference on Service Oriented Computing, Dubai Virtual, 14 December 2020.
 + My Lecture on [AIOps: Anomalous Span Detection in Distributed Traces Using Deep Learning](https://www.slideshare.net/JorgeCardoso4/aiops-anomalous-span-detection-in-distributed-traces-using-deep-learning) presented at Prof. Joeran Beel's Chair (Intelligent Systems, Trinity College Dublin) on 02.10.2019 is now available.
 + Our article *Towards Occupation Inference in Non-instrumented Services* was accepted to IEEE Network Computing and Applications. Boston, MA, USA, September 2019.
-+ Andre Pascoal Bento defended successfully his thesis [Observing and Controlling Performance in Microservices](research/pdf_img/MSc_thesis_Andre_Bento.pdf)
-+ Our article *Assessing Software Development Teams Efficiency using Process Mining* was accepted to [International Conference on Process Mining](https://icpmconference.org), June 24-26, 2019, Aachen, Germany
++ Andre Pascoal Bento defended successfully his thesis [Observing and Controlling Performance in Microservices](projects/pdf_img/MSc_thesis_Andre_Bento.pdf)
 + Our article *On Black-Box Monitoring Techniques for Multi-Component Services* was accepted to [17th IEEE International Symposium on Network Computing and Applications (NCA)](http://www.ieee-nca.org/2018/), 1-3.10, 2018, Cambridge, US. **(Conference Rank: A)**
 + This year we are part of the Program Committee of [SREcon 2019](https://www.usenix.org/conference/srecon19emea/), 2–4 October, 2019, Dublin, Ireland.
 + Jorge Cardoso [Mastering AIOps with Deep Learning](https://pt.slideshare.net/JorgeCardoso4/mastering-aiops-with-deep-learning), Presentation at [SRECon18](https://www.usenix.org/conference/srecon18europe), 29–31 August 2018, Dusseldorf, Germany.
-+ Georgia Kapitsaki, Josef Ioannou, Jorge Cardoso, Carlos Pedrinaci, "Linked USDL Privacy: Describing Privacy Policies
- for Service",  was published at the IEEE Inter. Conf. on Web Services (ICWS) **(Conference Rank: A)**, 2-7 July 2018, San Francisco, USA, 2018. 
 + [International Industry-Academia Workshop on Cloud Reliability and Resilience](https://www.eitdigital.eu/news-events/events/article/international-industry-academia-workshop-on-cloud-reliability-and-resilience/), 7-8 November 2016, Berlin, Germany.
-+ José María García, Pablo Fernández, Carlos Pedrinaci, Manuel Resinas, Jorge Cardoso, Antonio Ruiz-Cortés, "Modeling Service Level Agreements with Linked USDL Agreement", IEEE Transactions on Services Computing **(Impact Factor 2016: 3.049)**, pp. 52-65, Volume: 10, Issue: 1, Jan.-Feb. 1 2017.
-+ José María García, Carlos Pedrinaci, Manuel Resinas, Jorge Cardoso, Pablo Fernández, Antonio Ruiz-Cortés. [Linked USDL Agreement: Effectively Sharing Semantic Service Level Agreements on the Web](/publications/Papers/CP-2015-079-Linked-USDL-Agreement.pdf), The IEEE International Conference on Web Services (ICWS), June 27 - July 2, 2015, New York, USA. **(Acceptance Rate: 17.4%)**
-+ Jorge Cardoso and Carlos Pedrinaci, [Evolution and Overview of Linked USDL](/publications/Papers/CP-2015-077-Linked-USDL-Evolution-and-Overview.pdf). 6th International Conference Exploring Services Science, IESS 2015, Porto, Portugal, February 4-6, 2015, LNBIP, Vol. 201, Novoa, Henriqueta, Dragoicea, Monica (Eds.), 2015.
-+ Cardoso, J., R Mans, PR da Cunha, W van der Aalst, H Berthold, [A framework for next generation e-health systems and services](/publications/Papers/CP-2015-080-Framework-e-health-systems.pdf) Proc. Amer. Conf. Inf. Syst. (AMCIS), pp. 1-11. 2015.  **(Conference Rank: A)**
-+ Pedrinaci, C.; Cardoso, J. and Leidig, T. [Linked USDL: A Vocabulary for Web-scale Service Trading](/publications/Papers/CP-2014-073-ESWC-Linked-USDL.pdf). In 11th Extended Semantic Web Conference (ESWC), Crete, Greece, 2014. (Acceptance Rate: 25%)
-+ Cardoso, J.; Binz, T.; Breitenbucher, Uwe; Kopp, O. and Leymann, F. [Cloud Computing Automation: Integrating USDL and TOSCA](/publications/Papers/CP-2013-068-CAISE-USDL-and-TOSCA.pdf). In 25th Conference on Advanced Information Systems Engineering (CAiSE  2013), pages 1-16, Springer, LNCS, Vol. 7908, 2013. **(Conference Rank: A; Acceptance rate: 16,6%)**
+
+
 + Francesco Guerra (Chair) and Jorge Cardoso (Vice-Chair). [COST Action IC1302: semantic KEYword-based Search on sTructured data sOurcEs](http://www.keystone-cost.eu), 2013-2017.
 
 
+
+Open Positions
+--------------
+
+Thanks for your interest in working with our applied research group at the 
+[Huawei Munich Research Center](https://huawei.eu/research-and-innovation) or at the 
+[University of Coimbra](https://www.uc.pt/en). 
+
+If you are curious about systems, want to be challenged and engage in cutting edge research, propose novel ideas not proposed before, and leave your own mark on the academic world, you are probably a good candidate for a PhD.
+While a MSc involve often involves the application of existing models and techniques, a PhD are almost totally independent and involve the creation of novel knowledge not know before. 
+
+Our group has a special in interested in the following fields:
+
++ AI applied to cloud operations (AIOps)
++ Planet-scale cloud computing.
++ Machine learning.
++ Distributed systems.
++ Other fields (see my [Google Scholar profile](https://scholar.google.com/citations?user=n9JFmAkAAAAJ&hl=en)).
+
+Our group thrives to see the larger picture, be innovative and creative, and drive to make a lasting impact 
+on planet-scale distributed system design and software systems. *We can't solve problems by using the same kind of thinking we used when we created them* -- Einstein.
+
+We are always looking forward to work with excellent researchers which:
+
++ Simplify the complexity of existing technical solutions (KISS principle) 
++ Solve difficult technical problems (DIY principle)
++ Focus on the solution, not the obstacle
++ Translate theory into practice
+
+
+If need more information explaining what a PhD/MSc thesis is about, you can browse over the following links:
+
++ [Writing a Thesis Proposal](https://www.sydney.edu.au/content/dam/students/documents/learning-resources/learning-centre/writing-a-thesis-proposal.pdf), Learning Centre, University of Sydney.
++ [How to write a great research paper](http://research.microsoft.com/en-us/um/people/simonpj/papers/giving-a-talk/writing-a-paper-slides.pdf), by Simon Peyton Jones at Microsoft Research.
++ [Understanding Science 101](http://undsci.berkeley.edu/article/0_0_0/us101contents_01), University of California, Berkeley, US.
++ [Academic Writing and Publishing: A Practical Handbook](https://www.amazon.co.uk/Academic-Writing-Publishing-Practical-Handbook/dp/0415453224), by James Hartley.
+
+We are also open to host academic visitors (students or faculty).
 
 About me
 --------
@@ -184,12 +215,9 @@ He created and led until 2009 the development of the [W3C Unified Service Descri
 
 He has a Ph.D. from the [University of Georgia](https://www.uga.edu) (US, 2002) and a MSc and BSc in Informatics Engineering [University of Coimbra](https://www.uc.pt/en/fctuc/dei) (Portugal, 1995, 1998).
 
-
-More...
--------
+### Random info
 
 I discovered by a random chance my passion in programming and computing when I was 14. My first computer was a [Timex Computer 2068](https://en.wikipedia.org/wiki/Timex_Sinclair_2068) and [BASIC](https://en.wikipedia.org/wiki/BASIC) was the first language I learned.
-
 
 Our lab's culture of innovation and R&D is based on 4 main guiding principles:
 
