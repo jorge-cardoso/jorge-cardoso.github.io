@@ -116,6 +116,9 @@ Our approach leverages the following techniques:
 + [DL models](https://github.com/onnx/models): CNN, LSTM, AlexNet, Yolo, MXNet, GoogleNet, etc.
 + [Sedna Open source Edge AI frameworks](https://github.com/kubeedge/sedna)
 
+Facebook has written a very intersting paper on [Understanding Inference at the Edge](https://research.fb.com/wp-content/uploads/2018/12/Machine-Learning-at-Facebook-Understanding-Inference-at-the-Edge.pdf) [slides](https://amld-prd.s3.eu-central-1.amazonaws.com/qwe1xb1o1w5361n7ut10q2keqv4o).
+The main proposition is that AI models are currently trained in datacenters, but to improve user experience models need run at the edge. This will enable a lower  latency and lower dependency on network connectivity. Vertical integration is key.
+
 
 
 AI for Networks
