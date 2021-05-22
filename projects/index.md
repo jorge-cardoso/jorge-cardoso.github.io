@@ -19,8 +19,8 @@ AIOps iForesight
 In planet-scale deployments, the Operation and Maintenance (O&M) of cloud platforms cannot be done any longer manually or simply with off-the-shelf solutions. 
 It requires self-developed automated systems, ideally exploiting the use of AI to provide tools for autonomous cloud operations. We rely on deep learning, distributed traces, and time-series analysis to effectively detect and fix anomalous cloud infrastructure behaviors during operations to reduce the workload of human operators. 
 
-<a href="../pdf_img/iforesight3.png">
-<img src="../pdf_img/iforesight3.png" height="25%" width="25%" style="float:right;margin:0 20px 0 0;"/>
+<a href="./pdf_img/iforesight3.png">
+<img src="./pdf_img/iforesight3.png" height="25%" width="25%" style="float:right;margin:0 20px 0 0;"/>
 </a>
 
 The iForesight system is being used to evaluate new O&M and AIOps approaches. iForesight 3.0 is the result of 3 years  of research with the goal to provide an intelligent new tool aimed at SRE cloud maintenance teams. It enables  them to quickly detect and predict anomalies thanks to the use of artificial intelligence when cloud services are slow or unresponsive. 
