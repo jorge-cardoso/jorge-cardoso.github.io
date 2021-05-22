@@ -197,26 +197,26 @@ We are also open to host academic visitors (students or faculty).
 About me
 --------
 
-Jorge Cardoso is currently leads the Ultra-scale AIOps Lab and takes the role of Chief Architect and Engineer Manager at the 
-[Huawei Munich Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany.
-He is also Associate Professor at the [University of Coimbra](https://www.uc.pt/en/fctuc/dei) (Portugal), and
-affiliated to the Information Systems Group.
-He has interests in the fields of Cloud Computing, AI, SRE, BPM, Semantic Web, Web Services, and Enterprise Systems (see [Google Scholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en&oi=ao), [DBLP](http://dblp.uni-trier.de/pers/hd/c/Cardoso:Jorge), and [LinkedIn](https://www.linkedin.com/in/jorge-cardoso-75ba40/))
+After ~15 years of working for different industrial and academic research organizations (e.g., [SAP Research](http://go.sap.com/), [The Boeing Company](http://www.boeing.com), [CCG/Zentrum fur Graphische Datenverarbeitung](http://www.ccg.pt/en/), KIT, University of Dresden, University of Coimbra), Jorge joined [Huawei Munich Research Center](http://www.huawei.eu/research-and-innovation) as a Chief Architect for Ultra-scale AIOps in April 2015 with the mission of building a new team to develop innovative solutions which explore AI/ML to operate and manage the troubleshooting of [HUAWEI CLOUD](https://www.huaweicloud.com/intl/en-us/).
 
-Previously, he worked for several major companies such as [SAP Research](http://go.sap.com/) (Germany) on the 
-Internet of Services, [The Boeing Company](http://www.boeing.com) in Seattle (USA) on Enterprise Application 
-Integration and [CCG/Zentrum fur Graphische Datenverarbeitung]( http://www.ccg.pt/en/) on Computer Supported 
-Cooperative Work.
+As a strategist, he leads the vision, technical planning and research innovation roadmaps for applied AI to IT O&M.
+As a chief architect, he designs and implements AI-driven systems and AI algorithms.
+As an engineer manager, he leads 3 teams in the fields of AIOps, Edge AI and AI for Networks. 
 
-He has authored and co-authored more than 180 scientific publications and has been part of more than 120 program  committees and organization bodies (journals and conferences). He his author/editor of 9 books. He holds 6 US  and EU patents on process management and reliability engineering.
-[GoogleScholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en) shows more than  9500 citations for his research work with an h-index of 45. 
-His last book, titled [Fundamentals of Service Systems](http://www.springer.com/de/book/9783319231945) from Springer, compiles results from the research work of his areas of interest: cloud computing, business process management,  semantic Web, the Internet of Services, and service engineering.
+Jorge has published over 180 scientific publications in top peer-reviewed conferences and journals in the field of AI for IT operations, distributed systems, workflow management and semantic web ([9500+ citations, h-index 45](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en)), and holds 10 patents on related fields. 
+He serves as an associate editor of IEEE Software since 2014. 
+His latest book [Fundamentals of Service Systems](http://www.springer.com/de/book/9783319231945) compiles results from his research work in 2010-2015. 
+He created and led until 2009 the development of the [W3C Unified Service Description Language (USDL)](https://github.com/linked-usdl).
 
 He participated in European, German, US, and National research projects financed by the  European Commission (FP7, EACEA), the German Ministry for Education and Research (BMBF), SAP Research (SAP)  and Portuguese NSF (FCT). He is a founding member of the IFIP Working Group 12.7 on Social Semantics. 
 
-He created and led until 2009 the development of the [W3C Unified Service Description Language (USDL)](https://github.com/linked-usdl).
+He is also Associate Professor at the [University of Coimbra](https://www.uc.pt/en/fctuc/dei), and
+affiliated to the Information Systems Group.
+He has interests in the fields of Cloud Computing, AI, SRE, BPM, Semantic Web, Web Services, and Enterprise Systems (see [Google Scholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en&oi=ao), [DBLP](http://dblp.uni-trier.de/pers/hd/c/Cardoso:Jorge), and [LinkedIn](https://www.linkedin.com/in/jorge-cardoso-75ba40/))
 
-He has a Ph.D. from the [University of Georgia](https://www.uga.edu) (US, 2002) and a MSc and BSc in Informatics Engineering [University of Coimbra](https://www.uc.pt/en/fctuc/dei) (Portugal, 1995, 1998).
+Jorge received his Ph.D. in Computer Science from the [University of Georgia](https://www.uga.edu) and B.S. and M.S. degrees with top honors in Informatics Engineering from the [University of Coimbra](https://www.uc.pt/en/fctuc/dei), Portugal.
+
+
 
 ### Random info
 
