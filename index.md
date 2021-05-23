@@ -199,9 +199,11 @@ About me
 
 After ~15 years of working for different industrial and academic research organizations (e.g., [SAP Research](http://go.sap.com/), [The Boeing Company](http://www.boeing.com), [CCG/Zentrum fur Graphische Datenverarbeitung](http://www.ccg.pt/en/), KIT, University of Dresden, University of Coimbra), Jorge joined [Huawei Munich Research Center](http://www.huawei.eu/research-and-innovation) as a Chief Architect for Ultra-scale AIOps in April 2015 with the mission of building a new team to develop innovative solutions which explore AI/ML to operate and manage the troubleshooting of [HUAWEI CLOUD](https://www.huaweicloud.com/intl/en-us/).
 
-As a strategist, he leads the vision, technical planning and research innovation roadmaps for applied AI to IT O&M.
-As a chief architect, he designs and implements AI-driven systems and AI algorithms.
+As a strategist, he leads the vision, technical planning and research innovation roadmaps for applied AI to IT operation and maintenance.
+As a chief architect, he designs and implements AI-driven systems and algorithms.
 As an engineer manager, he leads 3 teams in the fields of AIOps, Edge AI and AI for Networks. 
+
+Jorge enjoys his current role and is always seeking for new technological challenges and breakthroughs in the fields of cloud computing, artificial intelligence and the Internet of Things.
 
 In 2021, he co-founded the Huawei-TUB Innovation Lab for AI-driven Autonomous Operations.
 Jorge has published over 180 scientific publications in top peer-reviewed conferences and journals in the field of AI for IT operations, distributed systems, workflow management and semantic web ([9500+ citations, h-index 45](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en)), and holds 10 patents on related fields. 
