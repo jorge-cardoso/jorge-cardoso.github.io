@@ -203,6 +203,7 @@ As a strategist, he leads the vision, technical planning and research innovation
 As a chief architect, he designs and implements AI-driven systems and AI algorithms.
 As an engineer manager, he leads 3 teams in the fields of AIOps, Edge AI and AI for Networks. 
 
+In 2021, he is co-founder the Huawei-TUB Innovation Lab for AI-driven Autonomous Operations.
 Jorge has published over 180 scientific publications in top peer-reviewed conferences and journals in the field of AI for IT operations, distributed systems, workflow management and semantic web ([9500+ citations, h-index 45](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en)), and holds 10 patents on related fields. 
 He serves as an associate editor of IEEE Software since 2014. 
 His latest book [Fundamentals of Service Systems](http://www.springer.com/de/book/9783319231945) compiles results from his research work in 2010-2015. 
