@@ -119,6 +119,7 @@ Our approach leverages the following techniques:
 Facebook has written a very interesting paper on [Understanding Inference at the Edge](https://research.fb.com/wp-content/uploads/2018/12/Machine-Learning-at-Facebook-Understanding-Inference-at-the-Edge.pdf)([slides](https://amld-prd.s3.eu-central-1.amazonaws.com/qwe1xb1o1w5361n7ut10q2keqv4o)).
 The main proposition is that AI models are currently trained in datacenters, but to improve user experience models need to run at the edge. This will enable a lower  latency and lower dependency on network connectivity. Vertical integration is key.
 
+Another interesting example of Edge AI (Device AI may be a better term) comes from Google. [GBoard](https://en.wikipedia.org/wiki/Gboard) is a smartphone keyboard software that does not use centralized retraining of AI models. Instead, smartphones retrain local models and send model changes to a central system. Changes are integrated into a new model which is pushed back to customer devices. This federated learning approach guarantees privacy and a lower power consumption.
 
 
 AI for Networks
