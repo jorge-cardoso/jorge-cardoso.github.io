@@ -17,20 +17,20 @@ I currently lead the **Ultra-scale AIOps Lab** and I take a dual role of Chief A
 Using machine learning and deep learning techniques, we apply AI to various areas related to [HUAWEI CLOUD](https://www.huaweicloud.com/intl/en-us/) such as: anomaly detection, root cause analysis, failure prediction, reliability and availability, risk estimation and security, network verification, and low-latency object tracking.
 The areas are categorized in three fields:
 
-+ **Ultra-scale AIOps**. We apply analytics and machine learning (ML) techniques to automate IT operations and maintenance. We collect operational data from IT infrastructures, leverage big data and AI platforms to automatically detect and predict failures in datacenters and cloud platforms in real-time. <img src="./images/Cloud_edge_device.png" height="300" width="600" style="float:right;margin:20px 20px 20px 20px;"/>
++ **AI for Operations**. We apply analytics and machine learning (ML) techniques to automate IT operations and maintenance. We collect operational data from IT infrastructures, leverage big data and AI platforms to automatically detect and predict failures in datacenters and cloud platforms in real-time. <img src="./images/Cloud_edge_device.png" height="300" width="600" style="float:right;margin:20px 20px 20px 20px;"/>
 
 + **Edge AI**. We bring ML algorithms, computation and data storage closer to the devices where data is generated. This local computation allows to process data in devices with a low latency. Examples of use cases include video surveillance and  health monitoring. 
 
 + **AI for Networks**. We leverage ML to automate routine tasks, such as network verification, configuration, optimization and troubleshooting. The new algorithms and tools developed provide network operators and architects with key network insights and actionable information.  
 
-We are also exploring the area of **AI for DevOps** to determine how AI can be leveraged to improve configuration management, continuous verification, service management, scalability analysis, etc. For example, we have developed an intelligent continuous verification tool to ensure software errors are not transferred to production. If a release verification fails, it is automatically kept out of production by doing a rollback. The tool determines whether or not a release can be pushed to production and requires little-to-no human intervention. In this field we havealso done some preliminary work on process mining (e.g., Assessing Software Development Teams Efficiency using Process Mining, [International Conference on Process Mining](https://icpmconference.org), 2019, Germany)
++ **AI for DevOps**. We are also exploring the area of AI for DevOps to determine how AI can be leveraged to improve configuration management, continuous verification, service management, scalability analysis, etc. 
+
+Another field of interest is **customer intelligence** which analyzes the activities and interactions executed by customers when using cloud services. Important types of analysis include usage patterns identification, churn analysis, and automated customer support for diagnose and repair. 
+
+Many of our innovation and system developments is done in collaboration with the [Technical University of Berlin](https://www.dos.tu-berlin.de/menue/datesnews/news/huawei_tub_innovation_lab_kick_off/) and the Huawei-TUB Innovation Lab.
 
 
-**TUB Innovation Lab**
-objectives from the Charter
-
-
-Ultra-scale AIOps
+AI for Operations
 -----------------
 
 Our current research involves the development of the **next generation of AI-driven IT Operations tools and platforms**.
@@ -42,13 +42,12 @@ It requires self-developed automated systems, ideally exploiting the use of AI t
 These techniques are typically applied to Big Data coming from 
 microservice [observability data](https://www.mstakx.com/wp-content/uploads/2018/09/A-Practical-Observability-Primer-1.pdf).
 
-We create new and innovative systems for:
+We create innovative systems for:
 
-+ AI-driven Cloud Operations
-+ Fault prevention, prediction, detection, localization, and recovery  
-+ Planet-scale monitoring of distributed systems
-+ Applied machine learning for predictive software maintenance
-+ Natural Language Processing for systems’ behaviour analysis
++ **Service health analysis**: Resource utilization (e.g., memory leaks), anomaly detection using KPI and logs
++ **Predictive analytics**: fault prevention, SW/HW failure prediction  
++ **Automated recovery**: fault localization and recovery
++ **Operational risk analysis**: CLI command analysis
 
 We are currently developing the iForesight system which is being used to evaluate this new O&M approach. 
 [iForesight 5.0](/projects/iforesight) is the result of more than 3 years of R&D with
@@ -138,6 +137,20 @@ Our approach leverages the following techniques:
 + SmartNICS/FPGAs
 
 As a step in the field of AI for Networks, we are organizing the [1st Network Verification Workshop](https://networkverification-workshop.github.io/) to provide a forum for the community to come together and rethink fundamental questions, breakthrough solutions in network verification in summer 2021.
+
+
+AI for DevOps
+-------------
+
+We have developed an intelligent continuous verification tool to ensure software errors are not transferred to production. If a release verification fails, it is automatically kept out of production by doing a rollback. The tool determines whether or not a release can be pushed to production and requires little-to-no human intervention. 
+
+We create innovative systems for:
+
++ **Intelligent coding**: logging recommendations, coding efficiency
++ **CI/CD**: continuous verification, configuration management
++ **Real-time debugging**: exception management 
+
+In this field we have also done some preliminary work on process mining (e.g., Assessing Software Development Teams Efficiency using Process Mining, [International Conference on Process Mining](https://icpmconference.org), 2019, Germany)
 
 
 News
