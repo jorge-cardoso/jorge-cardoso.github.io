@@ -224,11 +224,12 @@ He created and led until 2009 the development of the [W3C Unified Service Descri
 
 He participated in European, German, US, and National research projects financed by the  European Commission (FP7, EACEA), the German Ministry for Education and Research (BMBF), SAP Research (SAP)  and Portuguese NSF (FCT). He is a founding member of the IFIP Working Group 12.7 on Social Semantics. 
 
-He is also Associate Professor at the [University of Coimbra](https://www.uc.pt/en/fctuc/dei), and
+He is also Professor at the [University of Coimbra](https://www.uc.pt/en/fctuc/dei), and
 affiliated to the Information Systems Group.
 He has interests in the fields of Cloud Computing, AI, SRE, BPM, Semantic Web, Web Services, and Enterprise Systems (see [Google Scholar](https://scholar.google.de/citations?user=n9JFmAkAAAAJ&hl=en&oi=ao), [DBLP](http://dblp.uni-trier.de/pers/hd/c/Cardoso:Jorge), and [LinkedIn](https://www.linkedin.com/in/jorge-cardoso-75ba40/))
 
-Jorge received his Ph.D. in Computer Science from the [University of Georgia](https://www.uga.edu) and B.S. and M.S. degrees with top honors in Informatics Engineering from the [University of Coimbra](https://www.uc.pt/en/fctuc/dei), Portugal.
+Jorge received his Ph.D. in Computer Science from the [University of Georgia](https://www.uga.edu), USA, and B.S. and M.S. degrees with top honors in Informatics Engineering from the [University of 
+Coimbra](https://www.uc.pt/en/fctuc/dei), Portugal.
 
 
 
@@ -236,12 +237,14 @@ Jorge received his Ph.D. in Computer Science from the [University of Georgia](ht
 
 I discovered by a random chance my passion in programming and computing when I was 14. My first computer was a [Timex Computer 2068](https://en.wikipedia.org/wiki/Timex_Sinclair_2068) and [BASIC](https://en.wikipedia.org/wiki/BASIC) was the first language I learned.
 
-Our lab's culture of innovation and R&D is based on 4 main guiding principles:
+Our lab's culture of innovation and R&D is based on 5 main guiding principles:
 
 + [DIY](https://en.wikipedia.org/wiki/Do_it_yourself),
-[KISS](https://pt.wikipedia.org/wiki/Keep_It_Simple),
+[KISS](https://en.wikipedia.org/wiki/KISS_principle),
 [Deep Work](https://www.amazon.com/gp/product/1455586692)*, 
-[KPI-driven Research](https://en.wikipedia.org/wiki/Performance_indicator), * (Time Spent) x (Intensity of Focus)
+[KPI-driven Research](https://en.wikipedia.org/wiki/Performance_indicator), 
+[Humorful](https://www.forbes.com/sites/jacquelynsmith/2013/05/03/10-reasons-why-humor-is-a-key-to-success-at-work/) 
++ (*) Time Spent x Intensity of Focus
   
 > A good researcher says, "Lets find out", others say "Nobody knows". When a good researcher makes a mistake, he says, I was  wrong", others say "It wasn't my fault". A good researcher works harder than others and has more time. Others are always "too busy" to do what is necessary. [Unknown source]
 
