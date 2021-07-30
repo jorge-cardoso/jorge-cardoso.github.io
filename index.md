@@ -29,6 +29,8 @@ Another field of interest is **customer intelligence** which analyzes the activi
 
 Many of our innovation and system developments is done in collaboration with the [Technical University of Berlin](https://www.dos.tu-berlin.de/menue/datesnews/news/huawei_tub_innovation_lab_kick_off/) and the Huawei-TUB Innovation Lab.
 
+You can find more information about our work in the [Lab presentation](/pdf/2021-07-29-Ultra_Scale_AIOps_Lab_Workshop.pdf) we made in July 2021 at the [The 1st Network Verification Workshop](https://networkverification-workshop.github.io/).
+
 
 AI for Operations
 -----------------
