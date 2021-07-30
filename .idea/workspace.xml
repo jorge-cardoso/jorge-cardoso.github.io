@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="from sklearn.metrics import f1_score&#10;from sklearn.metrics import precision_score&#10;from sklearn.metrics import recall_score&#10;from sklearn.metrics import accuracy_score&#10;&#10;labels_tokenized = [label_mapper[label] for label in labels]&#10;# print(labels)&#10;# print(predictions)&#10;print(&quot;The F1 score is {}&quot;.format(f1_score(y_true=labels_tokenized, y_pred=predictions, average=&quot;weighted&quot;)))&#10;print(&quot;The Precision score is {}&quot;.format(precision_score(y_true=labels_tokenized, y_pred=predictions, average=&quot;weighted&quot;)))&#10;print(&quot;The Recall score is {}&quot;.format(recall_score(y_true=labels_tokenized, y_pred=predictions, average=&quot;weighted&quot;)))&#10;print(&quot;The Accuracy score is {}&quot;.format(accuracy_score(y_true=labels_tokenized, y_pred=predictions)))">
-      <change afterPath="$PROJECT_DIR$/pdf/2021-07-29-Ultra_Scale_AIOps_Lab_Workshop.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-    </list>
+    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -292,13 +287,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
-    </task>
-    <task id="LOCAL-00059" summary="Updated">
-      <created>1573198472156</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1573198472157</updated>
     </task>
     <task id="LOCAL-00060" summary="Updated news">
       <created>1598853354894</created>
@@ -636,11 +624,17 @@
       <option name="project" value="LOCAL" />
       <updated>1617770449208</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="Updated Lab presentation">
+      <created>1627631631176</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1627631631177</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added sudo" />
     <MESSAGE value="Kill parent and children" />
     <MESSAGE value="added Google Analytics" />
     <MESSAGE value="Changed favicon" />
@@ -665,7 +659,8 @@
     <MESSAGE value="added ICSOC 2021" />
     <MESSAGE value="update metrics" />
     <MESSAGE value="minor" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor" />
+    <MESSAGE value="Updated Lab presentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Lab presentation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
