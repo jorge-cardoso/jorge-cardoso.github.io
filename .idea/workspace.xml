@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/patents/2021-08-13-Patent_check_list.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patents/2021-08-13-Patent_check_list.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patents/2020-04-18-Patent_Check_List_and_Template_CII_jcardoso.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patents/2020-04-18-Patent_Check_List_and_Template_CII_jcardoso.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,13 +290,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
-    </task>
-    <task id="LOCAL-00062" summary="Added papers for the AIOPS2020 workshop">
-      <created>1607932528236</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1607932528237</updated>
     </task>
     <task id="LOCAL-00063" summary="Added papers for the AIOPS2020 workshop">
       <created>1607933123003</created>
@@ -638,7 +627,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628845617120</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="Added patent information">
+      <created>1628846421476</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1628846421476</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
