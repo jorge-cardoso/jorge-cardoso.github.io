@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="" />
+    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/patents/2020-04-18-Patent_Check_List_and_Template_CII_jcardoso.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patents/2020-04-18-Patent_Check_List_and_Template_CII_jcardoso.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patents/sources/Example_of_Flowcharts_US20120214602.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patents/sources/How_to_write_your_first_patent_Andre_Reis.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patents/sources/Patenting_of_Computer_Implemented_Invensions_EPO.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patents/sources/Software_Patents_Slides.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patents/sources/Software_Patents_Slides.pdf:Zone.Identifier" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/patents" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
@@ -51,11 +61,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/patents" />
+      <recent name="$PROJECT_DIR$/pdf" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/../log_classifier" />
       <recent name="$PROJECT_DIR$/../mondai/tools/ev_chart" />
-      <recent name="$PROJECT_DIR$/../mondai/apps/magic_formulae" />
-      <recent name="$PROJECT_DIR$/../mondai/apps/emerging_markets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/pdf" />
@@ -287,13 +297,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
-    </task>
-    <task id="LOCAL-00060" summary="Updated news">
-      <created>1598853354894</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1598853354895</updated>
     </task>
     <task id="LOCAL-00061" summary="Fix https webpage display problem">
       <created>1604640890377</created>
@@ -631,7 +634,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627631631177</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="Updated Lab presentation">
+      <created>1627631934646</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1627631934646</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
