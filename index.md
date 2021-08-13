@@ -179,7 +179,7 @@ Thus, I prepared a checklist for computer implemented inventions for those writi
 For those who would like to read more about the topic, the EPO provides an online e-course:
 + [Patent course](https://e-courses.epo.org/wbts/pi_tour/index.html)
 
-A curiosity about patents. *Did you the paper clip has all the ingredients needed for a patent?* It was patented in 1897?
+A curiosity about patents. *Did you the paper clip has all the ingredients needed for a patent?* It was patented in 1897
 + [Paper Clip patent](https://patents.google.com/patent/US581901A/en)
 
 
