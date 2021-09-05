@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="from sklearn.metrics import f1_score&#10;from sklearn.metrics import precision_score&#10;from sklearn.metrics import recall_score&#10;from sklearn.metrics import accuracy_score&#10;&#10;labels_tokenized = [label_mapper[label] for label in labels]&#10;# print(labels)&#10;# print(predictions)&#10;print(&quot;The F1 score is {}&quot;.format(f1_score(y_true=labels_tokenized, y_pred=predictions, average=&quot;weighted&quot;)))&#10;print(&quot;The Precision score is {}&quot;.format(precision_score(y_true=labels_tokenized, y_pred=predictions, average=&quot;weighted&quot;)))&#10;print(&quot;The Recall score is {}&quot;.format(recall_score(y_true=labels_tokenized, y_pred=predictions, average=&quot;weighted&quot;)))&#10;print(&quot;The Accuracy score is {}&quot;.format(accuracy_score(y_true=labels_tokenized, y_pred=predictions)))">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mondai/apps/intrinsic_value/templates/INTRINSIC VALUE CALCULATION FORMULA SVEN CARLIN.xlsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mondai/tools/linkedin/analyze.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mondai/tools/linkedin/config_query_cicd.py" afterDir="false" />
@@ -15,11 +14,9 @@
       <change afterPath="$PROJECT_DIR$/../mondai/tools/oreo/spam.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mondai/tools/scalability_analysis/fit_curve.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mondai/tools/scalability_analysis/fit_curve_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jorge-cardoso.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jorge-cardoso.github.io.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mondai/apps/intrinsic_value/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/apps/intrinsic_value/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mondai/apps/intrinsic_value/static/intrinsic_value.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/apps/intrinsic_value/static/intrinsic_value.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mondai/tools/coralogix/eval_coralogix.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/tools/coralogix/eval_coralogix.py" afterDir="false" />
