@@ -2,10 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../mondai" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../trump2cash" vcs="Git" />
     <mapping directory="$USER_HOME$/PycharmProjects/log_level_estimation" vcs="Git" />
-    <mapping directory="$USER_HOME$/PycharmProjects/python-stock-service" vcs="Git" />
     <mapping directory="$USER_HOME$/PycharmProjects/trump2cash" vcs="Git" />
   </component>
 </project>

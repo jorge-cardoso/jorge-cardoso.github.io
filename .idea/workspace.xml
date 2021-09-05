@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="from sklearn.metrics import f1_score&#10;from sklearn.metrics import precision_score&#10;from sklearn.metrics import recall_score&#10;from sklearn.metrics import accuracy_score&#10;&#10;labels_tokenized = [label_mapper[label] for label in labels]&#10;# print(labels)&#10;# print(predictions)&#10;print(&quot;The F1 score is {}&quot;.format(f1_score(y_true=labels_tokenized, y_pred=predictions, average=&quot;weighted&quot;)))&#10;print(&quot;The Precision score is {}&quot;.format(precision_score(y_true=labels_tokenized, y_pred=predictions, average=&quot;weighted&quot;)))&#10;print(&quot;The Recall score is {}&quot;.format(recall_score(y_true=labels_tokenized, y_pred=predictions, average=&quot;weighted&quot;)))&#10;print(&quot;The Accuracy score is {}&quot;.format(accuracy_score(y_true=labels_tokenized, y_pred=predictions)))">
-      <change afterPath="$PROJECT_DIR$/../mondai/apps/intrinsic_value/templates/INTRINSIC VALUE CALCULATION FORMULA SVEN CARLIN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mondai/tools/linkedin/analyze.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mondai/tools/linkedin/config_query_cicd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mondai/tools/linkedin/config_quey_elk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mondai/tools/linkedin/job_description.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mondai/tools/linkedin/linkedin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mondai/tools/oreo/classifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mondai/tools/oreo/commands.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mondai/tools/oreo/sessions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mondai/tools/oreo/spam.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mondai/tools/scalability_analysis/fit_curve.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mondai/tools/scalability_analysis/fit_curve_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jorge-cardoso.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jorge-cardoso.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/apps/intrinsic_value/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/apps/intrinsic_value/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/apps/intrinsic_value/static/intrinsic_value.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/apps/intrinsic_value/static/intrinsic_value.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mondai/tools/coralogix/eval_coralogix.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mondai/tools/coralogix/eval_coralogix.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,13 +285,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
-    </task>
-    <task id="LOCAL-00059" summary="Updated">
-      <created>1573198472156</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1573198472157</updated>
     </task>
     <task id="LOCAL-00060" summary="Updated news">
       <created>1598853354894</created>
@@ -641,11 +622,17 @@
       <option name="project" value="LOCAL" />
       <updated>1617770449208</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="Added IEEE SERVICES 2021 panel">
+      <created>1630860596526</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1630860596526</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added sudo" />
     <MESSAGE value="Kill parent and children" />
     <MESSAGE value="added Google Analytics" />
     <MESSAGE value="Changed favicon" />
@@ -670,7 +657,8 @@
     <MESSAGE value="added ICSOC 2021" />
     <MESSAGE value="update metrics" />
     <MESSAGE value="minor" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor" />
+    <MESSAGE value="Added IEEE SERVICES 2021 panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added IEEE SERVICES 2021 panel" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
