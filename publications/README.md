@@ -14,5 +14,5 @@ To generate the new bibs and publications web page:
 
 ### Updating github after changes
 + git add .
-+ git commit -m "Added ESOC 2020 paper"
++ git commit -m "Added UCC 2020 paper"
 + git push origin master

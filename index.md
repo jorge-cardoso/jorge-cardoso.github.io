@@ -74,6 +74,9 @@ In 19th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing ([
 Nedelkoski, S.; Cardoso, J. and Kao, O.
 [IEEE Cloud 2019](http://conferences.computer.org/cloud/2019/), Italy, 2019.
 **(Acceptance Rate: 21%)**
++ [Self-Supervised Anomaly Detection from Distributed Traces](a)
+J. Bogatinovski, S. Nedelkoski, J. Cardoso, and O. Kao.
+In 2020 IEEE/ACM 13th International Conference on Utility and Cloud Computing (UCC). 2020.
 + [A Systematic Mapping Study in AIOps](/publications/Papers/WP-2020-079-AIOPS2020_A_Systematic_Mapping_Study_in_AIOps.pdf)
 Notaro, P.; Cardoso, J. and Gerndt, M.
 In [AIOPS 2020](https://aiopsworkshop.github.io/), International Workshop on Artificial Intelligence for IT Operations,
