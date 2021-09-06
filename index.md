@@ -127,12 +127,12 @@ AI for Networks
 Gartner research indicates that 70% of network operations are still performed manually. Other surveys indicate that misconfigurations are the root cause of 75% of network outages and performance issues. This leads to high MTTR (mean time to resolve) KPIs since problems are only observed in production. 
 
 Thus, we are building a network monitoring and verification platform driven by AI for real-time intelligent network verification in cloud datacenters. 
-Our work is related to  Google [Network Intelligence Center](https://cloud.google.com/network-intelligence-center), formal verification at [AWS](https://link.springer.com/chapter/10.1007/978-3-319-96145-3_3), template inference using [SelfStarter](http://web.cs.ucla.edu/~todd/research/nsdi20.pdf) and active monitoring using [Pingmesh](https://dl.acm.org/doi/pdf/10.1145/2785956.2787496), both from Microsoft.
+Our work is related to Google [Network Intelligence Center](https://cloud.google.com/network-intelligence-center), formal verification at AWS ([Security](https://link.springer.com/chapter/10.1007/978-3-319-96145-3_3) and [Reachability](https://www.amazon.science/publications/debugging-network-reachability-with-blocked-paths)), template inference using [SelfStarter](http://web.cs.ucla.edu/~todd/research/nsdi20.pdf) and active monitoring using [Pingmesh](https://dl.acm.org/doi/pdf/10.1145/2785956.2787496), both from Microsoft.
 
 Our approach leverages the following techniques: 
 
 + AI/ML
-+ Mixed-integer/constraint programming. and SAT constraint solvers
++ Mixed-integer/constraint programming and SAT constraint solvers
 + Network programmability and programmable switches
 + SmartNICS/FPGAs
 
