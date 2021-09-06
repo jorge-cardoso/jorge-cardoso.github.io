@@ -768,6 +768,10 @@ function bibstring2html($fileContent, $displayTypes = NULL, $groupType = NULL, $
 	$i = 0;
 	$j = 0;
 	$len = count($fileContent);
+
+	// Added by JCardoso
+	!$numbersAsc = $numbersDesc;
+
 	for($i = 0; $i < $len; $i++) {
 		if(substr($fileContent[$i], 0, 1) == '@') {
 			// Start of new entry
