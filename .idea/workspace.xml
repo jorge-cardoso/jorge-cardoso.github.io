@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="Added CSI 2021 paper">
-      <change afterPath="$PROJECT_DIR$/publications/Papers/JA-2021-024-CSI_Unveiling_process_insights.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/publications/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/publications/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publications/cardoso.bib" beforeDir="false" afterPath="$PROJECT_DIR$/publications/cardoso.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publications/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/publications/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,13 +287,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
-    </task>
-    <task id="LOCAL-00061" summary="Fix https webpage display problem">
-      <created>1604640890377</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1604640890377</updated>
     </task>
     <task id="LOCAL-00062" summary="Added papers for the AIOPS2020 workshop">
       <created>1607932528236</created>
@@ -636,11 +624,17 @@
       <option name="project" value="LOCAL" />
       <updated>1630860744935</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="Added CSI 2021 paper">
+      <created>1633629983608</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1633629983608</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added Google Analytics" />
     <MESSAGE value="Changed favicon" />
     <MESSAGE value="Updated layout" />
     <MESSAGE value="Placed links into tables which lead to yahoo finance" />
@@ -665,7 +659,8 @@
     <MESSAGE value="minor" />
     <MESSAGE value="Added IEEE SERVICES 2021 panel" />
     <MESSAGE value="IEEE Service panel" />
-    <option name="LAST_COMMIT_MESSAGE" value="IEEE Service panel" />
+    <MESSAGE value="Added CSI 2021 paper" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CSI 2021 paper" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
