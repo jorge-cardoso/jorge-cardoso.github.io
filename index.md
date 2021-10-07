@@ -158,9 +158,11 @@ In this field we have also done some preliminary work on process mining (e.g., A
 
 News
 ----
++ Unveiling process insights from refactoring practices, Computer Standards & Interfaces, Caldeira, Cardoso et al., 2021.
 + I will be part of a panel on *AI for Operations Management* at [IEEE SERVICES 2021](https://conferences.computer.org/services/2021/) with Fausto Bernardini, Sr. SRE Director @ Google, Adam 
   Iwanicki SRE Manager @ Google, Matt Lyteson, CTO @ IBM.
-+ I will serve with Anup K. Kalia, IBM T. J. Watson Research Center, NY as Industrial Track Co-Chair for the *[19th edition of the International Conference on Service Oriented Computing (ICSOC 
++ I will serve with Anup K. Kalia, IBM T. J. Watson Research Center, NY as Indus
++ trial Track Co-Chair for the *[19th edition of the International Conference on Service Oriented Computing (ICSOC 
   2021)](http://icsoc2021.josueonline.com/)*, November 
   22nd to 
   25th, Dubai. 

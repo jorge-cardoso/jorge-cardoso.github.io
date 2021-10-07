@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="">
+    <list default="true" id="4021426c-5ad5-4d83-bd92-b2add519096c" name="Default Changelist" comment="Added CSI 2021 paper">
+      <change afterPath="$PROJECT_DIR$/publications/Papers/JA-2021-024-CSI_Unveiling_process_insights.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publications/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/publications/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publications/cardoso.bib" beforeDir="false" afterPath="$PROJECT_DIR$/publications/cardoso.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publications/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/publications/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +34,14 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../mondai/tools/scalability_analysis/testPurePythonPolyFit.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../mondai/tools/scalability_analysis/purePythonPolyFit.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../mondai/tools/scalability_analysis/LICENSE" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../mondai/tools/oreo/commands.csv" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../mondai/tools/scalability_analysis/timing.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1gqs1YDBQN91ka22PuGMEbjpP3N" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,8 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/patents" />
-    <property name="restartRequiresConfirmation" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../log_classifier" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -53,28 +65,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/patents" />
-      <recent name="$PROJECT_DIR$/pdf" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/../log_classifier" />
       <recent name="$PROJECT_DIR$/../mondai/tools/ev_chart" />
+      <recent name="$PROJECT_DIR$/../mondai/apps/magic_formulae" />
+      <recent name="$PROJECT_DIR$/../mondai/apps/emerging_markets" />
+      <recent name="$PROJECT_DIR$/../mondai/app/templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/pdf" />
+      <recent name="$PROJECT_DIR$/publications/Papers" />
       <recent name="$PROJECT_DIR$/../mondai/apps/intrinsic_value/templates" />
       <recent name="$PROJECT_DIR$/../log_classifier/classes" />
       <recent name="$PROJECT_DIR$/../mondai/tools/coralogix" />
       <recent name="$PROJECT_DIR$/../mondai/tools/ev_chart" />
     </key>
-  </component>
-  <component name="RemoteSynchronizer">
-    <option name="targetMappings">
-      <list>
-        <TargetMappings>
-          <option name="name" value="Default" />
-        </TargetMappings>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.generator">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -214,7 +217,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in /home/jcardoso/Code/mondai/tools/scalability_analysis/testPurePythonPolyFit.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in testPurePythonPolyFit.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="quantai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -266,13 +269,13 @@
       <item itemvalue="Python.linkedin" />
       <item itemvalue="Python.purePythonPolyFit" />
       <item itemvalue="Python.timing" />
-      <item itemvalue="Python tests.Unittests in /home/jcardoso/Code/mondai/tools/scalability_analysis/testPurePythonPolyFit.py" />
+      <item itemvalue="Python tests.Unittests in testPurePythonPolyFit.py" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.generator" />
         <item itemvalue="Python.purePythonPolyFit" />
-        <item itemvalue="Python tests.Unittests in /home/jcardoso/Code/mondai/tools/scalability_analysis/testPurePythonPolyFit.py" />
+        <item itemvalue="Python tests.Unittests in testPurePythonPolyFit.py" />
         <item itemvalue="Python.timing" />
         <item itemvalue="Python.fit_curve_2" />
       </list>
@@ -289,6 +292,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563725807643</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Fix https webpage display problem">
+      <created>1604640890377</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1604640890377</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Added papers for the AIOPS2020 workshop">
+      <created>1607932528236</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1607932528237</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Added papers for the AIOPS2020 workshop">
+      <created>1607933123003</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1607933123003</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Added papers for the AIOPS2020 workshop">
+      <created>1607940968915</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1607940968915</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Added missing pdf papers">
+      <created>1607941971808</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1607941971808</updated>
     </task>
     <task id="LOCAL-00066" summary="Added missing pdf papers">
       <created>1607942330270</created>
@@ -584,59 +622,25 @@
       <option name="project" value="LOCAL" />
       <updated>1617770449208</updated>
     </task>
-    <task id="LOCAL-00108" summary="Updated Lab presentation">
-      <created>1627631631176</created>
+    <task id="LOCAL-00108" summary="Added IEEE SERVICES 2021 panel">
+      <created>1630860596526</created>
       <option name="number" value="00108" />
       <option name="presentableId" value="LOCAL-00108" />
       <option name="project" value="LOCAL" />
-      <updated>1627631631177</updated>
+      <updated>1630860596526</updated>
     </task>
-    <task id="LOCAL-00109" summary="Updated Lab presentation">
-      <created>1627631934646</created>
+    <task id="LOCAL-00109" summary="IEEE Service panel">
+      <created>1630860744935</created>
       <option name="number" value="00109" />
       <option name="presentableId" value="LOCAL-00109" />
       <option name="project" value="LOCAL" />
-      <updated>1627631934646</updated>
+      <updated>1630860744935</updated>
     </task>
-    <task id="LOCAL-00110" summary="Added patent information">
-      <created>1628845617120</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1628845617120</updated>
-    </task>
-    <task id="LOCAL-00111" summary="Added patent information">
-      <created>1628846421476</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1628846421476</updated>
-    </task>
-    <task id="LOCAL-00112" summary="Added patent information">
-      <created>1628846620939</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1628846620939</updated>
-    </task>
-    <task id="LOCAL-00113" summary="Added patent information">
-      <created>1628846704365</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1628846704366</updated>
-    </task>
-    <task id="LOCAL-00114" summary="Minor change to index">
-      <created>1628851008944</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1628851008944</updated>
-    </task>
-    <option name="localTasksCounter" value="115" />
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="added Google Analytics" />
     <MESSAGE value="Changed favicon" />
     <MESSAGE value="Updated layout" />
     <MESSAGE value="Placed links into tables which lead to yahoo finance" />
@@ -659,10 +663,9 @@
     <MESSAGE value="added ICSOC 2021" />
     <MESSAGE value="update metrics" />
     <MESSAGE value="minor" />
-    <MESSAGE value="Updated Lab presentation" />
-    <MESSAGE value="Added patent information" />
-    <MESSAGE value="Minor change to index" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor change to index" />
+    <MESSAGE value="Added IEEE SERVICES 2021 panel" />
+    <MESSAGE value="IEEE Service panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="IEEE Service panel" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
