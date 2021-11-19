@@ -20,7 +20,7 @@ cd ..
 jekyll serve
 ```
 
-### Updating github after changes
+### Commit to github
 ```bash
 git add .
 git commit -m "Added CSI 2021 paper"
