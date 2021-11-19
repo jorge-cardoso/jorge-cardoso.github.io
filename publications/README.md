@@ -23,6 +23,6 @@ jekyll serve
 ### Commit to github
 ```bash
 git add .
-git commit -m "Added CSI 2021 paper"
+git commit -m "Added AIOPS 2021 paper"
 git push origin master
 ```
