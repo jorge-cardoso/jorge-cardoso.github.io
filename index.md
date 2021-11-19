@@ -161,11 +161,8 @@ News
 + Unveiling process insights from refactoring practices, Computer Standards & Interfaces, Caldeira, Cardoso et al., 2021.
 + I will be part of a panel on *AI for Operations Management* at [IEEE SERVICES 2021](https://conferences.computer.org/services/2021/) with Fausto Bernardini, Sr. SRE Director @ Google, Adam 
   Iwanicki SRE Manager @ Google, Matt Lyteson, CTO @ IBM.
-+ I will serve with Anup K. Kalia, IBM T. J. Watson Research Center, NY as Indus
-+ trial Track Co-Chair for the *[19th edition of the International Conference on Service Oriented Computing (ICSOC 
-  2021)](http://icsoc2021.josueonline.com/)*, November 
-  22nd to 
-  25th, Dubai. 
++ I will serve with Anup K. Kalia, IBM T. J. Watson Research Center, NY as Industrial Track Co-Chair for the *[19th edition of the International Conference on Service Oriented Computing (ICSOC 
+  2021)](http://icsoc2021.josueonline.com/)*, November 22nd to 25th, Dubai. 
 + My Lecture on [AIOps: Anomalous Span Detection in Distributed Traces Using Deep Learning](https://www.slideshare.net/JorgeCardoso4/aiops-anomalous-span-detection-in-distributed-traces-using-deep-learning) presented at Prof. Joeran Beel's Chair (Intelligent Systems, Trinity College Dublin) on 02.10.2019 is now available.
 + Our article *Towards Occupation Inference in Non-instrumented Services* was accepted to IEEE Network Computing and Applications. Boston, MA, USA, September 2019.
 + Andre Pascoal Bento defended successfully his thesis [Observing and Controlling Performance in Microservices](projects/pdf_img/MSc_thesis_Andre_Bento.pdf)
