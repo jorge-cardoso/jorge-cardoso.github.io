@@ -13,7 +13,7 @@ To generate the new bibs and publications web page:
 
 ```bash
 cd /Users/jcardoso/GitHub/jorge-cardoso.github.io/publications
-vi cardoso.bib
+# vi cardoso.bib
 php bibtex2html.php cardoso.bib index.md
 git add ./bibs
 cd ..
@@ -23,6 +23,11 @@ jekyll serve
 ### Commit to github
 ```bash
 git add .
-git commit -m "Added AIOPS survey 2021 paper"
+git commit -m "Added JGC survey 2021 paper"
 git push origin master
 ```
+
+### Troubleshooting
+
+If there is Gemfile, always prepend bunde exec.
+Delete Gemfile.lock and run 'bundle exec jekyll serve --trace' 
