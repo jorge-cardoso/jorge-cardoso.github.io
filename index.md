@@ -158,6 +158,8 @@ In this field we have also done some preliminary work on process mining (e.g., A
 
 News
 ----
++ I will give a keynote talk on "On the Application of AI for Failure Management: Problems, Solutions and Algorithms" at the [18th International Conference on the Design of Reliable Communication Networks (DRCN)](https://www.drcn2022.upc.edu), March 28-31, 2022,Barcelona, Spain.
++ I will give a talk on "Towards Autonomous IT Systems: AIOps for IT Operations, Networks, Edge AI and DevOps" at [CASCON EVOKE 2021](https://pheedloop.com/casconevoke2021/site/home/), Toronto, Canada, November 22-26, 2021.
 + Unveiling process insights from refactoring practices, Computer Standards & Interfaces, Caldeira, Cardoso et al., 2021.
 + I will be part of a panel on *AI for Operations Management* at [IEEE SERVICES 2021](https://conferences.computer.org/services/2021/) with Fausto Bernardini, Sr. SRE Director @ Google, Adam 
   Iwanicki SRE Manager @ Google, Matt Lyteson, CTO @ IBM.
