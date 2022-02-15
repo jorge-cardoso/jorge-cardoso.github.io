@@ -124,6 +124,11 @@ The main proposition is that AI models are currently trained in datacenters, but
 Another interesting example of Edge AI (Device AI may be a better term) comes from Google. [GBoard](https://en.wikipedia.org/wiki/Gboard) is a smartphone keyboard software that does not use centralized retraining of AI models. Instead, smartphones retrain local models and send model changes to a central system. Changes are integrated into a new model which is pushed back to customer devices. This federated learning approach guarantees privacy and a lower power consumption.
 
 
+We have made the following presentation at KubeCon of our Edge AI system:
+
++ [Managing Large-Scale Edge Cluster Over Unstable Network with KubeEdge](https://www.lfasiallc.com/kubecon-cloudnativecon-open-source-summit-china/program/schedule/), Fei Xu, Huawei, December 9, 2021.
+
+
 AI for Networks
 ---------------
 
