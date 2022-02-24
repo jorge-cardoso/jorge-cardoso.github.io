@@ -9,7 +9,7 @@ published: true
 ---
 
 
-<p><img src="./images/Jorge_Cardoso.png" height="128" width="155" style="float:left;margin:0 20px 0 0;"/></p>
+<p><img src="./images/Jorge_Cardoso_2021.png" height="128" width="155" style="float:left;margin:0 20px 0 0;"/></p>
 
 I currently lead the **Ultra-scale AIOps Lab** and I take a dual role of Chief Architect and Engineer Manager at the 
 [Huawei Munich Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany and [Huawei Ireland Research Center](https://huawei.eu/what-we-do/digital-transformation) in Dublin, Ireland.
