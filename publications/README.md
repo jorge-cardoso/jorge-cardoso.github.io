@@ -13,7 +13,7 @@ To generate the new bibs and publications web page:
 
 ```bash
 cd /Users/jcardoso/GitHub/jorge-cardoso.github.io/publications
-# vi cardoso.bib
+vi cardoso.bib
 php bibtex2html.php cardoso.bib index.md
 git add ./bibs
 cd ..
