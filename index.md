@@ -61,7 +61,7 @@ We have already published several papers in this field:
 + [Self-Attentive Classification-Based Anomaly Detection in Unstructured Logs](/publications/Papers/CP-2020-094-ICDM_Self_Attentive_Classification_Based_Anomaly_Detection.pdf)
 Nedelkoski, S.; Bogatinovski, J.; Acker, A.; Cardoso, J. and Kao, O.
 In 20th IEEE International Conference on Data Mining (ICDM), Italy, 2020.
-**(Conference Rank: A+)**
+**(Conference Rank: A*)**
 + [Self-Supervised Log Parsing](/publications/Papers/CP-2020-095_ECML_Self_Supervised_Log_Parsing.pdf)
 Nedelkoski, S.; Bogatinovski, J.; Acker, A.; Cardoso, J. and Kao, O.
 In European Conf. on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD), Belgium, 2020.
@@ -160,9 +160,16 @@ We create innovative systems for:
 
 In this field we have also done some preliminary work on process mining (e.g., Assessing Software Development Teams Efficiency using Process Mining, [International Conference on Process Mining](https://icpmconference.org), 2019, Germany)
 
+. Bogatinovski, J.; Nedelkoski, S.; Acker, A.; Cardoso, J. and Kao, O. In 30th IEEE/ACM International Conference on Program Comprehension, 2022. [pdf, gs] [bib]
+
++ [QuLog: Data-Driven Approach for Log Instruction Quality Assessment](/publications/Papers/CP-2022-097_ICPC_QuLog.pdf)
+Nedelkoski, S.; Bogatinovski, J.; Acker, A.; Cardoso, J. and Kao, O.
+In 30th IEEE/ACM International Conference on Program Comprehension (ICPC), 2022.
+**(Conference Rank: A)**
 
 News
 ----
++ Our article *QuLog: Data-Driven Approach for Log Instruction Quality Assessment* was accepted to 30th IEEE/ACM International Conference on Program Comprehension (ICPC), 2022. **(Conference Rank: A)**
 + I will give a keynote talk on "On the Application of AI for Failure Management: Problems, Solutions and Algorithms" at the [18th International Conference on the Design of Reliable Communication Networks (DRCN)](https://www.drcn2022.upc.edu), March 28-31, 2022,Barcelona, Spain.
 + I will give a talk on "Towards Autonomous IT Systems: AIOps for IT Operations, Networks, Edge AI and DevOps" at [CASCON EVOKE 2021](https://pheedloop.com/casconevoke2021/site/home/), Toronto, Canada, November 22-26, 2021.
 + Unveiling process insights from refactoring practices, Computer Standards & Interfaces, Caldeira, Cardoso et al., 2021.

@@ -213,7 +213,10 @@ toc: true
 
 </ol></div><h2>In Proceedings<span class="dark"></span></h2>
 <div class="publication">
-<ol start="66"><li><span class="title"><a href="/publications/Papers/WP-2021-081-AIOPS_IAD_Indirect_Anomalous_VMMs_Detection.pdf" >IAD: Indirect Anomalous VMMs Detection in the Cloud-based Environment</a></span>. <span class="authors">Jindal, A.; Shakhat, I.; Cardoso, J.; Gerndt, M. and Podolskiy, V.</span>  <span class="in">In AIOPS 2020 International Workshop on Artificial Intelligence for IT Operations</span>, <span class="publisher">Springer</span>, 2021.<span class="links"> [<a href="/publications/Papers/WP-2021-081-AIOPS_IAD_Indirect_Anomalous_VMMs_Detection.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=IAD: Indirect Anomalous VMMs Detection in the Cloud-based Environment">gs</a>]</span>
+<ol start="66"><li><span class="title"><a href="/publications/Papers/CP-2022-097_ICPC_QuLog.pdf" >QuLog: Data-Driven Approach for Log Instruction Quality Assessment</a></span>. <span class="authors">Bogatinovski, J.; Nedelkoski, S.; Acker, A.; Cardoso, J. and Kao, O.</span>  <span class="in">In 30th IEEE/ACM International Conference on Program Comprehension</span>, 2022.<span class="links"> [<a href="/publications/Papers/CP-2022-097_ICPC_QuLog.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=QuLog: Data-Driven Approach for Log Instruction Quality Assessment">gs</a>]</span>
+<span class="bibtexlink">[<a href="bibs/Jasmin2022JGC.bib">bib</a>]</span></li>
+
+<li><span class="title"><a href="/publications/Papers/WP-2021-081-AIOPS_IAD_Indirect_Anomalous_VMMs_Detection.pdf" >IAD: Indirect Anomalous VMMs Detection in the Cloud-based Environment</a></span>. <span class="authors">Jindal, A.; Shakhat, I.; Cardoso, J.; Gerndt, M. and Podolskiy, V.</span>  <span class="in">In AIOPS 2020 International Workshop on Artificial Intelligence for IT Operations</span>, <span class="publisher">Springer</span>, 2021.<span class="links"> [<a href="/publications/Papers/WP-2021-081-AIOPS_IAD_Indirect_Anomalous_VMMs_Detection.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=IAD: Indirect Anomalous VMMs Detection in the Cloud-based Environment">gs</a>]</span>
 <span class="bibtexlink">[<a href="bibs/Jindal_2021AIOPS.bib">bib</a>]</span></li>
 
 <li><span class="title"><a href="/publications/Papers/CP-2020-096_UCC_Self_Supervised_Anomaly_Detection_from_Distributed_Traces.pdf" >Self-Supervised Anomaly Detection from Distributed Traces</a></span>. <span class="authors">Bogatinovski, J.; Nedelkoski, S.; Cardoso, J. and Kao, O.</span>  <span class="in">In IEEE/ACM 13th International Conference on Utility and Cloud Computing (UCC)</span>, 2020.<span class="links"> [<a href="/publications/Papers/CP-2020-096_UCC_Self_Supervised_Anomaly_Detection_from_Distributed_Traces.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Self-Supervised Anomaly Detection from Distributed Traces">gs</a>]</span>
@@ -518,7 +521,7 @@ toc: true
 
 </ol></div><h2>Books<span class="dark"></span></h2>
 <div class="publication">
-<ol start="167"><li><span class="title">Cloud Computing and Services Science</span>. <span class="authors">Helfert,  M.; Ferguson,  D.; Mendez Munoz,  V. and Cardoso,  J.</span>  <span class="publisher">Springer</span>, ISBN: 978-3-319-62594-2, 2017.<span class="links"> </span>
+<ol start="168"><li><span class="title">Cloud Computing and Services Science</span>. <span class="authors">Helfert,  M.; Ferguson,  D.; Mendez Munoz,  V. and Cardoso,  J.</span>  <span class="publisher">Springer</span>, ISBN: 978-3-319-62594-2, 2017.<span class="links"> </span>
 <span class="bibtexlink">[<a href="bibs/CloudCSS17.bib">bib</a>]</span></li>
 
 <li><span class="title">Software Technologies</span>. <span class="authors">Cabello,  E.; Cardoso,  J.; Ludwig,  A.; Maciaszek,  L.A. and van Sinderen,  M.</span>  <span class="publisher">Springer</span>, ISBN: 978-3-319-62569-0, 2017.<span class="links"> </span>
@@ -565,7 +568,7 @@ toc: true
 
 </ol></div><h2>Conference Proceedings<span class="dark"></span></h2>
 <div class="publication">
-<ol start="182"><li><span class="title">Proceedings of the 12th International Conference on Software Technologies</span>. <span class="authors">Cabello, E.; Cardoso, J.; Maciaszek, L. and Sinderen, M. va, ed.</span>  <span class="publisher">SCITEPRESS</span>, ISBN: 978-989-758-262-2, 2017.<span class="links"> </span>
+<ol start="183"><li><span class="title">Proceedings of the 12th International Conference on Software Technologies</span>. <span class="authors">Cabello, E.; Cardoso, J.; Maciaszek, L. and Sinderen, M. va, ed.</span>  <span class="publisher">SCITEPRESS</span>, ISBN: 978-989-758-262-2, 2017.<span class="links"> </span>
 <span class="bibtexlink">[<a href="bibs/ICSOFT17.bib">bib</a>]</span></li>
 
 <li><span class="title">Proceedings of the 11th International Joint Conference on Software Technologies, Volume 2: ICSOFT-PT</span>. <span class="authors">Ludwig, A.; Cabello, E.; Cardoso, J.; Maciaszek, L. and Sinderen, M. va, ed.</span>  <span class="publisher">SCITEPRESS</span>, ISBN: 978-989-758-194-6, 2016.<span class="links"> </span>
@@ -624,17 +627,17 @@ toc: true
 
 </ol></div><h2>PhD Theses<span class="dark"></span></h2>
 <div class="publication">
-<ol start="201"><li><span class="title"><a href="/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf" >Quality of Service and Semantic Composition of Workflows</a></span>. <span class="authors">Cardoso,  J.</span>  Ph.D. Thesis, <span class="school">University of Georgia, Department of Computer Science</span>, Athens, GA, USA, 2002.<span class="links"> [<a href="/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Quality of Service and Semantic Composition of Workflows">gs</a>]</span>
+<ol start="202"><li><span class="title"><a href="/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf" >Quality of Service and Semantic Composition of Workflows</a></span>. <span class="authors">Cardoso,  J.</span>  Ph.D. Thesis, <span class="school">University of Georgia, Department of Computer Science</span>, Athens, GA, USA, 2002.<span class="links"> [<a href="/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Quality of Service and Semantic Composition of Workflows">gs</a>]</span>
 <span class="bibtexlink">[<a href="bibs/Cardoso02PhD.bib">bib</a>]</span></li>
 
 </ol></div><h2>Master's Theses<span class="dark"></span></h2>
 <div class="publication">
-<ol start="202"><li><span class="title">Sistema Computorizado para a Automatizacao de Processos Organizacionais</span>. <span class="authors">Cardoso,  J.</span>  Master's Thesis, <span class="school">University of Coimbra, Department of Informatics Engineering</span>, Coimbra, Portugal, 1998.<span class="links"> </span>
+<ol start="203"><li><span class="title">Sistema Computorizado para a Automatizacao de Processos Organizacionais</span>. <span class="authors">Cardoso,  J.</span>  Master's Thesis, <span class="school">University of Coimbra, Department of Informatics Engineering</span>, Coimbra, Portugal, 1998.<span class="links"> </span>
 <span class="bibtexlink">[<a href="bibs/Cardoso98MSc.bib">bib</a>]</span></li>
 
 </ol></div><h2>Keynotes, invited talks, summer schools<span class="dark"></span></h2>
 <div class="publication">
-<ol start="203"><li><span class="title">Service Engineering for The Internet of Service</span>. <span class="authors">Cardoso,  J.</span>  Porto Salvo, Portugal, 2009.<span class="links"> </span>
+<ol start="204"><li><span class="title">Service Engineering for The Internet of Service</span>. <span class="authors">Cardoso,  J.</span>  Porto Salvo, Portugal, 2009.<span class="links"> </span>
 <span class="bibtexlink">[<a href="bibs/Cardoso09KeynoteIPBPM.bib">bib</a>]</span></li>
 
 <li><span class="title">Process Management and Integration with SAP</span>. <span class="authors">Cardoso,  J.</span>  Ciudad Real, Spain, 2008.<span class="links"> </span>
