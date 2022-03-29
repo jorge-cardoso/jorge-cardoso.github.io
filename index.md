@@ -169,7 +169,7 @@ In 30th IEEE/ACM International Conference on Program Comprehension (ICPC), 2022.
 
 News
 ----
-+ Our article *QuLog: Data-Driven Approach for Log Instruction Quality Assessment* was accepted to 30th IEEE/ACM International Conference on Program Comprehension (ICPC), 2022. **(Conference Rank: A)**
++ Our article *QuLog: Data-Driven Approach for Log Instruction Quality Assessment* was accepted to 30th IEEE/ACM International Conference on Program Comprehension (ICPC), Pennsylvania, 2022. **(Conference Rank: A)**
 + I will give a keynote talk on "On the Application of AI for Failure Management: Problems, Solutions and Algorithms" at the [18th International Conference on the Design of Reliable Communication Networks (DRCN)](https://www.drcn2022.upc.edu), March 28-31, 2022,Barcelona, Spain.
 + I will give a talk on "Towards Autonomous IT Systems: AIOps for IT Operations, Networks, Edge AI and DevOps" at [CASCON EVOKE 2021](https://pheedloop.com/casconevoke2021/site/home/), Toronto, Canada, November 22-26, 2021.
 + Unveiling process insights from refactoring practices, Computer Standards & Interfaces, Caldeira, Cardoso et al., 2021.
