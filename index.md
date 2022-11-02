@@ -20,7 +20,8 @@ You can find more information about our work:
 
 Many of our innovation and system developments is done in collaboration with the [Technical University of Berlin](https://www.dos.tu-berlin.de/menue/datesnews/news/huawei_tub_innovation_lab_kick_off/) and the Huawei-TUB Innovation Lab for AI-driven Autonomous Operations.
 
-Using machine learning and deep learning techniques, we apply AI to various areas related to [HUAWEI CLOUD](https://www.huaweicloud.com/intl/en-us/) such as: anomaly detection, root cause analysis, failure prediction, reliability and availability, risk estimation and security, network verification, and low-latency object tracking.
+Using machine learning and deep learning techniques, we apply AI to various areas related to [HUAWEI CLOUD](https://www.huaweicloud.com/intl/en-us/) such as: anomaly detection, root cause analysis, failure prediction, reliability and availability, risk estimation and security, network verification, and low-latency object tracking. Our work fits under the AI Engineering umbrella as discussed in [IEEE Software, Nov.-Dec. 2022](https://www.computer.org/csdl/magazine/so/2022/06).
+
 The areas are categorized in three fields:
 
 + **AI for Operations**. We apply analytics and machine learning (ML) techniques to automate IT operations and maintenance. We collect operational data from IT infrastructures, leverage big data and AI platforms to automatically detect and predict failures in datacenters and cloud platforms in real-time. <img src="./images/Cloud_edge_device.png" height="300" width="600" style="float:right;margin:20px 20px 20px 20px;"/>
