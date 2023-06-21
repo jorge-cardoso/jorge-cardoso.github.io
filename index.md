@@ -15,8 +15,10 @@ I currently lead the **Ultra-scale AIOps Lab** and I take a dual role of Chief A
 [Huawei Munich Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany and [Huawei Ireland Research Center](https://huawei.eu/what-we-do/digital-transformation) in Dublin, Ireland.
 
 You can find more information about our work:
-+ [Lab presentation](/pdf/2021-07-29-Ultra_Scale_AIOps_Lab_Workshop.pdf), July 2021, [The 1st Network Verification Workshop](https://networkverification-workshop.github.io/)
++ [Cloud Operation R&D](/pdf/2023-05-23-AS_AIOps_for_Cloud_Operations_R&D.pdf), May 23-25 2023, Academic Salon AIOps 2023, TU Berlin.
 + [Research Contributions](/pdf/2022-03-30-DRCN_On_the_Application_of_AI_for_Failure_Management.pdf), March 28-31 2022, [18th DRCN](https://www.drcn2022.upc.edu/65183/detail/drcn-2022.html)
++ [Lab presentation](/pdf/2021-07-29-Ultra_Scale_AIOps_Lab_Workshop.pdf), July 2021, [The 1st Network Verification Workshop](https://networkverification-workshop.github.io/)
+
 
 Many of our innovation and system developments is done in collaboration with the [Technical University of Berlin](https://www.dos.tu-berlin.de/menue/datesnews/news/huawei_tub_innovation_lab_kick_off/) and the Huawei-TUB Innovation Lab for AI-driven Autonomous Operations.
 
