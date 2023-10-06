@@ -14,10 +14,13 @@ toc: true
 ---
 <h2>Journal Articles<span class="dark"></span></h2>
 <div class="publication">
-<ol start="1"><li><span class="title"><a href="/publications/Papers/JA-2021-026-Automated_Analysis_of_Distributed_Tracing.pdf" >Automated Analysis of Distributed Tracing: Challenges and Research Directions</a></span>. <span class="authors">Bento, A.; Correia, J.; Filipe, R.; Araujo, F. and Cardoso, J.</span>  <span class="in">In Journal of Grid Computing</span>, Vol. 19 (9), 2021.<span class="links"> [<a href="/publications/Papers/JA-2021-026-Automated_Analysis_of_Distributed_Tracing.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Automated Analysis of Distributed Tracing: Challenges and Research Directions">gs</a>]</span>
+<ol start="1"><li><span class="title">LogRule: Efficient Structured Log Mining for Root Cause Analysis</span>. <span class="authors">Notaro, P.; Haeri, S.; Cardoso, J. and Gerndt, M.</span>  <span class="in">In <a href="http://dx.doi.org/10.1109/TNSM.2023.3282270  year = 2023" target="_blank">IEEE Transactions on Network and Service Management</a></span>, Vol. 0 (0), 2023.<span class="links"> </span>
+<span class="bibtexlink">[<a href="bibs/Notaro2023TNSM.bib">bib</a>]</span></li>
+
+<li><span class="title"><a href="/publications/Papers/JA-2021-026-Automated_Analysis_of_Distributed_Tracing.pdf" >Automated Analysis of Distributed Tracing: Challenges and Research Directions</a></span>. <span class="authors">Bento, A.; Correia, J.; Filipe, R.; Araujo, F. and Cardoso, J.</span>  <span class="in">In Journal of Grid Computing</span>, Vol. 19 (9), 2021.<span class="links"> [<a href="/publications/Papers/JA-2021-026-Automated_Analysis_of_Distributed_Tracing.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Automated Analysis of Distributed Tracing: Challenges and Research Directions">gs</a>]</span>
 <span class="bibtexlink">[<a href="bibs/Bento2021JGC.bib">bib</a>]</span></li>
 
-<li><span class="title"><a href="/publications/Papers/JA-2021-025-Survey_AIOps_Methods_for_Failure_Management.pdf" >A Survey of AIOps Methods for Failure Management</a></span>. <span class="authors">Notaro, P.; Cardoso, J. and Gerndt, M.</span>  <span class="in">In ACM Transactions on Intelligent Systems and Technology</span>, 2021.<span class="links"> [<a href="/publications/Papers/JA-2021-025-Survey_AIOps_Methods_for_Failure_Management.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=A Survey of AIOps Methods for Failure Management">gs</a>]</span>
+<li><span class="title"><a href="/publications/Papers/JA-2021-025-Survey_AIOps_Methods_for_Failure_Management.pdf" >A Survey of AIOps Methods for Failure Management</a></span>. <span class="authors">Notaro, P.; Cardoso, J. and Gerndt, M.</span>  <span class="in">In <a href="http://dx.doi.org/10.1145/3483424" target="_blank">ACM Transactions on Intelligent Systems and Technology</a></span>, Vol. 12 (6), 2021.<span class="links"> [<a href="/publications/Papers/JA-2021-025-Survey_AIOps_Methods_for_Failure_Management.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=A Survey of AIOps Methods for Failure Management">gs</a>]</span>
 <span class="bibtexlink">[<a href="bibs/Notaro2021AIOPS.bib">bib</a>]</span></li>
 
 <li><span class="title"><a href="/publications/Papers/JA-2021-024-CSI_Unveiling_process_insights.pdf" >Unveiling process insights from refactoring practices</a></span>. <span class="authors">Caldeira, J.; Abreu, F. B.; Cardoso, J. and Reis, J.</span>  <span class="in">In Computer Standards & Interfaces (Elsevier)</span>, Vol. 00 (00): 00-00, 2021.<span class="links"> [<a href="/publications/Papers/JA-2021-024-CSI_Unveiling_process_insights.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Unveiling process insights from refactoring practices">gs</a>]</span>
@@ -100,7 +103,7 @@ toc: true
 
 </ol></div><h2>Book Chapters<span class="dark"></span></h2>
 <div class="publication">
-<ol start="29"><li><span class="title"><a href="/publications/Papers/BC-2015-032-Foundations.pdf" >Foundations</a></span>. <span class="authors">Fromm, H. and Cardoso, J.</span>  <span class="in">In <a href="http://dx.doi.org/10.1007/978-3-319-23195-2" target="_blank">Fundamentals of Service Systems</a></span>, pages 1-32, <span class="publisher"><a href="http://dx.doi.org/10.1007/978-3-319-23195-2" target="_blank">Springer</a></span>, 2015.<span class="links"> [<a href="/publications/Papers/BC-2015-032-Foundations.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Foundations">gs</a>]</span>
+<ol start="30"><li><span class="title"><a href="/publications/Papers/BC-2015-032-Foundations.pdf" >Foundations</a></span>. <span class="authors">Fromm, H. and Cardoso, J.</span>  <span class="in">In <a href="http://dx.doi.org/10.1007/978-3-319-23195-2" target="_blank">Fundamentals of Service Systems</a></span>, pages 1-32, <span class="publisher"><a href="http://dx.doi.org/10.1007/978-3-319-23195-2" target="_blank">Springer</a></span>, 2015.<span class="links"> [<a href="/publications/Papers/BC-2015-032-Foundations.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Foundations">gs</a>]</span>
 <span class="bibtexlink">[<a href="bibs/Hansjoerg2015_Foundations.bib">bib</a>]</span></li>
 
 <li><span class="title"><a href="/publications/Papers/BC-2015-033-Electronic_Services.pdf" >Electronic Services</a></span>. <span class="authors">Cardoso, J. and Fromm, H.</span>  <span class="in">In <a href="http://dx.doi.org/10.1007/978-3-319-23195-2" target="_blank">Fundamentals of Service Systems</a></span>, pages 33-74, <span class="publisher"><a href="http://dx.doi.org/10.1007/978-3-319-23195-2" target="_blank">Springer</a></span>, 2015.<span class="links"> [<a href="/publications/Papers/BC-2015-033-Electronic_Services.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Electronic Services">gs</a>]</span>
@@ -213,8 +216,17 @@ toc: true
 
 </ol></div><h2>In Proceedings<span class="dark"></span></h2>
 <div class="publication">
-<ol start="66"><li><span class="title"><a href="/publications/Papers/CP-2022-097_ICPC_QuLog.pdf" >QuLog: Data-Driven Approach for Log Instruction Quality Assessment</a></span>. <span class="authors">Bogatinovski, J.; Nedelkoski, S.; Acker, A.; Cardoso, J. and Kao, O.</span>  <span class="in">In 30th IEEE/ACM International Conference on Program Comprehension</span>, 2022.<span class="links"> [<a href="/publications/Papers/CP-2022-097_ICPC_QuLog.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=QuLog: Data-Driven Approach for Log Instruction Quality Assessment">gs</a>]</span>
-<span class="bibtexlink">[<a href="bibs/Jasmin2022JGC.bib">bib</a>]</span></li>
+<ol start="67"><li><span class="title">Exploring Error Bits for Memory Failure Prediction: An In-Depth Correlative Study</span>. <span class="authors">Yu, Q.; Zhang, W.; Cardoso, J. and Kao, O.</span>  <span class="in">In ACM/IEEE International Conference on Computer-Aided Design (ICCAD)</span>, <span class="publisher">IEEE</span>, 2023.<span class="links"> </span>
+<span class="bibtexlink">[<a href="bibs/Yu2023DSN.bib">bib</a>]</span></li>
+
+<li><span class="title">HiMFP: Hierarchical Intelligent Memory Failure Prediction for Cloud Service Reliability</span>. <span class="authors">Yu, Q.; Zhang, W.; Haeri, S.; Notaro, P.; Cardoso, J. and Kao, O.</span>  <span class="in">In IEEE/IFIP International Conference on Dependable Systems and Network</span>, 2023.<span class="links"> </span>
+<span class="bibtexlink">[<a href="bibs/Yu2023DSN.bib">bib</a>]</span></li>
+
+<li><span class="title">An Optical Transceiver Reliability Study based on SFP Monitoring and OS-level Metric Data</span>. <span class="authors">Notaro, P.; Haeri, S.; Yu, Q.; Cardoso, J. and Gerndt, M.</span>  <span class="in">In IEEE/ACM International Conference on Cloud, Grid, and Internet Computing</span>, 2023.<span class="links"> </span>
+<span class="bibtexlink">[<a href="bibs/Notaro2023CCG.bib">bib</a>]</span></li>
+
+<li><span class="title"><a href="/publications/Papers/CP-2022-097_ICPC_QuLog.pdf" >QuLog: Data-Driven Approach for Log Instruction Quality Assessment</a></span>. <span class="authors">Bogatinovski, J.; Nedelkoski, S.; Acker, A.; Cardoso, J. and Kao, O.</span>  <span class="in">In 30th IEEE/ACM International Conference on Program Comprehension</span>, 2022.<span class="links"> [<a href="/publications/Papers/CP-2022-097_ICPC_QuLog.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=QuLog: Data-Driven Approach for Log Instruction Quality Assessment">gs</a>]</span>
+<span class="bibtexlink">[<a href="bibs/Jasmin2022ICPC.bib">bib</a>]</span></li>
 
 <li><span class="title"><a href="/publications/Papers/WP-2021-081-AIOPS_IAD_Indirect_Anomalous_VMMs_Detection.pdf" >IAD: Indirect Anomalous VMMs Detection in the Cloud-based Environment</a></span>. <span class="authors">Jindal, A.; Shakhat, I.; Cardoso, J.; Gerndt, M. and Podolskiy, V.</span>  <span class="in">In AIOPS 2020 International Workshop on Artificial Intelligence for IT Operations</span>, <span class="publisher">Springer</span>, 2021.<span class="links"> [<a href="/publications/Papers/WP-2021-081-AIOPS_IAD_Indirect_Anomalous_VMMs_Detection.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=IAD: Indirect Anomalous VMMs Detection in the Cloud-based Environment">gs</a>]</span>
 <span class="bibtexlink">[<a href="bibs/Jindal_2021AIOPS.bib">bib</a>]</span></li>
@@ -231,7 +243,7 @@ toc: true
 <li><span class="title"><a href="/publications/Papers/WS-2020-080-AIOPS2020-Workshop-White-Paper.pdf" >Artificial Intelligence for IT Operations (AIOPS) Workshop White Paper</a></span>. <span class="authors">Bogatinovski, J.; Nedelkoski, S.; Acker, A.; Schmidt, F.; Wittkopp, T.; Becker, S.; Cardoso, J. and Kao, O.</span>  <span class="in">In AIOPS 2020 International Workshop on Artificial Intelligence for IT Operations</span>, <span class="publisher">Springer</span>, 2020.<span class="links"> [<a href="/publications/Papers/WS-2020-080-AIOPS2020-Workshop-White-Paper.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Artificial Intelligence for IT Operations (AIOPS) Workshop White Paper">gs</a>]</span>
 <span class="bibtexlink">[<a href="bibs/Bogatinovski2020AIOPS.bib">bib</a>]</span></li>
 
-<li><span class="title"><a href="/publications/Papers/WP-2020-079-AIOPS2020_A_Systematic_Mapping_Study_in_AIOps.pdf" >A Systematic Mapping Study in AIOps</a></span>. <span class="authors">Notaro, P.; Cardoso, J. and Gerndt, M.</span>  <span class="in">In AIOPS 2020 International Workshop on Artificial Intelligence for IT Operations</span>, <span class="publisher">Springer</span>, 2020.<span class="links"> [<a href="/publications/Papers/WP-2020-079-AIOPS2020_A_Systematic_Mapping_Study_in_AIOps.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=A Systematic Mapping Study in AIOps">gs</a>]</span>
+<li><span class="title"><a href="/publications/Papers/WP-2020-079-AIOPS2020_A_Systematic_Mapping_Study_in_AIOps.pdf" >A Systematic Mapping Study in AIOps</a></span>. <span class="authors">Notaro, P.; Cardoso, J. and Gerndt, M.</span>  <span class="in">In <a href="http://dx.doi.org/10.1007/978-3-030-76352-7_15" target="_blank">AIOPS 2020 International Workshop on Artificial Intelligence for IT Operations</a></span>, pages 110-123, <span class="publisher"><a href="http://dx.doi.org/10.1007/978-3-030-76352-7_15" target="_blank">Springer</a></span>, 2020.<span class="links"> [<a href="/publications/Papers/WP-2020-079-AIOPS2020_A_Systematic_Mapping_Study_in_AIOps.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=A Systematic Mapping Study in AIOps">gs</a>]</span>
 <span class="bibtexlink">[<a href="bibs/Notaro2020AIOPS.bib">bib</a>]</span></li>
 
 <li><span class="title"><a href="/publications/Papers/WP-2020-078-AIOPS2020_Online_Memory_Leak_Detection.pdf" >Online Memory Leak Detection in the Cloud-based Infrastructures</a></span>. <span class="authors">Jindal, A.; Staab, P.; Cardoso, J.; Gerndt, M. and Podolskiy, V.</span>  <span class="in">In AIOPS 2020 International Workshop on Artificial Intelligence for IT Operations</span>, <span class="publisher">Springer</span>, 2020.<span class="links"> [<a href="/publications/Papers/WP-2020-078-AIOPS2020_Online_Memory_Leak_Detection.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Online Memory Leak Detection in the Cloud-based Infrastructures">gs</a>]</span>
@@ -521,7 +533,7 @@ toc: true
 
 </ol></div><h2>Books<span class="dark"></span></h2>
 <div class="publication">
-<ol start="168"><li><span class="title">Cloud Computing and Services Science</span>. <span class="authors">Helfert,  M.; Ferguson,  D.; Mendez Munoz,  V. and Cardoso,  J.</span>  <span class="publisher">Springer</span>, ISBN: 978-3-319-62594-2, 2017.<span class="links"> </span>
+<ol start="172"><li><span class="title">Cloud Computing and Services Science</span>. <span class="authors">Helfert,  M.; Ferguson,  D.; Mendez Munoz,  V. and Cardoso,  J.</span>  <span class="publisher">Springer</span>, ISBN: 978-3-319-62594-2, 2017.<span class="links"> </span>
 <span class="bibtexlink">[<a href="bibs/CloudCSS17.bib">bib</a>]</span></li>
 
 <li><span class="title">Software Technologies</span>. <span class="authors">Cabello,  E.; Cardoso,  J.; Ludwig,  A.; Maciaszek,  L.A. and van Sinderen,  M.</span>  <span class="publisher">Springer</span>, ISBN: 978-3-319-62569-0, 2017.<span class="links"> </span>
@@ -568,7 +580,7 @@ toc: true
 
 </ol></div><h2>Conference Proceedings<span class="dark"></span></h2>
 <div class="publication">
-<ol start="183"><li><span class="title">Proceedings of the 12th International Conference on Software Technologies</span>. <span class="authors">Cabello, E.; Cardoso, J.; Maciaszek, L. and Sinderen, M. va, ed.</span>  <span class="publisher">SCITEPRESS</span>, ISBN: 978-989-758-262-2, 2017.<span class="links"> </span>
+<ol start="187"><li><span class="title">Proceedings of the 12th International Conference on Software Technologies</span>. <span class="authors">Cabello, E.; Cardoso, J.; Maciaszek, L. and Sinderen, M. va, ed.</span>  <span class="publisher">SCITEPRESS</span>, ISBN: 978-989-758-262-2, 2017.<span class="links"> </span>
 <span class="bibtexlink">[<a href="bibs/ICSOFT17.bib">bib</a>]</span></li>
 
 <li><span class="title">Proceedings of the 11th International Joint Conference on Software Technologies, Volume 2: ICSOFT-PT</span>. <span class="authors">Ludwig, A.; Cabello, E.; Cardoso, J.; Maciaszek, L. and Sinderen, M. va, ed.</span>  <span class="publisher">SCITEPRESS</span>, ISBN: 978-989-758-194-6, 2016.<span class="links"> </span>
@@ -627,17 +639,17 @@ toc: true
 
 </ol></div><h2>PhD Theses<span class="dark"></span></h2>
 <div class="publication">
-<ol start="202"><li><span class="title"><a href="/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf" >Quality of Service and Semantic Composition of Workflows</a></span>. <span class="authors">Cardoso,  J.</span>  Ph.D. Thesis, <span class="school">University of Georgia, Department of Computer Science</span>, Athens, GA, USA, 2002.<span class="links"> [<a href="/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Quality of Service and Semantic Composition of Workflows">gs</a>]</span>
+<ol start="206"><li><span class="title"><a href="/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf" >Quality of Service and Semantic Composition of Workflows</a></span>. <span class="authors">Cardoso,  J.</span>  Ph.D. Thesis, <span class="school">University of Georgia, Department of Computer Science</span>, Athens, GA, USA, 2002.<span class="links"> [<a href="/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Quality of Service and Semantic Composition of Workflows">gs</a>]</span>
 <span class="bibtexlink">[<a href="bibs/Cardoso02PhD.bib">bib</a>]</span></li>
 
 </ol></div><h2>Master's Theses<span class="dark"></span></h2>
 <div class="publication">
-<ol start="203"><li><span class="title">Sistema Computorizado para a Automatizacao de Processos Organizacionais</span>. <span class="authors">Cardoso,  J.</span>  Master's Thesis, <span class="school">University of Coimbra, Department of Informatics Engineering</span>, Coimbra, Portugal, 1998.<span class="links"> </span>
+<ol start="207"><li><span class="title">Sistema Computorizado para a Automatizacao de Processos Organizacionais</span>. <span class="authors">Cardoso,  J.</span>  Master's Thesis, <span class="school">University of Coimbra, Department of Informatics Engineering</span>, Coimbra, Portugal, 1998.<span class="links"> </span>
 <span class="bibtexlink">[<a href="bibs/Cardoso98MSc.bib">bib</a>]</span></li>
 
 </ol></div><h2>Keynotes, invited talks, summer schools<span class="dark"></span></h2>
 <div class="publication">
-<ol start="204"><li><span class="title">Service Engineering for The Internet of Service</span>. <span class="authors">Cardoso,  J.</span>  Porto Salvo, Portugal, 2009.<span class="links"> </span>
+<ol start="208"><li><span class="title">Service Engineering for The Internet of Service</span>. <span class="authors">Cardoso,  J.</span>  Porto Salvo, Portugal, 2009.<span class="links"> </span>
 <span class="bibtexlink">[<a href="bibs/Cardoso09KeynoteIPBPM.bib">bib</a>]</span></li>
 
 <li><span class="title">Process Management and Integration with SAP</span>. <span class="authors">Cardoso,  J.</span>  Ciudad Real, Spain, 2008.<span class="links"> </span>
