@@ -101,15 +101,7 @@ components, middleware, and systems in a public and private cloud.
 
 News
 ----
-+ Our article *QuLog: Data-Driven Approach for Log Instruction Quality Assessment* was accepted to 30th IEEE/ACM International Conference on Program Comprehension (ICPC), Pennsylvania, 2022. **(Conference Rank: A)**
-+ I will give a keynote talk on "On the Application of AI for Failure Management: Problems, Solutions and Algorithms" at the [18th International Conference on the Design of Reliable Communication Networks (DRCN)](https://www.drcn2022.upc.edu), March 28-31, 2022,Barcelona, Spain.
-+ I will give a talk on "Towards Autonomous IT Systems: AIOps for IT Operations, Networks, Edge AI and DevOps" at [CASCON EVOKE 2021](https://pheedloop.com/casconevoke2021/site/home/), Toronto, Canada, November 22-26, 2021.
-+ I will be part of a panel on *AI for Operations Management* at [IEEE SERVICES 2021](https://conferences.computer.org/services/2021/) with Fausto Bernardini, Sr. SRE Director @ Google, Adam 
-  Iwanicki SRE Manager @ Google, Matt Lyteson, CTO @ IBM.
-+ I will serve with Anup K. Kalia, IBM T. J. Watson Research Center, NY as Industrial Track Co-Chair for the *[19th edition of the International Conference on Service Oriented Computing (ICSOC 
-  2021)](http://icsoc2021.josueonline.com/)*, November 22nd to 25th, Dubai. 
-+ My Lecture on [AIOps: Anomalous Span Detection in Distributed Traces Using Deep Learning](https://www.slideshare.net/JorgeCardoso4/aiops-anomalous-span-detection-in-distributed-traces-using-deep-learning) presented at Prof. Joeran Beel's Chair (Intelligent Systems, Trinity College Dublin) on 02.10.2019 is now available.
-
++ Looking for PhD student to work on LLM for Cloud Operations
 
 
 Patents
