@@ -223,7 +223,16 @@ toc: true
 <span class="bibtexlink">[<a href="bibs/Yu2023DSN.bib">bib</a>]</span></li>
 
 <li><span class="title">An Optical Transceiver Reliability Study based on SFP Monitoring and OS-level Metric Data</span>. <span class="authors">Notaro, P.; Haeri, S.; Yu, Q.; Cardoso, J. and Gerndt, M.</span>  <span class="in">In IEEE/ACM International Conference on Cloud, Grid, and Internet Computing</span>, 2023.<span class="links"> </span>
-<span class="bibtexlink">[<a href="bibs/Notaro2023CCG.bib">bib</a>]</span></li>
+<span class="bibtexlink">[<a href="bibs/Notaro2023CCGRID.bib">bib</a>]</span></li>
+
+<li><span class="title"><a href="/publications/Papers/CP-2022-100_First_CE_Matters.pdf" >First CE Matters: On the Importance of Long Term Properties on Memory Failure Prediction</a></span>. <span class="authors">Bogatinovski, J.; Yu, Q.; Cardoso, J. and Kao, O.</span>  <span class="in">In IEEE International Conference on Big Data</span>, 2022.<span class="links"> [<a href="/publications/Papers/CP-2022-100_First_CE_Matters.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=First CE Matters: On the Importance of Long Term Properties on Memory Failure Prediction">gs</a>]</span>
+<span class="bibtexlink">[<a href="bibs/Jasmin2022ICBD.bib">bib</a>]</span></li>
+
+<li><span class="title"><a href="/publications/Papers/CP-2022-099_Leveraging_Log_instructions.pdf" >Leveraging Log instructions for Log-based Anomaly Detection</a></span>. <span class="authors">Bogatinovski, J.; Madjarov, G.; Nedelkoski, S.; Cardoso, J. and Kao, O.</span>  <span class="in">In IEEE International Conference on Services Computing</span>, 2022.<span class="links"> [<a href="/publications/Papers/CP-2022-099_Leveraging_Log_instructions.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Leveraging Log instructions for Log-based Anomaly Detection">gs</a>]</span>
+<span class="bibtexlink">[<a href="bibs/Jasmin2022ICSC.bib">bib</a>]</span></li>
+
+<li><span class="title"><a href="/publications/Papers/CP-2022-098_Failure_Identification_from_Unstable_Log.pdf" >Failure Identification from Unstable Log Data using Deep Learning</a></span>. <span class="authors">Bogatinovski, J.; Nedelkoski, S.; Li, W; Cardoso, J. and Kao, O.</span>  <span class="in">In 22nd International Symposium on Cluster, Cloud and Internet Computing</span>, 2022.<span class="links"> [<a href="/publications/Papers/CP-2022-098_Failure_Identification_from_Unstable_Log.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Failure Identification from Unstable Log Data using Deep Learning">gs</a>]</span>
+<span class="bibtexlink">[<a href="bibs/Jasmin2022CCGRID.bib">bib</a>]</span></li>
 
 <li><span class="title"><a href="/publications/Papers/CP-2022-097_ICPC_QuLog.pdf" >QuLog: Data-Driven Approach for Log Instruction Quality Assessment</a></span>. <span class="authors">Bogatinovski, J.; Nedelkoski, S.; Acker, A.; Cardoso, J. and Kao, O.</span>  <span class="in">In 30th IEEE/ACM International Conference on Program Comprehension</span>, 2022.<span class="links"> [<a href="/publications/Papers/CP-2022-097_ICPC_QuLog.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=QuLog: Data-Driven Approach for Log Instruction Quality Assessment">gs</a>]</span>
 <span class="bibtexlink">[<a href="bibs/Jasmin2022ICPC.bib">bib</a>]</span></li>
@@ -533,7 +542,7 @@ toc: true
 
 </ol></div><h2>Books<span class="dark"></span></h2>
 <div class="publication">
-<ol start="172"><li><span class="title">Cloud Computing and Services Science</span>. <span class="authors">Helfert,  M.; Ferguson,  D.; Mendez Munoz,  V. and Cardoso,  J.</span>  <span class="publisher">Springer</span>, ISBN: 978-3-319-62594-2, 2017.<span class="links"> </span>
+<ol start="175"><li><span class="title">Cloud Computing and Services Science</span>. <span class="authors">Helfert,  M.; Ferguson,  D.; Mendez Munoz,  V. and Cardoso,  J.</span>  <span class="publisher">Springer</span>, ISBN: 978-3-319-62594-2, 2017.<span class="links"> </span>
 <span class="bibtexlink">[<a href="bibs/CloudCSS17.bib">bib</a>]</span></li>
 
 <li><span class="title">Software Technologies</span>. <span class="authors">Cabello,  E.; Cardoso,  J.; Ludwig,  A.; Maciaszek,  L.A. and van Sinderen,  M.</span>  <span class="publisher">Springer</span>, ISBN: 978-3-319-62569-0, 2017.<span class="links"> </span>
@@ -580,7 +589,7 @@ toc: true
 
 </ol></div><h2>Conference Proceedings<span class="dark"></span></h2>
 <div class="publication">
-<ol start="187"><li><span class="title">Proceedings of the 12th International Conference on Software Technologies</span>. <span class="authors">Cabello, E.; Cardoso, J.; Maciaszek, L. and Sinderen, M. va, ed.</span>  <span class="publisher">SCITEPRESS</span>, ISBN: 978-989-758-262-2, 2017.<span class="links"> </span>
+<ol start="190"><li><span class="title">Proceedings of the 12th International Conference on Software Technologies</span>. <span class="authors">Cabello, E.; Cardoso, J.; Maciaszek, L. and Sinderen, M. va, ed.</span>  <span class="publisher">SCITEPRESS</span>, ISBN: 978-989-758-262-2, 2017.<span class="links"> </span>
 <span class="bibtexlink">[<a href="bibs/ICSOFT17.bib">bib</a>]</span></li>
 
 <li><span class="title">Proceedings of the 11th International Joint Conference on Software Technologies, Volume 2: ICSOFT-PT</span>. <span class="authors">Ludwig, A.; Cabello, E.; Cardoso, J.; Maciaszek, L. and Sinderen, M. va, ed.</span>  <span class="publisher">SCITEPRESS</span>, ISBN: 978-989-758-194-6, 2016.<span class="links"> </span>
@@ -639,17 +648,17 @@ toc: true
 
 </ol></div><h2>PhD Theses<span class="dark"></span></h2>
 <div class="publication">
-<ol start="206"><li><span class="title"><a href="/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf" >Quality of Service and Semantic Composition of Workflows</a></span>. <span class="authors">Cardoso,  J.</span>  Ph.D. Thesis, <span class="school">University of Georgia, Department of Computer Science</span>, Athens, GA, USA, 2002.<span class="links"> [<a href="/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Quality of Service and Semantic Composition of Workflows">gs</a>]</span>
+<ol start="209"><li><span class="title"><a href="/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf" >Quality of Service and Semantic Composition of Workflows</a></span>. <span class="authors">Cardoso,  J.</span>  Ph.D. Thesis, <span class="school">University of Georgia, Department of Computer Science</span>, Athens, GA, USA, 2002.<span class="links"> [<a href="/publications/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Quality of Service and Semantic Composition of Workflows">gs</a>]</span>
 <span class="bibtexlink">[<a href="bibs/Cardoso02PhD.bib">bib</a>]</span></li>
 
 </ol></div><h2>Master's Theses<span class="dark"></span></h2>
 <div class="publication">
-<ol start="207"><li><span class="title">Sistema Computorizado para a Automatizacao de Processos Organizacionais</span>. <span class="authors">Cardoso,  J.</span>  Master's Thesis, <span class="school">University of Coimbra, Department of Informatics Engineering</span>, Coimbra, Portugal, 1998.<span class="links"> </span>
+<ol start="210"><li><span class="title">Sistema Computorizado para a Automatizacao de Processos Organizacionais</span>. <span class="authors">Cardoso,  J.</span>  Master's Thesis, <span class="school">University of Coimbra, Department of Informatics Engineering</span>, Coimbra, Portugal, 1998.<span class="links"> </span>
 <span class="bibtexlink">[<a href="bibs/Cardoso98MSc.bib">bib</a>]</span></li>
 
 </ol></div><h2>Keynotes, invited talks, summer schools<span class="dark"></span></h2>
 <div class="publication">
-<ol start="208"><li><span class="title">Service Engineering for The Internet of Service</span>. <span class="authors">Cardoso,  J.</span>  Porto Salvo, Portugal, 2009.<span class="links"> </span>
+<ol start="211"><li><span class="title">Service Engineering for The Internet of Service</span>. <span class="authors">Cardoso,  J.</span>  Porto Salvo, Portugal, 2009.<span class="links"> </span>
 <span class="bibtexlink">[<a href="bibs/Cardoso09KeynoteIPBPM.bib">bib</a>]</span></li>
 
 <li><span class="title">Process Management and Integration with SAP</span>. <span class="authors">Cardoso,  J.</span>  Ciudad Real, Spain, 2008.<span class="links"> </span>
