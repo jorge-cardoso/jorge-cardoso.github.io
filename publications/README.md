@@ -23,7 +23,7 @@ jekyll serve
 ### Commit to github
 ```bash
 git add .
-git commit -m "Added JGC survey 2021 paper"
+git commit -m "Added survey 2022 paper"
 git push origin master
 # when a password is required, enter your personal access token
 # 
