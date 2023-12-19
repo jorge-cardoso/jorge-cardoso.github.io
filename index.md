@@ -23,17 +23,20 @@ You can find more information about our work:
 
 Using machine learning and deep learning techniques, we apply AI to various areas related to [HUAWEI CLOUD](https://www.huaweicloud.com/intl/en-us/) such as: anomaly detection, root cause analysis, failure prediction, reliability and availability, risk estimation and security, network verification, and low-latency object tracking. Our work fits under the AI Engineering umbrella as discussed in [IEEE Software, Nov.-Dec. 2022](https://www.computer.org/csdl/magazine/so/2022/06).
 
-<img src="./images/Cloud_edge_device.png" height="300" width="600" style="float:right;margin:20px 20px 20px 20px;"/>
 
 
 Cloud Reliability
 -----------------
 
-Our current work involves the development of the **next generation of AI-driven IT Operations tools and platforms**.
+Our current work involves the development of the **next generation of AI-driven
+IT Operations tools and platforms**.
 This field is generally called [AIOps](https://pt.slideshare.net/JorgeCardoso4/mastering-aiops-with-deep-learning) 
 (artificial intelligence for IT operations).
-In planet-scale deployments, the Operation and Maintenance (O&M) of cloud platforms cannot be done any longer manually
-or simply with off-the-shelf solutions. 
+In planet-scale deployments, the Operation and Maintenance (O&M) of cloud platforms
+cannot be done any longer manually or simply with off-the-shelf solutions. 
+
+<img src="./images/Cloud_edge_device.png" height="300" width="600" style="float:right;margin:20px 20px 20px 20px;"/>
+
 It requires self-developed automated systems, ideally exploiting the use of AI to provide tools for autonomous cloud operations. Our work looks into how **deep learning**, **machine learning**, **distributed traces**, **graph analysis**, **time-series analysis** (sequence analysis), and **log analysis** can be used to effectively **detect and localize anomalous cloud infrastructure behaviours** during operations to reduce the workload of human operators. 
 These techniques are typically applied to Big Data coming from 
 microservice observability data:
