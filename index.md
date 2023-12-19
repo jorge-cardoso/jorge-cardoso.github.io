@@ -11,7 +11,8 @@ published: true
 
 <p><img src="./images/Jorge_Cardoso_2021.png" height="128" width="155" style="float:left;margin:0 20px 0 0;"/></p>
 
-I currently lead the **Ultra-scale AIOps Lab** and I take a dual role of Chief Architect and Engineer Manager at the 
+I currently lead the **Ultra-scale AIOps Lab**. I take a dual role of Chief Architect
+and Engineer Manager at the 
 [Huawei Munich Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany and [Huawei Ireland Research Center](https://huawei.eu/what-we-do/digital-transformation) in Dublin, Ireland.
 
 You can find more information about our work:
@@ -20,30 +21,23 @@ You can find more information about our work:
 + [Lab presentation](/pdf/2021-07-29-Ultra_Scale_AIOps_Lab_Workshop.pdf), July 2021, [The 1st Network Verification Workshop](https://networkverification-workshop.github.io/)
 
 
-Many of our innovation and system developments is done in collaboration with the [Technical University of Berlin](https://www.dos.tu-berlin.de/menue/datesnews/news/huawei_tub_innovation_lab_kick_off/) and the Huawei-TUB Innovation Lab for AI-driven Autonomous Operations.
-
 Using machine learning and deep learning techniques, we apply AI to various areas related to [HUAWEI CLOUD](https://www.huaweicloud.com/intl/en-us/) such as: anomaly detection, root cause analysis, failure prediction, reliability and availability, risk estimation and security, network verification, and low-latency object tracking. Our work fits under the AI Engineering umbrella as discussed in [IEEE Software, Nov.-Dec. 2022](https://www.computer.org/csdl/magazine/so/2022/06).
-
-The areas are categorized in three fields:
 
 <img src="./images/Cloud_edge_device.png" height="300" width="600" style="float:right;margin:20px 20px 20px 20px;"/>
 
-+ **AI for Operations**. We leverage big data and AI/ML platforms to automatically detect and predict failures in Cloud infrastructures in real-time. 
-+ **Edge AI**. We bring ML algorithms, computation and data storage closer to the devices where data is generated.  
-+ **AI for Networks**. We leverage ML to automate routine tasks, such as network verification, configuration, optimization and troubleshooting.   
 
+Cloud Reliability
+-----------------
 
-Technology
--------------
-
-Our current research involves the development of the **next generation of AI-driven IT Operations tools and platforms**.
+Our current work involves the development of the **next generation of AI-driven IT Operations tools and platforms**.
 This field is generally called [AIOps](https://pt.slideshare.net/JorgeCardoso4/mastering-aiops-with-deep-learning) 
 (artificial intelligence for IT operations).
 In planet-scale deployments, the Operation and Maintenance (O&M) of cloud platforms cannot be done any longer manually
 or simply with off-the-shelf solutions. 
-It requires self-developed automated systems, ideally exploiting the use of AI to provide tools for autonomous cloud operations. Our research looks into how **deep learning**, **machine learning**, **distributed traces**, **graph analysis**, **time-series analysis** (sequence analysis), and **log analysis** can be used to effectively **detect and localize anomalous cloud infrastructure behaviours** during operations to reduce the workload of human operators. 
+It requires self-developed automated systems, ideally exploiting the use of AI to provide tools for autonomous cloud operations. Our work looks into how **deep learning**, **machine learning**, **distributed traces**, **graph analysis**, **time-series analysis** (sequence analysis), and **log analysis** can be used to effectively **detect and localize anomalous cloud infrastructure behaviours** during operations to reduce the workload of human operators. 
 These techniques are typically applied to Big Data coming from 
-microservice [observability data](https://www.mstakx.com/wp-content/uploads/2018/09/A-Practical-Observability-Primer-1.pdf).
+microservice observability data:
++ A Survey of AIOps Methods for Failure Management. ACM TIST, 2021. (IF: 10.49)
 
 We create innovative systems for:
 
@@ -52,51 +46,72 @@ We create innovative systems for:
 + **Automated recovery**: fault localization and recovery
 + **Operational risk analysis**: CLI command analysis
 
-We are currently developing the iForesight system which is being used to evaluate this new O&M approach. 
-[iForesight 7.0](/projects/iforesight) is the result of more than 6 years of R&D with
-the goal to provide an intelligent new tool aimed at [SRE](https://en.wikipedia.org/wiki/Site_Reliability_Engineering)
+We are currently developing the iForesight system which is being used to
+evaluate this new O&M approach. [iForesight 7.0](/projects/iforesight) is 
+the result of more than 6 years of R&D with the goal to provide an
+intelligent new tool aimed at [SRE](https://en.wikipedia.org/wiki/Site_Reliability_Engineering)
 cloud maintenance teams. 
-It enables them to quickly detect, localize and predict anomalies thanks to the use of artificial intelligence when
-cloud services are slow or unresponsive. 
+It enables them to quickly detect, localize and predict anomalies thanks 
+to the use of artificial intelligence when cloud services are slow or 
+unresponsive. 
+Many of our innovation and system developments is done in collaboration with the [Technical University of Berlin](https://www.dos.tu-berlin.de/menue/datesnews/news/huawei_tub_innovation_lab_kick_off/) and the Huawei-TUB Innovation Lab for AI-driven Autonomous Operations.
 
-**Cloud Failure Prediction**.
-Designed and implemented innovative solutions for failure prediction of HDD, 
-SDD, RAM, and Optical network transceivers using Machine Learning.
-+ Exploring Error Bits for Memory Failure Prediction. ACM/IEEE ICCAD, 2023. (Rank: A)
-+ HiMFP: Hierarchical Intelligent Memory Failure Prediction. IEEE DSN, 2023. (Rank: A)
-+ An Optical Transceiver Reliability. IEEE/ACM CCGrid, 2023. (nominated best paper)
-+ A Survey of AIOps Methods for Failure Management. ACM TIST, 2021. (IF: 10.49)
-+ [Online Memory Leak Detection in the Cloud-based Infrastructures](/publications/Papers/WP-2020-078-AIOPS2020_Online_Memory_Leak_Detection.pdf), [AIOPS 2020](https://aiopsworkshop.github.io/), 2020.
-+ Efficient Failure Diagnosis of OpenStack, IEEE Internet Computing, 2018. (IF: 1.92)
-+ [Managing Large-Scale Edge Cluster Over Unstable Network with KubeEdge](https://www.lfasiallc.com/kubecon-cloudnativecon-open-source-summit-china/program/schedule/), CNCF, 2021.
 
-**Cloud Log Service**. 
-Designed a global, centralized and scalable platform to collect, analyze, and
-manage petabytes of logs and event data generated by various cloud-based and
-on-premises systems. 
-+ QuLog: Data-Driven Approach for Log Instruction Quality Assessment. IEEE/ACM ICPC, 2022. (Rank: A)
-+ [Self-Supervised Log Parsing](/publications/Papers/CP-2020-095_ECML_Self_Supervised_Log_Parsing.pdf). ECML-PKDD, 2020. (Rank: A)
-  
-**Cloud Monitoring Service**.
-Designed planet-scale systems for monitoring and managing the performance, health,
-and security of global cloud-based infrastructures using machine learning.
-+ Automated Analysis of Distributed Tracing. Journal of Grid Computing, 2021. (IF: 4.67)
-+ [Self-Attentive Classification-Based Anomaly Detection in Unstructured Logs](/publications/Papers/CP-2020-094-ICDM_Self_Attentive_Classification_Based_Anomaly_Detection.pdf), ICDM, 2020. (Rank: A*)
-+ Anomaly Detection and Classification using Distributed Tracing. IEEE CCGrid, 2019. (Rank: A)
+## Observability
+Design of **Cloud Monitoring Services** for monitoring and managing the performance,
+health, and security of global cloud-based infrastructures using machine learning.
++ [Multi-source Distributed System Data for AI-Powered Analytics](/publications/Papers/CP-2020-093-Multi-source_Distributed_System_Data.pdf), ESOCC 2020, 2020.
 + [Observing and Controlling Performance in Microservices](projects/pdf_img/MSc_thesis_Andre_Bento.pdf)
 + [Towards Occupation Inference in Non-instrumented Services](/publications/Papers/CP-2019-092-IEEE_NCA_Towards-Occupation-Inference-in-Non-instrumented-Services.pdf), NCA, 2019. 
 + On Black-Box Monitoring Techniques for Multi-Component Services, NCA, 2018.
-+ Modeling Service Level Agreements. IEEE TSC, 2017. (IF: 3.520)
-+ Linked USDL Agreement. IEEE ICWS, 2015. (Rank: A)
++ [Self-Supervised Log Parsing](/publications/Papers/CP-2020-095_ECML_Self_Supervised_Log_Parsing.pdf). ECML-PKDD, 2020. (Rank: A)
 
-**Cloud Trace Service**.
-Build distributed tracing to follow and profile the execution of public cloud
-services' requests as they travel across multiple infrastructure services, 
-components, middleware, and systems in a public and private cloud. 
+
+## Failure Prevention
+Design a global, centralized and scalable **Cloud Log Service** to collect,
+analyze, and manage petabytes of logs and event data generated by various
+cloud-based and on-premises systems. 
++ QuLog: Data-Driven Approach for Log Instruction Quality Assessment. IEEE/ACM ICPC, 2022. (Rank: A)
+
+
+## Failure Prediction
+Design systems for failure prediction of HDD, SDD, RAM, and Optical network
+transceivers using Machine Learning.
++ Exploring Error Bits for Memory Failure Prediction. ACM/IEEE ICCAD, 2023. (Rank: A)
++ HiMFP: Hierarchical Intelligent Memory Failure Prediction. IEEE DSN, 2023. (Rank: A)
++ An Optical Transceiver Reliability. IEEE/ACM CCGrid, 2023. (nominated best paper)
++ [Online Memory Leak Detection in the Cloud-based Infrastructures](/publications/Papers/WP-2020-078-AIOPS2020_Online_Memory_Leak_Detection.pdf), [AIOPS 2020](https://aiopsworkshop.github.io/), 2020.
++ [Managing Large-Scale Edge Cluster Over Unstable Network with KubeEdge](https://www.lfasiallc.com/kubecon-cloudnativecon-open-source-summit-china/program/schedule/), CNCF, 2021.
+
+
+## Anomaly detection
+Build a distributed **Cloud Trace Service** to follow and profile the execution
+of public cloud services' requests as they travel across multiple infrastructure
+services, components, middleware, and systems in a public and private cloud. 
++ Anomaly Detection and Classification using Distributed Tracing. IEEE CCGrid, 2019. (Rank: A)
 + [Anomaly Detection and Classification using Distributed Tracing and Deep Learning](/publications/Papers/CP-2019-089-CCGrid-Anomaly_Detection_and_Classification_using_DT_and_DL.pdf), IEEE/ACM CCGrid, 2019. (Rank: A)
 + [Anomaly Detection from System Tracing Data using Multimodal Deep Learning](/publications/Papers/CP-2019-090-IEEECloud-Anomaly_Detection_from_System_Tracing_Data_and_MDL.pdf), IEEE Cloud, 2019. (Rate: 21%)
 + Self-Supervised Anomaly Detection from Distributed Traces, UCC, 2020.
-+ [Multi-source Distributed System Data for AI-Powered Analytics](/publications/Papers/CP-2020-093-Multi-source_Distributed_System_Data.pdf), ESOCC 2020, 2020.
++ Automated Analysis of Distributed Tracing. Journal of Grid Computing, 2021. (IF: 4.67)
++ [Self-Attentive Classification-Based Anomaly Detection in Unstructured Logs](/publications/Papers/CP-2020-094-ICDM_Self_Attentive_Classification_Based_Anomaly_Detection.pdf), ICDM, 2020. (Rank: A*)
+
+
+## Root-cause Analysis
+Cloud Root Cause Analysis (RCA) refers to the process of identifying and 
+understanding the underlying causes of issues or incidents that occur in
+cloud computing environments.
++ Efficient Failure Diagnosis of OpenStack, IEEE Internet Computing, 2018. (IF: 1.92)
+
+
+
+## Recovery
+Recovery or mitigation of cloud failures involves the use of automated
+processes and tools to identify, respond to, and recover from failures
+or issues in a cloud computing environment. 
++ To come
+
+
+
 
 
 News
