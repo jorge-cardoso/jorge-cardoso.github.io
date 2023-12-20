@@ -110,20 +110,3 @@ Cloud Computing
 + Lecture. [Cloud BPM: Workflow Patterns](https://www.dropbox.com/s/g19jjnv82w5eum6/08_ECC_Lecture_Cloud_BPM_Workflow_Patterns_2016-09-25.pdf?dl=0)
 + Lab. [Cloud BPM: Workflow Patterns](https://www.dropbox.com/s/qra0daixkyk8ivp/08_ECC_Lab_Cloud_BPM_Workflow_Patterns_2016-09-25.pdf?dl=0)
 
-
-Past Courses
-------------
-Over the years, I have taught a wide variety of courses to students from diverse backgrounds mainly in the field of computer science:
-
-+ [Karlsruhe Institute of Technology](https://www.kit.edu/english/) (KIT), Service-Oriented Computing
-+ [University of Coimbra](https://www.uc.pt/fctuc/dei/), Service Engineering, Databases and Information Analysis, Information Systems, Organizational Behavior, Human-Computer Interaction
-+ [University of Madeira](https://www.uma.pt/en/), Semantic Web, Distributed Systems, Computer Architecture, Enterprise Integration, Decision Support Systems
-+ [University of Georgia](https://www.uga.edu), Introduction to Computing and Programming
-+ [Polytechnic Institute of Leiria](https://www.ipleiria.pt/home/), Microprocessors
-
-
-<span class="badge info">1</span> 
-<span class="badge warning">2</span> 
-<span class="badge danger">3</span> 
-<span class="badge success">4</span>
-<span class="badge">5</span> 

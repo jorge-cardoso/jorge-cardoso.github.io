@@ -3,7 +3,7 @@ layout: books
 title: "Books Published"
 date: 
 modified:
-excerpt: Here is a list of the books I have published over the years
+excerpt: 
 tags: [books, semantic web, BPM]
 image:
   feature:
