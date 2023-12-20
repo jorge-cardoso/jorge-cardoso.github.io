@@ -172,6 +172,7 @@ If you need more information explaining what a PhD/MSc thesis is about, you can 
 
 We are also open to host academic visitors (students or faculty).
 
+
 About me
 --------
 
@@ -215,8 +216,8 @@ Our lab's culture of innovation and R&D is based on 5 main guiding principles:
   
 > A good researcher says, "Lets find out", others say "Nobody knows". When a good researcher makes a mistake, he says, I was  wrong", others say "It wasn't my fault". A good researcher works harder than others and has more time. Others are always "too busy" to do what is necessary. [Unknown source]
 
-Contact
--------
+### Contact
+
 + Prof. Jorge Cardoso
 + [Huawei Munich Research Center](https://huawei.eu/research-and-innovation), Germany
 + [Departamento de Engenharia Informatica](http://www.uc.pt/en/fctuc/dei), University of Coimbra, Portugal
