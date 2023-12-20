@@ -17,7 +17,7 @@ vi cardoso.bib
 php bibtex2html.php cardoso.bib index.md
 git add ./bibs
 cd ..
-jekyll serve
+bundle exec jekyll serve
 ```
 
 ### Commit to github
