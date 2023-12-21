@@ -8,20 +8,26 @@ comments: true
 published: true
 ---
 
-
 <p><img src="./images/Jorge_Cardoso_2021.png" height="128" width="155" style="float:left;margin:0 20px 0 0;"/></p>
 
-I currently lead the **Ultra-scale AIOps Lab**. I take a dual role of Chief Architect
-and Engineer Manager at the 
-[Huawei Munich Research Center](http://www.huawei.eu/research-and-innovation) in Munich, Germany and [Huawei Ireland Research Center](https://huawei.eu/what-we-do/digital-transformation) in Dublin, Ireland.
+I currently lead the **Ultra-scale AIOps Lab**. I take a dual role of
+Chief Architect and Engineer Manager at  
+[HUAWEI CLOUD](https://www.huaweicloud.com/intl/en-us/) in Munich, Germany and Dublin, Ireland.
 
-You can find more information about our work:
-+ [Cloud Operation R&D](/pdf/2023-05-23-AS_AIOps_for_Cloud_Operations_R&D.pdf), May 23-25 2023, Academic Salon AIOps 2023, TU Berlin.
-+ [Research Contributions](/pdf/2022-03-30-DRCN_On_the_Application_of_AI_for_Failure_Management.pdf), March 28-31 2022, [18th DRCN](https://www.drcn2022.upc.edu/65183/detail/drcn-2022.html)
-+ [Lab presentation](/pdf/2021-07-29-Ultra_Scale_AIOps_Lab_Workshop.pdf), July 2021, [The 1st Network Verification Workshop](https://networkverification-workshop.github.io/)
+You can find more information about our work here:
++ [Cloud Operations](/pdf/2023-05-23-AS_AIOps_for_Cloud_Operations_R&D.pdf)
+  (Academic Salon AIOps, TU Berlin, 2023) 
++ [R&D Contributions](/pdf/2022-03-30-DRCN_On_the_Application_of_AI_for_Failure_Management.pdf)
+  ([18th DRCN](https://www.drcn2022.upc.edu/65183/detail/drcn-2022.html), 2022) 
++ [Ultra Scale AIOps Lab](/pdf/2021-07-29-Ultra_Scale_AIOps_Lab_Workshop.pdf)
+  ([Network Verification](https://networkverification-workshop.github.io/), 2021)
 
-
-Using machine learning and deep learning techniques, we apply AI to various areas related to [HUAWEI CLOUD](https://www.huaweicloud.com/intl/en-us/) such as: anomaly detection, root cause analysis, failure prediction, reliability and availability, risk estimation and security, network verification, and low-latency object tracking. Our work fits under the AI Engineering umbrella as discussed in [IEEE Software, Nov.-Dec. 2022](https://www.computer.org/csdl/magazine/so/2022/06).
+Using machine learning and deep learning techniques, we apply AI to various
+areas related to [HUAWEI CLOUD](https://www.huaweicloud.com/intl/en-us/) such
+as: anomaly detection, root cause analysis, failure prediction, reliability
+and availability, risk estimation and security, network verification, and
+low-latency object tracking. Our work fits under the AI Engineering umbrella
+as discussed in [IEEE Software, Nov.-Dec. 2022](https://www.computer.org/csdl/magazine/so/2022/06).
 
 
 
