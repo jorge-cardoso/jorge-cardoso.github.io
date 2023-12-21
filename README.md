@@ -3,4 +3,4 @@ Web site for Jorge Cardoso
 
 ## Run locally
 
-$ jekyll serve
+$ bundle exec jekyll serve

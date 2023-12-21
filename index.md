@@ -13,7 +13,6 @@ published: true
 I currently lead the **Ultra-scale AIOps Lab**. I take a dual role of
 Chief Architect and Engineer Manager at  
 [HUAWEI CLOUD](https://www.huaweicloud.com/intl/en-us/) in Munich, Germany and Dublin, Ireland.
-
 You can find more information about our work here:
 + [Cloud Operations](/pdf/2023-05-23-AS_AIOps_for_Cloud_Operations_R&D.pdf)
   (Academic Salon AIOps, TU Berlin, 2023) 
