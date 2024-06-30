@@ -49,9 +49,8 @@ We create innovative systems for:
 + **Automated recovery**: fault localization and recovery
 + **Operational risk analysis**: CLI command analysis
 
-We are currently developing the iForesight system which is being used to
-evaluate this new O&M approach. [iForesight 7.0](/systems/iforesight) is 
-the result of 7+ years of R&D with the goal to provide an
+We are currently developing the iForesight system which is being used to evaluate this new O&M approach.
+iForesight 7.0 is the result of 7+ years of R&D with the goal to provide an
 intelligent new tool aimed at [SRE](https://en.wikipedia.org/wiki/Site_Reliability_Engineering)
 cloud maintenance teams. 
 It enables them to quickly detect, localize and predict anomalies thanks 
@@ -109,6 +108,6 @@ more time. Others are always "too busy" to do what is necessary. [Unknown source
 ## Contact
 
 + Prof. Jorge Cardoso
-+ [Huawei Munich Research Center](https://huawei.eu/research-and-innovation), Germany
++ [Huawei Munich Research Center](http://huawei.eu/research-and-innovation), Germany
 + [Departamento de Engenharia Informatica](http://www.uc.pt/en/fctuc/dei), University of Coimbra, Portugal
 + `jcardoso [*.A._.T$] dei | uc | pt`

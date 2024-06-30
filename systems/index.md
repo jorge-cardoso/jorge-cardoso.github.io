@@ -90,7 +90,7 @@ Observability
 We enhanced HUAWEI CLOUD **Cloud Monitoring Service** used to monitor and manage the performance,
 health, and security of global cloud infrastructures using machine learning.
 + [Multi-source Distributed System Data for AI-Powered Analytics](/rd/Papers/CP-2020-093-Multi-source_Distributed_System_Data.pdf), ESOCC 2020, 2020.
-+ [Observing and Controlling Performance in Microservices](systems/pdf_img/MSc_thesis_Andre_Bento.pdf)
++ [Observing and Controlling Performance in Microservices](pdf_img/MSc_thesis_Andre_Bento.pdf)
 + [Towards Occupation Inference in Non-instrumented Services](/rd/Papers/CP-2019-092-IEEE_NCA_Towards-Occupation-Inference-in-Non-instrumented-Services.pdf), NCA, 2019. 
 + [On Black-Box Monitoring Techniques for Multi-Component Services](/rd/Papers/CP-2018-083-On-Black-Box-Monitoring Techniques-for-Multi-Component-Services.pdf), NCA, 2018
 + [Self-Supervised Log Parsing](/rd/Papers/CP-2020-095_ECML_Self_Supervised_Log_Parsing.pdf). ECML-PKDD, 2020. (Rank: A)

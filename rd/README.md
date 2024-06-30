@@ -21,7 +21,7 @@ bundle exec jekyll serve
 ```bash
 git add ./bibs
 git add .
-git commit -m "Added survey 2022 paper"
+git commit -m "Added survey 2024 paper"
 git push origin master
 # when a password is required, enter your personal access token
 ```
