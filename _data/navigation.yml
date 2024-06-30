@@ -5,20 +5,20 @@
   excerpt: "Home page"
   image: Teaser-Home.png
 
-- title: Projects
-  url: /projects/
-  excerpt: "Main research interests"
+- title: Systems
+  url: /systems/
+  excerpt: "Software systems developed"
   image: Teaser-Research.png
 
-- title: Publications
-  url: /publications/
-  excerpt: "List of scientific publications"
-  image: Teaser-Publications.png
+- title: R&D
+  url: /rd/
+  excerpt: "List of R&D publications"
+  image: Teaser-RD.png
 
-- title: Courses
-  url: /courses/
-  excerpt: "Courses taught over the years"
-  image: Teaser-Courses.jpg
+#- title: Courses
+#  url: /courses/
+#  excerpt: "Courses taught over the years"
+#  image: Teaser-Courses.jpg
 
 - title: Books
   url: /books/

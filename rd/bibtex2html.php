@@ -395,7 +395,7 @@ function bibtex2html($entry, $type, $accents, $hightlightName = ''){
 		
 		if(trim($webpdf)!="") {
 //			$title = '<a href="'.$webpdf.'" >'.$title.'</a>';
-			$title = '<a href="' . "/publications" . $webpdf.'" >'.$title.'</a>';
+			$title = '<a href="' . "/rd" . $webpdf.'" >'.$title.'</a>';
 			 
 		}
 		// Title
@@ -653,12 +653,12 @@ function bibtex2html($entry, $type, $accents, $hightlightName = ''){
 
 			// Jorge Cardoso/JC
 			// $googletitle = urlencode($title);
-// 		    $ret .= ' <a href="'. "/publications". $webpdf.'"><img src="../images/pdf.png"></a>';
+// 		    $ret .= ' <a href="'. "/rd". $webpdf.'"><img src="../images/pdf.png"></a>';
 // 			$ret .= ' <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=' .$textual_title. '"><img src="../images/Google.png"></a>';
 			$google = '<a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=' .$textual_title. '">gs</a>';
 //			$google = '<a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=' .$textual_title. '"><img src="../images/Google.png"></a>';
-// 		    $pdf = '<a href="'. "/publications". $webpdf.'"><img src="../images/pdf.png"></a>';
-            $pdf = '<a href="'. "/publications". $webpdf.'">pdf</a>';
+// 		    $pdf = '<a href="'. "/rd". $webpdf.'"><img src="../images/pdf.png"></a>';
+            $pdf = '<a href="'. "/rd". $webpdf.'">pdf</a>';
 		    $ret .= "[" . $pdf . ", " . $google . "]";
 		}
 
@@ -887,7 +887,7 @@ function bibstring2html($fileContent, $displayTypes = NULL, $groupType = NULL, $
 
 /**
  * main($filename_bib, $filename_html):
- * Generates a Jekill file for publications.
+ * Generates a Jekill file for rd (R&D) publications.
  * Generates all the bibs. The function bibstring2html has been changed. 
  * Find the string 'bibs/' to see the code that was changed to generate and store the bibs
  * 
@@ -903,7 +903,7 @@ if (isset($argv[1]) && isset($argv[2])) {
 				 	 
  	file_put_contents($argv[2], '---'. PHP_EOL);
   	file_put_contents($argv[2], 'layout: article ' . PHP_EOL, FILE_APPEND);
- 	file_put_contents($argv[2], 'title: "Publications"'. PHP_EOL, FILE_APPEND);
+ 	file_put_contents($argv[2], 'title: "R&D"'. PHP_EOL, FILE_APPEND);
   	file_put_contents($argv[2], 'date:'. PHP_EOL, FILE_APPEND);
  	file_put_contents($argv[2], 'modified:'. PHP_EOL, FILE_APPEND);
   	file_put_contents($argv[2], 'excerpt:'. PHP_EOL, FILE_APPEND);

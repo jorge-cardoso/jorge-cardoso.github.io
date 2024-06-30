@@ -478,13 +478,13 @@ The observation that the power of service-based economies is no longer restricte
 
 + Georgia Kapitsaki, Josef Ioannou, Jorge Cardoso, Carlos Pedrinaci, "Linked USDL Privacy: Describing Privacy Policies for Service",  was published at the IEEE Inter. Conf. on Web Services (ICWS) **(Conference Rank: A)**, 2-7 July 2018, San Francisco, USA, 2018. 
 + José María García, Pablo Fernández, Carlos Pedrinaci, Manuel Resinas, Jorge Cardoso, Antonio Ruiz-Cortés, "Modeling Service Level Agreements with Linked USDL Agreement", IEEE Transactions on Services Computing **(Impact Factor 2016: 3.049)**, pp. 52-65, Volume: 10, Issue: 1, Jan.-Feb. 1 2017.
-+ José María García, Carlos Pedrinaci, Manuel Resinas, Jorge Cardoso, Pablo Fernández, Antonio Ruiz-Cortés. [Linked USDL Agreement: Effectively Sharing Semantic Service Level Agreements on the Web](/publications/Papers/CP-2015-079-Linked-USDL-Agreement.pdf), The IEEE International Conference on Web Services (ICWS), June 27 - July 2, 2015, New York, USA. **(Acceptance Rate: 17.4%)**
-+ Jorge Cardoso and Carlos Pedrinaci, [Evolution and Overview of Linked USDL](/publications/Papers/CP-2015-077-Linked-USDL-Evolution-and-Overview.pdf). 6th International Conference Exploring Services Science, IESS 2015, Porto, Portugal, February 4-6, 2015, LNBIP, Vol. 201, Novoa, Henriqueta, Dragoicea, Monica (Eds.), 2015.
-+ Cardoso, J., R Mans, PR da Cunha, W van der Aalst, H Berthold, [A framework for next generation e-health systems and services](/publications/Papers/CP-2015-080-Framework-e-health-systems.pdf) Proc. Amer. Conf. Inf. Syst. (AMCIS), pp. 1-11. 2015.  **(Conference Rank: A)**
-+ Pedrinaci, C.; Cardoso, J. and Leidig, T. [Linked USDL: A Vocabulary for Web-scale Service Trading](/publications/Papers/CP-2014-073-ESWC-Linked-USDL.pdf). In 11th Extended Semantic Web Conference (ESWC), Crete, Greece, 2014. (Acceptance Rate: 25%)
-+ Cardoso, J.; Binz, T.; Breitenbucher, Uwe; Kopp, O. and Leymann, F. [Cloud Computing Automation: Integrating USDL and TOSCA](/publications/Papers/CP-2013-068-CAISE-USDL-and-TOSCA.pdf). In 25th Conference on Advanced Information Systems Engineering (CAiSE  2013), pages 1-16, Springer, LNCS, Vol. 7908, 2013. **(Conference Rank: A; Acceptance rate: 16,6%)**
-+ Jorge Cardoso, Ricardo Lopes, and Geert Poels. [Conceptual Frameworks](/publications/Papers/CH-2014-Service-Systems-Conceptual-Frameworks.pdf), in Service Systems: Concepts, Modeling, and Programming, Springer, 2014.
-+ Jorge Cardoso, Ricardo Lopes, and Geert Poels. [The LSS-USDL Model](/publications/Papers/CH-2014-Service-Systems-The-LSS-USDL-Model.pdf), in Service Systems: Concepts, Modeling, and Programming, Springer, 2014.
++ José María García, Carlos Pedrinaci, Manuel Resinas, Jorge Cardoso, Pablo Fernández, Antonio Ruiz-Cortés. [Linked USDL Agreement: Effectively Sharing Semantic Service Level Agreements on the Web](/rd/Papers/CP-2015-079-Linked-USDL-Agreement.pdf), The IEEE International Conference on Web Services (ICWS), June 27 - July 2, 2015, New York, USA. **(Acceptance Rate: 17.4%)**
++ Jorge Cardoso and Carlos Pedrinaci, [Evolution and Overview of Linked USDL](/rd/Papers/CP-2015-077-Linked-USDL-Evolution-and-Overview.pdf). 6th International Conference Exploring Services Science, IESS 2015, Porto, Portugal, February 4-6, 2015, LNBIP, Vol. 201, Novoa, Henriqueta, Dragoicea, Monica (Eds.), 2015.
++ Cardoso, J., R Mans, PR da Cunha, W van der Aalst, H Berthold, [A framework for next generation e-health systems and services](/rd/Papers/CP-2015-080-Framework-e-health-systems.pdf) Proc. Amer. Conf. Inf. Syst. (AMCIS), pp. 1-11. 2015.  **(Conference Rank: A)**
++ Pedrinaci, C.; Cardoso, J. and Leidig, T. [Linked USDL: A Vocabulary for Web-scale Service Trading](/rd/Papers/CP-2014-073-ESWC-Linked-USDL.pdf). In 11th Extended Semantic Web Conference (ESWC), Crete, Greece, 2014. (Acceptance Rate: 25%)
++ Cardoso, J.; Binz, T.; Breitenbucher, Uwe; Kopp, O. and Leymann, F. [Cloud Computing Automation: Integrating USDL and TOSCA](/rd/Papers/CP-2013-068-CAISE-USDL-and-TOSCA.pdf). In 25th Conference on Advanced Information Systems Engineering (CAiSE  2013), pages 1-16, Springer, LNCS, Vol. 7908, 2013. **(Conference Rank: A; Acceptance rate: 16,6%)**
++ Jorge Cardoso, Ricardo Lopes, and Geert Poels. [Conceptual Frameworks](/rd/Papers/CH-2014-Service-Systems-Conceptual-Frameworks.pdf), in Service Systems: Concepts, Modeling, and Programming, Springer, 2014.
++ Jorge Cardoso, Ricardo Lopes, and Geert Poels. [The LSS-USDL Model](/rd/Papers/CH-2014-Service-Systems-The-LSS-USDL-Model.pdf), in Service Systems: Concepts, Modeling, and Programming, Springer, 2014.
 
 
 
@@ -534,7 +534,7 @@ Our intentions are twofold. On the one hand, we think it is fundamental to surve
 A further empirical investigation might ultimately lead to establishing a complexity theory of business process models. On the other hand, we plan to demonstrate that these metrics serves their purpose, we plan to carry out several empirical validations by means of controlled experiments.
 
 
-Other projects
+Other systems
 --------------
 
 + Process Control-Flow Analysis
