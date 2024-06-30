@@ -29,4 +29,4 @@ git push origin master
 ### Troubleshooting
 
 If there is Gemfile, always prepend bunde exec.
-Delete Gemfile.lock and run 'bundle exec jekyll serve --trace' 
+Delete Gemfile.lock and run 'bundle exec jekyll serve --trace'. 
