@@ -15,6 +15,11 @@
   excerpt: "List of R&D publications"
   image: Teaser-RD.png
 
+- title: Library
+  url: /library/
+  excerpt: "Library with presentations on computer science"
+  image: Teaser-RD.png
+
 #- title: Courses
 #  url: /courses/
 #  excerpt: "Courses taught over the years"
