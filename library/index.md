@@ -22,6 +22,8 @@ toc: true
 - [Security Operations](/library/2023-04-12-Security_Operations_Lecture.pdf) (lecture at TUB) SecOps integrates monitoring, tools, processes, and technology to keep IT secure while reducing risk.
 - [Intelligent Log Analysis](/library/2020-02-22-Intelligent_Log_Analysis_lecture.pdf) (lecture at TUB): Explore the use of structured logging to facilitate the application of AI/ML methods for Root-cause analysis
 - [Cloud Computing](/library/cloud_computing): Overview, concept, web APIs, platforms, applications, and BPM  
+- [Hypervisor Reliability](/library/2023-12-20_Hypervisor_Anomaly_Detection_Lecture.pdf): Identifying health issues of hypervisors correlated with latent failures. 
+ 
 
 **Openstack, distributed tracing**
 - Lectures at TUM and TUB
