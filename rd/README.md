@@ -7,10 +7,11 @@ To update github run the following instructions.
 To generate the new bibs and rd (R&D) web page:
 
 ```bash
-# cd /Users/jcardoso/GitHub/jorge-cardoso.github.io/rd
-cd /Users/jcardoso/GitHub/jorge-cardoso.github.io/rd
+cd /home/jcardoso/work/git/jorge-cardoso.github.io/rd
 # Run php bibtex2html.php cardoso.bib index.md
 vi cardoso.bib
+# Tidy the reference
+https://flamingtempura.github.io/bibtex-tidy/
 # To make sure the generated file works, run 
 php bibtex2html.php cardoso.bib index.md
 cd ..

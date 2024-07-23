@@ -216,8 +216,14 @@ toc: true
 
 </ol></div><h2>In Proceedings<span class="dark"></span></h2>
 <div class="publication">
-<ol start="67"><li><span class="title"><a href="/rd/Papers/CP-2023-103_Exploring Error_Bits_for_Memory_Failure_Prediction.pdf" >Exploring Error Bits for Memory Failure Prediction: An In-Depth Correlative Study</a></span>. <span class="authors">Yu, Q.; Zhang, W.; Cardoso, J. and Kao, O.</span>  <span class="in">In ACM/IEEE International Conference on Computer-Aided Design (ICCAD)</span>, <span class="publisher">IEEE</span>, 2023.<span class="links"> [<a href="/rd/Papers/CP-2023-103_Exploring Error_Bits_for_Memory_Failure_Prediction.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Exploring Error Bits for Memory Failure Prediction: An In-Depth Correlative Study">gs</a>]</span>
-<span class="bibtexlink">[<a href="bibs/Yu2023DSN.bib">bib</a>]</span></li>
+<ol start="67"><li><span class="title"><a href="/rd/Papers/CP-2024-105_Investigating_Memory_Failure_Prediction_Acros_CPU_Architectures.pdf" >Investigating Memory Failure Prediction Across CPU Architectures</a></span>. <span class="authors">Yu, Q.; Zhang, W.; Zhou, Mi; Yu, J.; Sheng, Z.; Cardoso, J.; Bogatinovski, J. and Kao, O.</span>  <span class="in">In IEEE/IFIP International Conference on Dependable Systems and Network</span>, 2024.<span class="links"> [<a href="/rd/Papers/CP-2024-105_Investigating_Memory_Failure_Prediction_Acros_CPU_Architectures.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Investigating Memory Failure Prediction Across CPU Architectures">gs</a>]</span>
+<span class="bibtexlink">[<a href="bibs/Yu2024DSN.bib">bib</a>]</span></li>
+
+<li><span class="title"><a href="/rd/Papers/CP-2023-104_Enabling_Fine-Grained_Packet_Loss_Monitoring_in_Cloud_Networks.pdf" >Enabling Fine-Grained Packet Loss Monitoring in Cloud Networks</a></span>. <span class="authors">Bose,  R.; Sviridov,  G. and Cardoso,  J.</span>  <span class="in">In <a href="http://dx.doi.org/10.1109/GLOBECOM54140.2023.10436938" target="_blank">GLOBECOM 2023 - 2023 IEEE Global Communications Conference</a></span>, pages 6789-6794, 2023.<span class="links"> [<a href="/rd/Papers/CP-2023-104_Enabling_Fine-Grained_Packet_Loss_Monitoring_in_Cloud_Networks.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Enabling Fine-Grained Packet Loss Monitoring in Cloud Networks">gs</a>]</span>
+<span class="bibtexlink">[<a href="bibs/Rohan2023GLOBECOM.bib">bib</a>]</span></li>
+
+<li><span class="title"><a href="/rd/Papers/CP-2023-103_Exploring Error_Bits_for_Memory_Failure_Prediction.pdf" >Exploring Error Bits for Memory Failure Prediction: An In-Depth Correlative Study</a></span>. <span class="authors">Yu, Q.; Zhang, W.; Cardoso, J. and Kao, O.</span>  <span class="in">In ACM/IEEE International Conference on Computer-Aided Design (ICCAD)</span>, <span class="publisher">IEEE</span>, 2023.<span class="links"> [<a href="/rd/Papers/CP-2023-103_Exploring Error_Bits_for_Memory_Failure_Prediction.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Exploring Error Bits for Memory Failure Prediction: An In-Depth Correlative Study">gs</a>]</span>
+<span class="bibtexlink">[<a href="bibs/Yu2023ICCAD.bib">bib</a>]</span></li>
 
 <li><span class="title">HiMFP: Hierarchical Intelligent Memory Failure Prediction for Cloud Service Reliability</span>. <span class="authors">Yu, Q.; Zhang, W.; Haeri, S.; Notaro, P.; Cardoso, J. and Kao, O.</span>  <span class="in">In IEEE/IFIP International Conference on Dependable Systems and Network</span>, 2023.<span class="links"> </span>
 <span class="bibtexlink">[<a href="bibs/Yu2023DSN.bib">bib</a>]</span></li>
@@ -542,7 +548,7 @@ toc: true
 
 </ol></div><h2>Books<span class="dark"></span></h2>
 <div class="publication">
-<ol start="175"><li><span class="title">Cloud Computing and Services Science</span>. <span class="authors">Helfert,  M.; Ferguson,  D.; Mendez Munoz,  V. and Cardoso,  J.</span>  <span class="publisher">Springer</span>, ISBN: 978-3-319-62594-2, 2017.<span class="links"> </span>
+<ol start="177"><li><span class="title">Cloud Computing and Services Science</span>. <span class="authors">Helfert,  M.; Ferguson,  D.; Mendez Munoz,  V. and Cardoso,  J.</span>  <span class="publisher">Springer</span>, ISBN: 978-3-319-62594-2, 2017.<span class="links"> </span>
 <span class="bibtexlink">[<a href="bibs/CloudCSS17.bib">bib</a>]</span></li>
 
 <li><span class="title">Software Technologies</span>. <span class="authors">Cabello,  E.; Cardoso,  J.; Ludwig,  A.; Maciaszek,  L.A. and van Sinderen,  M.</span>  <span class="publisher">Springer</span>, ISBN: 978-3-319-62569-0, 2017.<span class="links"> </span>
@@ -589,7 +595,7 @@ toc: true
 
 </ol></div><h2>Conference Proceedings<span class="dark"></span></h2>
 <div class="publication">
-<ol start="190"><li><span class="title">Proceedings of the 12th International Conference on Software Technologies</span>. <span class="authors">Cabello, E.; Cardoso, J.; Maciaszek, L. and Sinderen, M. va, ed.</span>  <span class="publisher">SCITEPRESS</span>, ISBN: 978-989-758-262-2, 2017.<span class="links"> </span>
+<ol start="192"><li><span class="title">Proceedings of the 12th International Conference on Software Technologies</span>. <span class="authors">Cabello, E.; Cardoso, J.; Maciaszek, L. and Sinderen, M. va, ed.</span>  <span class="publisher">SCITEPRESS</span>, ISBN: 978-989-758-262-2, 2017.<span class="links"> </span>
 <span class="bibtexlink">[<a href="bibs/ICSOFT17.bib">bib</a>]</span></li>
 
 <li><span class="title">Proceedings of the 11th International Joint Conference on Software Technologies, Volume 2: ICSOFT-PT</span>. <span class="authors">Ludwig, A.; Cabello, E.; Cardoso, J.; Maciaszek, L. and Sinderen, M. va, ed.</span>  <span class="publisher">SCITEPRESS</span>, ISBN: 978-989-758-194-6, 2016.<span class="links"> </span>
@@ -648,17 +654,17 @@ toc: true
 
 </ol></div><h2>PhD Theses<span class="dark"></span></h2>
 <div class="publication">
-<ol start="209"><li><span class="title"><a href="/rd/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf" >Quality of Service and Semantic Composition of Workflows</a></span>. <span class="authors">Cardoso,  J.</span>  Ph.D. Thesis, <span class="school">University of Georgia, Department of Computer Science</span>, Athens, GA, USA, 2002.<span class="links"> [<a href="/rd/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Quality of Service and Semantic Composition of Workflows">gs</a>]</span>
+<ol start="211"><li><span class="title"><a href="/rd/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf" >Quality of Service and Semantic Composition of Workflows</a></span>. <span class="authors">Cardoso,  J.</span>  Ph.D. Thesis, <span class="school">University of Georgia, Department of Computer Science</span>, Athens, GA, USA, 2002.<span class="links"> [<a href="/rd/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Quality of Service and Semantic Composition of Workflows">gs</a>]</span>
 <span class="bibtexlink">[<a href="bibs/Cardoso02PhD.bib">bib</a>]</span></li>
 
 </ol></div><h2>Master's Theses<span class="dark"></span></h2>
 <div class="publication">
-<ol start="210"><li><span class="title">Sistema Computorizado para a Automatizacao de Processos Organizacionais</span>. <span class="authors">Cardoso,  J.</span>  Master's Thesis, <span class="school">University of Coimbra, Department of Informatics Engineering</span>, Coimbra, Portugal, 1998.<span class="links"> </span>
+<ol start="212"><li><span class="title">Sistema Computorizado para a Automatizacao de Processos Organizacionais</span>. <span class="authors">Cardoso,  J.</span>  Master's Thesis, <span class="school">University of Coimbra, Department of Informatics Engineering</span>, Coimbra, Portugal, 1998.<span class="links"> </span>
 <span class="bibtexlink">[<a href="bibs/Cardoso98MSc.bib">bib</a>]</span></li>
 
 </ol></div><h2>Keynotes, invited talks, summer schools<span class="dark"></span></h2>
 <div class="publication">
-<ol start="211"><li><span class="title">Service Engineering for The Internet of Service</span>. <span class="authors">Cardoso,  J.</span>  Porto Salvo, Portugal, 2009.<span class="links"> </span>
+<ol start="213"><li><span class="title">Service Engineering for The Internet of Service</span>. <span class="authors">Cardoso,  J.</span>  Porto Salvo, Portugal, 2009.<span class="links"> </span>
 <span class="bibtexlink">[<a href="bibs/Cardoso09KeynoteIPBPM.bib">bib</a>]</span></li>
 
 <li><span class="title">Process Management and Integration with SAP</span>. <span class="authors">Cardoso,  J.</span>  Ciudad Real, Spain, 2008.<span class="links"> </span>
