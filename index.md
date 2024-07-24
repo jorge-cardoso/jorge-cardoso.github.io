@@ -10,33 +10,26 @@ published: true
 
 <p><img src="./images/Jorge_Cardoso_2021.png" height="128" width="155" style="float:left;margin:30px 30px 0 0;"/></p>
 
-I currently lead the **Ultra-scale AIOps Lab**. I take a dual role of
-Chief Architect and Engineer Manager at [HUAWEI CLOUD](https://www.huaweicloud.com/intl/en-us/) in Munich, Germany and Dublin, Ireland.
+I currently lead the **Ultra-scale AIOps Lab**. 
+In my current role, I wear several hats, such as Director, Chief Architect, Engineering Manager, and Team Lead,
+seamlessly balancing technical strategic vision with hands-on technical leadership.
+I am part of HUAWEI CLOUD, and located in Munich, Germany and Dublin, Ireland.
+You can find more information about our work here: [AIOps for Cloud Operations](/pdf/2023-05-23-AS_AIOps_for_Cloud_Operations_R&D.pdf) (2023).
 
+Our current work involves the development of the **next generation of AI-driven
+IT Operations tools and platforms**.
 We apply machine learning and deep learning techniques to various  areas related to [HUAWEI CLOUD](https://www.huaweicloud.com/intl/en-us/) such
 as: anomaly detection, root cause analysis, failure prediction, reliability
 and availability, risk estimation and security, network verification, and
 low-latency object tracking.
-
 Our work fits under the AI Engineering umbrella as discussed in [IEEE Software, Nov.-Dec. 2022](https://www.computer.org/csdl/magazine/so/2022/06).
-You can find more information about our work here:
-
-- [Cloud Operations](/pdf/2023-05-23-AS_AIOps_for_Cloud_Operations_R&D.pdf)
-  (Academic Salon AIOps, TU Berlin, 2023) 
-- [R&D Contributions](/pdf/2022-03-30-DRCN_On_the_Application_of_AI_for_Failure_Management.pdf)
-  ([18th DRCN](https://www.drcn2022.upc.edu/65183/detail/drcn-2022.html), 2022) 
-- [Ultra Scale AIOps Lab](/pdf/2021-07-29-Ultra_Scale_AIOps_Lab_Workshop.pdf)
-  ([Network Verification](https://networkverification-workshop.github.io/), 2021)
-
-Our current work involves the development of the **next generation of AI-driven
-IT Operations tools and platforms**.
 This field is generally called [AIOps](https://pt.slideshare.net/JorgeCardoso4/mastering-aiops-with-deep-learning) 
-(artificial intelligence for IT operations).
-In planet-scale deployments, the Operation and Maintenance (O&M) of cloud platforms
-cannot be done any longer manually or simply with off-the-shelf solutions. 
+(artificial intelligence for IT operations) or ML for Systems.
 
 <img src="./images/Cloud_edge_device.png" height="300" width="600" style="float:right;margin:40px 20px 20px 20px;"/>
 
+In planet-scale deployments, the Operation and Maintenance (O&M) of cloud platforms
+cannot be done any longer manually or simply with off-the-shelf solutions. 
 It requires self-developed automated systems, ideally exploiting the use of AI to provide tools for autonomous cloud operations. Our work looks into how **deep learning**, **machine learning**, **distributed traces**, **graph analysis**, **time-series analysis** (sequence analysis), and **log analysis** can be used to effectively **detect and localize anomalous cloud infrastructure behaviours** during operations to reduce the workload of human operators. 
 These techniques are typically applied to Big Data coming from 
 microservice observability data:
@@ -50,13 +43,14 @@ We create innovative systems for:
 + **Operational risk analysis**: CLI command analysis
 
 We are currently developing the iForesight system which is being used to evaluate this new O&M approach.
-iForesight 7.0 is the result of 7+ years of R&D with the goal to provide an
+iForesight 7.0 is the result of 7+ years of development with the goal to provide an
 intelligent new tool aimed at [SRE](https://en.wikipedia.org/wiki/Site_Reliability_Engineering)
 cloud maintenance teams. 
 It enables them to quickly detect, localize and predict anomalies thanks 
 to the use of artificial intelligence when cloud services are slow or 
 unresponsive. 
-Many of our innovation and system developments is done in collaboration with the [Technical University of Berlin](https://www.dos.tu-berlin.de/menue/datesnews/news/huawei_tub_innovation_lab_kick_off/) and the Huawei-TUB Innovation Lab for AI-driven Autonomous Operations.
+Many of our innovation and system developments is done as part of the 
+[Huawei-TUB Innovation Lab for AI-driven Autonomous Operations](https://www.dos.tu-berlin.de/menue/datesnews/news/huawei_tub_innovation_lab_kick_off/).
 
 
 <!-- 
