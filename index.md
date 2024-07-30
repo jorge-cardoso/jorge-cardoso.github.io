@@ -55,7 +55,7 @@ Many of our innovation and system developments is done as part of the
 
 <img src="./images/2024_huawei_cloud_world.png" height="300" width="600" style="float:right;margin:40px 20px 20px 20px;"/>
 
-Typically, the systems we develop in Munich are deployed in 93 availability zones across 33 regions in Asia Pacific, Latin America, Africa, Europe, and the Middle East. 
+Typically, the systems we develop in Munich are deployed in **93 availability zones** across **33 regions** in Asia Pacific, Latin America, Africa, Europe, and the Middle East. 
 Monitoring, observability, operational risk analysis, anomaly detection, and predictive maintenance systems support over 220+ cloud services from Huawei Cloud.
 If you are interested, you can look at how the various hyperscale providers (e.g., AWS, Azure, Google, Huawei, Alibaba) compare with respect to the location of their data centers [here](https://www.cloudinfrastructuremap.com/#/cloud-service-provider/amazon-web-services). 
 
