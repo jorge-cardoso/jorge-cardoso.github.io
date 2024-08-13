@@ -35,7 +35,7 @@ toc: true
 - [Distributed Trace Analysis (Hands-on)](/library/openstack/Part_6_Distributed_Trace_Analysis_Hands_on.ipynb) Jupyter notebook with running code for dsitributed trace analysis for Openstack.
 - [Cloud Benchmarking](/library/openstack/Part_8_Cloud_Benchmarking.pdf) Benchmarking public cloud platforms, ECS and RDS benchmarking.   
 
-**Service managemen, frameworks**
+**Service management, frameworks**
 - [ITIL](/library/2023-04-12-Security_Operations_Lecture.pdf) (SecOps) integrates monitoring, tools, processes, and technology to keep IT secure while reducing risk.
 
 

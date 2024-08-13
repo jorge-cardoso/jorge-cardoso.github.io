@@ -52,12 +52,60 @@ unresponsive.
 Many of our innovation and system developments is done as part of the 
 [Huawei-TUB Innovation Lab for AI-driven Autonomous Operations](https://www.dos.tu-berlin.de/menue/datesnews/news/huawei_tub_innovation_lab_kick_off/).
 
-
 <img src="./images/2024_huawei_cloud_world.png" height="300" width="600" style="float:right;margin:40px 20px 20px 20px;"/>
 
 Typically, the systems we develop in Munich are deployed in **93 availability zones** across **33 regions** in Asia Pacific, Latin America, Africa, Europe, and the Middle East. 
 Monitoring, observability, operational risk analysis, anomaly detection, and predictive maintenance systems support over 220+ cloud services from Huawei Cloud.
 If you are interested, you can look at how the various hyperscale providers (e.g., AWS, Azure, Google, Huawei, Alibaba) compare with respect to the location of their data centers [here](https://www.cloudinfrastructuremap.com/#/cloud-service-provider/amazon-web-services). 
+
+
+## Technologies
+
+Over the years, I designed and implemented various types of systems, including service systems, workflow systems, and distributed systems.
+As my expertise in each field grew, I authored a book for each area to solidify my understanding.
+Currently, I am working on a book about [Kubernetes Networking](https://jorge-cardoso.github.io/kubernetes/kubernetes/kubernetes.html#).
+
+<div class="image-row">
+  <div class="image-column">
+    <figure>
+      <img src="/images/Cover-FSS.jpg" alt="Service System" class="image-1">
+      <figcaption>Service Systems</figcaption>
+    </figure>
+  </div>
+  <div class="image-column">
+    <figure>
+      <img src="/images/Cover-GW.png" alt="Workflow Systems">
+      <figcaption>Workflow Systems</figcaption>
+    </figure>
+  </div>
+  <div class="image-column">
+    <figure>
+      <img src="/images/Cover-PSDJ.png" alt="Distributed Systems">
+      <figcaption>Distributed Systems</figcaption>
+    </figure>
+  </div>
+</div>
+
+<style>
+  .image-1 {
+    width: 92%; /* Adjust size of the first image */
+  }
+  .image-row {
+    display: flex;
+    /* justify-content: space-between; Optional: Adjusts spacing between columns */
+    justify-content: flex-start; /* Align all columns to the left */
+    margin: 0 auto;
+    padding: 0; /* Remove padding around the row */
+  }
+  .image-column {
+    flex: 1; /* Distribute the space evenly */
+    padding: 0px; /* Optional: Add padding around each column */
+    /* display: block;  Ensure no extra space around the image */
+    max-width: 15%; /* Adjust this percentage to control the image size */
+    margin-right: 175px; /* Increase space between columns */
+  }
+</style>
+
 
 
 <!-- 
@@ -108,7 +156,7 @@ more time. Others are always "too busy" to do what is necessary. [Unknown source
 
 ## Contact
 
-+ Prof. Jorge Cardoso
++ Jorge Cardoso, PhD
 + [Huawei Munich Research Center](http://huawei.eu/research-and-innovation), Germany
 + [Departamento de Engenharia Informatica](http://www.uc.pt/en/fctuc/dei), University of Coimbra, Portugal
 + `jcardoso [*.A._.T$] dei | uc | pt`
