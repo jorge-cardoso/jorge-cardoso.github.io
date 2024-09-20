@@ -10,7 +10,7 @@ published: true
 
 <p><img src="./images/Jorge_Cardoso_2021.png" height="128" width="155" style="float:left;margin:30px 30px 0 0;"/></p>
 
-In 2015, I founded the Hyperscale AIOps Lab to deliver company wide systems at scale for ML‑driven observability,
+In 2015, I founded the **Hyperscale AIOps Lab** to deliver company wide systems at scale for ML‑driven observability,
 monitoring, and reliability. AIOps became a key technological direction for HUAWEI CLOUD.
 In my current role, I wear several hats, such as Director, Chief Architect, Engineering Manager, and Team Lead,
 seamlessly balancing technical strategic vision with hands-on technical leadership.
