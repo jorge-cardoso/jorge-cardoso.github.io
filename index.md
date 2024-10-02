@@ -8,11 +8,18 @@ comments: true
 published: true
 ---
 
-<p><img src="./images/Jorge_Cardoso_2024.jpg" height="128" width="155" style="float:left;margin:30px 30px 0 0;"/></p>
 
-In 2015, I founded the **Hyperscale AIOps Lab** to deliver company wide systems at scale for ML‑driven observability,
-monitoring, and reliability. AIOps became a key technological direction for HUAWEI CLOUD.
-In my current role, I wear several hats, such as Director, Chief Architect, Engineering Manager, and Team Lead,
+
+<p>
+    <img src="./images/Jorge_Cardoso_2024.jpg" 
+        height="128" 
+        width="155" 
+        style="float:left;margin:30px 30px 0 0; border-radius: 50%">
+</p>
+
+
+I currently lead the **Ultra-scale AIOps Lab**. 
+In my current role, I wear several hats (Director, Chief Architect, Principal Engineer, and Tech Lead)
 seamlessly balancing technical strategic vision with hands-on technical leadership.
 I am part of HUAWEI CLOUD, and located in Munich, Germany and Dublin, Ireland.
 You can find more information about our work here: [AIOps for Cloud Operations](/pdf/2023-05-23-AS_AIOps_for_Cloud_Operations_R&D.pdf) (2023).
