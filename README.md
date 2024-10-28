@@ -15,7 +15,7 @@ Steps to Run ``bundle exec jekyll serve``
 
      ruby -v
 
-   If Ruby is not installed, you can install it using a package manager:
+   If Ruby 3.2.3 is not installed, you can install it using a package manager:
    
    - **MacOS**: Using Homebrew::
 

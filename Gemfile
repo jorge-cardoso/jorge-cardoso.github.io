@@ -1,8 +1,15 @@
 # Skinny Bones Gemfile
 source "https://rubygems.org"
 
-gem "jekyll", '= 4.0.1'
+gem "jekyll", '= 4.3.4'
 gem "jekyll-sitemap"
+
+gem 'logger'
+gem 'csv'
+gem 'ostruct'
+gem 'base64'
+gem 'bigdecimal'
+
 gem "sass"
 gem "bourbon"
 gem "neat"
