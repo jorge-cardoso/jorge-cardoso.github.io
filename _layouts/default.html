@@ -11,7 +11,10 @@
     {% include open-graph.html %}
     {% if author.google.plus %}<link rel="author" href="https://plus.google.com/{{ author.google.plus }}"/>{% endif %}
 
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+    <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" class="rounded-image" sizes="32x32">
+    <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" class="rounded-image">
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}" >
 
     <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
 
@@ -21,6 +24,13 @@
     <meta http-equiv="cleartype" content="on">
 
     <style>
+    .rounded-image {
+      width: 32px; /* Set width */
+      height: 32px; /* Set height */
+      border-radius: 50%; /* Makes the image round */
+      object-fit: cover; /* Ensures the image covers the area without distortion */
+    }
+
     .sliding-menu-content {
       top: 0;
       right: 0;
