@@ -2,7 +2,7 @@
 layout: media
 title: "The Semantic Web: Real World Applications from Industry"
 modified:
-categories: books
+categories: edited_books
 excerpt: 
 tags: []
 image:

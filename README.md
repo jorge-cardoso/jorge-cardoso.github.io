@@ -29,13 +29,13 @@ Steps to Run ``bundle exec jekyll serve``
 
    Bundler is a dependency manager for Ruby projects. You can install Bundler by running::
 
-     gem install bundler
+    sudo gem install bundler
 
 3. **Install Dependencies**:
 
    Ensure that you have a ``Gemfile`` in your Jekyll site directory. This file should list all the dependencies required by your Jekyll site. Run the following command to install these dependencies::
 
-     bundle install
+    bundle install
 
 4. **Run Jekyll Server**:
 

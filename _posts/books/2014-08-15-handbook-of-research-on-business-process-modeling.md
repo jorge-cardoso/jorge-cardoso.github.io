@@ -2,7 +2,7 @@
 layout: media
 title: "Handbook of Research on Business Process Modeling"
 modified:
-categories: books
+categories: edited_books
 excerpt:
 tags: []
 image:

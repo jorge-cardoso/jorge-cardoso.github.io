@@ -2,7 +2,7 @@
 layout: media
 title: "Semantic Web Services: Theory, Tools and Applications"
 modified:
-categories: books
+categories: edited_books
 excerpt:
 tags: []
 image:

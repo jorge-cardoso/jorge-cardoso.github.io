@@ -2,7 +2,7 @@
 layout: media
 title: "Semantic Web Engineering in the Knowledge Society"
 modified:
-categories: books
+categories: edited_books
 excerpt:
 tags: []
 image:
