@@ -29,7 +29,7 @@ higher than [five nines](https://en.wikipedia.org/wiki/High_availability).
 Huawei Cloud is one of the largest and fastest growing platforms in the world. 
 It has a strong presence throughout the world with over 40 availability zones located across 23 geographical regions, ranging from Germany, France, South/Central America, Hong Kong and Russia to Thailand and South Africa.
 
-The mission of the **AIOps / Reliability Team** (based in [Munich](https://www.muenchen.de/int/en.html),  Germany) was to develop 
+The objective of the **AIOps / Reliability Team** (based in [Munich](https://www.muenchen.de/int/en.html),  Germany) was to develop 
 new systems and tools to analyze observability data from [Huawei Cloud](https://www.huaweicloud.com/en-us/about/about_us.html) to detect problems 
 which impact customers, identify the root cause within seconds, and fix failures using the 1/5/10 rule 
 (detection: 1 min, RCA: 5 min, recovery: 10 min).
@@ -39,7 +39,11 @@ We generally build tools for [anomaly detection](https://en.wikipedia.org/wiki/A
 [predictive maintenance](https://en.wikipedia.org/wiki/Predictive_maintenance), 
 [security operations](https://en.wikipedia.org/wiki/Security_operations_center),
 and 
-[operations automation](https://en.wikipedia.org/wiki/Robotic_process_automation). 
+[operations automation](https://en.wikipedia.org/wiki/Robotic_process_automation) for Cloud and intelligent management (1):
+
+- [Security Operations](/aiops/2023-04-12-Security_Operations_Lecture.pdf): SecOps integrates monitoring, tools, processes, and technology to keep IT secure while reducing risk.
+- [Intelligent Log Analysis](/aiops/2020-02-22-Intelligent_Log_Analysis_lecture.pdf): Explore the use of structured logging to facilitate the application of AI/ML methods for Root-cause analysis
+- [Hypervisor Reliability](/aiops/2023-12-20_Hypervisor_Anomaly_Detection_Lecture.pdf): Identifying health issues of hypervisors correlated with latent failures. 
 
 From 2015 to 2024, we used AI from the fields of [Data Science](https://en.wikipedia.org/wiki/Data_science),
 [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning), and
@@ -47,6 +51,13 @@ From 2015 to 2024, we used AI from the fields of [Data Science](https://en.wikip
 **streaming**, and **data visualization**, enabled us to develop new production-ready services for troubleshooting 
 Huawei Cloud and detect issues which were previously undetectable.
 
+
+<div style="margin-top: 15px; margin-bottom: 25px; display: flex; align-items: flex-end;">
+  <img src="/images/Huawei-Logo.png" width="50" style="font-size: 0.75em; margin-right: 20px;">
+  <p style="font-size: 0.75em;"> (1) Technical University of Berlin (TUB) </p>
+</div>
+
+ 
 
 AI for Operations
 -----------------
@@ -111,6 +122,26 @@ We developed several new tools and systems based on:
 - Root-cause Analysis ([Efficient Failure Diagnosis of OpenStack](/rd/Papers/JA-2018-023-IEEE_Internet_Computing_Nov_Dec_2018.pdf), IEEE Internet Computing, 2018.)
 
 
+<div style="margin-bottom: 15px;"></div>
+The following presentations/lectures (1,2)  provide an overview of our work on OpenStack and distributed tracing. 
+
+- [Introduction](/systems/openstack/Part_1_Introduction.pdf): Hyperscalers, cloud monitoring, AI and O&M, monitoring formats, ML for O&M. 
+- [OpenStack Cloud OS](/systems/openstack/Part_2_OpenStack_Cloud.pdf): Virtualization, public clouds, openstack system design, openstack services (IMS, compute, nova, scheduler, network, storage).  
+- [OpenStack Hands-on](/systems/openstack/Part_3_Openstack_Hands-on.pdf): Setup infrastructure, install Openstack, CLI, launch instances, attach volumes, create networks, distributed tracing.
+- [Distributed Tracing Technologies](/systems/openstack/Part_4_Distributed_Tracing_Technologies.pdf): Workflow for VM creation, tracing concetps, tracing systems, Zipkin, Jaeger, OpenTracing, OSProfiler.  
+- [Distributed Trace Analysis](/systems/openstack/Part_5_Distributed_Trace_Analysis.pdf): Monitoring data sources, troubleshooting with tracing, feature selection, trace abstraction, time series analysis, sequence analysis. LSTM.  
+- [Distributed Trace Analysis (Hands-on)](/systems/openstack/Part_6_Distributed_Trace_Analysis_Hands_on.ipynb): Jupyter notebook with running code for dsitributed trace analysis for Openstack.
+- [Cloud Benchmarking](/systems/openstack/Part_8_Cloud_Benchmarking.pdf): Benchmarking public cloud platforms, ECS and RDS benchmarking.   
+- [Cloud Computing](/systems/aiops/cloud_computing): Overview, concept, web APIs, platforms, applications, and BPM  
+
+<div style="margin-bottom: 15px;"></div>
+
+<img align="left" src="/images/T-Systems_Logo.png" width="180" style="margin-right: 20px;">
+<img align="left" src="/images/Deutsche_Telekom-Logo.png" width="110" style="margin-right: 20px;">
+<p style="font-size: 0.75em;"> (1) Technical University of Berlin (TUB), (2) Technical University of Munich (TUM)  </p>
+ 
+
+
 
 Service Systems
 ---------------
@@ -166,6 +197,17 @@ See <a href="https://github.com/jorge-cardoso/lss-usdl">Github LSS-USDL</a>,
 <a href="https://github.com/linked-usdl">Github Linked-USDL</a> 
 
 
+
+We also explored the concept of Process Analytics.
+Our intentions are twofold. On the one hand, we think it is fundamental to survey findings from neighboring disciplines on how Business Process Quality Metrics can be developed. In particular, we believe that we can gather additional insights from software engineering, cognitive science, and graph theory and relate them to business process modeling.
+A further empirical investigation might ultimately lead to establishing a complexity theory of business process models. On the other hand, we plan to demonstrate that these metrics serves their purpose, we plan to carry out several empirical validations by means of controlled experiments.
+
+<div style="margin-bottom: 15px;"></div>
+<img align="left" src="/images/SAP_2011_logo.png" width="70" style="margin-right: 20px;">
+<br> 
+
+
+<!-- 
 Semantic DNS
 ----------------------
 
@@ -202,15 +244,8 @@ One simple solution that organizations have adopted to reach a higher level of i
 **Model Transformation**.
 Today's enterprises face critical needs in integrating disparate information spread over several data sources inside and even outside the organization. Semantic web technologies, such as ontologies, play an important role in the semantic integration of data. The purpose of JXMLOWL is to present a framework to assist the semantic data integration process.
 The framework supports mappings and instances transformation from syntactic data sources in XML format to a common global model defined by an ontology using semantic web related technologies such as OWL.
+ -->
 
-
-Process Analytics
-----------------------
-
-<img align="right" src="/images/bpqm.jpg" width="100" style="center;margin:20px 20px 20px 20px;">
-
-Our intentions are twofold. On the one hand, we think it is fundamental to survey findings from neighboring disciplines on how Business Process Quality Metrics can be developed. In particular, we believe that we can gather additional insights from software engineering, cognitive science, and graph theory and relate them to business process modeling.
-A further empirical investigation might ultimately lead to establishing a complexity theory of business process models. On the other hand, we plan to demonstrate that these metrics serves their purpose, we plan to carry out several empirical validations by means of controlled experiments.
 
 <!-- 
 Other systems
@@ -230,3 +265,4 @@ Other systems
 + Puzzle Quiz, Projecto Minerva, Universidade de Coimbra, 1992.
 + Task Game, Projecto Minerva, Universidade de Coimbra, 1991.
 -->
+
