@@ -20,7 +20,7 @@ AI Infrastructure
 AI infrastructure management (e.g., [DGX B200](https://www.nvidia.com/en-us/data-center/dgx-b200/), [DGX H200](https://www.nvidia.com/en-us/data-center/dgx-h200/)) involves orchestrating large-scale computing resources to efficiently train and deploy AI models, particularly large language models (LLMs) like LLaMA, Grok, Mistral, and other transformer-based architectures. 
 We are currently working in three main areas:
 
-<img align="right" src="/images/nvidia_infra.png" width="350" style="float:right;margin:20px 20px 20px 20px;">
+<img align="right" src="/images/nvidia-infra.png" width="350" style="float:right;margin:20px 20px 20px 20px;">
 
 - **Performance analysis** focuses on optimizing computation graphs, memory usage, and parallelization strategies, such as tensor and pipeline parallelism, to maximize efficiency using profiling tools (e.g., NVIDIA Nsight Systems and Nsight Compute), monitoring, and observability (e.g., NVIDIA DCGM).
 - **Optimization** looks at efficient inter-GPU and inter-node communication strategies, such as NVLink, RDMA, and high-bandwidth networking to minimize bottlenecks in distributed training.
