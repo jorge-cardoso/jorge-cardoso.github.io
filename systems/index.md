@@ -20,7 +20,7 @@ AI Infrastructure
 AI cluster management involves orchestrating large-scale computing resources to efficiently train and deploy AI models, particularly large language models (LLMs) like LLaMA, Grok, Mistral, and other transformer-based architectures. 
 We are currently working in three main areas:
 
-<img align="right" src="/images/NVIDIA_Infra.png" width="350" style="float:right;margin:20px 20px 20px 20px;">
+<img src="/images/NVIDIA_Infra.png" width="350" style="float:right;margin:20px 20px 20px 20px;">
 
 - **Performance analysis** focuses on optimizing computation graphs, memory usage, and parallelization strategies, such as tensor and pipeline parallelism, to maximize efficiency using profiling tools (e.g., NVIDIA Nsight Systems and Nsight Compute), monitoring, and observability (e.g., NVIDIA DCGM).
 - **Optimization** looks at efficient inter-GPU and inter-node communication strategies, such as NVLink, RDMA, and high-bandwidth networking to minimize bottlenecks in distributed training.
@@ -37,7 +37,7 @@ Key challenges include optimizing resource utilization, scaling communication st
 ML for Systems
 ----------------
 
-<img src="./pdf_img/iforesight3.png" height="25%" width="25%" style="float:right;margin:0 20px 0 0;"/>
+<img src="/images/iforesight3.png" height="25%" width="25%" style="float:right;margin:0 20px 0 0;"/>
 
 For hyperscalers, such as Huawei Cloud, the Operation and Maintenance (O&M) of cloud infrastructures and platforms
 cannot be done any longer manually or simply with off-the-shelf solutions. 
