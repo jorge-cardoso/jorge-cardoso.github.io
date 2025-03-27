@@ -20,7 +20,7 @@ AI Infrastructure
 AI cluster management involves orchestrating large-scale computing resources to efficiently train and deploy AI models, particularly large language models (LLMs) like LLaMA, Grok, Mistral, and other transformer-based architectures. 
 We are currently working in three main areas:
 
-<img src="/images/NVIDIA_Infra.png" width="350" style="float:right;margin:20px 20px 20px 20px;">
+<img src="/images/Sebastian_Kirsch.png" width="350" style="float:right;margin:20px 20px 20px 20px;">
 <img src="/images/Huawei-Logo.png" width="50" style="font-size: 0.75em; margin-right: 20px;">
   
 - **Performance analysis** focuses on optimizing computation graphs, memory usage, and parallelization strategies, such as tensor and pipeline parallelism, to maximize efficiency using profiling tools (e.g., NVIDIA Nsight Systems and Nsight Compute), monitoring, and observability (e.g., NVIDIA DCGM).
