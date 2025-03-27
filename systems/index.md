@@ -21,7 +21,8 @@ AI cluster management involves orchestrating large-scale computing resources to 
 We are currently working in three main areas:
 
 <img src="/images/NVIDIA_Infra.png" width="350" style="float:right;margin:20px 20px 20px 20px;">
-
+<img src="/images/Huawei-Logo.png" width="50" style="font-size: 0.75em; margin-right: 20px;">
+  
 - **Performance analysis** focuses on optimizing computation graphs, memory usage, and parallelization strategies, such as tensor and pipeline parallelism, to maximize efficiency using profiling tools (e.g., NVIDIA Nsight Systems and Nsight Compute), monitoring, and observability (e.g., NVIDIA DCGM).
 - **Optimization** looks at efficient inter-GPU and inter-node communication strategies, such as NVLink, RDMA, and high-bandwidth networking to minimize bottlenecks in distributed training.
 - **Benchmarking** frameworks, such as MLPerf, TPCx-AI, and DAWNBench play a crucial role in evaluating the performance of these models across different hardware configurations, measuring throughput, latency, and power efficiency under various workloads. 
