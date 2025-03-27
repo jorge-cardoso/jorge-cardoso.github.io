@@ -14,8 +14,8 @@ toc: true
 ---  
 
 
-AI Cluster Management
----------------------
+AI Infrastructure
+-----------------
 
 AI cluster management involves orchestrating large-scale computing resources to efficiently train and deploy AI models, particularly large language models (LLMs) like LLaMA, Grok, Mistral, and other transformer-based architectures. 
 We are currently working in three main areas:
