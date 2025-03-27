@@ -16,7 +16,7 @@ sass:
 permalink: /:categories/:title/
 markdown: kramdown
 highlighter: rouge
-gems:
+plugins:
   - jekyll-sitemap
 
 # Jorge Cardoso: 2020.06.01
