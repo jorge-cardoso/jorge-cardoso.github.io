@@ -17,54 +17,61 @@ published: true
         style="float:left;margin:30px 30px 0 0; border-radius: 50%">
 </p>
 
+I recently joined [NVIDIA](https://www.nvidia.com/en-us/) (2025) to work with cutting-edge technologies that support the next-generation AI infrastructure.
+This includes the [Blackwell](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/) 
+and the [Hopper](https://www.nvidia.com/en-us/data-center/h100/) architectures, 
+and advanced platforms like  [NVIDIA DGX](https://www.nvidia.com/en-us/data-center/dgx-platform/) and 
+[NVIDIA HGX](https://www.nvidia.com/en-us/data-center/hgx/). 
+I also work on large-scale [AI Factories](https://blogs.nvidia.com/blog/ai-factory/), [DCGM](https://developer.nvidia.com/dcgm), [BCM](https://docs.nvidia.com/base-command-manager/), [Run:ai](https://docs.nvidia.com/run-ai) and 
+observability solutions to ensure scalable and reliable AI deployments. 
+High-speed interconnects such as [NVLink](https://www.nvidia.com/en-us/data-center/nvlink/) and 
+[InfiniBand Networking](https://www.nvidia.com/en-us/networking/products/infiniband/) are central to the performance and efficiency of these systems. 
+Together, these technologies form the backbone of NVIDIA’s accelerated computing stack, supporting the most demanding AI and HPC workloads
 
-I currently lead the **Ultra-scale AIOps Lab**. 
-In my current role, I wear several hats (Director, Chief Architect, Principal Engineer, and Tech Lead)
-seamlessly balancing technical strategic vision with hands-on technical leadership.
-I am part of HUAWEI CLOUD, and located in Munich, Germany and Dublin, Ireland.
+
+## AI for Operations
+
+In my previous role (2015-2024), I led the **Ultra-scale AIOps Lab** at [HUAWEI CLOUD](https://www.huaweicloud.com/intl/en-us/), wearing several hats — Director, Chief Architect, Principal Engineer, and Tech Lead — balancing strategic vision with hands-on technical leadership.
+My team was distributed accross Munich, Dublin, Shenzhen, and Xian.
 You can find more information about our work here: [AIOps for Cloud Operations](/pdf/2023-05-23-AS_AIOps_for_Cloud_Operations_R&D.pdf) (2023).
 
-Our current work involves the development of the **next generation of AI-driven
-IT Operations tools and platforms**.
-We apply machine learning and deep learning techniques to various  areas related to [HUAWEI CLOUD](https://www.huaweicloud.com/intl/en-us/) such
-as: anomaly detection, root cause analysis, failure prediction, reliability
+Our work involved the development of the **next generation of AI-driven IT Operations tools and platforms**.
+We applied machine learning and deep learning techniques to various areas related to public clouds such as: anomaly detection, root cause analysis, failure prediction, reliability
 and availability, risk estimation and security, network verification, and
 low-latency object tracking.
-Our work fits under the AI Engineering umbrella as discussed in [IEEE Software, Nov.-Dec. 2022](https://www.computer.org/csdl/magazine/so/2022/06).
-This field is generally called [AIOps](https://pt.slideshare.net/JorgeCardoso4/mastering-aiops-with-deep-learning) 
+Our efforts fell under the AI Engineering umbrella as discussed in [IEEE Software, Nov.-Dec. 2022](https://www.computer.org/csdl/magazine/so/2022/06).
+This field was generally called [AIOps](https://pt.slideshare.net/JorgeCardoso4/mastering-aiops-with-deep-learning) 
 (artificial intelligence for IT operations) or ML for Systems.
 
 <img src="./images/Cloud_edge_device.png" height="300" width="600" style="float:right;margin:40px 20px 20px 20px;"/>
 
-In planet-scale deployments, the Operation and Maintenance (O&M) of cloud platforms
-cannot be done any longer manually or simply with off-the-shelf solutions. 
-It requires self-developed automated systems, ideally exploiting the use of AI to provide tools for autonomous cloud operations. Our work looks into how **deep learning**, **machine learning**, **distributed traces**, **graph analysis**, **time-series analysis** (sequence analysis), and **log analysis** can be used to effectively **detect and localize anomalous cloud infrastructure behaviours** during operations to reduce the workload of human operators. 
-These techniques are typically applied to Big Data coming from 
-microservice observability data:
+In planet-scale deployments, the Operation and Maintenance (O&M) of cloud platforms could no longer be done manually or simply with off-the-shelf solutions. 
+It required self-developed automated systems, ideally exploiting the use of AI to provide tools for autonomous cloud operations.
+Our work explored into how **deep learning**, **machine learning**, **distributed traces**, **graph analysis**, **time-series analysis** (sequence analysis), and **log analysis** could be used to effectively **detect and localize anomalous cloud infrastructure behaviours** during operations to reduce the workload of human operators. 
+These techniques were typically applied to Big Data coming from microservice observability data:
 + [A Survey of AIOps Methods for Failure Management](/rd/Papers/JA-2021-025-Survey_AIOps_Methods_for_Failure_Management.pdf), ACM TIST, 2021.
 
-We create innovative systems for:
+We created innovative systems for:
 
 + **Service health analysis**: Resource utilization (e.g., memory leaks), anomaly detection using KPI and logs
 + **Predictive analytics**: fault prevention, SW/HW failure prediction  
 + **Automated recovery**: fault localization and recovery
 + **Operational risk analysis**: CLI command analysis
 
-We are currently developing the iForesight system which is being used to evaluate this new O&M approach.
-iForesight 7.0 is the result of 7+ years of development with the goal to provide an
+We developed the iForesight system which was used to evaluate this new O&M approach.
+iForesight 7.0 was the result of 10 years of development with the goal of providing an
 intelligent new tool aimed at [SRE](https://en.wikipedia.org/wiki/Site_Reliability_Engineering)
 cloud maintenance teams. 
-It enables them to quickly detect, localize and predict anomalies thanks 
-to the use of artificial intelligence when cloud services are slow or 
-unresponsive. 
-Many of our innovation and system developments is done as part of the 
+It enabled them to quickly detect, localize and predict anomalies thanks 
+to the use of artificial intelligence when cloud services were slow or unresponsive. 
+Many of our innovation and system developments were carried out as part of the 
 [Huawei-TUB Innovation Lab for AI-driven Autonomous Operations](https://www.dos.tu-berlin.de/menue/datesnews/news/huawei_tub_innovation_lab_kick_off/).
 
 <img src="./images/2024_huawei_cloud_world.png" height="300" width="600" style="float:right;margin:40px 20px 20px 20px;"/>
 
-Typically, the systems we develop in Munich are deployed in **93 availability zones** across **33 regions** in Asia Pacific, Latin America, Africa, Europe, and the Middle East. 
-Monitoring, observability, operational risk analysis, anomaly detection, and predictive maintenance systems support over 220+ cloud services from Huawei Cloud.
-If you are interested, you can look at how the various hyperscale providers (e.g., AWS, Azure, Google, Huawei, Alibaba) compare with respect to the location of their data centers [here](https://www.cloudinfrastructuremap.com/#/cloud-service-provider/amazon-web-services). 
+Typically, the systems we develop in Munich were deployed in **93 availability zones** across **33 regions** in Asia Pacific, Latin America, Africa, Europe, and the Middle East. 
+Monitoring, observability, operational risk analysis, anomaly detection, and predictive maintenance systems supported over 220+ cloud services from Huawei Cloud.
+If you are interested, you can look at how the various hyperscale providers (e.g., AWS, Azure, Google, Huawei, Alibaba) compared with respect to the location of their data centers [here](https://www.cloudinfrastructuremap.com/#/cloud-service-provider/amazon-web-services). 
 
 
 ## Technologies
@@ -165,6 +172,6 @@ more time. Others are always "too busy" to do what is necessary. [Unknown source
 ## Contact
 
 + Jorge Cardoso, PhD
-+ [Huawei Munich Research Center](http://huawei.eu/research-and-innovation), Germany
-+ [Departamento de Engenharia Informatica](http://www.uc.pt/en/fctuc/dei), University of Coimbra, Portugal
++ [NVIDIA Munich](https://www.nvidia.com/en-us/contact/europe/), Germany
+<!-- + [Departamento de Engenharia Informatica](http://www.uc.pt/en/fctuc/dei), University of Coimbra, Portugal -->
 + `jcardoso [*.A._.T$] dei | uc | pt`
