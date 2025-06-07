@@ -17,16 +17,15 @@ published: true
         style="float:left;margin:30px 30px 0 0; border-radius: 50%">
 </p>
 
-I recently joined [NVIDIA](https://www.nvidia.com/en-us/) (2025) to work with cutting-edge technologies that support the next-generation AI infrastructure.
+I recently joined [NVIDIA](https://www.nvidia.com/en-us/) (2025) to work with technologies that support [AI Factories](https://blogs.nvidia.com/blog/ai-factory/).
 This includes the [Blackwell](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/) 
 and the [Hopper](https://www.nvidia.com/en-us/data-center/h100/) architectures, 
-and advanced platforms like  [NVIDIA DGX](https://www.nvidia.com/en-us/data-center/dgx-platform/) and 
+and platforms like  [NVIDIA DGX](https://www.nvidia.com/en-us/data-center/dgx-platform/) and 
 [NVIDIA HGX](https://www.nvidia.com/en-us/data-center/hgx/). 
-I also work on large-scale [AI Factories](https://blogs.nvidia.com/blog/ai-factory/), [DCGM](https://developer.nvidia.com/dcgm), [BCM](https://docs.nvidia.com/base-command-manager/), [Run:ai](https://docs.nvidia.com/run-ai) and 
-observability solutions to ensure scalable and reliable AI deployments. 
+I also work on observability solutions to ensure scalable and reliable AI deployments. 
 High-speed interconnects such as [NVLink](https://www.nvidia.com/en-us/data-center/nvlink/) and 
 [InfiniBand Networking](https://www.nvidia.com/en-us/networking/products/infiniband/) are central to the performance and efficiency of these systems. 
-Together, these technologies form the backbone of NVIDIA’s accelerated computing stack, supporting the most demanding AI and HPC workloads
+
 
 
 ## AI for Operations
