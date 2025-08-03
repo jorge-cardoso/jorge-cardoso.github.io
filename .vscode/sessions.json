@@ -1,0 +1,61 @@
+{
+    "$schema": "https://cdn.statically.io/gh/nguyenngoclongdev/cdn/main/schema/v11/terminal-keeper.json",
+    "theme": "tribe",
+    "active": "Work",
+    "activateOnStartup": true,
+    "keepExistingTerminals": false,
+    "sessions": {
+        "default": [
+            {
+                "name": "Playground",
+                "autoExecuteCommands": true,
+                "icon": "globe",
+                "color": "terminal.ansiBrightBlue",
+                "commands": [
+                    "cd ~/Work/Playground",
+                    "source .venv/bin/activate"
+                ]
+            }
+        ],
+        "Work": [
+            {
+                "name": "Playground",
+                "autoExecuteCommands": true,
+                "icon": "globe",
+                "color": "terminal.ansiBrightBlue",
+                "commands": [
+                    "cd ~/Work/Playground",
+                    "source .venv/bin/activate"
+                ]
+            },
+            {
+                "name": "Kubernetes book",
+                "autoExecuteCommands": true,
+                "icon": "book",
+                "color": "terminal.ansiBrightYellow",
+                "commands": [
+                    "cd ~/Work/git/kubernetes",
+                    "source .venv/bin/activate"
+                ]
+            },
+            {
+                "name": "Interviews",
+                "autoExecuteCommands": true,
+                "icon": "person",
+                "color": "terminal.ansiGreen",
+                "commands": [
+                    "cd ~/Work/git/interviews"
+                ]
+            },
+            {
+                "name": "Website",
+                "autoExecuteCommands": true,
+                "icon": "globe",
+                "color": "terminal.ansiBrightBlue",
+                "commands": [
+                    "cd ~/Work/git/jorge-cardoso.github.io"
+                ]
+            }
+        ]
+    }
+}
