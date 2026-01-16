@@ -1,0 +1,1443 @@
+exam:
+  name: "NVIDIA-Certified Professional: AI Operations (NCP-AIO) - Practice Set (120 Questions)"
+  version: "2.0"
+  questions:
+    - id: 1
+      domain: "AI Infrastructure"
+      text: "You are sizing a cluster for training large language models using NVIDIA GPUs. Which factor is most critical for minimizing training time in multi-node distributed training?"
+      type: "single_choice"
+      options:
+        A: "CPU core count per node"
+        B: "RAM speed (MHz)"
+        C: "Network bandwidth and latency between GPU nodes"
+        D: "Local SSD capacity on each node"
+      correct_answer: "C"
+      explanation: "In multi-node distributed training, inter-node network bandwidth and latency are often the primary bottlenecks, because large tensors and gradients must be exchanged between GPUs in different servers. High-speed interconnects such as InfiniBand or RoCE are critical."
+
+    - id: 2
+      domain: "AI Infrastructure"
+      text: "You want to partition an NVIDIA A100 GPU into multiple isolated GPU instances for different workloads. Which technology should you use?"
+      type: "single_choice"
+      options:
+        A: "vGPU"
+        B: "SR-IOV"
+        C: "MIG"
+        D: "NUMA"
+      correct_answer: "C"
+      explanation: "MIG (Multi-Instance GPU) allows a single A100 (and some other architectures) to be partitioned into multiple isolated GPU instances with dedicated compute and memory resources."
+
+    - id: 3
+      domain: "AI Infrastructure"
+      text: "A team runs many small inference workloads that are latency-sensitive but use less than 5 GB GPU memory each. You have A100 40 GB GPUs available. What is the best approach to maximize GPU utilization?"
+      type: "single_choice"
+      options:
+        A: "Assign one workload per physical GPU"
+        B: "Use MIG to create multiple GPU instances and schedule each workload to a MIG slice"
+        C: "Pin multiple processes to the same GPU without any partitioning"
+        D: "Run all inference on CPUs to free GPUs for training"
+      correct_answer: "B"
+      explanation: "Using MIG to carve the A100 into several smaller instances (for example, 7×5 GB) lets you run multiple isolated workloads simultaneously, improving utilization and maintaining predictable performance."
+
+    - id: 4
+      domain: "AI Infrastructure"
+      text: "Which storage characteristic is typically most important for training deep learning models with large datasets stored remotely?"
+      type: "single_choice"
+      options:
+        A: "High IOPS with small random reads"
+        B: "High sequential read throughput"
+        C: "Low metadata lookup latency"
+        D: "Support for object locking"
+      correct_answer: "B"
+      explanation: "Training deep learning models generally performs large sequential reads of batches of data. Sequential throughput is usually the key metric for performance."
+
+    - id: 5
+      domain: "AI Infrastructure"
+      text: "You are designing a GPU cluster with NVIDIA GPUs for AI training. Which of the following best describes the benefit of NVLink within a single node?"
+      type: "single_choice"
+      options:
+        A: "It replaces PCIe entirely for all communication"
+        B: "It provides high-bandwidth, low-latency interconnect between GPUs in the same node"
+        C: "It is only used for CPU-to-GPU communication"
+        D: "It replaces the need for high-speed networking between nodes"
+      correct_answer: "B"
+      explanation: "NVLink provides a high-bandwidth, low-latency communication channel between GPUs within a node, improving scaling for multi-GPU workloads compared to PCIe alone."
+
+    - id: 6
+      domain: "AI Infrastructure"
+      text: "Which command would you use on a Linux system to verify that NVIDIA GPUs are visible and healthy at a low level?"
+      type: "single_choice"
+      options:
+        A: "lscpu"
+        B: "nvidia-settings"
+        C: "nvidia-smi"
+        D: "lsblk"
+      correct_answer: "C"
+      explanation: "nvidia-smi is the standard CLI tool to inspect NVIDIA GPU presence, utilization, memory usage, temperatures, and driver versions on a host."
+
+    - id: 7
+      domain: "AI Infrastructure"
+      text: "You observe that GPU utilization stays below 20% during training, while CPU utilization is high and disk I/O is saturated. What is the most likely bottleneck?"
+      type: "single_choice"
+      options:
+        A: "GPU compute"
+        B: "CPU compute or data preprocessing"
+        C: "Network bandwidth"
+        D: "GPU memory capacity"
+      correct_answer: "B"
+      explanation: "High CPU utilization and disk saturation with low GPU usage suggests the GPUs are starved for data, often due to CPU-side preprocessing or I/O limitations."
+
+    - id: 8
+      domain: "AI Infrastructure"
+      text: "You need to provide multi-tenant access to GPUs in a virtualized environment for different teams. Which solution is most appropriate?"
+      type: "single_choice"
+      options:
+        A: "Bare-metal only, one team per node"
+        B: "NVIDIA vGPU with supported hypervisor"
+        C: "CPU pinning and NUMA tuning"
+        D: "SR-IOV on network cards only"
+      correct_answer: "B"
+      explanation: "NVIDIA vGPU enables sharing GPUs among VMs with isolation and quota control, making it suitable for multi-tenant environments."
+
+    - id: 9
+      domain: "AI Infrastructure"
+      text: "A workload frequently runs out of GPU memory while the GPU utilization is low. What is usually the most effective way to address this?"
+      type: "single_choice"
+      options:
+        A: "Increase number of CPU cores"
+        B: "Reduce batch size"
+        C: "Enable MIG on the GPU"
+        D: "Disable ECC on the GPU"
+      correct_answer: "B"
+      explanation: "Reducing batch size directly reduces per-step memory usage and is the most common way to avoid OOM errors when training models on GPUs."
+
+    - id: 10
+      domain: "AI Infrastructure"
+      text: "You are evaluating networking options for multi-node AI training. Which configuration generally offers the best performance for GPU-to-GPU communication across nodes?"
+      type: "single_choice"
+      options:
+        A: "10 GbE with TCP"
+        B: "25 GbE with standard NICs"
+        C: "100 GbE/InfiniBand with RDMA support"
+        D: "1 GbE bonded interfaces"
+      correct_answer: "C"
+      explanation: "100 GbE or InfiniBand with RDMA offers high bandwidth and low latency, which are crucial for efficient distributed GPU training."
+
+    - id: 11
+      domain: "AI Infrastructure"
+      text: "Which NVIDIA technology helps manage GPU resources across multiple containers in a Kubernetes environment?"
+      type: "single_choice"
+      options:
+        A: "NVIDIA NGC"
+        B: "NVIDIA GPU Operator"
+        C: "NVIDIA DALI"
+        D: "NVIDIA Metropolis"
+      correct_answer: "B"
+      explanation: "The NVIDIA GPU Operator automates deployment and lifecycle management of NVIDIA drivers, container runtime, and other GPU components in Kubernetes."
+
+    - id: 12
+      domain: "AI Infrastructure"
+      text: "You want to accelerate data preprocessing in an ETL pipeline feeding a training job. Which NVIDIA library is specifically designed for GPU-accelerated data loading and augmentation of images?"
+      type: "single_choice"
+      options:
+        A: "cuDNN"
+        B: "DALI"
+        C: "NCCL"
+        D: "TensorRT"
+      correct_answer: "B"
+      explanation: "NVIDIA DALI (Data Loading Library) provides GPU-accelerated data loading and preprocessing, especially for images and video."
+
+    - id: 13
+      domain: "AI Infrastructure"
+      text: "What is the primary purpose of NCCL in multi-GPU training?"
+      type: "single_choice"
+      options:
+        A: "Compiling CUDA kernels"
+        B: "Accelerating matrix multiplications"
+        C: "Providing communication primitives like all-reduce across GPUs"
+        D: "Managing GPU drivers"
+      correct_answer: "C"
+      explanation: "NCCL (NVIDIA Collective Communications Library) provides optimized collective communication (all-reduce, broadcast, etc.) across multiple GPUs and nodes."
+
+    - id: 14
+      domain: "AI Infrastructure"
+      text: "You have a single-node system with 8 GPUs, all connected with NVLink. Which configuration would best utilize the topology for data-parallel training?"
+      type: "single_choice"
+      options:
+        A: "Use only 1 GPU to avoid communication overhead"
+        B: "Use all 8 GPUs with a framework that supports NCCL for all-reduce"
+        C: "Use 4 GPUs and leave the rest idle to reduce complexity"
+        D: "Use 2 GPUs with CPU-based parameter server"
+      correct_answer: "B"
+      explanation: "Using all 8 GPUs and leveraging NCCL’s optimized collectives over NVLink will maximize throughput for data-parallel training."
+
+    - id: 15
+      domain: "AI Infrastructure"
+      text: "Which statement best describes the role of CUDA in the NVIDIA AI stack?"
+      type: "single_choice"
+      options:
+        A: "It is a GUI tool for managing GPUs"
+        B: "It is a high-level deep learning framework like PyTorch"
+        C: "It is a parallel computing platform and programming model for GPUs"
+        D: "It is a virtualization technology for GPU sharing"
+      correct_answer: "C"
+      explanation: "CUDA is NVIDIA’s parallel computing platform and programming model that enables developers to write code that runs on NVIDIA GPUs."
+
+    - id: 16
+      domain: "Deployment & Operations"
+      text: "You want to deploy GPU-accelerated workloads in Kubernetes. What is the primary requirement for the worker nodes?"
+      type: "single_choice"
+      options:
+        A: "Nodes must be tainted to prevent non-GPU workloads"
+        B: "Nodes must have NVIDIA GPUs and drivers installed"
+        C: "Nodes must have at least 128 GB RAM"
+        D: "Nodes must run only Ubuntu"
+      correct_answer: "B"
+      explanation: "Worker nodes must have NVIDIA GPUs and the appropriate drivers installed so Kubernetes can schedule and run GPU workloads."
+
+    - id: 17
+      domain: "Deployment & Operations"
+      text: "Which Kubernetes resource type is used to request GPU resources for a pod?"
+      type: "single_choice"
+      options:
+        A: "limits.cpu"
+        B: "limits.nvidia.com/gpu or nvidia.com/gpu"
+        C: "nodeSelector"
+        D: "affinity"
+      correct_answer: "B"
+      explanation: "You request GPUs via the nvidia.com/gpu extended resource in the resources section of a pod spec, typically under limits."
+
+    - id: 18
+      domain: "Deployment & Operations"
+      text: "In a Kubernetes cluster with NVIDIA GPU Operator installed, what is the role of the NVIDIA device plugin?"
+      type: "single_choice"
+      options:
+        A: "It installs the GPU drivers on each node"
+        B: "It exposes GPU resources to the Kubernetes scheduler"
+        C: "It monitors GPU health and sends alerts"
+        D: "It handles GPU firmware updates"
+      correct_answer: "B"
+      explanation: "The NVIDIA device plugin advertises GPU resources to Kubernetes so that the scheduler knows which nodes can run GPU workloads and allocates GPUs to pods."
+
+    - id: 19
+      domain: "Deployment & Operations"
+      text: "You are using NVIDIA GPU Operator. Which components can it automate the deployment of?"
+      type: "single_choice"
+      options:
+        A: "Only GPU drivers"
+        B: "GPU drivers, NVIDIA Container Toolkit, and device plugin"
+        C: "Only the NVIDIA device plugin"
+        D: "Only monitoring tools like DCGM"
+      correct_answer: "B"
+      explanation: "The GPU Operator manages several components: GPU drivers, NVIDIA Container Toolkit, device plugin, and optionally monitoring components like DCGM."
+
+    - id: 20
+      domain: "Deployment & Operations"
+      text: "You want to ensure that only certain pods can access GPUs in a shared Kubernetes cluster. Which approach is most appropriate?"
+      type: "single_choice"
+      options:
+        A: "Use taints and tolerations on GPU nodes"
+        B: "Disable GPU support in Kubernetes"
+        C: "Limit GPU access using Namespace quotas and RBAC"
+        D: "Run GPU workloads only on the control plane nodes"
+      correct_answer: "C"
+      explanation: "Resource quotas and RBAC at the namespace level can restrict which teams or pods can request GPU resources, providing fine-grained multi-tenant control."
+
+    - id: 21
+      domain: "Deployment & Operations"
+      text: "You need to deploy an NVIDIA AI Enterprise container from NGC into your Kubernetes cluster. Which is the most secure way to handle registry authentication?"
+      type: "single_choice"
+      options:
+        A: "Hard-code registry credentials in the pod spec"
+        B: "Store credentials in a ConfigMap"
+        C: "Use a Kubernetes Secret with an imagePullSecret reference"
+        D: "Disable authentication on the registry"
+      correct_answer: "C"
+      explanation: "Kubernetes Secrets are the correct mechanism for storing registry credentials securely; pods reference them via imagePullSecrets."
+
+    - id: 22
+      domain: "Deployment & Operations"
+      text: "You are deploying a TensorRT inference server container on Kubernetes. Which of the following is essential in the pod spec to ensure it can use GPU acceleration?"
+      type: "single_choice"
+      options:
+        A: "privileged: true"
+        B: "resources.limits.nvidia.com/gpu: '1' (or nvidia.com/gpu)"
+        C: "hostNetwork: true"
+        D: "restartPolicy: Never"
+      correct_answer: "B"
+      explanation: "The pod must request GPUs via the resources.limits field using the NVIDIA resource name so that Kubernetes schedules it onto a GPU node."
+
+    - id: 23
+      domain: "Deployment & Operations"
+      text: "When using NGC containers, what is the main advantage over installing frameworks manually on the host?"
+      type: "single_choice"
+      options:
+        A: "Lower GPU utilization"
+        B: "Less memory usage on the GPU"
+        C: "Pre-tested, optimized, and versioned software stacks"
+        D: "They require no drivers on the host"
+      correct_answer: "C"
+      explanation: "NGC containers come with pre-built, optimized frameworks and libraries, tested for specific CUDA/driver versions, which simplifies deployment and compatibility management."
+
+    - id: 24
+      domain: "Deployment & Operations"
+      text: "You want to perform a rolling upgrade of the NVIDIA GPU Operator in your production cluster. Which practice is most appropriate?"
+      type: "single_choice"
+      options:
+        A: "Upgrade directly in production during peak hours"
+        B: "Test the new version in a staging cluster mirroring production first"
+        C: "Remove all GPU workloads before upgrading"
+        D: "Upgrade only the device plugin, not the operator"
+      correct_answer: "B"
+      explanation: "Testing in staging that closely resembles production is a best practice before performing operator upgrades, to catch regressions and compatibility issues."
+
+    - id: 25
+      domain: "Deployment & Operations"
+      text: "You suspect that GPU nodes in Kubernetes are not registering GPU resources. Which is the first component you should verify?"
+      type: "single_choice"
+      options:
+        A: "The NVIDIA device plugin DaemonSet"
+        B: "The CoreDNS pods"
+        C: "The Ingress controller"
+        D: "The cluster autoscaler"
+      correct_answer: "A"
+      explanation: "If GPU resources are missing, you should first check the NVIDIA device plugin DaemonSet on those nodes, since it is responsible for advertising GPUs to Kubernetes."
+
+    - id: 26
+      domain: "Deployment & Operations"
+      text: "Which configuration is most appropriate for containerizing GPU workloads?"
+      type: "single_choice"
+      options:
+        A: "Containers must run with full host privileges"
+        B: "Containers run with the NVIDIA Container Toolkit configured as the runtime"
+        C: "Containers must mount /dev/mem"
+        D: "Containers should include GPU drivers inside the container"
+      correct_answer: "B"
+      explanation: "The NVIDIA Container Toolkit is used as the container runtime hook that exposes GPUs into containers, so you don’t need to install drivers in each container."
+
+    - id: 27
+      domain: "Deployment & Operations"
+      text: "You need to schedule GPU workloads to specific nodes that have faster GPUs. Which Kubernetes construct is best suited?"
+      type: "single_choice"
+      options:
+        A: "ConfigMap"
+        B: "Node labels combined with nodeSelector or affinity"
+        C: "Pod annotations"
+        D: "Service type LoadBalancer"
+      correct_answer: "B"
+      explanation: "Apply labels to nodes (e.g., gpu-type=a100) and use nodeSelector or affinity rules in pod specs to schedule workloads to appropriate GPU nodes."
+
+    - id: 28
+      domain: "Deployment & Operations"
+      text: "In a multi-tenant Kubernetes cluster using GPUs, you want to prevent resource fragmentation (for example, leaving unusable GPU fractions). Which strategy is most effective?"
+      type: "single_choice"
+      options:
+        A: "Allow fractional GPU allocations"
+        B: "Standardize pod GPU requests (e.g., always request 1 full GPU or a specific MIG profile)"
+        C: "Use CPU overcommit"
+        D: "Turn off GPU sharing entirely"
+      correct_answer: "B"
+      explanation: "Consistent standardization of GPU requests (such as 1 GPU or a predefined MIG profile) reduces fragmentation and improves bin packing for the scheduler."
+
+    - id: 29
+      domain: "Deployment & Operations"
+      text: "You are running GPU workloads with Helm charts that depend on the GPU Operator. How should you ensure proper startup order?"
+      type: "single_choice"
+      options:
+        A: "Use manual scripts to start everything in sequence"
+        B: "Install GPU Operator first, then Helm charts that depend on GPUs"
+        C: "Start application Helm charts first, then the operator"
+        D: "It doesn’t matter"
+      correct_answer: "B"
+      explanation: "The GPU Operator should be deployed first so it can configure the nodes (drivers, runtime, device plugin). Then deploy workloads that assume those components are available."
+
+    - id: 30
+      domain: "Deployment & Operations"
+      text: "Which is a good operational practice when pulling large NGC containers to many GPU nodes?"
+      type: "single_choice"
+      options:
+        A: "Pull images directly on production nodes during peak hours"
+        B: "Use an internal registry/cache to reduce external bandwidth usage"
+        C: "Always pull images on-demand per pod"
+        D: "Use latest tags for all images"
+      correct_answer: "B"
+      explanation: "Using an internal registry/cache for NGC images improves performance, reliability, and bandwidth utilization across the cluster."
+
+    - id: 31
+      domain: "Troubleshooting & Performance"
+      text: "A training job is significantly slower after upgrading the NVIDIA driver and CUDA. What is the first step you should take?"
+      type: "single_choice"
+      options:
+        A: "Immediately roll back the entire cluster"
+        B: "Compare the framework and container versions with NVIDIA’s compatibility matrix"
+        C: "Disable ECC on all GPUs"
+        D: "Increase the batch size"
+      correct_answer: "B"
+      explanation: "Driver and CUDA upgrades must match the versions required by the deep learning framework/container. Checking the compatibility matrix and release notes is the first logical step."
+
+    - id: 32
+      domain: "Troubleshooting & Performance"
+      text: "You see frequent GPU OOM errors shortly after a new model version was deployed. What is the most likely cause?"
+      type: "single_choice"
+      options:
+        A: "A bug in the NVIDIA driver"
+        B: "Increased model size or activation memory requirements"
+        C: "Insufficient CPU cores"
+        D: "Low disk space"
+      correct_answer: "B"
+      explanation: "A new model version may have more parameters or different architecture, increasing memory usage and causing OOMs on the same hardware."
+
+    - id: 33
+      domain: "Troubleshooting & Performance"
+      text: "A user complains that their container cannot access GPUs in Kubernetes. You confirm that the node has GPUs and drivers. Which of the following would you check next?"
+      type: "single_choice"
+      options:
+        A: "The pod’s resources.limits for nvidia.com/gpu"
+        B: "The cluster DNS settings"
+        C: "The node’s disk layout"
+        D: "The pod’s environment variables"
+      correct_answer: "A"
+      explanation: "If the pod does not request nvidia.com/gpu in its resources.limits, Kubernetes will not allocate GPU devices to it, even if the node has GPUs."
+
+    - id: 34
+      domain: "Troubleshooting & Performance"
+      text: "Your GPU training job scales well from 1 to 4 GPUs but shows diminishing returns from 4 to 8 GPUs in one node. Which is the most likely bottleneck?"
+      type: "single_choice"
+      options:
+        A: "GPU compute"
+        B: "CPU compute"
+        C: "Inter-GPU communication overhead"
+        D: "Disk capacity"
+      correct_answer: "C"
+      explanation: "As you add more GPUs, communication overhead (for example, gradient synchronization with all-reduce) grows. NVLink mitigates this, but communication can still become a bottleneck at high GPU counts."
+
+    - id: 35
+      domain: "Troubleshooting & Performance"
+      text: "A node in your cluster shows no GPUs in nvidia-smi, while other nodes work fine. What is the first action you should take?"
+      type: "single_choice"
+      options:
+        A: "Reboot the entire cluster"
+        B: "Check the NVIDIA driver status or logs on that node"
+        C: "Scale down all pods on that node"
+        D: "Reset the Kubernetes control plane"
+      correct_answer: "B"
+      explanation: "If nvidia-smi cannot see GPUs, it suggests a driver or hardware issue on that node. Check driver services and system logs."
+
+    - id: 36
+      domain: "Troubleshooting & Performance"
+      text: "You observe that GPU utilization for an inference service is low, but end-to-end latency is high. Which cause is most plausible?"
+      type: "single_choice"
+      options:
+        A: "GPU is overloaded"
+        B: "Input pre-processing or network overhead dominates latency"
+        C: "GPU memory is too large"
+        D: "Too many GPUs are allocated"
+      correct_answer: "B"
+      explanation: "Low GPU utilization with high latency typically means the GPU is waiting for data or requests — bottlenecks are often in pre-processing, network, or other non-GPU parts of the stack."
+
+    - id: 37
+      domain: "Troubleshooting & Performance"
+      text: "GPU memory usage slowly increases over time for a long-running training job until OOM occurs. This is most likely due to:"
+      type: "single_choice"
+      options:
+        A: "Hardware failure on the GPU"
+        B: "Memory leak in the training script or framework usage"
+        C: "Incompatible PCIe version"
+        D: "Incorrect BIOS settings"
+      correct_answer: "B"
+      explanation: "A steady increase in GPU memory usage suggests a memory leak in code (e.g., storing tensors on GPU without freeing, retaining computation graphs unnecessarily)."
+
+    - id: 38
+      domain: "Troubleshooting & Performance"
+      text: "A GPU node frequently becomes unresponsive, with high GPU temperatures reported before crashes. Which action is most appropriate?"
+      type: "single_choice"
+      options:
+        A: "Reduce GPU clock speeds or power limit and improve cooling"
+        B: "Disable all GPUs via BIOS"
+        C: "Increase CPU overclocking"
+        D: "Move workloads to CPUs"
+      correct_answer: "A"
+      explanation: "High temperatures suggest thermal issues. Mitigations include better cooling, reducing power limits, or lowering clocks to maintain safe operating temperatures."
+
+    - id: 39
+      domain: "Troubleshooting & Performance"
+      text: "Your distributed training job across multiple nodes shows inconsistent step times, with some workers lagging behind. Which issue is this most likely to indicate?"
+      type: "single_choice"
+      options:
+        A: "One or more straggler nodes due to resource contention or hardware issues"
+        B: "Incorrect batch size"
+        C: "Docker image corruption"
+        D: "GPU driver version too new"
+      correct_answer: "A"
+      explanation: "Inconsistent step times with certain workers slower indicate straggler nodes, often due to CPU contention, disk or network issues, or degraded hardware."
+
+    - id: 40
+      domain: "Troubleshooting & Performance"
+      text: "A user reports that they cannot pull an NGC container image due to authentication errors. You confirm credentials are correct. Which step is most appropriate next?"
+      type: "single_choice"
+      options:
+        A: "Disable TLS verification"
+        B: "Check if the user’s account has permissions for that NGC organization/project"
+        C: "Reinstall Docker on all nodes"
+        D: "Try a different GPU"
+      correct_answer: "B"
+      explanation: "Even with valid credentials, NGC uses project/organization-level access control. The user may not be authorized to pull that specific image."
+
+    - id: 41
+      domain: "Troubleshooting & Performance"
+      text: "You see that nvidia-smi shows GPUs, but Kubernetes does not list nvidia.com/gpu on that node. Which component is most likely misconfigured?"
+      type: "single_choice"
+      options:
+        A: "Kubernetes scheduler"
+        B: "NVIDIA device plugin"
+        C: "NVIDIA driver"
+        D: "etcd"
+      correct_answer: "B"
+      explanation: "If the OS/driver sees GPUs but Kubernetes does not expose GPU resources, the device plugin is the likely culprit."
+
+    - id: 42
+      domain: "Troubleshooting & Performance"
+      text: "Your inference throughput is lower than expected, even though GPUs are underutilized. Which optimization is most likely to help?"
+      type: "single_choice"
+      options:
+        A: "Decreasing batch size to 1 for all requests"
+        B: "Increasing batch size and enabling dynamic batching in the inference server"
+        C: "Using CPUs for inference"
+        D: "Limiting the number of model instances per GPU to 1"
+      correct_answer: "B"
+      explanation: "Larger batch sizes and dynamic batching (for example, in Triton Inference Server) help amortize overhead and improve GPU utilization, increasing throughput."
+
+    - id: 43
+      domain: "Troubleshooting & Performance"
+      text: "After enabling MIG on a node, some existing pods requesting nvidia.com/gpu: 1 fail to schedule. Why?"
+      type: "single_choice"
+      options:
+        A: "MIG must be disabled for Kubernetes"
+        B: "The device plugin exposes MIG instances differently; pods must request MIG profiles or updated resource names"
+        C: "MIG reduces total GPU memory to zero"
+        D: "Kubernetes cannot run on MIG-enabled nodes"
+      correct_answer: "B"
+      explanation: "With MIG, GPUs are exposed as MIG instances with different resource names or counts, so pod specs may need to be updated to match those resources rather than full GPUs."
+
+    - id: 44
+      domain: "Troubleshooting & Performance"
+      text: "A job’s GPU utilization is high but training loss decreases very slowly. From an operations perspective, which is the most appropriate first step?"
+      type: "single_choice"
+      options:
+        A: "Tune the learning rate or model hyperparameters (in collaboration with ML team)"
+        B: "Replace GPUs with newer models"
+        C: "Increase GPU power limit"
+        D: "Decrease node count"
+      correct_answer: "A"
+      explanation: "If utilization is high but model convergence is poor, this is typically a model or training configuration issue, not infrastructure. Operators should involve ML engineers."
+
+    - id: 45
+      domain: "Troubleshooting & Performance"
+      text: "Users report intermittent failures with CUDA out-of-resources errors when multiple containers share a GPU. What is a practical mitigation?"
+      type: "single_choice"
+      options:
+        A: "Disable multi-process service (MPS)"
+        B: "Use MIG or assign one container per GPU with strict limits"
+        C: "Lower GPU temperature thresholds"
+        D: "Use smaller GPUs"
+      correct_answer: "B"
+      explanation: "Sharing GPUs can cause unpredictable memory contention. Using MIG (for supported GPUs) or scheduling one container per GPU with clear resource isolation reduces out-of-resource conflicts."
+
+    - id: 46
+      domain: "Monitoring & Capacity Management"
+      text: "Which NVIDIA component provides metrics about GPU utilization, memory, temperature, and errors for monitoring systems?"
+      type: "single_choice"
+      options:
+        A: "CUDA Toolkit"
+        B: "NCCL"
+        C: "DCGM (Data Center GPU Manager)"
+        D: "TensorRT"
+      correct_answer: "C"
+      explanation: "NVIDIA DCGM is designed for monitoring and managing GPUs in data centers, exposing metrics that can be integrated with monitoring tools."
+
+    - id: 47
+      domain: "Monitoring & Capacity Management"
+      text: "You want to visualize GPU utilization over time in a Kubernetes cluster. Which combination is most common?"
+      type: "single_choice"
+      options:
+        A: "DCGM Exporter + Prometheus + Grafana"
+        B: "CUDA Toolkit + top"
+        C: "NGC + Docker logs"
+        D: "BIOS logs + Excel"
+      correct_answer: "A"
+      explanation: "The typical stack is DCGM Exporter (for metrics) feeding Prometheus, with dashboards in Grafana."
+
+    - id: 48
+      domain: "Monitoring & Capacity Management"
+      text: "You need to alert when any GPU’s temperature exceeds 85°C. Where is the best place to implement this?"
+      type: "single_choice"
+      options:
+        A: "In each user’s training script"
+        B: "BIOS"
+        C: "Monitoring system (e.g., Prometheus alert rules on DCGM metrics)"
+        D: "Kubernetes scheduler"
+      correct_answer: "C"
+      explanation: "Alerting should be centralized in the monitoring system, using metrics (for example, from DCGM) to trigger alerts when thresholds are exceeded."
+
+    - id: 49
+      domain: "Monitoring & Capacity Management"
+      text: "You want to plan capacity for GPU clusters to support upcoming projects. Which metric is most useful?"
+      type: "single_choice"
+      options:
+        A: "Average GPU utilization over 5 minutes"
+        B: "Historical GPU utilization and queue wait times over weeks/months"
+        C: "CPU cache hit ratio"
+        D: "File system inode usage"
+      correct_answer: "B"
+      explanation: "Capacity planning requires long-term trends in GPU usage and wait times to identify under/over-provisioning and forecast future demand."
+
+    - id: 50
+      domain: "Monitoring & Capacity Management"
+      text: "You notice that some GPUs are constantly at 100% utilization while others are mostly idle. Which Kubernetes-level solution is most appropriate?"
+      type: "single_choice"
+      options:
+        A: "Disable scheduling on the busy nodes"
+        B: "Adjust pod anti-affinity and node selectors to spread workloads"
+        C: "Randomly delete pods from busy nodes"
+        D: "Use only the busiest nodes for all workloads"
+      correct_answer: "B"
+      explanation: "Scheduling policies (affinity/anti-affinity, topology spread constraints) can encourage balanced workload distribution across GPU nodes."
+
+    - id: 51
+      domain: "Monitoring & Capacity Management"
+      text: "What is the primary benefit of logging container stdout/stderr to a centralized log system?"
+      type: "single_choice"
+      options:
+        A: "It increases GPU performance"
+        B: "It simplifies troubleshooting and auditing across many nodes"
+        C: "It reduces disk usage on nodes to zero"
+        D: "It replaces the need for monitoring"
+      correct_answer: "B"
+      explanation: "Centralized logging makes it much easier to search, correlate, and troubleshoot problems across distributed workloads and nodes."
+
+    - id: 52
+      domain: "Monitoring & Capacity Management"
+      text: "You want to monitor GPU memory fragmentation and error counts. Which tool or component is best suited?"
+      type: "single_choice"
+      options:
+        A: "top"
+        B: "DCGM"
+        C: "df -h"
+        D: "cAdvisor"
+      correct_answer: "B"
+      explanation: "DCGM is designed for GPU health and error monitoring, including metrics beyond basic utilization."
+
+    - id: 53
+      domain: "Monitoring & Capacity Management"
+      text: "A team complains that their jobs wait in a queue for hours before getting GPUs. What is the first thing you should check?"
+      type: "single_choice"
+      options:
+        A: "GPU memory temperature"
+        B: "Available GPU capacity and current utilization across the cluster"
+        C: "CPU utilization on control-plane nodes"
+        D: "Size of Docker images"
+      correct_answer: "B"
+      explanation: "If jobs are queued, check cluster GPU capacity and utilization to see if the demand exceeds supply or if scheduling constraints cause bottlenecks."
+
+    - id: 54
+      domain: "Monitoring & Capacity Management"
+      text: "You want to ensure that no single namespace in Kubernetes consumes all GPU resources. What mechanism is most appropriate?"
+      type: "single_choice"
+      options:
+        A: "PodDisruptionBudget"
+        B: "ResourceQuota per namespace including GPU limits"
+        C: "ConfigMap"
+        D: "DaemonSet"
+      correct_answer: "B"
+      explanation: "ResourceQuotas can limit how many GPUs (via nvidia.com/gpu) a namespace can request, preventing one tenant from monopolizing resources."
+
+    - id: 55
+      domain: "Monitoring & Capacity Management"
+      text: "You observe frequent pod evictions due to node resource pressure on GPU nodes. Which actions are most appropriate?"
+      type: "single_choice"
+      options:
+        A: "Increase node memory or tune pod memory requests/limits"
+        B: "Disable eviction entirely"
+        C: "Reduce GPU memory usage"
+        D: "Install more CPU-only nodes"
+      correct_answer: "A"
+      explanation: "Evictions due to node pressure (for example, memory) suggest that either nodes lack sufficient capacity or pod requests/limits are misconfigured. Add memory or tune pod resources appropriately."
+
+    - id: 56
+      domain: "Monitoring & Capacity Management"
+      text: "You need to correlate a spike in GPU utilization with user-submitted jobs. Which practices are most helpful?"
+      type: "single_choice"
+      options:
+        A: "Allow anonymous job submission"
+        B: "Tag jobs with labels/annotations including team/user and application"
+        C: "Run all jobs as the same service account"
+        D: "Disable logging"
+      correct_answer: "B"
+      explanation: "Labeling/annotating jobs with metadata (owner, team, app) allows you to correlate monitoring data (for example, GPU spikes) with responsible workloads."
+
+    - id: 57
+      domain: "Monitoring & Capacity Management"
+      text: "Which metric is most indicative of whether GPUs are being effectively used for AI workloads?"
+      type: "single_choice"
+      options:
+        A: "GPU temperature"
+        B: "GPU fan speed"
+        C: "GPU SM utilization (compute utilization) over time"
+        D: "Number of pods per node"
+      correct_answer: "C"
+      explanation: "SM utilization (compute utilization) reflects how busy the GPU is performing computations, a key indicator of effective usage."
+
+    - id: 58
+      domain: "Monitoring & Capacity Management"
+      text: "You want to detect when a GPU is experiencing repeated ECC errors that may indicate impending hardware failure. Which approach is best?"
+      type: "single_choice"
+      options:
+        A: "Manually run nvidia-smi once a week"
+        B: "Use DCGM metrics with alert rules for ECC error counts"
+        C: "Wait for user complaints"
+        D: "Disable ECC"
+      correct_answer: "B"
+      explanation: "Continuous monitoring of ECC error metrics via DCGM with automated alerts helps detect hardware degradation early."
+
+    - id: 59
+      domain: "Monitoring & Capacity Management"
+      text: "The business wants chargeback/showback for GPU usage per team. Which data points are most essential?"
+      type: "single_choice"
+      options:
+        A: "GPU power limit per node"
+        B: "Per-namespace or per-user GPU-hours consumed"
+        C: "Node BIOS settings"
+        D: "DNS query volume"
+      correct_answer: "B"
+      explanation: "Chargeback/showback for GPUs usually relies on GPU-hours consumed per tenant (namespace, project, or user), enabling cost attribution."
+
+    - id: 60
+      domain: "Monitoring & Capacity Management"
+      text: "You need to establish SLOs for an internal GPU inference platform. Which SLO metrics are most relevant?"
+      type: "single_choice"
+      options:
+        A: "Average GPU driver version"
+        B: "95th/99th percentile inference latency and error rate"
+        C: "Node boot time"
+        D: "Size of container images"
+      correct_answer: "B"
+      explanation: "For an inference platform, latency (for example, P95/P99) and error rate are key SLO metrics, directly reflecting user experience and reliability."
+
+    - id: 61
+      domain: "AI Infrastructure"
+      text: "You are designing a cluster for mixed workloads: large training jobs and many small inference jobs. Which design helps balance flexibility and utilization?"
+      type: "single_choice"
+      options:
+        A: "Use only large GPUs with no partitioning"
+        B: "Use a mix of large GPUs with MIG enabled and smaller GPUs without MIG"
+        C: "Use CPUs for inference and GPUs only for training"
+        D: "Use only MIG instances and never full-GPU allocations"
+      correct_answer: "B"
+      explanation: "A mixed design with some GPUs dedicated to full-device training and others configured with MIG for small inference workloads balances flexibility and utilization."
+
+    - id: 62
+      domain: "AI Infrastructure"
+      text: "On a GPU node, 'nvidia-smi topo -m' shows multiple PCIe switches and non-uniform connectivity between GPUs. What is the key implication for multi-GPU training?"
+      type: "single_choice"
+      options:
+        A: "All GPUs have identical communication latency"
+        B: "Some GPU pairs will communicate slower than others"
+        C: "NVLink is disabled on all GPUs"
+        D: "The node cannot be used for distributed training"
+      correct_answer: "B"
+      explanation: "A non-uniform PCIe topology means some GPUs share closer connectivity while others are further apart, leading to varying communication latencies and potentially affecting performance."
+
+    - id: 63
+      domain: "AI Infrastructure"
+      text: "You need to run a memory-intensive model on a node with two GPUs: one 16 GB and one 40 GB. The model requires 32 GB of GPU memory. What is the most practical approach?"
+      type: "single_choice"
+      options:
+        A: "Use model parallelism across both GPUs"
+        B: "Run the model on the 16 GB GPU only"
+        C: "Run the model on the 40 GB GPU only"
+        D: "Reduce batch size to 1 on the 16 GB GPU"
+      correct_answer: "C"
+      explanation: "Since the model requires 32 GB of memory, the 40 GB GPU can host it directly without model parallel complexity."
+
+    - id: 64
+      domain: "AI Infrastructure"
+      text: "You are considering local NVMe SSDs vs. a shared NAS for training workloads. Under which condition is local NVMe usually preferable?"
+      type: "single_choice"
+      options:
+        A: "When you need strict POSIX permissions"
+        B: "When workloads require very high local throughput and can tolerate data replication"
+        C: "When you require a single global namespace for all datasets"
+        D: "When you want to avoid any data locality concerns"
+      correct_answer: "B"
+      explanation: "Local NVMe offers very high throughput and low latency but requires managing data locality and replication. It is ideal when workloads can tolerate local data copies."
+
+    - id: 65
+      domain: "AI Infrastructure"
+      text: "A node with NVIDIA GPUs is frequently running close to its power limit. You must stay within a strict power budget for the rack. Which is the best approach?"
+      type: "single_choice"
+      options:
+        A: "Disable half the GPUs"
+        B: "Use 'nvidia-smi -pl' to set a lower power limit and retune workloads"
+        C: "Always throttle CPU frequency instead"
+        D: "Disable ECC"
+      correct_answer: "B"
+      explanation: "Setting a lower GPU power limit via 'nvidia-smi -pl' is a standard way to stay within a power envelope, trading some peak performance for stability and compliance."
+
+    - id: 66
+      domain: "AI Infrastructure"
+      text: "You want to confirm that GPUs are using ECC memory. Which nvidia-smi information is relevant?"
+      type: "single_choice"
+      options:
+        A: "GPU fan speed"
+        B: "GPU compute mode"
+        C: "ECC mode (Enabled/Disabled)"
+        D: "Driver version"
+      correct_answer: "C"
+      explanation: "ECC mode is explicitly reported by nvidia-smi and indicates whether Error-Correcting Code memory is enabled on the GPU."
+
+    - id: 67
+      domain: "AI Infrastructure"
+      text: "A model frequently hits GPU OOM but CPU memory is largely free. Which technique besides lowering batch size can help utilize host memory more effectively?"
+      type: "single_choice"
+      options:
+        A: "Increasing GPU clock speeds"
+        B: "Using gradient checkpointing"
+        C: "Turning off ECC"
+        D: "Disabling hyper-threading"
+      correct_answer: "B"
+      explanation: "Gradient checkpointing trades extra computation for reduced GPU memory usage by recomputing activations instead of storing them."
+
+    - id: 68
+      domain: "AI Infrastructure"
+      text: "You plan to enable GPUDirect Storage (GDS). What is its main benefit?"
+      type: "single_choice"
+      options:
+        A: "It eliminates the need for GPUs"
+        B: "It allows direct data transfers between storage and GPU memory, bypassing the CPU"
+        C: "It doubles CPU performance"
+        D: "It allows NVMe drives to run CUDA kernels"
+      correct_answer: "B"
+      explanation: "GPUDirect Storage allows direct DMA transfers between storage devices and GPU memory, reducing CPU involvement and improving I/O performance."
+
+    - id: 69
+      domain: "AI Infrastructure"
+      text: "Which factor most directly impacts how many simultaneous inference requests you can serve on a single GPU?"
+      type: "single_choice"
+      options:
+        A: "Number of CPU sockets"
+        B: "GPU memory capacity and model size"
+        C: "BIOS vendor"
+        D: "Docker version"
+      correct_answer: "B"
+      explanation: "GPU memory capacity and model size determine how many model instances and how large batches can be, directly affecting concurrency for inference."
+
+    - id: 70
+      domain: "AI Infrastructure"
+      text: "A GPU node occasionally crashes under heavy load. System logs show PCIe-related errors. What is the most appropriate next step?"
+      type: "single_choice"
+      options:
+        A: "Ignore the errors as transient"
+        B: "Check firmware/BIOS and PCIe slot seating, and coordinate with hardware vendor"
+        C: "Immediately disable all GPUs"
+        D: "Reinstall the OS"
+      correct_answer: "B"
+      explanation: "Persistent PCIe errors under load can indicate physical issues or firmware/compatibility problems. Work with hardware vendor and verify firmware and physical connections."
+
+    - id: 71
+      domain: "AI Infrastructure"
+      text: "You want to share a single A100 GPU across multiple containers that each need strict performance isolation. Which combination is most appropriate?"
+      type: "single_choice"
+      options:
+        A: "vGPU without any partitioning"
+        B: "MIG with appropriately sized GPU instances per container"
+        C: "Bare-metal access to the same full GPU from all containers"
+        D: "CPU-only containers"
+      correct_answer: "B"
+      explanation: "MIG provides hardware-enforced isolation of compute and memory, allowing multiple containers to use distinct GPU slices predictably."
+
+    - id: 72
+      domain: "AI Infrastructure"
+      text: "You have a rack of GPU servers connected by 100 GbE switches. Some training jobs show poor scalability across racks. What is a likely cause?"
+      type: "single_choice"
+      options:
+        A: "NVLink is disabled inside each node"
+        B: "Oversubscription or congestion at the top-of-rack or aggregation layer"
+        C: "Insufficient CPU RAM per node"
+        D: "MIG configuration inside each GPU"
+      correct_answer: "B"
+      explanation: "Network oversubscription or congestion between racks can cause latency and bandwidth degradation, impacting multi-node training scalability."
+
+    - id: 73
+      domain: "AI Infrastructure"
+      text: "Your storage system offers 50K IOPS and 15 GB/s sequential throughput. You are training using large images in batches of 256. Which is more likely to be a limiting factor?"
+      type: "single_choice"
+      options:
+        A: "IOPS"
+        B: "Sequential throughput"
+        C: "CPU compute"
+        D: "GPU memory"
+      correct_answer: "B"
+      explanation: "Training with large batches of big images stresses sequential throughput more than IOPS."
+
+    - id: 74
+      domain: "AI Infrastructure"
+      text: "On a GPU host, nvidia-smi shows that persistence mode is disabled. What is the primary effect of enabling persistence mode?"
+      type: "single_choice"
+      options:
+        A: "It increases GPU memory capacity"
+        B: "It keeps the GPU driver context loaded, reducing start-up latency"
+        C: "It allows GPUs to be hot-plugged"
+        D: "It doubles GPU performance"
+      correct_answer: "B"
+      explanation: "Persistence mode keeps the driver initialized on idle GPUs, reducing first-use latency for applications starting a CUDA context."
+
+    - id: 75
+      domain: "AI Infrastructure"
+      text: "You plan to add a new GPU model to an existing cluster (e.g., mixing A100 and L40 nodes). What is a key consideration?"
+      type: "single_choice"
+      options:
+        A: "All nodes must use identical GPUs"
+        B: "Scheduler and users need visibility of GPU types to target appropriate hardware"
+        C: "CUDA cannot run on mixed GPU generations"
+        D: "MIG must be disabled cluster-wide"
+      correct_answer: "B"
+      explanation: "With heterogeneous GPUs, you must expose GPU type labels and adjust scheduling and user workflows so workloads land on compatible GPUs."
+
+    - id: 76
+      domain: "Deployment & Operations"
+      text: "You are designing namespaces for a shared GPU Kubernetes cluster. Which approach is most appropriate for multi-team usage?"
+      type: "single_choice"
+      options:
+        A: "Single namespace for all teams"
+        B: "Separate namespaces per team or project with resource quotas"
+        C: "One namespace per node"
+        D: "One namespace per pod"
+      correct_answer: "B"
+      explanation: "Using namespaces per team/project plus ResourceQuotas and RBAC is standard for multi-tenant clusters, improving isolation and governance."
+
+    - id: 77
+      domain: "Deployment & Operations"
+      text: "In a GPU-enabled Kubernetes cluster, you want to ensure that GPU workloads always land on nodes with a specific NVIDIA driver branch. How can you achieve this?"
+      type: "single_choice"
+      options:
+        A: "Using a ConfigMap"
+        B: "Label nodes with the driver branch and use nodeSelector or affinity in pods"
+        C: "Using an Ingress rule"
+        D: "Installing multiple drivers per node"
+      correct_answer: "B"
+      explanation: "Node labels (e.g., nvidia-driver-branch=535) combined with nodeSelector/affinity in pod specs direct GPU workloads to nodes with the required driver version."
+
+    - id: 78
+      domain: "Deployment & Operations"
+      text: "You are creating a base GPU container for internal use. Which item should not be baked into the image?"
+      type: "single_choice"
+      options:
+        A: "CUDA runtime and libraries"
+        B: "Framework (e.g., PyTorch or TensorFlow)"
+        C: "Application-specific training code and credentials"
+        D: "CUDNN and NCCL"
+      correct_answer: "C"
+      explanation: "Application-specific code and especially credentials should not be baked into a shared base image; use higher-level images and secrets for that."
+
+    - id: 79
+      domain: "Deployment & Operations"
+      text: "You need to run a one-off GPU job on Kubernetes to preprocess data. Which Kubernetes resource type is most suitable?"
+      type: "single_choice"
+      options:
+        A: "Deployment"
+        B: "DaemonSet"
+        C: "Job"
+        D: "StatefulSet"
+      correct_answer: "C"
+      explanation: "A Job controls finite, one-off workloads that should run to completion, which fits batch preprocessing tasks."
+
+    - id: 80
+      domain: "Deployment & Operations"
+      text: "Your organization uses both on-prem GPU clusters and GPU instances in a public cloud. Which architecture best simplifies deployment of the same workloads across environments?"
+      type: "single_choice"
+      options:
+        A: "Different tooling and packaging per environment"
+        B: "Container-based deployment with a shared registry and similar Kubernetes clusters"
+        C: "Bare-metal scripts for on-prem and cloud"
+        D: "Only VMs on cloud and bare metal on-prem"
+      correct_answer: "B"
+      explanation: "Container-based deployment plus Kubernetes in both environments standardizes how workloads are packaged and scheduled, easing portability."
+
+    - id: 81
+      domain: "Deployment & Operations"
+      text: "You want to allow certain users to run GPU workloads only in a dedicated “sandbox” namespace. What combination is most appropriate?"
+      type: "single_choice"
+      options:
+        A: "Use PodSecurityPolicy only"
+        B: "Use RBAC to restrict namespace access plus ResourceQuota for GPUs in that namespace"
+        C: "Use a single cluster-admin role for all users"
+        D: "Disable GPUs in all other namespaces"
+      correct_answer: "B"
+      explanation: "RBAC controls who can create pods in the sandbox namespace, and ResourceQuota controls how many GPUs they can consume there."
+
+    - id: 82
+      domain: "Deployment & Operations"
+      text: "You are troubleshooting why a pod using an NGC image fails to start with ImagePullBackOff. Which is the most likely first check?"
+      type: "single_choice"
+      options:
+        A: "Whether GPU drivers are installed"
+        B: "Whether image registry credentials (secret) and imagePullSecrets are correctly configured"
+        C: "Whether MIG is enabled on the node"
+        D: "Whether DCGM is deployed"
+      correct_answer: "B"
+      explanation: "ImagePullBackOff generally points to image pull issues: wrong image name, missing auth, or network problems. Registry credentials and imagePullSecrets are first to check."
+
+    - id: 83
+      domain: "Deployment & Operations"
+      text: "You want to support GPUs in a new Kubernetes cluster. You decided to use the NVIDIA GPU Operator. Which prerequisite is most important?"
+      type: "single_choice"
+      options:
+        A: "Helm must not be installed"
+        B: "The cluster must support operator frameworks (e.g., OLM) or at least CRDs and RBAC"
+        C: "All nodes must be Windows"
+        D: "The cluster must be single-node only"
+      correct_answer: "B"
+      explanation: "The GPU Operator relies on CRDs, RBAC, and operator patterns; the cluster must support these Kubernetes features."
+
+    - id: 84
+      domain: "Deployment & Operations"
+      text: "In your GPU cluster, pods are scheduled on GPU nodes but sometimes start without GPU devices visible inside the container. Which is a plausible root cause?"
+      type: "single_choice"
+      options:
+        A: "Container runtime not integrated with the NVIDIA Container Toolkit"
+        B: "Too many CPU cores in the node"
+        C: "Using a StatefulSet instead of a Deployment"
+        D: "Storage class misconfiguration"
+      correct_answer: "A"
+      explanation: "If the NVIDIA Container Toolkit is not properly configured as runtime hook, containers may start without GPUs even though the node has them."
+
+    - id: 85
+      domain: "Deployment & Operations"
+      text: "You want to ensure that GPU nodes are not used for CPU-only workloads, to reserve them for AI. Which approach is viable?"
+      type: "single_choice"
+      options:
+        A: "Remove CPUs from GPU nodes"
+        B: "Taint GPU nodes and require GPU workloads to tolerate those taints"
+        C: "Disable scheduling on GPU nodes completely"
+        D: "Use only static pods on GPU nodes"
+      correct_answer: "B"
+      explanation: "Taints on GPU nodes, with appropriate tolerations on GPU workloads, ensure that only those workloads can be scheduled there."
+
+    - id: 86
+      domain: "Deployment & Operations"
+      text: "Your Helm chart for a GPU workload currently requests nvidia.com/gpu: '1'. You want to allow flexible configuration per environment. What is a robust improvement?"
+      type: "single_choice"
+      options:
+        A: "Hard-code nvidia.com/gpu: '2'"
+        B: "Use a Helm value (e.g., .Values.gpuCount) and template it in the resources section"
+        C: "Remove GPU requests entirely"
+        D: "Request CPUs instead of GPUs"
+      correct_answer: "B"
+      explanation: "Parameterizing GPU count via Helm values allows different environments to allocate 0, 1, or more GPUs without changing the chart templates directly."
+
+    - id: 87
+      domain: "Deployment & Operations"
+      text: "You are operating multiple Kubernetes clusters with GPUs. Which practice best supports consistent operations across them?"
+      type: "single_choice"
+      options:
+        A: "Separate configuration management approach for each cluster"
+        B: "GitOps-style management with shared manifests and environment overlays"
+        C: "Manual kubectl edits per cluster"
+        D: "Only use kubectl exec for changes"
+      correct_answer: "B"
+      explanation: "A GitOps approach with central manifests and environment-specific overlays promotes consistency, auditability, and repeatability across clusters."
+
+    - id: 88
+      domain: "Deployment & Operations"
+      text: "You need to deploy a GPU-accelerated database (e.g., BlazingSQL or RAPIDS-based). Which deployment characteristic is especially important?"
+      type: "single_choice"
+      options:
+        A: "Access to GPUs and high-throughput storage"
+        B: "Access to control-plane nodes only"
+        C: "Running on CPU-only nodes"
+        D: "Disabling node selectors"
+      correct_answer: "A"
+      explanation: "GPU-accelerated databases require GPU access plus high-throughput storage to perform large-scale analytics efficiently."
+
+    - id: 89
+      domain: "Deployment & Operations"
+      text: "You are onboarding a new line-of-business team to use the GPU Kubernetes cluster. Which documentation is most critical for them?"
+      type: "single_choice"
+      options:
+        A: "BIOS configuration guide"
+        B: "Guidance on how to request GPUs in pod specs and which images/registries to use"
+        C: "How to configure BMC/IPMI"
+        D: "Switch-level CLI commands"
+      correct_answer: "B"
+      explanation: "Application teams primarily need to know how to request GPUs in manifests and which container images/registries are approved and optimized."
+
+    - id: 90
+      domain: "Deployment & Operations"
+      text: "You want to use priority classes with GPU workloads. What is their main purpose?"
+      type: "single_choice"
+      options:
+        A: "Limit total GPU memory"
+        B: "Control which pods are preempted first during resource contention"
+        C: "Set GPU clock speed"
+        D: "Configure MIG profiles"
+      correct_answer: "B"
+      explanation: "Priority classes influence pod preemption: higher-priority pods can evict lower-priority ones when resources are scarce."
+
+    - id: 91
+      domain: "Troubleshooting & Performance"
+      text: "A training job that previously ran fine now crashes with CUDA initialization errors after the node OS was patched. What is the most plausible root cause?"
+      type: "single_choice"
+      options:
+        A: "The job is using too small a batch size"
+        B: "The OS update changed or removed the GPU driver/kernel module compatibility"
+        C: "The GPU memory suddenly shrank"
+        D: "The switch firmware was updated"
+      correct_answer: "B"
+      explanation: "An OS patch can change the kernel version, breaking compatibility with the installed GPU driver or requiring a driver reinstallation."
+
+    - id: 92
+      domain: "Troubleshooting & Performance"
+      text: "GPU utilization is at 99%, but you see that only one GPU is being used on a 4-GPU node. What is an obvious optimization?"
+      type: "single_choice"
+      options:
+        A: "Decrease batch size"
+        B: "Enable multi-GPU data parallelism across all 4 GPUs"
+        C: "Disable CUDA"
+        D: "Use CPU for training"
+      correct_answer: "B"
+      explanation: "If only one GPU is used, enabling multi-GPU training (e.g., data parallelism with NCCL) can significantly improve throughput."
+
+    - id: 93
+      domain: "Troubleshooting & Performance"
+      text: "You see that the GPU memory is fully used but SM utilization is low (around 20%). Which scenario is most likely?"
+      type: "single_choice"
+      options:
+        A: "Compute-heavy model with small memory footprint"
+        B: "Large model or many models loaded but with low request rate"
+        C: "Training running with extremely large batch size"
+        D: "GPUs are overheating"
+      correct_answer: "B"
+      explanation: "High memory usage but low compute utilization usually means the GPU is hosting one or more large models but is not getting enough work to saturate compute."
+
+    - id: 94
+      domain: "Troubleshooting & Performance"
+      text: "A user reports that their PyTorch job runs significantly slower in your cluster than on their desktop GPU. You confirm similar GPU models. Which factor is most likely to differ?"
+      type: "single_choice"
+      options:
+        A: "Screen resolution"
+        B: "Data loading pipeline (e.g., network file system vs. local SSD)"
+        C: "GPU architecture"
+        D: "Python version"
+      correct_answer: "B"
+      explanation: "On a cluster, data often comes from networked storage, while a desktop may use fast local SSDs. Slow data pipelines frequently explain performance discrepancies."
+
+    - id: 95
+      domain: "Troubleshooting & Performance"
+      text: "Your GPUs run at 100% utilization but inference latency is still above SLA. Which adjustment is most appropriate?"
+      type: "single_choice"
+      options:
+        A: "Provision more GPUs and scale the service horizontally"
+        B: "Lower GPU power limit"
+        C: "Decrease batch size to 1"
+        D: "Disable monitoring"
+      correct_answer: "A"
+      explanation: "If GPUs are saturated and latency is too high, you must add capacity (more GPUs/instances) and scale out the service."
+
+    - id: 96
+      domain: "Troubleshooting & Performance"
+      text: "After enabling mixed precision (FP16/BF16) training, a model trains faster but occasionally diverges with NaNs. What is a reasonable mitigation?"
+      type: "single_choice"
+      options:
+        A: "Turn off GPUs"
+        B: "Use loss scaling or automatic mixed precision (AMP) with safe defaults"
+        C: "Reduce node count"
+        D: "Disable data augmentation"
+      correct_answer: "B"
+      explanation: "Loss scaling and framework-based AMP are standard techniques to manage numerical stability when using lower precision."
+
+    - id: 97
+      domain: "Troubleshooting & Performance"
+      text: "A new GPU model was introduced into the cluster, and now some training jobs crash with 'CUDA error: invalid device ordinal'. What’s the first thing to check?"
+      type: "single_choice"
+      options:
+        A: "Driver power limit"
+        B: "That the job’s code correctly handles varying numbers of visible GPUs and device IDs"
+        C: "BIOS fan curves"
+        D: "Prometheus scrape interval"
+      correct_answer: "B"
+      explanation: "Hard-coded device ordinals or assumptions about GPU count can cause invalid device ordinal errors when hardware topology changes."
+
+    - id: 98
+      domain: "Troubleshooting & Performance"
+      text: "You observe that multi-node training is slow only when running across more than 2 nodes. On a single node with multiple GPUs, it scales well. What is the likely bottleneck?"
+      type: "single_choice"
+      options:
+        A: "NCCL bug in single-node mode"
+        B: "Inter-node network bandwidth or latency"
+        C: "GPU driver instability"
+        D: "Container registry performance"
+      correct_answer: "B"
+      explanation: "Good scaling on a single node but poor scaling across nodes strongly suggests network bottlenecks for inter-node communication."
+
+    - id: 99
+      domain: "Troubleshooting & Performance"
+      text: "A GPU node runs a mix of inference and training workloads. Training jobs sporadically fail with OOM even though each requests 1 GPU. What configuration change can help?"
+      type: "single_choice"
+      options:
+        A: "Disable multi-instance training"
+        B: "Enforce separate nodes or MIG partitions for training vs. inference"
+        C: "Reduce CPU cores"
+        D: "Increase pod priority for inference only"
+      correct_answer: "B"
+      explanation: "Mixing jobs with unpredictable memory needs on the same full GPUs can cause contention. Using separate nodes or MIG can provide isolation."
+
+    - id: 100
+      domain: "Troubleshooting & Performance"
+      text: "You notice that a training container spends significant time importing Python modules before each run. How can you reduce this overhead in repeated experiments?"
+      type: "single_choice"
+      options:
+        A: "Use smaller GPUs"
+        B: "Use persistent Jupyter kernels or long-running training containers and re-run jobs inside"
+        C: "Disable virtual environments"
+        D: "Lower GPU power limit"
+      correct_answer: "B"
+      explanation: "Keeping long-lived containers/kernels and re-running multiple experiments inside the same session avoids repeated cold-start overheads."
+
+    - id: 101
+      domain: "Troubleshooting & Performance"
+      text: "A user complains that nvidia-smi inside their container shows 'No devices were found.' On the host, GPUs are visible. The pod requests nvidia.com/gpu: 1. What could be wrong?"
+      type: "single_choice"
+      options:
+        A: "Wrong CUDA version in container"
+        B: "Host has too many CPUs"
+        C: "Container runtime class not set to use NVIDIA runtime (Container Toolkit)"
+        D: "Node has too much RAM"
+      correct_answer: "C"
+      explanation: "If the pod is scheduled correctly but the container runtime is not configured with NVIDIA Container Toolkit, GPUs may not be passed through to the container."
+
+    - id: 102
+      domain: "Troubleshooting & Performance"
+      text: "Your performance tests show that using pinned (page-locked) host memory significantly improves H2D transfer speed. However, the system now runs out of RAM earlier. Why?"
+      type: "single_choice"
+      options:
+        A: "Pinned memory cannot be swapped out, increasing pressure on total RAM"
+        B: "Pinned memory decreases GPU memory"
+        C: "Pinned memory disables ECC"
+        D: "Pinned memory forces CPU overclocking"
+      correct_answer: "A"
+      explanation: "Pinned host memory is not pageable, so large allocations reduce effective available RAM, leading to pressure and possible out-of-memory at the host level."
+
+    - id: 103
+      domain: "Troubleshooting & Performance"
+      text: "You are running a distributed training job across 8 nodes. One node crashes, and the entire training run fails. Which improvement would help?"
+      type: "single_choice"
+      options:
+        A: "Smaller batch size"
+        B: "Fault-tolerant training with checkpointing and worker recovery support"
+        C: "Lower GPU clock speeds"
+        D: "Disable logging"
+      correct_answer: "B"
+      explanation: "Fault-tolerant training mechanisms (automatic restarts, from checkpoint) allow the job to recover when one node fails."
+
+    - id: 104
+      domain: "Troubleshooting & Performance"
+      text: "Your inference server shows uneven GPU utilization over time, with sudden dips to 0% even under steady request load. Requests go through a load balancer. What’s a likely cause?"
+      type: "single_choice"
+      options:
+        A: "GPU driver incompatibility"
+        B: "Load balancer not using a connection or request-level round-robin, causing bursts and idleness"
+        C: "BIOS misconfiguration"
+        D: "Docker storage driver choice"
+      correct_answer: "B"
+      explanation: "Suboptimal load-balancer behavior (e.g., sticky sessions to a subset of pods) can cause some pods/GPUs to be idle while others are overloaded or idle intermittently."
+
+    - id: 105
+      domain: "Troubleshooting & Performance"
+      text: "After enabling XLA/JIT or graph compilation in your framework, the first iteration of training is much slower, but later ones are faster. How should you interpret this?"
+      type: "single_choice"
+      options:
+        A: "It indicates GPU failure"
+        B: "This is expected due to graph compilation and is acceptable if amortized over many steps"
+        C: "It means batch size is too small"
+        D: "The model is misconfigured"
+      correct_answer: "B"
+      explanation: "JIT/graph compilation typically incurs a one-time overhead on the first iteration but speeds up subsequent iterations; this is expected behavior."
+
+    - id: 106
+      domain: "Monitoring & Capacity Management"
+      text: "You are building a dashboard for GPU cluster health. Which base metrics should appear on the main panel?"
+      type: "single_choice"
+      options:
+        A: "BIOS version and fan vendor"
+        B: "GPU utilization, GPU memory usage, temperature, and ECC error rates"
+        C: "Number of YAML files in Git"
+        D: "Container image sizes"
+      correct_answer: "B"
+      explanation: "Utilization, memory, temperature, and ECC errors are core indicators of GPU health and load."
+
+    - id: 107
+      domain: "Monitoring & Capacity Management"
+      text: "You want to detect “noisy neighbor” behavior where one tenant’s workloads affect others on shared GPU nodes. Which combination of data is most useful?"
+      type: "single_choice"
+      options:
+        A: "GPU fan speed and CPU cache misses"
+        B: "Per-namespace GPU utilization, memory usage, and eviction/preemption events"
+        C: "DNS query logs only"
+        D: "BMC logs only"
+      correct_answer: "B"
+      explanation: "Per-namespace resource usage plus evictions/preemptions can highlight when one tenant is overusing or impacting shared GPU nodes."
+
+    - id: 108
+      domain: "Monitoring & Capacity Management"
+      text: "A business unit wants to understand “cost per training run” for budgeting. Which inputs are essential?"
+      type: "single_choice"
+      options:
+        A: "GPU-hour cost, CPU-hour cost, and duration/resources per run"
+        B: "BIOS logs and firmware versions"
+        C: "Switch port statistics only"
+        D: "Average disk temperature"
+      correct_answer: "A"
+      explanation: "Cost per run is derived from resource usage over time (GPU/CPU hours, storage, etc.) multiplied by their unit costs."
+
+    - id: 109
+      domain: "Monitoring & Capacity Management"
+      text: "You’re implementing autoscaling for GPU inference services. Which signal is generally more appropriate for scaling decisions?"
+      type: "single_choice"
+      options:
+        A: "Node temperature"
+        B: "Request rate and tail latency (e.g., P95)"
+        C: "Docker image pull time"
+        D: "BIOS boot time"
+      correct_answer: "B"
+      explanation: "Request rate and tail latency capture both load and user experience, making them good drivers for autoscaling."
+
+    - id: 110
+      domain: "Monitoring & Capacity Management"
+      text: "You use Prometheus to collect GPU metrics. The database is growing quickly. Which strategy helps control storage while keeping long-term trends?"
+      type: "single_choice"
+      options:
+        A: "Disable all metrics"
+        B: "Use downsampling and longer scrape intervals for non-critical metrics"
+        C: "Turn off DCGM"
+        D: "Collect metrics only from a single node"
+      correct_answer: "B"
+      explanation: "Downsampling and tuning scrape intervals balance detail vs. storage and still retain long-term trends."
+
+    - id: 111
+      domain: "Monitoring & Capacity Management"
+      text: "You want to quickly identify underutilized GPUs suitable for batch training jobs. Which dashboard view is most helpful?"
+      type: "single_choice"
+      options:
+        A: "Sorted list of nodes by BIOS version"
+        B: "Heatmap of GPU utilization across nodes over the last few hours"
+        C: "Table of pod names only"
+        D: "List of Kubernetes events"
+      correct_answer: "B"
+      explanation: "A heatmap of GPU utilization highlights which GPUs/nodes are consistently underused, guiding placement of additional jobs."
+
+    - id: 112
+      domain: "Monitoring & Capacity Management"
+      text: "You operate multiple GPU clusters in different regions. The central governance team wants a single pane of glass. Which tool pattern is appropriate?"
+      type: "single_choice"
+      options:
+        A: "Per-cluster, isolated monitoring with no aggregation"
+        B: "Federated Prometheus or a metrics aggregator plus centralized dashboards"
+        C: "Single monolithic cluster to replace all"
+        D: "Only host-level logs"
+      correct_answer: "B"
+      explanation: "Federated monitoring or centralized metrics aggregation with Grafana dashboards supports multi-cluster visibility."
+
+    - id: 113
+      domain: "Monitoring & Capacity Management"
+      text: "The security team asks for an audit of which users ran GPU jobs during a specific incident window. Which data source is most useful?"
+      type: "single_choice"
+      options:
+        A: "GPU power usage logs"
+        B: "Kubernetes audit logs and pod metadata (owners, service accounts)"
+        C: "Switch port counters"
+        D: "DCGM exporter configuration"
+      correct_answer: "B"
+      explanation: "Kubernetes audit logs and pod metadata give a clear record of who started which workloads and when."
+
+    - id: 114
+      domain: "Monitoring & Capacity Management"
+      text: "You want to track model versions running on the GPU cluster to correlate with performance issues. Where should you store this information?"
+      type: "single_choice"
+      options:
+        A: "In BIOS settings"
+        B: "As labels/annotations on deployments, pods, or inference endpoints"
+        C: "In DCGM configuration"
+        D: "Only in a private spreadsheet"
+      correct_answer: "B"
+      explanation: "Labels/annotations on K8s objects are machine-readable and queryable, enabling correlation of model versions with system behavior."
+
+    - id: 115
+      domain: "Monitoring & Capacity Management"
+      text: "A capacity report shows that average GPU utilization is 25% but 95th percentile queue wait time is high. Which interpretation is most accurate?"
+      type: "single_choice"
+      options:
+        A: "Cluster is over-provisioned"
+        B: "There is likely fragmentation or scheduling constraints causing localized contention"
+        C: "GPUs are faulty"
+        D: "Monitoring is misconfigured"
+      correct_answer: "B"
+      explanation: "Low average utilization but high wait times suggests some GPUs are idle while others are oversubscribed, often due to fragmentation or scheduling constraints."
+
+    - id: 116
+      domain: "Monitoring & Capacity Management"
+      text: "You want an automated weekly report summarizing GPU usage per team. Which combination is typical?"
+      type: "single_choice"
+      options:
+        A: "DCGM exporter + SMTP server + custom script or reporting tool"
+        B: "BIOS + SNMP trap"
+        C: "Only CloudWatch metrics"
+        D: "BMC logs"
+      correct_answer: "A"
+      explanation: "DCGM exporter → Prometheus → reporting script/tool + email is a common path to generate and distribute periodic usage reports."
+
+    - id: 117
+      domain: "Monitoring & Capacity Management"
+      text: "During a post-incident review, you discover a lack of logs for failed GPU jobs. Which improvement is most impactful?"
+      type: "single_choice"
+      options:
+        A: "Disable DCGM"
+        B: "Enforce structured logging and ensure all workloads write to stdout/stderr with log aggregation"
+        C: "Turn off autoscaling"
+        D: "Remove GPUs from the cluster"
+      correct_answer: "B"
+      explanation: "Ensuring workloads log to stdout/stderr and that logs are centrally collected is fundamental for forensics and debugging."
+
+    - id: 118
+      domain: "Monitoring & Capacity Management"
+      text: "You want to understand if GPUs are a bottleneck in a complex pipeline that includes ETL, feature engineering, and training. Which method is best?"
+      type: "single_choice"
+      options:
+        A: "Look only at nvidia-smi snapshots"
+        B: "Build end-to-end observability with spans/trace IDs across stages and correlate with GPU metrics"
+        C: "Check BIOS version"
+        D: "Ask users verbally"
+      correct_answer: "B"
+      explanation: "End-to-end tracing plus GPU metrics allows you to see where time is spent across the pipeline and whether GPUs are the bottleneck."
+
+    - id: 119
+      domain: "Monitoring & Capacity Management"
+      text: "Your SLO states that 99% of inference requests must complete in under 100 ms. Dashboards show that P95 is 80 ms but P99 is 200 ms. What does this imply?"
+      type: "single_choice"
+      options:
+        A: "SLO is met"
+        B: "SLO is violated at the P99 tail"
+        C: "P95 and P99 are identical"
+        D: "Latency is irrelevant for SLOs"
+      correct_answer: "B"
+      explanation: "With a P99 of 200 ms, 1% of requests exceed 200 ms, violating an SLO that requires 99% under 100 ms."
+
+    - id: 120
+      domain: "Monitoring & Capacity Management"
+      text: "You’re planning an expansion of your GPU cluster. Which factors should be included in the business case, beyond raw hardware cost?"
+      type: "single_choice"
+      options:
+        A: "Only rack space"
+        B: "Power/cooling, software licensing (e.g., NVIDIA AI Enterprise), operations staff time, and expected utilization"
+        C: "Only GPU list price"
+        D: "Only shipping costs"
+      correct_answer: "B"
+      explanation: "A realistic business case must consider TCO: power, cooling, software licensing, operations effort, and predicted utilization, not just hardware purchase price."
