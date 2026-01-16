@@ -1,0 +1,108 @@
+---
+layout: default   <!-- adjust to your layout name, e.g. 'page' or 'default' -->
+title: NCP-AIO Practice Exam
+---
+
+<h1>{{ site.data.aio_quizz_120.exam.name }}</h1>
+<p>Version: {{ site.data.aio_quizz_120.exam.version }}</p>
+
+<div id="exam">
+  {% assign exam = site.data.aio_quizz_120.exam %}
+  {% for q in exam.questions %}
+    <div class="question" id="question-{{ q.id }}">
+      <h3>Q{{ q.id }} ({{ q.domain }}):</h3>
+      <p>{{ q.text }}</p>
+
+      <form class="question-form" data-question-id="{{ q.id }}">
+        {% for key in q.options %}
+          {% assign opt_key = key[0] %}
+          {% assign opt_text = key[1] %}
+          <label style="display: block; margin-bottom: 4px;">
+            <input
+              type="radio"
+              name="q{{ q.id }}"
+              value="{{ opt_key }}"
+            >
+            <strong>{{ opt_key }}.</strong> {{ opt_text }}
+          </label>
+        {% endfor %}
+      </form>
+
+      <button class="check-answer-btn" data-question-id="{{ q.id }}">
+        Check answer
+      </button>
+
+      <div class="answer-result" id="result-{{ q.id }}" style="margin-top: 6px;"></div>
+      <div class="answer-explanation" id="explanation-{{ q.id }}" style="margin-top: 6px; display: none;">
+        <strong>Explanation:</strong> {{ q.explanation }}
+      </div>
+
+      <!-- store correct answer key for JS -->
+      <span
+        class="correct-answer"
+        id="correct-{{ q.id }}"
+        data-correct="{{ q.correct_answer }}"
+        style="display: none;"
+      ></span>
+
+      <hr>
+    </div>
+  {% endfor %}
+</div>
+
+<button id="calc-score-btn">Calculate total score</button>
+<div id="total-score" style="margin-top: 10px; font-weight: bold;"></div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  // Per-question "Check answer"
+  document.querySelectorAll('.check-answer-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var qid = this.getAttribute('data-question-id');
+      var form = document.querySelector('.question-form[data-question-id="' + qid + '"]');
+      var selected = form.querySelector('input[type="radio"]:checked');
+      var resultEl = document.getElementById('result-' + qid);
+      var explEl = document.getElementById('explanation-' + qid);
+      var correctKey = document.getElementById('correct-' + qid).getAttribute('data-correct');
+
+      if (!selected) {
+        resultEl.textContent = 'Please select an answer.';
+        resultEl.style.color = 'orange';
+        return;
+      }
+
+      var userKey = selected.value;
+
+      if (userKey === correctKey) {
+        resultEl.textContent = 'Correct! (' + correctKey + ')';
+        resultEl.style.color = 'green';
+      } else {
+        resultEl.textContent = 'Incorrect. You chose ' + userKey + ', correct is ' + correctKey + '.';
+        resultEl.style.color = 'red';
+      }
+
+      explEl.style.display = 'block';
+    });
+  });
+
+  // Overall score
+  var calcBtn = document.getElementById('calc-score-btn');
+  calcBtn.addEventListener('click', function () {
+    var totalQuestions = document.querySelectorAll('.question-form').length;
+    var correctCount = 0;
+
+    document.querySelectorAll('.question-form').forEach(function (form) {
+      var qid = form.getAttribute('data-question-id');
+      var selected = form.querySelector('input[type="radio"]:checked');
+      var correctKey = document.getElementById('correct-' + qid).getAttribute('data-correct');
+
+      if (selected && selected.value === correctKey) {
+        correctCount++;
+      }
+    });
+
+    var scoreEl = document.getElementById('total-score');
+    scoreEl.textContent = 'Your score: ' + correctCount + ' / ' + totalQuestions;
+  });
+});
+</script>
