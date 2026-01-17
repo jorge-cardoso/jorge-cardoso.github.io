@@ -19,21 +19,38 @@ Troubleshooting Fabric Manager issues, using DCGM diagnostics, and optimizing St
 This resource helps MLOps engineers and system architects prepare for the [NVIDIA-Certified Professional: AI Operations (NCP-AIO)](https://www.nvidia.com/en-us/learn/certification/ai-operations-professional/).
 
 
-
-
-
 Found this Knowledge Check helpful? 
 <a href="https://www.buymeacoffee.com/jorge_cardoso" target="_blank" class="buy-coffee-btn">
   <img src="{{ 'systems/aioperations/buy_me_a_coffee.png' | relative_url }}" class="buy-coffee-img"
        alt="Buy Me A Coffee">
 </a>
 
-<div class="quiz-page-wrapper">
+
+<div class="quiz-page-wrapper" style="margin-top: 50px;">
   
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; width: 100%; min-height: 50px;">
+      
+      <div style="flex: 1; display: flex; align-items: center;"></div>
+
+      <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
+        <div class="score-text" style="color: black; margin: 0; white-space: nowrap; font-size: 1.17em; font-weight: bold; border: none !important;">
+          Score: <span id="score-value" style="color: #c20000;"> 0 / 120 (0%) </span>
+        </div>
+      </div>
+
+      <div style="flex: 1; display: flex; align-items: center; justify-content: flex-end;">
+        <span style="font-size: 0.9em; font-weight: normal; color: black;">
+          <a href="#" onclick="localStorage.removeItem('ncp_aio_quiz_save'); location.reload(); return false;" style="color: gray; text-decoration: none;"> Reset </a>
+          <span style="margin: 0 5px; color: #ccc;">|</span>
+          <a href="#" id="download-questions-pdf" style="color: gray; text-decoration: none;"> PDF </a>
+        </span>
+      </div>
+      
+  </div>
+
+
   {% assign exam_questions = site.data.aioperations_quiz.exam.questions %}
   {% assign grouped_questions = exam_questions | group_by: "domain" %}
-
-  <h3 id="total-score" class="score-text">Score: --</h3>
 
   <div class="tab">
     {% for group in grouped_questions %}
@@ -67,11 +84,11 @@ Found this Knowledge Check helpful?
                       </form>
                       <button class="check-answer-btn" data-question-id="{{ q.id }}">Check answer</button>
 
-<div class="answer-explanation" id="explanation-{{ q.id }}" 
-     style="margin-top: 10px; display: none; padding: 10px; background: #f9f9f9; border-left: 4px solid transparent; border-right: 4px solid transparent;">
-  <strong id="status-{{ q.id }}"></strong> 
-  <strong id="label-{{ q.id }}">Explanation:</strong> {{ q.explanation }}
-</div>
+                      <div class="answer-explanation" id="explanation-{{ q.id }}" 
+                          style="margin-top: 10px; display: none; padding: 10px; background: #f9f9f9; border-left: 4px solid transparent; border-right: 4px solid transparent;">
+                        <strong id="status-{{ q.id }}"></strong> 
+                        <strong id="label-{{ q.id }}">Explanation:</strong> {{ q.explanation }}
+                      </div>
 
                       <span class="correct-answer" id="correct-{{ q.id }}" data-correct="{{ q.correct_answer }}" style="display: none;"></span>
                     </div>
@@ -104,7 +121,10 @@ Below is a curated list of official documentation and resources to help you mast
 * [Magnum IO](https://developer.nvidia.com/blog/accelerating-io-in-the-modern-data-center-magnum-io-storage-partnerships/): Study the architecture for GPUDirect Storage (GDS) and how it bypasses the CPU to accelerate data movement.
 
 
+
 <script>
+const STORAGE_KEY = 'ncp_aio_quiz_save';
+
 function openDomain(evt, domainId) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -120,7 +140,7 @@ function calculateScore() {
   const totalScoreEl = document.getElementById('total-score');
   
   let grandTotalCorrect = 0;
-  let grandTotalQuestions = 0;
+  let grandTotalQuestions = 120;
 
   domainSections.forEach((section, index) => {
     const domainIndex = index + 1;
@@ -142,50 +162,190 @@ function calculateScore() {
 
     if (tabScoreSpan) { tabScoreSpan.textContent = `(${domainCorrect}/${domainTotal})`; }
     grandTotalCorrect += domainCorrect;
-    grandTotalQuestions += domainTotal;
+    // grandTotalQuestions += domainTotal;
   });
 
   const totalPercentage = grandTotalQuestions > 0 ? Math.round((grandTotalCorrect / grandTotalQuestions) * 100) : 0;
-  totalScoreEl.textContent = `Score: ${grandTotalCorrect} / ${grandTotalQuestions} (${totalPercentage}%)`;
+  
+  const scoreValueEl = document.getElementById('score-value');
+  if (scoreValueEl) {
+    scoreValueEl.textContent = `${grandTotalCorrect} / ${grandTotalQuestions} (${totalPercentage}%)`;
+  }
+
+}
+
+function saveState() {
+  const state = {};
+  document.querySelectorAll('.question-form').forEach(form => {
+    const qid = form.getAttribute('data-question-id');
+    const selected = form.querySelector('input[type="radio"]:checked');
+    const explVisible = document.getElementById('explanation-' + qid).style.display === 'block';
+    
+    if (selected || explVisible) {
+      state[qid] = {
+        selected: selected ? selected.value : null,
+        checked: explVisible
+      };
+    }
+  });
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+}
+
+function loadState() {
+  const saved = localStorage.getItem(STORAGE_KEY);
+  if (!saved) return;
+  
+  const state = JSON.parse(saved);
+  Object.keys(state).forEach(qid => {
+    const data = state[qid];
+    const form = document.querySelector(`.question-form[data-question-id="${qid}"]`);
+    if (!form) return;
+
+    if (data.selected) {
+      const radio = form.querySelector(`input[value="${data.selected}"]`);
+      if (radio) radio.checked = true;
+    }
+
+    if (data.checked) {
+      showResult(qid);
+    }
+  });
+  calculateScore();
+}
+
+function showResult(qid) {
+  const form = document.querySelector('.question-form[data-question-id="' + qid + '"]');
+  const selected = form.querySelector('input[type="radio"]:checked');
+  const explEl = document.getElementById('explanation-' + qid);
+  const statusEl = document.getElementById('status-' + qid);
+  const labelEl = document.getElementById('label-' + qid);
+  const correctKey = document.getElementById('correct-' + qid).getAttribute('data-correct');
+
+  if (!selected) return;
+
+  if (selected.value === correctKey) {
+    statusEl.textContent = 'Correct! ';
+    statusEl.style.color = 'var(--success)';
+    explEl.style.borderLeftColor = 'var(--success)';
+    explEl.style.borderRightColor = 'var(--success)';
+    labelEl.textContent = 'Explanation:';
+  } else {
+    statusEl.textContent = 'Incorrect. ';
+    statusEl.style.color = 'var(--error)';
+    explEl.style.borderLeftColor = 'var(--error)';
+    explEl.style.borderRightColor = 'var(--error)';
+    labelEl.textContent = 'Help:';
+  }
+  explEl.style.display = 'block';
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  calculateScore();
+  loadState();
 
   document.querySelectorAll('.check-answer-btn').forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        const qid = this.getAttribute('data-question-id');
-        const form = document.querySelector('.question-form[data-question-id="' + qid + '"]');
-        const selected = form.querySelector('input[type="radio"]:checked');
-        const explEl = document.getElementById('explanation-' + qid);
-        const statusEl = document.getElementById('status-' + qid);
-        const labelEl = document.getElementById('label-' + qid); // Target the label
-        const correctKey = document.getElementById('correct-' + qid).getAttribute('data-correct');
+    btn.addEventListener('click', function () {
+      const qid = this.getAttribute('data-question-id');
+      const form = document.querySelector('.question-form[data-question-id="' + qid + '"]');
+      const selected = form.querySelector('input[type="radio"]:checked');
 
-        if (!selected) {
-          alert('Please select an answer.');
-          return;
-        }
+      if (!selected) {
+        alert('Please select an answer.');
+        return;
+      }
 
-        if (selected.value === correctKey) {
-          statusEl.textContent = 'Correct! ';
-          statusEl.style.color = 'var(--success)';
-          explEl.style.borderLeftColor = 'var(--success)';
-          explEl.style.borderRightColor = 'var(--success)';
-          labelEl.textContent = 'Explanation:'; // Set back to Explanation if correct
-        } else {
-          statusEl.textContent = 'Incorrect. ';
-          statusEl.style.color = 'var(--error)';
-          explEl.style.borderLeftColor = 'var(--error)';
-          explEl.style.borderRightColor = 'var(--error)';
-          labelEl.textContent = 'Help:'; // Change to Help if incorrect
+      showResult(qid);
+      calculateScore();
+      saveState();
+    });
+  });
+});
+
+document.getElementById('download-questions-pdf').addEventListener('click', function (e) {
+    
+    e.preventDefault() // Prevents page jump
+
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+    let yOffset = 20;
+    const margin = 15;
+    const pageWidth = doc.internal.pageSize.width;
+    const pageHeight = doc.internal.pageSize.height;
+
+    // Helper to add text and handle page breaks
+    const addText = (text, size, style = "normal", spacing = 7) => {
+        doc.setFontSize(size);
+        doc.setFont("helvetica", style);
+        const lines = doc.splitTextToSize(text, pageWidth - (margin * 2));
+        
+        if (yOffset + (lines.length * spacing) > pageHeight - 20) {
+            doc.addPage();
+            yOffset = 20;
         }
         
-        explEl.style.display = 'block';
-        calculateScore();
-      });
+        doc.text(lines, margin, yOffset);
+        yOffset += (lines.length * spacing);
+    };
+
+    // --- PDF Header ---
+    addText("NCP-AIO: Knowledge Check Questions", 18, "bold", 12);
+    addText("Study Resource for NVIDIA Certified Professional: AI Operations", 10, "italic", 10);
+    yOffset += 5;
+
+    // --- Scrape Questions from the rendered HTML ---
+    const domains = document.querySelectorAll('.tablinks');
+    
+    domains.forEach((domainTab, index) => {
+        const domainName = domainTab.innerText.split('(')[0].trim(); // Remove the (0/0) score
+        const domainId = `domain-${index + 1}`;
+        const domainContainer = document.getElementById(domainId);
+        
+        if (domainContainer) {
+            // Add Domain Heading
+            yOffset += 5;
+            addText(`Domain: ${domainName}`, 14, "bold", 10);
+            doc.line(margin, yOffset - 2, pageWidth - margin, yOffset - 2); // Horizontal line
+            yOffset += 5;
+
+            const questionBlocks = domainContainer.querySelectorAll('.question-block');
+            questionBlocks.forEach((block) => {
+                const qText = block.querySelector('.question').innerText;
+                const options = block.querySelectorAll('.question-form label');
+
+                // Write the Question
+                addText(qText, 11, "bold", 6);
+
+                // Write the Options
+                options.forEach(opt => {
+                    addText("   [  ]   " + opt.innerText.trim(), 10, "normal", 6);
+                });
+                
+                yOffset += 4; // Space between questions
+            });
+        }
     });
 
+    const pageCount = doc.internal.getNumberOfPages();
+        const sourceUrl = "Source: https://jorge-cardoso.github.io/systems/aioperations/knowledge_check/";
 
+        for (let i = 1; i <= pageCount; i++) {
+            doc.setPage(i);
+            doc.setFontSize(9);
+            doc.setFont("helvetica", "normal");
+            doc.setTextColor(150); // Professional gray
+
+            // Add Source URL on the left
+            doc.text(sourceUrl, margin, pageHeight - 10);
+
+            // Add Page Number on the right
+            const pageText = `Page ${i} of ${pageCount}`;
+            const textWidth = doc.getTextWidth(pageText);
+            doc.text(pageText, pageWidth - margin - textWidth, pageHeight - 10);
+        }
+        
+    // Save the PDF
+    doc.save('AI_Operations_Questions.pdf');
 });
+
+
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
