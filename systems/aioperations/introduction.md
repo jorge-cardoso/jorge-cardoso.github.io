@@ -1,0 +1,3 @@
+
+The following questions validate your technical proficiency in monitoring, troubleshooting, and optimizing AI infrastructure, specifically focusing on the orchestration of workloads using tools like Kubernetes and Slurm, GPU utilization (including MIG), DPU connectivity, performance tuning, as well as the management of NVIDIA-specific software.
+This resource helps MLOps engineers and system architects prepare for the [NVIDIA-Certified Professional: AI Operations (NCP-AIO)](https://www.nvidia.com/en-us/learn/certification/ai-operations-professional/).

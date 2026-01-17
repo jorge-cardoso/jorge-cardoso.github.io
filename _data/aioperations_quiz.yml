@@ -1,6 +1,6 @@
 exam:
-  name: "NVIDIA-Certified Professional: AI Operations (NCP-AIO) - Practice Set (120 Questions)"
-  version: "2.0"
+  name: "Practice set"
+  version: "0.9"
   questions:
     - id: 1
       domain: "AI Infrastructure"

@@ -1,0 +1,165 @@
+/* Modern Quiz Theme - Compact Edition with Tabs */
+:root {
+  --primary-color: #4f46e5;
+  --secondary-color: #818cf8;
+  --bg-color: #ffffff; 
+  --card-bg: #ffffff;
+  --text-main: #1f2937;
+  --text-muted: #6b7280;
+  --success: #10b981;
+  --error: #ef4444;
+}
+
+.quiz-page-wrapper {
+  font-family: 'Inter', -apple-system, sans-serif;
+  color: var(--text-main);
+  line-height: 1.4;
+  margin: 0;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 20px 20px 20px 0px; 
+}
+
+/* Tab Navigation */
+.tab {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  background: #f3f4f6;
+  padding: 4px;
+  border-radius: 0.35rem 0.35rem 0 0;
+  border: 1px solid #e5e7eb;
+  border-bottom: none;
+}
+
+.tablinks {
+  flex: 1;
+  min-width: 120px;
+  background: transparent;
+  color: var(--text-muted);
+  border: none;
+  padding: 0.6rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 0.35rem;
+  transition: background 0.3s ease; 
+}
+
+.tablinks:hover {
+  background: #e5e7eb;
+  color: var(--text-main);
+}
+
+.tablinks.active {
+  background: #d1d5db; /* A solid medium-gray */
+  color: var(--text-main); /* Darker text for readability */
+  cursor: default;
+}
+
+#quiz-container {
+  background: var(--card-bg);
+  max-width: 1000px;
+  width: 100%;
+  padding: 1.25rem;
+  border-radius: 0 0 0.75rem 0.75rem; /* Rounded bottom to connect with tabs */
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Domain Tables */
+.domain-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.domain-table td {
+  padding: 1rem 0;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+/* Individual Questions */
+.question {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--text-main);
+}
+
+/* Answer Options */
+.question-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+label {
+  padding: 0.4rem 0.75rem;
+  background: #f3f4f6;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+label:hover {
+  background: #e5e7eb;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+  accent-color: var(--primary-color);
+}
+
+label:has(input:checked) {
+  border-color: var(--primary-color);
+  background: #eef2ff;
+}
+
+/* Action Buttons */
+.check-answer-btn, #calc-score-btn {
+  width: auto;
+  min-width: 150px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.check-answer-btn:hover, #calc-score-btn:hover {
+  background-color: var(--secondary-color);
+}
+
+/* Hide tab content by default */
+.tabcontent {
+  display: none;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.score-text {
+    font-family: inherit;
+    color: var(--primary-color, #333);
+    font-size: 1.1rem;
+    margin: 5px 0;
+  }
+
+.domain-row {
+  font-family: inherit;
+  color: var(--primary-color, #333);
+  font-size: 1rem;
+  line-height: 1.8;
+}
