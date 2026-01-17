@@ -1,7 +1,7 @@
 /* Modern Quiz Theme - Compact Edition with Tabs */
 :root {
-  --primary-color: #4f46e5;
-  --secondary-color: #818cf8;
+  --primary-color: #c20000;
+  --secondary-color: #ba8888;
   --bg-color: #ffffff; 
   --card-bg: #ffffff;
   --text-main: #1f2937;
@@ -18,7 +18,7 @@
   justify-content: center;
   align-items: flex-start;
   min-height: 100vh;
-  padding: 20px 20px 20px 0px; 
+  padding: 20px 20px 20px 20px; 
 }
 
 /* Tab Navigation */
@@ -124,9 +124,9 @@ label:has(input:checked) {
 .check-answer-btn, #calc-score-btn {
   width: auto;
   min-width: 150px;
-  background-color: var(--primary-color);
-  color: white;
-  border: none;
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color); 
   padding: 0.6rem 1.2rem;
   border-radius: 0.5rem;
   font-size: 0.9rem;
@@ -152,14 +152,40 @@ label:has(input:checked) {
 
 .score-text {
     font-family: inherit;
-    color: var(--primary-color, #333);
+    color: var(--primary-color, #000000);
     font-size: 1.1rem;
     margin: 5px 0;
-  }
+    text-align: center;
+    padding-bottom: 15px;
+}
 
 .domain-row {
   font-family: inherit;
   color: var(--primary-color, #333);
   font-size: 1rem;
   line-height: 1.8;
+}
+
+.buy-coffee-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFDD00; /* Official Buy Me a Coffee Yellow */
+  border-radius: 15px;        /* Rounded corners */
+  padding: 4px 12px;          /* Adjusted padding for smaller image */
+  text-decoration: none;
+  transition: 0.3s;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.buy-coffee-img {
+  height: 20px !important; 
+  width: auto !important;
+  display: block;
+}
+
+.buy-coffee-btn:hover {
+  background-color: #ffca00; 
+  transform: scale(1.05);
+  opacity: 0.9;
 }

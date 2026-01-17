@@ -26,6 +26,9 @@ I also work on observability solutions to ensure scalable and reliable AI deploy
 High-speed interconnects such as [NVLink](https://www.nvidia.com/en-us/data-center/nvlink/) and 
 [InfiniBand Networking](https://www.nvidia.com/en-us/networking/products/infiniband/) are central to the performance and efficiency of these systems. 
 
+For those interested in the field, I prepared an [interactive knowledge check]({{ '/systems/aioperations/knowledge_check/' | relative_url }}) which serves as a technical assessment designed for **MLOps engineers** and **system architects** aiming to master the complexities of modern AI infrastructure.
+It focuses on competencies such as **Kubernetes** and **Slurm** orchestration, **GPU optimization** through Multi-Instance GPU (MIG) technology, and **DPU** connectivity.
+
 
 
 ## AI for Operations
