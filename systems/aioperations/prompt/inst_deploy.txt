@@ -1,0 +1,66 @@
+Source title to use: BCM11 User Manual, https://docs.nvidia.com/base-command-manager/manuals/11/user-manual.pdf
+- Chapter 4: Workload management
+- Chapter 5: Slurm
+- Chapter 8: Kubernetes
+
+Source title to use: BCM11 Administration Manual, https://docs.nvidia.com/base-command-manager/manuals/11/admin-manual.pdf
+- Chapter 2: Cluster management with NVIDIA Base Command Manager
+- Chapter 3: Configuring the Cluster
+- Chapter 4: Power management
+- Chapter 5: Node Provisioning
+- Chapter 6: User management
+- Chapter 7: Workload management
+- Chapter 10: Monitoring: Monitoring cluster devices
+- Chapter 11: Monitoring: Job Monitoring 
+- Chapter 12: Monitoring: Job Accounting
+- Chapter 14: Day-to-day administration
+- Chapter 15: High Availability
+
+
+Please generate a comprehensive quiz based only on the uploaded sources using the following requirements:
+
+- Quantity: Create exactly 40 questions.
+    - Ensure the questions cover a wide range of topics across the entirety of the provided documents.
+- Structure: For each question, provide in YAML format:
+    - ID: A unique numerical ID (e.g., 1, 2, 3).
+    - Area: The area should always be "Installation and Deployment"
+    - Question: A clear, concise question based on the text.
+    - Type: "single_choice"
+    - Options: Four possible answers (A, B, C, D), with only one being correct.
+    - Correct Answer: Clearly state the correct letter.
+    - Source Reference: Include the specific source title name.
+    - Source Chapter: The title of the Chapter from the source where the answer is found.        
+    - Source Pages: Include the specific Page Number from the source where the answer is found.    
+    - Explanation: Provide a brief explanation or a helpful hint that guides the student toward the right answer.
+- Formatting: Use YAML, clear and structured. Here is an example: 
+
+    - id: 1
+      area: "Installation and Deployment"    
+      question: "You are sizing a cluster for training large language models using NVIDIA GPUs. Which factor is most critical for minimizing training time in multi-node distributed training?"
+      type: "single_choice"
+      options:
+        A: "CPU core count per node"
+        B: "RAM speed (MHz)"
+        C: "Network bandwidth and latency between GPU nodes"
+        D: "Local SSD capacity on each node"
+      correct_answer: "C"
+      source_reference: "BCM User Manual"
+      source_chapter: "Workload management"
+      source_pages: "80,81"      
+      explanation: "In multi-node distributed training, inter-node network bandwidth and latency are often the primary bottlenecks, because large tensors and gradients must be exchanged between GPUs in different servers. High-speed interconnects such as InfiniBand or RoCE are critical."
+
+- Focus: place focus on these topics:
+
+    - Describe the Mission Control toolkit
+    - Use BCM’s Base View interface to monitor cluster performance, resource utilization, and node health in real time.
+    - Manage job scheduling and resource allocation using BCM’s workload manager (e.g., SLURM or Kubernetes)
+    - Apply patches, update firmware, and synchronize software images across cluster nodes using BCM
+    - Administer user accounts, roles, and permissions to ensure secure access to the cluster using BCM
+    - Configure and monitor network settings for cluster nodes, DPUs, and switches using BCM
+    - Diagnose and resolve cluster issues, such as job failures, node outages, or resource bottlenecks, using BCM.
+    - Use BCM to organize and configure compute nodes into categories based on hardware or workload requirements.
+    - Using BCM, maintain documentation and generate reports on cluster usage, performance, and issues.
+    - Install and initialize Kubernetes on NVIDIA hosts using BCM
+    - Deploy DOCA Services on DPU Arm
+    - Install Run:ai
+    - Install Slurm

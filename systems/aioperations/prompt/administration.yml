@@ -1,0 +1,74 @@
+- id: 1
+  area: "Installation and Deployment"
+  question: "When identifying nodes in a Slurm cluster that are in a 'down' or 'drained' state, which command should an administrator use to view the full, detailed reason for the failure if the output from 'sinfo -R' is truncated?"
+  type: "single_choice"
+  options:
+    A: "squeue --reason"
+    B: "scontrol show node <nodename> | grep Reason"
+    C: "cmsh -c 'partition list nodes'"
+    D: "sbatch --check-node"
+  correct_answer: "B"
+  source_reference: "NVIDIA DGX SuperPOD: Administration Guide"
+  source_chapter: "Managing Slurm"
+  source_pages: "32"
+  explanation: "The 'sinfo -R' command only displays a few characters of the failure reason. To see the long-form details of why a node is in a down or drained state, the 'scontrol show node' command must be used."
+
+- id: 2
+  area: "Installation and Deployment"
+  question: "Regarding the configuration of Multi-Instance GPU (MIG) mode, how does the persistence of the MIG mode setting differ between NVIDIA Ampere architecture GPUs and Hopper+ generation GPUs?"
+  type: "single_choice"
+  options:
+    A: "Ampere settings are lost on reboot, while Hopper+ settings are stored in the InfoROM."
+    B: "Hopper+ settings are persistent across reboots, while Ampere settings require a kernel module reload."
+    C: "Ampere settings are persistent across system reboots until toggled explicitly, while Hopper+ settings are only persistent as long as the driver is resident."
+    D: "Both architectures require a full GPU reset to enable MIG mode, making the setting temporary."
+  correct_answer: "C"
+  source_reference: "NVIDIA Multi-Instance GPU User Guide"
+  source_chapter: "Getting Started with MIG"
+  source_pages: "39, 40"
+  explanation: "On Ampere GPUs, the MIG mode setting is stored in the GPU InfoROM and persists across reboots. In contrast, on Hopper generation GPUs, MIG mode is only persistent while the driver kernel modules are loaded and is disabled if the driver is unloaded or the system reboots."
+
+- id: 3
+  area: "Installation and Deployment"
+  question: "During the Kubernetes installation process using the 'cm-kubernetes-setup' tool in BCM 11, which networking component cannot be changed without performing a complete reinstallation of the cluster?"
+  type: "single_choice"
+  options:
+    A: "The Kubernetes External FQDN"
+    B: "The DockerHub Container registry mirror"
+    C: "The Pod Network subnet"
+    D: "The Ingress HTTPS port"
+  correct_answer: "C"
+  source_reference: "NVIDIA Mission Control Software Installation Guide"
+  source_chapter: "Kubernetes Installation"
+  source_pages: "13"
+  explanation: "During setup, it is critical to ensure subnets do not overlap with private IP ranges because the Pod Network subnet is immutable once the cluster is deployed; changing it requires a full reinstallation."
+
+- id: 4
+  area: "Installation and Deployment"
+  question: "In the NVIDIA Run:ai platform, which specific workload types are classified as 'native platform workloads' that are submit-able directly from the platform and represented by Kubernetes Custom Resource Definitions (CRDs)?"
+  type: "single_choice"
+  options:
+    A: "Data preparation, Fine-tuning, and Monitoring"
+    B: "Workspaces, Training, and Inference"
+    C: "Batch jobs, IDE notebooks, and API services"
+    D: "Calico, Kyverno, and Prometheus"
+  correct_answer: "B"
+  source_reference: "NVIDIA Run:ai Documentation"
+  source_chapter: "Introduction to Workloads"
+  source_pages: "8"
+  explanation: "NVIDIA Run:ai native workloads consist of Workspaces, Training, and Inference. These are fully integrated into the platform with built-in support for orchestration and policy controls."
+
+- id: 5
+  area: "Installation and Deployment"
+  question: "In a data center architecture optimized for AI workloads using a Beowulf cluster design, what is the primary purpose of implementing a secondary InfiniBand network alongside a standard Gigabit Ethernet network?"
+  type: "single_choice"
+  options:
+    A: "To provide a redundant path for administrative SSH logins to the head node."
+    B: "To serve as the primary gateway for the cluster's console and outside world access."
+    C: "To provide high-performance, low-latency communication for large-scale computational problems involving the exchange of vast amounts of information."
+    D: "To allow the head node to serve small configuration files to compute nodes more efficiently."
+  correct_answer: "C"
+  source_reference: "BCM11 User Manual"
+  source_chapter: "Introduction"
+  source_pages: "11"
+  explanation: "AI and HPC applications benefit from InfiniBand's high data rates (e.g., 124Gbps) and extremely low latency (e.g., 1.2µs), which are necessary for the intensive message passing required in distributed parallel computations."

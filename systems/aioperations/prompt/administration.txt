@@ -1,0 +1,75 @@
+Source links:
+https://docs.nvidia.com/base-command-manager/manuals/11/user-manual.pdf
+https://docs.nvidia.com/dgx-superpod/administration-guide-dgx-superpod/latest/managing-slurm.html
+https://docs.nvidia.com/dgx-superpod/administration-guide-dgx-superpod/latest/managing-slurm.html
+https://docs.nvidia.com/mission-control/docs/nmc-software-installation-guide/2.1.0/index.html
+https://docs.nvidia.com/mission-control/docs/nmc-software-installation-guide/2.1.0/nmc-kubernetes.html
+https://run-ai-docs.nvidia.com/
+https://run-ai-docs.nvidia.com/saas/platform-management/
+https://run-ai-docs.nvidia.com/saas/workloads-in-nvidia-run-ai/introduction-to-workloads, 
+https://docs.nvidia.com/datacenter/tesla/pdf/MIG_User_Guide.pdf
+https://docs.nvidia.com/base-command-manager/manuals/11/admin-manual.pdf
+
+
+Source title to use: BCM11 User Manual, https://docs.nvidia.com/base-command-manager/manuals/11/user-manual.pdf
+- Chapter 5: Slurm
+- Chapter 8: Kubernetes
+
+Source title to use: NVIDIA DGX SuperPOD: Administration Guide, https://docs.nvidia.com/dgx-superpod/administration-guide-dgx-superpod/latest/managing-slurm.html
+- Managing Slurm, https://docs.nvidia.com/dgx-superpod/administration-guide-dgx-superpod/latest/managing-slurm.html
+
+Source title to use: NVIDIA Mission Control Software Installation Guide, https://docs.nvidia.com/mission-control/docs/nmc-software-installation-guide/2.1.0/index.html
+- Kubernetes Installation, https://docs.nvidia.com/mission-control/docs/nmc-software-installation-guide/2.1.0/nmc-kubernetes.html
+
+Source title to use: NVIDIA Run:ai Documentation, https://run-ai-docs.nvidia.com/
+- Platform management: https://run-ai-docs.nvidia.com/saas/platform-management/
+- Workloads in NVIDIA Run:ai: https://run-ai-docs.nvidia.com/saas/workloads-in-nvidia-run-ai/introduction-to-workloads, 
+
+Source title to use: NVIDIA Multi-Instance GPU User Guide, https://docs.nvidia.com/datacenter/tesla/pdf/MIG_User_Guide.pdf
+- Chapter 9: Supported MIG profiles
+- Chapter 10: Getting Started with MIG
+
+Source title to use: BCM11 Administration Manual, https://docs.nvidia.com/base-command-manager/manuals/11/admin-manual.pdf
+- Chapter 11: Monitoring: Job Monitoring 
+- Chapter 12: Monitoring: Job Accounting
+
+
+Please generate a comprehensive quiz based only on the uploaded sources using the following requirements:
+
+- Quantity: Create exactly 30 questions.
+    - Ensure the questions cover a wide range of topics across the entirety of the provided documents.
+- Structure: For each question, provide in YAML format:
+    - ID: A unique numerical ID (e.g., 1, 2, 3).
+    - Area: The area should always be "Administration"
+    - Question: A clear, concise question based on the text.
+    - Type: "single_choice"
+    - Options: Four possible answers (A, B, C, D), with only one being correct.
+    - Correct Answer: Clearly state the correct letter.
+    - Source Reference: Include the specific source title name.
+    - Source Chapter: The title of the Chapter from the source where the answer is found.        
+    - Source Pages: Include the specific Page Number from the source where the answer is found. Only write the page when the source is a PDF.   
+    - Explanation: Provide a brief explanation or a helpful hint that guides the student toward the right answer.
+- Formatting: Use YAML, clear and structured. Here is an example: 
+
+    - id: 1
+      area: "Installation and Deployment"    
+      question: "You are sizing a cluster for training large language models using NVIDIA GPUs. Which factor is most critical for minimizing training time in multi-node distributed training?"
+      type: "single_choice"
+      options:
+        A: "CPU core count per node"
+        B: "RAM speed (MHz)"
+        C: "Network bandwidth and latency between GPU nodes"
+        D: "Local SSD capacity on each node"
+      correct_answer: "C"
+      source_reference: "BCM User Manual"
+      source_chapter: "Workload management"
+      source_pages: "80,81"      
+      explanation: "In multi-node distributed training, inter-node network bandwidth and latency are often the primary bottlenecks, because large tensors and gradients must be exchanged between GPUs in different servers. High-speed interconnects such as InfiniBand or RoCE are critical."
+
+- Focus: place focus on these topics:
+
+    - Administer Slurm cluster.
+    - Describe data center architecture for AI Workloads
+    - Administer Run:ai
+    - Administer Kubernetes
+    - Configure MIG
