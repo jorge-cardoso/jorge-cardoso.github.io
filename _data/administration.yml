@@ -6,12 +6,12 @@
     A: "A batch job uses srun, while an interactive job uses sbatch."
     B: "A batch job returns immediately after submission, while an interactive job blocks until nodes are available to provide a pseudo-terminal."
     C: "Batch jobs can only run on login nodes, while interactive jobs must run on compute nodes."
-    D: "Batch jobs require the –pty flag, whereas interactive jobs require a shell script."
+    D: "Batch jobs require the -pty flag, whereas interactive jobs require a shell script."
   correct_answer: "B"
   source_reference: "NVIDIA DGX SuperPOD: Administration Guide"
   source_chapter: "Managing Slurm"
   source_pages: "N/A"
-  explanation: "A batch job is submitted with a script using sbatch and returns immediately. An interactive job is submitted using srun (often with –pty) and blocks the terminal until the allocation is ready for real-time user interaction."
+  explanation: "A batch job is submitted with a script using sbatch and returns immediately. An interactive job is submitted using srun (often with -pty) and blocks the terminal until the allocation is ready for real-time user interaction."
 
 - id: 2
   area: "Administration"
@@ -153,15 +153,15 @@
   question: "BCM automatically creates a restricted sandbox namespace for each user. What is the standard naming format for this namespace?"
   type: "single_choice"
   options:
-    A: "namespace-<user>"
-    B: "<user>-restricted"
-    C: "restricted-<user>"
-    D: "user-sandbox-<user>"
+    A: "namespace-user"
+    B: "user-restricted"
+    C: "restricted-user"
+    D: "user-sandbox-user"
   correct_answer: "B"
   source_reference: "BCM11 User Manual"
   source_chapter: "Using Kubernetes"
   source_pages: "63, 64"
-  explanation: "Since BCM version 9.0, a custom namespace formatted as '<user>-restricted' is created for each user to serve as a sandbox."
+  explanation: "Since BCM version 9.0, a custom namespace formatted as 'user-restricted' is created for each user to serve as a sandbox."
 
 - id: 12
   area: "Administration"

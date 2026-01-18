@@ -9,6 +9,7 @@ https://run-ai-docs.nvidia.com/saas/platform-management/
 https://run-ai-docs.nvidia.com/saas/workloads-in-nvidia-run-ai/introduction-to-workloads, 
 https://docs.nvidia.com/datacenter/tesla/pdf/MIG_User_Guide.pdf
 https://docs.nvidia.com/base-command-manager/manuals/11/admin-manual.pdf
+https://docs.nvidia.com/ngc/latest/ngc-user-guide.html
 
 
 Source title to use: BCM11 User Manual, https://docs.nvidia.com/base-command-manager/manuals/11/user-manual.pdf
@@ -25,13 +26,12 @@ Source title to use: NVIDIA Run:ai Documentation, https://run-ai-docs.nvidia.com
 - Platform management: https://run-ai-docs.nvidia.com/saas/platform-management/
 - Workloads in NVIDIA Run:ai: https://run-ai-docs.nvidia.com/saas/workloads-in-nvidia-run-ai/introduction-to-workloads, 
 
-Source title to use: NVIDIA Multi-Instance GPU User Guide, https://docs.nvidia.com/datacenter/tesla/pdf/MIG_User_Guide.pdf
-- Chapter 9: Supported MIG profiles
-- Chapter 10: Getting Started with MIG
-
 Source title to use: BCM11 Administration Manual, https://docs.nvidia.com/base-command-manager/manuals/11/admin-manual.pdf
 - Chapter 11: Monitoring: Job Monitoring 
 - Chapter 12: Monitoring: Job Accounting
+
+Source title to use: NVIDIA GPU Cloud Documentation, https://docs.nvidia.com/ngc/latest/index.html
+- NGC User Guide, https://docs.nvidia.com/ngc/latest/ngc-user-guide.html
 
 
 Please generate a comprehensive quiz based only on the uploaded sources using the following requirements:
@@ -40,7 +40,7 @@ Please generate a comprehensive quiz based only on the uploaded sources using th
     - Ensure the questions cover a wide range of topics across the entirety of the provided documents.
 - Structure: For each question, provide in YAML format:
     - ID: A unique numerical ID (e.g., 1, 2, 3).
-    - Area: The area should always be "Administration"
+    - Area: The area should always be "Workload management"
     - Question: A clear, concise question based on the text.
     - Type: "single_choice"
     - Options: Four possible answers (A, B, C, D), with only one being correct.
@@ -52,8 +52,8 @@ Please generate a comprehensive quiz based only on the uploaded sources using th
 - Formatting: Use YAML, clear and structured. Here is an example: 
 
     - id: 1
-      area: "Administration"    
-      question: "You are sizing a cluster for training large language models using NVIDIA GPUs. Which factor is most critical for minimizing training time in multi-node distributed training?"
+      area: "Workload management"    
+      question: "You are sizing a cluster for training large language models using NVIDIA GPUs. Which factor is ...?"
       type: "single_choice"
       options:
         A: "CPU core count per node"
@@ -64,12 +64,14 @@ Please generate a comprehensive quiz based only on the uploaded sources using th
       source_reference: "BCM User Manual"
       source_chapter: "Workload management"
       source_pages: "80,81"      
-      explanation: "In multi-node distributed training, inter-node network bandwidth and latency are often the primary bottlenecks, because large tensors and gradients must be exchanged between GPUs in different servers. High-speed interconnects such as InfiniBand or RoCE are critical."
+      explanation: "In multi-node distributed training, inter-node network bandwidth and latency...."
 
 - Focus: place focus on these topics:
 
-    - Administer Slurm cluster.
-    - Describe data center architecture for AI Workloads
-    - Administer Run:ai
-    - Administer Kubernetes
-    - Configure MIG
+    - Deploy inference workloads with Kubernetes
+    - Deploy inference workloads with Run:ai
+    - Deploy training workloads with Slurm
+    - Deploy training workloads with Run:ai
+    - Use system management tools to troubleshoot issues
+    - Allocate resources between teams with Run:ai, Slurm and Kubernetes
+    - Deploy containers from NGC

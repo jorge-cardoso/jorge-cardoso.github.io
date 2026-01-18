@@ -48,14 +48,13 @@ Found this Knowledge Check helpful?
       
   </div>
 
-
-  {% assign exam_questions = site.data.aioperations_quiz.exam.questions %}
-  {% assign grouped_questions = exam_questions | group_by: "domain" %}
+  {% assign quiz_files = "inst_deploy,administration,workload_management,troubleshooting_optimization" | split: "," %}
 
   <div class="tab">
-    {% for group in grouped_questions %}
+    {% for file_name in quiz_files %}
+      {% assign quiz_data = site.data[file_name] %}
       <button class="tablinks {% if forloop.first %}active{% endif %}" onclick="openDomain(event, 'domain-{{ forloop.index }}')">
-        {{ group.name }} 
+        {{ quiz_data[0].area }} 
         <span class="tab-score" id="tab-score-{{ forloop.index }}" style="font-size: 0.8em; color: #c20000; font-weight: bold; margin-left: 5px;">(0/0)</span>
       </button>
     {% endfor %}
@@ -63,42 +62,60 @@ Found this Knowledge Check helpful?
 
   <div id="quiz-container">
     <div id="exam">
-      {% for group in grouped_questions %}
+      {% for file_name in quiz_files %}
+        {% assign questions = site.data[file_name] %}
         <div id="domain-{{ forloop.index }}" class="tabcontent" style="{% if forloop.first %}display: block;{% else %}display: none;{% endif %}">
           <table class="domain-table">
             <tbody>
-              {% for q in group.items %}
-                <tr id="question-{{ q.id }}">
-                  <td>
-                    <div class="question-block">
-                      <div class="question">{{ q.id }}. {{ q.text }}</div>
-                      <form class="question-form" data-question-id="{{ q.id }}">
-                        {% for key in q.options %}
-                          {% assign opt_key = key[0] %}
-                          {% assign opt_text = key[1] %}
-                          <label>
-                            <input type="radio" name="q{{ q.id }}" value="{{ opt_key }}">
-                            <span style="font-weight: normal;">{{ opt_key }}. {{ opt_text }}</span>
-                          </label>
-                        {% endfor %}
-                      </form>
-                      <button class="check-answer-btn" data-question-id="{{ q.id }}">Check answer</button>
+                
+                {% for q in questions %}
 
-                      <div class="answer-explanation" id="explanation-{{ q.id }}" 
-                          style="margin-top: 10px; display: none; padding: 10px; background: #f9f9f9; border-left: 4px solid transparent; border-right: 4px solid transparent;">
-                        <strong id="status-{{ q.id }}"></strong> 
-                        <strong id="label-{{ q.id }}">Explanation:</strong> {{ q.explanation }}
+                  {% assign unique_id = file_name | append: '-' | append: q.id %}
+                  
+                  <tr id="question-{{ unique_id }}">
+                    <td>
+
+                      <div class="question-block">
+                        <div class="question">{{ q.id }}. {{ q.question | escape }}</div>
+                        
+                        <form class="question-form" data-question-id="{{ unique_id }}">
+
+                          {% for opt in q.options %}
+                            {% assign opt_key = opt[0] %}
+                            {% assign opt_text = opt[1] %}
+                             
+                            <label>
+                              <input type="radio" name="radio-{{ unique_id }}" value="{{ opt_key }}">
+                              <span style="font-weight: normal;"> {{ opt_key }}. {{ opt_text | escape }} </span>
+                            </label>
+                          {% endfor %}
+                        
+                        </form>
+
+                        <button class="check-answer-btn" data-question-id="{{ unique_id }}">Check answer</button>
+
+                        <div class="answer-explanation" id="explanation-{{ unique_id }}" 
+                            style="margin-top: 10px; display: none; padding: 10px; background: #f9f9f9; border-left: 4px solid transparent; border-right: 4px solid transparent;">
+                          <strong id="status-{{ unique_id }}"></strong> 
+                          <strong id="label-{{ unique_id }}">Explanation:</strong> {{ q.explanation | escape }}
+                          <br><small>Source: {{ q.source_reference }} (Ch. {{ q.source_chapter }}, p. {{ q.source_pages }})</small>
+                        </div>
+
+                        <span class="correct-answer" id="correct-{{ unique_id }}" data-correct="{{ q.correct_answer }}" style="display: none;"></span>
+                      
                       </div>
+                    </td>
+                  </tr>
 
-                      <span class="correct-answer" id="correct-{{ q.id }}" data-correct="{{ q.correct_answer }}" style="display: none;"></span>
-                    </div>
-                  </td>
-                </tr>
-              {% endfor %}
+                {% endfor %}
+
             </tbody>
           </table>
+          
         </div>
+
       {% endfor %}
+
     </div>
   </div>
 </div>
@@ -122,6 +139,7 @@ Below is a curated list of official documentation and resources to help you mast
 
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script>
 const STORAGE_KEY = 'ncp_aio_quiz_save';
 
@@ -137,10 +155,9 @@ function openDomain(evt, domainId) {
 
 function calculateScore() {
   const domainSections = document.querySelectorAll('.tabcontent');
-  const totalScoreEl = document.getElementById('total-score');
   
   let grandTotalCorrect = 0;
-  let grandTotalQuestions = 120;
+  let grandTotalQuestions = 0;
 
   domainSections.forEach((section, index) => {
     const domainIndex = index + 1;
@@ -148,14 +165,15 @@ function calculateScore() {
     const questions = section.querySelectorAll('.question-block');
     let domainCorrect = 0;
     let domainTotal = questions.length;
+    grandTotalQuestions += domainTotal;
 
     questions.forEach(block => {
       const qid = block.querySelector('.question-form').getAttribute('data-question-id');
       const selected = block.querySelector('input[type="radio"]:checked');
-      const correctKey = document.getElementById('correct-' + qid).getAttribute('data-correct');
+      const correctKey = document.getElementById('correct-' + qid).getAttribute('data-correct');      
       const explanationVisible = document.getElementById('explanation-' + qid).style.display === 'block';
 
-      if (explanationVisible && selected && selected.value === correctKey) { 
+      if (selected && selected.value === correctKey) { 
         domainCorrect++; 
       }
     });
@@ -361,4 +379,4 @@ document.getElementById('download-questions-pdf').addEventListener('click', func
 
 
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+

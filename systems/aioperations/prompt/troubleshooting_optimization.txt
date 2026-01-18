@@ -1,7 +1,9 @@
-Source title to use: BCM11 User Manual, https://docs.nvidia.com/base-command-manager/manuals/11/user-manual.pdf
-- Chapter 4: Workload management
-- Chapter 5: Slurm
-- Chapter 8: Kubernetes
+Source links:
+https://docs.nvidia.com/base-command-manager/manuals/11/admin-manual.pdf
+https://docs.nvidia.com/datacenter/tesla/fabric-manager-user-guide/index.html
+https://docs.nvidia.com/ngc/latest/index.html
+https://docs.nvidia.com/gpudirect-storage/troubleshooting-guide/index.html
+
 
 Source title to use: BCM11 Administration Manual, https://docs.nvidia.com/base-command-manager/manuals/11/admin-manual.pdf
 - Chapter 2: Cluster management with NVIDIA Base Command Manager
@@ -16,14 +18,25 @@ Source title to use: BCM11 Administration Manual, https://docs.nvidia.com/base-c
 - Chapter 14: Day-to-day administration
 - Chapter 15: High Availability
 
+Source title to use: NVIDIA Fabric Manager, https://docs.nvidia.com/datacenter/tesla/fabric-manager-user-guide/index.html
+- Resiliency, https://docs.nvidia.com/datacenter/tesla/fabric-manager-user-guide/index.html#resiliency
+- Error Handling, https://docs.nvidia.com/datacenter/tesla/fabric-manager-user-guide/index.html#id33
+
+Source title to use: NVIDIA GPU Cloud Documentation, https://docs.nvidia.com/ngc/latest/index.html
+- NGC User Guide, https://docs.nvidia.com/ngc/latest/ngc-user-guide.html
+
+Source title to use: NVIDIA Magnum IO Developer Environment, https://catalog.ngc.nvidia.com/orgs/nvidia/teams/magnum-io/containers/magnum-io?version=21.07
+- GPUDirect Storage Installation and Troubleshooting Guide, https://docs.nvidia.com/gpudirect-storage/troubleshooting-guide/index.html
+
+
 
 Please generate a comprehensive quiz based only on the uploaded sources using the following requirements:
 
-- Quantity: Create exactly 40 questions.
+- Quantity: Create exactly 30 questions.
     - Ensure the questions cover a wide range of topics across the entirety of the provided documents.
 - Structure: For each question, provide in YAML format:
     - ID: A unique numerical ID (e.g., 1, 2, 3).
-    - Area: The area should always be "Installation and Deployment"
+    - Area: The area should always be "Troubleshooting and Optimization"
     - Question: A clear, concise question based on the text.
     - Type: "single_choice"
     - Options: Four possible answers (A, B, C, D), with only one being correct.
@@ -35,7 +48,7 @@ Please generate a comprehensive quiz based only on the uploaded sources using th
 - Formatting: Use YAML, clear and structured. Here is an example: 
 
     - id: 1
-      area: "Installation and Deployment"    
+      area: "Workload management"    
       question: "You are sizing a cluster for training large language models using NVIDIA GPUs. Which factor is most critical for minimizing training time in multi-node distributed training?"
       type: "single_choice"
       options:
@@ -51,16 +64,9 @@ Please generate a comprehensive quiz based only on the uploaded sources using th
 
 - Focus: place focus on these topics:
 
-    - Describe the Mission Control toolkit
-    - Use BCM’s Base View interface to monitor cluster performance, resource utilization, and node health in real time.
-    - Manage job scheduling and resource allocation using BCM’s workload manager (e.g., SLURM or Kubernetes)
-    - Apply patches, update firmware, and synchronize software images across cluster nodes using BCM
-    - Administer user accounts, roles, and permissions to ensure secure access to the cluster using BCM
-    - Configure and monitor network settings for cluster nodes, DPUs, and switches using BCM
-    - Diagnose and resolve cluster issues, such as job failures, node outages, or resource bottlenecks, using BCM.
-    - Use BCM to organize and configure compute nodes into categories based on hardware or workload requirements.
-    - Using BCM, maintain documentation and generate reports on cluster usage, performance, and issues.
-    - Install and initialize Kubernetes on NVIDIA hosts using BCM
-    - Deploy DOCA Services on DPU Arm
-    - Install Run:ai
-    - Install Slurm
+    - Troubleshoot Docker
+    - Troubleshoot the fabric manager service for NVLink and NVSwitch systems
+    - Troubleshoot Base Command Manager
+    - Troubleshoot Magnum IO components
+    - Troubleshoot storage performance
+    - Troubleshoot the deployment of a container from NGC

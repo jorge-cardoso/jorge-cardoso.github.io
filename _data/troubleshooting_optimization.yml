@@ -1,0 +1,449 @@
+- id: 1
+  area: "Troubleshooting and Optimization"
+  question: "When troubleshooting BCM issues, which diagnostic utility should be run from the head node to gather data for support?"
+  type: "single_choice"
+  options:
+    A: "cmsh -v"
+    B: "cm-diagnose"
+    C: "nvsm health"
+    D: "gdscheck.py"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Day-to-day administration"
+  source_pages: "721"
+  explanation: "The diagnostic utility cm-diagnose gathers comprehensive cluster data to help resolve issues and is the standard tool for reporting diagnostics to support."
+
+- id: 2
+  area: "Troubleshooting and Optimization"
+  question: "What is the required recovery procedure for a fatal SXid error on an NVSwitch port connecting two GPU baseboards?"
+  type: "single_choice"
+  options:
+    A: "Restart the Fabric Manager service only"
+    B: "Reboot the guest VM"
+    C: "Reset all GPUs and NVSwitches using nvidia-smi -r"
+    D: "Update the NVIDIA driver version"
+  correct_answer: "C"
+  source_reference: "NVIDIA Fabric Manager"
+  source_chapter: "Error Handling"
+  source_pages: "N/A"
+  explanation: "When a fatal SXid error occurs on a trunk port connecting baseboards, the administrator must stop FM and reset all GPUs and NVSwitches to clear the error state."
+
+- id: 3
+  area: "Troubleshooting and Optimization"
+  question: "When pulling a container from the NGC Container Registry via Docker CLI, what credentials are used for the 'docker login' command?"
+  type: "single_choice"
+  options:
+    A: "Username: $oauthtoken; Password: <NGC API Key>"
+    B: "Username: <email>; Password: <NGC account password>"
+    C: "Username: admin; Password: <Service API Key>"
+    D: "Username: nvidian; Password: <Personal API Key>"
+  correct_answer: "A"
+  source_reference: "NVIDIA GPU Cloud Documentation"
+  source_chapter: "NGC User Guide"
+  source_pages: "N/A"
+  explanation: "To pull NGC containers, users must log in to nvcr.io using '$oauthtoken' as the username and their personal NGC API Key as the password."
+
+- id: 4
+  area: "Troubleshooting and Optimization"
+  question: "What is the recommended PCIe setting to achieve the best GPUDirect Storage (GDS) performance?"
+  type: "single_choice"
+  options:
+    A: "Enable PCIe ACS"
+    B: "Disable PCIe ACS"
+    C: "Disable Static BAR1"
+    D: "Enable IOMMU"
+  correct_answer: "B"
+  source_reference: "NVIDIA Magnum IO Developer Environment"
+  source_chapter: "GPUDirect Storage Installation and Troubleshooting Guide"
+  source_pages: "N/A"
+  explanation: "For optimal performance with GPUDirect Storage, it is recommended to disable PCIe ACS (Access Control Services) on PCI switches."
+
+- id: 5
+  area: "Troubleshooting and Optimization"
+  question: "If a BCM node fails to start its network during the ramdisk stage, what is the most likely troubleshooting step?"
+  type: "single_choice"
+  options:
+    A: "Update the head node BIOS"
+    B: "Disable the firewall on the head node"
+    C: "Add the correct network kernel module to the software image"
+    D: "Change the node's IP address"
+  correct_answer: "C"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Node Provisioning"
+  source_pages: "306"
+  explanation: "If the ramdisk cannot start the network, it is often because the required kernel module (e.g., e1000) is missing from the software image's kernel module configuration."
+
+- id: 6
+  area: "Troubleshooting and Optimization"
+  question: "Which environment variable in enroot.conf should be increased if a large Docker container image fails to download to compute nodes in a Slurm environment?"
+  type: "single_choice"
+  options:
+    A: "ENROOT_IMAGE_SIZE"
+    B: "PYXIS_DOWNLOAD_LIMIT"
+    C: "ENROOT_TRANSFER_TIMEOUT"
+    D: "CMD_IMAGE_TIMEOUT"
+  correct_answer: "C"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Workload management"
+  source_pages: "358"
+  explanation: "For large container images, the ENROOT_TRANSFER_TIMEOUT must be increased (to at least 600s) to allow sufficient time for downloading to compute nodes."
+
+- id: 7
+  area: "Troubleshooting and Optimization"
+  question: "What must be verified if a 'CUDA_ERROR_SYSTEM_NOT_READY' error occurs on an NVSwitch system after installation?"
+  type: "single_choice"
+  options:
+    A: "Verify that IOMMU is enabled"
+    B: "Ensure Fabric Manager and the CUDA driver are the same version"
+    C: "Check if the head node is in active mode"
+    D: "Verify that Docker is running"
+  correct_answer: "B"
+  source_reference: "NVIDIA Magnum IO Developer Environment"
+  source_chapter: "GPUDirect Storage Installation and Troubleshooting Guide"
+  source_pages: "N/A"
+  explanation: "On NVSwitch systems, reporting 'CUDA_ERROR_SYSTEM_NOT_READY' often indicates a version mismatch between the Fabric Manager and the installed CUDA driver."
+
+- id: 8
+  area: "Troubleshooting and Optimization"
+  question: "For WekaFS, which JSON property in 'cufile.json' must be enabled to support RDMA-based writes?"
+  type: "single_choice"
+  options:
+    A: "fs:weka:gds_write_support"
+    B: "properties:weka_rdma_enabled"
+    C: "fs:weka:rdma_write_support"
+    D: "execution:weka_parallel_io"
+  correct_answer: "C"
+  source_reference: "NVIDIA Magnum IO Developer Environment"
+  source_chapter: "GPUDirect Storage Installation and Troubleshooting Guide"
+  source_pages: "N/A"
+  explanation: "RDMA-based writes for WekaFS are disabled by default and must be explicitly enabled via the fs:weka:rdma_write_support property in cufile.json."
+
+- id: 9
+  area: "Troubleshooting and Optimization"
+  question: "Which BCM parameter ensures that a failed service being monitored by CMDaemon is automatically restarted?"
+  type: "single_choice"
+  options:
+    A: "autoreload"
+    B: "monitored"
+    C: "autostart"
+    D: "managed"
+  correct_answer: "C"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Configuring the Cluster"
+  source_pages: "173"
+  explanation: "The autostart parameter in BCM restarts a failed service that is being monitored, provided the service was not manually stopped via BCM tools."
+
+- id: 10
+  area: "Troubleshooting and Optimization"
+  question: "To support NVMe using Linux PCI P2PDMA on Ubuntu distributions for GDS, what is the minimum required kernel version?"
+  type: "single_choice"
+  options:
+    A: "5.4"
+    B: "6.2"
+    C: "4.15"
+    D: "5.17"
+  correct_answer: "B"
+  source_reference: "NVIDIA Magnum IO Developer Environment"
+  source_chapter: "GPUDirect Storage Installation and Troubleshooting Guide"
+  source_pages: "N/A"
+  explanation: "Checking for NVMe support using Linux PCI P2PDMA requires a Linux kernel version of 6.2 or above on Ubuntu distributions."
+
+- id: 11
+  area: "Troubleshooting and Optimization"
+  question: "Why does BCM High Availability (HA) not trigger an automatic failover if the power cable is pulled out of the active head node?"
+  type: "single_choice"
+  options:
+    A: "The passive node cannot detect a power loss"
+    B: "It is considered a graceful shutdown"
+    C: "The BMC becomes unreachable, making head node termination status uncertain"
+    D: "Failover only works for software crashes"
+  correct_answer: "C"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "High Availability"
+  source_pages: "785"
+  explanation: "Automatic failover requires verifying that the active head is terminated. If the power cable is pulled, the BMC also turns off, making the termination uncertain as it could be a simple network failure."
+
+- id: 12
+  area: "Troubleshooting and Optimization"
+  question: "On DGX A100 systems, what is the impact on NVLink peer-to-peer (P2P) capability when Multi-Instance GPU (MIG) mode is enabled?"
+  type: "single_choice"
+  options:
+    A: "P2P capability is increased"
+    B: "P2P capability is lost and NVLinks are trained off"
+    C: "NVLinks stay active and P2P is maintained"
+    D: "NVLinks are restricted to 5/6 bandwidth"
+  correct_answer: "B"
+  source_reference: "NVIDIA Fabric Manager"
+  source_chapter: "Resiliency"
+  source_pages: "N/A"
+  explanation: "On DGX A100 systems, enabling MIG mode causes GPU and NVSwitch NVLinks to be trained off, resulting in the loss of P2P capability."
+
+- id: 13
+  area: "Troubleshooting and Optimization"
+  question: "Which error code is returned if 'cuFileBufRegister' is called before the 'cuFileDriverOpen' API?"
+  type: "single_choice"
+  options:
+    A: "CU_FILE_IO_NOT_SUPPORTED"
+    B: "CU_FILE_DEVICE_NOT_SUPPORTED"
+    C: "CU_FILE_DRIVER_NOT_INITIALIZED"
+    D: "CUDA_ERROR_SYSTEM_NOT_READY"
+  correct_answer: "C"
+  source_reference: "NVIDIA Magnum IO Developer Environment"
+  source_chapter: "GPUDirect Storage Installation and Troubleshooting Guide"
+  source_pages: "N/A"
+  explanation: "If the cuFile driver is not explicitly initialized via cuFileDriverOpen, API calls like cuFileBufRegister will report a CU_FILE_DRIVER_NOT_INITIALIZED error."
+
+- id: 14
+  area: "Troubleshooting and Optimization"
+  question: "What is the only RAID level currently supported by GPUDirect Storage (GDS) for NVMe devices using 'nvidia-fs'?"
+  type: "single_choice"
+  options:
+    A: "RAID 1"
+    B: "RAID 5"
+    C: "RAID 10"
+    D: "RAID 0"
+  correct_answer: "D"
+  source_reference: "NVIDIA Magnum IO Developer Environment"
+  source_chapter: "GPUDirect Storage Installation and Troubleshooting Guide"
+  source_pages: "N/A"
+  explanation: "Currently, GPUDirect Storage only supports RAID 0 for NVMe-based configurations using the standard nvidia-fs driver path."
+
+- id: 15
+  area: "Troubleshooting and Optimization"
+  question: "Which tool is used to verify the signature of an NVIDIA-signed container image in a Kubernetes cluster?"
+  type: "single_choice"
+  options:
+    A: "Docker Inspect"
+    B: "Cosign"
+    C: "NGC Registry CLI"
+    D: "Kyverno"
+  correct_answer: "B"
+  source_reference: "NVIDIA GPU Cloud Documentation"
+  source_chapter: "NGC User Guide"
+  source_pages: "N/A"
+  explanation: "NVIDIA signed container images in the NGC Catalog can be verified using the Cosign tool."
+
+- id: 16
+  area: "Troubleshooting and Optimization"
+  question: "Which BCM tool or command allows an administrator to sequentialy assign node names to new physical MAC addresses as they are detected?"
+  type: "single_choice"
+  options:
+    A: "cmsh device clone"
+    B: "newnodes command in cmsh"
+    C: "cm-diagnose"
+    D: "node-installer-setup"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Node Provisioning"
+  source_pages: "259"
+  explanation: "The newnodes command in cmsh's device mode is used to assign names to newly detected MAC addresses in the order they were powered up."
+
+- id: 17
+  area: "Troubleshooting and Optimization"
+  question: "How can GDS Driver debugging logs be enabled on a running system?"
+  type: "single_choice"
+  options:
+    A: "Set 'logging:level' to 'DEBUG' in cufile.json"
+    B: "echo 1 > /sys/module/nvidia_fs/parameters/dbg_enabled"
+    C: "Run gdscheck.py -d"
+    D: "systemctl start gds-debug"
+  correct_answer: "B"
+  source_reference: "NVIDIA Magnum IO Developer Environment"
+  source_chapter: "GPUDirect Storage Installation and Troubleshooting Guide"
+  source_pages: "N/A"
+  explanation: "Administrator can enable GDS Driver-level debugging by writing '1' to the dbg_enabled parameter of the nvidia_fs module."
+
+- id: 21
+  area: "Troubleshooting and Optimization"
+  question: "Which GDS utility is designed to test the data integrity of reads and writes?"
+  type: "single_choice"
+  options:
+    A: "gdsio"
+    B: "gdscheck.py"
+    C: "gdsio_verify"
+    D: "nvidia-smi"
+  correct_answer: "C"
+  source_reference: "NVIDIA Magnum IO Developer Environment"
+  source_chapter: "GPUDirect Storage Installation and Troubleshooting Guide"
+  source_pages: "N/A"
+  explanation: "GDS has an internal data verification utility, gdsio_verify (also called gds_verify), used to test the integrity of data transfers."
+
+- id: 18
+  area: "Troubleshooting and Optimization"
+  question: "On systems with fourth-generation NVSwitches (e.g., B200), which service is responsible for discovering the NVLink topology and programming forwarding tables?"
+  type: "single_choice"
+  options:
+    A: "NVIDIA Fabric Manager (FM)"
+    B: "CMDaemon"
+    C: "NVLink Subnet Manager (NVLSM)"
+    D: "DCGM"
+  correct_answer: "C"
+  source_reference: "NVIDIA Fabric Manager"
+  source_chapter: "NVSwitch Core Software Stack"
+  source_pages: "N/A"
+  explanation: "For fourth-generation switches, the NVLSM service discovers the network topology and programs the switch forwarding tables, while FM handles GPU routing and partitions."
+
+- id: 19
+  area: "Troubleshooting and Optimization"
+  question: "What is the default delay between successive device power operations in BCM to prevent power surges?"
+  type: "single_choice"
+  options:
+    A: "10 seconds"
+    B: "5 seconds"
+    C: "1 second"
+    D: "0.5 seconds"
+  correct_answer: "C"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Power management"
+  source_pages: "225"
+  explanation: "When power operations are carried out on multiple devices, CMDaemon ensures a default 1-second delay between them to avoid infrastructure power surges."
+
+- id: 20
+  area: "Troubleshooting and Optimization"
+  question: "In an enterprise environment, what is the primary security benefit of the NGC Private Registry?"
+  type: "single_choice"
+  options:
+    A: "It disables the need for API keys"
+    B: "It allows sharing proprietary models and containers securely within an organization"
+    C: "It provides free access to all NVIDIA software"
+    D: "It eliminates the need for Docker"
+  correct_answer: "B"
+  source_reference: "NVIDIA GPU Cloud Documentation"
+  source_chapter: "NGC Private Registry User Guide"
+  source_pages: "N/A"
+  explanation: "The NGC Private Registry provides a secure space for enterprise collaboration and the sharing of proprietary artifacts."
+
+- id: 22
+  area: "Troubleshooting and Optimization"
+  question: "In BCM monitoring, which component allows an administrator to define a conditional action that is triggered when a measurable threshold is met?"
+  type: "single_choice"
+  options:
+    A: "Measurables"
+    B: "Data Producers"
+    C: "Triggers"
+    D: "Consolidators"
+  correct_answer: "C"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Monitoring: Monitoring cluster devices"
+  source_pages: "602"
+  explanation: "Triggers are used in BCM monitoring to evaluate measurables and execute actions based on defined conditions."
+
+- id: 23
+  area: "Troubleshooting and Optimization"
+  question: "What happens to existing NVLink traffic on active guest VMs in a Shared NVSwitch model if the Fabric Manager service crashes or exits?"
+  type: "single_choice"
+  options:
+    A: "All traffic is immediately aborted"
+    B: "The GPUs are reset automatically"
+    C: "Forwarding of NVLink traffic continues non-stop"
+    D: "The guest VMs are shut down"
+  correct_answer: "C"
+  source_reference: "NVIDIA Fabric Manager"
+  source_chapter: "Resiliency"
+  source_pages: "N/A"
+  explanation: "The FM resiliency feature allows currently activated guest VMs to continue forwarding NVLink traffic even if FM is not running."
+
+- id: 24
+  area: "Troubleshooting and Optimization"
+  question: "What is a common cause for the ramdisk to fail during loading after a software image has been updated via a package manager?"
+  type: "single_choice"
+  options:
+    A: "The package manager deleted the ramdisk"
+    B: "The ramdisk was not regenerated to include the update's changes"
+    C: "The head node's IP changed"
+    D: "The node's BIOS is incompatible with the update"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Node Provisioning"
+  source_pages: "305"
+  explanation: "If a software update modifies the kernel or ramdisk requirements, the ramdisk must be manually regenerated using 'createramdisk' or the boot process may fail."
+
+- id: 25
+  area: "Troubleshooting and Optimization"
+  question: "On x86_64 platforms, what must be checked regarding IOMMU status before installing GDS?"
+  type: "single_choice"
+  options:
+    A: "It must be enabled"
+    B: "It must be set to 'passthrough'"
+    C: "It should be disabled"
+    D: "The version must be 2.0 or higher"
+  correct_answer: "C"
+  source_reference: "NVIDIA Magnum IO Developer Environment"
+  source_chapter: "GPUDirect Storage Installation and Troubleshooting Guide"
+  source_pages: "N/A"
+  explanation: "Before installing GDS on a non-DGX x86_64 platform, IOMMU status should be checked and disabled if it is currently enabled."
+
+- id: 26
+  area: "Troubleshooting and Optimization"
+  question: "Which Slurm command can be used to validate the Pyxis and Enroot container setup?"
+  type: "single_choice"
+  options:
+    A: "sbatch --docker-image=ubuntu"
+    B: "srun --container-image=ubuntu <command>"
+    C: "enroot import docker://ubuntu"
+    D: "scontrol show pyxis"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Workload management"
+  source_pages: "357"
+  explanation: "The simplest way to validate the setup is to use 'srun' with the '--container-image' flag to import and run a command inside a container."
+
+- id: 27
+  area: "Troubleshooting and Optimization"
+  question: "On an H100 system, what is the recovery step for an NVSwitch 'LTSSM Fault Up' (SXid 20034) interrupt?"
+  type: "single_choice"
+  options:
+    A: "Restart the Fabric Manager service"
+    B: "Reset the affected GPU"
+    C: "Reboot the head node"
+    D: "Inspect the backplane connector"
+  correct_answer: "B"
+  source_reference: "NVIDIA Fabric Manager"
+  source_chapter: "Error Handling"
+  source_pages: "N/A"
+  explanation: "In an H100 system, a LTSSM Fault Up interrupt (SXid 20034) requires a GPU reset to recover."
+
+- id: 28
+  area: "Troubleshooting and Optimization"
+  question: "Which environment variable forces GDS I/O to go through compatibility mode regardless of JSON settings?"
+  type: "single_choice"
+  options:
+    A: "GDS_FORCE_COMPAT"
+    B: "CUFILE_ALLOW_COMPAT_MODE"
+    C: "CUFILE_FORCE_COMPAT_MODE"
+    D: "NVIDIA_FS_COMPAT"
+  correct_answer: "C"
+  source_reference: "NVIDIA Magnum IO Developer Environment"
+  source_chapter: "GPUDirect Storage Installation and Troubleshooting Guide"
+  source_pages: "N/A"
+  explanation: "Setting CUFILE_FORCE_COMPAT_MODE to true overrides cufile.json settings and forces I/O through compatible mode."
+
+- id: 29
+  area: "Troubleshooting and Optimization"
+  question: "Which 'cmsh' command lists the CMDaemon version hash running on all nodes?"
+  type: "single_choice"
+  options:
+    A: "device cmdaemonversions"
+    B: "main version"
+    C: "monitoring status"
+    D: "device softwareinfo"
+  correct_answer: "A"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Cluster management with NVIDIA Base Command Manager"
+  source_pages: "82"
+  explanation: "The 'cmdaemonversions' command in device mode lists the version index and version hash of CMDaemon for nodes in the cluster."
+
+- id: 30
+  area: "Troubleshooting and Optimization"
+  question: "If an administrator cannot use the NGC Catalog UI, how can they find NVIDIA's public key for signature verification?"
+  type: "single_choice"
+  options:
+    A: "Check /etc/nvidia/public.key"
+    B: "Use the NGC CLI"
+    C: "Query the Docker hub"
+    D: "Contact NVIDIA support only"
+  correct_answer: "B"
+  source_reference: "NVIDIA GPU Cloud Documentation"
+  source_chapter: "NGC User Guide"
+  source_pages: "N/A"
+  explanation: "NVIDIA's public key for signature verification can be found using either the NGC Catalog UI or the NGC CLI."

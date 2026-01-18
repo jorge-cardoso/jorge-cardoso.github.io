@@ -1,0 +1,449 @@
+- id: 1
+  area: "Workload management"
+  question: "Which Slurm command is used to submit a job script for later execution, returning immediately and placing the job in the queue?"
+  type: "single_choice"
+  options:
+    A: "srun"
+    B: "salloc"
+    C: "sbatch"
+    D: "scontrol"
+  correct_answer: "C"
+  source_reference: "NVIDIA DGX SuperPOD: Administration Guide"
+  source_chapter: "Managing Slurm"
+  source_pages: "N/A"
+  explanation: "The sbatch command is used to submit a batch job script to the cluster. Unlike srun, it returns immediately once the job is queued."
+
+- id: 2
+  area: "Workload management"
+  question: "In NVIDIA Run:ai, which native workload type is specifically designed for deploying models for real-time or batch predictions with a focus on low latency?"
+  type: "single_choice"
+  options:
+    A: "Workspaces"
+    B: "Training"
+    C: "Inference"
+    D: "Data Preparation"
+  correct_answer: "C"
+  source_reference: "NVIDIA Run:ai Documentation"
+  source_chapter: "Workloads in NVIDIA Run:ai"
+  source_pages: "N/A"
+  explanation: "Inference workloads in Run:ai are dedicated to deploying models for predictions, focusing on high throughput and low latency."
+
+- id: 3
+  area: "Workload management"
+  question: "When logging into the NVIDIA NGC Container Registry (nvcr.io) via the Docker CLI using an API key, what must be entered as the username?"
+  type: "single_choice"
+  options:
+    A: "The user's email address"
+    B: "'$oauthtoken'"
+    C: "The NGC Organization name"
+    D: "'$apikey'"
+  correct_answer: "B"
+  source_reference: "NVIDIA GPU Cloud Documentation"
+  source_chapter: "NGC User Guide"
+  source_pages: "N/A"
+  explanation: "The special username '$oauthtoken' (exactly as shown) indicates to the Docker CLI that an API key is being used for authentication."
+
+- id: 4
+  area: "Workload management"
+  question: "According to the BCM11 User Manual, what is the default naming convention for the sandbox namespace created for a Kubernetes user named 'alice'?"
+  type: "single_choice"
+  options:
+    A: "alice-default"
+    B: "alice-sandbox"
+    C: "alice-restricted"
+    D: "k8s-alice"
+  correct_answer: "C"
+  source_reference: "BCM11 User Manual"
+  source_chapter: "Chapter 8: Kubernetes"
+  source_pages: "63, 64"
+  explanation: "BCM versions 9.0 and later automatically generate a dedicated namespace for users in the format <user>-restricted."
+
+- id: 5
+  area: "Workload management"
+  question: "Which cgroup controller is used by NVIDIA Base Command Manager 11 to provide memory usage metrics for monitored jobs?"
+  type: "single_choice"
+  options:
+    A: "blkio"
+    B: "cpuacct"
+    C: "memory"
+    D: "pids"
+  correct_answer: "C"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Chapter 11: Monitoring: Job Monitoring"
+  source_pages: "665"
+  explanation: "BCM 11 utilizes the 'memory' cgroup controller to collect metrics related to job memory consumption."
+
+- id: 6
+  area: "Workload management"
+  question: "During the interactive installation of Kubernetes using the cm-kubernetes-setup tool, which StorageClass is specifically recommended in the documentation?"
+  type: "single_choice"
+  options:
+    A: "NFS path"
+    B: "Local path"
+    C: "CephFS"
+    D: "Cloud-native"
+  correct_answer: "B"
+  source_reference: "NVIDIA Mission Control Software Installation Guide"
+  source_chapter: "Kubernetes Installation"
+  source_pages: "N/A"
+  explanation: "The installation steps for Mission Control require selecting 'Local path' as the StorageClass during the TUI setup."
+
+- id: 7
+  area: "Workload management"
+  question: "In Slurm, what does a node state of 'CG' (Completing) indicate, and which tool is used to troubleshoot if it remains stuck?"
+  type: "single_choice"
+  options:
+    A: "The node is running a job; use sinfo"
+    B: "The node is finishing a job; use scontrol"
+    C: "The node is booting; use squeue"
+    D: "The node is offline; use sbatch"
+  correct_answer: "B"
+  source_reference: "BCM11 User Manual"
+  source_chapter: "Chapter 5: Slurm"
+  source_pages: "116"
+  explanation: "CG means the job is finishing. If stuck, the administrator can use scontrol to update the node state and resume it."
+
+- id: 8
+  area: "Workload management"
+  question: "Which NVIDIA Run:ai platform component is responsible for prioritizing workloads across departments based on resource distribution set by the administrator?"
+  type: "single_choice"
+  options:
+    A: "Resource Interface"
+    B: "Run:ai Scheduler"
+    C: "Platform Management Console"
+    D: "Workload Manager"
+  correct_answer: "B"
+  source_reference: "NVIDIA Run:ai Documentation"
+  source_chapter: "Workloads in NVIDIA Run:ai"
+  source_pages: "N/A"
+  explanation: "The NVIDIA Run:ai Scheduler optimizes resource usage and allows prioritization across departments and projects."
+
+- id: 9
+  area: "Workload management"
+  question: "What is the primary function of the 'cm-cgroup-job-keepalive' process in BCM 11?"
+  type: "single_choice"
+  options:
+    A: "To prevent the node from entering sleep mode"
+    B: "To ensure metrics collection for jobs from start to finish"
+    C: "To manage user login sessions"
+    D: "To restart failed Slurm daemons"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Chapter 11: Monitoring: Job Monitoring"
+  source_pages: "668"
+  explanation: "The keepalive process tracks the job's lifecycle to ensure CMDaemon can collect metrics accurately, even after the workload manager finishes."
+
+- id: 10
+  area: "Workload management"
+  question: "Within an NGC organization, what provides members with isolated namespaces to share containers and models while maintaining separation from other teams?"
+  type: "single_choice"
+  options:
+    A: "External User Groups"
+    B: "NGC Teams"
+    C: "Private Registry Keys"
+    D: "Service API Keys"
+  correct_answer: "B"
+  source_reference: "NVIDIA GPU Cloud Documentation"
+  source_chapter: "NGC User Guide"
+  source_pages: "N/A"
+  explanation: "Teams provide isolated registry namespaces within an NGC organization to segment resources by department or project."
+
+- id: 11
+  area: "Workload management"
+  question: "Which Slurm job accounting metric in BCM represents the fraction of allocated GPUs that were unused by a job?"
+  type: "single_choice"
+  options:
+    A: "job_gpu_utilization"
+    B: "job_gpu_wasted"
+    C: "job_gpu_allocated"
+    D: "job_gpu_effective"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Chapter 12: Monitoring: Job Accounting"
+  source_pages: "686"
+  explanation: "The job_gpu_wasted metric shows what fraction of GPUs on a node were unused despite being allocated for a job."
+
+- id: 12
+  area: "Workload management"
+  question: "To run an interactive job in Slurm and request a pseudo-terminal for direct interaction, which flag must be used with the srun command?"
+  type: "single_choice"
+  options:
+    A: "-i"
+    B: "--batch"
+    C: "--pty"
+    D: "-t"
+  correct_answer: "C"
+  source_reference: "NVIDIA DGX SuperPOD: Administration Guide"
+  source_chapter: "Managing Slurm"
+  source_pages: "N/A"
+  explanation: "Interactive jobs are submitted using srun with the –pty flag to provide an interactive terminal once resources are available."
+
+- id: 13
+  area: "Workload management"
+  question: "In Run:ai, what mechanism allows administrators to manage and monitor workloads that originate from external frameworks outside the native Run:ai platform?"
+  type: "single_choice"
+  options:
+    A: "Workload Templates"
+    B: "Resource Interface (RI)"
+    C: "Native Workspaces"
+    D: "Scheduling Policies"
+  correct_answer: "B"
+  source_reference: "NVIDIA Run:ai Documentation"
+  source_chapter: "Workloads in NVIDIA Run:ai"
+  source_pages: "N/A"
+  explanation: "The Resource Interface (RI) manages workloads from any ML framework or the Kubernetes ecosystem, extending support beyond native workloads."
+
+- id: 14
+  area: "Workload management"
+  question: "When creating a Personal API Key in NGC, which of the following determines the services that can be assigned to it?"
+  type: "single_choice"
+  options:
+    A: "The user's email domain"
+    B: "The hardware architecture of the local server"
+    C: "The services enabled for the NGC organization and the user's assigned roles"
+    D: "The type of NGC subscription (Individual vs Enterprise)"
+  correct_answer: "C"
+  source_reference: "NVIDIA GPU Cloud Documentation"
+  source_chapter: "NGC User Guide"
+  source_pages: "N/A"
+  explanation: "Services for a personal key depend on the services enabled for the org and the roles granted to the user by the owner."
+
+- id: 15
+  area: "Workload management"
+  question: "Which BCM utility is used to add regular users to a Kubernetes cluster and automatically generate their restricted namespaces?"
+  type: "single_choice"
+  options:
+    A: "kubectl"
+    B: "cm-kubernetes-setup"
+    C: "cm-wlm-setup"
+    D: "cmsh"
+  correct_answer: "B"
+  source_reference: "BCM11 User Manual"
+  source_chapter: "Chapter 8: Kubernetes"
+  source_pages: "66, 67"
+  explanation: "Administrators grant regular user access by using cm-kubernetes-setup with the --add-user flag."
+
+- id: 16
+  area: "Workload management"
+  question: "What is the role of 'slurmdbd' in a Slurm cluster architecture?"
+  type: "single_choice"
+  options:
+    A: "Managing the compute node daemon"
+    B: "Scheduling work on the cluster"
+    C: "Keeping track of the job accounting database"
+    D: "Authenticating client-server requests"
+  correct_answer: "C"
+  source_reference: "NVIDIA DGX SuperPOD: Administration Guide"
+  source_chapter: "Managing Slurm"
+  source_pages: "N/A"
+  explanation: "Slurmdbd is the Slurm database daemon responsible for job accounting."
+
+- id: 17
+  area: "Workload management"
+  question: "In Run:ai, which stage of the AI initiative involves aggregating, cleaning, and labeling data for model development?"
+  type: "single_choice"
+  options:
+    A: "Training"
+    B: "Fine-tuning"
+    C: "Data preparation"
+    D: "Monitoring"
+  correct_answer: "C"
+  source_reference: "NVIDIA Run:ai Documentation"
+  source_chapter: "Workloads in NVIDIA Run:ai"
+  source_pages: "N/A"
+  explanation: "Data preparation is the stage where data is cleaned, aggregated, and normalized to prepare for training."
+
+- id: 18
+  area: "Workload management"
+  question: "According to the NGC User Guide, which role must be assigned to a user to allow them to view and pull artifacts from the NVIDIA Catalog?"
+  type: "single_choice"
+  options:
+    A: "Owner"
+    B: "Read"
+    C: "User"
+    D: "Public API Endpoints User"
+  correct_answer: "B"
+  source_reference: "NVIDIA GPU Cloud Documentation"
+  source_chapter: "NGC User Guide"
+  source_pages: "N/A"
+  explanation: "For Catalog access, Read access allows users to view artifacts under the organization’s subscription."
+
+- id: 19
+  area: "Workload management"
+  question: "When troubleshooting a Slurm job that is stuck in a 'PD' (Pending) state with the reason 'PartitionNodeLimit', what is the likely cause?"
+  type: "single_choice"
+  options:
+    A: "There are no free GPUs on the node"
+    B: "The number of nodes requested is outside the partition's current limits"
+    C: "The job script has a syntax error"
+    D: "The user has exceeded their job submission quota"
+  correct_answer: "B"
+  source_reference: "BCM11 User Manual"
+  source_chapter: "Chapter 5: Slurm"
+  source_pages: "41"
+  explanation: "PartitionNodeLimit indicates the requested node count cannot be met because it exceeds the partition's configured limits."
+
+- id: 20
+  area: "Workload management"
+  question: "Which cgroup controller in BCM 11 is responsible for providing CPU usage metrics for jobs?"
+  type: "single_choice"
+  options:
+    A: "cpuset"
+    B: "cpuacct"
+    C: "cpu.stat"
+    D: "sched"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Chapter 11: Monitoring: Job Monitoring"
+  source_pages: "665"
+  explanation: "The 'cpuacct' controller is used to gather CPU usage metrics for processes within a cgroup."
+
+- id: 21
+  area: "Workload management"
+  question: "What happens when an individual NGC organization user activates a premium cloud service subscription like NVIDIA AI Enterprise?"
+  type: "single_choice"
+  options:
+    A: "The organization is deleted and recreated"
+    B: "The organization is converted to an enterprise organization"
+    C: "The user is automatically promoted to Team Admin"
+    D: "The user's API keys are reset"
+  correct_answer: "B"
+  source_reference: "NVIDIA GPU Cloud Documentation"
+  source_chapter: "NGC User Guide"
+  source_pages: "N/A"
+  explanation: "An individual org is converted to an enterprise org upon activation of a premium subscription through the portal."
+
+- id: 22
+  area: "Workload management"
+  question: "In the BCM11 User Manual, which directive is used in a Slurm job script to specify the maximum runtime (walltime) for a job?"
+  type: "single_choice"
+  options:
+    A: "#SBATCH -J"
+    B: "#SBATCH -t"
+    C: "#SBATCH --tmp"
+    D: "#SBATCH -N"
+  correct_answer: "B"
+  source_reference: "BCM11 User Manual"
+  source_chapter: "Chapter 5: Slurm"
+  source_pages: "39"
+  explanation: "The #SBATCH -t (or --time) directive sets the wall clock time limit for the job in minutes."
+
+- id: 23
+  area: "Workload management"
+  question: "When installing the observability stack for Mission Control, what Loki deployment mode is selected during the cm-kubernetes-setup process?"
+  type: "single_choice"
+  options:
+    A: "SingleBinary"
+    B: "HighAvailability"
+    C: "SimpleScalable"
+    D: "Distributed"
+  correct_answer: "C"
+  source_reference: "NVIDIA Mission Control Software Installation Guide"
+  source_chapter: "Kubernetes Installation"
+  source_pages: "N/A"
+  explanation: "The guide instructs users to choose 'SimpleScalable' for the Loki deployment mode."
+
+- id: 24
+  area: "Workload management"
+  question: "In Job Accounting, which PromQL query would an administrator use to find CPU seconds effectively used by a specific job name for a user?"
+  type: "single_choice"
+  options:
+    A: "users_job_cpu_usage"
+    B: "job_effective_cpu_seconds_job_name_for_user"
+    C: "job_wasted_cpu_seconds_job_name_for_user"
+    C: "job_wall_clock_seconds_job_name_for_user"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Chapter 12: Monitoring: Job Accounting"
+  source_pages: "677, 679"
+  explanation: "The query job_effective_cpu_seconds_job_name_for_user retrieves CPU seconds effectively used by a specific job name for a user during a period."
+
+- id: 25
+  area: "Workload management"
+  question: "What is the purpose of the 'draining' procedure on a compute node in a Slurm cluster?"
+  type: "single_choice"
+  options:
+    A: "To increase power consumption for testing"
+    B: "To prevent new jobs from starting while allowing current ones to finish"
+    C: "To immediately terminate all running processes"
+    D: "To update the BIOS and firmware automatically"
+  correct_answer: "B"
+  source_reference: "NVIDIA DGX SuperPOD: Administration Guide"
+  source_chapter: "Managing Slurm"
+  source_pages: "N/A"
+  explanation: "Draining a node prevents further jobs from running, typically for maintenance or when a node is unhealthy."
+
+- id: 26
+  area: "Workload management"
+  question: "In Run:ai, which component of a workload is defined by the container image?"
+  type: "single_choice"
+  options:
+    A: "The amount of allocated RAM"
+    B: "The application, its dependencies, and the runtime environment"
+    C: "The storage path for training datasets"
+    D: "The priority mapping for scheduling"
+  correct_answer: "B"
+  source_reference: "NVIDIA Run:ai Documentation"
+  source_chapter: "Workloads in NVIDIA Run:ai"
+  source_pages: "N/A"
+  explanation: "A workload includes container images which encompass the application and its dependencies."
+
+- id: 27
+  area: "Workload management"
+  question: "What command should a user run to find out which environment modules are currently available for loading in their session?"
+  type: "single_choice"
+  options:
+    A: "module list"
+    B: "module show"
+    C: "module avail"
+    D: "module whatis"
+  correct_answer: "C"
+  source_reference: "BCM11 User Manual"
+  source_chapter: "Chapter 2: Cluster Usage"
+  source_pages: "16"
+  explanation: "The 'module avail' command lists all modules available for the user to load."
+
+- id: 28
+  area: "Workload management"
+  question: "In NGC, what is the 'Public API Endpoints User' role specifically used for?"
+  type: "single_choice"
+  options:
+    A: "Pushing proprietary containers to a private registry"
+    B: "Managing user provisioning for the organization"
+    C: "Controlling access to NVIDIA inferencing credits for API Catalog NIM endpoints"
+    D: "Creating new teams within an enterprise organization"
+  correct_answer: "C"
+  source_reference: "NVIDIA GPU Cloud Documentation"
+  source_chapter: "NGC User Guide"
+  source_pages: "N/A"
+  explanation: "This role controls access to inferencing credits used for calling NVIDIA API Catalog NIM endpoints."
+
+- id: 29
+  area: "Workload management"
+  question: "Which 'cmsh' submode under 'wlm' allows administrators to manage workload job queues?"
+  type: "single_choice"
+  options:
+    A: "jobs"
+    B: "accounting"
+    C: "jobqueue"
+    D: "placeholders"
+  correct_answer: "C"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Chapter 12: Monitoring: Job Accounting"
+  source_pages: "439"
+  explanation: "The 'jobqueue' submode is specifically for managing WLM job queues."
+
+- id: 30
+  area: "Workload management"
+  question: "According to the Mission Control Guide, which tool allows the cluster administrator to perform autonomous hardware recovery (AHR) installation?"
+  type: "single_choice"
+  options:
+    A: "cm-auto-scaler-setup"
+    B: "cm-wlm-setup"
+    C: "The Mission Control software stack"
+    D: "nvidia-smi"
+  correct_answer: "C"
+  source_reference: "NVIDIA Mission Control Software Installation Guide"
+  source_chapter: "Mission Control"
+  source_pages: "N/A"
+  explanation: "Mission Control includes features like Autonomous Hardware Recovery (AHR) and Kubernetes installation as part of its stack."

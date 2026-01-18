@@ -1,0 +1,600 @@
+- id: 1
+  area: "Installation and Deployment"
+  question: "Which web interface allows administrators to monitor cluster performance, resource utilization, and node health in real time using widgets and resource trees?"
+  type: "single_choice"
+  options:
+    A: "Cluster Management Shell (cmsh)"
+    B: "Base View GUI"
+    C: "Mission Control Dashboard"
+    D: "NVIDIA System Management (NVSM)"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Cluster Management With NVIDIA Base Command Manager"
+  source_pages: "35, 38"
+  explanation: "Base View is the web application front end used to manage and monitor cluster resources, providing an Overview window with sectioned widgets for utilization, device states, and health checks."
+
+- id: 2
+  area: "Installation and Deployment"
+  question: "Where can features available in the NVIDIA Mission Control toolkit be managed within the Base View interface?"
+  type: "single_choice"
+  options:
+    A: "Under the 'Identity Management' tab"
+    B: "In the 'License Information' window using the 'Manage Mission Control' URL"
+    C: "Directly within the 'Workload Utilization' chart"
+    D: "Through the 'Search domains' section in Cluster Settings"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Cluster Management With NVIDIA Base Command Manager"
+  source_pages: "77, 81"
+  explanation: "The Mission Control section of the License Information window in Base View provides a link to manage Mission Control features and shows which license features are active."
+
+- id: 3
+  area: "Installation and Deployment"
+  question: "When installing a workload manager after the initial BCM setup, which utility provides a Text User Interface (TUI) to guide the administrator through the configuration?"
+  type: "single_choice"
+  options:
+    A: "cm-wlm-setup"
+    B: "cm-create-image"
+    C: "cmsh"
+    D: "cm-dpu-setup"
+  correct_answer: "A"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Workload Management"
+  source_pages: "345, 349"
+  explanation: "The cm-wlm-setup utility is the recommended tool for adding and configuring a workload manager (like Slurm or PBS) post-installation, offering both a CLI and a TUI mode."
+
+- id: 4
+  area: "Installation and Deployment"
+  question: "To synchronize software images across nodes or update a running node with a dry-run option, which command is used within the device mode of cmsh?"
+  type: "single_choice"
+  options:
+    A: "reboot"
+    B: "imageupdate"
+    C: "updateprovisioners"
+    D: "softwareimage clone"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Node Provisioning"
+  source_pages: "301, 303"
+  explanation: "The imageupdate command allows administrators to update a running node from its software image. Running it without the -w flag performs a dry run, which can be reviewed with the synclog command."
+
+- id: 5
+  area: "Installation and Deployment"
+  question: "Which BCM concept allows an administrator to organize compute nodes into categories to inherit specific software images and roles?"
+  type: "single_choice"
+  options:
+    A: "Node Groups"
+    B: "Configuration Overlays"
+    C: "Node Categories"
+    D: "Device Identification"
+  correct_answer: "C"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Cluster Management With NVIDIA Base Command Manager"
+  source_pages: "27, 28"
+  explanation: "Node Categories are used to group nodes that function similarly; roles assigned to a category are implicitly assigned to all nodes within it, and it defines the default software image for those nodes."
+
+- id: 6
+  area: "Installation and Deployment"
+  question: "Which specific BCM network object is used for booting non-head nodes and for all cluster management communication?"
+  type: "single_choice"
+  options:
+    A: "externalnet"
+    B: "internalnet"
+    C: "globalnet"
+    D: "bmcnet"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Configuring The Cluster"
+  source_pages: "101, 110"
+  explanation: "internalnet is the primary internal cluster network and default management network used for network booting and all CMDaemon-to-CMDaemon communication."
+
+- id: 7
+  area: "Installation and Deployment"
+  question: "Which tool is required to create a specialized software image for BlueField DPUs and provision them to boot over the network?"
+  type: "single_choice"
+  options:
+    A: "cm-dpu-setup"
+    B: "cm-image"
+    C: "cm-wlm-setup"
+    D: "cm-kubernetes-setup"
+  correct_answer: "A"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Configuring The Cluster"
+  source_pages: "135, 136"
+  explanation: "The configuration and provisioning of DPUs in BCM is handled by the cm-dpu-setup utility, which creates DPU entities and specialized software images."
+
+- id: 8
+  area: "Installation and Deployment"
+  question: "When diagnosing cluster issues, which utility is run on the head node to gather comprehensive diagnostic data for BCM support?"
+  type: "single_choice"
+  options:
+    A: "cmsh"
+    B: "cm-diagnose"
+    C: "request-remote-assistance"
+    D: "monitoringinfo"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Day-to-day Administration"
+  source_pages: "721"
+  explanation: "The cm-diagnose utility gathers cluster data, including file contents and process information, to help administrators and BCM support identify and resolve issues."
+
+- id: 9
+  area: "Installation and Deployment"
+  question: "How can an administrator configure Kubernetes on NVIDIA hosts using BCM to ensure users have dedicated 'restricted' namespaces?"
+  type: "single_choice"
+  options:
+    A: "Using the 'Identity Management' resource in Base View"
+    B: "Running 'cm-kubernetes-setup --add-user <user>'"
+    C: "Manually editing the '/etc/kubernetes/admin.conf' file"
+    D: "Assigning the 'Scaleserver' role to nodes"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "The Jupyter Notebook Environment Integration"
+  source_pages: "826"
+  explanation: "BCM administrators use cm-kubernetes-setup to add users, which automatically generates a dedicated namespace for them in the form <user>-restricted."
+
+- id: 10
+  area: "Installation and Deployment"
+  question: "What is the primary function of the 'Mission Control' toolkit mentioned in BCM documentation?"
+  type: "single_choice"
+  options:
+    A: "Managing end-user login passwords via SSH"
+    B: "Providing advanced capabilities like leak detection and rack management integrated with BCM"
+    C: "Setting up Slurm job queues"
+    D: "Updating the Linux kernel version on head nodes"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Cluster Management With NVIDIA Base Command Manager"
+  source_pages: "40, 78"
+  explanation: "Mission Control features include building management system integration, leak detection, and GB200 rack/firmware management, viewable under the license features in Base View."
+
+- id: 11
+  area: "Installation and Deployment"
+  question: "To apply firmware updates to a DGX H100 system, where should the '.fwpkg' packages be placed on the head node?"
+  type: "single_choice"
+  options:
+    A: "/tmp/firmware/"
+    B: "/cm/shared/docs/fw/"
+    C: "/cm/local/apps/cmd/etc/htdocs/bios/firmware/"
+    D: "/etc/firmware/packages/"
+  correct_answer: "C"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Day-to-day Administration"
+  source_pages: "742"
+  explanation: "Firmware packages must be placed in the /cm/local/apps/cmd/etc/htdocs/bios/firmware/ directory under the appropriate platform subdirectory for BCM to detect and flash them."
+
+- id: 12
+  area: "Installation and Deployment"
+  question: "In BCM, which command allows an administrator to interactively request that a new node be assigned a specific hostname and category based on its MAC address?"
+  type: "single_choice"
+  options:
+    A: "add node"
+    B: "newnodes"
+    C: "device initialize"
+    D: "provisioningstatus"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Node Provisioning"
+  source_pages: "259"
+  explanation: "The newnodes command in cmsh's device mode detects unassigned nodes that have reached the node-installer stage and allows them to be assigned to configured node objects."
+
+- id: 13
+  area: "Installation and Deployment"
+  question: "When managing job scheduling, which Slurm concept allows administrators to group nodes under a unique name so that features can be assigned to them collectively in 'slurm.conf'?"
+  type: "single_choice"
+  options:
+    A: "GRES"
+    B: "Nodesets"
+    C: "QOS"
+    D: "Partitions"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Workload Management"
+  source_pages: "388"
+  explanation: "Starting with BCM version 11, administrators can configure Slurm Nodesets within the Slurm client role, which BCM then translates into NodeSet definitions in the slurm.conf file."
+
+- id: 14
+  area: "Installation and Deployment"
+  question: "Which DPU operation mode allows the embedded ARM system of the DPU to control the NIC resources and data path of both the host and the DPU?"
+  type: "single_choice"
+  options:
+    A: "separated_host"
+    B: "embedded_cpu"
+    C: "gateway_mode"
+    D: "passthrough"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Configuring The Cluster"
+  source_pages: "137, 142"
+  explanation: "The embedded_cpu mode (also called ECPF) lets the DPU's ARM system control NIC resources for both the host and the DPU itself."
+
+- id: 15
+  area: "Installation and Deployment"
+  question: "To diagnose a node that fails to start the network during the ramdisk stage, which action should the administrator perform?"
+  type: "single_choice"
+  options:
+    A: "Reinstall the head node"
+    B: "Add the correct kernel module to the software image's kernel module configuration"
+    C: "Change the LDAP root password"
+    D: "Disable the internalnet firewall"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Node Provisioning"
+  source_pages: "306"
+  explanation: "If the ramdisk cannot start the network, it is usually because the correct Ethernet driver module is missing from the ramdisk; it must be added to the software image's kernelmodules."
+
+- id: 16
+  area: "Installation and Deployment"
+  question: "What is the function of the 'hasclientdaemon' parameter when configuring a Cumulus switch in BCM?"
+  type: "single_choice"
+  options:
+    A: "It enables the switch to act as a DHCP server"
+    B: "It specifies that CMDaemon Lite should run on the switch for management"
+    C: "It allows the switch to be used as a Head Node"
+    D: "It triggers a ZTP (Zero Touch Provisioning) sequence immediately"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Configuring The Cluster"
+  source_pages: "148, 149"
+  explanation: "Setting hasclientdaemon to 'yes' for a Cumulus switch indicates that CMDaemon Lite will manage the switch's network configuration and services."
+
+- id: 17
+  area: "Installation and Deployment"
+  question: "Which utility allows a user to submit a Slurm job directly from a Jupyter Notebook cell?"
+  type: "single_choice"
+  options:
+    A: "kubectl"
+    B: "Jupyter WLM Magic"
+    C: "sbatch"
+    D: "cm-jupyter-setup"
+  correct_answer: "B"
+  source_reference: "BCM11 User Manual"
+  source_chapter: "The Jupyter Notebook Environment Integration"
+  source_pages: "109"
+  explanation: "The Jupyter WLM Magic extension is an IPython extension that simplifies scheduling workload manager jobs directly from a notebook interface."
+
+- id: 18
+  area: "Installation and Deployment"
+  question: "How does BCM handle the administration of user accounts to ensure secure access across the cluster?"
+  type: "single_choice"
+  options:
+    A: "By synchronizing /etc/passwd files manually"
+    B: "By running a central LDAP service on the head node"
+    C: "By using local accounts only on each node"
+    D: "By disabling all user logins except root"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "User Management"
+  source_pages: "318"
+  explanation: "BCM uses a single system paradigm where users and groups are managed via a centralizing LDAP database server on the head node, rather than local Unix files."
+
+- id: 19
+  area: "Installation and Deployment"
+  question: "When using BCM to monitor GPU utilization at the cluster level, which data producer is responsible for aggregating these metrics?"
+  type: "single_choice"
+  options:
+    A: "GPUSampler"
+    B: "JobSampler"
+    C: "ClusterTotal"
+    D: "MonitoringSystem"
+  correct_answer: "C"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Monitoring: Monitoring Cluster Devices"
+  source_pages: "965, 975"
+  explanation: "GPU metrics in the cluster overview (like TotalGPUUtilization) are provided by the ClusterTotal data producer, while individual device metrics are gathered by GPUSampler."
+
+- id: 20
+  area: "Installation and Deployment"
+  question: "Which command in cmsh allows an administrator to see the results of a health check query across multiple nodes, grouped by category?"
+  type: "single_choice"
+  options:
+    A: "samplenow"
+    B: "execute report"
+    C: "metrics status"
+    D: "device list"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Monitoring: Monitoring Cluster Devices"
+  source_pages: "659, 660"
+  explanation: "The execute command within the monitoring report mode of cmsh allows administrators to run filtered queries and group results (e.g., group_by category)."
+
+- id: 21
+  area: "Installation and Deployment"
+  question: "What is the purpose of the 'cm-chroot-sw-img' wrapper utility?"
+  type: "single_choice"
+  options:
+    A: "To reboot all nodes into a new image"
+    B: "To enter a software image's filesystem on the head node for maintenance"
+    C: "To clone a head node into a passive HA head"
+    D: "To verify the integrity of the RPM database"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Post-installation Software Management"
+  source_pages: "533"
+  explanation: "The cm-chroot-sw-img utility is a recommended BCM wrapper that facilitates the 'change root' process into a software image to manage packages and configurations."
+
+- id: 22
+  area: "Installation and Deployment"
+  question: "Which tool is used to generate a Slurm network topology configuration (topology.conf) automatically based on cloud or physical network hierarchy?"
+  type: "single_choice"
+  options:
+    A: "Topograph"
+    B: "cmsh"
+    C: "nvcc"
+    D: "Enroot"
+  correct_answer: "A"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Workload Management"
+  source_pages: "395, 400"
+  explanation: "Topograph is a service used to generate Slurm network topology configurations, which optimize job performance by making the scheduler aware of the cluster hierarchy."
+
+- id: 23
+  area: "Installation and Deployment"
+  question: "Which command must be run to make committed DPU settings active on the DPU hardware after they are modified in cmsh?"
+  type: "single_choice"
+  options:
+    A: "commit"
+    B: "dpu apply"
+    C: "initialize"
+    D: "dpu discovery"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Configuring The Cluster"
+  source_pages: "142"
+  explanation: "Changes made in the dpusettings submode only become active on the DPU hardware after being committed to the database and then executing the dpu apply command."
+
+- id: 24
+  area: "Installation and Deployment"
+  question: "What does the 'drain' command do in the context of workload management in BCM?"
+  type: "single_choice"
+  options:
+    A: "It immediately terminates all jobs on a node"
+    B: "It prevents new jobs from being scheduled on a node while allowing current ones to finish"
+    C: "It deletes the node's software image from the head node"
+    D: "It powers off the node instantly"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Workload Management"
+  source_pages: "448, 536"
+  explanation: "Draining a node sets its state so that the workload manager will not schedule new jobs on it; it is often used as a preliminary step for maintenance or upgrades."
+
+- id: 25
+  area: "Installation and Deployment"
+  question: "Which monitoring feature allows BCM to scale a cluster up or down automatically by powering nodes on and off based on job demand?"
+  type: "single_choice"
+  options:
+    A: "Scaleserver role (cm-scale service)"
+    B: "AggregateNode data producer"
+    C: "Mission Control leak detection"
+    D: "Slurm accounting"
+  correct_answer: "A"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "NVIDIA Base Command Manager Auto Scaler"
+  source_pages: "465"
+  explanation: "The cm-scale service (configured via the ScaleServer role) automatically scales a cluster up or down on-demand by powering on or off physical or cloud nodes based on workload."
+
+- id: 26
+  area: "Installation and Deployment"
+  question: "When setting up Kubernetes with BCM, which operator is recommended for managing the lifecycle of Jupyter kernels?"
+  type: "single_choice"
+  options:
+    A: "NVIDIA GPU Operator"
+    B: "cm-jupyter-kernel-operator"
+    C: "Prometheus Operator"
+    D: "Spark Operator"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "The Jupyter Notebook Environment Integration"
+  source_pages: "826, 827"
+  explanation: "The Jupyter Kernel Operator is the recommended method for running Jupyter kernels in Kubernetes in BCM, as it handles communication and lifecycle management."
+
+- id: 27
+  area: "Installation and Deployment"
+  question: "What is the purpose of the 'FrozenFile' directive in BCM?"
+  type: "single_choice"
+  options:
+    A: "To prevent a node from rebooting"
+    B: "To protect specific system configuration files from being modified by CMDaemon"
+    C: "To encrypt software images at rest"
+    D: "To stop a job from being scheduled"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Cluster Management With NVIDIA Base Command Manager"
+  source_pages: "83"
+  explanation: "The FrozenFile directive allows administrators to mark specific files so that CMDaemon will not overwrite manual modifications to those configuration files."
+
+- id: 28
+  area: "Installation and Deployment"
+  question: "In BCM, what is a 'chunk' in the context of PBS job scripts?"
+  type: "single_choice"
+  options:
+    A: "A specific version of a software package"
+    B: "A collection of resources requested from the same physical compute node"
+    C: "A 10MB block of monitoring data"
+    D: "A single task in a parallel job"
+  correct_answer: "B"
+  source_reference: "BCM11 User Manual"
+  source_chapter: "PBS Professional And OpenPBS"
+  source_pages: "46"
+  explanation: "A chunk is a collection of resources allocated to a job where all requested resources in that chunk must come from the same physical compute node."
+
+- id: 29
+  area: "Installation and Deployment"
+  question: "Which command-line tool is used to manage and update the BCM Ansible collection for NVIDIA Base Command Manager 11?"
+  type: "single_choice"
+  options:
+    A: "ansible-playbook"
+    B: "ansible-galaxy"
+    C: "cmsh"
+    D: "yum"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Day-to-day Administration"
+  source_pages: "760"
+  explanation: "The ansible-galaxy tool is used to install and manage the brightcomputing.bcm110 collection from the galaxy.ansible.com repository."
+
+- id: 30
+  area: "Installation and Deployment"
+  question: "What is the maximum number of GPU instances that an NVIDIA A100 GPU can be partitioned into using Multi-Instance GPU (MIG) technology?"
+  type: "single_choice"
+  options:
+    A: "2"
+    B: "4"
+    C: "7"
+    D: "16"
+  correct_answer: "C"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Configuring The Cluster"
+  source_pages: "196, 197"
+  explanation: "MIG allows a single GA100 microarchitecture GPU to be partitioned into up to 7 separate logical GPU instances."
+
+- id: 31
+  area: "Installation and Deployment"
+  question: "Which BCM monitoring tool provides the capability to view historical resource consumption metrics aggregated by user or account?"
+  type: "single_choice"
+  options:
+    A: "Job Accounting"
+    B: "Health Checks"
+    C: "Device Status widget"
+    D: "monitoringpickup"
+  correct_answer: "A"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Monitoring: Job Accounting"
+  source_pages: "675, 687"
+  explanation: "Job Accounting provides a way to analyze and visualize resource consumption (like CPU or GPU time) aggregated by classifiers like user or account."
+
+- id: 32
+  area: "Installation and Deployment"
+  question: "When a node is in the 'INSTALLER_FAILED' state, where can the administrator usually find a log explaining the failure?"
+  type: "single_choice"
+  options:
+    A: "/var/log/messages"
+    B: "/var/log/node-installer"
+    C: "/cm/local/apps/cmd/etc/cmd.conf"
+    D: "/var/log/slurmd"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Configuring The Cluster"
+  source_pages: "133"
+  explanation: "Failures during node installation and BMC authentication are often detailed in the node-installer log located at /var/log/node-installer."
+
+- id: 33
+  area: "Installation and Deployment"
+  question: "Which Slurm command allows a user to allocate resources in real-time and spawn a shell to execute parallel tasks?"
+  type: "single_choice"
+  options:
+    A: "sbatch"
+    B: "salloc"
+    C: "squeue"
+    D: "scancel"
+  correct_answer: "B"
+  source_reference: "BCM11 User Manual"
+  source_chapter: "Slurm"
+  source_pages: "36"
+  explanation: "The salloc command is used for interactive resource allocation, whereas sbatch is used for non-interactive batch script submission."
+
+- id: 34
+  area: "Installation and Deployment"
+  question: "To ensure that a passive head node can take over from the active head in an HA setup, which command is used to initially clone the active head node?"
+  type: "single_choice"
+  options:
+    A: "cm-clone-install --failover"
+    B: "cmha makeactive"
+    C: "reboot --headnode"
+    D: "yum clone"
+  correct_answer: "A"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "High Availability"
+  source_pages: "782"
+  explanation: "The cm-clone-install utility with the --failover option is used to create a passive head node that is nearly identical to the active one for HA purposes."
+
+- id: 35
+  area: "Installation and Deployment"
+  question: "What is the primary benefit of using 'Offloaded Monitoring' in clusters with more than 1,000 nodes?"
+  type: "single_choice"
+  options:
+    A: "It encrypts monitoring data for security"
+    B: "It shares resource-intensive monitoring storage and sampling across multiple nodes to prevent head node overload"
+    C: "It allows monitoring of Windows-based nodes"
+    D: "It increases the frequency of CPU sampling to 1 millisecond"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Monitoring: Monitoring Cluster Devices"
+  source_pages: "645"
+  explanation: "Offloaded monitoring shares storage and sampling across nodes with the monitoring role, preventing the head node from becoming a performance bottleneck in large clusters."
+
+- id: 36
+  area: "Installation and Deployment"
+  question: "In the Jupyter integration, which tool provides an interactive way to create and customize kernels without editing JSON files?"
+  type: "single_choice"
+  options:
+    A: "Jupyter Kernel Provisioning"
+    B: "Jupyter Kernel Creator"
+    C: "JupyterHub Dashboard"
+    D: "cm-jupyter-setup"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "The Jupyter Notebook Environment Integration"
+  source_pages: "818"
+  explanation: "The Jupyter Kernel Creator extension in JupyterLab allows users to create kernels by customizing templates through a graphical dialog interface."
+
+- id: 37
+  area: "Installation and Deployment"
+  question: "Which BCM component is responsible for identifying and placing the software image on a regular node during the boot process?"
+  type: "single_choice"
+  options:
+    A: "CMDaemon"
+    B: "node-installer"
+    C: "Slurm"
+    D: "systemd"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Node Provisioning"
+  source_pages: "251"
+  explanation: "The node-installer is a special software image provided by the head node that interacts with CMDaemon to identify the node and install its software image."
+
+- id: 38
+  area: "Installation and Deployment"
+  question: "To configure a specific node to use a different BIOS setting via Redfish, which tool should the administrator use?"
+  type: "single_choice"
+  options:
+    A: "cmsh or Base View"
+    B: "ipmitool"
+    C: "nvidia-smi"
+    D: "systemctl"
+  correct_answer: "A"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Day-to-day Administration"
+  source_pages: "733, 735"
+  explanation: "While cm-bios-manage exists, the recommended and easiest way to manage BIOS via Redfish is through the cmsh or Base View front ends."
+
+- id: 39
+  area: "Installation and Deployment"
+  question: "Which command is used to monitor network performance between cluster nodes using a handy Python script provided by BCM?"
+  type: "single_choice"
+  options:
+    A: "ping"
+    B: "cm-iperf.py"
+    C: "connectivity"
+    D: "routes"
+  correct_answer: "B"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Configuring The Cluster"
+  source_pages: "119"
+  explanation: "The cm-iperf.py script is a tool provided in the BCM directory for checking network performance between specified nodes."
+
+- id: 40
+  area: "Installation and Deployment"
+  question: "What is the recommended method for an administrator to get support for a cluster that has had its BCM package versions replaced with standard distribution versions?"
+  type: "single_choice"
+  options:
+    A: "Open a ticket on the NVIDIA support portal"
+    B: "Run cm-diagnose and email the file"
+    C: "Replace the standard versions back with BCM versions first, as support cannot be provided in that state"
+    D: "Use request-remote-assistance"
+  correct_answer: "C"
+  source_reference: "BCM11 Administration Manual"
+  source_chapter: "Post-installation Software Management"
+  source_pages: "522"
+  explanation: "Replacing BCM-tested packages with distribution-provided versions can cause hard-to-trace problems; support cannot be provided for clusters in such a state."
+  
