@@ -262,7 +262,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.getElementById('download-questions-pdf').addEventListener('click', function (e) {
     
-    e.preventDefault() // Prevents page jump
+    e.preventDefault();
 
     const { jsPDF } = window.jspdf;
     const doc = new jsPDF();
@@ -271,10 +271,10 @@ document.getElementById('download-questions-pdf').addEventListener('click', func
     const pageWidth = doc.internal.pageSize.width;
     const pageHeight = doc.internal.pageSize.height;
 
-    // Helper to add text and handle page breaks
-    const addText = (text, size, style = "normal", spacing = 7) => {
+    const addText = (text, size, style = "normal", spacing = 7, color = [0, 0, 0]) => {
         doc.setFontSize(size);
         doc.setFont("helvetica", style);
+        doc.setTextColor(color[0], color[1], color[2]);
         const lines = doc.splitTextToSize(text, pageWidth - (margin * 2));
         
         if (yOffset + (lines.length * spacing) > pageHeight - 20) {
@@ -287,63 +287,76 @@ document.getElementById('download-questions-pdf').addEventListener('click', func
     };
 
     // --- PDF Header ---
-    addText("NCP-AIO: Knowledge Check Questions", 18, "bold", 12);
-    addText("Study Resource for NVIDIA Certified Professional: AI Operations", 10, "italic", 10);
+    addText("NCP-AIO: My Knowledge Check Progress", 18, "bold", 12);
+    addText("Export of answered questions and current results", 10, "italic", 10);
     yOffset += 5;
 
-    // --- Scrape Questions from the rendered HTML ---
     const domains = document.querySelectorAll('.tablinks');
     
     domains.forEach((domainTab, index) => {
-        const domainName = domainTab.innerText.split('(')[0].trim(); // Remove the (0/0) score
         const domainId = `domain-${index + 1}`;
         const domainContainer = document.getElementById(domainId);
         
         if (domainContainer) {
-            // Add Domain Heading
-            yOffset += 5;
-            addText(`Domain: ${domainName}`, 14, "bold", 10);
-            doc.line(margin, yOffset - 2, pageWidth - margin, yOffset - 2); // Horizontal line
-            yOffset += 5;
+            // Filter only blocks where an answer has been "Checked" (explanation is visible)
+            const questionBlocks = Array.from(domainContainer.querySelectorAll('.question-block'))
+                                        .filter(block => block.querySelector('.answer-explanation').style.display === 'block');
 
-            const questionBlocks = domainContainer.querySelectorAll('.question-block');
-            questionBlocks.forEach((block) => {
-                const qText = block.querySelector('.question').innerText;
-                const options = block.querySelectorAll('.question-form label');
+            if (questionBlocks.length > 0) {
+                const domainName = domainTab.innerText.split('(')[0].trim();
+                yOffset += 5;
+                addText(`Domain: ${domainName}`, 14, "bold", 10);
+                doc.setDrawColor(200);
+                doc.line(margin, yOffset - 2, pageWidth - margin, yOffset - 2);
+                yOffset += 5;
 
-                // Write the Question
-                addText(qText, 11, "bold", 6);
+                questionBlocks.forEach((block) => {
+                    const qid = block.querySelector('.question-form').getAttribute('data-question-id');
+                    const qText = block.querySelector('.question').innerText;
+                    
+                    // Get the user's selected radio button
+                    const selectedRadio = block.querySelector('input[type="radio"]:checked');
+                    const selectedValue = selectedRadio ? selectedRadio.value : "No answer";
+                    const selectedText = selectedRadio ? selectedRadio.parentElement.innerText.trim() : "None";
+                    
+                    const correctKey = document.getElementById('correct-' + qid).getAttribute('data-correct');
+                    const isCorrect = (selectedValue === correctKey);
+                    const explanation = block.querySelector('.answer-explanation').innerText.trim();
 
-                // Write the Options
-                options.forEach(opt => {
-                    addText("   [  ]   " + opt.innerText.trim(), 10, "normal", 6);
+                    // Write Question
+                    addText(qText, 11, "bold", 6);
+
+                    // Write User's Selection
+                    const statusColor = isCorrect ? [0, 128, 0] : [194, 0, 0];
+                    const statusText = isCorrect ? "(Correct)" : "(Incorrect)";
+                    addText(`Your Answer: ${selectedText} ${statusText}`, 10, "bold", 6, statusColor);
+
+                    // Write the Explanation/Answer
+                    yOffset += 1;
+                    addText(explanation, 10, "normal", 5, [80, 80, 80]);
+                    
+                    yOffset += 6; 
                 });
-                
-                yOffset += 4; // Space between questions
-            });
+            }
         }
     });
 
+    // Handle case where no questions are answered
+    if (yOffset === 37) { // Only header was added
+        addText("No questions have been answered yet. Please check some answers before exporting.", 12, "normal", 10, [150, 0, 0]);
+    }
+
+    // --- Footer ---
     const pageCount = doc.internal.getNumberOfPages();
-        const sourceUrl = "Source: https://jorge-cardoso.github.io/systems/aioperations/knowledge_check/";
-
-        for (let i = 1; i <= pageCount; i++) {
-            doc.setPage(i);
-            doc.setFontSize(9);
-            doc.setFont("helvetica", "normal");
-            doc.setTextColor(150); // Professional gray
-
-            // Add Source URL on the left
-            doc.text(sourceUrl, margin, pageHeight - 10);
-
-            // Add Page Number on the right
-            const pageText = `Page ${i} of ${pageCount}`;
-            const textWidth = doc.getTextWidth(pageText);
-            doc.text(pageText, pageWidth - margin - textWidth, pageHeight - 10);
-        }
+    for (let i = 1; i <= pageCount; i++) {
+        doc.setPage(i);
+        doc.setFontSize(9);
+        doc.setTextColor(150);
+        doc.text("Generated Progress Report", margin, pageHeight - 10);
+        doc.text(`Page ${i} of ${pageCount}`, pageWidth - margin - 20, pageHeight - 10);
+    }
         
-    // Save the PDF
-    doc.save('AI_Operations_Questions.pdf');
+    doc.save('My_AI_Operations_Progress.pdf');
 });
 
 
