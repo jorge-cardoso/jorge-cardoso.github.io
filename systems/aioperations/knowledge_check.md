@@ -152,9 +152,9 @@ function openDomain(evt, domainId) {
   evt.currentTarget.classList.add("active");
 }
 
+
 function calculateScore() {
   const domainSections = document.querySelectorAll('.tabcontent');
-  const totalScoreEl = document.getElementById('score-value');
   
   let grandTotalCorrect = 0;
   let grandTotalQuestions = 0;
@@ -163,8 +163,10 @@ function calculateScore() {
     const domainIndex = index + 1;
     const tabScoreSpan = document.getElementById(`tab-score-${domainIndex}`);
     const questions = section.querySelectorAll('.question-block');
+    
     let domainCorrect = 0;
-    let domainTotal = questions.length;
+    // Count ALL questions in this domain immediately
+    let domainTotal = questions.length; 
     grandTotalQuestions += domainTotal;
 
     questions.forEach(block => {
@@ -173,14 +175,16 @@ function calculateScore() {
       const correctKey = document.getElementById('correct-' + qid).getAttribute('data-correct');      
       const explanationVisible = document.getElementById('explanation-' + qid).style.display === 'block';
 
+      // Increment domain score only if answered correctly AND checked
       if (explanationVisible && selected && selected.value === correctKey) { 
         domainCorrect++; 
       }
     });
 
-    if (tabScoreSpan) { tabScoreSpan.textContent = `(${domainCorrect}/${domainTotal})`; }
+    if (tabScoreSpan) { 
+      tabScoreSpan.textContent = `(${domainCorrect}/${domainTotal})`; 
+    }
     grandTotalCorrect += domainCorrect;
-    // grandTotalQuestions += domainTotal;
   });
 
   const totalPercentage = grandTotalQuestions > 0 ? Math.round((grandTotalCorrect / grandTotalQuestions) * 100) : 0;
@@ -189,8 +193,8 @@ function calculateScore() {
   if (scoreValueEl) {
     scoreValueEl.textContent = `${grandTotalCorrect} / ${grandTotalQuestions} (${totalPercentage}%)`;
   }
-
 }
+
 
 function saveState() {
   const state = {};
@@ -258,7 +262,8 @@ function showResult(qid) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  loadState();
+  loadState();      // Loads saved answers from localStorage
+  calculateScore(); // Updates the UI numbers immediately after loading state
 
   document.querySelectorAll('.check-answer-btn').forEach(function (btn) {
     btn.addEventListener('click', function () {
@@ -289,6 +294,10 @@ document.getElementById('download-questions-pdf').addEventListener('click', func
     const pageWidth = doc.internal.pageSize.width;
     const pageHeight = doc.internal.pageSize.height;
 
+    const currentDate = new Date().toLocaleDateString('en-US', { 
+        year: 'numeric', month: 'long', day: 'numeric' 
+    });
+
     const addText = (text, size, style = "normal", spacing = 7, color = [0, 0, 0]) => {
         doc.setFontSize(size);
         doc.setFont("helvetica", style);
@@ -305,8 +314,9 @@ document.getElementById('download-questions-pdf').addEventListener('click', func
     };
 
     // --- PDF Header ---
-    addText("NCP-AIO: My Knowledge Check Progress", 18, "bold", 12);
-    addText("Export of answered questions and current results", 10, "italic", 10);
+    addText("My Knowledge Check", 18, "bold", 12);
+    addText(`Results as of ${currentDate}`, 10, "italic", 10);
+
     yOffset += 5;
 
     const domains = document.querySelectorAll('.tablinks');
