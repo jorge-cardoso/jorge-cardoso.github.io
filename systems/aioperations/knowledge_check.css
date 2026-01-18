@@ -8,6 +8,7 @@
   --text-muted: #6b7280;
   --success: #10b981;
   --error: #ef4444;
+  --no-status: #3f3f3f;  
 }
 
 .quiz-page-wrapper {
@@ -112,11 +113,11 @@ label:hover {
 
 input[type="radio"] {
   margin-right: 10px;
-  accent-color: var(--primary-color);
+  accent-color: var(--no-status);
 }
 
 label:has(input:checked) {
-  border-color: var(--primary-color);
+  border-color: var(--no-status);
   background: #eef2ff;
 }
 
@@ -187,3 +188,4 @@ label:has(input:checked) {
   transform: scale(1.05);
   opacity: 0.9;
 }
+

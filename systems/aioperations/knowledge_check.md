@@ -139,7 +139,6 @@ Below is a curated list of official documentation and resources to help you mast
 
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script>
 const STORAGE_KEY = 'ncp_aio_quiz_save';
 
@@ -155,6 +154,7 @@ function openDomain(evt, domainId) {
 
 function calculateScore() {
   const domainSections = document.querySelectorAll('.tabcontent');
+  const totalScoreEl = document.getElementById('score-value');
   
   let grandTotalCorrect = 0;
   let grandTotalQuestions = 0;
@@ -173,7 +173,7 @@ function calculateScore() {
       const correctKey = document.getElementById('correct-' + qid).getAttribute('data-correct');      
       const explanationVisible = document.getElementById('explanation-' + qid).style.display === 'block';
 
-      if (selected && selected.value === correctKey) { 
+      if (explanationVisible && selected && selected.value === correctKey) { 
         domainCorrect++; 
       }
     });
@@ -380,3 +380,4 @@ document.getElementById('download-questions-pdf').addEventListener('click', func
 
 </script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
