@@ -10,6 +10,7 @@
     {% endif %}
     {% include open-graph.html %}
     {% if author.google.plus %}<link rel="author" href="https://plus.google.com/{{ author.google.plus }}"/>{% endif %}
+	{% include google-analytics.html %}
 
     <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" class="rounded-image" sizes="32x32">
     <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" class="rounded-image">
