@@ -623,13 +623,6 @@ function bibtex2html($entry, $type, $accents, $hightlightName = ''){
 		// to place a break line before the link: $ret .= '<span class="links"><br>';
 		$ret .= '<span class="links"> ';
 
-		if(!$doilinked && trim($doi) != "") {
-			// Jorge Cardoso/JC
-			//$ret .= ' <span class="doi"><a href="'.$doi.'" target="_blank">doi..</a></span>&nbsp;';
-  		       $ret = '<a href="'.$doi.'">doi </a>' . $ret;
-//   		       $ret = '<a href="'.$doi.'"><img src="../images/doi.png"></a>' . $ret;
-		}
-
 		$webcs = extractBib("citeseerurl", $entry, $accents);
 		if(trim($webcs) != "") {
 			$ret .= ' <span class="citeseerurl"><a href="'.$webcs.'" target="_blank">citeseer..</a></span>&nbsp;';
@@ -660,6 +653,12 @@ function bibtex2html($entry, $type, $accents, $hightlightName = ''){
 // 		    $pdf = '<a href="'. "/rd". $webpdf.'"><img src="../images/pdf.png"></a>';
             $pdf = '<a href="'. "/rd". $webpdf.'">pdf</a>';
 		    $ret .= "[" . $pdf . ", " . $google . "]";
+		}
+
+		// Jorge Cardoso/JC
+		if(!$doilinked && trim($doi) != "") {
+			$doi = '<a href="'.$doi.'">doi</a>';
+		    $ret .= " [" . $doi . "]";		
 		}
 
 		$ret .= '</span>';

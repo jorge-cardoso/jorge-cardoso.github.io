@@ -14,7 +14,10 @@ toc: true
 ---
 <h2>Journal Articles<span class="dark"></span></h2>
 <div class="publication">
-<ol start="1"><li><span class="title">LogRule: Efficient Structured Log Mining for Root Cause Analysis</span>. <span class="authors">Notaro, P.; Haeri, S.; Cardoso, J. and Gerndt, M.</span>  <span class="in">In <a href="http://dx.doi.org/10.1109/TNSM.2023.3282270" target="_blank">IEEE Transactions on Network and Service Management</a></span>, Vol. 0 (0), 2023.<span class="links"> </span>
+<ol start="1"><li><span class="title"><a href="/rd/Papers/JA-2025-022-IEEE_IC_Reliable_Cloud_Operations_Using_Transformers.pdf" >Reliable Cloud Operations Using Transformers</a></span>. <span class="authors">Cardoso,  J.</span>  <span class="in">In <a href="https://doi.ieeecomputersociety.org/10.1109/MIC.2025.3575450" target="_blank">IEEE Internet Computing</a></span>, Vol. 29 (03): 5-12, 2025.<span class="links"> [<a href="/rd/Papers/JA-2025-022-IEEE_IC_Reliable_Cloud_Operations_Using_Transformers.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Reliable Cloud Operations Using Transformers">gs</a>] [<a href="http://dx.doi.org/10.1109/MIC.2025.3575450">doi</a>]</span>
+<span class="bibtexlink">[<a href="bibs/Cardoso2025IC.bib">bib</a>]</span></li>
+
+<li><span class="title">LogRule: Efficient Structured Log Mining for Root Cause Analysis</span>. <span class="authors">Notaro, P.; Haeri, S.; Cardoso, J. and Gerndt, M.</span>  <span class="in">In <a href="http://dx.doi.org/10.1109/TNSM.2023.3282270" target="_blank">IEEE Transactions on Network and Service Management</a></span>, Vol. 0 (0), 2023.<span class="links"> </span>
 <span class="bibtexlink">[<a href="bibs/Notaro2023TNSM.bib">bib</a>]</span></li>
 
 <li><span class="title"><a href="/rd/Papers/JA-2021-026-Automated_Analysis_of_Distributed_Tracing.pdf" >Automated Analysis of Distributed Tracing: Challenges and Research Directions</a></span>. <span class="authors">Bento, A.; Correia, J.; Filipe, R.; Araujo, F. and Cardoso, J.</span>  <span class="in">In Journal of Grid Computing</span>, Vol. 19 (9), 2021.<span class="links"> [<a href="/rd/Papers/JA-2021-026-Automated_Analysis_of_Distributed_Tracing.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Automated Analysis of Distributed Tracing: Challenges and Research Directions">gs</a>]</span>
@@ -38,7 +41,7 @@ toc: true
 <li><span class="title"><a href="/rd/Papers/JA-2003-001-DPD-J-IntelliGEN.pdf" >Business Service Semantics: Case Study for Flanders Research Information Space</a></span>. <span class="authors">Leenheer, P. D; Cardoso, J. and Pedrinaci, C.</span>  <span class="in">In <a href="http://www.springer.com/computer/database+management+%26+information+retrieval/journal/10619" target="_blank">International Journal of Information System Modeling and Design (IJISMD)</a></span>, Vol. - (-): -, 2013.<span class="links"> [<a href="/rd/Papers/JA-2003-001-DPD-J-IntelliGEN.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Business Service Semantics: Case Study for Flanders Research Information Space">gs</a>]</span>
 <span class="bibtexlink">[<a href="bibs/DeLeenheer13IJISMD.bib">bib</a>]</span></li>
 
-<li><a href="http://dx.doi.org/10.1016/j.datak.2011.07.005">doi </a><span class="title"><a href="/rd/Papers/JA-2011-020-KDE-B2B-Using-XML2OWL.pdf" >Mapping between heterogeneous XML and OWL transaction representations in B2B integration</a></span>. <span class="authors">Cardoso,  J. and Bussler,  C.</span>  <span class="in">In <a href="http://dx.doi.org/10.1016/j.datak.2011.07.005" target="_blank">Data Knowl. Eng.</a></span>, Vol. 70 (12): 1046-1069, 2011.<span class="links"> [<a href="/rd/Papers/JA-2011-020-KDE-B2B-Using-XML2OWL.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Mapping between heterogeneous XML and OWL transaction representations in B2B integration">gs</a>]</span>
+<li><span class="title"><a href="/rd/Papers/JA-2011-020-KDE-B2B-Using-XML2OWL.pdf" >Mapping between heterogeneous XML and OWL transaction representations in B2B integration</a></span>. <span class="authors">Cardoso,  J. and Bussler,  C.</span>  <span class="in">In <a href="http://dx.doi.org/10.1016/j.datak.2011.07.005" target="_blank">Data Knowl. Eng.</a></span>, Vol. 70 (12): 1046-1069, 2011.<span class="links"> [<a href="/rd/Papers/JA-2011-020-KDE-B2B-Using-XML2OWL.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Mapping between heterogeneous XML and OWL transaction representations in B2B integration">gs</a>] [<a href="http://dx.doi.org/10.1016/j.datak.2011.07.005">doi</a>]</span>
 <span class="bibtexlink">[<a href="bibs/Cardoso2011B2BIntegration.bib">bib</a>]</span></li>
 
 <li><span class="title"><a href="/rd/Papers/JA-2011-019-InformationProcessingLetters-JungChinCardoso-BP-Entropy.pdf" >An entropy-based uncertainty measure of process models</a></span>. <span class="authors">Jung, J-Y.; Chin, C-H. and Cardoso, J.</span>  <span class="in">In Information Processing Letters</span>, Vol. 111 (3): 135-141, 2011.<span class="links"> [<a href="/rd/Papers/JA-2011-019-InformationProcessingLetters-JungChinCardoso-BP-Entropy.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=An entropy-based uncertainty measure of process models">gs</a>]</span>
@@ -103,7 +106,7 @@ toc: true
 
 </ol></div><h2>Book Chapters<span class="dark"></span></h2>
 <div class="publication">
-<ol start="30"><li><span class="title"><a href="/rd/Papers/BC-2015-032-Foundations.pdf" >Foundations</a></span>. <span class="authors">Fromm, H. and Cardoso, J.</span>  <span class="in">In <a href="http://dx.doi.org/10.1007/978-3-319-23195-2" target="_blank">Fundamentals of Service Systems</a></span>, pages 1-32, <span class="publisher"><a href="http://dx.doi.org/10.1007/978-3-319-23195-2" target="_blank">Springer</a></span>, 2015.<span class="links"> [<a href="/rd/Papers/BC-2015-032-Foundations.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Foundations">gs</a>]</span>
+<ol start="31"><li><span class="title"><a href="/rd/Papers/BC-2015-032-Foundations.pdf" >Foundations</a></span>. <span class="authors">Fromm, H. and Cardoso, J.</span>  <span class="in">In <a href="http://dx.doi.org/10.1007/978-3-319-23195-2" target="_blank">Fundamentals of Service Systems</a></span>, pages 1-32, <span class="publisher"><a href="http://dx.doi.org/10.1007/978-3-319-23195-2" target="_blank">Springer</a></span>, 2015.<span class="links"> [<a href="/rd/Papers/BC-2015-032-Foundations.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Foundations">gs</a>]</span>
 <span class="bibtexlink">[<a href="bibs/Hansjoerg2015_Foundations.bib">bib</a>]</span></li>
 
 <li><span class="title"><a href="/rd/Papers/BC-2015-033-Electronic_Services.pdf" >Electronic Services</a></span>. <span class="authors">Cardoso, J. and Fromm, H.</span>  <span class="in">In <a href="http://dx.doi.org/10.1007/978-3-319-23195-2" target="_blank">Fundamentals of Service Systems</a></span>, pages 33-74, <span class="publisher"><a href="http://dx.doi.org/10.1007/978-3-319-23195-2" target="_blank">Springer</a></span>, 2015.<span class="links"> [<a href="/rd/Papers/BC-2015-033-Electronic_Services.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Electronic Services">gs</a>]</span>
@@ -216,7 +219,7 @@ toc: true
 
 </ol></div><h2>In Proceedings<span class="dark"></span></h2>
 <div class="publication">
-<ol start="67"><li><span class="title"><a href="/rd/Papers/CP-2024-105_Investigating_Memory_Failure_Prediction_Acros_CPU_Architectures.pdf" >Investigating Memory Failure Prediction Across CPU Architectures</a></span>. <span class="authors">Yu, Q.; Zhang, W.; Zhou, Mi; Yu, J.; Sheng, Z.; Cardoso, J.; Bogatinovski, J. and Kao, O.</span>  <span class="in">In IEEE/IFIP International Conference on Dependable Systems and Network</span>, 2024.<span class="links"> [<a href="/rd/Papers/CP-2024-105_Investigating_Memory_Failure_Prediction_Acros_CPU_Architectures.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Investigating Memory Failure Prediction Across CPU Architectures">gs</a>]</span>
+<ol start="68"><li><span class="title"><a href="/rd/Papers/CP-2024-105_Investigating_Memory_Failure_Prediction_Acros_CPU_Architectures.pdf" >Investigating Memory Failure Prediction Across CPU Architectures</a></span>. <span class="authors">Yu, Q.; Zhang, W.; Zhou, Mi; Yu, J.; Sheng, Z.; Cardoso, J.; Bogatinovski, J. and Kao, O.</span>  <span class="in">In IEEE/IFIP International Conference on Dependable Systems and Network</span>, 2024.<span class="links"> [<a href="/rd/Papers/CP-2024-105_Investigating_Memory_Failure_Prediction_Acros_CPU_Architectures.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Investigating Memory Failure Prediction Across CPU Architectures">gs</a>]</span>
 <span class="bibtexlink">[<a href="bibs/Yu2024DSN.bib">bib</a>]</span></li>
 
 <li><span class="title"><a href="/rd/Papers/CP-2023-104_Enabling_Fine-Grained_Packet_Loss_Monitoring_in_Cloud_Networks.pdf" >Enabling Fine-Grained Packet Loss Monitoring in Cloud Networks</a></span>. <span class="authors">Bose,  R.; Sviridov,  G. and Cardoso,  J.</span>  <span class="in">In <a href="http://dx.doi.org/10.1109/GLOBECOM54140.2023.10436938" target="_blank">GLOBECOM 2023 - 2023 IEEE Global Communications Conference</a></span>, pages 6789-6794, 2023.<span class="links"> [<a href="/rd/Papers/CP-2023-104_Enabling_Fine-Grained_Packet_Loss_Monitoring_in_Cloud_Networks.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Enabling Fine-Grained Packet Loss Monitoring in Cloud Networks">gs</a>]</span>
@@ -548,7 +551,7 @@ toc: true
 
 </ol></div><h2>Books<span class="dark"></span></h2>
 <div class="publication">
-<ol start="177"><li><span class="title">Cloud Computing and Services Science</span>. <span class="authors">Helfert,  M.; Ferguson,  D.; Mendez Munoz,  V. and Cardoso,  J.</span>  <span class="publisher">Springer</span>, ISBN: 978-3-319-62594-2, 2017.<span class="links"> </span>
+<ol start="178"><li><span class="title">Cloud Computing and Services Science</span>. <span class="authors">Helfert,  M.; Ferguson,  D.; Mendez Munoz,  V. and Cardoso,  J.</span>  <span class="publisher">Springer</span>, ISBN: 978-3-319-62594-2, 2017.<span class="links"> </span>
 <span class="bibtexlink">[<a href="bibs/CloudCSS17.bib">bib</a>]</span></li>
 
 <li><span class="title">Software Technologies</span>. <span class="authors">Cabello,  E.; Cardoso,  J.; Ludwig,  A.; Maciaszek,  L.A. and van Sinderen,  M.</span>  <span class="publisher">Springer</span>, ISBN: 978-3-319-62569-0, 2017.<span class="links"> </span>
@@ -595,7 +598,7 @@ toc: true
 
 </ol></div><h2>Conference Proceedings<span class="dark"></span></h2>
 <div class="publication">
-<ol start="192"><li><span class="title">Proceedings of the 12th International Conference on Software Technologies</span>. <span class="authors">Cabello, E.; Cardoso, J.; Maciaszek, L. and Sinderen, M. va, ed.</span>  <span class="publisher">SCITEPRESS</span>, ISBN: 978-989-758-262-2, 2017.<span class="links"> </span>
+<ol start="193"><li><span class="title">Proceedings of the 12th International Conference on Software Technologies</span>. <span class="authors">Cabello, E.; Cardoso, J.; Maciaszek, L. and Sinderen, M. va, ed.</span>  <span class="publisher">SCITEPRESS</span>, ISBN: 978-989-758-262-2, 2017.<span class="links"> </span>
 <span class="bibtexlink">[<a href="bibs/ICSOFT17.bib">bib</a>]</span></li>
 
 <li><span class="title">Proceedings of the 11th International Joint Conference on Software Technologies, Volume 2: ICSOFT-PT</span>. <span class="authors">Ludwig, A.; Cabello, E.; Cardoso, J.; Maciaszek, L. and Sinderen, M. va, ed.</span>  <span class="publisher">SCITEPRESS</span>, ISBN: 978-989-758-194-6, 2016.<span class="links"> </span>
@@ -654,17 +657,17 @@ toc: true
 
 </ol></div><h2>PhD Theses<span class="dark"></span></h2>
 <div class="publication">
-<ol start="211"><li><span class="title"><a href="/rd/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf" >Quality of Service and Semantic Composition of Workflows</a></span>. <span class="authors">Cardoso,  J.</span>  Ph.D. Thesis, <span class="school">University of Georgia, Department of Computer Science</span>, Athens, GA, USA, 2002.<span class="links"> [<a href="/rd/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Quality of Service and Semantic Composition of Workflows">gs</a>]</span>
+<ol start="212"><li><span class="title"><a href="/rd/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf" >Quality of Service and Semantic Composition of Workflows</a></span>. <span class="authors">Cardoso,  J.</span>  Ph.D. Thesis, <span class="school">University of Georgia, Department of Computer Science</span>, Athens, GA, USA, 2002.<span class="links"> [<a href="/rd/Papers/OT-001-2002-Silva-Cardoso_Antonio_J_200208_PhD.pdf">pdf</a>, <a href="http://scholar.google.com/scholar?as_q=&num=10&as_sauthors=cardoso&as_epq=Quality of Service and Semantic Composition of Workflows">gs</a>]</span>
 <span class="bibtexlink">[<a href="bibs/Cardoso02PhD.bib">bib</a>]</span></li>
 
 </ol></div><h2>Master's Theses<span class="dark"></span></h2>
 <div class="publication">
-<ol start="212"><li><span class="title">Sistema Computorizado para a Automatizacao de Processos Organizacionais</span>. <span class="authors">Cardoso,  J.</span>  Master's Thesis, <span class="school">University of Coimbra, Department of Informatics Engineering</span>, Coimbra, Portugal, 1998.<span class="links"> </span>
+<ol start="213"><li><span class="title">Sistema Computorizado para a Automatizacao de Processos Organizacionais</span>. <span class="authors">Cardoso,  J.</span>  Master's Thesis, <span class="school">University of Coimbra, Department of Informatics Engineering</span>, Coimbra, Portugal, 1998.<span class="links"> </span>
 <span class="bibtexlink">[<a href="bibs/Cardoso98MSc.bib">bib</a>]</span></li>
 
 </ol></div><h2>Keynotes, invited talks, summer schools<span class="dark"></span></h2>
 <div class="publication">
-<ol start="213"><li><span class="title">Service Engineering for The Internet of Service</span>. <span class="authors">Cardoso,  J.</span>  Porto Salvo, Portugal, 2009.<span class="links"> </span>
+<ol start="214"><li><span class="title">Service Engineering for The Internet of Service</span>. <span class="authors">Cardoso,  J.</span>  Porto Salvo, Portugal, 2009.<span class="links"> </span>
 <span class="bibtexlink">[<a href="bibs/Cardoso09KeynoteIPBPM.bib">bib</a>]</span></li>
 
 <li><span class="title">Process Management and Integration with SAP</span>. <span class="authors">Cardoso,  J.</span>  Ciudad Real, Spain, 2008.<span class="links"> </span>

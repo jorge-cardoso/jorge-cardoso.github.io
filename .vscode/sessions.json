@@ -1,61 +1,61 @@
 {
     "$schema": "https://cdn.statically.io/gh/nguyenngoclongdev/cdn/main/schema/v11/terminal-keeper.json",
     "theme": "tribe",
-    "active": "Work",
+    "active": "default",
     "activateOnStartup": true,
     "keepExistingTerminals": false,
     "sessions": {
         "default": [
             {
-                "name": "Playground",
-                "autoExecuteCommands": true,
-                "icon": "globe",
-                "color": "terminal.ansiBrightBlue",
-                "commands": [
-                    "cd ~/Work/Playground",
-                    "source .venv/bin/activate"
-                ]
-            }
-        ],
-        "Work": [
-            {
-                "name": "Playground",
-                "autoExecuteCommands": true,
-                "icon": "globe",
-                "color": "terminal.ansiBrightBlue",
-                "commands": [
-                    "cd ~/Work/Playground",
-                    "source .venv/bin/activate"
-                ]
-            },
-            {
-                "name": "Kubernetes book",
-                "autoExecuteCommands": true,
-                "icon": "book",
-                "color": "terminal.ansiBrightYellow",
-                "commands": [
-                    "cd ~/Work/git/kubernetes",
-                    "source .venv/bin/activate"
-                ]
-            },
-            {
-                "name": "Interviews",
+                "name": "hello",
                 "autoExecuteCommands": true,
                 "icon": "person",
                 "color": "terminal.ansiGreen",
                 "commands": [
-                    "cd ~/Work/git/interviews"
+                    "echo hello"
+                ]
+            }
+        ],
+        "Book k8s": [
+            {
+                "name": "PoC FlowCause",
+                "icon": "terminal-cmd",
+                "color": "terminal.ansiGreen",     
+                "cwd": "/Users/jcardoso/Work/git/kubernetes/source/poc",
+                "commands": [
+                    "source /Users/jcardoso/Work/git/kubernetes/.venv/bin/activate",
+                    "pwd \r"
+                ]
+            },            
+            {
+                "name": "Sphinx",
+                "icon": "terminal-cmd",
+                "color": "terminal.ansiGreen",     
+                "cwd": "/Users/jcardoso/Work/git/kubernetes",
+                "commands": [
+                    "source /Users/jcardoso/Work/git/kubernetes/.venv/bin/activate \r"
                 ]
             },
             {
-                "name": "Website",
-                "autoExecuteCommands": true,
-                "icon": "globe",
-                "color": "terminal.ansiBrightBlue",
+                "name": "Browser",
+                "icon": "ports-open-browser-icon",
+                "color": "terminal.ansiYellow",     
+                "cwd": "/Users/jcardoso/Work/git/kubernetes",
                 "commands": [
-                    "cd ~/Work/git/jorge-cardoso.github.io"
+                    "echo https://code.visualstudio.com/api/references/icons-in-labels#icon-listing",
+                    "source /Users/jcardoso/Work/git/kubernetes/.venv/bin/activate",
+                    "open -a Google\\ Chrome /Users/jcardoso/Work/git/kubernetes/build/html/index.html ; echo \r"
                 ]
-            }
+            },
+            {
+                "name": "HUAWEI laptop",
+                "icon": "ports-open-browser-icon",
+                "color": "terminal.ansiYellow",     
+                "cwd": "/Users/jcardoso/Work/git/kubernetes",
+                "commands": [
+                    "ssh jcardoso@192.168.178.40 \r"
+                ]
+            }            
         ]
     }
 }
