@@ -11,6 +11,7 @@ image:
   thumb:
 ads: false
 toc: true
+share: false
 ---  
 
 

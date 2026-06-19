@@ -11,6 +11,7 @@ image:
   thumb:
 ads: false
 toc: true
+share: false
 ---
 <h2>Journal Articles<span class="dark"></span></h2>
 <div class="publication">

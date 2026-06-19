@@ -4,8 +4,9 @@ permalink: /
 title: 
 toc: true
 ads: false
-comments: true
+comments: false
 published: true
+share: false
 ---
 
 
@@ -80,9 +81,17 @@ If you are interested, you can look at how the various hyperscale providers (e.g
 
 Over the years, I designed and implemented various types of systems, including service systems, workflow systems, and distributed systems.
 As my expertise in each field grew, I authored a book for each area to solidify my understanding.
-Currently, I am working on a book about [Kubernetes Networking](https://jorge-cardoso.github.io/kubernetes/kubernetes/kubernetes.html#).
+Currently, 
 
 <div class="image-row">
+  <div class="image-column">
+    <figure>
+    <a href="https://jorge-cardoso.github.io/kubernetes/" class="book-link">
+      <img src="/images/Cover-Kubernetes-Networking.png" alt="Kubernetes Networking">
+      <figcaption>Kubernetes Networking</figcaption>
+      </a>
+    </figure>
+  </div>
   <div class="image-column">
     <figure>
       <img src="/images/Cover-FSS.jpg" alt="Service System" class="image-1">
@@ -104,8 +113,37 @@ Currently, I am working on a book about [Kubernetes Networking](https://jorge-ca
 </div>
 
 <style>
+/* Keeps the text style clean and prevents default link colors/underlines */
+  .book-link {
+    text-decoration: none;
+    color: inherit; /* Inherits the original text color of your site */
+    display: block; /* Ensures the link covers the whole image area */
+  }
+
+  /* Optional: Adds a subtle visual cue when someone hovers over the book */
+  .book-link:hover img {
+    opacity: 0.85;
+    transition: opacity 0.2s ease-in-out;
+  }
+
+  /* 2. This highlights the text when the book is hovered */
+  .book-link:hover figcaption {
+    color: #007696;             /* Swap this hex code for any color you like */
+    text-decoration: underline;  /* Keeps the underline decoration active on hover */
+    transition: color 0.2s ease-in-out;
+  }
+
+  .image-column img {
+      border: 1px solid #ccc;    /* Thin, neutral gray border */
+      display: block;            /* Prevents a tiny gap between the image and caption */
+      width: 100%;               /* Makes sure the image fills the 18% column width */
+      height: 160px;              /* Maintains correct aspect ratio */
+      object-fit: cover;
+      box-sizing: border-box;    /* Ensures the border doesn't push the image out of alignment */
+    }
+
   .image-1 {
-    width: 92%; /* Adjust size of the first image */
+    width: 99% !important;   /* Keeps your specific adjustment for the first image */
   }
   .image-row {
     display: flex;
@@ -118,8 +156,8 @@ Currently, I am working on a book about [Kubernetes Networking](https://jorge-ca
     flex: 1; /* Distribute the space evenly */
     padding: 0px; /* Optional: Add padding around each column */
     /* display: block;  Ensure no extra space around the image */
-    max-width: 15%; /* Adjust this percentage to control the image size */
-    margin-right: 175px; /* Increase space between columns */
+    max-width: 18%; /* Adjust this percentage to control the image size */
+    margin-right: 125px; /* Increase space between columns */
   }
 </style>
 

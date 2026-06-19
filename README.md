@@ -6,6 +6,7 @@ Web site for Jorge Cardoso.
 Run ``bundle exec jekyll serve`` to start a Jekyll server for local development,
 allowing a preview of the site locally before deploying it. 
 
+
 Steps to Run ``bundle exec jekyll serve``
 -----------------------------------------
 

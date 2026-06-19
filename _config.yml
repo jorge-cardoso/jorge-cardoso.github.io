@@ -22,7 +22,7 @@ plugins:
 # Jorge Cardoso: 2020.06.01
 # Leave shortname blank to disable comments site-wide.
 # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-disqus-shortname: jorge-cardoso
+# disqus-shortname: jorge-cardoso
 
 # Site owner
 owner:
